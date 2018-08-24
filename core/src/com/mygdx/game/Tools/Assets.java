@@ -4,12 +4,15 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.audio.Music;
 import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
+import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
 import com.badlogic.gdx.utils.Array;
+import com.mygdx.game.MyGame;
 
 
 public class Assets {
@@ -41,9 +44,14 @@ public class Assets {
     public static Label.LabelStyle souses22;
     public static Label.LabelStyle souses45;
 
+    public static Image background;
+
     public static void load() {
 
         // Load Textures
+
+        background = new Image(new Texture("bg.png"));
+        background.setSize(MyGame.WIDTH,MyGame.HEIGHT);
 
         itemsAtlas = new TextureAtlas(Gdx.files.internal("balloons.pack"));
 
@@ -74,6 +82,7 @@ public class Assets {
         music.setLooping(true);
         music.setVolume(0.5f);
 
+        clickSound = Gdx.audio.newSound(Gdx.files.internal("selectionclick.mp3"));
     }
 
     public static void playSound(Sound sound) {

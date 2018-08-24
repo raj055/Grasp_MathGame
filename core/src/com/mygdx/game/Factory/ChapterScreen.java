@@ -41,8 +41,6 @@ import static com.mygdx.game.Enum.Chapters.CHAPTER_8;
 
 public abstract class ChapterScreen {
 
-  private ReadConfiguration readFileConfiguration;
-
   protected Stage stage;
   ArrayList<Image> displayImages;
   ArrayList<Image> displayBallList;
@@ -67,9 +65,9 @@ public abstract class ChapterScreen {
   GlobalsCommonCount gblVar;
   Image bg;
 
-  private Dialog dialog;
   private int xPosAdditionFactor = 0;
   static int stepNumber = 0;
+
 
   ChapterScreen(){
 
@@ -85,14 +83,10 @@ public abstract class ChapterScreen {
 
     //Assign the map to the related result
     Map classArray = (Map)result.get(0);
-    Object obj;
     Map screenMap = null;
     Map displaysTotal;
-    List screenArray;
-    chapterName = new String();
 
     //Initiate stage
-    SpriteBatch spBatch;
     MoveToAction action = new MoveToAction();
     action.setPosition(-400, 0);         // somewhere off screen
     action.setDuration(0.5f);
@@ -285,7 +279,8 @@ public abstract class ChapterScreen {
   }
 
   public String getChapterName(){
-    String chapterName = new String();
+    String chapterName;
+
     if(GameStates.chapterNumber == CHAPTER_1) {
       chapterName = "Chapter1";
     }
@@ -318,7 +313,7 @@ public abstract class ChapterScreen {
 
   public String getLevelName(){
 
-    String levelName = new String();
+    String levelName;
     switch (GameStates.levelNumber)
     {
       case LEVEL1:
@@ -439,8 +434,7 @@ public abstract class ChapterScreen {
       stage.addActor(img);
     }
     for(Image pbar : displayObjects) {
-      if(((String) pbar.getName()).contains("PauseBttn"))
-        pbar.addListener(clkPause);
+//        pbar.addListener(clkPause);
     }
   }
 
@@ -455,6 +449,7 @@ public abstract class ChapterScreen {
 
     //initialise the array list for the labels.
 //    draggable = new ArrayList<Image>(totalDraggables);
+
     draggableNames = new ArrayList<String>(totalDraggables);
 
     while (iterator.hasNext()) {
@@ -513,7 +508,8 @@ public abstract class ChapterScreen {
 
     if(scrollingData == null)
       return;
-    int totalscrolled = scrollingData.size();
+
+    scrollingData.size();
 
     Set set = scrollingData.entrySet();
     Iterator iterator = set.iterator();
@@ -607,47 +603,9 @@ public abstract class ChapterScreen {
   ClickListener clkPause =  new ClickListener() {
     @Override
     public void clicked(InputEvent event, float x, float y) {
-      Skin skin = new Skin(Gdx.files.internal("skin/uiskin.json"));
-      dialog = new Dialog("Pause",skin);
-      dialog.setSize(200,200);
-      dialog.setPosition(Gdx.graphics.getWidth()/2-100, Gdx.graphics.getHeight()/2-100);
-
-      Image level = new Image(new Texture("data/levelsel.png"));
-      level.setSize(20,20);
-      level.addListener(new ClickListener(){
-        @Override
-        public void clicked(InputEvent event, float x, float y) {
-          GameStates.screenStates = ScreenStates.LEVELSCREEN;
-          if (Settings.musicEnabled) Assets.music.stop();
-        }
-      });
-
-      Image play = new Image(new Texture("data/play.png"));
-      play.setSize(20,20);
-      play.addListener(new ClickListener(){
-        @Override
-        public void clicked(InputEvent event, float x, float y) {
-          dialog.remove();
-        }
-      });
-
-      Image replay = new Image(new Texture("data/rep.png"));
-      replay.setSize(20,20);
-      replay.addListener(new ClickListener(){
-        @Override
-        public void clicked(InputEvent event, float x, float y) {
-          GameStates.screenStates = ScreenStates.STEPS;
-          if (Settings.musicEnabled) Assets.music.stop();
-        }
-      });
-
-      dialog.getContentTable().defaults().pad(10);
-      dialog.getContentTable().add(level);
-      dialog.getContentTable().add(play);
-      dialog.getContentTable().add(replay);
-
-      stage.addActor(dialog);
-
+      Assets.playSound(Assets.clickSound);
+      if (Settings.musicEnabled) Assets.music.stop();
+      GameStates.screenStates = ScreenStates.DIALOGBOX;
       gblVar.clear();
     }
   };

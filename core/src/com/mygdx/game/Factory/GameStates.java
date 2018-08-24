@@ -1,14 +1,17 @@
 package com.mygdx.game.Factory;
 
+import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 import com.mygdx.game.Enum.Chapters;
 import com.mygdx.game.Enum.Levels;
 import com.mygdx.game.Enum.ScreenStates;
 import com.mygdx.game.Enum.Steps;
 import com.mygdx.game.MyGame;
-import com.mygdx.game.Screens.GameOverScreen;
+import com.mygdx.game.Screens.DialogScreen;
 import com.mygdx.game.Screens.LoginScreen;
 import com.mygdx.game.Screens.MainScreen;
+import com.mygdx.game.Screens.RegisterScreen;
+import com.mygdx.game.Tools.Assets;
 
 
 /**
@@ -31,6 +34,10 @@ public class GameStates {
 
   //current screen to be shown
   Screen currentScreen;
+
+  float elapsed_time;
+
+  DialogScreen dialogScreen;
 
   public GameStates(MyGame game){
 
@@ -60,20 +67,30 @@ public class GameStates {
       case LOGINSCREEN:
         currentScreen = new LoginScreen(ScreenStates.LOGINSCREEN);
         break;
+      case REGISTERSCREEN:
+        currentScreen = new RegisterScreen(ScreenStates.REGISTERSCREEN);
+        break;
       case MENUSCREEN:
         currentScreen = new MainScreen(ScreenStates.MENUSCREEN);
         break;
       case LEVELSCREEN:
+        Assets.playSound(Assets.clickSound);
         currentScreen = new MainScreen(ScreenStates.LEVELSCREEN);
         break;
       //Addition case for testing purpose
       case STEPS:
-        currentScreen = new MainScreen(ScreenStates.STEPS);
+        Assets.playSound(Assets.clickSound);
+//        currentScreen = new MainScreen(ScreenStates.STEPS);
         break;
-      case GAMEOVER:
-        currentScreen = new GameOverScreen(ScreenStates.GAMEOVER);
+      case DIALOGBOX:
+
+        currentScreen = new DialogScreen();
+
+        currentScreen.show();
+
         break;
       case PLAYSCREEN:
+        Assets.playSound(Assets.clickSound);
         currentScreen = GetScreen.getCurrentScreen();
         break;
       default:

@@ -18,7 +18,7 @@ public class GetScreen {
     //Get the string of chapter name
     String chapterName = new String();
 
-    if (Settings.musicEnabled) Assets.music.play();
+//    if (Settings.musicEnabled) Assets.music.play();
 
     //Check the chapter number
     if(GameStates.chapterNumber == Chapters.CHAPTER_1){

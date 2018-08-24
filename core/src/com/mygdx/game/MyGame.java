@@ -6,7 +6,9 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.mygdx.game.Enum.ScreenStates;
 import com.mygdx.game.Factory.GameStates;
+import com.mygdx.game.Screens.DialogScreen;
 import com.mygdx.game.Tools.Assets;
 import com.mygdx.game.Tools.Settings;
 
@@ -16,8 +18,6 @@ public class MyGame extends Game {
 	public static final int WIDTH = 400;
 	public static final int HEIGHT = 700;
 
-//	private SpriteBatch batch;
-
 	private GameStates gameStates;
 
 	@Override
@@ -26,12 +26,13 @@ public class MyGame extends Game {
 		Settings.load();
 
 		gameStates = new GameStates(this);
+
 	}
 
 	@Override
 	public void render () {
-		super.render();
 		gameStates.render();
+		super.render();
 	}
 
 	@Override

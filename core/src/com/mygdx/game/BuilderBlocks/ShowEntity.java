@@ -23,7 +23,7 @@ public abstract class ShowEntity implements Subscriber {
 
   }
 
-  //Update Progress Bar
+    //Update Progress Bar
   void updateProgressBar(int value) {
     if(progressBar != null){
 

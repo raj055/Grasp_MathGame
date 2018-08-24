@@ -19,12 +19,15 @@ public class ScrollingNumber implements Disposable {
 
     private GlobalsCommonCount gblVar;
 
+    public ArrayList<ScrollingImageClick> scrollingNumber;
+
     public ScrollingNumber(){
 
         gblVar = GlobalsCommonCount.getInstance();
 
         numbers = new ArrayList<Image>();
 
+        scrollingNumber = new ArrayList<ScrollingImageClick>();
     }
 
     public void scrolling(ArrayList<Image> imagescrolling){
@@ -32,26 +35,20 @@ public class ScrollingNumber implements Disposable {
         int posX = 10;
         int posY;
         int totalNumbers = imagescrolling.size();
+
         for(int numCount = 0; numCount < totalNumbers; numCount++)
         {
+            ScrollingImageClick scrollingImageClick = new ScrollingImageClick(Events.CLICK_NUMBER);
+
             final Image img = (imagescrolling.get(numCount));
 
-            final int count = numCount;
+            scrollingImageClick.setCount(numCount);
 
             posY = 700 + gblVar.posYNum[numCount];
             img.setPosition(posX,posY);
             posX += 40;
 
-            img.addListener(new ClickListener(){
-                @Override
-                public void touchUp(InputEvent event, float x, float y, int pointer, int button) {
-
-                    Gdx.app.log("click 1","First" + gblVar.countClick++);
-
-                    gblVar.lableUpdate = count;
-                    gblVar.lableWrite = true;
-                }
-            });
+            img.addListener(scrollingImageClick);
 
             numbers.add(img);
         }

@@ -51,17 +51,18 @@ public class ChapterVariables {
     public int RBallPosX;
     public int RBallPosY;
   }
-  public class Chapter2Variables{
+  public static class Chapter2Variables {
+
+    //Chapter 2 Variables
+    public int ValueOfScore = 0;
+    public int line1 = 0;
+    public int line2 = 0;
+    public int line3 = 0;
 
   }
   public class Chapter3Variables{
     //Chapter 3 Variables
-    public int ValueOfB = 0;
-    public int ValueOfScore = 0;
-    public int TargetValue = 0;
-    public int ValueOfA = 0;
-
-
+    public int LabelAns = 0;
   }
   public class Chapter4Variables{
     //Chapter 4 Variables

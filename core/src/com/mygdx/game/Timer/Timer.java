@@ -59,6 +59,7 @@ public class Timer implements Disposable {
     if(timeCount >= 1){
       if (worldTimer > 0) {
         worldTimer--;
+//        timeUp = false;
       } else {
         timeUp = true;
       }

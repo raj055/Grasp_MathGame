@@ -18,6 +18,7 @@ import com.mygdx.game.Enum.Steps;
 import com.mygdx.game.Factory.GameStates;
 import com.mygdx.game.Global.GlobalsCommonCount;
 import com.mygdx.game.MyGame;
+import com.mygdx.game.Tools.Assets;
 
 /**
  * Created by HP on 12-01-2018.
@@ -72,6 +73,7 @@ public class MainScreen implements Screen {
     imgback.addListener(new ClickListener(){
       @Override
       public void clicked(InputEvent event, float x, float y) {
+        Assets.playSound(Assets.clickSound);
         GameStates.screenStates = ScreenStates.MENUSCREEN;
       }
     });
@@ -106,9 +108,12 @@ public class MainScreen implements Screen {
              }
              levelCount++;
            }
-           GameStates.screenStates = ScreenStates.STEPS;
+           GameStates.steps = Steps.STEP_1;
+           GameStates.screenStates = ScreenStates.PLAYSCREEN;
          }
-        else if(screenState == ScreenStates.STEPS) {
+
+         //TODO step
+      /*  else if(screenState == ScreenStates.STEPS) {
            int stepsCount = 0;
            for(Steps steps: Steps.values()) {
              if (teststr.contains(glCmmCnt.StepName[stepsCount])) {
@@ -118,7 +123,7 @@ public class MainScreen implements Screen {
              stepsCount++;
            }
            GameStates.screenStates = ScreenStates.PLAYSCREEN;
-         }
+         }*/
       }
     };
     int countLevels = 0;

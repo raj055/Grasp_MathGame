@@ -26,6 +26,6 @@ public class OnClickCallBack extends ClickListener {
         notifier.PostEvents(notifyEvent);
 
         //Log the event
-        Gdx.app.log("POST EVETN",notifyEvent.toString());
+        Gdx.app.log("POST EVENT",notifyEvent.toString());
     }
 }

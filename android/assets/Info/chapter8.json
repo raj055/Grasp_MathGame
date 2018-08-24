@@ -170,7 +170,7 @@
                 120,
                 135
               ],
-              "Visible": false
+              "Visible": true
             },
             "Line2Image": {
               "Image": "data_ch8/line.png",
@@ -179,10 +179,10 @@
                 5
               ],
               "Position": [
-                80,
+                320,
                 135
               ],
-              "Visible": false
+              "Visible": true
             },
             "Line3Image": {
               "Image": "data_ch8/line.png",
@@ -194,7 +194,7 @@
                 230,
                 240
               ],
-              "Visible": false
+              "Visible": true
             },
             "NextImage": {
               "Image": "data/next.png",

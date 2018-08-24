@@ -5,7 +5,7 @@
         "Step1":{
           "Displays": {
             "targetBall": {
-              "Image": "data_ch1/square_1.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 300,
                 400
@@ -18,7 +18,7 @@
 
             },
             "displayBall": {
-              "Image": "data/ball_2.png",
+              "Image": "data1/asset_ball1.png",
               "Size": [
                 280,
                 50
@@ -30,7 +30,7 @@
               "Visible": false
             },
             "displayBall1": {
-              "Image": "data/ball_2.png",
+              "Image": "data1/asset_ball1.png",
               "Size": [
                 280,
                 50
@@ -42,7 +42,7 @@
               "Visible": false
             },
             "displayBall2": {
-              "Image": "data/ball_2.png",
+              "Image": "data1/asset_ball1.png",
               "Size": [
                 280,
                 50
@@ -54,7 +54,7 @@
               "Visible": false
             },
             "displayBall3": {
-              "Image": "data/ball_2.png",
+              "Image": "data1/asset_ball1.png",
               "Size": [
                 280,
                 50
@@ -66,7 +66,7 @@
               "Visible": false
             },
             "displayBall4": {
-              "Image": "data/ball_2.png",
+              "Image": "data1/asset_ball1.png",
               "Size": [
                 280,
                 50
@@ -78,7 +78,7 @@
               "Visible": false
             },
             "displayBall5": {
-              "Image": "data/ball_2.png",
+              "Image": "data1/asset_ball1.png",
               "Size": [
                 280,
                 50
@@ -90,7 +90,7 @@
               "Visible": false
             },
             "displayBall6": {
-              "Image": "data/ball_2.png",
+              "Image": "data1/asset_ball1.png",
               "Size": [
                 280,
                 50
@@ -102,7 +102,7 @@
               "Visible": false
             },
             "progBar": {
-              "Image": "data_ch1/scall_1.png",
+              "Image": "data1/asset_progressbar.png",
               "Size": [
                 30,
                 300
@@ -114,7 +114,7 @@
               "Visible": true
             },
             "progBar1": {
-              "Image": "data_ch1/scall_2.png",
+              "Image": "data1/asset_progressbarup.png",
               "Size": [
                 30,
                 300
@@ -126,61 +126,61 @@
               "Visible": false
             },
             "backgndA":{
-              "Image": "data/back1.png",
+              "Image": "data1/asset3.png",
               "Size": [
-                80,
-                30
+                110,
+                60
               ],
               "Position": [
-                100,
-                35
+                15,
+                105
               ],
               "Visible": true
 
             },
             "backgndB":{
-              "Image": "data/back1.png",
+              "Image": "data1/asset3.png",
               "Size": [
-                80,
-                30
+                100,
+                50
               ],
               "Position": [
-                8,
-                35
+                120,
+                100
               ],
               "Visible": true
 
             },
             "backgndEqu":{
-              "Image": "data/back1.png",
+              "Image": "data1/asset3.png",
               "Size": [
-                110,
-                40
+                140,
+                60
               ],
               "Position": [
-                8,
-                110
+                10,
+                155
               ],
               "Visible": true
 
             },
             "backgndScore":{
-              "Image": "data/back1.png",
+              "Image": "data1/asset1.png",
               "Size": [
-                80,
-                40
+                200,
+                70
               ],
               "Position": [
-                315,
-                210
+                180,
+                5
               ],
               "Visible": true
 
             },
             "bgSquare":{
-              "Image": "data_ch1/square_target.png",
+              "Image": "data1/asset_target.png",
               "Size": [
-                70,
+                120,
                 60
               ],
               "Position": [
@@ -191,49 +191,49 @@
 
             },
             "bgTarget":{
-              "Image": "data/back1.png",
-              "Size": [
-                150,
-                40
-              ],
-              "Position": [
-                180,
-                700
-              ],
-              "Visible": true
-            },
-            "bgRoundSquare":{
-              "Image": "data_ch1/square_rounded.png",
+              "Image": "data1/asset18.png",
               "Size": [
                 60,
                 60
               ],
               "Position": [
                 330,
-                700
+                80
+              ],
+              "Visible": true
+            },
+            "bgRoundSquare":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                200,
+                70
+              ],
+              "Position": [
+                180,
+                5
               ],
               "Visible": true
             },
             "SubmitBttn":{
-              "Image": "data_ch1/button.png",
+              "Image": "data1/asset_submit.png",
               "Size": [
-                160,
-                60
+                200,
+                80
               ],
               "Position": [
-                10,
-                700
+                410,
+                5
               ],
               "Visible": true
             },
             "PauseBttn":{
-              "Image": "data/pause.png",
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
               "Visible": true
@@ -241,21 +241,21 @@
           },
           "Draggable": {
             "DragBall":{
-              "Image": "data/ball_1.png",
+              "Image": "data1/ball.png",
               "Size": [
-                50,
-                50
+                70,
+                70
               ],
               "Position": [
-                150,
-                100
+                220,
+                150
               ],
               "Touchable": true,
-              "Total":5,
+              "Total":1,
               "DragListener": "dragBallListener"
             },
             "RemBall":{
-              "Image": "data/ball_1.png",
+              "Image": "data1/asset_ball.png",
               "Size": [
                 50,
                 50
@@ -273,23 +273,23 @@
             "Score2": {
               "Text" :"0",
               "Size": [
-                20,
-                20
+                15,
+                15
               ],
               "Position": [
-                50,
-                100
+                70,
+                130
               ]
             },
             "Score4": {
               "Text" :"0",
               "Size": [
-                20,
-                20
+                15,
+                15
               ],
               "Position": [
-                90,
-                100
+                110,
+                130
               ]
             },
             "TargetScore": {
@@ -330,58 +330,48 @@
           },
           "TextLabel":{
             "LabelA": {
+              "Font" : "fonts/gamebird.fnt",
               "Text" :"A = 12",
               "Size": [
-                20,
-                20
+                15,
+                15
               ],
               "Position": [
-                10,
-                30
+                30,
+                80
               ]
             },
             "LabelB": {
               "Text" :"B = 5",
               "Size": [
-                20,
-                20
+                15,
+                15
               ],
               "Position": [
-                100,
-                30
+                140,
+                80
               ]
             },
             "Score1": {
               "Text" :"B *",
               "Size": [
-                20,
-                20
+                15,
+                15
               ],
               "Position": [
-                20,
-                100
+                30,
+                130
               ]
             },
             "Score3": {
               "Text" :"+",
               "Size": [
-                20,
-                20
+                15,
+                15
               ],
               "Position": [
-                70,
-                100
-              ]
-            },
-            "Target": {
-              "Text" :"Target",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                320,
-                200
+                90,
+                130
               ]
             },
             "YourScore": {

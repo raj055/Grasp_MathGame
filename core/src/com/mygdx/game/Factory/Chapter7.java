@@ -3,10 +3,12 @@ package com.mygdx.game.Factory;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL20;
-import com.badlogic.gdx.scenes.scene2d.InputEvent;
+import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.DragListener;
-import com.mygdx.game.Enum.ScreenStates;
+import com.mygdx.game.BuilderBlocks.Events;
+import com.mygdx.game.ChapterClass.Ch7CoordinateGeometry.DragLabelCh7;
+import com.mygdx.game.ChapterClass.Ch7CoordinateGeometry.VisebalComponentsCh7;
 import com.mygdx.game.Global.GlobalsCommonCount;
 import com.mygdx.game.Timer.Timer;
 
@@ -19,6 +21,12 @@ import java.util.ArrayList;
 public class Chapter7 extends ChapterScreen implements Screen {
 
   private Timer time;
+
+  ArrayList<Image> DragComponent;
+  ArrayList<Image> VisebalComponent;
+
+  DragLabelCh7 dragLabelCh7;
+  VisebalComponentsCh7 visebalComponentsCh7;
 
   // component of level_1
   private Label synlabel,synlabel1,synlabel2,synlabel3;
@@ -43,72 +51,56 @@ public class Chapter7 extends ChapterScreen implements Screen {
   ArrayList<DragListener> listeners;
   boolean moveTheBg = false;
 
-  @Override
-  public void show() {
-  }
   Chapter7(){
     super();
 
     time = new Timer();
 
+    dragLabelCh7 = new DragLabelCh7(Events.DRAG_LABEL);
+    visebalComponentsCh7 = new VisebalComponentsCh7(VisebalComponent);
+
     glv = GlobalsCommonCount.getInstance();
 
     getLevelName();
-    initialiseDragListeners(currentLevelNumber);
+
     initialiseLevelComponents(currentLevelNumber);
 
   }
+  @Override
+  public void show() {}
+
   public void update(float dt){
     time.update(dt);
   }
+
   @Override
   public void render(float delta) {
     renderLists[currentLevelNumber].renderL(delta);
   }
 
   @Override
-  public void resize(int width, int height) {
-
-  }
+  public void resize(int width, int height) {}
 
   @Override
-  public void pause() {
-
-  }
+  public void pause() {}
 
   @Override
-  public void resume() {
-
-  }
+  public void resume() { }
 
   @Override
-  public void hide() {
-
-  }
+  public void hide() {}
 
   @Override
   public void dispose() {
     stage.dispose();
   }
 
-  DragListener drgListener = new DragListener(){
-    @Override
-    public void drag(InputEvent event, float x, float y, int pointer) {
-      super.drag(event, x, y, pointer);
-    }
-
-    @Override
-    public void dragStop(InputEvent event, float x, float y, int pointer) {
-      super.dragStop(event, x, y, pointer);
-    }
-  };
-
   void defineLevel1To5Components() {
     //check if the updatables are present
     if (updatables == null)
         return;
 
-    int totalObjects = updatables.size();
+    updatables.size();
     for (Label updatable : updatables){
       String str = updatable.getName();
 
@@ -143,7 +135,7 @@ public class Chapter7 extends ChapterScreen implements Screen {
     if (updatables == null)
       return;
 
-    int totalObjects = updatables.size();
+    updatables.size();
     for (Label updatable : updatables){
       String str = updatable.getName();
 
@@ -178,7 +170,7 @@ public class Chapter7 extends ChapterScreen implements Screen {
     if (updatables == null)
       return;
 
-    int totalObjects = updatables.size();
+    updatables.size();
     for (Label updatable : updatables){
       String str = updatable.getName();
 
@@ -285,40 +277,6 @@ public class Chapter7 extends ChapterScreen implements Screen {
     levelInitialisations[index].initialise();
   }
 
-  interface DragListnerList {
-    void allotDragListener();
-  }
-
-  private DragListnerList[] dragListnerLists = (DragListnerList[]) new DragListnerList[] {
-          new  DragListnerList() {
-            public void allotDragListener() { addLevel1DraggableListeners(); } },
-          new DragListnerList() { public void allotDragListener() { addLevel1DraggableListeners(); } },
-          new DragListnerList() { public void allotDragListener() { addLevel1DraggableListeners(); } },
-          new DragListnerList() { public void allotDragListener() { addLevel1DraggableListeners(); } },
-          new DragListnerList() { public void allotDragListener() { addLevel1DraggableListeners(); } },
-          new DragListnerList() { public void allotDragListener() { addLevel1DraggableListeners(); } },
-          new DragListnerList() { public void allotDragListener() { addLevel1DraggableListeners(); } },
-          new DragListnerList() { public void allotDragListener() { addLevel1DraggableListeners(); } },
-          new DragListnerList() { public void allotDragListener() { addLevel1DraggableListeners(); } },
-          new DragListnerList() { public void allotDragListener() { addLevel1DraggableListeners(); } },
-          new DragListnerList() { public void allotDragListener() { addLevel1DraggableListeners(); } },
-          new DragListnerList() { public void allotDragListener() { addLevel1DraggableListeners(); } },
-          new DragListnerList() { public void allotDragListener() { addLevel1DraggableListeners(); } },
-          new DragListnerList() { public void allotDragListener() { addLevel1DraggableListeners(); } },
-          new DragListnerList() { public void allotDragListener() { addLevel1DraggableListeners(); } }
-  };
-
-  public void initialiseDragListeners(int index) {
-    dragListnerLists[index].allotDragListener();
-  }
-
-  private void addLevel1DraggableListeners(){
-    //initialise the array of drag listeners
-    int indexOfListener = 0;
-    listeners = new ArrayList<DragListener>();
-    listeners.add(indexOfListener++, drgListener);
-  }
-
   interface RenderLevel {
     void renderL(float delta);
   }
@@ -349,7 +307,7 @@ public class Chapter7 extends ChapterScreen implements Screen {
     update(delta);
 
     if (time.isTimeUp()){
-      GameStates.screenStates = ScreenStates.GAMEOVER;
+//      GameStates.screenStates = ScreenStates.DIALOGBOX;
     }
 
     stage.draw();
@@ -360,7 +318,7 @@ public class Chapter7 extends ChapterScreen implements Screen {
     update(delta);
 
     if (time.isTimeUp()){
-      GameStates.screenStates = ScreenStates.GAMEOVER;
+//      GameStates.screenStates = ScreenStates.DIALOGBOX;
     }
 
     stage.draw();
@@ -380,7 +338,7 @@ public class Chapter7 extends ChapterScreen implements Screen {
     time.update(deltaTime);
 
     if (time.isTimeUp()){
-      GameStates.screenStates = ScreenStates.GAMEOVER;
+//      GameStates.screenStates = ScreenStates.DIALOGBOX;
     }
 
     stage.draw();

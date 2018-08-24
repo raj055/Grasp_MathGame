@@ -1,0 +1,117 @@
+birdattacks.png
+size: 3400, 2375
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+frame_black
+  rotate: false
+  xy: 0, 0
+  size: 850, 604
+  orig: 850, 604
+  offset: 0, 0
+  index: -1
+frame_black
+  rotate: false
+  xy: 850, 0
+  size: 850, 604
+  orig: 850, 604
+  offset: 0, 0
+  index: -1
+frame_black
+  rotate: false
+  xy: 1700, 0
+  size: 850, 604
+  orig: 850, 604
+  offset: 0, 0
+  index: -1
+frame_black
+  rotate: false
+  xy: 2550, 0
+  size: 850, 604
+  orig: 850, 604
+  offset: 0, 0
+  index: -1
+frame_black
+  rotate: false
+  xy: 0, 604
+  size: 849, 611
+  orig: 849, 611
+  offset: 0, 0
+  index: -1
+frame_black
+  rotate: false
+  xy: 849, 604
+  size: 849, 611
+  orig: 849, 611
+  offset: 0, 0
+  index: -1
+frame_black
+  rotate: false
+  xy: 1698, 604
+  size: 849, 611
+  orig: 849, 611
+  offset: 0, 0
+  index: -1
+frame_black
+  rotate: false
+  xy: 2547, 604
+  size: 849, 611
+  orig: 849, 611
+  offset: 0, 0
+  index: -1
+frame_black
+  rotate: false
+  xy: 0, 1215
+  size: 843, 580
+  orig: 843, 580
+  offset: 0, 0
+  index: -1
+frame_black
+  rotate: false
+  xy: 843, 1215
+  size: 843, 580
+  orig: 843, 580
+  offset: 0, 0
+  index: -1
+frame_black
+  rotate: false
+  xy: 1686, 1215
+  size: 843, 580
+  orig: 843, 580
+  offset: 0, 0
+  index: -1
+frame_black
+  rotate: false
+  xy: 2529, 1215
+  size: 843, 580
+  orig: 843, 580
+  offset: 0, 0
+  index: -1
+frame_black
+  rotate: false
+  xy: 0, 1795
+  size: 844, 580
+  orig: 844, 580
+  offset: 0, 0
+  index: -1
+frame_black
+  rotate: false
+  xy: 844, 1795
+  size: 844, 580
+  orig: 844, 580
+  offset: 0, 0
+  index: -1
+frame_black
+  rotate: false
+  xy: 1688, 1795
+  size: 844, 580
+  orig: 844, 580
+  offset: 0, 0
+  index: -1
+frame_black
+  rotate: false
+  xy: 2532, 1795
+  size: 844, 580
+  orig: 844, 580
+  offset: 0, 0
+  index: -1
