@@ -133,7 +133,7 @@ public abstract class ChapterScreen {
             xPosAdditionFactor += 400;
             if(xPosAdditionFactor > 800)
               xPosAdditionFactor = 0;
-//            if(stepNumber >=3)
+
 //              break;
           }
 //        }
