@@ -10,7 +10,7 @@ import com.mygdx.game.BuilderBlocks.ScrollingNumber;
 import com.mygdx.game.ChapterClass.Ch6Triangles.DoubleClickLabelCh6;
 import com.mygdx.game.ChapterClass.Ch6Triangles.DragShapeCh6;
 import com.mygdx.game.ChapterClass.Ch6Triangles.UpdateImageCh6;
-import com.mygdx.game.ChapterClass.Ch6Triangles.UpdateLabelCh6;
+//import com.mygdx.game.ChapterClass.Ch6Triangles.UpdateLabelCh6;
 import com.mygdx.game.ChapterClass.Ch6Triangles.VisebalComponentsCh6;
 import com.mygdx.game.Component.Numberch6;
 import com.mygdx.game.Global.GlobalsCommonCount;
@@ -56,7 +56,7 @@ public class Chapter6 extends ChapterScreen implements Screen {
   DoubleClickLabelCh6 doubleClickLabelAC, Click_imgVlu1, Click_imgVlu5, Click_imgVlu7, Click_imgVlu4,
    Click_imgVlu8, Click_imgVlu2, Click_imgVlu, Click_imgVlu6, Click_imgVlu9_2, Click_imgVlu9, Click_imgVlu3;
 
-  UpdateLabelCh6 updateLabelCh6;
+//  UpdateLabelCh6 updateLabelCh6;
   UpdateImageCh6 updateImageCh6;
 
   Chapter6(){
@@ -69,7 +69,7 @@ public class Chapter6 extends ChapterScreen implements Screen {
     dragShapeCh6 = new DragShapeCh6(Events.DRAG_SHAPE);
     visebalComponentsCh6 = new VisebalComponentsCh6(VisebalComponent);
 
-    Click_imgVlu = new DoubleClickLabelCh6(Events.DOUBLE_CLICK_IMG);
+    Click_imgVlu  = new DoubleClickLabelCh6(Events.DOUBLE_CLICK_IMG);
     Click_imgVlu1 = new DoubleClickLabelCh6(Events.DOUBLE_CLICK_IMG1);
     Click_imgVlu2 = new DoubleClickLabelCh6(Events.DOUBLE_CLICK_IMG2);
     Click_imgVlu3 = new DoubleClickLabelCh6(Events.DOUBLE_CLICK_IMG3);
@@ -189,7 +189,7 @@ public class Chapter6 extends ChapterScreen implements Screen {
       stage.addActor(numberI);
     }
 
-    updateLabelCh6 = new UpdateLabelCh6(LableChange);
+//    updateLabelCh6 = new UpdateLabelCh6(LableChange);
   }
   void defineLevel11To15Components() {
 

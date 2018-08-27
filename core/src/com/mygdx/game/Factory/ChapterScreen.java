@@ -42,8 +42,10 @@ import static com.mygdx.game.Enum.Chapters.CHAPTER_8;
 public abstract class ChapterScreen {
 
   protected Stage stage;
+  Map displaysTotal;
   ArrayList<Image> displayImages;
   ArrayList<Image> displayBallList;
+  ArrayList<Label> buttonsList;
   ArrayList<Image> draggable;
   ArrayList<Label> updatables;
   ArrayList<Label> textLabels;
@@ -84,7 +86,7 @@ public abstract class ChapterScreen {
     //Assign the map to the related result
     Map classArray = (Map)result.get(0);
     Map screenMap = null;
-    Map displaysTotal;
+
 
     //Initiate stage
     MoveToAction action = new MoveToAction();
@@ -124,19 +126,76 @@ public abstract class ChapterScreen {
 
       if(screenMap.containsKey(levelName)) {
         displaysTotal = (Map) screenMap.get(levelName);
-        do{
+//        do{
           if (displaysTotal.containsKey(gblVar.StepName[stepNumber])){
             Map currentStepTotal = (Map) displaysTotal.get(gblVar.StepName[stepNumber]);
-            populateScreen(currentStepTotal, stepNumber++);
+            populateNextScreen(currentStepTotal, stepNumber++);
             xPosAdditionFactor += 400;
             if(xPosAdditionFactor > 800)
               xPosAdditionFactor = 0;
-            if(stepNumber >=3)
-              break;
+//            if(stepNumber >=3)
+//              break;
           }
-        }
-        while(displaysTotal.containsKey(gblVar.StepName[stepNumber]));
+//        }
+//        while(displaysTotal.containsKey(gblVar.StepName[stepNumber]));
       }
+    }
+  }
+
+  public boolean goToNextStep(){
+    if (displaysTotal.containsKey(gblVar.StepName[stepNumber])){
+      Map currentStepTotal = (Map) displaysTotal.get(gblVar.StepName[stepNumber]);
+      populateNextScreen(currentStepTotal, stepNumber++);
+      xPosAdditionFactor += 400;
+      if(xPosAdditionFactor > 800)
+        xPosAdditionFactor = 0;
+      return true;
+    }
+    return false;
+  }
+
+  public void populateNextScreen(Map displaysTotal, int stepNumber){
+
+    //Get the display objects.
+    if (displaysTotal.containsKey("Displays")) {
+      //Display labels information
+      Map labelInfo = (Map) displaysTotal.get("Displays");
+
+      //Update the current list of Labels.
+      displayImages = new ArrayList<Image>(displaysTotal.size());
+      updateLabels(labelInfo, displayImages);
+    }
+    if (displaysTotal.containsKey("Draggable")) {
+      //
+      Map dragInfo = (Map) displaysTotal.get("Draggable");
+
+      //initialise the array list for the labels.
+      draggable = new ArrayList<Image>(dragInfo.size());
+      updateDraggableArea(dragInfo, draggable);
+    }
+    if (displaysTotal.containsKey("Updatable")) {
+
+      Map updatableInfo = (Map) displaysTotal.get("Updatable");
+
+      //initialise the array list for the labels.
+      updatables = new ArrayList<Label>(updatableInfo.size());
+      getUpdatable(updatableInfo, updatables);
+    }
+
+    if (displaysTotal.containsKey("Scrolling")) {
+      Map labelInfo = (Map) displaysTotal.get("Scrolling");
+
+      scrollingPara = new ArrayList<Image>(labelInfo.size());
+      updateScrolling(labelInfo, scrollingPara);
+    }
+
+    if(displaysTotal.containsKey("TextLabel")){
+      Map textLabels = (Map) displaysTotal.get("TextLabel");
+      updateTextuals(stepNumber, textLabels);
+    }
+    if(displaysTotal.containsKey("Buttons")){
+      Map buttons = (Map) displaysTotal.get("Buttons");
+      updateButtons(stepNumber, buttons);
     }
   }
 
@@ -246,13 +305,70 @@ public abstract class ChapterScreen {
       }
       updateScrolling(labelInfo, scrollableObject);
     }
-
+    if(displaysTotal.containsKey("Buttons")){
+      Map buttons = (Map) displaysTotal.get("Buttons");
+      updateButtons(stepNumber, buttons);
+    }
     if(displaysTotal.containsKey("TextLabel")){
       Map textLabels = (Map) displaysTotal.get("TextLabel");
       updateTextuals(stepNumber, textLabels);
     }
   }
+  public void updateButtons(int stepNumber, Map buttons){
+    //initialise the array list for the labels.
+    buttonsList = new ArrayList<Label>();
 
+    Label.LabelStyle label1Style = new Label.LabelStyle();
+    BitmapFont myFont = new BitmapFont(Gdx.files.internal("fonts/gamebird.fnt"));
+    label1Style.font = myFont;
+    label1Style.fontColor = Color.BLACK;
+
+    int totalDisplays = buttons.size();
+
+    Set set = buttons.entrySet();
+    Iterator iterator = set.iterator();
+
+    //initialise the array list for the labels.
+//    updatables = new ArrayList<Label>(totalDisplays);
+
+    while (iterator.hasNext()) {
+      //Get the current entry.
+      Map.Entry mentry = (Map.Entry) iterator.next();
+      Map str = (Map) mentry.getValue();
+
+      //Initialise and obtain the image path, size and boolean visible
+      String imgPath = (String) str.get("Text");
+      ArrayList<Integer> sizesW = (ArrayList) str.get("Size");
+      ArrayList<Integer> positionL = (ArrayList) str.get("Position");
+
+      //Initialise the Local Image
+      Label img = new Label( imgPath, label1Style);
+
+      //Get and set the size of the given parameter
+      Integer[] size;
+      size = new Integer[2];
+      size[0] = sizesW.get(0);
+      size[1] = sizesW.get(1);
+
+      //Get the position of the given parameter.
+      Integer[] position;
+      position = new Integer[2];
+      position[0] = positionL.get(0) + xPosAdditionFactor;
+      position[1] = positionL.get(1);
+
+      //Set the size, position and visibility
+      img.setSize(size[0],size[1]);
+      img.setPosition(position[0], MyGame.HEIGHT - position[1]);
+
+      //set the name of each component
+      img.setName((String)mentry.getKey());
+
+      //Add the parameter to the list of displayImages and stage
+      buttonsList.add(img);
+      stage.addActor(img);
+    }
+
+  }
   public void updateTextuals(int stepNumber, Map textuals){
     //initialise the array list for the labels.
     ArrayList<Label> textualObjects;
