@@ -3,7 +3,6 @@ package com.mygdx.game.Factory;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL20;
-import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.mygdx.game.Animation.AnimationClass;
@@ -19,7 +18,6 @@ import com.mygdx.game.ChapterClass.Ch1RealNumbers.BallDragListener;
 import com.mygdx.game.ChapterClass.Ch1RealNumbers.DragBallIndicators;
 import com.mygdx.game.ChapterClass.Ch1RealNumbers.RemainderDragListener;
 import com.mygdx.game.ChapterClass.Ch1RealNumbers.VisibleComponents;
-import com.mygdx.game.MyGame;
 import com.mygdx.game.Timer.Timer;
 
 
@@ -87,6 +85,8 @@ public class Chapter1 extends ChapterScreen implements Screen {
     ballDragListener = new BallDragListener(Events.BALL_DRAG_EVENT);
     remBallDragListener = new RemainderDragListener(Events.REMAINDER_BALL_DRAG);
 
+//    numLocal = new ScrollingNumber(Events.SCROLL_NUMBER_SELECT);
+
     getLevelName();
     initialiseLevelComponents(currentLevelNumber);
   }
@@ -107,7 +107,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
   public void resize(int width, int height) { }
 
   @Override
-  public void pause() {}
+  public void pause() { }
 
   @Override
   public void resume() { }
@@ -328,23 +328,12 @@ public class Chapter1 extends ChapterScreen implements Screen {
 
     stage.draw();
 
-    time.stage.draw();
-
     if (time.isTimeUp()){
-
-      /*Image semiTransparentBG = new Image(new Texture("blur_bg1.png"));
-      semiTransparentBG.setSize(MyGame.WIDTH,MyGame.HEIGHT);
-      stage.addActor(semiTransparentBG);*/
-
-      Image dialogbox = new Image(new Texture("data1/dialogbox.png"));
-      dialogbox.setSize(240,300);
-      dialogbox.setPosition(Gdx.graphics.getWidth()/2-100, Gdx.graphics.getHeight()/2-100);
-      stage.addActor(dialogbox);
 
       elapsed_time += Gdx.graphics.getDeltaTime();
       animationClass.update(elapsed_time);
     }
-
+    time.stage.draw();
   }
   private void renderLevel2(float delta){
     update(delta);
@@ -372,6 +361,38 @@ public class Chapter1 extends ChapterScreen implements Screen {
     time.update(deltaTime);
 
     numLocal.update(deltaTime);
+
+ /*   if (glv.lableWrite){
+
+      glv.lableWrite = false;
+
+      StringBuilder  str = new StringBuilder(labelX.getText());
+      str.append(glv.lableUpdate);
+      str.append("*");
+      labelX.setText(str);
+
+      switch (glv.countClick) {
+        case 1:
+          glv.click1 = glv.lableUpdate;
+          break;
+
+        case 2:
+          glv.click2 = glv.lableUpdate;
+          break;
+
+        default:
+          break;
+      }
+
+      for (int i = 0; i < glv.click1; i++){
+        scrollingUpdateLableCh1.ballDisplay.balls[i][0].setVisible(true);
+        for (int j = 0; j < glv.click2; j++) {
+          scrollingUpdateLableCh1.ballDisplay.balls[i][j].setVisible(true);
+      }
+    }
+
+    }*/
+
 
     if (time.isTimeUp()){
 //      GameStates.screenStates = ScreenStates.DIALOGBOX;

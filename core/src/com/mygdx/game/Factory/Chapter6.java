@@ -9,7 +9,6 @@ import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.ScrollingNumber;
 import com.mygdx.game.ChapterClass.Ch6Triangles.DoubleClickLabelCh6;
 import com.mygdx.game.ChapterClass.Ch6Triangles.DragShapeCh6;
-import com.mygdx.game.ChapterClass.Ch6Triangles.ScrollingUpdateCh6;
 import com.mygdx.game.ChapterClass.Ch6Triangles.UpdateImageCh6;
 import com.mygdx.game.ChapterClass.Ch6Triangles.UpdateLabelCh6;
 import com.mygdx.game.ChapterClass.Ch6Triangles.VisebalComponentsCh6;
@@ -44,7 +43,7 @@ public class Chapter6 extends ChapterScreen implements Screen {
   Image triangle_p;
 
   // component of level_2
-  private Label value,value1,value3,value4;
+  private Label value,value1,value2,value3,value4,value5;
 
   private Label anser;
 
@@ -54,13 +53,11 @@ public class Chapter6 extends ChapterScreen implements Screen {
 
   private Image imgVlu1,imgVlu5,imgVlu7,imgVlu4,imgVlu8,imgVlu2,imgVlu,imgVlu6,imgVlu9_2,imgVlu9,imgVlu3;
 
-    DoubleClickLabelCh6 doubleClickLabelAC, Click_imgVlu1, Click_imgVlu5, Click_imgVlu7, Click_imgVlu4,
-        Click_imgVlu8, Click_imgVlu2, Click_imgVlu, Click_imgVlu6, Click_imgVlu9_2, Click_imgVlu9, Click_imgVlu3;
+  DoubleClickLabelCh6 doubleClickLabelAC, Click_imgVlu1, Click_imgVlu5, Click_imgVlu7, Click_imgVlu4,
+   Click_imgVlu8, Click_imgVlu2, Click_imgVlu, Click_imgVlu6, Click_imgVlu9_2, Click_imgVlu9, Click_imgVlu3;
 
-    private UpdateLabelCh6 updateLabelCh6;
-    private UpdateImageCh6 updateImageCh6;
-
-  private ScrollingUpdateCh6 scrollingUpdateCh6;
+  UpdateLabelCh6 updateLabelCh6;
+  UpdateImageCh6 updateImageCh6;
 
   Chapter6(){
     super();
@@ -156,9 +153,10 @@ public class Chapter6 extends ChapterScreen implements Screen {
     for(Image img : scrollingPara)
     {
       scrollingImages.add(img);
-    }
 
       numLocal.scrolling(scrollingImages);
+
+    }
 
     LableChange = new ArrayList<Label>();
 
@@ -186,17 +184,13 @@ public class Chapter6 extends ChapterScreen implements Screen {
       LableChange.add(updatable);
     }
 
-    updateLabelCh6 = new UpdateLabelCh6(LableChange);
-
-    scrollingUpdateCh6 = new ScrollingUpdateCh6(LableChange);
-
     for(Image numberI : scrollingPara)
     {
       stage.addActor(numberI);
     }
 
+    updateLabelCh6 = new UpdateLabelCh6(LableChange);
   }
-
   void defineLevel11To15Components() {
 
     if(displayImages == null)

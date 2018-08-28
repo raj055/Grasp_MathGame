@@ -20,7 +20,6 @@ public class DragLabelCh5 extends OnDragCallBack {
     public void drag(InputEvent event, float x, float y, int pointer) {
 
         event.getListenerActor().moveBy(x,y);
-
     }
 
     @Override

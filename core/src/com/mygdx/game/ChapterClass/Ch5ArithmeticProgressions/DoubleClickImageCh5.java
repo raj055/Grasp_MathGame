@@ -16,11 +16,8 @@ public class DoubleClickImageCh5 extends OnClickCallBack {
 
     @Override
     public void clicked(InputEvent event, float x, float y) {
-
 //        UpdateElements();
-
         postEvent();
-
     }
 
     private void UpdateElements() {

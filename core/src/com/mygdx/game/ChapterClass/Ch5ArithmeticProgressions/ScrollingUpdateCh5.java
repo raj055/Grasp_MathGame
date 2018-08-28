@@ -19,11 +19,9 @@ public class ScrollingUpdateCh5 implements Subscriber {
     public ScrollingUpdateCh5(ArrayList<Label> arrLabel){
 
         UpdateLable = arrLabel;
-
         glv = GlobalsCommonCount.getInstance();
 
         Notifier notifier = Notifier.getInstance();
-
         notifier.RegisterSubscriber(this, CLICK_ScrollingCh5);
     }
 
