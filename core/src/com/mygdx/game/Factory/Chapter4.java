@@ -360,26 +360,7 @@ public class Chapter4 extends ChapterScreen implements Screen {
       }
     }
 
-   /* if (glv.lableWrite){
-
-      switch (glv.countClick) {
-        case 1:
-          num_1.setText(glv.lableUpdate + " ");
-          break;
-        case 2:
-          num_2.setText(glv.lableUpdate + " ");
-
-          break;
-
-        default:
-          break;
-      }
-
-    }*/
-
-    if (time.isTimeUp()){
-//      GameStates.screenStates = ScreenStates.DIALOGBOX;
-    }
+    if (time.isTimeUp()){ }
 
     stage.draw();
 
@@ -393,9 +374,7 @@ public class Chapter4 extends ChapterScreen implements Screen {
 
     time.update(deltaTime);
 
-    if (time.isTimeUp()){
-//      GameStates.screenStates = ScreenStates.DIALOGBOX;
-    }
+    if (time.isTimeUp()){}
 
     stage.draw();
 
@@ -408,9 +387,7 @@ public class Chapter4 extends ChapterScreen implements Screen {
     Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
     time.update(deltaTime);
 
-    if (time.isTimeUp()){
-//      GameStates.screenStates = ScreenStates.DIALOGBOX;
-    }
+    if (time.isTimeUp()){}
 
     stage.draw();
     time.stage.draw();

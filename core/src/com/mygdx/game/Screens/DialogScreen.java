@@ -42,17 +42,13 @@ public class DialogScreen implements Screen {
 
   private float origin_x, origin_y;
 
-  private float elapsed_time;
-
   private float width = 100;
   private float height = 100;
 
-  public DialogScreen() {
-  }
+  public DialogScreen() {}
 
   @Override
-  public void resize (int width, int height) {
-  }
+  public void resize (int width, int height) {}
 
   @Override
   public void show () {
@@ -82,20 +78,16 @@ public class DialogScreen implements Screen {
 
     origin_x = (40);
     origin_y = (50);
-
   }
 
   @Override
-  public void hide () {
-  }
+  public void hide () {}
 
   @Override
-  public void pause () {
-  }
+  public void pause () {}
 
   @Override
-  public void resume () {
-  }
+  public void resume () {}
 
   @Override
   public void render (float delta) {
@@ -108,7 +100,6 @@ public class DialogScreen implements Screen {
     batch.draw(currentFrame, origin_x, origin_y,width,height);
 
     batch.end();
-
   }
 
   @Override

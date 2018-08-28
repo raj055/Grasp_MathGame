@@ -29,7 +29,6 @@ public class ReadConfiguration {
 
     public static void readLayoutArray() {
         try {
-
             switch (GameStates.chapterNumber){
 
                 case CHAPTER_1:
@@ -152,7 +151,6 @@ public class ReadConfiguration {
                         break;
 
             }
-
 
         } catch (Exception ex) {
             ex.printStackTrace();

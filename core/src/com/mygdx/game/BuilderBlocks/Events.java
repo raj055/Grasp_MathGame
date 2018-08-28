@@ -18,8 +18,7 @@ public enum Events {
   DOUBLE_CLICK,
 
   // Chapter 2 : level 2
-  CLICK_NUMBER,
-  CLICK_NUMBER1,
+  CLICK_ScrollingCh1,
   CLICK_ScrollingCh2,
   CLICK_ScrollingCh3,
   CLICK_ScrollingCh4,
@@ -38,6 +37,13 @@ public enum Events {
   // Chapter 5 : level 1
   DOUBLE_CLICK_ADD,
 
+  // Chapter 6 : level 1
+  DRAG_SQUARE,
+  DRAG_SQUARE1,
+  DRAG_SQUARE_L,
+  DRAG_CIRCLE_1,
+  DRAG_TRIANGLE_P,
+
   // Chapter 6 : level 2
   DOUBLE_CLICK_LabelAC,
 
@@ -53,6 +59,8 @@ public enum Events {
   DOUBLE_CLICK_IMG8,
   DOUBLE_CLICK_IMG9,
   DOUBLE_CLICK_IMG9_2,
+
+
 
   // Chapter 8 : level 1
   DOUBLE_CLICK_AC,

@@ -39,8 +39,8 @@ public class AnimationClass {
 
         runningAnimation = new Animation(FRAME_DURATION, runningFrames, Animation.PlayMode.LOOP);
 
-        origin_x = (40);
-        origin_y = (50);
+        origin_x = (50);
+        origin_y = (200);
     }
 
     public void update(float delta){

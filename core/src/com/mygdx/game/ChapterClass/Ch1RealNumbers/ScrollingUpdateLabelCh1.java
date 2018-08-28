@@ -10,7 +10,7 @@ import com.mygdx.game.Global.GlobalsCommonCount;
 
 import java.util.ArrayList;
 
-import static com.mygdx.game.BuilderBlocks.Events.CLICK_NUMBER;
+import static com.mygdx.game.BuilderBlocks.Events.CLICK_ScrollingCh1;
 
 public class ScrollingUpdateLabelCh1 implements Subscriber {
 
@@ -30,13 +30,13 @@ public class ScrollingUpdateLabelCh1 implements Subscriber {
 
         Notifier notifier = Notifier.getInstance();
 
-        notifier.RegisterSubscriber(this, CLICK_NUMBER);
+        notifier.RegisterSubscriber(this, CLICK_ScrollingCh1);
     }
 
     @Override
     public void UpdateAllElements(Events evt) {
 
-        if(evt == CLICK_NUMBER){
+        if(evt == CLICK_ScrollingCh1){
             ImageClick1();
         }
     }

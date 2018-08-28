@@ -10,7 +10,7 @@ import com.mygdx.game.Global.GlobalsCommonCount;
 
 import java.util.ArrayList;
 
-import static com.mygdx.game.BuilderBlocks.Events.CLICK_NUMBER1;
+import static com.mygdx.game.BuilderBlocks.Events.CLICK_ScrollingCh2;
 import static com.mygdx.game.BuilderBlocks.Events.DRAG_CIRCLE;
 
 public class VisebleComponetsCh2 implements Subscriber {
@@ -32,15 +32,16 @@ public class VisebleComponetsCh2 implements Subscriber {
         Notifier notifier = Notifier.getInstance();
 
         notifier.RegisterSubscriber(this,DRAG_CIRCLE);
-        notifier.RegisterSubscriber(this,CLICK_NUMBER1);
+        notifier.RegisterSubscriber(this,CLICK_ScrollingCh2);
     }
 
     void updateVisibleComponents() {
 
         Image line = visibleComponents.get(0);
-        line.setVisible(false);
 
         Image line1 = visibleComponents.get(1);
+
+        line.setVisible(false);
         line1.setVisible(true);
 
     }
@@ -52,7 +53,7 @@ public class VisebleComponetsCh2 implements Subscriber {
         if(evt == Events.DRAG_CIRCLE){
             updateVisibleComponents();
         }
-        else if (evt == CLICK_NUMBER1){
+        else if (evt == CLICK_ScrollingCh2){
             ImageVisibleLevel3();
         }
     }

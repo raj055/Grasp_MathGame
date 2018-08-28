@@ -34,7 +34,6 @@ public class Chapter7 extends ChapterScreen implements Screen {
   private Label value1,value3,value12,value14;
 
   // component of level_2
-
   private Label synlabelk1,synlabelk;
 
   private Label valuek2,valuek1,value1_1,value3_1,value12_1,value14_1,value22,value22_1,value24,value24_1;
@@ -42,7 +41,6 @@ public class Chapter7 extends ChapterScreen implements Screen {
   // component of level_3
   private Label synlabelx1,synlabelx11,synlabelx2,synlabelx22,synlabelx3,synlabelx33;
   private Label synlabely1,synlabely11,synlabely2,synlabely22,synlabely3,synlabely33;
-
 
   private GlobalsCommonCount glv;
   Number numLocal;
@@ -96,7 +94,7 @@ public class Chapter7 extends ChapterScreen implements Screen {
   }
 
   void defineLevel1To5Components() {
-    //check if the updatables are present
+
     if (updatables == null)
         return;
 
@@ -131,7 +129,7 @@ public class Chapter7 extends ChapterScreen implements Screen {
     }
   }
   void defineLevel6To10Components() {
-    //check if the updatables are present
+
     if (updatables == null)
       return;
 
@@ -166,7 +164,7 @@ public class Chapter7 extends ChapterScreen implements Screen {
     }
   }
   void defineLevel11To15Components() {
-    //check if the updatables are present
+
     if (updatables == null)
       return;
 
@@ -317,9 +315,7 @@ public class Chapter7 extends ChapterScreen implements Screen {
   private void renderLevel2(float delta){
     update(delta);
 
-    if (time.isTimeUp()){
-//      GameStates.screenStates = ScreenStates.DIALOGBOX;
-    }
+    if (time.isTimeUp()){}
 
     stage.draw();
 
@@ -337,9 +333,7 @@ public class Chapter7 extends ChapterScreen implements Screen {
     Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
     time.update(deltaTime);
 
-    if (time.isTimeUp()){
-//      GameStates.screenStates = ScreenStates.DIALOGBOX;
-    }
+    if (time.isTimeUp()){}
 
     stage.draw();
     time.stage.draw();

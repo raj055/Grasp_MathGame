@@ -38,7 +38,7 @@ public class ScrollingNumber implements Disposable {
 
         for(int numCount = 0; numCount < totalNumbers; numCount++)
         {
-            ScrollingImageClick scrollingImageClick = new ScrollingImageClick(Events.CLICK_NUMBER);
+            ScrollingImageClick scrollingImageClick = new ScrollingImageClick(Events.CLICK_ScrollingCh1);
 
             final Image img = (imagescrolling.get(numCount));
 

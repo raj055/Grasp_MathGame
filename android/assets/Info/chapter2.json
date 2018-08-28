@@ -122,7 +122,7 @@
                 350,
                 50
               ],
-              "Visible": true
+              "Visible": false
             },
             "PlayImage": {
               "Image": "data/play.png",
@@ -333,7 +333,7 @@
                 350,
                 50
               ],
-              "Visible": true
+              "Visible": false
             },
             "levelsel": {
               "Image": "data/levelsel.png",
@@ -534,7 +534,7 @@
                 350,
                 50
               ],
-              "Visible": true
+              "Visible": false
             },
             "PlayImage": {
               "Image": "data/play.png",
@@ -757,7 +757,7 @@
                 350,
                 50
               ],
-              "Visible": true
+              "Visible": false
             },
             "levelsel": {
               "Image": "data/levelsel.png",
@@ -944,7 +944,7 @@
                 350,
                 50
               ],
-              "Visible": true
+              "Visible": false
             },
             "PlayImage": {
               "Image": "data/play.png",
@@ -1167,7 +1167,7 @@
                 350,
                 50
               ],
-              "Visible": true
+              "Visible": false
             },
             "levelsel": {
               "Image": "data/levelsel.png",
@@ -1354,7 +1354,7 @@
                 350,
                 50
               ],
-              "Visible": true
+              "Visible": false
             },
             "PlayImage": {
               "Image": "data/play.png",
@@ -1577,7 +1577,7 @@
                 350,
                 50
               ],
-              "Visible": true
+              "Visible": false
             },
             "levelsel": {
               "Image": "data/levelsel.png",
@@ -1764,7 +1764,7 @@
                 350,
                 50
               ],
-              "Visible": true
+              "Visible": false
             },
             "PlayImage": {
               "Image": "data/play.png",
@@ -1987,7 +1987,7 @@
                 350,
                 50
               ],
-              "Visible": true
+              "Visible": false
             },
             "levelsel": {
               "Image": "data/levelsel.png",
@@ -2198,7 +2198,7 @@
                 350,
                 50
               ],
-              "Visible": true
+              "Visible": false
             },
             "Levelselect": {
               "Image": "data/levelsel.png",

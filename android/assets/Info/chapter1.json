@@ -101,6 +101,18 @@
               ],
               "Visible": false
             },
+            "dragbg": {
+              "Image": "data1/asset23.png",
+              "Size": [
+                57,
+                57
+              ],
+              "Position": [
+                225,
+                145
+              ],
+              "Visible": true
+            },
             "progBar": {
               "Image": "data1/asset_progressbar.png",
               "Size": [
@@ -184,23 +196,50 @@
                 60
               ],
               "Position": [
-                340,
-                280
+                310,
+                250
               ],
               "Visible": true
 
             },
-            "bgTarget":{
+            "value6":{
               "Image": "data1/asset18.png",
               "Size": [
                 60,
                 60
               ],
               "Position": [
-                330,
-                80
+                325,
+                315
               ],
               "Visible": true
+
+            },
+            "value9":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                200,
+                70
+              ],
+              "Position": [
+                180,
+                705
+              ],
+              "Visible": true
+
+            },
+            "value10":{
+              "Image": "data1/asset22.png",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                320,
+                700
+              ],
+              "Visible": true
+
             },
             "bgRoundSquare":{
               "Image": "data1/asset1.png",
@@ -210,7 +249,19 @@
               ],
               "Position": [
                 180,
-                5
+                10
+              ],
+              "Visible": true
+            },
+            "rembg":{
+              "Image": "data1/asset12.png",
+              "Size": [
+                300,
+                50
+              ],
+              "Position": [
+                15,
+                630
               ],
               "Visible": true
             },
@@ -221,8 +272,8 @@
                 80
               ],
               "Position": [
-                410,
-                5
+                0,
+                710
               ],
               "Visible": true
             },
@@ -234,6 +285,54 @@
               ],
               "Position": [
                 120,
+                50
+              ],
+              "Visible": true
+            },
+            "setting":{
+              "Image": "data1/setting.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                20,
+                50
+              ],
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
                 50
               ],
               "Visible": true
@@ -265,7 +364,7 @@
                 630
               ],
               "Touchable": true,
-              "Total":5,
+              "Total":6,
               "DragListener": "dragBallListener"
             }
           },
@@ -299,8 +398,8 @@
                 20
               ],
               "Position": [
-                360,
-                260
+                335,
+                295
               ]
             },
             "ScoreValue": {
@@ -310,27 +409,13 @@
                 60
               ],
               "Position": [
-                350,
-                700
-              ]
-            }
-          },
-          "Buttons":{
-            "SubmitButtn": {
-              "Text" :"Submit",
-              "Size": [
-                160,
-                60
-              ],
-              "Position": [
-                40,
+                345,
                 700
               ]
             }
           },
           "TextLabel":{
             "LabelA": {
-              "Font" : "fonts/gamebird.fnt",
               "Text" :"A = 12",
               "Size": [
                 15,
@@ -339,7 +424,8 @@
               "Position": [
                 30,
                 80
-              ]
+              ],
+              "TextColor": "Read"
             },
             "LabelB": {
               "Text" :"B = 5",
@@ -375,14 +461,14 @@
               ]
             },
             "YourScore": {
-              "Text" :"Your score : ",
+              "Text" :"SCORE",
               "Size": [
                 100,
                 30
               ],
               "Position": [
-                190,
-                690
+                215,
+                680
               ]
             }
           }

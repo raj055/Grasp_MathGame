@@ -186,7 +186,6 @@ public class Chapter5 extends ChapterScreen implements Screen {
     }
   }
   void defineLevel6To10Components() {
-//    numLocal = new ScrollingNumber(Events.SCROLL_NUMBER_SELECT);
 
     if(scrollingPara == null)
       return;
@@ -232,7 +231,6 @@ public class Chapter5 extends ChapterScreen implements Screen {
 
   }
   void defineLevel11To15Components() {
-//    numLocal = new ScrollingNumber(Events.SCROLL_NUMBER_SELECT);
 
     if(scrollingPara == null)
       return;
@@ -328,16 +326,10 @@ public class Chapter5 extends ChapterScreen implements Screen {
           new RenderLevel() { public void renderL(float delta) { renderLevel3(delta); } }
   };
 
-  public void renderLevels(int index) {
-//    renderLists[index].renderL( );
-  }
-
   private void renderLevel1(float delta){
     update(delta);
 
-    if (time.isTimeUp()){
-//      GameStates.screenStates = ScreenStates.DIALOGBOX;
-    }
+    if (time.isTimeUp()){ }
 
     stage.draw();
 
@@ -355,19 +347,14 @@ public class Chapter5 extends ChapterScreen implements Screen {
     }
 
 
-    if (time.isTimeUp()){
-//      GameStates.screenStates = ScreenStates.DIALOGBOX;
-    }
+    if (time.isTimeUp()){}
 
     stage.draw();
 
     time.stage.draw();
   }
   private void renderLevel3(float deltaTime){
-    //Sets the color to be applied after clearing the screen (R,G,B,A)
-    Gdx.gl.glClearColor(0,0,255,1);
-    //Clears the screen
-    Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
+
     time.update(deltaTime);
 
     numLocal.update(deltaTime);
@@ -378,9 +365,7 @@ public class Chapter5 extends ChapterScreen implements Screen {
 
     }
 
-    if (time.isTimeUp()){
-//      GameStates.screenStates = ScreenStates.DIALOGBOX;
-    }
+    if (time.isTimeUp()){}
 
     stage.draw();
     time.stage.draw();

@@ -44,6 +44,7 @@ public class ScrollingUpdateCh6 implements Subscriber {
         Label value = getLabel("value");
         Label value1 = getLabel("value1");
         Label value3 = getLabel("value3");
+        Label value4 = getLabel("value4");
         Label anser = getLabel("Labelanser");
 
         if (glv.lableWrite){

@@ -34,8 +34,6 @@ public class Chapter2 extends ChapterScreen implements Screen {
   ArrayList<Label> updateScrollLable = null;
   ArrayList<Image> imageViseble = null;
 
-  private int r = 0;
-
   private int stageTranslate = 0;
 
   int stepNo = 0;

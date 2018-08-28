@@ -5,15 +5,12 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
-import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.scenes.scene2d.actions.MoveToAction;
-import com.badlogic.gdx.scenes.scene2d.ui.Dialog;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
-import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.mygdx.game.Enum.ScreenStates;
@@ -550,9 +547,21 @@ public abstract class ChapterScreen {
       return;
 
     Label.LabelStyle label1Style = new Label.LabelStyle();
-    BitmapFont myFont = new BitmapFont(Gdx.files.internal("fonts/font.fnt"));
+    BitmapFont myFont = new BitmapFont(Gdx.files.internal("fonts/gamebird.fnt"));
     label1Style.font = myFont;
-    label1Style.fontColor = Color.BLACK;
+    label1Style.fontColor = Color.ROYAL;
+
+    Label.LabelStyle labelStyle1 = new Label.LabelStyle();
+    labelStyle1.font = myFont;
+    labelStyle1.fontColor = Color.RED;
+
+    Label.LabelStyle labelStyle2 = new Label.LabelStyle();
+    labelStyle2.font = myFont;
+    labelStyle2.fontColor = Color.WHITE;
+
+    Label.LabelStyle labelStyle3 = new Label.LabelStyle();
+    labelStyle3.font = myFont;
+    labelStyle3.fontColor = Color.BLACK;
 
     int totalDisplays = updatableInfo.size();
 
@@ -571,9 +580,10 @@ public abstract class ChapterScreen {
       String imgPath = (String) str.get("Text");
       ArrayList<Integer> sizesW = (ArrayList) str.get("Size");
       ArrayList<Integer> positionL = (ArrayList) str.get("Position");
+      String TextColor = (String) str.get("TextColor");
 
       //Initialise the Local Image
-      Label img = new Label( imgPath, label1Style);
+      Label img = new Label(imgPath,label1Style);
 
       //Get and set the size of the given parameter
       Integer[] size;
