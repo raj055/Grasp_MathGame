@@ -6,7 +6,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.DragListener;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.ScrollingNumber;
-import com.mygdx.game.ChapterClass.Ch3LinearEquations.DoubleClickListener;
+import com.mygdx.game.BuilderBlocks.DoubleClickListener;
 import com.mygdx.game.ChapterClass.Ch3LinearEquations.DragLabelCh3;
 import com.mygdx.game.ChapterClass.Ch3LinearEquations.UpdateVisibleComponent;
 import com.mygdx.game.ChapterClass.Ch3LinearEquations.VisebalComponentsCh3;
@@ -29,11 +29,16 @@ public class Chapter3 extends ChapterScreen implements Screen {
 
   ScrollingNumber numLocal;
 
-  DoubleClickListener clickListener;
+  DoubleClickListener clickListenerY1;
+  DoubleClickListener clickListenerY2;
+  DoubleClickListener clickListenerSq1;
+  DoubleClickListener clickListenerSq2;
+  DoubleClickListener clickListenerC1;
+  DoubleClickListener clickListenerC2;
   UpdateVisibleComponent updateVisibleComponent;
 
   DragLabelCh3 dragLabelCh3;
-  VisebalComponentsCh3 visebalComponentsCh3;
+//  VisebalComponentsCh3 visebalComponentsCh3;
 
   // component of level_1
   private Label labelP,labelE;
@@ -76,11 +81,16 @@ public class Chapter3 extends ChapterScreen implements Screen {
     time = new Timer();
 
     dragLabelCh3 = new DragLabelCh3(Events.DRAG_LABEL);
-    visebalComponentsCh3 = new VisebalComponentsCh3(VisebalComponent);
+
 
     glv = GlobalsCommonCount.getInstance();
 
-    clickListener = new DoubleClickListener(Events.DOUBLE_CLICK);
+    clickListenerY1 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG_Y1);
+    clickListenerY2 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG_Y2);
+    clickListenerSq1 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG_SQ1);
+    clickListenerSq2 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG_SQ2);
+    clickListenerC1 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG_C1);
+    clickListenerC2 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG_C2);
     updateVisibleComponent = new UpdateVisibleComponent(VisebalComponent);
 
     getLevelName();
@@ -113,14 +123,16 @@ public class Chapter3 extends ChapterScreen implements Screen {
   }
 
   void defineLevel1To5Components() {
-    numLocalch3 = new NumberCh3();
+//    numLocalch3 = new NumberCh3();
     textveriabalch3 = new TextveriabalCh3();
+
+//    numLocalch3.addToStage(stage);
+    textveriabalch3.addToStage(stage);
 
     if(scrollingPara == null)
       return;
 
     numLocal = new ScrollingNumber();
-
     scrollingImages = new ArrayList<Image>();
 
     //totalObjects
@@ -173,9 +185,11 @@ public class Chapter3 extends ChapterScreen implements Screen {
       //check if the displayImages are present
       if (str.contains("y1Image")) {
         img_y1 = updatable;
+        img_y1.addListener(clickListenerY1);
       }
       else if (str.contains("y2Image")) {
         img_y2 = updatable;
+        img_y2.addListener(clickListenerY2);
       }
       else if (str.contains("SqurelImage")) {
         imgsqureL = updatable;
@@ -204,7 +218,7 @@ public class Chapter3 extends ChapterScreen implements Screen {
 
       ClickImage.add(updatable);
 
-      clickListener.setClick(ClickImage);
+//      clickListener.setClick(ClickImage);
     }
 
     //check if the updatables are present
@@ -289,6 +303,7 @@ public class Chapter3 extends ChapterScreen implements Screen {
 
       if (str.contains("ValueA")) {
         valueA = updatable;
+        valueA.addListener(dragLabelCh3);
       }
       else if (str.contains("ValueB")) {
         valueB = updatable;
@@ -395,6 +410,8 @@ public class Chapter3 extends ChapterScreen implements Screen {
     update(deltaTime);
 
     textveriabalch3.update(deltaTime);
+//    numLocalch3.update(deltaTime);
+//    if(numLocal != null)numLocal.update(deltaTime);
 
     if (glv.lableWrite) {
 

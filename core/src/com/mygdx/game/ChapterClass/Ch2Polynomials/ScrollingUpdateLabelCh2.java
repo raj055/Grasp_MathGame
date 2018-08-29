@@ -35,7 +35,7 @@ public class ScrollingUpdateLabelCh2 implements Subscriber{
 
         glv = GlobalsCommonCount.getInstance();
 
-        ballDisplay = new BallDisplay();
+        ballDisplay = new BallDisplay(8,8);
 
         textVeriabal = new TextVeriabal();
 

@@ -90,7 +90,7 @@ public class Chapter2 extends ChapterScreen implements Screen {
 
     dragPoint = new DragPoint(Events.DRAG_CIRCLE);
 
-    visebleComponetsCh2 = new VisebleComponetsCh2(imagesLines);
+//    visebleComponetsCh2 = new VisebleComponetsCh2(imagesLines);
 
     getLevelName();
     initialiseLevelComponents(currentLevelNumber);
@@ -200,7 +200,7 @@ public class Chapter2 extends ChapterScreen implements Screen {
 
     numLocal.scrolling(scrollingImages);
 
-    ballDisplay = new BallDisplay();
+    ballDisplay = new BallDisplay(8, 8);
 
     //check if the updatables are present
     if(updatables == null)
@@ -482,8 +482,8 @@ public class Chapter2 extends ChapterScreen implements Screen {
     Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
     time.update(deltaTime);
 
-   /* textVeriabal.update(deltaTime);
-
+    numLocal.update(deltaTime);
+/*
     if (glv.lableWrite){
 
       quotient.setText(textVeriabal.string_labal + " ");

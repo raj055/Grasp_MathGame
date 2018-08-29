@@ -55,7 +55,7 @@ public class Chapter7 extends ChapterScreen implements Screen {
     time = new Timer();
 
     dragLabelCh7 = new DragLabelCh7(Events.DRAG_LABEL);
-    visebalComponentsCh7 = new VisebalComponentsCh7(VisebalComponent);
+//    visebalComponentsCh7 = new VisebalComponentsCh7(VisebalComponent);
 
     glv = GlobalsCommonCount.getInstance();
 
@@ -104,6 +104,7 @@ public class Chapter7 extends ChapterScreen implements Screen {
 
       if (str.contains("LabelValue1")){
         value1 = updatable;
+        value1.addListener(dragLabelCh7);
       }
       else if (str.contains("LabelValue3")){
         value3 = updatable;
@@ -139,6 +140,7 @@ public class Chapter7 extends ChapterScreen implements Screen {
 
       if (str.contains("LabelValue12")){
         value12 = updatable;
+        value12.addListener(dragLabelCh7);
       }
       else if (str.contains("LabelValue14")){
         value14 = updatable;
@@ -174,6 +176,7 @@ public class Chapter7 extends ChapterScreen implements Screen {
 
       if (str.contains("LabelValue1")){
         value1 = updatable;
+        value1.addListener(dragLabelCh7);
       }
       else if (str.contains("LabelValue1_1")){
         value1_1 = updatable;

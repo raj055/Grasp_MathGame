@@ -4,6 +4,7 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
+import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Array;
@@ -38,8 +39,8 @@ public class TextveriabalCh3 implements Disposable {
     {
       final Image img = new Image(new Texture(gblVar.TextLevel1[numCount]));
 
-       gblVar.TextLevel1[numCount] = gblVar.TextLevel3[numCount];
-
+//       gblVar.TextLevel1[numCount] = gblVar.TextLevel1[numCount];
+//
       final  int count = numCount;
 
       posY = 50 + gblVar.posYNum[numCount];
@@ -53,7 +54,7 @@ public class TextveriabalCh3 implements Disposable {
 
           Gdx.app.log("TextVariable","click_" + gblVar.countClick++);
 
-          string_labal = gblVar.TextLevel1[count];
+          string_labal = gblVar.TextLevel3[count];
 
           gblVar.lableUpdate = count;
           gblVar.lableWrite = true;
@@ -66,6 +67,12 @@ public class TextveriabalCh3 implements Disposable {
 
   }
 
+  public void addToStage(Stage stg){
+    for (Image img : texts) {
+      stg.addActor(img);
+    }
+
+  }
   public void update(float deltaTime) {
     int yCount = 0;
 

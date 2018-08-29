@@ -426,6 +426,8 @@
                 80
               ],
               "TextColor": "Read"
+              ],
+              "Color": [240, 90, 40]
             },
             "LabelB": {
               "Text" :"B = 5",
@@ -436,7 +438,8 @@
               "Position": [
                 140,
                 80
-              ]
+              ],
+              "Color": [240, 90, 40]
             },
             "Score1": {
               "Text" :"B *",

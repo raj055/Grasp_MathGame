@@ -20,9 +20,13 @@ public class BallDisplay {
   private int posX;
   private int posY;
 
-  public BallDisplay(){
+  public BallDisplay(int columnCount, int rowCount){
 
     global = GlobalsCommonCount.getInstance();
+
+    //Get the rows and columns count
+    columns = columnCount;
+    rows = rowCount;
 
     global.lableUpdate = columns;
     global.lableUpdate = rows;

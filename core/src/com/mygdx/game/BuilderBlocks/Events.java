@@ -30,6 +30,11 @@ public enum Events {
   // Chapter 3 : level 2
   DOUBLE_CLICK_IMG_Y1,
   DOUBLE_CLICK_IMG_Y2,
+  DOUBLE_CLICK_IMG_SQ1,
+  DOUBLE_CLICK_IMG_SQ2,
+  DOUBLE_CLICK_IMG_C1,
+  DOUBLE_CLICK_IMG_C2,
+
 
   // Chapter 4 : level 3
 

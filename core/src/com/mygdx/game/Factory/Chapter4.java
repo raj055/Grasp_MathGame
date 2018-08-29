@@ -131,7 +131,7 @@ public class Chapter4 extends ChapterScreen implements Screen {
       numLocal.scrolling(scrollingImages);
     }
 
-    ballDisplay = new BallDisplay();
+    ballDisplay = new BallDisplay(8,8);
 
     //check if the updatables are present
     if(updatables == null)
@@ -162,9 +162,9 @@ public class Chapter4 extends ChapterScreen implements Screen {
       }
     }
 
-    for (int i = 0; i < BallDisplay.columns; i++){
+    for (int i = 0; i < ballDisplay.columns; i++){
 
-      for (int j = 0; j < BallDisplay.rows; j++) {
+      for (int j = 0; j < ballDisplay.rows; j++) {
 
         stage.addActor(ballDisplay.balls[i][j]);
 
@@ -191,6 +191,7 @@ public class Chapter4 extends ChapterScreen implements Screen {
 
       if (str.contains("light")) {
         light = updatable;
+        light.addListener(dragLabelCh4);
       }
       else if (str.contains("Square")) {
         square = updatable;
@@ -323,6 +324,7 @@ public class Chapter4 extends ChapterScreen implements Screen {
   private void renderLevel1(float deltaTime){
     update(deltaTime);
 
+    if(numLocal != null)
     numLocal.update(deltaTime);
 //    ballDisplay.update(deltaTime);
 

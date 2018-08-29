@@ -698,6 +698,17 @@ public abstract class ChapterScreen {
       ArrayList<Integer> positionL = (ArrayList) str.get("Position");
       String TextColor = (String) str.get("TextColor");
 
+      //if colour declared
+      if(str.containsKey("Color")){
+        ArrayList<Integer> colorValues= (ArrayList) str.get("Color");
+//        Gdx.app.log("ValueOfColour -------","" + colourValue.get(0));
+        float r = (float)colorValues.get(0)/255;
+        float g = (float)colorValues.get(1)/255;
+        float b = (float)colorValues.get(2)/255;
+        label1Style.fontColor = new Color(r,g, b, 1);
+      }
+
+
       //Initialise the Local Image
       Label img = new Label(imgPath,label1Style);
 
@@ -719,6 +730,9 @@ public abstract class ChapterScreen {
 
       //set the name of each component
       img.setName((String)mentry.getKey());
+
+      //if colour is declared
+
 
       //Add the parameter to the list of displayImages and stage
       updatables.add(img);

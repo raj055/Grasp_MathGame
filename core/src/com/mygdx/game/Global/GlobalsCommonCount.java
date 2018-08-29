@@ -66,14 +66,14 @@ public class GlobalsCommonCount {
   };
 
   public static final String[] TextLevel2 ={
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "x2",
-          "x3",
-          "x"
+    "Values/1.png",
+    "Values/2.png",
+    "Values/3.png",
+    "Values/4.png",
+    "Values/5.png",
+    "Values/x2.png",
+    "Values/x3.png",
+    "Values/xx.png"
   };
 
   public static final String[] TextLevel1 ={

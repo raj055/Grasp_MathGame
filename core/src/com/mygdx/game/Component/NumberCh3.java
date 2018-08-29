@@ -4,6 +4,7 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
+import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Array;
@@ -61,6 +62,13 @@ public class NumberCh3 implements Disposable {
 
   }
 
+  public void addToStage(Stage stg){
+    for(Image img : numbers)
+    {
+      stg.addActor(img);
+      }
+
+  }
   public void update(float deltaTime){
 
     for(Image img : numbers)

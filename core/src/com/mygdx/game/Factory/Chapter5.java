@@ -3,8 +3,10 @@ package com.mygdx.game.Factory;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL20;
+import com.badlogic.gdx.scenes.scene2d.Event;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
+import com.mygdx.game.BuilderBlocks.DoubleClickListener;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.ChapterClass.Ch5ArithmeticProgressions.DoubleClickImageCh5;
 import com.mygdx.game.ChapterClass.Ch5ArithmeticProgressions.DragLabelCh5;
@@ -29,6 +31,9 @@ public class Chapter5 extends ChapterScreen implements Screen {
 
   DragLabelCh5 dragLabelCh5;
   VisebalComponentsCh5 visebalComponentsCh5;
+
+  //Double click listeners for plus
+  DoubleClickListener dblClickListenerPlus;
 
   ArrayList<Image> scrollingImages = null;
 
@@ -72,6 +77,8 @@ public class Chapter5 extends ChapterScreen implements Screen {
 
     ImageADD = new DoubleClickImageCh5(Events.DOUBLE_CLICK_ADD);
 
+    dblClickListenerPlus = new DoubleClickListener(Events.DOUBLE_CLICK_ADD);
+
     glv = GlobalsCommonCount.getInstance();
 
     getLevelName();
@@ -110,24 +117,26 @@ public class Chapter5 extends ChapterScreen implements Screen {
 
   void defineLevel1To5Components() {
     //check if the displayImages are present
-    if(displayImages == null)
-      return;
+    if(displayImages != null) {
 
-    //totalObjects
-    displayImages.size();
-    for (Image updatable : displayImages) {
-      String str = updatable.getName();
+      //totalObjects
+      displayImages.size();
+      for (Image updatable : displayImages) {
+        String str = updatable.getName();
 
-      if (str.contains("PluseBttn")) {
-        imgadd = updatable;
+        if (str.contains("PluseBttn")) {
+          imgadd = updatable;
+          imgadd.addListener(dblClickListenerPlus);
+        }
       }
     }
-
     //check if the updatables are present
     if(updatables == null)
       return;
 
     //totalObjects
+
+
     updatables.size();
     for (Label updatable : updatables) {
       String str = updatable.getName();
@@ -153,17 +162,21 @@ public class Chapter5 extends ChapterScreen implements Screen {
       else if (str.contains("Value11")) {
         value11 = updatable;
       }
-      else if (str.contains("Pluse")) {
+      else if (str.equals("Pluse")) {
         pluse = updatable;
+        pluse.addListener(dblClickListenerPlus);
       }
-      else if (str.contains("Pluse1")) {
+      else if (str.equals("Pluse1")) {
         pluse1 = updatable;
+        pluse1.addListener(dblClickListenerPlus);
       }
-      else if (str.contains("Pluse2")) {
+      else if (str.equals("Pluse2")) {
         pluse2 = updatable;
+        pluse2.addListener(dblClickListenerPlus);
       }
-      else if (str.contains("Pluse3")) {
+      else if (str.equals("Pluse3")) {
         pluse3 = updatable;
+        pluse3.addListener(dblClickListenerPlus);
       }
       else if (str.contains("Value12")) {
         value12 = updatable;
@@ -338,7 +351,9 @@ public class Chapter5 extends ChapterScreen implements Screen {
   private void renderLevel2(float delta){
     update(delta);
 
-    numLocal.update(delta);
+    //Check if the local numbers are declared.
+    if(numLocal != null)
+      numLocal.update(delta);
 
     if (glv.lableWrite){
       valueD.setText(glv.lableUpdate + " ");

@@ -45,6 +45,8 @@ public class Chapter1 extends ChapterScreen implements Screen {
 
   ArrayList<Label> updateScrollLable = null;
 
+  //Number of display balls for the LCM
+  BallDisplay ballDisplay;
   //Get the components of level 3
   Label labelX;
 
@@ -253,10 +255,11 @@ public class Chapter1 extends ChapterScreen implements Screen {
     }
 
     scrollingUpdateLableCh1 = new ScrollingUpdateLabelCh1(updateScrollLable);
+    ballDisplay = new BallDisplay(6,6);
 
-    for (int i = 0; i < BallDisplay.columns; i++){
+    for (int i = 0; i < ballDisplay.columns; i++){
 
-      for (int j = 0; j < BallDisplay.rows; j++) {
+      for (int j = 0; j < ballDisplay.rows; j++) {
 
         stage.addActor(scrollingUpdateLableCh1.ballDisplay.balls[i][j]);
 

@@ -5,6 +5,7 @@ import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
+import com.mygdx.game.BuilderBlocks.DoubleClickListener;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.ScrollingNumber;
 import com.mygdx.game.ChapterClass.Ch6Triangles.DoubleClickLabelCh6;
@@ -53,18 +54,20 @@ public class Chapter6 extends ChapterScreen implements Screen {
 
   private Image imgVlu1,imgVlu5,imgVlu7,imgVlu4,imgVlu8,imgVlu2,imgVlu,imgVlu6,imgVlu9_2,imgVlu9,imgVlu3;
 
-  DoubleClickLabelCh6 doubleClickLabelAC, Click_imgVlu1, Click_imgVlu5, Click_imgVlu7, Click_imgVlu4,
+  DoubleClickLabelCh6  Click_imgVlu1, Click_imgVlu5, Click_imgVlu7, Click_imgVlu4,
    Click_imgVlu8, Click_imgVlu2, Click_imgVlu, Click_imgVlu6, Click_imgVlu9_2, Click_imgVlu9, Click_imgVlu3;
 
   UpdateLabelCh6 updateLabelCh6;
   UpdateImageCh6 updateImageCh6;
+
+  DoubleClickListener doubleClickLabelAC;
 
   Chapter6(){
     super();
 
     time = new Timer();
 
-    doubleClickLabelAC = new DoubleClickLabelCh6(Events.DOUBLE_CLICK_LabelAC);
+    doubleClickLabelAC = new DoubleClickListener(Events.DOUBLE_CLICK_LabelAC);
 
     dragShapeCh6 = new DragShapeCh6(Events.DRAG_SHAPE);
     visebalComponentsCh6 = new VisebalComponentsCh6(VisebalComponent);
@@ -134,59 +137,57 @@ public class Chapter6 extends ChapterScreen implements Screen {
         sercal1 = updatable;
       } else if (str.contains("triangle_p")) {
         triangle_p = updatable;
+        triangle_p.addListener(dragShapeCh6);
       }
     }
   }
   void defineLevel6To10Components() {
 
-    if(scrollingPara == null)
-      return;
+    if(scrollingPara != null) {
 
-    numLocal = new ScrollingNumber();
+      numLocal = new ScrollingNumber();
 
-    scrollingImages = new ArrayList<Image>();
+      scrollingImages = new ArrayList<Image>();
 
-    scrollingPara.size();
+      scrollingPara.size();
 
-    numberch6 = new Numberch6();
+      numberch6 = new Numberch6();
 
-    for(Image img : scrollingPara)
-    {
-      scrollingImages.add(img);
+      for (Image img : scrollingPara) {
+        scrollingImages.add(img);
 
-      numLocal.scrolling(scrollingImages);
+        numLocal.scrolling(scrollingImages);
 
+      }
+      for(Image numberI : scrollingPara)
+      {
+        stage.addActor(numberI);
+      }
     }
-
-    LableChange = new ArrayList<Label>();
 
     //check if the updatables are present
-    if(updatables == null)
-      return;
+    if(updatables != null) {
 
-    updatables.size();
-    for (Label updatable : updatables) {
-      String str = updatable.getName();
+      LableChange = new ArrayList<Label>();
+      updatables.size();
+      for (Label updatable : updatables) {
+        String str = updatable.getName();
 
-      if (str.contains("value4")) {
-        value4 = updatable;
-        value4.addListener(doubleClickLabelAC);
-      } else if (str.contains("Labelanser")) {
-        anser = updatable;
-      }else if (str.contains("value")) {
-        value = updatable;
-      }else if (str.contains("value1")) {
-        value1 = updatable;
-      }else if (str.contains("value3")) {
-        value3 = updatable;
+        if (str.contains("value4")) {
+          value4 = updatable;
+          value4.addListener(doubleClickLabelAC);
+        } else if (str.contains("Labelanser")) {
+          anser = updatable;
+        } else if (str.contains("value")) {
+          value = updatable;
+        } else if (str.contains("value1")) {
+          value1 = updatable;
+        } else if (str.contains("value3")) {
+          value3 = updatable;
+        }
+
+        LableChange.add(updatable);
       }
-
-      LableChange.add(updatable);
-    }
-
-    for(Image numberI : scrollingPara)
-    {
-      stage.addActor(numberI);
     }
 
     updateLabelCh6 = new UpdateLabelCh6(LableChange);
