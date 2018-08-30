@@ -130,8 +130,6 @@ public abstract class ChapterScreen {
             xPosAdditionFactor += 400;
             if(xPosAdditionFactor > 800)
               xPosAdditionFactor = 0;
-
-
           }
       }
     }
