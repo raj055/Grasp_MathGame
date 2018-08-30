@@ -320,9 +320,7 @@ public class Chapter6 extends ChapterScreen implements Screen {
   private void renderLevel1(float delta){
     update(delta);
 
-    if (time.isTimeUp()){
-//      GameStates.screenStates = ScreenStates.DIALOGBOX;
-    }
+    if (time.isTimeUp()){}
 
     stage.draw();
 

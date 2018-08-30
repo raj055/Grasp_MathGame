@@ -26,6 +26,8 @@ public class Chapter7 extends ChapterScreen implements Screen {
   ArrayList<Image> VisebalComponent;
 
   DragLabelCh7 dragLabelCh7;
+
+
   VisebalComponentsCh7 visebalComponentsCh7;
 
   // component of level_1
