@@ -156,7 +156,7 @@ public class Chapter6 extends ChapterScreen implements Screen {
       for (Image img : scrollingPara) {
         scrollingImages.add(img);
 
-        numLocal.scrolling(scrollingImages);
+        numLocal.scrolling(scrollingImages, Events.CLICK_ScrollingCh6);
 
       }
       for(Image numberI : scrollingPara)

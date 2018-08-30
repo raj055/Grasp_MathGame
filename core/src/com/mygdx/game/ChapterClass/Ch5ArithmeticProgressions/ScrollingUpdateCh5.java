@@ -33,8 +33,16 @@ public class ScrollingUpdateCh5 implements Subscriber {
     }
 
     private void ImageClick1() {
-        Label labelX = getLabel("LabelB");
+        Label value4 = getLabel("Value4");
+        Label valueD = getLabel("ValueD");
+
+
+        if (glv.lableWrite) {
+            value4.setText("47");
+            valueD.setText(glv.lableUpdate + " ");
+        }
     }
+
 
     private Label getLabel(String LabelShow) {
 

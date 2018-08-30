@@ -9,6 +9,8 @@ import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.Disposable;
+import com.mygdx.game.BuilderBlocks.Events;
+import com.mygdx.game.BuilderBlocks.ScrollingImageClick;
 import com.mygdx.game.Global.GlobalsCommonCount;
 
 /**
@@ -39,28 +41,34 @@ public class TextveriabalCh3 implements Disposable {
     {
       final Image img = new Image(new Texture(gblVar.TextLevel1[numCount]));
 
+      ScrollingImageClick scrollingImageClick = new ScrollingImageClick(Events.CLICK_ScrollingCh3);
+
 //       gblVar.TextLevel1[numCount] = gblVar.TextLevel1[numCount];
 //
-      final  int count = numCount;
+//      final  int count = numCount;
+      scrollingImageClick.setCount(numCount);
 
       posY = 50 + gblVar.posYNum[numCount];
       img.setSize(30,40);
       img.setPosition(posX,posY);
       posX += 40;
 
-      img.addListener(new ClickListener(){
-        @Override
-        public void clicked(InputEvent event, float x, float y) {
+      img.addListener(scrollingImageClick);
 
-          Gdx.app.log("TextVariable","click_" + gblVar.countClick++);
-
-          string_labal = gblVar.TextLevel3[count];
-
-          gblVar.lableUpdate = count;
-          gblVar.lableWrite = true;
-
-        }
-      });
+//
+//        new ClickListener(){
+//        @Override
+//        public void clicked(InputEvent event, float x, float y) {
+//
+//          Gdx.app.log("TextVariable","click_" + gblVar.countClick++);
+//
+//          string_labal = gblVar.TextLevel3[count];
+//
+//          gblVar.lableUpdate = count;
+//          gblVar.lableWrite = true;
+//
+//        }
+//      });
 
       texts.add(img);
     }

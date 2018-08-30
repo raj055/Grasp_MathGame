@@ -34,6 +34,7 @@ public enum Events {
   DOUBLE_CLICK_IMG_SQ2,
   DOUBLE_CLICK_IMG_C1,
   DOUBLE_CLICK_IMG_C2,
+  CLICK_SCROLLCH2_BALLDISPLAY,
 
 
   // Chapter 4 : level 3

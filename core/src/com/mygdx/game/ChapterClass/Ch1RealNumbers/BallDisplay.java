@@ -12,8 +12,8 @@ public class BallDisplay {
 
   public Image[][] balls;
 
-  public static int columns = 6;
-  public static int rows = 6;
+  public  int columns = 6;
+  public  int rows = 6;
 
   private GlobalsCommonCount global;
 

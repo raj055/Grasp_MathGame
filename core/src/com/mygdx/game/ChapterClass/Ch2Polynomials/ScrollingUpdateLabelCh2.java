@@ -12,6 +12,7 @@ import com.mygdx.game.Global.GlobalsCommonCount;
 
 import java.util.ArrayList;
 
+import static com.mygdx.game.BuilderBlocks.Events.CLICK_SCROLLCH2_BALLDISPLAY;
 import static com.mygdx.game.BuilderBlocks.Events.CLICK_ScrollingCh1;
 import static com.mygdx.game.BuilderBlocks.Events.CLICK_ScrollingCh2;
 
@@ -41,14 +42,15 @@ public class ScrollingUpdateLabelCh2 implements Subscriber{
 
         nagetiv_num = new Nagetiv_Num();
 
+        //Get notifier and register the click scrolling events.
         Notifier notifier = Notifier.getInstance();
-
         notifier.RegisterSubscriber(this, CLICK_ScrollingCh1);
+        notifier.RegisterSubscriber(this, CLICK_SCROLLCH2_BALLDISPLAY);
     }
 
     @Override
     public void UpdateAllElements(Events evt) {
-        if(evt == CLICK_ScrollingCh1){
+        if(evt == CLICK_SCROLLCH2_BALLDISPLAY){
             ImageClick1();
         }
         else if (evt == CLICK_ScrollingCh2){
@@ -57,6 +59,8 @@ public class ScrollingUpdateLabelCh2 implements Subscriber{
     }
 
     private void ImageClick1() {
+
+        ballDisplay.update();
 
         Label Labal_f1 = getLabel("labelF1");
         Label Labal_f2 = getLabel("labelF2");
@@ -101,12 +105,18 @@ public class ScrollingUpdateLabelCh2 implements Subscriber{
                         default:
                             break;
                     }
-
-                    for (int i = 0; i < ballclick; i++) {
-
-                        ballDisplay.balls[i][r].setVisible(true);
-
+                    for (int i = 0; i < glv.click1; i++){
+                        ballDisplay.balls[i][0].setVisible(true);
+                        for (int j = 0; j < glv.click2; j++) {
+                            ballDisplay.balls[i][j].setVisible(true);
+                        }
                     }
+
+//                    for (int i = 0; i < ballclick; i++) {
+//
+//                        ballDisplay.balls[i][r].setVisible(true);
+//
+//                    }
                 }
                 break;
 
@@ -132,11 +142,11 @@ public class ScrollingUpdateLabelCh2 implements Subscriber{
                 }
                 break;
 
-            default:
-                break;
-        }
-    }
 
+    default:
+      break;
+}
+    }
     private void Level3ImageClick() {
 
         Label quotient = getLabel("quotient");

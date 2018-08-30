@@ -10,6 +10,7 @@ import com.mygdx.game.BuilderBlocks.DoubleClickListener;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.ChapterClass.Ch5ArithmeticProgressions.DoubleClickImageCh5;
 import com.mygdx.game.ChapterClass.Ch5ArithmeticProgressions.DragLabelCh5;
+import com.mygdx.game.ChapterClass.Ch5ArithmeticProgressions.ScrollingUpdateCh5;
 import com.mygdx.game.ChapterClass.Ch5ArithmeticProgressions.VisebalComponentsCh5;
 import com.mygdx.game.Enum.ClickPluse;
 import com.mygdx.game.Global.GlobalsCommonCount;
@@ -31,6 +32,9 @@ public class Chapter5 extends ChapterScreen implements Screen {
 
   DragLabelCh5 dragLabelCh5;
   VisebalComponentsCh5 visebalComponentsCh5;
+
+  //Update components on clicking scrolling values
+  ScrollingUpdateCh5 scrollingUpdateCh5;
 
   //Double click listeners for plus
   DoubleClickListener dblClickListenerPlus;
@@ -213,9 +217,8 @@ public class Chapter5 extends ChapterScreen implements Screen {
     for(Image img : scrollingPara)
     {
       scrollingImages.add(img);
-
-      numLocal.scrolling(scrollingImages);
     }
+    numLocal.scrolling(scrollingImages, Events.CLICK_ScrollingCh5);
 
     //check if the updatables are present
     if(updatables == null)
@@ -226,16 +229,17 @@ public class Chapter5 extends ChapterScreen implements Screen {
     for (Label updatable : updatables) {
       String str = updatable.getName();
 
-      if (str.contains("Value4")) {
-        val4 = updatable;
-      }
-      else  if (str.contains("ValueD")) {
-        valueD = updatable;
-      }
-      else  if (str.contains("Congratulations")) {
-        cong = updatable;
-      }
+//      if (str.contains("Value4")) {
+//        val4 = updatable;
+//      }
+//      else  if (str.contains("ValueD")) {
+//        valueD = updatable;
+//      }
+//      else  if (str.contains("Congratulations")) {
+//        cong = updatable;
+//      }
     }
+    scrollingUpdateCh5 = new ScrollingUpdateCh5(updatables);
 
     for(Image numberI : scrollingPara)
     {
@@ -259,7 +263,7 @@ public class Chapter5 extends ChapterScreen implements Screen {
     {
       scrollingImages.add(img);
 
-      numLocal.scrolling(scrollingImages);
+      numLocal.scrolling(scrollingImages, Events.CLICK_ScrollingCh5);
     }
 
     //check if the updatables are present
@@ -355,11 +359,11 @@ public class Chapter5 extends ChapterScreen implements Screen {
     if(numLocal != null)
       numLocal.update(delta);
 
-    if (glv.lableWrite){
-      valueD.setText(glv.lableUpdate + " ");
-      val4.setText("47");
-      cong.setVisible(true);
-    }
+//    if (glv.lableWrite){
+//      valueD.setText(glv.lableUpdate + " ");
+//      val4.setText("47");
+//      cong.setVisible(true);
+//    }
 
 
     if (time.isTimeUp()){}

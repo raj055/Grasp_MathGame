@@ -231,7 +231,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
 
     }
 
-    numLocal.scrolling(scrollingImages);
+    numLocal.scrolling(scrollingImages, Events.CLICK_ScrollingCh1);
 
     //check if the updatables are present
     if(updatables == null)

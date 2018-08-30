@@ -10,6 +10,7 @@ import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.ScrollingImageClick;
 import com.mygdx.game.BuilderBlocks.ScrollingNumber;
+import com.mygdx.game.ChapterClass.Ch1RealNumbers.ScrollingUpdateLabelCh1;
 import com.mygdx.game.ChapterClass.Ch2Polynomials.DragPoint;
 import com.mygdx.game.ChapterClass.Ch2Polynomials.ScrollingUpdateLabelCh2;
 import com.mygdx.game.ChapterClass.Ch2Polynomials.VisebleComponetsCh2;
@@ -39,6 +40,9 @@ public class Chapter2 extends ChapterScreen implements Screen {
   int stepNo = 0;
 
   private Image submit = null;
+
+  //Update visible components on scrolling clicked
+  ScrollingUpdateLabelCh1 scrollingUpdateLableCh1;
 
   // component of level_2
   Label Labal_f2 = null;
@@ -198,7 +202,7 @@ public class Chapter2 extends ChapterScreen implements Screen {
 
     }
 
-    numLocal.scrolling(scrollingImages);
+    numLocal.scrolling(scrollingImages, Events.CLICK_SCROLLCH2_BALLDISPLAY);
 
     ballDisplay = new BallDisplay(8, 8);
 
@@ -233,16 +237,16 @@ public class Chapter2 extends ChapterScreen implements Screen {
 
       updateScrollLable.add(updatable);
     }
-
+//    scrollingUpdateLableCh1 = new ScrollingUpdateLabelCh1(updateScrollLable);
     scrollingUpdateLabelCh2 = new ScrollingUpdateLabelCh2(updateScrollLable);
 
-    for (int i = 0; i < BallDisplay.columns; i++){
+    for (int i = 0; i < ballDisplay.columns; i++){
 
-      for (int j = 0; j < BallDisplay.rows; j++) {
+      for (int j = 0; j < ballDisplay.rows; j++) {
 
-        stage.addActor(ballDisplay.balls[i][j]);
+        stage.addActor(scrollingUpdateLabelCh2.ballDisplay.balls[i][j]);
 
-        ballDisplay.balls[i][j].setVisible(false);
+        scrollingUpdateLabelCh2.ballDisplay.balls[i][j].setVisible(false);
 
       }
     }
@@ -274,7 +278,7 @@ public class Chapter2 extends ChapterScreen implements Screen {
 
     }
 
-    numLocal.scrolling(scrollingImages);
+    numLocal.scrolling(scrollingImages, Events.CLICK_ScrollingCh2);
 
     //check if the updatables are present
     if(updatables == null)

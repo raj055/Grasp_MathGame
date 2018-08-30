@@ -8,6 +8,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.ChapterClass.Ch4QuadraticEquations.DoubleClickImageCh4;
 import com.mygdx.game.ChapterClass.Ch4QuadraticEquations.DragLabelCh4;
+import com.mygdx.game.ChapterClass.Ch4QuadraticEquations.ScrollingUpdateCh4;
 import com.mygdx.game.ChapterClass.Ch4QuadraticEquations.VisebleComponentsCh4;
 import com.mygdx.game.Global.GlobalsCommonCount;
 import com.mygdx.game.ChapterClass.Ch1RealNumbers.BallDisplay;
@@ -32,8 +33,10 @@ public class Chapter4 extends ChapterScreen implements Screen {
 
   ArrayList<Image> scrollingImages = null;
 
-  // component of level_1
-  // Level1 step1
+  //Update on click scrolling components
+  ScrollingUpdateCh4 scrollingUpdateCh4;
+
+  //Chapter 4 Level 1 components
   public Label Labal_f1,Labal_f2,Labal_f3,Labal_f4;
   private int r = 0;
 
@@ -112,72 +115,46 @@ public class Chapter4 extends ChapterScreen implements Screen {
 
   void defineLevel1To5Components() {
 
-//    numLocal = new ScrollingNumber(Events.SCROLL_NUMBER_SELECT);
+    if(scrollingPara != null){
 
-    if(scrollingPara == null)
-      return;
+      numLocal = new ScrollingNumber();
+      scrollingImages = new ArrayList<Image>();
 
-    numLocal = new ScrollingNumber();
+      for(Image img : scrollingPara){
+        scrollingImages.add(img);
+      }
+      numLocal.scrolling(scrollingImages, Events.CLICK_ScrollingCh4);
 
-    scrollingImages = new ArrayList<Image>();
-
-    //totalObjects
-    scrollingPara.size();
-
-    for(Image img : scrollingPara)
-    {
-      scrollingImages.add(img);
-
-      numLocal.scrolling(scrollingImages);
+      for(Image numberI : numLocal.numbers)
+      {
+        stage.addActor(numberI);
+      }
     }
-
-    ballDisplay = new BallDisplay(8,8);
-
     //check if the updatables are present
-    if(updatables == null)
-      return;
+    if(updatables != null) {
 
-    //totalObjects
-    updatables.size();
-    for (Label updatable : updatables) {
-      String str = updatable.getName();
+      ArrayList<Label> updateScrollable = new ArrayList<Label>();
 
-      if (str.contains("labelF1")) {
-        Labal_f1 = updatable;
+      //totalObjects
+      updatables.size();
+
+      //Fill the array list for scrollable Updatables
+      for (Label updatable : updatables) {
+        updateScrollable.add(updatable);
       }
-      else if (str.contains("labelF2")) {
-        Labal_f2 = updatable;
-      }
-      else if (str.contains("labelF3")) {
-        Labal_f3 = updatable;
-      }
-      else if (str.contains("labelF4")) {
-        Labal_f4 = updatable;
-      }
-      else if (str.contains("number1")) {
-        num_1 = updatable;
-      }
-      else if (str.contains("number2")) {
-        num_2 = updatable;
-      }
-    }
+      scrollingUpdateCh4 = new ScrollingUpdateCh4(updateScrollable);
 
-    for (int i = 0; i < ballDisplay.columns; i++){
-
-      for (int j = 0; j < ballDisplay.rows; j++) {
-
-        stage.addActor(ballDisplay.balls[i][j]);
-
-        ballDisplay.balls[i][j].setVisible(false);
-
+      //Add display balls equal to number of rows and columns.
+      for (int i = 0; i < scrollingUpdateCh4.ballDisplay.columns; i++) {
+        //Loop for rows
+        for (int j = 0; j < scrollingUpdateCh4.ballDisplay.rows; j++) {
+          stage.addActor(scrollingUpdateCh4.ballDisplay.balls[i][j]);
+          scrollingUpdateCh4.ballDisplay.balls[i][j].setVisible(false);
+        }
       }
-    }
-
-    for(Image numberI : numLocal.numbers)
-    {
-      stage.addActor(numberI);
     }
   }
+
   void defineLevel6To10Components() {
 
     //check if the displayImages are present
@@ -322,52 +299,23 @@ public class Chapter4 extends ChapterScreen implements Screen {
   }
 
   private void renderLevel1(float deltaTime){
+
+    //Update time
     update(deltaTime);
 
+    //Update the scrolling variables if any
     if(numLocal != null)
-    numLocal.update(deltaTime);
-//    ballDisplay.update(deltaTime);
+      numLocal.update(deltaTime);
 
-    int ballclick = 0;
-
-    if (glv.lableWrite) {
-
-      switch (glv.countClick) {
-        case 1:
-          Labal_f1.setText(glv.lableUpdate + " ");
-          ballclick = glv.click1 = glv.lableUpdate;
-          break;
-        case 2:
-          Labal_f2.setText(glv.lableUpdate + " ");
-          ballclick = glv.click2 = glv.lableUpdate;
-          break;
-        case 3:
-          Labal_f3.setText(glv.lableUpdate + " ");
-          ballclick = glv.click3 = glv.lableUpdate;
-          break;
-        case 4:
-          Labal_f4.setText(glv.lableUpdate + " ");
-          ballclick = glv.click4 = glv.lableUpdate;
-
-          break;
-
-        default:
-          break;
-      }
-
-      for (int i = 0; i < ballclick; i++) {
-
-        ballDisplay.balls[i][r].setVisible(true);
-
-      }
-    }
-
+    //Time up
     if (time.isTimeUp()){ }
 
+    //Draw stage and timer
     stage.draw();
-
     time.stage.draw();
   }
+
+
   private void renderLevel2(float deltaTime){
     //Sets the color to be applied after clearing the screen (R,G,B,A)
     Gdx.gl.glClearColor(0,0,255,1);

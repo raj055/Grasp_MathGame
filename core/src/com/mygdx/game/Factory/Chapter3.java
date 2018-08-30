@@ -8,6 +8,7 @@ import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.ScrollingNumber;
 import com.mygdx.game.BuilderBlocks.DoubleClickListener;
 import com.mygdx.game.ChapterClass.Ch3LinearEquations.DragLabelCh3;
+import com.mygdx.game.ChapterClass.Ch3LinearEquations.ScrollingUpdateCh3;
 import com.mygdx.game.ChapterClass.Ch3LinearEquations.UpdateVisibleComponent;
 import com.mygdx.game.ChapterClass.Ch3LinearEquations.VisebalComponentsCh3;
 import com.mygdx.game.Component.NumberCh3;
@@ -28,6 +29,9 @@ public class Chapter3 extends ChapterScreen implements Screen {
   ArrayList<Image> scrollingImages = null;
 
   ScrollingNumber numLocal;
+
+  //Update labels on click scrolling components
+  ScrollingUpdateCh3 scrollingUpdateCh3;
 
   DoubleClickListener clickListenerY1;
   DoubleClickListener clickListenerY2;
@@ -124,10 +128,10 @@ public class Chapter3 extends ChapterScreen implements Screen {
 
   void defineLevel1To5Components() {
 //    numLocalch3 = new NumberCh3();
-    textveriabalch3 = new TextveriabalCh3();
+//    textveriabalch3 = new TextveriabalCh3();
 
 //    numLocalch3.addToStage(stage);
-    textveriabalch3.addToStage(stage);
+//    textveriabalch3.addToStage(stage);
 
     if(scrollingPara == null)
       return;
@@ -141,10 +145,9 @@ public class Chapter3 extends ChapterScreen implements Screen {
     for(Image img : scrollingPara)
     {
       scrollingImages.add(img);
-
-      numLocal.scrolling(scrollingImages);
+      stage.addActor(img);
     }
-
+    numLocal.scrolling(scrollingImages, Events.CLICK_ScrollingCh3);
     //check if the updatables are present
     if(updatables == null)
       return;
@@ -155,18 +158,16 @@ public class Chapter3 extends ChapterScreen implements Screen {
     {
       String str = updatable.getName();
 
-      if (str.contains("LabelB")) {
-        labelP = updatable;
-      }
-      else if (str.contains("LabelB")) {
-        labelE = updatable;
-      }
+//      if (str.contains("LabelB")) {
+//        labelP = updatable;
+//      }
+//      else if (str.contains("LabelB")) {
+//        labelE = updatable;
+//      }
     }
+    scrollingUpdateCh3 = new ScrollingUpdateCh3(updatables);
 
-    for(Image numberI : scrollingPara)
-    {
-      stage.addActor(numberI);
-    }
+
 
   }
   void defineLevel6To10Components() {
@@ -409,11 +410,11 @@ public class Chapter3 extends ChapterScreen implements Screen {
   private void renderLevel1(float deltaTime){
     update(deltaTime);
 
-    textveriabalch3.update(deltaTime);
+//    textveriabalch3.update(deltaTime);
 //    numLocalch3.update(deltaTime);
-//    if(numLocal != null)numLocal.update(deltaTime);
+    if(numLocal != null)numLocal.update(deltaTime);
 
-    if (glv.lableWrite) {
+     /*if (glv.lableWrite) {
 
       switch (glv.countClick){
         case 1:
@@ -429,7 +430,7 @@ public class Chapter3 extends ChapterScreen implements Screen {
           break;
       }
 
-    }
+    }*/
 
     if (time.isTimeUp()){
 //      GameStates.screenStates = ScreenStates.DIALOGBOX;

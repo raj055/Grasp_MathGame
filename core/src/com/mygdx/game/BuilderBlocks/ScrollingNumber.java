@@ -30,7 +30,7 @@ public class ScrollingNumber implements Disposable {
         scrollingNumber = new ArrayList<ScrollingImageClick>();
     }
 
-    public void scrolling(ArrayList<Image> imagescrolling){
+    public void scrolling(ArrayList<Image> imagescrolling, Events evt){
 
         int posX = 10;
         int posY;
@@ -38,7 +38,7 @@ public class ScrollingNumber implements Disposable {
 
         for(int numCount = 0; numCount < totalNumbers; numCount++)
         {
-            ScrollingImageClick scrollingImageClick = new ScrollingImageClick(Events.CLICK_ScrollingCh1);
+            ScrollingImageClick scrollingImageClick = new ScrollingImageClick(evt);
 
             final Image img = (imagescrolling.get(numCount));
 
