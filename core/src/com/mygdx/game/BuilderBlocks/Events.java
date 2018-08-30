@@ -36,6 +36,14 @@ public enum Events {
   DOUBLE_CLICK_IMG_C2,
   CLICK_SCROLLCH2_BALLDISPLAY,
 
+  // Chapter 4 : level 1
+  // Chapter 4 : level 2
+  DRAG_IMGLIGHT,
+  DRAG_IMGSQUARE,
+  DRAG_IMGSQUARE1,
+  DRAG_IMGSQUARE2,
+  DRAG_IMGBOX1,
+
   //Chapter3 - Drag : Level (11)
   DRAG_VALUE_A1,
   DRAG_VALUE_B1,
@@ -49,7 +57,6 @@ public enum Events {
 
 
   // Chapter 4 : level 3
-
 
   // Chapter 5 : level 1
   DOUBLE_CLICK_ADD,
@@ -78,8 +85,6 @@ public enum Events {
   DOUBLE_CLICK_IMG8,
   DOUBLE_CLICK_IMG9,
   DOUBLE_CLICK_IMG9_2,
-
-
 
   // Chapter 8 : level 1
   DOUBLE_CLICK_AC,

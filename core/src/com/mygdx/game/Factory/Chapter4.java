@@ -28,7 +28,12 @@ public class Chapter4 extends ChapterScreen implements Screen {
   ArrayList<Image> DragComponent;
   ArrayList<Image> VisebalComponent;
 
-  DragLabelCh4 dragLabelCh4;
+  DragLabelCh4 draglight;
+  DragLabelCh4 dragsquare;
+  DragLabelCh4 dragsquare1;
+  DragLabelCh4 dragsquare2;
+  DragLabelCh4 dragbox1;
+
   VisebleComponentsCh4 visebleComponentsCh4;
 
   ArrayList<Image> scrollingImages = null;
@@ -75,7 +80,6 @@ public class Chapter4 extends ChapterScreen implements Screen {
 
     time = new Timer();
 
-    dragLabelCh4 = new DragLabelCh4(Events.DRAG_LABEL);
     visebleComponentsCh4 = new VisebleComponentsCh4(VisebalComponent);
 
     glv = GlobalsCommonCount.getInstance();
@@ -157,6 +161,12 @@ public class Chapter4 extends ChapterScreen implements Screen {
 
   void defineLevel6To10Components() {
 
+    draglight = new DragLabelCh4(Events.DRAG_IMGLIGHT);
+    dragsquare = new DragLabelCh4(Events.DRAG_IMGSQUARE);
+    dragsquare1 = new DragLabelCh4(Events.DRAG_IMGSQUARE1);
+    dragsquare2 = new DragLabelCh4(Events.DRAG_IMGSQUARE2);
+    dragbox1 = new DragLabelCh4(Events.DRAG_IMGBOX1);
+
     //check if the displayImages are present
     if(displayImages == null)
       return;
@@ -168,19 +178,23 @@ public class Chapter4 extends ChapterScreen implements Screen {
 
       if (str.contains("light")) {
         light = updatable;
-        light.addListener(dragLabelCh4);
+        light.addListener(draglight);
       }
       else if (str.contains("Square")) {
         square = updatable;
+        square.addListener(dragsquare);
       }
       else if (str.contains("Square1")) {
         square1 = updatable;
+        square1.addListener(dragsquare1);
       }
       else if (str.contains("Square2")) {
         square2 = updatable;
+        square2.addListener(dragsquare2);
       }
       else if (str.contains("box1")) {
         box1 = updatable;
+        box1.addListener(dragbox1);
       }
       else if (str.contains("box2")) {
         box2 = updatable;
@@ -188,7 +202,6 @@ public class Chapter4 extends ChapterScreen implements Screen {
       else if (str.contains("boxDisplay")) {
         boxDisplay = updatable;
       }
-
     }
 
     //check if the updatables are present
@@ -294,10 +307,6 @@ public class Chapter4 extends ChapterScreen implements Screen {
           new RenderLevel() { public void renderL(float delta) { renderLevel3(delta); } }
   };
 
-  public void renderLevels(int index) {
-//    renderLists[index].renderL( );
-  }
-
   private void renderLevel1(float deltaTime){
 
     //Update time
@@ -314,7 +323,6 @@ public class Chapter4 extends ChapterScreen implements Screen {
     stage.draw();
     time.stage.draw();
   }
-
 
   private void renderLevel2(float deltaTime){
     //Sets the color to be applied after clearing the screen (R,G,B,A)
