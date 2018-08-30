@@ -30,7 +30,12 @@ public class Chapter6 extends ChapterScreen implements Screen {
 
   ArrayList<Image> scrollingImages = null;
 
-  DragShapeCh6 dragShapeCh6;
+  DragShapeCh6 dragShapeSquare;
+  DragShapeCh6 dragShapeSquare1;
+  DragShapeCh6 dragShapeCircle;
+  DragShapeCh6 dragShapeCircle1;
+  DragShapeCh6 dragShapeTriangle;
+
   VisebalComponentsCh6 visebalComponentsCh6;
 
   //Scrolling Number
@@ -69,7 +74,6 @@ public class Chapter6 extends ChapterScreen implements Screen {
 
     doubleClickLabelAC = new DoubleClickListener(Events.DOUBLE_CLICK_LabelAC);
 
-    dragShapeCh6 = new DragShapeCh6(Events.DRAG_SHAPE);
     visebalComponentsCh6 = new VisebalComponentsCh6(VisebalComponent);
 
     Click_imgVlu = new DoubleClickLabelCh6(Events.DOUBLE_CLICK_IMG);
@@ -121,23 +125,39 @@ public class Chapter6 extends ChapterScreen implements Screen {
   }
 
   void defineLevel1To5Components() {
+
+    dragShapeSquare = new DragShapeCh6(Events.DRAG_SQUARE);
+    dragShapeSquare1 = new DragShapeCh6(Events.DRAG_SQUARE1);
+    dragShapeCircle = new DragShapeCh6(Events.DRAG_CIRCLE);
+    dragShapeCircle1 = new DragShapeCh6(Events.DRAG_CIRCLE_1);
+    dragShapeTriangle = new DragShapeCh6(Events.DRAG_TRIANGLE_P);
+
     if(displayImages == null)
       return;
 
     displayImages.size();
     for (Image updatable : displayImages) {
       String str = updatable.getName();
+
       if (str.contains("squareImage")) {
         square = updatable;
+        square.addListener(dragShapeSquare);
+
       } else if (str.contains("square1Image")) {
         square1 = updatable;
+        square1.addListener(dragShapeSquare1);
+
       } else if (str.contains("sercalImage")) {
         sercal = updatable;
+        sercal.addListener(dragShapeCircle);
+
       } else if (str.contains("sercal1Image")) {
         sercal1 = updatable;
+        sercal1.addListener(dragShapeCircle1);
+
       } else if (str.contains("triangle_p")) {
         triangle_p = updatable;
-        triangle_p.addListener(dragShapeCh6);
+        triangle_p.addListener(dragShapeTriangle);
       }
     }
   }

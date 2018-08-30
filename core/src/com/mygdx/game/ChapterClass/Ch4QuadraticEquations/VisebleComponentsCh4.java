@@ -8,11 +8,14 @@ import com.mygdx.game.BuilderBlocks.Subscriber;
 
 import java.util.ArrayList;
 
+import static com.mygdx.game.BuilderBlocks.Events.DRAG_IMGBOX1;
+import static com.mygdx.game.BuilderBlocks.Events.DRAG_IMGLIGHT;
+import static com.mygdx.game.BuilderBlocks.Events.DRAG_IMGSQUARE;
+import static com.mygdx.game.BuilderBlocks.Events.DRAG_IMGSQUARE1;
+import static com.mygdx.game.BuilderBlocks.Events.DRAG_IMGSQUARE2;
 import static com.mygdx.game.BuilderBlocks.Events.DRAG_LABEL;
 
 public class VisebleComponentsCh4 implements Subscriber {
-
-    ChapterVariables chapterVariables = ChapterVariables.getInstance();
 
     ArrayList<Image> visibleComponents;
 
@@ -23,22 +26,45 @@ public class VisebleComponentsCh4 implements Subscriber {
         //Get Notifier instance
         Notifier notifier = Notifier.getInstance();
 
-        notifier.RegisterSubscriber(this,DRAG_LABEL);
-    }
-
-    void updateVisibleComponents(){
-
-        Image line = visibleComponents.get(0);
-        line.setVisible(false);
-
-        Image line1 = visibleComponents.get(1);
-        line1.setVisible(true);
+        notifier.RegisterSubscriber(this,DRAG_IMGLIGHT);
+        notifier.RegisterSubscriber(this,DRAG_IMGSQUARE);
+        notifier.RegisterSubscriber(this,DRAG_IMGSQUARE1);
+        notifier.RegisterSubscriber(this,DRAG_IMGSQUARE2);
+        notifier.RegisterSubscriber(this,DRAG_IMGBOX1);
     }
 
     @Override
     public void UpdateAllElements(Events evt) {
-        if(evt == Events.DRAG_LABEL){
-            updateVisibleComponents();
+        if(evt == Events.DRAG_IMGLIGHT){
+            draglight();
         }
+        else if (evt == Events.DRAG_IMGSQUARE){
+            dragsquare();
+        }
+        else if (evt == Events.DRAG_IMGSQUARE1){
+            dragsquare1();
+        }
+        else if (evt == Events.DRAG_IMGSQUARE2){
+            dragsquare2();
+        }
+        else if (evt == Events.DRAG_IMGBOX1){
+            dragbox();
+        }
+    }
+
+    private void draglight() {
+
+    }
+    private void dragsquare() {
+
+    }
+    private void dragsquare1() {
+
+    }
+    private void dragsquare2() {
+
+    }
+    private void dragbox() {
+
     }
 }
