@@ -41,8 +41,17 @@ public class Chapter3 extends ChapterScreen implements Screen {
   DoubleClickListener clickListenerC2;
   UpdateVisibleComponent updateVisibleComponent;
 
-  DragLabelCh3 dragLabelCh3;
-//  VisebalComponentsCh3 visebalComponentsCh3;
+  DragLabelCh3 dragListenerA1;
+  DragLabelCh3 dragListenerB1;
+  DragLabelCh3 dragListenerC1;
+  DragLabelCh3 dragListenerA2;
+  DragLabelCh3 dragListenerB2;
+  DragLabelCh3 dragListenerC2;
+  DragLabelCh3 dragListenerB11;
+  DragLabelCh3 dragListenerB21;
+
+  VisebalComponentsCh3 visebalComponentsCh3;
+  VisebalComponentsCh3 visebalComponentsCh3Level11;
 
   // component of level_1
   private Label labelP,labelE;
@@ -84,8 +93,6 @@ public class Chapter3 extends ChapterScreen implements Screen {
 
     time = new Timer();
 
-    dragLabelCh3 = new DragLabelCh3(Events.DRAG_LABEL);
-
 
     glv = GlobalsCommonCount.getInstance();
 
@@ -95,7 +102,7 @@ public class Chapter3 extends ChapterScreen implements Screen {
     clickListenerSq2 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG_SQ2);
     clickListenerC1 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG_C1);
     clickListenerC2 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG_C2);
-    updateVisibleComponent = new UpdateVisibleComponent(VisebalComponent);
+
 
     getLevelName();
     initialiseLevelComponents(currentLevelNumber);
@@ -231,34 +238,23 @@ public class Chapter3 extends ChapterScreen implements Screen {
     for (Label updatable : updatables) {
       String str = updatable.getName();
 
-      if (str.contains("Valuey1")) {
-        y1 = updatable;
-      }
-      else if (str.contains("Valuey2")) {
-        y2 = updatable;
-      }
-      else if (str.contains("Label2y")) {
-        label_2y = updatable;
-      }
-      else if (str.contains("Labelx")) {
-        label_x = updatable;
-      }
-      else if (str.contains("Number")) {
-        num = updatable;
-      }
-      else if (str.contains("Equal")) {
-        eqval = updatable;
-      }
-      else if (str.contains("Minimum")) {
-        min = updatable;
-      }
-      else if (str.contains("Ansvalue")) {
-        AnsValue = updatable;
-      }
+
 
     }
+    visebalComponentsCh3 = new VisebalComponentsCh3(displayImages, updatables);
   }
   void defineLevel11To15Components() {
+
+    dragListenerA1 = new DragLabelCh3(Events.DRAG_VALUE_A1);
+    dragListenerA2 = new DragLabelCh3(Events.DRAG_VALUE_A2);
+    dragListenerB1 = new DragLabelCh3(Events.DRAG_VALUE_B1);
+    dragListenerB2 = new DragLabelCh3(Events.DRAG_VALUE_B2);
+    dragListenerC1 = new DragLabelCh3(Events.DRAG_VALUE_C1);
+    dragListenerC2 = new DragLabelCh3(Events.DRAG_VALUE_C2);
+    dragListenerB11 = new DragLabelCh3(Events.DRAG_VALUE_B11);
+    dragListenerB21 = new DragLabelCh3(Events.DRAG_VALUE_B21);
+
+
     if(displayImages == null)
       return;
     displayImages.size();
@@ -302,50 +298,57 @@ public class Chapter3 extends ChapterScreen implements Screen {
     for (Label updatable : updatables) {
       String str = updatable.getName();
 
-      if (str.contains("ValueA")) {
+      if (str.equals("ValueA")) {
         valueA = updatable;
-        valueA.addListener(dragLabelCh3);
+        valueA.addListener(dragListenerA1);
       }
-      else if (str.contains("ValueB")) {
+      else if (str.equals("ValueB")) {
         valueB = updatable;
+        valueB.addListener(dragListenerB1);
       }
-      else if (str.contains("ValueB11")) {
+      else if (str.equals("ValueB11")) {
         valueB11 = updatable;
+        valueB11.addListener(dragListenerB11);
       }
-      else if (str.contains("ValueC")) {
+      else if (str.equals("ValueC")) {
         valueC = updatable;
+        valueC.addListener(dragListenerC1);
       }
-      else if (str.contains("ValueA1")) {
+      else if (str.equals("ValueA1")) {
         valueA1 = updatable;
+        valueA1.addListener(dragListenerA2);
       }
-      else if (str.contains("ValueB1")) {
+      else if (str.equals("ValueB1")) {
         valueB1 = updatable;
+        valueB1.addListener(dragListenerB2);
       }
-      else if (str.contains("ValueB12")) {
+      else if (str.equals("ValueB12")) {
         valueB12 = updatable;
+        valueB12.addListener(dragListenerB21);
       }
-      else if (str.contains("ValueC1")) {
+      else if (str.equals("ValueC1")) {
         valueC1 = updatable;
+        valueC1.addListener(dragListenerC2);
       }
-      else if (str.contains("Labelb")) {
+      else if (str.equals("Labelb")) {
         b = updatable;
       }
-      else if (str.contains("Labelc2")) {
+      else if (str.equals("Labelc2")) {
         c2 = updatable;
       }
-      else if (str.contains("Labelb2")) {
+      else if (str.equals("Labelb2")) {
         b2 = updatable;
       }
-      else if (str.contains("Labelc1")) {
+      else if (str.equals("Labelc1")) {
         c = updatable;
       }
-      else if (str.contains("LabelA1")) {
+      else if (str.equals("LabelA1")) {
         a = updatable;
       }
-      else if (str.contains("Labelb12")) {
+      else if (str.equals("Labelb12")) {
         b12 = updatable;
       }
-      else if (str.contains("LabelA2")) {
+      else if (str.equals("LabelA2")) {
         a2 = updatable;
       }
       else if (str.contains("Labelb11")) {
@@ -355,6 +358,7 @@ public class Chapter3 extends ChapterScreen implements Screen {
         AnsLabel = updatable;
       }
     }
+    visebalComponentsCh3Level11 = new VisebalComponentsCh3(displayImages, updatables);
   }
 
   interface LevelDefinition {

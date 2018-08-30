@@ -9033,7 +9033,7 @@
                 10,
                 100
               ],
-              "Visible": true
+              "Visible": false
             },
             "Titlevalue1": {
               "Image": "data_ch3/title.png",
@@ -9045,7 +9045,7 @@
                 10,
                 170
               ],
-              "Visible": true
+              "Visible": false
             },
             "BoxImage": {
               "Image": "data/box.png",

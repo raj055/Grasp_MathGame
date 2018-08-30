@@ -3,8 +3,10 @@ package com.mygdx.game.Factory;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL20;
+import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
+import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.mygdx.game.Animation.AnimationClass;
 import com.mygdx.game.BuilderBlocks.ChapterVariables;
 import com.mygdx.game.BuilderBlocks.Events;
@@ -13,6 +15,7 @@ import com.mygdx.game.BuilderBlocks.ScrollingImageClick;
 import com.mygdx.game.BuilderBlocks.ScrollingNumber;
 import com.mygdx.game.ChapterClass.Ch1RealNumbers.BallDisplay;
 import com.mygdx.game.ChapterClass.Ch1RealNumbers.ScrollingUpdateLabelCh1;
+import com.mygdx.game.Enum.ScreenStates;
 import com.mygdx.game.Global.GlobalsCommonCount;
 import com.mygdx.game.ChapterClass.Ch1RealNumbers.BallDragListener;
 import com.mygdx.game.ChapterClass.Ch1RealNumbers.DragBallIndicators;
@@ -55,7 +58,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
   //Ball Drag Listener
   BallDragListener ballDragListener;
   RemainderDragListener remBallDragListener;
-
+  int stageTranslate = 0;
   //Scrolling Number
   ScrollingNumber numLocal;
 
@@ -68,6 +71,10 @@ public class Chapter1 extends ChapterScreen implements Screen {
   ScrollingUpdateLabelCh1 scrollingUpdateLableCh1;
 
   private ScrollingImageClick scrollingImageClick;
+
+  //submit button
+  private Label submitButton = null;
+
 
   //Animation
   AnimationClass animationClass;
@@ -88,6 +95,13 @@ public class Chapter1 extends ChapterScreen implements Screen {
     remBallDragListener = new RemainderDragListener(Events.REMAINDER_BALL_DRAG);
 
 //    numLocal = new ScrollingNumber(Events.SCROLL_NUMBER_SELECT);
+
+    //Get Submit Button
+//    if(buttonsList.size()!=0){
+//      for(Label bttn:buttonsList){
+//        if(bttn.getName(""))
+//      }
+//    }
 
     getLevelName();
     initialiseLevelComponents(currentLevelNumber);
@@ -211,7 +225,40 @@ public class Chapter1 extends ChapterScreen implements Screen {
     ballDragListener.setDisplayBalls(displayBalls);
 
     attachDraggables();
+
+    if(buttonsList != null){
+      for(Label subBtn : buttonsList){
+        String name = subBtn.getName();
+        if (name.equalsIgnoreCase("SubmitButtn")){
+          submitButton = subBtn;
+          submitButton.addListener(submitButtonClicked);
+        }
+      }
+
+    }
   }
+
+    ClickListener submitButtonClicked = new ClickListener(){
+      @Override
+      public  void clicked(InputEvent event, float x, float y){
+
+        if(goToNextStep() != true) {
+          GameStates.screenStates = ScreenStates.LEVELSCREEN;
+          time.dispose();
+        }
+        else{
+          stageTranslate += 400;
+          if(stageTranslate >= 1200) {
+            stageTranslate = 0;
+          }
+          defineLevel1To10Components();
+          stage.getCamera().translate(stageTranslate,0,0);
+          stage.getCamera().update();
+        }
+
+      }
+    };
+
 
   private void defineLevel11to15Components() {
 

@@ -131,10 +131,8 @@ public abstract class ChapterScreen {
             if(xPosAdditionFactor > 800)
               xPosAdditionFactor = 0;
 
-//              break;
+
           }
-//        }
-//        while(displaysTotal.containsKey(gblVar.StepName[stepNumber]));
       }
     }
   }
