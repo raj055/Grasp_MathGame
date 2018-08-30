@@ -155,17 +155,12 @@ public class Chapter6 extends ChapterScreen implements Screen {
 
       for (Image img : scrollingPara) {
         scrollingImages.add(img);
-
-        numLocal.scrolling(scrollingImages, Events.CLICK_ScrollingCh6);
-
+        stage.addActor(img);
       }
-      for(Image numberI : scrollingPara)
-      {
-        stage.addActor(numberI);
-      }
+      numLocal.scrolling(scrollingImages, Events.CLICK_ScrollingCh6);
     }
 
-    //check if the updatables are present
+    //check if the updatable are present
     if(updatables != null) {
 
       LableChange = new ArrayList<Label>();
@@ -176,20 +171,10 @@ public class Chapter6 extends ChapterScreen implements Screen {
         if (str.contains("value4")) {
           value4 = updatable;
           value4.addListener(doubleClickLabelAC);
-        } else if (str.contains("Labelanser")) {
-          anser = updatable;
-        } else if (str.contains("value")) {
-          value = updatable;
-        } else if (str.contains("value1")) {
-          value1 = updatable;
-        } else if (str.contains("value3")) {
-          value3 = updatable;
         }
-
         LableChange.add(updatable);
       }
     }
-
     updateLabelCh6 = new UpdateLabelCh6(LableChange);
   }
   void defineLevel11To15Components() {
@@ -312,9 +297,6 @@ public class Chapter6 extends ChapterScreen implements Screen {
           new RenderLevel() { public void renderL(float delta) { renderLevel3(delta); } }
   };
 
-  public void renderLevels(int index) {
-//    renderLists[index].renderL( );
-  }
   private void renderLevel1(float delta){
     update(delta);
 
@@ -353,11 +335,9 @@ public class Chapter6 extends ChapterScreen implements Screen {
     }*/
 
     if (time.isTimeUp()){
-//      GameStates.screenStates = ScreenStates.DIALOGBOX;
     }
 
     stage.draw();
-
     time.stage.draw();
   }
   private void renderLevel3(float deltaTime){

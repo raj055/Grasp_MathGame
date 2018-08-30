@@ -9,6 +9,7 @@ import com.mygdx.game.Global.GlobalsCommonCount;
 import java.util.ArrayList;
 
 import static com.mygdx.game.BuilderBlocks.Events.CLICK_ScrollingCh5;
+import static com.mygdx.game.BuilderBlocks.Events.CLICK_ScrollingCh5L3;
 
 public class ScrollingUpdateCh5 implements Subscriber {
 
@@ -23,12 +24,16 @@ public class ScrollingUpdateCh5 implements Subscriber {
 
         Notifier notifier = Notifier.getInstance();
         notifier.RegisterSubscriber(this, CLICK_ScrollingCh5);
+        notifier.RegisterSubscriber(this, CLICK_ScrollingCh5L3);
     }
 
     @Override
     public void UpdateAllElements(Events evt) {
         if(evt == CLICK_ScrollingCh5){
             ImageClick1();
+        }
+        else if (evt == CLICK_ScrollingCh5L3){
+            ImageClick2();
         }
     }
 
@@ -43,6 +48,15 @@ public class ScrollingUpdateCh5 implements Subscriber {
         }
     }
 
+    private void ImageClick2() {
+        Label val4 = getLabel("Value4");
+
+        if (glv.lableWrite){
+
+            val4.setText(glv.lableUpdate + " ");
+
+        }
+    }
 
     private Label getLabel(String LabelShow) {
 

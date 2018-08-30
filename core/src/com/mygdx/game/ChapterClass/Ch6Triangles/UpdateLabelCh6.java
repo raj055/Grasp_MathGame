@@ -33,7 +33,8 @@ public class UpdateLabelCh6 implements Subscriber {
     }
 
     private void changeValue() {
-        Label labelAns = getLabel("Labelanser");
+
+        Label labelAns = getLabel("numeric3");
 
         if (labelAns != null) {
             labelAns.setText("AC");

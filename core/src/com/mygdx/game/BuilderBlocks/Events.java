@@ -42,6 +42,8 @@ public enum Events {
 
   // Chapter 5 : level 1
   DOUBLE_CLICK_ADD,
+  // Chapter 5 : level 3
+  CLICK_ScrollingCh5L3,
 
   // Chapter 6 : level 1
   DRAG_SQUARE,

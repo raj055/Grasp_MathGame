@@ -19,10 +19,6 @@ import com.mygdx.game.Timer.Timer;
 
 import java.util.ArrayList;
 
-/**
- * Created by HP on 22-01-2018.
- */
-
 public class Chapter5 extends ChapterScreen implements Screen {
 
   private Timer time;
@@ -134,12 +130,9 @@ public class Chapter5 extends ChapterScreen implements Screen {
         }
       }
     }
-    //check if the updatables are present
+    //check if the updatable are present
     if(updatables == null)
       return;
-
-    //totalObjects
-
 
     updatables.size();
     for (Label updatable : updatables) {
@@ -203,94 +196,64 @@ public class Chapter5 extends ChapterScreen implements Screen {
     }
   }
   void defineLevel6To10Components() {
+    if(scrollingPara != null){
+        numLocal = new ScrollingNumber();
 
-    if(scrollingPara == null)
-      return;
+        scrollingImages = new ArrayList<Image>();
 
-    numLocal = new ScrollingNumber();
+        //totalObjects
+        scrollingPara.size();
 
-    scrollingImages = new ArrayList<Image>();
+        for(Image img : scrollingPara)
+        {
+            scrollingImages.add(img);
+            stage.addActor(img);
+        }
+        numLocal.scrolling(scrollingImages, Events.CLICK_ScrollingCh5);
 
-    //totalObjects
-    scrollingPara.size();
+        //check if the updatable are present
+        if(updatables == null)
+            return;
 
-    for(Image img : scrollingPara)
-    {
-      scrollingImages.add(img);
+        //totalObjects
+        updatables.size();
+        for (Label updatable : updatables) {
+            updatable.getName();
+        }
+
+        scrollingUpdateCh5 = new ScrollingUpdateCh5(updatables);
     }
-    numLocal.scrolling(scrollingImages, Events.CLICK_ScrollingCh5);
-
-    //check if the updatables are present
-    if(updatables == null)
-      return;
-
-    //totalObjects
-    updatables.size();
-    for (Label updatable : updatables) {
-      String str = updatable.getName();
-
-//      if (str.contains("Value4")) {
-//        val4 = updatable;
-//      }
-//      else  if (str.contains("ValueD")) {
-//        valueD = updatable;
-//      }
-//      else  if (str.contains("Congratulations")) {
-//        cong = updatable;
-//      }
-    }
-    scrollingUpdateCh5 = new ScrollingUpdateCh5(updatables);
-
-    for(Image numberI : scrollingPara)
-    {
-      stage.addActor(numberI);
-    }
-
   }
   void defineLevel11To15Components() {
 
-    if(scrollingPara == null)
-      return;
+    if(scrollingPara != null) {
 
-    numLocal = new ScrollingNumber();
+      numLocal = new ScrollingNumber();
 
-    scrollingImages = new ArrayList<Image>();
+      scrollingImages = new ArrayList<Image>();
 
-    //totalObjects
-    scrollingPara.size();
+      //totalObjects
+      scrollingPara.size();
 
-    for(Image img : scrollingPara)
-    {
-      scrollingImages.add(img);
-
-      numLocal.scrolling(scrollingImages, Events.CLICK_ScrollingCh5);
-    }
-
-    //check if the updatables are present
-    if(updatables == null)
-      return;
-
-    //totalObjects
-    updatables.size();
-    for (Label updatable : updatables) {
-      String str = updatable.getName();
-
-      if (str.contains("Value4")) {
-        val4 = updatable;
+      for(Image img : scrollingPara)
+      {
+        scrollingImages.add(img);
+        stage.addActor(img);
       }
-      else  if (str.contains("Value1")) {
-        value1 = updatable;
-      }
-      else  if (str.contains("Labelval1")) {
-        val1 = updatable;
-      }
-    }
 
-    for(Image numberI : scrollingPara)
-    {
-      stage.addActor(numberI);
-    }
+      numLocal.scrolling(scrollingImages, Events.CLICK_ScrollingCh5L3);
 
+      //check if the updatable are present
+      if(updatables == null)
+        return;
+
+      //totalObjects
+      updatables.size();
+      for (Label updatable : updatables) {
+        updatable.getName();
+      }
+      scrollingUpdateCh5 = new ScrollingUpdateCh5(updatables);
+    }
   }
 
   interface LevelDefinition {
@@ -378,11 +341,11 @@ public class Chapter5 extends ChapterScreen implements Screen {
 
     numLocal.update(deltaTime);
 
-    if (glv.lableWrite){
+    /*if (glv.lableWrite){
 
       val4.setText(glv.lableUpdate + " ");
 
-    }
+    }*/
 
     if (time.isTimeUp()){}
 
