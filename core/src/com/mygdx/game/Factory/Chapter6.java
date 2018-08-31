@@ -160,6 +160,7 @@ public class Chapter6 extends ChapterScreen implements Screen {
         triangle_p.addListener(dragShapeTriangle);
       }
     }
+    visebalComponentsCh6 = new VisebalComponentsCh6(displayImages);
   }
   void defineLevel6To10Components() {
 
@@ -320,9 +321,7 @@ public class Chapter6 extends ChapterScreen implements Screen {
   private void renderLevel1(float delta){
     update(delta);
 
-    if (time.isTimeUp()){
-//      GameStates.screenStates = ScreenStates.DIALOGBOX;
-    }
+    if (time.isTimeUp()){}
 
     stage.draw();
 

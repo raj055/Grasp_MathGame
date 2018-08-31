@@ -73,7 +73,6 @@ public class Chapter5 extends ChapterScreen implements Screen {
     time = new Timer();
 
     dragLabelCh5 = new DragLabelCh5(Events.DRAG_LABEL);
-    visebalComponentsCh5 = new VisebalComponentsCh5(VisebalComponent);
 
     ImageADD = new DoubleClickImageCh5(Events.DOUBLE_CLICK_ADD);
 

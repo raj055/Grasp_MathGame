@@ -10,9 +10,6 @@ import java.util.ArrayList;
 
 public class DragLabelCh7 extends OnDragCallBack {
 
-    ArrayList<Image> DragLabel = new ArrayList<Image>();
-
-    ChapterVariables chapterVariables = ChapterVariables.getInstance();
 
     public DragLabelCh7(Events triggerEvent) { super(triggerEvent); }
 
@@ -26,29 +23,7 @@ public class DragLabelCh7 extends OnDragCallBack {
     @Override
     public void dragStop(InputEvent event, float x, float y, int pointer) {
 
-        //Update the relevant variables
-        updateGlobalVariables();
-
-        //Update the relevant labels
         postEvent();
 
     }
-
-    public void setDisplayLabel(ArrayList<Image> dispEliment){
-        if (dispEliment != null) {
-            DragLabel.addAll(dispEliment);
-        }
-    }
-
-
-    void updateGlobalVariables(){
-
-        /*int xPos = 240;
-
-        for(Image disBall : DragLabel) {
-            disBall.setPosition(xPos, MyGame.HEIGHT - 130);
-            xPos += 50;
-        }*/
-    }
-
 }
