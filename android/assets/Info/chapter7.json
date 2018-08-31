@@ -1602,6 +1602,17 @@
                 270
               ]
             },
+            "LabelValuek4": {
+              "Text" :"1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                300,
+                270
+              ]
+            },
             "SyntaxLabelk": {
               "Text" :"k",
               "Size": [

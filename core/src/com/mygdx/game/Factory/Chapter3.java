@@ -161,16 +161,8 @@ public class Chapter3 extends ChapterScreen implements Screen {
 
     //totalObjects
     updatables.size();
-    for (Label updatable : updatables)
-    {
-      String str = updatable.getName();
-
-//      if (str.contains("LabelB")) {
-//        labelP = updatable;
-//      }
-//      else if (str.contains("LabelB")) {
-//        labelE = updatable;
-//      }
+    for (Label updatable : updatables){
+       updatable.getName();
     }
     scrollingUpdateCh3 = new ScrollingUpdateCh3(updatables);
 
@@ -236,10 +228,7 @@ public class Chapter3 extends ChapterScreen implements Screen {
     //totalObjects
     updatables.size();
     for (Label updatable : updatables) {
-      String str = updatable.getName();
-
-
-
+      updatable.getName();
     }
     visebalComponentsCh3 = new VisebalComponentsCh3(displayImages, updatables);
   }

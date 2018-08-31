@@ -511,36 +511,4 @@ public class Chapter2 extends ChapterScreen implements Screen {
     time.stage.draw();
   }
 
-  // Step's Render
-  interface RenderStep {
-    void renderS(float delta);
-  }
-
-  private RenderStep[] renderSteps = (RenderStep[]) new RenderStep[]{
-          new RenderStep() {
-            @Override
-            public void renderS(float delta) { renderSteps1(delta);} },
-          new RenderStep() { public void renderS(float delta) { renderSteps2(delta); } },
-          new RenderStep() { public void renderS(float delta) { renderSteps3(delta); } },
-  };
-
-  private void renderSteps1(float delta){
-    update(delta);
-
-    if (time.isTimeUp()){
-//      GameStates.screenStates = ScreenStates.DIALOGBOX;
-    }
-
-    stage.draw();
-
-    time.stage.draw();
-  }
-  private void renderSteps2(float delta){
-    update(delta);
-
-    stage.draw();
-  }
-  private void renderSteps3(float delta){
-    stage.draw();
-  }
 }
