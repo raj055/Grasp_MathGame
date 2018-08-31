@@ -3,13 +3,16 @@ package com.mygdx.game.Factory;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL20;
+import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
+import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.ChapterClass.Ch4QuadraticEquations.DoubleClickImageCh4;
 import com.mygdx.game.ChapterClass.Ch4QuadraticEquations.DragLabelCh4;
 import com.mygdx.game.ChapterClass.Ch4QuadraticEquations.ScrollingUpdateCh4;
 import com.mygdx.game.ChapterClass.Ch4QuadraticEquations.VisebleComponentsCh4;
+import com.mygdx.game.Enum.ScreenStates;
 import com.mygdx.game.Global.GlobalsCommonCount;
 import com.mygdx.game.ChapterClass.Ch1RealNumbers.BallDisplay;
 import com.mygdx.game.BuilderBlocks.ScrollingNumber;
@@ -74,6 +77,8 @@ public class Chapter4 extends ChapterScreen implements Screen {
   BallDisplay ballDisplay;
 
   DoubleClickImageCh4 doubleClickImageCh4;
+  private Image submitButton = null;
+  private int stageTranslate = 0;
 
   Chapter4(){
     super();
@@ -117,6 +122,34 @@ public class Chapter4 extends ChapterScreen implements Screen {
     stage.dispose();
   }
 
+  // Submit Button ClickListener
+  ClickListener submitButtonClicked = new ClickListener(){
+    @Override
+    public  void clicked(InputEvent event, float x, float y){
+
+      if(goToNextStep() != true) {
+        GameStates.screenStates = ScreenStates.LEVELSCREEN;
+        time.dispose();
+      }
+      else{
+
+        int trnslate = 400;
+        stageTranslate += 400;
+//        if(stageTranslate >= 1200) {
+//          trnslate = 0;
+//          stageTranslate = 0;
+//        }
+
+        //Get the Level Number and Initialise the Level Components.
+        getLevelName();
+        initialiseLevelComponents(currentLevelNumber);
+
+        stage.getCamera().translate(trnslate,0,0);
+        stage.getCamera().update();
+      }
+    }
+  };
+
   void defineLevel1To5Components() {
 
     if(scrollingPara != null){
@@ -157,8 +190,10 @@ public class Chapter4 extends ChapterScreen implements Screen {
         }
       }
     }
-  }
 
+    //Add Submit Button Listener.
+    addSubmitButtonListner();
+  }
   void defineLevel6To10Components() {
 
     draglight = new DragLabelCh4(Events.DRAG_IMGLIGHT);
@@ -221,6 +256,9 @@ public class Chapter4 extends ChapterScreen implements Screen {
         x4 = updatable;
       }
     }
+
+    //Add Submit Button Listener.
+    addSubmitButtonListner();
   }
   void defineLevel11To15Components() {
     //check if the updatables are present
@@ -252,6 +290,22 @@ public class Chapter4 extends ChapterScreen implements Screen {
         DragB2 = updatable;
       }else if (str.contains("DragLabelC1")) {
         DragC1 = updatable;
+      }
+    }
+
+    //Add Submit Button Listener.
+    addSubmitButtonListner();
+  }
+
+  void addSubmitButtonListner(){
+    //Add Click Listener to the Submit Button
+    if(buttonsList != null){
+      for(Image subBtn : buttonsList){
+        String name = subBtn.getName();
+        if (name.equalsIgnoreCase("SubmitButtn")){
+          submitButton = subBtn;
+          submitButton.addListener(submitButtonClicked);
+        }
       }
     }
   }

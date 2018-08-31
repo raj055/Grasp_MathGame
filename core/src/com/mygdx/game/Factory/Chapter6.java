@@ -3,8 +3,10 @@ package com.mygdx.game.Factory;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL20;
+import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
+import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.mygdx.game.BuilderBlocks.DoubleClickListener;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.ScrollingNumber;
@@ -14,6 +16,7 @@ import com.mygdx.game.ChapterClass.Ch6Triangles.UpdateImageCh6;
 import com.mygdx.game.ChapterClass.Ch6Triangles.UpdateLabelCh6;
 import com.mygdx.game.ChapterClass.Ch6Triangles.VisebalComponentsCh6;
 import com.mygdx.game.Component.Numberch6;
+import com.mygdx.game.Enum.ScreenStates;
 import com.mygdx.game.Global.GlobalsCommonCount;
 import com.mygdx.game.Timer.Timer;
 
@@ -66,6 +69,8 @@ public class Chapter6 extends ChapterScreen implements Screen {
   UpdateImageCh6 updateImageCh6;
 
   DoubleClickListener doubleClickLabelAC;
+  private Image submitButton = null;
+  private int stageTranslate = 0;
 
   Chapter6(){
     super();
@@ -124,6 +129,34 @@ public class Chapter6 extends ChapterScreen implements Screen {
     stage.dispose();
   }
 
+  // Submit Button ClickListener
+  ClickListener submitButtonClicked = new ClickListener(){
+    @Override
+    public  void clicked(InputEvent event, float x, float y){
+
+      if(goToNextStep() != true) {
+        GameStates.screenStates = ScreenStates.LEVELSCREEN;
+        time.dispose();
+      }
+      else{
+
+        int trnslate = 400;
+        stageTranslate += 400;
+//        if(stageTranslate >= 1200) {
+//          trnslate = 0;
+//          stageTranslate = 0;
+//        }
+
+        //Get the Level Number and Initialise the Level Components.
+        getLevelName();
+        initialiseLevelComponents(currentLevelNumber);
+
+        stage.getCamera().translate(trnslate,0,0);
+        stage.getCamera().update();
+      }
+    }
+  };
+
   void defineLevel1To5Components() {
 
     dragShapeSquare = new DragShapeCh6(Events.DRAG_SQUARE);
@@ -161,6 +194,9 @@ public class Chapter6 extends ChapterScreen implements Screen {
       }
     }
     visebalComponentsCh6 = new VisebalComponentsCh6(displayImages);
+
+    //Add Submit Button Listener.
+    addSubmitButtonListner();
   }
   void defineLevel6To10Components() {
 
@@ -197,6 +233,9 @@ public class Chapter6 extends ChapterScreen implements Screen {
       }
     }
     updateLabelCh6 = new UpdateLabelCh6(LableChange);
+
+    //Add Submit Button Listener.
+    addSubmitButtonListner();
   }
   void defineLevel11To15Components() {
 
@@ -261,11 +300,25 @@ public class Chapter6 extends ChapterScreen implements Screen {
         imgVlu9 = updatable;
         imgVlu9.addListener(Click_imgVlu9);
       }
-
       ImagePosition.add(updatable);
     }
-
     updateImageCh6 = new UpdateImageCh6(ImagePosition);
+
+    //Add Submit Button Listener.
+    addSubmitButtonListner();
+  }
+
+  void addSubmitButtonListner(){
+    //Add Click Listener to the Submit Button
+    if(buttonsList != null){
+      for(Image subBtn : buttonsList){
+        String name = subBtn.getName();
+        if (name.equalsIgnoreCase("SubmitButtn")){
+          submitButton = subBtn;
+          submitButton.addListener(submitButtonClicked);
+        }
+      }
+    }
   }
 
   interface LevelDefinition {

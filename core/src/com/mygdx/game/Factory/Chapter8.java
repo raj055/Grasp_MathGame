@@ -3,10 +3,14 @@ package com.mygdx.game.Factory;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL20;
+import com.badlogic.gdx.scenes.scene2d.InputEvent;
+import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
+import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.ChapterClass.Ch8Trigonometry.DoubleClickLabelCh8;
 import com.mygdx.game.ChapterClass.Ch8Trigonometry.RelocateLabel;
+import com.mygdx.game.Enum.ScreenStates;
 import com.mygdx.game.Timer.Timer;
 
 import java.util.ArrayList;
@@ -21,6 +25,8 @@ public class Chapter8 extends ChapterScreen implements Screen {
 
   DoubleClickLabelCh8 clickLabelAC,clickLabelAC1,clickLabelAB,clickLabelAB1,clickLabelBC,clickLabelBC1;
   RelocateLabel relocateLabel;
+  private Image submitButton = null;
+  private int stageTranslate = 0;
 
   Chapter8(){
     super();
@@ -67,52 +73,91 @@ public class Chapter8 extends ChapterScreen implements Screen {
     stage.dispose();
   }
 
+  // Submit Button ClickListener
+  ClickListener submitButtonClicked = new ClickListener(){
+    @Override
+    public  void clicked(InputEvent event, float x, float y){
+
+      if(goToNextStep() != true) {
+        GameStates.screenStates = ScreenStates.LEVELSCREEN;
+        time.dispose();
+      }
+      else{
+
+        int trnslate = 400;
+        stageTranslate += 400;
+//        if(stageTranslate >= 1200) {
+//          trnslate = 0;
+//          stageTranslate = 0;
+//        }
+
+        //Get the Level Number and Initialise the Level Components.
+        getLevelName();
+        initialiseLevelComponents(currentLevelNumber);
+
+        stage.getCamera().translate(trnslate,0,0);
+        stage.getCamera().update();
+      }
+    }
+  };
+
   void defineLevel1To5Components() {
 
     //check if the updatables are present
-    if(updatables == null)
-      return;
+    if(updatables != null){
+      LabelPosition = new ArrayList<Label>();
+      //totalObjects
+      updatables.size();
+      for (Label updatable : updatables) {
+        String str = updatable.getName();
 
-    LabelPosition = new ArrayList<Label>();
-
-    //totalObjects
-    updatables.size();
-    for (Label updatable : updatables) {
-      String str = updatable.getName();
-
-      if (str.equals("LabelValue1")) {
-        value1 = updatable;
-        value1.addListener(clickLabelAC);
-
+        if (str.equals("LabelValue1")) {
+          value1 = updatable;
+          value1.addListener(clickLabelAC);
+        }
+        else if (str.equals("LabelValue1_1")) {
+          value1_1 = updatable;
+          value1_1.addListener(clickLabelAC1);
+        }
+        else if (str.equals("LabelValue3")) {
+          value3 = updatable;
+          value3.addListener(clickLabelAB);
+        }
+        else if (str.equals("LabelValue3_1")) {
+          value3_1 = updatable;
+          value3_1.addListener(clickLabelAB1);
+        }
+        else if (str.equals("LabelValue5")) {
+          value5 = updatable;
+          value5.addListener(clickLabelBC);
+        }
+        else if (str.equals("LabelValue5_1")) {
+          value5_1 = updatable;
+          value5_1.addListener(clickLabelBC1);
+        }
+        LabelPosition.add(updatable);
       }
-      else if (str.equals("LabelValue1_1")) {
-        value1_1 = updatable;
-        value1_1.addListener(clickLabelAC1);
-      }
-      else if (str.equals("LabelValue3")) {
-        value3 = updatable;
-        value3.addListener(clickLabelAB);
-      }
-      else if (str.equals("LabelValue3_1")) {
-        value3_1 = updatable;
-        value3_1.addListener(clickLabelAB1);
-      }
-      else if (str.equals("LabelValue5")) {
-        value5 = updatable;
-        value5.addListener(clickLabelBC);
-      }
-      else if (str.equals("LabelValue5_1")) {
-        value5_1 = updatable;
-        value5_1.addListener(clickLabelBC1);
-      }
-
-      LabelPosition.add(updatable);
+      relocateLabel = new RelocateLabel(LabelPosition);
     }
 
-      relocateLabel = new RelocateLabel(LabelPosition);
+    //Add Submit Button Listener.
+    addSubmitButtonListner();
   }
   void defineLevel6To10Components() { }
   void defineLevel11To15Components() { }
+
+  void addSubmitButtonListner(){
+    //Add Click Listener to the Submit Button
+    if(buttonsList != null){
+      for(Image subBtn : buttonsList){
+        String name = subBtn.getName();
+        if (name.equalsIgnoreCase("SubmitButtn")){
+          submitButton = subBtn;
+          submitButton.addListener(submitButtonClicked);
+        }
+      }
+    }
+  }
 
   interface LevelDefinition {
     void initialise();

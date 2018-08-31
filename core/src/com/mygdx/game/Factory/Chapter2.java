@@ -133,21 +133,6 @@ public class Chapter2 extends ChapterScreen implements Screen {
   }
 
   // Submit Button ClickListener
-  ClickListener submitClickListener = new ClickListener() {
-    @Override
-    public void clicked(InputEvent event, float x, float y) {
-
-      time.dispose();
-
-      stageTranslate = 400;
-      stepNo++;
-
-      defineLevel1to5Components();
-      stage.getCamera().translate(stageTranslate,0,0);
-      stage.getCamera().update();
-
-    }
-  };
   ClickListener submitButtonClicked = new ClickListener(){
     @Override
     public  void clicked(InputEvent event, float x, float y){
@@ -361,6 +346,7 @@ public class Chapter2 extends ChapterScreen implements Screen {
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }
+
   void addSubmitButtonListner(){
     //Add Click Listener to the Submit Button
     if(buttonsList != null){
@@ -373,6 +359,7 @@ public class Chapter2 extends ChapterScreen implements Screen {
       }
     }
   }
+
   interface LevelDefinition {
     void initialise();
   }
