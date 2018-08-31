@@ -73,7 +73,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
   private ScrollingImageClick scrollingImageClick;
 
   //submit button
-  private Label submitButton = null;
+  private Image submitButton = null;
 
 
   //Animation
@@ -95,13 +95,6 @@ public class Chapter1 extends ChapterScreen implements Screen {
     remBallDragListener = new RemainderDragListener(Events.REMAINDER_BALL_DRAG);
 
 //    numLocal = new ScrollingNumber(Events.SCROLL_NUMBER_SELECT);
-
-    //Get Submit Button
-//    if(buttonsList.size()!=0){
-//      for(Label bttn:buttonsList){
-//        if(bttn.getName(""))
-//      }
-//    }
 
     getLevelName();
     initialiseLevelComponents(currentLevelNumber);
@@ -227,14 +220,13 @@ public class Chapter1 extends ChapterScreen implements Screen {
     attachDraggables();
 
     if(buttonsList != null){
-      for(Label subBtn : buttonsList){
+      for(Image subBtn : buttonsList){
         String name = subBtn.getName();
         if (name.equalsIgnoreCase("SubmitButtn")){
           submitButton = subBtn;
           submitButton.addListener(submitButtonClicked);
         }
       }
-
     }
   }
 
@@ -251,7 +243,10 @@ public class Chapter1 extends ChapterScreen implements Screen {
           if(stageTranslate >= 1200) {
             stageTranslate = 0;
           }
-          defineLevel1To10Components();
+          //Get the Level Number and Initialise the Level Components.
+          getLevelName();
+          initialiseLevelComponents(currentLevelNumber);
+
           stage.getCamera().translate(stageTranslate,0,0);
           stage.getCamera().update();
         }
@@ -318,6 +313,22 @@ public class Chapter1 extends ChapterScreen implements Screen {
     for(Image numberI : scrollingPara)
     {
       stage.addActor(numberI);
+    }
+
+    //Add Submit Button Listener.
+    addSubmitButtonListner();
+  }
+
+  void addSubmitButtonListner(){
+    //Add Click Listener to the Submit Button
+    if(buttonsList != null){
+      for(Image subBtn : buttonsList){
+        String name = subBtn.getName();
+        if (name.equalsIgnoreCase("SubmitButtn")){
+          submitButton = subBtn;
+          submitButton.addListener(submitButtonClicked);
+        }
+      }
     }
 
   }

@@ -35,9 +35,9 @@ public class Nagetiv_Num {
     int posY;
     for(int numCount = 0; numCount < NUMBERCOUNT; numCount++)
     {
-      final Image img = new Image(new Texture(gblVar.NumberLevel3[numCount]));
+      Image img = new Image(new Texture(gblVar.NumberLevel3[numCount]));
 
-      gblVar.NumberLevel3[numCount] = gblVar.TextNumber2[numCount];
+//      gblVar.NumberLevel3[numCount] = gblVar.TextNumber2[numCount];
 
       final  int count = numCount;
 

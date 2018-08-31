@@ -343,6 +343,20 @@
               ],
               "Visible": true
             }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
           }
         },
         "Step2": {

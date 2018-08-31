@@ -211,7 +211,22 @@
               ],
               "Visible": true
             }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
           }
+
         },
         "Step2": {
           "Displays": {
@@ -407,6 +422,20 @@
               "Position": [
                 320,
                 675
+              ],
+              "Visible": true
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
               ],
               "Visible": true
             }
@@ -623,6 +652,20 @@
               ],
               "Visible": true
             }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
           }
         },
         "Step2": {
@@ -817,6 +860,20 @@
               "Position": [
                 320,
                 675
+              ],
+              "Visible": true
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
               ],
               "Visible": true
             }
@@ -1033,6 +1090,20 @@
               ],
               "Visible": true
             }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
           }
         },
         "Step2": {
@@ -1227,6 +1298,20 @@
               "Position": [
                 320,
                 675
+              ],
+              "Visible": true
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
               ],
               "Visible": true
             }
@@ -1443,6 +1528,20 @@
               ],
               "Visible": true
             }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
           }
         },
         "Step2": {
@@ -1637,6 +1736,20 @@
               "Position": [
                 320,
                 675
+              ],
+              "Visible": true
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
               ],
               "Visible": true
             }
@@ -1853,6 +1966,20 @@
               ],
               "Visible": true
             }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
           }
         },
         "Step2": {
@@ -2047,6 +2174,20 @@
               "Position": [
                 320,
                 675
+              ],
+              "Visible": true
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
               ],
               "Visible": true
             }
@@ -2385,6 +2526,20 @@
               "Value" : 9,
               "Visible": true
             }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
           }
         },
         "Step2": {
@@ -2718,22 +2873,24 @@
               "Value" : 9,
               "Visible": true
             }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
           }
         },
         "Step3": {
           "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible": true
-            },
             "Step3Image": {
               "Image": "data/step3.png",
               "Size": [
@@ -3189,6 +3346,20 @@
                 40
               ],
               "Value" : 9,
+              "Visible": true
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
               "Visible": true
             }
           }
@@ -3526,6 +3697,20 @@
               "Value" : 9,
               "Visible": true
             }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
           }
         },
         "Step2": {
@@ -3857,6 +4042,20 @@
                 40
               ],
               "Value" : 9,
+              "Visible": true
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
               "Visible": true
             }
           }
@@ -4330,6 +4529,20 @@
                 40
               ],
               "Value" : 9,
+              "Visible": true
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
               "Visible": true
             }
           }
@@ -4667,6 +4880,20 @@
               "Value" : 9,
               "Visible": true
             }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
           }
         },
         "Step2": {
@@ -4998,6 +5225,20 @@
                 40
               ],
               "Value" : 9,
+              "Visible": true
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
               "Visible": true
             }
           }
@@ -5471,6 +5712,20 @@
                 40
               ],
               "Value" : 9,
+              "Visible": true
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
               "Visible": true
             }
           }
@@ -5808,6 +6063,20 @@
               "Value" : 9,
               "Visible": true
             }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
           }
         },
         "Step2": {
@@ -6139,6 +6408,20 @@
                 40
               ],
               "Value" : 9,
+              "Visible": true
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
               "Visible": true
             }
           }
@@ -6614,6 +6897,20 @@
               "Value" : 9,
               "Visible": true
             }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
           }
         }
       },
@@ -6947,6 +7244,20 @@
                 40
               ],
               "Value" : 9,
+              "Visible": true
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
               "Visible": true
             }
           }
@@ -8064,6 +8375,20 @@
               "Value" : "xx",
               "Visible": true
             }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
           }
         },
         "Step2": {
@@ -8418,6 +8743,20 @@
               "Value" : -7,
               "Visible": true
             }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
           }
         },
         "Step3": {
@@ -8721,6 +9060,20 @@
               ],
               "Visible": true
             }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
           }
         },
         "Step4": {
@@ -9006,6 +9359,20 @@
               "Size": [
                 30,
                 40
+              ],
+              "Visible": true
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
               ],
               "Visible": true
             }
@@ -9318,6 +9685,20 @@
               "Value" : "xx",
               "Visible": true
             }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
           }
         },
         "Step2": {
@@ -9672,6 +10053,20 @@
               "Value" : -7,
               "Visible": true
             }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
           }
         },
         "Step3": {
@@ -9975,6 +10370,20 @@
               ],
               "Visible": true
             }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
           }
         },
         "Step4": {
@@ -10260,6 +10669,20 @@
               "Size": [
                 30,
                 40
+              ],
+              "Visible": true
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
               ],
               "Visible": true
             }
@@ -10570,6 +10993,20 @@
                 40
               ],
               "Value" : "xx",
+              "Visible": true
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
               "Visible": true
             }
           }
@@ -11826,6 +12263,20 @@
               "Value" : "xx",
               "Visible": true
             }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
           }
         },
         "Step2": {
@@ -12180,6 +12631,20 @@
               "Value" : -7,
               "Visible": true
             }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
           }
         },
         "Step3": {
@@ -12483,6 +12948,20 @@
               ],
               "Visible": true
             }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
           }
         },
         "Step4": {
@@ -12768,6 +13247,20 @@
               "Size": [
                 30,
                 40
+              ],
+              "Visible": true
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
               ],
               "Visible": true
             }
@@ -13080,6 +13573,20 @@
               "Value" : "xx",
               "Visible": true
             }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
           }
         },
         "Step2": {
@@ -13434,6 +13941,20 @@
               "Value" : -7,
               "Visible": true
             }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
           }
         },
         "Step3": {
@@ -13737,6 +14258,20 @@
               ],
               "Visible": true
             }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
           }
         },
         "Step4": {
@@ -14022,6 +14557,20 @@
               "Size": [
                 30,
                 40
+              ],
+              "Visible": true
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
               ],
               "Visible": true
             }

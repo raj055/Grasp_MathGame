@@ -49,6 +49,9 @@ public class Chapter2 extends ChapterScreen implements Screen {
   Label Labal_f3 = null;
   Label Labal_f4 = null;
 
+  //submit button
+  private Image submitButton = null;
+
   //level_2 step2
   Label num_1,num_2;
   //level_2 step1
@@ -145,7 +148,34 @@ public class Chapter2 extends ChapterScreen implements Screen {
 
     }
   };
+  ClickListener submitButtonClicked = new ClickListener(){
+    @Override
+    public  void clicked(InputEvent event, float x, float y){
 
+      if(goToNextStep() != true) {
+        GameStates.screenStates = ScreenStates.LEVELSCREEN;
+        time.dispose();
+      }
+      else{
+
+        int trnslate = 400;
+        stageTranslate += 400;
+//        if(stageTranslate >= 1200) {
+//          trnslate = 0;
+//          stageTranslate = 0;
+//        }
+
+
+
+        //Get the Level Number and Initialise the Level Components.
+        getLevelName();
+        initialiseLevelComponents(currentLevelNumber);
+
+        stage.getCamera().translate(trnslate,0,0);
+        stage.getCamera().update();
+      }
+    }
+  };
   // Level's Component
   void defineLevel1to5Components() {
 
@@ -180,7 +210,8 @@ public class Chapter2 extends ChapterScreen implements Screen {
           dragPoint.setDisplayBalls(dragCircle);
       }
     }catch (Exception e){}
-
+    //Add Submit Button Listener.
+    addSubmitButtonListner();
   }
   void defineLevel6to10Components() {
 
@@ -255,6 +286,9 @@ public class Chapter2 extends ChapterScreen implements Screen {
     {
       stage.addActor(numberI);
     }
+
+    //Add Submit Button Listener.
+    addSubmitButtonListner();
   }
   void defineLevel11to15Components() {
 
@@ -324,8 +358,21 @@ public class Chapter2 extends ChapterScreen implements Screen {
     {
       stage.addActor(numberI);
     }
+    //Add Submit Button Listener.
+    addSubmitButtonListner();
   }
-
+  void addSubmitButtonListner(){
+    //Add Click Listener to the Submit Button
+    if(buttonsList != null){
+      for(Image subBtn : buttonsList){
+        String name = subBtn.getName();
+        if (name.equalsIgnoreCase("SubmitButtn")){
+          submitButton = subBtn;
+          submitButton.addListener(submitButtonClicked);
+        }
+      }
+    }
+  }
   interface LevelDefinition {
     void initialise();
   }

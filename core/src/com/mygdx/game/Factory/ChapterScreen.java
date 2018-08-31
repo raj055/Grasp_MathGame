@@ -42,7 +42,7 @@ public abstract class ChapterScreen {
   Map displaysTotal;
   ArrayList<Image> displayImages;
   ArrayList<Image> displayBallList;
-  ArrayList<Label> buttonsList;
+  ArrayList<Image> buttonsList;
   ArrayList<Image> draggable;
   ArrayList<Label> updatables;
   ArrayList<Label> textLabels;
@@ -101,7 +101,12 @@ public abstract class ChapterScreen {
 
     stage = new Stage(viewp);
 
+    Image bg1 = new Image(new Texture("data/desertBackground.jpg"));
+    bg1.setSize(1200, MyGame.HEIGHT);
+    bg1.setPosition(1200, 0);
+
     stage.addActor(bg);
+    stage.addActor(bg1);
     Gdx.input.setInputProcessor(stage);
 
     //Get the instance of global class
@@ -123,13 +128,12 @@ public abstract class ChapterScreen {
 
       if(screenMap.containsKey(levelName)) {
         displaysTotal = (Map) screenMap.get(levelName);
-//        do{
           if (displaysTotal.containsKey(gblVar.StepName[stepNumber])){
             Map currentStepTotal = (Map) displaysTotal.get(gblVar.StepName[stepNumber]);
             populateNextScreen(currentStepTotal, stepNumber++);
             xPosAdditionFactor += 400;
-            if(xPosAdditionFactor > 800)
-              xPosAdditionFactor = 0;
+//            if(xPosAdditionFactor > 800)
+//              xPosAdditionFactor = 0;
           }
       }
     }
@@ -140,8 +144,8 @@ public abstract class ChapterScreen {
       Map currentStepTotal = (Map) displaysTotal.get(gblVar.StepName[stepNumber]);
       populateNextScreen(currentStepTotal, stepNumber++);
       xPosAdditionFactor += 400;
-      if(xPosAdditionFactor > 800)
-        xPosAdditionFactor = 0;
+//      if(xPosAdditionFactor > 800)
+//        xPosAdditionFactor = 0;
       return true;
     }
     return false;
@@ -309,7 +313,7 @@ public abstract class ChapterScreen {
   }
   public void updateButtons(int stepNumber, Map buttons){
     //initialise the array list for the labels.
-    buttonsList = new ArrayList<Label>();
+    buttonsList = new ArrayList<Image>();
 
     Label.LabelStyle label1Style = new Label.LabelStyle();
     BitmapFont myFont = new BitmapFont(Gdx.files.internal("fonts/gamebird.fnt"));
@@ -330,12 +334,12 @@ public abstract class ChapterScreen {
       Map str = (Map) mentry.getValue();
 
       //Initialise and obtain the image path, size and boolean visible
-      String imgPath = (String) str.get("Text");
+      String imgPath = (String) str.get("Image");
       ArrayList<Integer> sizesW = (ArrayList) str.get("Size");
       ArrayList<Integer> positionL = (ArrayList) str.get("Position");
 
       //Initialise the Local Image
-      Label img = new Label( imgPath, label1Style);
+      Image img = new Image(new Texture(imgPath));
 
       //Get and set the size of the given parameter
       Integer[] size;
@@ -360,8 +364,8 @@ public abstract class ChapterScreen {
       buttonsList.add(img);
       stage.addActor(img);
     }
-
   }
+
   public void updateTextuals(int stepNumber, Map textuals){
     //initialise the array list for the labels.
     ArrayList<Label> textualObjects;
