@@ -1967,15 +1967,16 @@
           },
           "Buttons":{
             "SubmitButtn": {
-              "Text" :"Submit",
+              "Image": "data1/asset_submit.png",
               "Size": [
-                160,
-                60
+                200,
+                80
               ],
               "Position": [
-                40,
-                700
-              ]
+                0,
+                710
+              ],
+              "Visible": true
             }
           },
           "TextLabel":{
