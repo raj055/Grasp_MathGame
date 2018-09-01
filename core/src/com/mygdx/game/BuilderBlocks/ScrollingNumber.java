@@ -21,6 +21,9 @@ public class ScrollingNumber implements Disposable {
 
     public ArrayList<ScrollingImageClick> scrollingNumber;
 
+    int posX = 10;
+    int posY;
+
     public ScrollingNumber(){
 
         gblVar = GlobalsCommonCount.getInstance();
@@ -32,8 +35,7 @@ public class ScrollingNumber implements Disposable {
 
     public void scrolling(ArrayList<Image> imagescrolling, Events evt){
 
-        int posX = 10;
-        int posY;
+
         int totalNumbers = imagescrolling.size();
 
         for(int numCount = 0; numCount < totalNumbers; numCount++)
@@ -54,6 +56,10 @@ public class ScrollingNumber implements Disposable {
         }
     }
 
+    public void setPositionX(int positionX){
+        this.posX = positionX + 10;
+    }
+
     public void update(float deltaTime){
 
         for(Image img : numbers)
@@ -64,7 +70,7 @@ public class ScrollingNumber implements Disposable {
             if (y <= 0) {
                 y = 700;
                 float x;
-                x = MathUtils.random(50, 360);
+                x = MathUtils.random(50 + posX, 360 + posY);
                 img.setPosition(x, y);
             }
 

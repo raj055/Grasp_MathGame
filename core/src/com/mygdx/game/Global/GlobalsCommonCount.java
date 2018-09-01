@@ -97,15 +97,15 @@ public class GlobalsCommonCount {
 
   public static final String[] NumberLevel11 ={
 //          "Number/15.png",
-          "Number/1.png",
-          "Number/2.png",
+          "Numbers/1.png",
+          "Numbers/2.png",
 //          "Number/25.png",
-          "Number/3.png",
+          "Numbers/3.png",
 //          "Number/35.png",
-          "Number/4.png",
+          "Numbers/4.png",
 //          "Number/45.png",
-          "Number/6.png",
-          "Number/8.png"
+          "Numbers/6.png",
+          "Numbers/8.png"
   };
 
   public static final String[] NumberLevel12 ={

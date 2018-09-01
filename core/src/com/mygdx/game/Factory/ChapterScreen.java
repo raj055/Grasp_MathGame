@@ -64,7 +64,7 @@ public abstract class ChapterScreen {
   GlobalsCommonCount gblVar;
   Image bg;
 
-  private int xPosAdditionFactor = 0;
+  protected int xPosAdditionFactor = 0;
   static int stepNumber = 0;
 
 

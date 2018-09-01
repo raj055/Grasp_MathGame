@@ -15,20 +15,18 @@ import java.util.ArrayList;
 import static com.mygdx.game.BuilderBlocks.Events.CLICK_SCROLLCH2_BALLDISPLAY;
 import static com.mygdx.game.BuilderBlocks.Events.CLICK_ScrollingCh1;
 import static com.mygdx.game.BuilderBlocks.Events.CLICK_ScrollingCh2;
+import static com.mygdx.game.BuilderBlocks.Events.STEP1;
+import static com.mygdx.game.BuilderBlocks.Events.STEP2;
+import static com.mygdx.game.Enum.Steps.STEP_1;
 
 public class ScrollingUpdateLabelCh2 implements Subscriber{
 
-    ArrayList<Label> UpdateLable;
-
+    private ArrayList<Label> UpdateLable;
     private GlobalsCommonCount glv;
-
     public BallDisplay ballDisplay;
-
     private TextVeriabal textVeriabal;
     private Nagetiv_Num nagetiv_num;
-
-    int ballclick = 0;
-    int r = 0;
+    private int ballclick = 0;
 
     public ScrollingUpdateLabelCh2(ArrayList<Label> arrLabel){
 
@@ -70,8 +68,8 @@ public class ScrollingUpdateLabelCh2 implements Subscriber{
         Label num_1 = getLabel("number1");
         Label num_2 = getLabel("number2");
 
-        switch (GameStates.steps) {
-            case STEP_1:
+        switch (Events.STEP1) {
+            case STEP1:
                 if (glv.lableWrite) {
 
                     switch (glv.countClick) {
@@ -99,7 +97,17 @@ public class ScrollingUpdateLabelCh2 implements Subscriber{
                                 Labal_f4.setText(glv.lableUpdate + " ");
                             }
                             ballclick = glv.click4 = glv.lableUpdate;
+                            break;
 
+                        case 5:
+                            if (num_1 != null) {
+                                num_1.setText(glv.lableUpdate + " ");
+                            }
+                            break;
+                        case 6:
+                            if (num_2 != null) {
+                                num_2.setText(glv.lableUpdate + " ");
+                            }
                             break;
 
                         default:
@@ -112,15 +120,10 @@ public class ScrollingUpdateLabelCh2 implements Subscriber{
                         }
                     }
 
-//                    for (int i = 0; i < ballclick; i++) {
-//
-//                        ballDisplay.balls[i][r].setVisible(true);
-//
-//                    }
                 }
                 break;
 
-            case STEP_2:
+            case STEP2:
                 if (glv.lableWrite) {
 
                     switch (glv.countClick) {
@@ -133,7 +136,6 @@ public class ScrollingUpdateLabelCh2 implements Subscriber{
                             if (num_2 != null) {
                                 num_2.setText(glv.lableUpdate + " ");
                             }
-
                             break;
 
                         default:

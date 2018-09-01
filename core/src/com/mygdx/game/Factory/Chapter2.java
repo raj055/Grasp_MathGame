@@ -22,6 +22,7 @@ import com.mygdx.game.Global.Objects;
 import com.mygdx.game.ChapterClass.Ch1RealNumbers.BallDisplay;
 import com.mygdx.game.Timer.Timer;
 
+import java.awt.Event;
 import java.util.ArrayList;
 
 
@@ -96,8 +97,6 @@ public class Chapter2 extends ChapterScreen implements Screen {
     object = Objects.getInstance();
 
     dragPoint = new DragPoint(Events.DRAG_CIRCLE);
-
-//    visebleComponetsCh2 = new VisebleComponetsCh2(imagesLines);
 
     getLevelName();
     initialiseLevelComponents(currentLevelNumber);
@@ -200,76 +199,50 @@ public class Chapter2 extends ChapterScreen implements Screen {
   }
   void defineLevel6to10Components() {
 
-    if(scrollingPara == null)
-      return;
+    if(scrollingPara != null){
 
-    numLocal = new ScrollingNumber();
+      numLocal = new ScrollingNumber();
+      numLocal.setPositionX(xPosAdditionFactor - 400);
+      scrollingImages = new ArrayList<Image>();
 
-    scrollingImages = new ArrayList<Image>();
+      updateScrollLable = new ArrayList<Label>();
 
-    updateScrollLable = new ArrayList<Label>();
+      //totalObjects
+      scrollingPara.size();
 
-    //totalObjects
-    scrollingPara.size();
+      for(Image img : scrollingPara)
+      {
+        scrollingImages.add(img);
+      }
+      numLocal.scrolling(scrollingImages, Events.CLICK_SCROLLCH2_BALLDISPLAY);
 
-    for(Image img : scrollingPara)
-    {
-      scrollingImages.add(img);
-
+      ballDisplay = new BallDisplay(8, 8);
     }
 
-    numLocal.scrolling(scrollingImages, Events.CLICK_SCROLLCH2_BALLDISPLAY);
+    //check if the updatable are present
+    if(updatables != null){
+      updatables.size();
 
-    ballDisplay = new BallDisplay(8, 8);
+      for (Label updatable : updatables) {
+        updatable.getName();
+        updateScrollLable.add(updatable);
+      }
+      scrollingUpdateLabelCh2 = new ScrollingUpdateLabelCh2(updateScrollLable);
 
-    //check if the updatables are present
-    if(updatables == null)
-      return;
+      for (int i = 0; i < ballDisplay.columns; i++){
 
-    //totalObjects
-    updatables.size();
+        for (int j = 0; j < ballDisplay.rows; j++) {
 
-    for (Label updatable : updatables) {
-      String str = updatable.getName();
+          stage.addActor(scrollingUpdateLabelCh2.ballDisplay.balls[i][j]);
 
-      if (str.contains("labelF1")) {
-        Labal_f1 = updatable;
-      }
-      else if (str.contains("labelF2")) {
-        Labal_f2 = updatable;
-      }
-      else if (str.contains("labelF3")) {
-        Labal_f3 = updatable;
-      }
-      else if (str.contains("labelF4")) {
-        Labal_f4 = updatable;
-      }
-      else if (str.contains("number1")) {
-        num_1 = updatable;
-      }
-      else if (str.contains("number2")) {
-        num_2 = updatable;
+          scrollingUpdateLabelCh2.ballDisplay.balls[i][j].setVisible(false);
+        }
       }
 
-      updateScrollLable.add(updatable);
-    }
-//    scrollingUpdateLableCh1 = new ScrollingUpdateLabelCh1(updateScrollLable);
-    scrollingUpdateLabelCh2 = new ScrollingUpdateLabelCh2(updateScrollLable);
-
-    for (int i = 0; i < ballDisplay.columns; i++){
-
-      for (int j = 0; j < ballDisplay.rows; j++) {
-
-        stage.addActor(scrollingUpdateLabelCh2.ballDisplay.balls[i][j]);
-
-        scrollingUpdateLabelCh2.ballDisplay.balls[i][j].setVisible(false);
-
+      for(Image numberI : scrollingPara)
+      {
+        stage.addActor(numberI);
       }
-    }
-
-    for(Image numberI : scrollingPara)
-    {
-      stage.addActor(numberI);
     }
 
     //Add Submit Button Listener.
@@ -281,7 +254,7 @@ public class Chapter2 extends ChapterScreen implements Screen {
       return;
 
     numLocal = new ScrollingNumber();
-
+    numLocal.setPositionX(xPosAdditionFactor - 400);
     scrollingImages = new ArrayList<Image>();
 
     updateScrollLable = new ArrayList<Label>();

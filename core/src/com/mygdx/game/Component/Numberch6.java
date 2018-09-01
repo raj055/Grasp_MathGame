@@ -36,7 +36,7 @@ public class Numberch6 implements Disposable {
     {
         final Image img = new Image(new Texture(gblVar.NumberLevel11[numCount]));
 
-      gblVar.NumberLevel11[numCount] = gblVar.NumberLevel12[numCount];
+//      gblVar.NumberLevel11[numCount] = gblVar.NumberLevel12[numCount];
 
         final  int count = numCount;
 

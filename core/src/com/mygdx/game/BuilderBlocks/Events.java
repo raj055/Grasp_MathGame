@@ -6,6 +6,12 @@ package com.mygdx.game.BuilderBlocks;
  */
 
 public enum Events {
+
+  // Steps count
+  STEP1,
+  STEP2,
+  STEP3,
+
   // Chapter 1
   BALL_DRAG_EVENT,
   REMAINDER_BALL_DRAG,

@@ -12,6 +12,7 @@ import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.ScrollingNumber;
 import com.mygdx.game.ChapterClass.Ch6Triangles.DoubleClickLabelCh6;
 import com.mygdx.game.ChapterClass.Ch6Triangles.DragShapeCh6;
+import com.mygdx.game.ChapterClass.Ch6Triangles.ScrollingUpdateCh6;
 import com.mygdx.game.ChapterClass.Ch6Triangles.UpdateImageCh6;
 import com.mygdx.game.ChapterClass.Ch6Triangles.UpdateLabelCh6;
 import com.mygdx.game.ChapterClass.Ch6Triangles.VisebalComponentsCh6;
@@ -71,6 +72,8 @@ public class Chapter6 extends ChapterScreen implements Screen {
   DoubleClickListener doubleClickLabelAC;
   private Image submitButton = null;
   private int stageTranslate = 0;
+
+  ScrollingUpdateCh6 scrollingUpdateCh6;
 
   Chapter6(){
     super();
@@ -203,12 +206,10 @@ public class Chapter6 extends ChapterScreen implements Screen {
     if(scrollingPara != null) {
 
       numLocal = new ScrollingNumber();
-
+      numLocal.setPositionX(xPosAdditionFactor - 400);
       scrollingImages = new ArrayList<Image>();
 
       scrollingPara.size();
-
-      numberch6 = new Numberch6();
 
       for (Image img : scrollingPara) {
         scrollingImages.add(img);
@@ -383,9 +384,13 @@ public class Chapter6 extends ChapterScreen implements Screen {
   private void renderLevel2(float delta){
     update(delta);
 
-   /* numberch6.update(delta);
+//    numberch6.update(delta);
 
-    if (glv.lableWrite){
+    if (numLocal != null)
+    numLocal.update(delta);
+
+
+   /* if (glv.lableWrite){
 
       switch (glv.countClick){
         case 1:

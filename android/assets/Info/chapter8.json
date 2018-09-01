@@ -391,6 +391,43 @@
               ]
             }
           },
+          "Timer" : {
+            "timerbg": {
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                60
+              ],
+              "Position": [
+                180,
+                75
+              ],
+              "Visible": false
+            },
+            "timerCircle": {
+              "Image": "data1/asset21.png",
+              "Size": [
+                60,
+                60
+              ],
+              "Position": [
+                63,
+                70
+              ],
+              "Visible": false
+            },
+            "TimerLabel": {
+              "Text": "TIMER",
+              "Size": [
+                15,
+                15
+              ],
+              "Position": [
+                160,
+                50
+              ]
+            }
+          },
           "Buttons":{
             "SubmitButtn": {
               "Image": "data1/asset_submit.png",
