@@ -46,20 +46,24 @@ public class ScrollingUpdateCh6 implements Subscriber {
         Label value3 = getLabel("value3");
         Label value4 = getLabel("value4");
         Label anser = getLabel("Labelanser");
-
+        String strvalue = "";
         if (glv.lableWrite){
+            if(glv.lableUpdate <= glv.NumberLevel12.length){
+                strvalue = glv.NumberLevel12[glv.lableUpdate];
+            }
+
 
             switch (glv.countClick){
                 case 1:
-                    value.setText(numberch6.string_labal + " ");
+                    value.setText(strvalue);
                     break;
 
                 case 2:
-                    value1.setText(numberch6.string_labal + " ");
+                    value1.setText(strvalue);
                     break;
 
                 case 3:
-                    value3.setText(numberch6.string_labal + " ");
+                    value3.setText(strvalue);
                     break;
 
                 default:

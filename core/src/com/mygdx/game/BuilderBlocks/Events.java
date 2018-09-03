@@ -96,6 +96,8 @@ public enum Events {
 
   // Chapter 6 : level 2
   DOUBLE_CLICK_LabelAC,
+  DOUBLE_CLICK_LabelAB,
+  DOUBLE_CLICK_LabelBC,
 
   // Chapter 6 : level 3
   DOUBLE_CLICK_IMG,

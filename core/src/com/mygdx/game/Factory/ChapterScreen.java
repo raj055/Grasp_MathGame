@@ -14,6 +14,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.mygdx.game.Enum.ScreenStates;
+import com.mygdx.game.Enum.Steps;
 import com.mygdx.game.Global.GlobalsCommonCount;
 import com.mygdx.game.Levels.ReadConfiguration;
 import com.mygdx.game.MyGame;
@@ -142,7 +143,15 @@ public abstract class ChapterScreen {
   public boolean goToNextStep(){
     if (displaysTotal.containsKey(gblVar.StepName[stepNumber])){
       Map currentStepTotal = (Map) displaysTotal.get(gblVar.StepName[stepNumber]);
+      gblVar.currentStepNumber = stepNumber;
+      for(Steps stp : Steps.values()){
+        if(stp.getCurrentVal() == stepNumber)
+          GameStates.steps = stp;
+      }
       populateNextScreen(currentStepTotal, stepNumber++);
+
+
+//      GameStates.steps = Steps.
       xPosAdditionFactor += 400;
 //      if(xPosAdditionFactor > 800)
 //        xPosAdditionFactor = 0;

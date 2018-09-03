@@ -16,6 +16,8 @@ public class ScrollingImageClick extends OnClickCallBack {
 
     int count;
 
+    String strValue;
+
     public ScrollingImageClick(Events triggerEvent) {super(triggerEvent);}
 
     @Override
@@ -36,6 +38,10 @@ public class ScrollingImageClick extends OnClickCallBack {
         this.count = count;
     }
 
+    public void setStringValue(int count) {
+
+        this.strValue = gblVar.NumberLevel12[count];
+    }
     private void UpdateElements() {
 
         gblVar = GlobalsCommonCount.getInstance();

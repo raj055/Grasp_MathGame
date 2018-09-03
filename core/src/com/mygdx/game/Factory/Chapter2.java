@@ -144,13 +144,6 @@ public class Chapter2 extends ChapterScreen implements Screen {
 
         int trnslate = 400;
         stageTranslate += 400;
-//        if(stageTranslate >= 1200) {
-//          trnslate = 0;
-//          stageTranslate = 0;
-//        }
-
-
-
         //Get the Level Number and Initialise the Level Components.
         getLevelName();
         initialiseLevelComponents(currentLevelNumber);

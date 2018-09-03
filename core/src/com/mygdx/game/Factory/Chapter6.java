@@ -18,6 +18,7 @@ import com.mygdx.game.ChapterClass.Ch6Triangles.UpdateLabelCh6;
 import com.mygdx.game.ChapterClass.Ch6Triangles.VisebalComponentsCh6;
 import com.mygdx.game.Component.Numberch6;
 import com.mygdx.game.Enum.ScreenStates;
+import com.mygdx.game.Enum.Steps;
 import com.mygdx.game.Global.GlobalsCommonCount;
 import com.mygdx.game.Timer.Timer;
 
@@ -70,6 +71,11 @@ public class Chapter6 extends ChapterScreen implements Screen {
   UpdateImageCh6 updateImageCh6;
 
   DoubleClickListener doubleClickLabelAC;
+  DoubleClickListener doubleClickLabelAB;
+  DoubleClickListener doubleClickLabelBC;
+
+  ArrayList<DoubleClickListener>  arrDoubleListener;
+
   private Image submitButton = null;
   private int stageTranslate = 0;
 
@@ -80,7 +86,16 @@ public class Chapter6 extends ChapterScreen implements Screen {
 
     time = new Timer();
 
+
+
     doubleClickLabelAC = new DoubleClickListener(Events.DOUBLE_CLICK_LabelAC);
+    doubleClickLabelAB = new DoubleClickListener(Events.DOUBLE_CLICK_LabelAB);
+    doubleClickLabelBC = new DoubleClickListener(Events.DOUBLE_CLICK_LabelBC);
+
+    arrDoubleListener = new ArrayList<DoubleClickListener>();
+    arrDoubleListener.add(doubleClickLabelAC);
+    arrDoubleListener.add(doubleClickLabelAB);
+    arrDoubleListener.add(doubleClickLabelBC);
 
     visebalComponentsCh6 = new VisebalComponentsCh6(VisebalComponent);
 
@@ -162,6 +177,19 @@ public class Chapter6 extends ChapterScreen implements Screen {
 
   void defineLevel1To5Components() {
 
+    switch(GameStates.steps){
+
+      case STEP_1:
+        linkDisplayImages();
+        break;
+      case STEP_2:
+        break;
+      case STEP_3:
+        break;
+      case STEP_4:
+        break;
+    }
+
     dragShapeSquare = new DragShapeCh6(Events.DRAG_SQUARE);
     dragShapeSquare1 = new DragShapeCh6(Events.DRAG_SQUARE1);
     dragShapeCircle = new DragShapeCh6(Events.DRAG_CIRCLE);
@@ -201,42 +229,96 @@ public class Chapter6 extends ChapterScreen implements Screen {
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }
+  void linkDisplayImages(){
+
+  }
   void defineLevel6To10Components() {
 
-    if(scrollingPara != null) {
+    //Define different scrolling parameters for different steps.
+    scrollingParaLevel6To10();
 
-      numLocal = new ScrollingNumber();
-      numLocal.setPositionX(xPosAdditionFactor - 400);
-      scrollingImages = new ArrayList<Image>();
-
-      scrollingPara.size();
-
-      for (Image img : scrollingPara) {
-        scrollingImages.add(img);
-        stage.addActor(img);
-      }
-      numLocal.scrolling(scrollingImages, Events.CLICK_ScrollingCh6);
-    }
-
-    //check if the updatable are present
-    if(updatables != null) {
-
-      LableChange = new ArrayList<Label>();
-      updatables.size();
-      for (Label updatable : updatables) {
-        String str = updatable.getName();
-
-        if (str.contains("value4")) {
-          value4 = updatable;
-          value4.addListener(doubleClickLabelAC);
-        }
-        LableChange.add(updatable);
-      }
-    }
-    updateLabelCh6 = new UpdateLabelCh6(LableChange);
+    //define different updatable parameters for different steps.
+    updatablesParaLevel6To10();
 
     //Add Submit Button Listener.
     addSubmitButtonListner();
+  }
+
+  String  updatableNamesStep1[] = {"value4", "value3", "value5"};
+  String  updatableNamesStep2[] = {"value", "value1", "value3"};
+  String  updatableNamesStep3[] = {"value4"};
+  void updatablesParaLevel6To10(){
+    if(GameStates.steps == Steps.STEP_1){
+      //check if the updatable are present
+      if(updatables != null) {
+
+        LableChange = new ArrayList<Label>();
+        updatables.size();
+
+        for (Label updatable : updatables) {
+          String str = updatable.getName();
+
+          for(int count = 0; count < updatableNamesStep1.length; count++){
+            if(str.equals(updatableNamesStep1[count]))
+            updatable.addListener(arrDoubleListener.get(count));
+          }
+          LableChange.add(updatable);
+        }
+      }
+      updateLabelCh6 = new UpdateLabelCh6(LableChange);
+    }
+    else if (GameStates.steps == Steps.STEP_2){
+      //check if the updatable are present
+      if(updatables != null) {
+
+//        ArrayList<Label> updateLabels = new ArrayList<Label>();
+//        int count =
+//        for (Label updatable : updatables) {
+//          String str = updatable.getName();
+//
+//          for(int lblCount = 0; lblCount <= updatableNamesStep2.length; lblCount++ ) {
+//            if (str.equals(updatableNamesStep2[lblCount])) {
+//              value4.addListener(doubleClickLabelAC);
+//            }
+//            updateLabels.add(updatable);
+//          }
+//        }
+        scrollingUpdateCh6 = new ScrollingUpdateCh6(updatables);
+      }
+    }
+    else if (GameStates.steps == Steps.STEP_3){
+
+    }
+  }
+  void scrollingParaLevel6To10(){
+    if(GameStates.steps == Steps.STEP_1){
+    }
+    else if (GameStates.steps == Steps.STEP_2){
+      if(scrollingPara != null) {
+        numberch6 = new Numberch6();
+        numberch6.setPositionX(xPosAdditionFactor - 400);
+        scrollingPara.size();
+        numberch6.addToStage(stage);
+      }
+    }
+    else if (GameStates.steps == Steps.STEP_3){
+      if(scrollingPara != null) {
+//
+//        numLocal = new ScrollingNumber();
+//        numLocal.setPositionX(xPosAdditionFactor - 400);
+//        scrollingImages = new ArrayList<Image>();
+//
+//        scrollingPara.size();
+//
+//        for (Image img : scrollingPara) {
+//          scrollingImages.add(img);
+//          stage.addActor(img);
+//        }
+//        numLocal.scrolling(scrollingImages, Events.CLICK_ScrollingCh6);
+      }
+
+
+    }
   }
   void defineLevel11To15Components() {
 
@@ -383,8 +465,8 @@ public class Chapter6 extends ChapterScreen implements Screen {
   }
   private void renderLevel2(float delta){
     update(delta);
-
-//    numberch6.update(delta);
+   if(numberch6 != null)
+    numberch6.update(delta);
 
     if (numLocal != null)
     numLocal.update(delta);

@@ -108,6 +108,29 @@ public class GlobalsCommonCount {
           "Numbers/8.png"
   };
 
+  public static final String[] NumberDecimal ={
+
+    "Number/1.5.png",
+    "Number/1.png",
+    "Number/2.5.png",
+    "Number/2.png",
+    "Number/3.5.png",
+    "Number/3.png",
+    "Number/4.5.png",
+    "Number/4.png",
+    "Number/5.5.png",
+    "Number/5.png",
+    "Numbers/6.5.png",
+    "Numbers/6.png",
+
+//          "Number/25.png",
+    "Numbers/3.png",
+//          "Number/35.png",
+    "Numbers/4.png",
+//          "Number/45.png",
+    "Numbers/6.png",
+    "Numbers/8.png"
+  };
   public static final String[] NumberLevel12 ={
 //          "1.5",
           "1",

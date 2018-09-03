@@ -4,10 +4,13 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
+import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.Disposable;
+import com.mygdx.game.BuilderBlocks.Events;
+import com.mygdx.game.BuilderBlocks.ScrollingImageClick;
 import com.mygdx.game.Global.GlobalsCommonCount;
 
 /**
@@ -24,20 +27,25 @@ public class Numberch6 implements Disposable {
 
   public String string_labal;
 
+  int posX = 406;
+  int posY = 700;
+
   public Numberch6(){
 
     gblVar = GlobalsCommonCount.getInstance();
 
     numbers = new Array<Image>();
 
-    int posX = 6;
-    int posY = 700;
+
     for(int numCount = 0; numCount < NUMBERCOUNT; numCount++)
     {
-        final Image img = new Image(new Texture(gblVar.NumberLevel11[numCount]));
+        final Image img = new Image(new Texture(gblVar.NumberDecimal[numCount]));
+      ScrollingImageClick scrollingImageClick = new ScrollingImageClick(Events.CLICK_ScrollingCh6);
 
 //      gblVar.NumberLevel11[numCount] = gblVar.NumberLevel12[numCount];
+      scrollingImageClick.setCount(numCount);
 
+      scrollingImageClick.setStringValue(numCount);
         final  int count = numCount;
 
         posY = 700 + gblVar.posYNum[numCount];
@@ -45,25 +53,29 @@ public class Numberch6 implements Disposable {
         img.setPosition(posX,posY);
         posX += 40;
 
-        img.addListener(new ClickListener(){
-          @Override
-          public void clicked(InputEvent event, float x, float y) {
-
-            Gdx.app.log("TextVariable","click_" + gblVar.countClick++);
-
-            string_labal = gblVar.NumberLevel11[count];
-
-            gblVar.lableUpdate = count;
-            gblVar.lableWrite = true;
-
-          }
-        });
+        img.addListener(scrollingImageClick);
+//          new ClickListener(){
+//          @Override
+//          public void clicked(InputEvent event, float x, float y) {
+//
+//            Gdx.app.log("TextVariable","click_" + gblVar.countClick++);
+//
+//            string_labal = gblVar.NumberLevel12[count];
+//
+//            gblVar.lableUpdate = count;
+//            gblVar.lableWrite = true;
+//
+//          }
+//        });
 
         numbers.add(img);
     }
 
-  }
 
+  }
+  public void setPositionX(int positionX){
+//    this.posX = positionX + 6;
+  }
   public void update(float deltaTime){
     int yCount = 0;
 
@@ -75,14 +87,19 @@ public class Numberch6 implements Disposable {
       if (y <= 0) {
         y = 700;
         float x;
-        x = MathUtils.random(50, 360);
+        x = MathUtils.random(50 + 400, 360 + 400);
         img.setPosition(x, y);
       }
 
       }
 
   }
-
+  public void addToStage(Stage stg){
+    for(Image img : numbers)
+    {
+      stg.addActor(img);
+    }
+  }
   @Override
   public void dispose() {
     gblVar.clear();
