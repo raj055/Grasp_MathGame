@@ -4,6 +4,8 @@ import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.Notifier;
 import com.mygdx.game.BuilderBlocks.Subscriber;
+import com.mygdx.game.Enum.Steps;
+import com.mygdx.game.Factory.GameStates;
 import com.mygdx.game.Global.GlobalsCommonCount;
 
 import java.util.ArrayList;
@@ -30,6 +32,16 @@ public class ScrollingUpdateCh5 implements Subscriber {
     @Override
     public void UpdateAllElements(Events evt) {
         if(evt == CLICK_ScrollingCh5){
+            if(GameStates.steps == Steps.STEP_1){
+
+            }
+            else if (GameStates.steps == Steps.STEP_2){
+
+            }
+            else if (GameStates.steps == Steps.STEP_3){
+
+            }
+
             ImageClick1();
         }
         else if (evt == CLICK_ScrollingCh5L3){

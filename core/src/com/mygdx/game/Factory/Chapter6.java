@@ -8,13 +8,11 @@ import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.mygdx.game.BuilderBlocks.DoubleClickListener;
+import com.mygdx.game.BuilderBlocks.DragClickListener;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.ScrollingNumber;
-import com.mygdx.game.ChapterClass.Ch6Triangles.DoubleClickLabelCh6;
-import com.mygdx.game.ChapterClass.Ch6Triangles.DragShapeCh6;
 import com.mygdx.game.ChapterClass.Ch6Triangles.ScrollingUpdateCh6;
 import com.mygdx.game.ChapterClass.Ch6Triangles.UpdateImageCh6;
-import com.mygdx.game.ChapterClass.Ch6Triangles.UpdateLabelCh6;
 import com.mygdx.game.ChapterClass.Ch6Triangles.VisebalComponentsCh6;
 import com.mygdx.game.Component.Numberch6;
 import com.mygdx.game.Enum.ScreenStates;
@@ -35,11 +33,11 @@ public class Chapter6 extends ChapterScreen implements Screen {
 
   ArrayList<Image> scrollingImages = null;
 
-  DragShapeCh6 dragShapeSquare;
-  DragShapeCh6 dragShapeSquare1;
-  DragShapeCh6 dragShapeCircle;
-  DragShapeCh6 dragShapeCircle1;
-  DragShapeCh6 dragShapeTriangle;
+  DragClickListener dragShapeSquare;
+  DragClickListener dragShapeSquare1;
+  DragClickListener dragShapeCircle;
+  DragClickListener dragShapeCircle1;
+  DragClickListener dragShapeTriangle;
 
   VisebalComponentsCh6 visebalComponentsCh6;
 
@@ -64,52 +62,26 @@ public class Chapter6 extends ChapterScreen implements Screen {
 
   private Image imgVlu1,imgVlu5,imgVlu7,imgVlu4,imgVlu8,imgVlu2,imgVlu,imgVlu6,imgVlu9_2,imgVlu9,imgVlu3;
 
-  DoubleClickLabelCh6  Click_imgVlu1, Click_imgVlu5, Click_imgVlu7, Click_imgVlu4,
-   Click_imgVlu8, Click_imgVlu2, Click_imgVlu, Click_imgVlu6, Click_imgVlu9_2, Click_imgVlu9, Click_imgVlu3;
+  DoubleClickListener  Click_imgVlu1, Click_imgVlu5, Click_imgVlu7, Click_imgVlu4, Click_imgVlu8,
+          Click_imgVlu2, Click_imgVlu, Click_imgVlu6, Click_imgVlu9_2, Click_imgVlu9, Click_imgVlu3;
 
-  UpdateLabelCh6 updateLabelCh6;
   UpdateImageCh6 updateImageCh6;
 
   DoubleClickListener doubleClickLabelAC;
   DoubleClickListener doubleClickLabelAB;
   DoubleClickListener doubleClickLabelBC;
 
-  ArrayList<DoubleClickListener>  arrDoubleListener;
+  ArrayList<DoubleClickListener> arrDoubleListener;
 
   private Image submitButton = null;
   private int stageTranslate = 0;
 
-  ScrollingUpdateCh6 scrollingUpdateCh6;
+  ScrollingUpdateCh6 scrollingUpdateCh6 = null;
 
   Chapter6(){
     super();
 
     time = new Timer();
-
-
-
-    doubleClickLabelAC = new DoubleClickListener(Events.DOUBLE_CLICK_LabelAC);
-    doubleClickLabelAB = new DoubleClickListener(Events.DOUBLE_CLICK_LabelAB);
-    doubleClickLabelBC = new DoubleClickListener(Events.DOUBLE_CLICK_LabelBC);
-
-    arrDoubleListener = new ArrayList<DoubleClickListener>();
-    arrDoubleListener.add(doubleClickLabelAC);
-    arrDoubleListener.add(doubleClickLabelAB);
-    arrDoubleListener.add(doubleClickLabelBC);
-
-    visebalComponentsCh6 = new VisebalComponentsCh6(VisebalComponent);
-
-    Click_imgVlu = new DoubleClickLabelCh6(Events.DOUBLE_CLICK_IMG);
-    Click_imgVlu1 = new DoubleClickLabelCh6(Events.DOUBLE_CLICK_IMG1);
-    Click_imgVlu2 = new DoubleClickLabelCh6(Events.DOUBLE_CLICK_IMG2);
-    Click_imgVlu3 = new DoubleClickLabelCh6(Events.DOUBLE_CLICK_IMG3);
-    Click_imgVlu4 = new DoubleClickLabelCh6(Events.DOUBLE_CLICK_IMG4);
-    Click_imgVlu5 = new DoubleClickLabelCh6(Events.DOUBLE_CLICK_IMG5);
-    Click_imgVlu6 = new DoubleClickLabelCh6(Events.DOUBLE_CLICK_IMG6);
-    Click_imgVlu7 = new DoubleClickLabelCh6(Events.DOUBLE_CLICK_IMG7);
-    Click_imgVlu8 = new DoubleClickLabelCh6(Events.DOUBLE_CLICK_IMG8);
-    Click_imgVlu9 = new DoubleClickLabelCh6(Events.DOUBLE_CLICK_IMG9);
-    Click_imgVlu9_2 = new DoubleClickLabelCh6(Events.DOUBLE_CLICK_IMG9_2);
 
     glv = GlobalsCommonCount.getInstance();
 
@@ -157,7 +129,6 @@ public class Chapter6 extends ChapterScreen implements Screen {
         time.dispose();
       }
       else{
-
         int trnslate = 400;
         stageTranslate += 400;
 //        if(stageTranslate >= 1200) {
@@ -177,24 +148,11 @@ public class Chapter6 extends ChapterScreen implements Screen {
 
   void defineLevel1To5Components() {
 
-    switch(GameStates.steps){
-
-      case STEP_1:
-        linkDisplayImages();
-        break;
-      case STEP_2:
-        break;
-      case STEP_3:
-        break;
-      case STEP_4:
-        break;
-    }
-
-    dragShapeSquare = new DragShapeCh6(Events.DRAG_SQUARE);
-    dragShapeSquare1 = new DragShapeCh6(Events.DRAG_SQUARE1);
-    dragShapeCircle = new DragShapeCh6(Events.DRAG_CIRCLE);
-    dragShapeCircle1 = new DragShapeCh6(Events.DRAG_CIRCLE_1);
-    dragShapeTriangle = new DragShapeCh6(Events.DRAG_TRIANGLE_P);
+    dragShapeSquare = new DragClickListener(Events.DRAG_SQUARE);
+    dragShapeSquare1 = new DragClickListener(Events.DRAG_SQUARE1);
+    dragShapeCircle = new DragClickListener(Events.DRAG_CIRCLE);
+    dragShapeCircle1 = new DragClickListener(Events.DRAG_CIRCLE_1);
+    dragShapeTriangle = new DragClickListener(Events.DRAG_TRIANGLE_P);
 
     if(displayImages == null)
       return;
@@ -224,15 +182,22 @@ public class Chapter6 extends ChapterScreen implements Screen {
         triangle_p.addListener(dragShapeTriangle);
       }
     }
-    visebalComponentsCh6 = new VisebalComponentsCh6(displayImages);
+    visebalComponentsCh6 = new VisebalComponentsCh6(displayImages,updatables);
 
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }
-  void linkDisplayImages(){
 
-  }
   void defineLevel6To10Components() {
+
+    doubleClickLabelAC = new DoubleClickListener(Events.DOUBLE_CLICK_LabelAC);
+    doubleClickLabelAB = new DoubleClickListener(Events.DOUBLE_CLICK_LabelAB);
+    doubleClickLabelBC = new DoubleClickListener(Events.DOUBLE_CLICK_LabelBC);
+
+    arrDoubleListener = new ArrayList<DoubleClickListener>();
+    arrDoubleListener.add(doubleClickLabelAC);
+    arrDoubleListener.add(doubleClickLabelAB);
+    arrDoubleListener.add(doubleClickLabelBC);
 
     //Define different scrolling parameters for different steps.
     scrollingParaLevel6To10();
@@ -245,8 +210,7 @@ public class Chapter6 extends ChapterScreen implements Screen {
   }
 
   String  updatableNamesStep1[] = {"value4", "value3", "value5"};
-  String  updatableNamesStep2[] = {"value", "value1", "value3"};
-  String  updatableNamesStep3[] = {"value4"};
+
   void updatablesParaLevel6To10(){
     if(GameStates.steps == Steps.STEP_1){
       //check if the updatable are present
@@ -265,35 +229,27 @@ public class Chapter6 extends ChapterScreen implements Screen {
           LableChange.add(updatable);
         }
       }
-      updateLabelCh6 = new UpdateLabelCh6(LableChange);
+      visebalComponentsCh6 = new VisebalComponentsCh6(displayImages,LableChange);
     }
     else if (GameStates.steps == Steps.STEP_2){
       //check if the updatable are present
       if(updatables != null) {
-
-//        ArrayList<Label> updateLabels = new ArrayList<Label>();
-//        int count =
-//        for (Label updatable : updatables) {
-//          String str = updatable.getName();
-//
-//          for(int lblCount = 0; lblCount <= updatableNamesStep2.length; lblCount++ ) {
-//            if (str.equals(updatableNamesStep2[lblCount])) {
-//              value4.addListener(doubleClickLabelAC);
-//            }
-//            updateLabels.add(updatable);
-//          }
-//        }
         scrollingUpdateCh6 = new ScrollingUpdateCh6(updatables);
       }
     }
     else if (GameStates.steps == Steps.STEP_3){
+      if(updatables != null) {
 
+        if (scrollingUpdateCh6 != null){
+          scrollingUpdateCh6.setUpdatable(updatables);
+        }
+      }
     }
   }
   void scrollingParaLevel6To10(){
     if(GameStates.steps == Steps.STEP_1){
     }
-    else if (GameStates.steps == Steps.STEP_2){
+    else if ((GameStates.steps == Steps.STEP_2) || (GameStates.steps == Steps.STEP_3)){
       if(scrollingPara != null) {
         numberch6 = new Numberch6();
         numberch6.setPositionX(xPosAdditionFactor - 400);
@@ -301,37 +257,62 @@ public class Chapter6 extends ChapterScreen implements Screen {
         numberch6.addToStage(stage);
       }
     }
-    else if (GameStates.steps == Steps.STEP_3){
-      if(scrollingPara != null) {
-//
-//        numLocal = new ScrollingNumber();
-//        numLocal.setPositionX(xPosAdditionFactor - 400);
-//        scrollingImages = new ArrayList<Image>();
-//
-//        scrollingPara.size();
-//
-//        for (Image img : scrollingPara) {
-//          scrollingImages.add(img);
-//          stage.addActor(img);
-//        }
-//        numLocal.scrolling(scrollingImages, Events.CLICK_ScrollingCh6);
-      }
 
-
-    }
   }
+
   void defineLevel11To15Components() {
 
-    if(displayImages == null)
-      return;
+    if(GameStates.steps == Steps.STEP_1){
 
-    ImagePosition = new ArrayList<Image>();
+    }
+    else if (GameStates.steps == Steps.STEP_2){
 
-    displayImages.size();
-    for (Image updatable : displayImages) {
-      String str = updatable.getName();
+    }
+    else if (GameStates.steps == Steps.STEP_3){
 
-      if (str.equals("ImageVlu1")) {
+    }
+
+    String  updatableNamesLevel11to15[] = {"ImageVlu1", "ImageVlu7" , "imgVlu4" , "imgVlu8" ,
+            "imgVlu2" , "imgVlu" , "imgVlu3" , "ImageVlu5" , "imgVlu6" , "imgVlu9_2" , "imgVlu9"};
+
+    Click_imgVlu = new DoubleClickListener(Events.DOUBLE_CLICK_IMG);
+    Click_imgVlu1 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG1);
+    Click_imgVlu2 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG2);
+    Click_imgVlu3 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG3);
+    Click_imgVlu4 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG4);
+    Click_imgVlu5 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG5);
+    Click_imgVlu6 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG6);
+    Click_imgVlu7 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG7);
+    Click_imgVlu8 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG8);
+    Click_imgVlu9 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG9);
+    Click_imgVlu9_2 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG9_2);
+
+    arrDoubleListener = new ArrayList<DoubleClickListener>();
+    arrDoubleListener.add(Click_imgVlu);
+    arrDoubleListener.add(Click_imgVlu1);
+    arrDoubleListener.add(Click_imgVlu2);
+    arrDoubleListener.add(Click_imgVlu3);
+    arrDoubleListener.add(Click_imgVlu4);
+    arrDoubleListener.add(Click_imgVlu5);
+    arrDoubleListener.add(Click_imgVlu6);
+    arrDoubleListener.add(Click_imgVlu7);
+    arrDoubleListener.add(Click_imgVlu8);
+    arrDoubleListener.add(Click_imgVlu9);
+    arrDoubleListener.add(Click_imgVlu9_2);
+
+    if(displayImages != null){
+      ImagePosition = new ArrayList<Image>();
+
+      displayImages.size();
+      for (Image updatable : displayImages) {
+        String str = updatable.getName();
+
+        for(int count = 0; count < updatableNamesLevel11to15.length; count++){
+          if(str.equals(updatableNamesLevel11to15[count]))
+            updatable.addListener(arrDoubleListener.get(count));
+        }
+
+      /*if (str.equals("ImageVlu1")) {
        imgVlu1 = updatable;
        imgVlu1.addListener(Click_imgVlu1);
       }
@@ -382,10 +363,12 @@ public class Chapter6 extends ChapterScreen implements Screen {
       else if (str.equals("imgVlu9")) {
         imgVlu9 = updatable;
         imgVlu9.addListener(Click_imgVlu9);
+      }*/
+
+        ImagePosition.add(updatable);
       }
-      ImagePosition.add(updatable);
+      updateImageCh6 = new UpdateImageCh6(ImagePosition);
     }
-    updateImageCh6 = new UpdateImageCh6(ImagePosition);
 
     //Add Submit Button Listener.
     addSubmitButtonListner();
@@ -468,31 +451,6 @@ public class Chapter6 extends ChapterScreen implements Screen {
    if(numberch6 != null)
     numberch6.update(delta);
 
-    if (numLocal != null)
-    numLocal.update(delta);
-
-
-   /* if (glv.lableWrite){
-
-      switch (glv.countClick){
-        case 1:
-          value.setText(numberch6.string_labal + " ");
-          break;
-
-        case 2:
-          value1.setText(numberch6.string_labal + " ");
-          break;
-
-        case 3:
-          value3.setText(numberch6.string_labal + " ");
-          break;
-
-        default:
-          break;
-      }
-
-    }*/
-
     if (time.isTimeUp()){
     }
 
@@ -506,9 +464,7 @@ public class Chapter6 extends ChapterScreen implements Screen {
     Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
     time.update(deltaTime);
 
-    if (time.isTimeUp()){
-//      GameStates.screenStates = ScreenStates.DIALOGBOX;
-    }
+    if (time.isTimeUp()){ }
 
     stage.draw();
     time.stage.draw();

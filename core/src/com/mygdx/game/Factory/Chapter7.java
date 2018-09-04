@@ -8,11 +8,11 @@ import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.scenes.scene2d.utils.DragListener;
+import com.mygdx.game.BuilderBlocks.DragClickListener;
 import com.mygdx.game.BuilderBlocks.Events;
-import com.mygdx.game.ChapterClass.Ch3LinearEquations.VisebalComponentsCh3;
-import com.mygdx.game.ChapterClass.Ch7CoordinateGeometry.DragLabelCh7;
 import com.mygdx.game.ChapterClass.Ch7CoordinateGeometry.VisebalComponentsCh7;
 import com.mygdx.game.Enum.ScreenStates;
+import com.mygdx.game.Enum.Steps;
 import com.mygdx.game.Global.GlobalsCommonCount;
 import com.mygdx.game.Timer.Timer;
 
@@ -29,32 +29,32 @@ public class Chapter7 extends ChapterScreen implements Screen {
   ArrayList<Image> DragComponent;
   ArrayList<Image> VisebalComponent;
 
-  DragLabelCh7 drag_L1_value;
-  DragLabelCh7 drag_L1_value3;
-  DragLabelCh7 drag_L1_value12;
-  DragLabelCh7 drag_L1_value14;
+  DragClickListener drag_L1_value;
+  DragClickListener drag_L1_value3;
+  DragClickListener drag_L1_value12;
+  DragClickListener drag_L1_value14;
 
-  DragLabelCh7 drag_L2_value12;
-  DragLabelCh7 drag_L2_value14;
-  DragLabelCh7 drag_L2_valuek1;
-  DragLabelCh7 drag_L2_valuek2;
-  DragLabelCh7 drag_L2_value1;
-  DragLabelCh7 drag_L2_value3;
-  DragLabelCh7 drag_L2_valuek3;
-  DragLabelCh7 drag_L2_valuek4;
+  DragClickListener drag_L2_value12;
+  DragClickListener drag_L2_value14;
+  DragClickListener drag_L2_valuek1;
+  DragClickListener drag_L2_valuek2;
+  DragClickListener drag_L2_value1;
+  DragClickListener drag_L2_value3;
+  DragClickListener drag_L2_valuek3;
+  DragClickListener drag_L2_valuek4;
 
-  DragLabelCh7 drag_L3_value1;
-  DragLabelCh7 drag_L3_value1_1;
-  DragLabelCh7 drag_L3_value3;
-  DragLabelCh7 drag_L3_value3_1;
-  DragLabelCh7 drag_L3_value12;
-  DragLabelCh7 drag_L3_value12_1;
-  DragLabelCh7 drag_L3_value14;
-  DragLabelCh7 drag_L3_value14_1;
-  DragLabelCh7 drag_L3_value22;
-  DragLabelCh7 drag_L3_value22_1;
-  DragLabelCh7 drag_L3_value24;
-  DragLabelCh7 drag_L3_value24_1;
+  DragClickListener drag_L3_value1;
+  DragClickListener drag_L3_value1_1;
+  DragClickListener drag_L3_value3;
+  DragClickListener drag_L3_value3_1;
+  DragClickListener drag_L3_value12;
+  DragClickListener drag_L3_value12_1;
+  DragClickListener drag_L3_value14;
+  DragClickListener drag_L3_value14_1;
+  DragClickListener drag_L3_value22;
+  DragClickListener drag_L3_value22_1;
+  DragClickListener drag_L3_value24;
+  DragClickListener drag_L3_value24_1;
 
   VisebalComponentsCh7 visebalComponentsCh7;
 
@@ -151,10 +151,19 @@ public class Chapter7 extends ChapterScreen implements Screen {
 
   void defineLevel1To5Components() {
 
-    drag_L1_value = new DragLabelCh7(Events.DRAG_L1_VALUE);
-    drag_L1_value3 = new DragLabelCh7(Events.DRAG_L1_VALUE3);
-    drag_L1_value12 = new DragLabelCh7(Events.DRAG_L1_VALUE12);
-    drag_L1_value14 = new DragLabelCh7(Events.DRAG_L1_VALUE14);
+    if(GameStates.steps == Steps.STEP_1){
+
+    }
+    else if (GameStates.steps == Steps.STEP_2){
+
+    }
+    else if (GameStates.steps == Steps.STEP_3){
+
+    }
+    drag_L1_value = new DragClickListener(Events.DRAG_L1_VALUE);
+    drag_L1_value3 = new DragClickListener(Events.DRAG_L1_VALUE3);
+    drag_L1_value12 = new DragClickListener(Events.DRAG_L1_VALUE12);
+    drag_L1_value14 = new DragClickListener(Events.DRAG_L1_VALUE14);
 
     if (updatables == null)
         return;
@@ -187,14 +196,24 @@ public class Chapter7 extends ChapterScreen implements Screen {
   }
   void defineLevel6To10Components() {
 
-    drag_L2_value12 = new DragLabelCh7(Events.DRAG_L2_VALUE12);
-    drag_L2_value14 = new DragLabelCh7(Events.DRAG_L2_VALUE14);
-    drag_L2_valuek1 = new DragLabelCh7(Events.DRAG_L2_VALUEK1);
-    drag_L2_valuek2 = new DragLabelCh7(Events.DRAG_L2_VALUEK2);
-    drag_L2_value1 = new DragLabelCh7(Events.DRAG_L2_VALUE1);
-    drag_L2_value3 = new DragLabelCh7(Events.DRAG_L2_VALUE3);
-    drag_L2_valuek3 = new DragLabelCh7(Events.DRAG_L2_VALUEK3);
-    drag_L2_valuek4 = new DragLabelCh7(Events.DRAG_L2_VALUEK4);
+    if(GameStates.steps == Steps.STEP_1){
+
+    }
+    else if (GameStates.steps == Steps.STEP_2){
+
+    }
+    else if (GameStates.steps == Steps.STEP_3){
+
+    }
+
+    drag_L2_value12 = new DragClickListener(Events.DRAG_L2_VALUE12);
+    drag_L2_value14 = new DragClickListener(Events.DRAG_L2_VALUE14);
+    drag_L2_valuek1 = new DragClickListener(Events.DRAG_L2_VALUEK1);
+    drag_L2_valuek2 = new DragClickListener(Events.DRAG_L2_VALUEK2);
+    drag_L2_value1 = new DragClickListener(Events.DRAG_L2_VALUE1);
+    drag_L2_value3 = new DragClickListener(Events.DRAG_L2_VALUE3);
+    drag_L2_valuek3 = new DragClickListener(Events.DRAG_L2_VALUEK3);
+    drag_L2_valuek4 = new DragClickListener(Events.DRAG_L2_VALUEK4);
 
     if (updatables == null)
       return;
@@ -243,18 +262,28 @@ public class Chapter7 extends ChapterScreen implements Screen {
   }
   void defineLevel11To15Components() {
 
-    drag_L3_value1 = new DragLabelCh7(Events.DRAG_L3_VALUE1);
-    drag_L3_value1_1 = new DragLabelCh7(Events.DRAG_L3_VALUE1_1);
-    drag_L3_value3 = new DragLabelCh7(Events.DRAG_L3_VALUE3);
-    drag_L3_value3_1 = new DragLabelCh7(Events.DRAG_L3_VALUE3_1);
-    drag_L3_value12 = new DragLabelCh7(Events.DRAG_L3_VALUE12);
-    drag_L3_value12_1 = new DragLabelCh7(Events.DRAG_L3_VALUE12_1);
-    drag_L3_value14 = new DragLabelCh7(Events.DRAG_L3_VALUE14);
-    drag_L3_value14_1 = new DragLabelCh7(Events.DRAG_L3_VALUE14_1);
-    drag_L3_value22 = new DragLabelCh7(Events.DRAG_L3_VALUE22);
-    drag_L3_value22_1 = new DragLabelCh7(Events.DRAG_L3_VALUE22_1);
-    drag_L3_value24 = new DragLabelCh7(Events.DRAG_L3_VALUE24);
-    drag_L3_value24_1 = new DragLabelCh7(Events.DRAG_L3_VALUE24_1);
+    if(GameStates.steps == Steps.STEP_1){
+
+    }
+    else if (GameStates.steps == Steps.STEP_2){
+
+    }
+    else if (GameStates.steps == Steps.STEP_3){
+
+    }
+
+    drag_L3_value1 = new DragClickListener(Events.DRAG_L3_VALUE1);
+    drag_L3_value1_1 = new DragClickListener(Events.DRAG_L3_VALUE1_1);
+    drag_L3_value3 = new DragClickListener(Events.DRAG_L3_VALUE3);
+    drag_L3_value3_1 = new DragClickListener(Events.DRAG_L3_VALUE3_1);
+    drag_L3_value12 = new DragClickListener(Events.DRAG_L3_VALUE12);
+    drag_L3_value12_1 = new DragClickListener(Events.DRAG_L3_VALUE12_1);
+    drag_L3_value14 = new DragClickListener(Events.DRAG_L3_VALUE14);
+    drag_L3_value14_1 = new DragClickListener(Events.DRAG_L3_VALUE14_1);
+    drag_L3_value22 = new DragClickListener(Events.DRAG_L3_VALUE22);
+    drag_L3_value22_1 = new DragClickListener(Events.DRAG_L3_VALUE22_1);
+    drag_L3_value24 = new DragClickListener(Events.DRAG_L3_VALUE24);
+    drag_L3_value24_1 = new DragClickListener(Events.DRAG_L3_VALUE24_1);
 
     if (updatables == null)
       return;

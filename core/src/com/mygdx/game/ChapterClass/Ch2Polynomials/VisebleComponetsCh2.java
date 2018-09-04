@@ -5,6 +5,7 @@ import com.mygdx.game.BuilderBlocks.ChapterVariables;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.Notifier;
 import com.mygdx.game.BuilderBlocks.Subscriber;
+import com.mygdx.game.Enum.Steps;
 import com.mygdx.game.Factory.GameStates;
 import com.mygdx.game.Global.GlobalsCommonCount;
 
@@ -51,9 +52,27 @@ public class VisebleComponetsCh2 implements Subscriber {
     public void UpdateAllElements(Events evt) {
 
         if(evt == Events.DRAG_CIRCLE){
+            if(GameStates.steps == Steps.STEP_1){
+
+            }
+            else if (GameStates.steps == Steps.STEP_2){
+
+            }
+            else if (GameStates.steps == Steps.STEP_3){
+
+            }
             updateVisibleComponents();
         }
         else if (evt == CLICK_ScrollingCh2){
+            if(GameStates.steps == Steps.STEP_1){
+
+            }
+            else if (GameStates.steps == Steps.STEP_2){
+
+            }
+            else if (GameStates.steps == Steps.STEP_3){
+
+            }
             ImageVisibleLevel3();
         }
     }

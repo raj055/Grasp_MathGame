@@ -28,14 +28,14 @@ public class TextveriabalCh3 implements Disposable {
 
   public String string_labal;
 
+  int posX = 10;
+  int posY = 700;
+
   public TextveriabalCh3(){
 
     gblVar = GlobalsCommonCount.getInstance();
 
     texts = new Array<Image>();
-
-    int posX = 10;
-    int posY;
 
     for(int numCount = 0 ; numCount < TextCOUNT; numCount++)
     {
@@ -43,10 +43,9 @@ public class TextveriabalCh3 implements Disposable {
 
       ScrollingImageClick scrollingImageClick = new ScrollingImageClick(Events.CLICK_ScrollingCh3);
 
-//       gblVar.TextLevel1[numCount] = gblVar.TextLevel1[numCount];
-//
-//      final  int count = numCount;
       scrollingImageClick.setCount(numCount);
+
+      scrollingImageClick.setStringValue(numCount);
 
       posY = 50 + gblVar.posYNum[numCount];
       img.setSize(30,40);
@@ -54,35 +53,16 @@ public class TextveriabalCh3 implements Disposable {
       posX += 40;
 
       img.addListener(scrollingImageClick);
-
-//
-//        new ClickListener(){
-//        @Override
-//        public void clicked(InputEvent event, float x, float y) {
-//
-//          Gdx.app.log("TextVariable","click_" + gblVar.countClick++);
-//
-//          string_labal = gblVar.TextLevel3[count];
-//
-//          gblVar.lableUpdate = count;
-//          gblVar.lableWrite = true;
-//
-//        }
-//      });
-
       texts.add(img);
     }
-
   }
 
   public void addToStage(Stage stg){
     for (Image img : texts) {
       stg.addActor(img);
     }
-
   }
   public void update(float deltaTime) {
-    int yCount = 0;
 
     for (Image img : texts) {
       float y = img.getY();
@@ -94,8 +74,10 @@ public class TextveriabalCh3 implements Disposable {
         x = MathUtils.random(50, 360);
         img.setPosition(x, y);
       }
-
     }
+  }
+  public void setPositionX(int positionX){
+//    this.posX = positionX + 6;
   }
 
   @Override

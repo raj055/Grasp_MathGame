@@ -6,16 +6,16 @@ import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.scenes.scene2d.utils.DragListener;
+import com.mygdx.game.BuilderBlocks.DragClickListener;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.ScrollingNumber;
 import com.mygdx.game.BuilderBlocks.DoubleClickListener;
-import com.mygdx.game.ChapterClass.Ch3LinearEquations.DragLabelCh3;
 import com.mygdx.game.ChapterClass.Ch3LinearEquations.ScrollingUpdateCh3;
-import com.mygdx.game.ChapterClass.Ch3LinearEquations.UpdateVisibleComponent;
 import com.mygdx.game.ChapterClass.Ch3LinearEquations.VisebalComponentsCh3;
 import com.mygdx.game.Component.NumberCh3;
 import com.mygdx.game.Component.TextveriabalCh3;
 import com.mygdx.game.Enum.ScreenStates;
+import com.mygdx.game.Enum.Steps;
 import com.mygdx.game.Global.GlobalsCommonCount;
 import com.mygdx.game.Timer.Timer;
 
@@ -42,16 +42,15 @@ public class Chapter3 extends ChapterScreen implements Screen {
   DoubleClickListener clickListenerSq2;
   DoubleClickListener clickListenerC1;
   DoubleClickListener clickListenerC2;
-  UpdateVisibleComponent updateVisibleComponent;
 
-  DragLabelCh3 dragListenerA1;
-  DragLabelCh3 dragListenerB1;
-  DragLabelCh3 dragListenerC1;
-  DragLabelCh3 dragListenerA2;
-  DragLabelCh3 dragListenerB2;
-  DragLabelCh3 dragListenerC2;
-  DragLabelCh3 dragListenerB11;
-  DragLabelCh3 dragListenerB21;
+  DragClickListener dragListenerA1;
+  DragClickListener dragListenerB1;
+  DragClickListener dragListenerC1;
+  DragClickListener dragListenerA2;
+  DragClickListener dragListenerB2;
+  DragClickListener dragListenerC2;
+  DragClickListener dragListenerB11;
+  DragClickListener dragListenerB21;
 
   VisebalComponentsCh3 visebalComponentsCh3;
   VisebalComponentsCh3 visebalComponentsCh3Level11;
@@ -165,11 +164,16 @@ public class Chapter3 extends ChapterScreen implements Screen {
   };
 
   void defineLevel1To5Components() {
-//    numLocalch3 = new NumberCh3();
-//    textveriabalch3 = new TextveriabalCh3();
 
-//    numLocalch3.addToStage(stage);
-//    textveriabalch3.addToStage(stage);
+    if(GameStates.steps == Steps.STEP_1){
+
+    }
+    else if (GameStates.steps == Steps.STEP_2){
+
+    }
+    else if (GameStates.steps == Steps.STEP_3){
+
+    }
 
     if(scrollingPara == null)
       return;
@@ -201,6 +205,16 @@ public class Chapter3 extends ChapterScreen implements Screen {
     addSubmitButtonListner();
   }
   void defineLevel6To10Components() {
+
+    if(GameStates.steps == Steps.STEP_1){
+
+    }
+    else if (GameStates.steps == Steps.STEP_2){
+
+    }
+    else if (GameStates.steps == Steps.STEP_3){
+
+    }
 
     ClickImage = new ArrayList<Image>();
     Changeposition = new ArrayList<Image>();
@@ -268,14 +282,24 @@ public class Chapter3 extends ChapterScreen implements Screen {
   }
   void defineLevel11To15Components() {
 
-    dragListenerA1 = new DragLabelCh3(Events.DRAG_VALUE_A1);
-    dragListenerA2 = new DragLabelCh3(Events.DRAG_VALUE_A2);
-    dragListenerB1 = new DragLabelCh3(Events.DRAG_VALUE_B1);
-    dragListenerB2 = new DragLabelCh3(Events.DRAG_VALUE_B2);
-    dragListenerC1 = new DragLabelCh3(Events.DRAG_VALUE_C1);
-    dragListenerC2 = new DragLabelCh3(Events.DRAG_VALUE_C2);
-    dragListenerB11 = new DragLabelCh3(Events.DRAG_VALUE_B11);
-    dragListenerB21 = new DragLabelCh3(Events.DRAG_VALUE_B21);
+    if(GameStates.steps == Steps.STEP_1){
+
+    }
+    else if (GameStates.steps == Steps.STEP_2){
+
+    }
+    else if (GameStates.steps == Steps.STEP_3){
+
+    }
+
+    dragListenerA1 = new DragClickListener(Events.DRAG_VALUE_A1);
+    dragListenerA2 = new DragClickListener(Events.DRAG_VALUE_A2);
+    dragListenerB1 = new DragClickListener(Events.DRAG_VALUE_B1);
+    dragListenerB2 = new DragClickListener(Events.DRAG_VALUE_B2);
+    dragListenerC1 = new DragClickListener(Events.DRAG_VALUE_C1);
+    dragListenerC2 = new DragClickListener(Events.DRAG_VALUE_C2);
+    dragListenerB11 = new DragClickListener(Events.DRAG_VALUE_B11);
+    dragListenerB21 = new DragClickListener(Events.DRAG_VALUE_B21);
 
 
     if(displayImages == null)

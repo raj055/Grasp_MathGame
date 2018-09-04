@@ -7,12 +7,13 @@ import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
+import com.mygdx.game.BuilderBlocks.DoubleClickListener;
+import com.mygdx.game.BuilderBlocks.DragClickListener;
 import com.mygdx.game.BuilderBlocks.Events;
-import com.mygdx.game.ChapterClass.Ch4QuadraticEquations.DoubleClickImageCh4;
-import com.mygdx.game.ChapterClass.Ch4QuadraticEquations.DragLabelCh4;
 import com.mygdx.game.ChapterClass.Ch4QuadraticEquations.ScrollingUpdateCh4;
 import com.mygdx.game.ChapterClass.Ch4QuadraticEquations.VisebleComponentsCh4;
 import com.mygdx.game.Enum.ScreenStates;
+import com.mygdx.game.Enum.Steps;
 import com.mygdx.game.Global.GlobalsCommonCount;
 import com.mygdx.game.ChapterClass.Ch1RealNumbers.BallDisplay;
 import com.mygdx.game.BuilderBlocks.ScrollingNumber;
@@ -31,11 +32,11 @@ public class Chapter4 extends ChapterScreen implements Screen {
   ArrayList<Image> DragComponent;
   ArrayList<Image> VisebalComponent;
 
-  DragLabelCh4 draglight;
-  DragLabelCh4 dragsquare;
-  DragLabelCh4 dragsquare1;
-  DragLabelCh4 dragsquare2;
-  DragLabelCh4 dragbox1;
+  DragClickListener draglight;
+  DragClickListener dragsquare;
+  DragClickListener dragsquare1;
+  DragClickListener dragsquare2;
+  DragClickListener dragbox1;
 
   VisebleComponentsCh4 visebleComponentsCh4;
 
@@ -76,7 +77,7 @@ public class Chapter4 extends ChapterScreen implements Screen {
 
   BallDisplay ballDisplay;
 
-  DoubleClickImageCh4 doubleClickImageCh4;
+  DoubleClickListener doubleclicklistener;
   private Image submitButton = null;
   private int stageTranslate = 0;
 
@@ -97,9 +98,7 @@ public class Chapter4 extends ChapterScreen implements Screen {
   @Override
   public void show() {}
 
-  public void update(float dt){
-    time.update(dt);
-  }
+  public void update(float dt){ time.update(dt); }
   @Override
   public void render(float delta) {
     renderLists[currentLevelNumber].renderL(delta);
@@ -152,6 +151,16 @@ public class Chapter4 extends ChapterScreen implements Screen {
 
   void defineLevel1To5Components() {
 
+    if(GameStates.steps == Steps.STEP_1){
+
+    }
+    else if (GameStates.steps == Steps.STEP_2){
+
+    }
+    else if (GameStates.steps == Steps.STEP_3){
+
+    }
+
     if(scrollingPara != null){
 
       numLocal = new ScrollingNumber();
@@ -196,11 +205,21 @@ public class Chapter4 extends ChapterScreen implements Screen {
   }
   void defineLevel6To10Components() {
 
-    draglight = new DragLabelCh4(Events.DRAG_IMGLIGHT);
-    dragsquare = new DragLabelCh4(Events.DRAG_IMGSQUARE);
-    dragsquare1 = new DragLabelCh4(Events.DRAG_IMGSQUARE1);
-    dragsquare2 = new DragLabelCh4(Events.DRAG_IMGSQUARE2);
-    dragbox1 = new DragLabelCh4(Events.DRAG_IMGBOX1);
+    if(GameStates.steps == Steps.STEP_1){
+
+    }
+    else if (GameStates.steps == Steps.STEP_2){
+
+    }
+    else if (GameStates.steps == Steps.STEP_3){
+
+    }
+
+    draglight = new DragClickListener(Events.DRAG_IMGLIGHT);
+    dragsquare = new DragClickListener(Events.DRAG_IMGSQUARE);
+    dragsquare1 = new DragClickListener(Events.DRAG_IMGSQUARE1);
+    dragsquare2 = new DragClickListener(Events.DRAG_IMGSQUARE2);
+    dragbox1 = new DragClickListener(Events.DRAG_IMGBOX1);
 
     //check if the displayImages are present
     if(displayImages == null)
@@ -261,6 +280,17 @@ public class Chapter4 extends ChapterScreen implements Screen {
     addSubmitButtonListner();
   }
   void defineLevel11To15Components() {
+
+    if(GameStates.steps == Steps.STEP_1){
+
+    }
+    else if (GameStates.steps == Steps.STEP_2){
+
+    }
+    else if (GameStates.steps == Steps.STEP_3){
+
+    }
+
     //check if the updatables are present
     if(updatables == null)
       return;
@@ -310,9 +340,7 @@ public class Chapter4 extends ChapterScreen implements Screen {
     }
   }
 
-  interface LevelDefinition {
-    void initialise();
-  }
+  interface LevelDefinition { void initialise(); }
 
   private LevelDefinition[] levelInitialisations = (LevelDefinition[]) new LevelDefinition[] {
           new LevelDefinition() {
@@ -331,16 +359,13 @@ public class Chapter4 extends ChapterScreen implements Screen {
           new LevelDefinition() { public void initialise() { defineLevel11To15Components(); } },
           new LevelDefinition() { public void initialise() { defineLevel11To15Components(); } },
           new LevelDefinition() { public void initialise() { defineLevel11To15Components(); } },
-
   };
 
   public void initialiseLevelComponents(int index) {
     levelInitialisations[index].initialise();
   }
 
-  interface RenderLevel {
-    void renderL(float delta);
-  }
+  interface RenderLevel { void renderL(float delta); }
 
   private RenderLevel[] renderLists = (RenderLevel[]) new RenderLevel[] {
           new RenderLevel() {
@@ -377,7 +402,6 @@ public class Chapter4 extends ChapterScreen implements Screen {
     stage.draw();
     time.stage.draw();
   }
-
   private void renderLevel2(float deltaTime){
     //Sets the color to be applied after clearing the screen (R,G,B,A)
     Gdx.gl.glClearColor(0,0,255,1);

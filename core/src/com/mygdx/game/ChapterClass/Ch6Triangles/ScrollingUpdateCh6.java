@@ -5,6 +5,8 @@ import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.Notifier;
 import com.mygdx.game.BuilderBlocks.Subscriber;
 import com.mygdx.game.Component.Numberch6;
+import com.mygdx.game.Enum.Steps;
+import com.mygdx.game.Factory.GameStates;
 import com.mygdx.game.Global.GlobalsCommonCount;
 
 import java.util.ArrayList;
@@ -30,13 +32,26 @@ public class ScrollingUpdateCh6 implements Subscriber {
         Notifier notifier = Notifier.getInstance();
 
         notifier.RegisterSubscriber(this, CLICK_ScrollingCh6);
+
     }
 
     @Override
     public void UpdateAllElements(Events evt) {
         if(evt == CLICK_ScrollingCh6){
-            ImageClick();
+            if(GameStates.steps == Steps.STEP_1){
+            }
+            else if (GameStates.steps == Steps.STEP_2){
+                ImageClick();
+            }
+            else if (GameStates.steps == Steps.STEP_3){
+                ImageClick1();
+            }
         }
+    }
+
+    public void setUpdatable(ArrayList<Label> arrLabel){
+
+        UpdateLable = arrLabel;
     }
 
     private void ImageClick() {
@@ -44,14 +59,12 @@ public class ScrollingUpdateCh6 implements Subscriber {
         Label value = getLabel("value");
         Label value1 = getLabel("value1");
         Label value3 = getLabel("value3");
-        Label value4 = getLabel("value4");
-        Label anser = getLabel("Labelanser");
+
         String strvalue = "";
         if (glv.lableWrite){
             if(glv.lableUpdate <= glv.NumberLevel12.length){
                 strvalue = glv.NumberLevel12[glv.lableUpdate];
             }
-
 
             switch (glv.countClick){
                 case 1:
@@ -69,11 +82,29 @@ public class ScrollingUpdateCh6 implements Subscriber {
                 default:
                     break;
             }
-
         }
-
     }
 
+    private void ImageClick1() {
+
+        Label anser = getLabel("Labelanser");
+
+        String strvalue = "";
+        if (glv.lableWrite){
+            if(glv.lableUpdate <= glv.NumberLevel12.length){
+                strvalue = glv.NumberLevel12[glv.lableUpdate];
+            }
+
+            switch (glv.countClick){
+                case 1:
+                    anser.setText(strvalue);
+                    break;
+
+                default:
+                    break;
+            }
+        }
+    }
     private Label getLabel(String LabelShow) {
 
         for (Label updatable : UpdateLable) {

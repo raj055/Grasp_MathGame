@@ -6,6 +6,7 @@ import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.Notifier;
 import com.mygdx.game.BuilderBlocks.Subscriber;
 import com.mygdx.game.ChapterClass.Ch1RealNumbers.BallDisplay;
+import com.mygdx.game.Enum.Steps;
 import com.mygdx.game.Factory.GameStates;
 import com.mygdx.game.Global.GlobalsCommonCount;
 
@@ -40,6 +41,15 @@ public class ScrollingUpdateCh4 implements Subscriber {
     @Override
     public void UpdateAllElements(Events evt) {
         if(evt == CLICK_ScrollingCh4){
+            if(GameStates.steps == Steps.STEP_1){
+
+            }
+            else if (GameStates.steps == Steps.STEP_2){
+
+            }
+            else if (GameStates.steps == Steps.STEP_3){
+
+            }
             ImageClick1();
         }
     }

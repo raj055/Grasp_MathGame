@@ -7,10 +7,11 @@ import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
+import com.mygdx.game.BuilderBlocks.DoubleClickListener;
 import com.mygdx.game.BuilderBlocks.Events;
-import com.mygdx.game.ChapterClass.Ch8Trigonometry.DoubleClickLabelCh8;
 import com.mygdx.game.ChapterClass.Ch8Trigonometry.RelocateLabel;
 import com.mygdx.game.Enum.ScreenStates;
+import com.mygdx.game.Enum.Steps;
 import com.mygdx.game.Timer.Timer;
 
 import java.util.ArrayList;
@@ -23,7 +24,7 @@ public class Chapter8 extends ChapterScreen implements Screen {
 
   ArrayList<Label> LabelPosition;
 
-  DoubleClickLabelCh8 clickLabelAC,clickLabelAC1,clickLabelAB,clickLabelAB1,clickLabelBC,clickLabelBC1;
+  DoubleClickListener clickLabelAC,clickLabelAC1,clickLabelAB,clickLabelAB1,clickLabelBC,clickLabelBC1;
   RelocateLabel relocateLabel;
   private Image submitButton = null;
   private int stageTranslate = 0;
@@ -33,12 +34,12 @@ public class Chapter8 extends ChapterScreen implements Screen {
 
     time = new Timer();
 
-    clickLabelAC = new DoubleClickLabelCh8(Events.DOUBLE_CLICK_AC);
-    clickLabelAC1 = new DoubleClickLabelCh8(Events.DOUBLE_CLICK_AC1);
-    clickLabelAB = new DoubleClickLabelCh8(Events.DOUBLE_CLICK_AB);
-    clickLabelAB1 = new DoubleClickLabelCh8(Events.DOUBLE_CLICK_AB1);
-    clickLabelBC = new DoubleClickLabelCh8(Events.DOUBLE_CLICK_BC);
-    clickLabelBC1 = new DoubleClickLabelCh8(Events.DOUBLE_CLICK_BC1);
+    clickLabelAC = new DoubleClickListener(Events.DOUBLE_CLICK_AC);
+    clickLabelAC1 = new DoubleClickListener(Events.DOUBLE_CLICK_AC1);
+    clickLabelAB = new DoubleClickListener(Events.DOUBLE_CLICK_AB);
+    clickLabelAB1 = new DoubleClickListener(Events.DOUBLE_CLICK_AB1);
+    clickLabelBC = new DoubleClickListener(Events.DOUBLE_CLICK_BC);
+    clickLabelBC1 = new DoubleClickListener(Events.DOUBLE_CLICK_BC1);
 
     getLevelName();
     initialiseLevelComponents(currentLevelNumber);
@@ -102,6 +103,16 @@ public class Chapter8 extends ChapterScreen implements Screen {
   };
 
   void defineLevel1To5Components() {
+
+    if(GameStates.steps == Steps.STEP_1){
+
+    }
+    else if (GameStates.steps == Steps.STEP_2){
+
+    }
+    else if (GameStates.steps == Steps.STEP_3){
+
+    }
 
     //check if the updatables are present
     if(updatables != null){

@@ -9,13 +9,13 @@ import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.mygdx.game.BuilderBlocks.DoubleClickListener;
+import com.mygdx.game.BuilderBlocks.DragClickListener;
 import com.mygdx.game.BuilderBlocks.Events;
-import com.mygdx.game.ChapterClass.Ch5ArithmeticProgressions.DoubleClickImageCh5;
-import com.mygdx.game.ChapterClass.Ch5ArithmeticProgressions.DragLabelCh5;
 import com.mygdx.game.ChapterClass.Ch5ArithmeticProgressions.ScrollingUpdateCh5;
 import com.mygdx.game.ChapterClass.Ch5ArithmeticProgressions.VisebalComponentsCh5;
 import com.mygdx.game.Enum.ClickPluse;
 import com.mygdx.game.Enum.ScreenStates;
+import com.mygdx.game.Enum.Steps;
 import com.mygdx.game.Global.GlobalsCommonCount;
 import com.mygdx.game.BuilderBlocks.ScrollingNumber;
 import com.mygdx.game.Timer.Timer;
@@ -29,7 +29,7 @@ public class Chapter5 extends ChapterScreen implements Screen {
   ArrayList<Image> DragComponent;
   ArrayList<Image> VisebalComponent;
 
-  DragLabelCh5 dragLabelCh5;
+  DragClickListener dragclicklistener;
   VisebalComponentsCh5 visebalComponentsCh5;
 
   //Update components on clicking scrolling values
@@ -67,7 +67,7 @@ public class Chapter5 extends ChapterScreen implements Screen {
 
   ScrollingNumber numLocal;
 
-  DoubleClickImageCh5 ImageADD;
+  DoubleClickListener ImageADD;
   private Image submitButton = null;
   private int stageTranslate = 0;
 
@@ -76,9 +76,9 @@ public class Chapter5 extends ChapterScreen implements Screen {
 
     time = new Timer();
 
-    dragLabelCh5 = new DragLabelCh5(Events.DRAG_LABEL);
+    dragclicklistener = new DragClickListener(Events.DRAG_LABEL);
 
-    ImageADD = new DoubleClickImageCh5(Events.DOUBLE_CLICK_ADD);
+    ImageADD = new DoubleClickListener(Events.DOUBLE_CLICK_ADD);
 
     dblClickListenerPlus = new DoubleClickListener(Events.DOUBLE_CLICK_ADD);
 
@@ -147,6 +147,17 @@ public class Chapter5 extends ChapterScreen implements Screen {
   };
 
   void defineLevel1To5Components() {
+
+    if(GameStates.steps == Steps.STEP_1){
+
+    }
+    else if (GameStates.steps == Steps.STEP_2){
+
+    }
+    else if (GameStates.steps == Steps.STEP_3){
+
+    }
+
     //check if the displayImages are present
     if(displayImages != null) {
 
@@ -230,6 +241,17 @@ public class Chapter5 extends ChapterScreen implements Screen {
     addSubmitButtonListner();
   }
   void defineLevel6To10Components() {
+
+    if(GameStates.steps == Steps.STEP_1){
+
+    }
+    else if (GameStates.steps == Steps.STEP_2){
+
+    }
+    else if (GameStates.steps == Steps.STEP_3){
+
+    }
+
     if(scrollingPara != null){
         numLocal = new ScrollingNumber();
 
@@ -261,6 +283,16 @@ public class Chapter5 extends ChapterScreen implements Screen {
     addSubmitButtonListner();
   }
   void defineLevel11To15Components() {
+
+    if(GameStates.steps == Steps.STEP_1){
+
+    }
+    else if (GameStates.steps == Steps.STEP_2){
+
+    }
+    else if (GameStates.steps == Steps.STEP_3){
+
+    }
 
     if(scrollingPara != null) {
 

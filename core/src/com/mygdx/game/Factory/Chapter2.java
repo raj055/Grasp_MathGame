@@ -17,6 +17,7 @@ import com.mygdx.game.ChapterClass.Ch2Polynomials.VisebleComponetsCh2;
 import com.mygdx.game.Component.Nagetiv_Num;
 import com.mygdx.game.Component.TextVeriabal;
 import com.mygdx.game.Enum.ScreenStates;
+import com.mygdx.game.Enum.Steps;
 import com.mygdx.game.Global.GlobalsCommonCount;
 import com.mygdx.game.Global.Objects;
 import com.mygdx.game.ChapterClass.Ch1RealNumbers.BallDisplay;
@@ -156,6 +157,16 @@ public class Chapter2 extends ChapterScreen implements Screen {
   // Level's Component
   void defineLevel1to5Components() {
 
+    if(GameStates.steps == Steps.STEP_1){
+
+    }
+    else if (GameStates.steps == Steps.STEP_2){
+
+    }
+    else if (GameStates.steps == Steps.STEP_3){
+
+    }
+
     if(displayImages == null)
       return;
 
@@ -191,6 +202,16 @@ public class Chapter2 extends ChapterScreen implements Screen {
     addSubmitButtonListner();
   }
   void defineLevel6to10Components() {
+
+    if(GameStates.steps == Steps.STEP_1){
+
+    }
+    else if (GameStates.steps == Steps.STEP_2){
+
+    }
+    else if (GameStates.steps == Steps.STEP_3){
+
+    }
 
     if(scrollingPara != null){
 
@@ -242,6 +263,16 @@ public class Chapter2 extends ChapterScreen implements Screen {
     addSubmitButtonListner();
   }
   void defineLevel11to15Components() {
+
+    if(GameStates.steps == Steps.STEP_1){
+
+    }
+    else if (GameStates.steps == Steps.STEP_2){
+
+    }
+    else if (GameStates.steps == Steps.STEP_3){
+
+    }
 
     if(scrollingPara == null)
       return;

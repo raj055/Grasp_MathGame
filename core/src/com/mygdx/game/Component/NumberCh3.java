@@ -9,6 +9,8 @@ import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.Disposable;
+import com.mygdx.game.BuilderBlocks.Events;
+import com.mygdx.game.BuilderBlocks.ScrollingImageClick;
 import com.mygdx.game.Global.GlobalsCommonCount;
 
 
@@ -24,6 +26,8 @@ public class NumberCh3 implements Disposable {
 
   private GlobalsCommonCount gblVar;
 
+  int posX = 10;
+  int posY = 700;
 
   public NumberCh3(){
 
@@ -31,48 +35,35 @@ public class NumberCh3 implements Disposable {
 
     numbers = new Array<Image>();
 
-    int posX = 10;
-    int posY;
     for(int numCount = 0; numCount < NUMBERCOUNT; numCount++)
     {
       final Image img = new Image(new Texture(gblVar.NumberLevel1[numCount]));
 
-      final  int count = numCount;
+      ScrollingImageClick scrollingImageClick = new ScrollingImageClick(Events.CLICK_ScrollingCh3);
+
+      scrollingImageClick.setCount(numCount);
+
+      scrollingImageClick.setStringValue(numCount);
 
       posY = 50 + gblVar.posYNum[numCount];
       img.setSize(30,40);
       img.setPosition(posX,posY);
       posX += 40;
 
-      img.addListener(new ClickListener(){
-        @Override
-        public void clicked(InputEvent event, float x, float y) {
-
-
-          Gdx.app.log("click 1","First" + gblVar.countClick++);
-
-          gblVar.lableUpdate = count;
-          gblVar.lableWrite = true;
-
-        }
-      });
-
+      img.addListener(scrollingImageClick);
       numbers.add(img);
     }
-
   }
 
   public void addToStage(Stage stg){
     for(Image img : numbers)
     {
       stg.addActor(img);
-      }
-
+    }
   }
   public void update(float deltaTime){
 
-    for(Image img : numbers)
-    {
+    for(Image img : numbers) {
       float y = img.getY();
       y -= gblVar.posYDiff[0];
       img.setPosition(img.getX(),y);
@@ -82,9 +73,11 @@ public class NumberCh3 implements Disposable {
         x = MathUtils.random(10, 360);
         img.setPosition(x, y);
       }
-
     }
+  }
 
+  public void setPositionX(int positionX){
+//    this.posX = positionX + 6;
   }
 
   @Override

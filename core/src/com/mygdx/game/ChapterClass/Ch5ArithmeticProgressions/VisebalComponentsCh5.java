@@ -6,6 +6,8 @@ import com.mygdx.game.BuilderBlocks.ChapterVariables;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.Notifier;
 import com.mygdx.game.BuilderBlocks.Subscriber;
+import com.mygdx.game.Enum.Steps;
+import com.mygdx.game.Factory.GameStates;
 
 import java.util.ArrayList;
 
@@ -53,6 +55,16 @@ public class VisebalComponentsCh5 implements Subscriber {
 
     @Override
     public void UpdateAllElements(Events evt) {
+
+        if(GameStates.steps == Steps.STEP_1){
+
+        }
+        else if (GameStates.steps == Steps.STEP_2){
+
+        }
+        else if (GameStates.steps == Steps.STEP_3){
+
+        }
 
         if(evt == Events.DOUBLE_CLICK_ADD){
             clickImage();

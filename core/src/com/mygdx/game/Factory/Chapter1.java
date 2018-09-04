@@ -16,6 +16,7 @@ import com.mygdx.game.BuilderBlocks.ScrollingNumber;
 import com.mygdx.game.ChapterClass.Ch1RealNumbers.BallDisplay;
 import com.mygdx.game.ChapterClass.Ch1RealNumbers.ScrollingUpdateLabelCh1;
 import com.mygdx.game.Enum.ScreenStates;
+import com.mygdx.game.Enum.Steps;
 import com.mygdx.game.Global.GlobalsCommonCount;
 import com.mygdx.game.ChapterClass.Ch1RealNumbers.BallDragListener;
 import com.mygdx.game.ChapterClass.Ch1RealNumbers.DragBallIndicators;
@@ -146,7 +147,41 @@ public class Chapter1 extends ChapterScreen implements Screen {
     catch (Exception e){ }
   }
 
+  ClickListener submitButtonClicked = new ClickListener(){
+    @Override
+    public  void clicked(InputEvent event, float x, float y){
+
+      if(goToNextStep() != true) {
+        GameStates.screenStates = ScreenStates.LEVELSCREEN;
+        time.dispose();
+      }
+      else{
+        stageTranslate += 400;
+        if(stageTranslate >= 1200) {
+          stageTranslate = 0;
+        }
+        //Get the Level Number and Initialise the Level Components.
+        getLevelName();
+        initialiseLevelComponents(currentLevelNumber);
+
+        stage.getCamera().translate(stageTranslate,0,0);
+        stage.getCamera().update();
+      }
+
+    }
+  };
+
   private void defineLevel1To10Components() {
+
+    if(GameStates.steps == Steps.STEP_1){
+
+    }
+    else if (GameStates.steps == Steps.STEP_2){
+
+    }
+    else if (GameStates.steps == Steps.STEP_3){
+
+    }
 
     //check if the updatable are present
     if(updatables == null)
@@ -230,33 +265,17 @@ public class Chapter1 extends ChapterScreen implements Screen {
     }
   }
 
-    ClickListener submitButtonClicked = new ClickListener(){
-      @Override
-      public  void clicked(InputEvent event, float x, float y){
-
-        if(goToNextStep() != true) {
-          GameStates.screenStates = ScreenStates.LEVELSCREEN;
-          time.dispose();
-        }
-        else{
-          stageTranslate += 400;
-          if(stageTranslate >= 1200) {
-            stageTranslate = 0;
-          }
-          //Get the Level Number and Initialise the Level Components.
-          getLevelName();
-          initialiseLevelComponents(currentLevelNumber);
-
-          stage.getCamera().translate(stageTranslate,0,0);
-          stage.getCamera().update();
-        }
-
-      }
-    };
-
-
   private void defineLevel11to15Components() {
 
+    if(GameStates.steps == Steps.STEP_1){
+
+    }
+    else if (GameStates.steps == Steps.STEP_2){
+
+    }
+    else if (GameStates.steps == Steps.STEP_3){
+
+    }
     if(scrollingPara == null)
       return;
 

@@ -1880,7 +1880,8 @@
               "Position": [
                 190,
                 60
-              ]
+              ],
+              "Color": [240, 90, 40]
             }
           },
           "Scrolling":{
@@ -6014,66 +6015,6 @@
               ],
               "Visible": true
             },
-            "NextImage": {
-              "Image": "data/next.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                330,
-                670
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
-              ],
-              "Visible": true
-            },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            }
           },
           "Updatable" : {
             "LabelA": {

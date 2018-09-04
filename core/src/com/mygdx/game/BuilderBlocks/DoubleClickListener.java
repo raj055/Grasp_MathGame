@@ -9,8 +9,6 @@ import java.util.ArrayList;
 
 public class DoubleClickListener extends OnClickCallBack {
 
-//    ArrayList<Image> ClickImage = new ArrayList<com.badlogic.gdx.scenes.scene2d.ui.Image>();
-
     public DoubleClickListener(Events triggerEvent) {
         super(triggerEvent);
     }
@@ -24,21 +22,7 @@ public class DoubleClickListener extends OnClickCallBack {
     public void clicked(InputEvent event, float x, float y) {
 
         if( getTapCount() == 2) {
-//            UpdateElements();
             postEvent();
         }
-
-
     }
-
-//    public void setClick(ArrayList<Image> clickImage) {
-//        if (clickImage != null){
-//            ClickImage.addAll(clickImage);
-//        }
-//    }
-//
-//    private void UpdateElements() {
-
-//    }
-
 }
