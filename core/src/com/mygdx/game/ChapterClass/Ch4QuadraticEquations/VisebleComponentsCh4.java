@@ -38,30 +38,25 @@ public class VisebleComponentsCh4 implements Subscriber {
     @Override
     public void UpdateAllElements(Events evt) {
         if(GameStates.steps == Steps.STEP_1){
-
+            if(evt == Events.DRAG_IMGLIGHT){
+                draglight();
+            }
         }
         else if (GameStates.steps == Steps.STEP_2){
-
+            if (evt == Events.DRAG_IMGSQUARE){
+                dragsquare();
+            }
+            else if (evt == Events.DRAG_IMGSQUARE1){
+                dragsquare1();
+            }
+            else if (evt == Events.DRAG_IMGSQUARE2){
+                dragsquare2();
+            }
+            else if (evt == Events.DRAG_IMGBOX1){
+                dragbox();
+            }
         }
-        else if (GameStates.steps == Steps.STEP_3){
-
-        }
-
-        if(evt == Events.DRAG_IMGLIGHT){
-            draglight();
-        }
-        else if (evt == Events.DRAG_IMGSQUARE){
-            dragsquare();
-        }
-        else if (evt == Events.DRAG_IMGSQUARE1){
-            dragsquare1();
-        }
-        else if (evt == Events.DRAG_IMGSQUARE2){
-            dragsquare2();
-        }
-        else if (evt == Events.DRAG_IMGBOX1){
-            dragbox();
-        }
+        else if (GameStates.steps == Steps.STEP_3){ }
     }
 
     private void draglight() {

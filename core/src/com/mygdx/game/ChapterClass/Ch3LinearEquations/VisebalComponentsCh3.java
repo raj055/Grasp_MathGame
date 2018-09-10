@@ -154,16 +154,6 @@ public class VisebalComponentsCh3 implements Subscriber {
     @Override
     public void UpdateAllElements(Events evt) {
 
-        if(GameStates.steps == Steps.STEP_1){
-
-        }
-        else if (GameStates.steps == Steps.STEP_2){
-
-        }
-        else if (GameStates.steps == Steps.STEP_3){
-
-        }
-
         if(evt == Events.DOUBLE_CLICK_IMG_Y1){
             updateY1();
         }
@@ -207,50 +197,64 @@ public class VisebalComponentsCh3 implements Subscriber {
         Label a2 = getLabel("LabelA2");
         Label valueA1 = getLabel("ValueA1");
 
-        a2.setVisible(false);
-        valueA1.setPosition(275,MyGame.HEIGHT - 430);
+        if ((a2 != null) || (valueA1 != null)) {
+            a2.setVisible(false);
+            valueA1.setPosition(275, MyGame.HEIGHT - 430);
+        }
     }
     private void updateB1() {
         Label b = getLabel("Labelb");
         Label valueB = getLabel("ValueB");
 
-        b.setVisible(false);
-        valueB.setPosition(120,MyGame.HEIGHT - 305);
+        if ((b != null) || (valueB != null)) {
+            b.setVisible(false);
+            valueB.setPosition(120, MyGame.HEIGHT - 305);
+        }
     }
     private void updateB2() {
         Label b2 = getLabel("Labelb2");
         Label valueB1 = getLabel("ValueB1");
 
-        b2.setVisible(false);
-        valueB1.setPosition(275,MyGame.HEIGHT - 305);
+        if ((b2 != null) || (valueB1 != null)) {
+            b2.setVisible(false);
+            valueB1.setPosition(275, MyGame.HEIGHT - 305);
+        }
     }
     private void updateC1() {
         Label c = getLabel("Labelc1");
         Label valueC = getLabel("ValueC");
 
-        c.setVisible(false);
-        valueC.setPosition(340,MyGame.HEIGHT - 305);
+        if ((c != null) || (valueC != null)) {
+            c.setVisible(false);
+            valueC.setPosition(340, MyGame.HEIGHT - 305);
+        }
     }
     private void updateC2() {
         Label c2 = getLabel("Labelc2");
         Label valueC1 = getLabel("ValueC1");
 
-        c2.setVisible(false);
-        valueC1.setPosition(190,MyGame.HEIGHT - 305);
+        if ((c2 != null) || (valueC1 != null)) {
+            c2.setVisible(false);
+            valueC1.setPosition(190, MyGame.HEIGHT - 305);
+        }
     }
     private void updateB11() {
         Label b11 = getLabel("Labelb11");
         Label valueB11 = getLabel("ValueB11");
 
-        b11.setVisible(false);
-        valueB11.setPosition(345,MyGame.HEIGHT - 430);
+        if ((b11 != null) || (valueB11 != null)) {
+            b11.setVisible(false);
+            valueB11.setPosition(345, MyGame.HEIGHT - 430);
+        }
     }
     private void updateB21() {
         Label b12 = getLabel("Labelb12");
         Label valueB12 = getLabel("ValueB12");
 
-        b12.setVisible(false);
-        valueB12.setPosition(185,MyGame.HEIGHT - 430);
+        if ((b12 != null) || (valueB12 != null)) {
+            b12.setVisible(false);
+            valueB12.setPosition(185, MyGame.HEIGHT - 430);
+        }
     }
 
     private Label getLabel(String LabelShow) {

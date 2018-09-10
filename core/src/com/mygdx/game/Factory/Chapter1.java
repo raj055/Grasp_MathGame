@@ -36,30 +36,20 @@ import static com.mygdx.game.Global.GlobalsCommonCount.ValueA;
 
 public class Chapter1 extends ChapterScreen implements Screen {
 
-  //Level 1 variables
-  private Timer time;
-  private GlobalsCommonCount glv;
-
   //Get the components of level 1
   private Image progbar1;
   ArrayList<Image> displayBalls = null;
   ArrayList<Image> remainderBall = null;
-
   ArrayList<Image> scrollingImages = null;
-
   ArrayList<Label> updateScrollLable = null;
 
   //Number of display balls for the LCM
   BallDisplay ballDisplay;
-  //Get the components of level 3
-  Label labelX;
-
-  boolean moveTheBg = false;
 
   //Ball Drag Listener
   BallDragListener ballDragListener;
   RemainderDragListener remBallDragListener;
-  int stageTranslate = 0;
+
   //Scrolling Number
   ScrollingNumber numLocal;
 
@@ -76,7 +66,6 @@ public class Chapter1 extends ChapterScreen implements Screen {
   //submit button
   private Image submitButton = null;
 
-
   //Animation
   AnimationClass animationClass;
   private float elapsed_time;
@@ -84,18 +73,12 @@ public class Chapter1 extends ChapterScreen implements Screen {
   Chapter1(){
     super();
 
-    time = new Timer();
-
-    glv = GlobalsCommonCount.getInstance();
-
     animationClass = new AnimationClass();
-    animationClass.show();
+    animationClass.BirdAnimation();
 
     //Define all Listeners and Updation Objects
     ballDragListener = new BallDragListener(Events.BALL_DRAG_EVENT);
     remBallDragListener = new RemainderDragListener(Events.REMAINDER_BALL_DRAG);
-
-//    numLocal = new ScrollingNumber(Events.SCROLL_NUMBER_SELECT);
 
     getLevelName();
     initialiseLevelComponents(currentLevelNumber);
@@ -147,6 +130,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
     catch (Exception e){ }
   }
 
+  // Submit Button ClickListener
   ClickListener submitButtonClicked = new ClickListener(){
     @Override
     public  void clicked(InputEvent event, float x, float y){
@@ -156,184 +140,129 @@ public class Chapter1 extends ChapterScreen implements Screen {
         time.dispose();
       }
       else{
+
+        int trnslate = 400;
         stageTranslate += 400;
-        if(stageTranslate >= 1200) {
-          stageTranslate = 0;
-        }
         //Get the Level Number and Initialise the Level Components.
         getLevelName();
         initialiseLevelComponents(currentLevelNumber);
 
-        stage.getCamera().translate(stageTranslate,0,0);
+        stage.getCamera().translate(trnslate,0,0);
         stage.getCamera().update();
       }
-
     }
   };
 
   private void defineLevel1To10Components() {
-
-    if(GameStates.steps == Steps.STEP_1){
-
-    }
-    else if (GameStates.steps == Steps.STEP_2){
-
-    }
-    else if (GameStates.steps == Steps.STEP_3){
-
-    }
-
-    //check if the updatable are present
-    if(updatables == null)
-      return;
-
     ChapterVariables chapterVariables = ChapterVariables.getInstance();
 
-    //totalObjects
-    updatables.size();
+    if((GameStates.steps == Steps.STEP_1) || (GameStates.steps == Steps.STEP_2)
+            || (GameStates.steps == Steps.STEP_3) || (GameStates.steps == Steps.STEP_4)
+            || (GameStates.steps == Steps.STEP_5) || (GameStates.steps == Steps.STEP_6)
+            || (GameStates.steps == Steps.STEP_7)){
 
-    ArrayList<ProgressData>  updateLabelsList = new ArrayList<ProgressData>();
+      //check if the updatable are present
+      if(updatables != null) {
+        updatables.size();
 
-    for (Label updatable : updatables)
-    {
-      //Array List of Labels
-      ProgressData prgDataLabel = new ProgressData();
-      String txt = updatable.getText().toString();
+        ArrayList<ProgressData> updateLabelsList = new ArrayList<ProgressData>();
 
-      //Progress Data Label
-      prgDataLabel.visibleEntity = updatable;
-      prgDataLabel.valueVar = Integer.valueOf(txt);
-      updateLabelsList.add(prgDataLabel);
+        for (Label updatable : updatables) {
+          //Array List of Labels
+          ProgressData prgDataLabel = new ProgressData();
+          String txt = updatable.getText().toString();
 
-      //Update Value of A
-      chapterVariables.chapter1Variables.ValueOfA = ValueA[currentLevelNumber];
-      Gdx.app.debug("Current Level Number", String.valueOf(currentLevelNumber));
-      Gdx.app.debug("Value of A", String.valueOf(chapterVariables.chapter1Variables.ValueOfA));
-    }
+          //Progress Data Label
+          prgDataLabel.visibleEntity = updatable;
+          prgDataLabel.valueVar = Integer.valueOf(txt);
+          updateLabelsList.add(prgDataLabel);
 
-    //Put components
-    dragBallIndicators = new DragBallIndicators(updateLabelsList);
+          //Update Value of A
+          chapterVariables.chapter1Variables.ValueOfA = ValueA[currentLevelNumber];
+          Gdx.app.debug("Current Level Number", String.valueOf(currentLevelNumber));
+          Gdx.app.debug("Value of A", String.valueOf(chapterVariables.chapter1Variables.ValueOfA));
+        }
+        //Put components
+        dragBallIndicators = new DragBallIndicators(updateLabelsList);
+      }
 
-    if(displayImages == null)
-      return;
+      if(displayImages != null) {
 
-    displayBalls = new ArrayList<Image>();
-    displayBallList = new ArrayList<Image>();
-    remainderBall = new ArrayList<Image>();
+        displayBalls = new ArrayList<Image>();
+        displayBallList = new ArrayList<Image>();
+        remainderBall = new ArrayList<Image>();
 
-    displayImages.size();
+        displayImages.size();
 
-    for (Image updatable : displayImages)
-    {
-      String str = updatable.getName();
+        for (Image updatable : displayImages) {
+          String str = updatable.getName();
+          if (str.contains("progBar1"))
+            progbar1 = updatable;
+          else if (str.contains("displayBall")) {
+            displayBallList.add(updatable);
+          }
+        }
+        //Components to be updated on receiving an event
+        visibleComponents = new VisibleComponents(progbar1, displayBallList);
 
-      if (str.contains("progBar1"))
-        progbar1 = updatable;
+        draggable.size();
 
-      else if (str.contains("displayBall")) {
+        for (Image updatable : draggable) {
+          String str = updatable.getName();
+          if (str.contains("DragBall")) {
+            chapterVariables.chapter1Variables.ValueOfB++;
+            displayBalls.add(updatable);
+          } else if (str.contains("RemBall"))
+            remainderBall.add(updatable);
+        }
+        ballDragListener.setDisplayBalls(displayBalls);
 
-        displayBallList.add(updatable);
+        attachDraggables();
       }
     }
+    //Add Submit Button Listener.
+    addSubmitButtonListner();
+  }
+  private void defineLevel11to15Components() {
 
-    //Components to be updated on receiving an event
-    visibleComponents = new VisibleComponents(progbar1, displayBallList);
+    if((GameStates.steps == Steps.STEP_1) || (GameStates.steps == Steps.STEP_2)
+            || (GameStates.steps == Steps.STEP_3) || (GameStates.steps == Steps.STEP_4)
+            || (GameStates.steps == Steps.STEP_5) || (GameStates.steps == Steps.STEP_6)){
 
-    draggable.size();
-
-    for (Image updatable : draggable) {
-      String str = updatable.getName();
-      if (str.contains("DragBall")) {
-        chapterVariables.chapter1Variables.ValueOfB++;
-        displayBalls.add(updatable);
+      if(scrollingPara != null){
+        numLocal = new ScrollingNumber();
+        numLocal.setPositionX(xPosAdditionFactor - 400);
+        scrollingImages = new ArrayList<Image>();
+        scrollingPara.size();
+        for(Image img : scrollingPara)
+        {
+          scrollingImages.add(img);
+          stage.addActor(img);
+        }
+        numLocal.scrolling(scrollingImages, Events.CLICK_ScrollingCh1);
       }
-      else if (str.contains("RemBall"))
-        remainderBall.add(updatable);
-    }
-    ballDragListener.setDisplayBalls(displayBalls);
+      //check if the updatable are present
+      if(updatables != null) {
+        updateScrollLable = new ArrayList<Label>();
+        updatables.size();
 
-    attachDraggables();
+        for (Label updatable : updatables) {
+          updatable.getName();
+          updateScrollLable.add(updatable);
+        }
+      }
+      scrollingUpdateLableCh1 = new ScrollingUpdateLabelCh1(updateScrollLable);
+      ballDisplay = new BallDisplay(9,9);
 
-    if(buttonsList != null){
-      for(Image subBtn : buttonsList){
-        String name = subBtn.getName();
-        if (name.equalsIgnoreCase("SubmitButtn")){
-          submitButton = subBtn;
-          submitButton.addListener(submitButtonClicked);
+      for (int i = 0; i < ballDisplay.columns; i++){
+
+        for (int j = 0; j < ballDisplay.rows; j++) {
+
+          stage.addActor(scrollingUpdateLableCh1.ballDisplay.balls[i][j]);
+          scrollingUpdateLableCh1.ballDisplay.balls[i][j].setVisible(false);
         }
       }
     }
-  }
-
-  private void defineLevel11to15Components() {
-
-    if(GameStates.steps == Steps.STEP_1){
-
-    }
-    else if (GameStates.steps == Steps.STEP_2){
-
-    }
-    else if (GameStates.steps == Steps.STEP_3){
-
-    }
-    if(scrollingPara == null)
-      return;
-
-    numLocal = new ScrollingNumber();
-
-    scrollingImages = new ArrayList<Image>();
-
-    //totalObjects
-    scrollingPara.size();
-
-    for(Image img : scrollingPara)
-    {
-      scrollingImages.add(img);
-
-    }
-
-    numLocal.scrolling(scrollingImages, Events.CLICK_ScrollingCh1);
-
-    //check if the updatables are present
-    if(updatables == null)
-      return;
-
-    updateScrollLable = new ArrayList<Label>();
-
-    //totalObjects
-    updatables.size();
-
-    for (Label updatable : updatables)
-    {
-      String str = updatable.getName();
-
-      if (str.contains("LabelB")) {
-        labelX = updatable;
-      }
-
-      updateScrollLable.add(updatable);
-
-    }
-
-    scrollingUpdateLableCh1 = new ScrollingUpdateLabelCh1(updateScrollLable);
-    ballDisplay = new BallDisplay(6,6);
-
-    for (int i = 0; i < ballDisplay.columns; i++){
-
-      for (int j = 0; j < ballDisplay.rows; j++) {
-
-        stage.addActor(scrollingUpdateLableCh1.ballDisplay.balls[i][j]);
-
-        scrollingUpdateLableCh1.ballDisplay.balls[i][j].setVisible(false);
-
-      }
-    }
-
-    for(Image numberI : scrollingPara)
-    {
-      stage.addActor(numberI);
-    }
-
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }
@@ -349,7 +278,6 @@ public class Chapter1 extends ChapterScreen implements Screen {
         }
       }
     }
-
   }
 
   interface LevelDefinition {
@@ -405,78 +333,26 @@ public class Chapter1 extends ChapterScreen implements Screen {
 
   private void renderLevel1(float delta){
     update(delta);
-
     stage.draw();
-
     if (time.isTimeUp()){
-
       elapsed_time += Gdx.graphics.getDeltaTime();
       animationClass.update(elapsed_time);
     }
+    if(moveTheBg) { bg.act(delta); }
     time.stage.draw();
   }
   private void renderLevel2(float delta){
     update(delta);
-
-    if (time.isTimeUp()){
-
-    }
-
+    if (time.isTimeUp()){}
     stage.draw();
-
-    if(moveTheBg) {
-      bg.act(delta);
-//      moveTheBg = false;
-    }
-
+    if(moveTheBg) { bg.act(delta); }
     time.stage.draw();
-
 
   }
   private void renderLevel3(float deltaTime){
-    //Sets the color to be applied after clearing the screen (R,G,B,A)
-    Gdx.gl.glClearColor(0,0,255,1);
-    //Clears the screen
-    Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
-    time.update(deltaTime);
-
     numLocal.update(deltaTime);
-
- /*   if (glv.lableWrite){
-
-      glv.lableWrite = false;
-
-      StringBuilder  str = new StringBuilder(labelX.getText());
-      str.append(glv.lableUpdate);
-      str.append("*");
-      labelX.setText(str);
-
-      switch (glv.countClick) {
-        case 1:
-          glv.click1 = glv.lableUpdate;
-          break;
-
-        case 2:
-          glv.click2 = glv.lableUpdate;
-          break;
-
-        default:
-          break;
-      }
-
-      for (int i = 0; i < glv.click1; i++){
-        scrollingUpdateLableCh1.ballDisplay.balls[i][0].setVisible(true);
-        for (int j = 0; j < glv.click2; j++) {
-          scrollingUpdateLableCh1.ballDisplay.balls[i][j].setVisible(true);
-      }
-    }
-
-    }*/
-
-
-    if (time.isTimeUp()){
-//      GameStates.screenStates = ScreenStates.DIALOGBOX;
-    }
+    if (time.isTimeUp()){}
+    if(moveTheBg) { bg.act(deltaTime); }
     stage.draw();
     time.stage.draw();
   }

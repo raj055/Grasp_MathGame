@@ -39,8 +39,8 @@ public class ScrollingImageClick extends OnClickCallBack {
     }
 
     public void setStringValue(int count) {
+        this.strValue = String.valueOf(count);
 
-        this.strValue = gblVar.NumberLevel12[count];
     }
     private void UpdateElements() {
 

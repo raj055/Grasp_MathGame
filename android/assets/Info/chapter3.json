@@ -16,6 +16,201 @@
               ],
               "Visible": false
             },
+            "imgsquare": {
+              "Image": "data_ch3/bgsquare.png",
+              "Size": [
+                180,
+                180
+              ],
+              "Position": [
+                10,
+                260
+              ],
+              "Visible": true
+            },
+            "imgsquare1": {
+              "Image": "data_ch3/bgsquare.png",
+              "Size": [
+                180,
+                180
+              ],
+              "Position": [
+                200,
+                260
+              ],
+              "Visible": true
+            },
+            "pencil": {
+              "Image": "data_ch3/pencil72.png",
+              "Size": [
+                100,
+                200
+              ],
+              "Position": [
+                50,
+                530
+              ],
+              "Visible": true
+            },
+            "eraser": {
+              "Image": "data_ch3/eraser72.png",
+              "Size": [
+                80,
+                150
+              ],
+              "Position": [
+                250,
+                500
+              ],
+              "Visible": true
+            }
+          },
+          "Updatable": {
+            "Title": {
+              "Text": "Elimination method",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                10,
+                50
+              ]
+            },
+            "LabelP": {
+              "Text": "",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                60,
+                430
+              ]
+            },
+            "LabelE": {
+              "Text": "",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                270,
+                395
+              ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
+          }
+        },
+        "Step2": {
+          "Displays": {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
             "Square": {
               "Image": "data_ch3/bgsquare.png",
               "Size": [
@@ -87,78 +282,1626 @@
                 640
               ],
               "Visible": true
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
+            }
+          },
+          "Updatable": {
+            "Title": {
+              "Text": "Elimination method",
               "Size": [
-                40,
-                40
+                50,
+                50
               ],
               "Position": [
-                20,
-                690
+                10,
+                50
+              ]
+            },
+            "Value1": {
+              "Text": "__",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                250,
+                350
+              ]
+            },
+            "Value2": {
+              "Text": "x +",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                300,
+                350
+              ]
+            },
+            "Value3": {
+              "Text": "__",
+              "Size": [
+                50,
+                50
+              ],
+              "Position" : [
+                250,
+                420
+              ]
+            },
+            "Value4": {
+              "Text": "y +",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                300,
+                420
+              ]
+            },
+            "Value11": {
+              "Text": "__",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                250,
+                530
+              ]
+            },
+            "Value12": {
+              "Text": "x +",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                300,
+                530
+              ]
+            },
+            "Value13": {
+              "Text": "__",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                250,
+                600
+              ]
+            },
+            "Value14": {
+              "Text": "y +",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                300,
+                600
+              ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
               ],
               "Visible": true
             },
-            "ClickBttn": {
-              "Image": "data/btn.png",
+            "number1": {
+              "Image": "Numbers/number1.png",
               "Size": [
-                40,
+                30,
                 40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": false
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
               ],
               "Visible": true
             },
-            "Levelselect": {
-              "Image": "data/levelsel.png",
+            "number2": {
+              "Image": "Numbers/number2.png",
               "Size": [
-                20,
-                20
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
               ],
               "Position": [
-                50,
-                50
+                0,
+                710
+              ],
+              "Visible": true
+            }
+          }
+        },
+        "Step3": {
+          "Displays": {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                300,
+                700
+              ],
+              "Position": [
+                190,
+                260
               ],
               "Visible": false
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "Square": {
+              "Image": "data_ch3/bgsquare.png",
               "Size": [
-                20,
-                20
+                180,
+                180
+              ],
+              "Position": [
+                10,
+                260
+              ],
+              "Visible": true
+            },
+            "Squarel": {
+              "Image": "data_ch3/bgsquare.png",
+              "Size": [
+                180,
+                180
+              ],
+              "Position": [
+                200,
+                260
+              ],
+              "Visible": true
+            },
+            "Pencil": {
+              "Image": "data_ch3/pencil72.png",
+              "Size": [
+                80,
+                180
               ],
               "Position": [
                 50,
+                260
+              ],
+              "Visible": true
+            },
+            "Eraser": {
+              "Image": "data_ch3/eraser72.png",
+              "Size": [
+                80,
+                160
+              ],
+              "Position": [
+                240,
+                250
+              ],
+              "Visible": true
+            },
+            "Rectangle": {
+              "Image": "data_ch3/bgrect.png",
+              "Size": [
+                380,
+                180
+              ],
+              "Position": [
+                10,
+                450
+              ],
+              "Visible": true
+            },
+            "Rectangle1": {
+              "Image": "data_ch3/bgrect.png",
+              "Size": [
+                380,
+                180
+              ],
+              "Position": [
+                10,
+                650
+              ],
+              "Visible": true
+            }
+          },
+          "Updatable": {
+            "Title": {
+              "Text": "Elimination method",
+              "Size": [
+                50,
                 50
+              ],
+              "Position": [
+                10,
+                50
+              ]
+            },
+            "Value1": {
+              "Text": "3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                250,
+                350
+              ]
+            },
+            "Value2": {
+              "Text": "x +",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                300,
+                350
+              ]
+            },
+            "Value3": {
+              "Text": "3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                250,
+                420
+              ]
+            },
+            "Value4": {
+              "Text": "y +",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                300,
+                420
+              ]
+            },
+            "Value11": {
+              "Text": "6",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                250,
+                530
+              ]
+            },
+            "Value12": {
+              "Text": "x +",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                300,
+                530
+              ]
+            },
+            "Value13": {
+              "Text": "4",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                250,
+                600
+              ]
+            },
+            "Value14": {
+              "Text": "y +",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                300,
+                600
+              ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
+          }
+        },
+        "Step4": {
+          "Displays": {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
               ],
               "Visible": false
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "Square": {
+              "Image": "data_ch3/bgsquare.png",
               "Size": [
-                20,
-                20
+                180,
+                180
+              ],
+              "Position": [
+                10,
+                260
+              ],
+              "Visible" : true
+            },
+            "Squarel": {
+              "Image": "data_ch3/bgsquare.png",
+              "Size": [
+                180,
+                180
+              ],
+              "Position": [
+                200,
+                260
+              ],
+              "Visible": true
+            },
+            "Pencil": {
+              "Image": "data_ch3/pencil72.png",
+              "Size": [
+                80,
+                180
               ],
               "Position": [
                 50,
+                260
+              ],
+              "Visible": true
+            },
+            "Eraser": {
+              "Image": "data_ch3/eraser72.png",
+              "Size": [
+                80,
+                160
+              ],
+              "Position": [
+                240,
+                250
+              ],
+              "Visible": true
+            },
+            "Rectangle": {
+              "Image": "data_ch3/bgrect.png",
+              "Size": [
+                380,
+                180
+              ],
+              "Position": [
+                10,
+                450
+              ],
+              "Visible": true
+            },
+            "Rectanglel": {
+              "Image": "data_ch3/bgrect.png",
+              "Size": [
+                380,
+                180
+              ],
+              "Position": [
+                10,
+                650
+              ],
+              "Visible": true
+            }
+          },
+          "Updatable": {
+            "Title": {
+              "Text": "Elimination method",
+              "Size": [
+                50,
                 50
               ],
+              "Position": [
+                10,
+                50
+              ]
+            },
+            "Value1": {
+              "Text": "3x +",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                110,
+                390
+              ]
+            },
+            "Value2": {
+              "Text": "__",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                160,
+                390
+              ]
+            },
+            "Value3": {
+              "Text": "y = 9",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                190,
+                390
+              ]
+            },
+            "Value11": {
+              "Text": "6x +",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                110,
+                570
+              ]
+            },
+            "Value12": {
+              "Text": "__",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                160,
+                570
+              ]
+            },
+            "Value13": {
+              "Text": "y = 18",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                190,
+                570
+              ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
+          }
+        },
+        "Step5": {
+          "Displays": {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
               "Visible": false
+            },
+            "Square": {
+              "Image": "data_ch3/bgsquare.png",
+              "Size": [
+                180,
+                180
+              ],
+              "Position": [
+                10,
+                260
+              ],
+              "Visible": true
+            },
+            "Squarel": {
+              "Image": "data_ch3/bgsquare.png",
+              "Size": [
+                180,
+                180
+              ],
+              "Position": [
+                200,
+                260
+              ],
+              "Visible": true
+            },
+            "Pencil": {
+              "Image": "data_ch3/pencil72.png",
+              "Size": [
+                80,
+                180
+              ],
+              "Position": [
+                50,
+                260
+              ],
+              "Visible": true
+            },
+            "Eraser": {
+              "Image": "data_ch3/eraser72.png",
+              "Size": [
+                80,
+                160
+              ],
+              "Position": [
+                240,
+                250
+              ],
+              "Visible": true
+            },
+            "Rectangle": {
+              "Image": "data_ch3/bgrect.png",
+              "Size": [
+                380,
+                180
+              ],
+              "Position": [
+                10,
+                450
+              ],
+              "Visible": true
+            },
+            "Rectanglel": {
+              "Image": "data_ch3/bgrect.png",
+              "Size": [
+                380,
+                180
+              ],
+              "Position": [
+                10,
+                640
+              ],
+              "Visible": true
+            }
+          },
+          "Updatable": {
+            "Title": {
+              "Text": "Elimination method",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                10,
+                50
+              ]
+            },
+            "Value1": {
+              "Text": "3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                50,
+                390
+              ]
+            },
+            "Value2": {
+              "Text": "x4",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                65,
+                390
+              ]
+            },
+            "Value3": {
+              "Text": "x +",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                90,
+                390
+              ]
+            },
+            "Value4": {
+              "Text": "3x4y",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                170,
+                390
+              ]
+            },
+            "Value5": {
+              "Text": "= 9",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                275,
+                390
+              ]
+            },
+            "Value6": {
+              "Text": "x4",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                320,
+                390
+              ]
+            },
+            "Value11": {
+              "Text": "3x",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                50,
+                570
+              ]
+            },
+            "Value12": {
+              "Text": "6x +",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                80,
+                570
+              ]
+            },
+            "Value13": {
+              "Text": "3x4y",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                180,
+                570
+              ]
+            },
+            "Value14": {
+              "Text": "=",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                290,
+                570
+              ]
+            },
+            "Value15": {
+              "Text": "3x",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                315,
+                570
+              ]
+            },
+            "Value16": {
+              "Text": "18",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                340,
+                570
+              ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
+          }
+        },
+        "Step6": {
+          "Displays": {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                40
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": true
+            },
+            "Square":  {
+              "Image": "data_ch3/bgsquare.png",
+              "Size": [
+                180,
+                180
+              ],
+              "Position": [
+                10,
+                260
+              ],
+              "Visible": true
+            },
+            "Squarel": {
+              "Image": "data_ch3/bgsquare.png",
+              "Size": [
+                180,
+                180
+              ],
+              "Position": [
+                190,
+                260
+              ],
+              "Visible": true
+            },
+            "Pencil": {
+              "Image": "data_ch3/pencil72.png",
+              "Size": [
+                80,
+                180
+              ],
+              "Position": [
+                50,
+                260
+              ]
+            },
+            "Eraser": {
+              "Image": "data_ch3/eraser72.png",
+              "Size": [
+                80,
+                160
+              ],
+              "Position": [
+                150,
+                250
+              ]
+            },
+            "Rectangle": {
+              "Image": "data_ch3/bgrect.png",
+              "Size": [
+                380,
+                280
+              ],
+              "Position": [
+                10,
+                550
+              ],
+              "Visible": true
+            }
+          },
+          "Updatable": {
+            "Title": {
+              "Text": "Elimination method",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                10,
+                50
+              ]
+            },
+            "Value1": {
+              "Text": "12x +",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                50,
+                390
+              ]
+            },
+            "Value2": {
+              "Text": "12y",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                170,
+                390
+              ]
+            },
+            "Value3": {
+              "Text": "= 36",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                250,
+                390
+              ]
+            },
+            "Value11": {
+              "Text": "-18x +",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                50,
+                530
+              ]
+            },
+            "Value12": {
+              "Text": "12y",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                180,
+                530
+              ]
+            },
+            "Value13": {
+              "Text": "= 54",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                260,
+                530
+              ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
+          }
+        },
+        "Step7": {
+          "Displays": {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                300,
+                700
+              ],
+              "Position": [
+                190,
+                260
+              ],
+              "Visible": true
+            },
+            "Square": {
+              "Image": "data_ch3/bgsquare.png",
+              "Size": [
+                180,
+                180
+              ],
+              "Position": [
+                10,
+                260
+              ],
+              "Visible": true
+            },
+            "Squarel": {
+              "Image": "data_ch3/bgsquare.png",
+              "Size": [
+                180,
+                180
+              ],
+              "Position": [
+                190,
+                260
+              ],
+              "Visible": true
+            },
+            "Pencil": {
+              "Image": "data_ch3/pencil72.png",
+              "Size": [
+                80,
+                180
+              ],
+              "Position": [
+                50,
+                260
+              ],
+              "Visible": true
+            },
+            "Eraser": {
+              "Image": "data_ch3/eraser72.png",
+              "Size": [
+                80,
+                160
+              ],
+              "Position": [
+                150,
+                250
+              ],
+              "Visible": true
+            },
+            "Rectangle": {
+              "Image": "data_ch3/bgrect.png",
+              "Size": [
+                380,
+                280
+              ],
+              "Position": [
+                10,
+                550
+              ],
+              "Visible": true
+            }
+          },
+          "Updatable": {
+            "Title": {
+              "Text": "Elimination method",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                10,
+                50
+              ]
+            },
+            "Anser": {
+              "Text": "6x = 18 =>",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                100,
+                400
+              ]
+            },
+            "Anser1": {
+              "Text": "x = 3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                180,
+                480
+              ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
+          }
+        }
+      },
+      "Level2": {
+        "Step1": {
+          "Displays": {
+            "BgImage": {
+              "Image": "data/bg_1.png",
+              "Size": [
+                250,
+                60
+              ],
+              "Position": [
+                10,
+                60
+              ],
+              "Visible": false
+            },
+            "Square": {
+              "Image": "data_ch3/bgsquare.png",
+              "Size": [
+                180,
+                180
+              ],
+              "Position": [
+                10,
+                260
+              ],
+              "Visible": true
+            },
+            "Squarel": {
+              "Image": "data_ch3/bgsquare.png",
+              "Size": [
+                180,
+                180
+              ],
+              "Position": [
+                200,
+                260
+              ],
+              "Visible": true
+            },
+            "Pencil": {
+              "Image": "data_ch3/pencil72.png",
+              "Size": [
+                80,
+                180
+              ],
+              "Position": [
+                50,
+                260
+              ],
+              "Visible": true
+            },
+            "Eraser": {
+              "Image": "data_ch3/eraser72.png",
+              "Size": [
+                80,
+                160
+              ],
+              "Position": [
+                230,
+                250
+              ],
+              "Visible": true
+            },
+            "Rectangle": {
+              "Image": "data_ch3/bgrect.png",
+              "Size": [
+                380,
+                180
+              ],
+              "Position": [
+                10,
+                450
+              ],
+              "Visible": true
+            },
+            "Rectanglel": {
+              "Image": "data_ch3/bgrect.png",
+              "Size": [
+                380,
+                180
+              ],
+              "Position": [
+                10,
+                640
+              ],
+              "Visible": true
             }
           },
           "Updatable": {
@@ -444,54 +2187,6 @@
                 650
               ],
               "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
-              ],
-              "Visible": true
-            },
-            "Levelselect": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
             }
           },
           "Updatable": {
@@ -595,6 +2290,88 @@
               ]
             }
           },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            }
+          },
           "Buttons":{
             "SubmitButtn": {
               "Image": "data1/asset_submit.png",
@@ -695,66 +2472,6 @@
                 650
               ],
               "Visible": true
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
-              ],
-              "Visible": true
-            },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
             }
           },
           "Updatable": {
@@ -834,6 +2551,88 @@
                 190,
                 570
               ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
             }
           },
           "Buttons":{
@@ -936,66 +2735,6 @@
                 640
               ],
               "Visible": true
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
-              ],
-              "Visible": true
-            },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
             }
           },
           "Updatable": {
@@ -1143,6 +2882,88 @@
               ]
             }
           },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            }
+          },
           "Buttons":{
             "SubmitButtn": {
               "Image": "data1/asset_submit.png",
@@ -1229,66 +3050,6 @@
                 550
               ],
               "Visible": true
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                30,
-                10
-              ],
-              "Visible": false
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
             }
           },
           "Updatable": {
@@ -1368,6 +3129,88 @@
                 260,
                 530
               ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
             }
           },
           "Buttons":{
@@ -1458,66 +3301,6 @@
                 550
               ],
               "Visible": true
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                30,
-                10
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
-            },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
             }
           },
           "Updatable": {
@@ -1555,1492 +3338,86 @@
               ]
             }
           },
-          "Buttons":{
-            "SubmitButtn": {
-              "Image": "data1/asset_submit.png",
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
               "Size": [
-                200,
-                80
-              ],
-              "Position": [
-                0,
-                710
-              ],
-              "Visible": true
-            }
-          }
-        }
-      },
-      "Level2": {
-        "Step1": {
-          "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                250,
-                60
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": false
-            },
-            "Square": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                10,
-                260
-              ],
-              "Visible": true
-            },
-            "Squarel": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                200,
-                260
-              ],
-              "Visible": true
-            },
-            "Pencil": {
-              "Image": "data_ch3/pencil72.png",
-              "Size": [
-                80,
-                180
-              ],
-              "Position": [
-                50,
-                260
-              ],
-              "Visible": true
-            },
-            "Eraser": {
-              "Image": "data_ch3/eraser72.png",
-              "Size": [
-                80,
-                160
-              ],
-              "Position": [
-                230,
-                250
-              ],
-              "Visible": true
-            },
-            "Rectangle": {
-              "Image": "data_ch3/bgrect.png",
-              "Size": [
-                380,
-                180
-              ],
-              "Position": [
-                10,
-                450
-              ],
-              "Visible": true
-            },
-            "Rectanglel": {
-              "Image": "data_ch3/bgrect.png",
-              "Size": [
-                380,
-                180
-              ],
-              "Position": [
-                10,
-                640
-              ],
-              "Visible": true
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "ClickBttn": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": false
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
-              ],
-              "Visible": true
-            },
-            "Levelselect": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            }
-          },
-          "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ]
-            },
-            "Value1": {
-              "Text": "__",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                250,
-                350
-              ]
-            },
-            "Value2": {
-              "Text": "x +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                300,
-                350
-              ]
-            },
-            "Value3": {
-              "Text": "__",
-              "Size": [
-                50,
-                50
-              ],
-              "Position" : [
-                250,
-                420
-              ]
-            },
-            "Value4": {
-              "Text": "y +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                300,
-                420
-              ]
-            },
-            "Value11": {
-              "Text": "__",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                250,
-                530
-              ]
-            },
-            "Value12": {
-              "Text": "x +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                300,
-                530
-              ]
-            },
-            "Value13": {
-              "Text": "__",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                250,
-                600
-              ]
-            },
-            "Value14": {
-              "Text": "y +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                300,
-                600
-              ]
-            }
-          },
-          "Buttons":{
-            "SubmitButtn": {
-              "Image": "data1/asset_submit.png",
-              "Size": [
-                200,
-                80
-              ],
-              "Position": [
-                0,
-                710
-              ],
-              "Visible": true
-            }
-          }
-        },
-        "Step2": {
-          "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                300,
-                700
-              ],
-              "Position": [
-                190,
-                260
-              ],
-              "Visible": false
-            },
-            "Square": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                10,
-                260
-              ],
-              "Visible": true
-            },
-            "Squarel": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                200,
-                260
-              ],
-              "Visible": true
-            },
-            "Pencil": {
-              "Image": "data_ch3/pencil72.png",
-              "Size": [
-                80,
-                180
-              ],
-              "Position": [
-                50,
-                260
-              ],
-              "Visible": true
-            },
-            "Eraser": {
-              "Image": "data_ch3/eraser72.png",
-              "Size": [
-                80,
-                160
-              ],
-              "Position": [
-                240,
-                250
-              ],
-              "Visible": true
-            },
-            "Rectangle": {
-              "Image": "data_ch3/bgrect.png",
-              "Size": [
-                380,
-                180
-              ],
-              "Position": [
-                10,
-                450
-              ],
-              "Visible": true
-            },
-            "Rectangle1": {
-              "Image": "data_ch3/bgrect.png",
-              "Size": [
-                380,
-                180
-              ],
-              "Position": [
-                10,
-                650
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
-              ],
-              "Visible": true
-            },
-            "Levelselect": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            }
-          },
-          "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ]
-            },
-            "Value1": {
-              "Text": "3",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                250,
-                350
-              ]
-            },
-            "Value2": {
-              "Text": "x +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                300,
-                350
-              ]
-            },
-            "Value3": {
-              "Text": "3",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                250,
-                420
-              ]
-            },
-            "Value4": {
-              "Text": "y +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                300,
-                420
-              ]
-            },
-            "Value11": {
-              "Text": "6",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                250,
-                530
-              ]
-            },
-            "Value12": {
-              "Text": "x +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                300,
-                530
-              ]
-            },
-            "Value13": {
-              "Text": "4",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                250,
-                600
-              ]
-            },
-            "Value14": {
-              "Text": "y +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                300,
-                600
-              ]
-            }
-          },
-          "Buttons":{
-            "SubmitButtn": {
-              "Image": "data1/asset_submit.png",
-              "Size": [
-                200,
-                80
-              ],
-              "Position": [
-                0,
-                710
-              ],
-              "Visible": true
-            }
-          }
-        },
-        "Step3": {
-          "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                250,
-                60
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": false
-            },
-            "Square": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                10,
-                260
-              ],
-              "Visible" : true
-            },
-            "Squarel": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                200,
-                260
-              ],
-              "Visible": true
-            },
-            "Pencil": {
-              "Image": "data_ch3/pencil72.png",
-              "Size": [
-                80,
-                180
-              ],
-              "Position": [
-                50,
-                260
-              ],
-              "Visible": true
-            },
-            "Eraser": {
-              "Image": "data_ch3/eraser72.png",
-              "Size": [
-                80,
-                160
-              ],
-              "Position": [
-                240,
-                250
-              ],
-              "Visible": true
-            },
-            "Rectangle": {
-              "Image": "data_ch3/bgrect.png",
-              "Size": [
-                380,
-                180
-              ],
-              "Position": [
-                10,
-                450
-              ],
-              "Visible": true
-            },
-            "Rectanglel": {
-              "Image": "data_ch3/bgrect.png",
-              "Size": [
-                380,
-                180
-              ],
-              "Position": [
-                10,
-                650
-              ],
-              "Visible": true
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
-              ],
-              "Visible": true
-            },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            }
-          },
-          "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ]
-            },
-            "Value1": {
-              "Text": "3x +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                110,
-                390
-              ]
-            },
-            "Value2": {
-              "Text": "__",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                160,
-                390
-              ]
-            },
-            "Value3": {
-              "Text": "y = 9",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                190,
-                390
-              ]
-            },
-            "Value11": {
-              "Text": "6x +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                110,
-                570
-              ]
-            },
-            "Value12": {
-              "Text": "__",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                160,
-                570
-              ]
-            },
-            "Value13": {
-              "Text": "y = 18",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                190,
-                570
-              ]
-            }
-          },
-          "Buttons":{
-            "SubmitButtn": {
-              "Image": "data1/asset_submit.png",
-              "Size": [
-                200,
-                80
-              ],
-              "Position": [
-                0,
-                710
-              ],
-              "Visible": true
-            }
-          }
-        },
-        "Step4": {
-          "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                250,
-                60
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": false
-            },
-            "Square": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                10,
-                260
-              ],
-              "Visible": true
-            },
-            "Squarel": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                200,
-                260
-              ],
-              "Visible": true
-            },
-            "Pencil": {
-              "Image": "data_ch3/pencil72.png",
-              "Size": [
-                80,
-                180
-              ],
-              "Position": [
-                50,
-                260
-              ],
-              "Visible": true
-            },
-            "Eraser": {
-              "Image": "data_ch3/eraser72.png",
-              "Size": [
-                80,
-                160
-              ],
-              "Position": [
-                240,
-                250
-              ],
-              "Visible": true
-            },
-            "Rectangle": {
-              "Image": "data_ch3/bgrect.png",
-              "Size": [
-                380,
-                180
-              ],
-              "Position": [
-                10,
-                450
-              ],
-              "Visible": true
-            },
-            "Rectanglel": {
-              "Image": "data_ch3/bgrect.png",
-              "Size": [
-                380,
-                180
-              ],
-              "Position": [
-                10,
-                640
-              ],
-              "Visible": true
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
-              ],
-              "Visible": true
-            },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            }
-          },
-          "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ]
-            },
-            "Value1": {
-              "Text": "3",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                50,
-                390
-              ]
-            },
-            "Value2": {
-              "Text": "x4",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                65,
-                390
-              ]
-            },
-            "Value3": {
-              "Text": "x +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                90,
-                390
-              ]
-            },
-            "Value4": {
-              "Text": "3x4y",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                170,
-                390
-              ]
-            },
-            "Value5": {
-              "Text": "= 9",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                275,
-                390
-              ]
-            },
-            "Value6": {
-              "Text": "x4",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                320,
-                390
-              ]
-            },
-            "Value11": {
-              "Text": "3x",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                50,
-                570
-              ]
-            },
-            "Value12": {
-              "Text": "6x +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                80,
-                570
-              ]
-            },
-            "Value13": {
-              "Text": "3x4y",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                180,
-                570
-              ]
-            },
-            "Value14": {
-              "Text": "=",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                290,
-                570
-              ]
-            },
-            "Value15": {
-              "Text": "3x",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                315,
-                570
-              ]
-            },
-            "Value16": {
-              "Text": "18",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                340,
-                570
-              ]
-            }
-          },
-          "Buttons":{
-            "SubmitButtn": {
-              "Image": "data1/asset_submit.png",
-              "Size": [
-                200,
-                80
-              ],
-              "Position": [
-                0,
-                710
-              ],
-              "Visible": true
-            }
-          }
-        },
-        "Step5": {
-          "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": true
-            },
-            "Square":  {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                10,
-                260
-              ],
-              "Visible": true
-            },
-            "Squarel": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                190,
-                260
-              ],
-              "Visible": true
-            },
-            "Pencil": {
-              "Image": "data_ch3/pencil72.png",
-              "Size": [
-                80,
-                180
-              ],
-              "Position": [
-                50,
-                260
-              ]
-            },
-            "Eraser": {
-              "Image": "data_ch3/eraser72.png",
-              "Size": [
-                80,
-                160
-              ],
-              "Position": [
-                150,
-                250
-              ]
-            },
-            "Rectangle": {
-              "Image": "data_ch3/bgrect.png",
-              "Size": [
-                380,
-                280
-              ],
-              "Position": [
-                10,
-                550
-              ],
-              "Visible": true
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
                 30,
-                10
-              ],
-              "Visible": false
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
-            }
-          },
-          "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ]
-            },
-            "Value1": {
-              "Text": "12x +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                50,
-                390
-              ]
-            },
-            "Value2": {
-              "Text": "12y",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                170,
-                390
-              ]
-            },
-            "Value3": {
-              "Text": "= 36",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                250,
-                390
-              ]
-            },
-            "Value11": {
-              "Text": "-18x +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                50,
-                530
-              ]
-            },
-            "Value12": {
-              "Text": "12y",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                180,
-                530
-              ]
-            },
-            "Value13": {
-              "Text": "= 54",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                260,
-                530
-              ]
-            }
-          },
-          "Buttons":{
-            "SubmitButtn": {
-              "Image": "data1/asset_submit.png",
-              "Size": [
-                200,
-                80
-              ],
-              "Position": [
-                0,
-                710
-              ],
-              "Visible": true
-            }
-          }
-        },
-        "Step6": {
-          "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                300,
-                700
-              ],
-              "Position": [
-                190,
-                260
-              ],
-              "Visible": true
-            },
-            "Square": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                10,
-                260
-              ],
-              "Visible": true
-            },
-            "Squarel": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                190,
-                260
-              ],
-              "Visible": true
-            },
-            "Pencil": {
-              "Image": "data_ch3/pencil72.png",
-              "Size": [
-                80,
-                180
-              ],
-              "Position": [
-                50,
-                260
-              ],
-              "Visible": true
-            },
-            "Eraser": {
-              "Image": "data_ch3/eraser72.png",
-              "Size": [
-                80,
-                160
-              ],
-              "Position": [
-                150,
-                250
-              ],
-              "Visible": true
-            },
-            "Rectangle": {
-              "Image": "data_ch3/bgrect.png",
-              "Size": [
-                380,
-                280
-              ],
-              "Position": [
-                10,
-                550
-              ],
-              "Visible": true
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
                 40
               ],
-              "Position": [
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
                 30,
-                10
+                40
               ],
               "Visible": true
             },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "number2": {
+              "Image": "Numbers/number2.png",
               "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                50,
-                50
+                30,
+                40
               ],
               "Visible": true
             },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
+            "number3": {
+              "Image": "Numbers/number3.png",
               "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
+                30,
+                40
               ],
               "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "number4": {
+              "Image": "Numbers/number4.png",
               "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
+                30,
+                40
               ],
               "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "number5": {
+              "Image": "Numbers/number5.png",
               "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
+                30,
+                40
               ],
               "Visible": true
-            }
-          },
-          "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ]
             },
-            "Anser": {
-              "Text": "6x = 18 =>",
+            "number6": {
+              "Image": "Numbers/number6.png",
               "Size": [
-                50,
-                50
+                30,
+                40
               ],
-              "Position": [
-                100,
-                400
-              ]
+              "Visible": true
             },
-            "Anser1": {
-              "Text": "x = 3",
+            "number7": {
+              "Image": "Numbers/number7.png",
               "Size": [
-                50,
-                50
+                30,
+                40
               ],
-              "Position": [
-                180,
-                480
-              ]
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
             }
           },
           "Buttons":{
@@ -3145,78 +3522,6 @@
                 640
               ],
               "Visible": true
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "ClickBttn": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": false
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
-              ],
-              "Visible": true
-            },
-            "Levelselect": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
             }
           },
           "Updatable": {
@@ -3320,6 +3625,88 @@
               ]
             }
           },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            }
+          },
           "Buttons":{
             "SubmitButtn": {
               "Image": "data1/asset_submit.png",
@@ -3420,54 +3807,6 @@
                 650
               ],
               "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
-              ],
-              "Visible": true
-            },
-            "Levelselect": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
             }
           },
           "Updatable": {
@@ -3570,6 +3909,102 @@
                 600
               ]
             }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
           }
         },
         "Step3": {
@@ -3657,66 +4092,6 @@
                 650
               ],
               "Visible": true
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
-              ],
-              "Visible": true
-            },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
             }
           },
           "Updatable": {
@@ -3796,6 +4171,88 @@
                 190,
                 570
               ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
             }
           },
           "Buttons":{
@@ -3898,66 +4355,6 @@
                 640
               ],
               "Visible": true
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
-              ],
-              "Visible": true
-            },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
             }
           },
           "Updatable": {
@@ -4105,6 +4502,88 @@
               ]
             }
           },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            }
+          },
           "Buttons":{
             "SubmitButtn": {
               "Image": "data1/asset_submit.png",
@@ -4191,66 +4670,6 @@
                 550
               ],
               "Visible": true
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                30,
-                10
-              ],
-              "Visible": false
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
             }
           },
           "Updatable": {
@@ -4330,6 +4749,88 @@
                 260,
                 530
               ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
             }
           },
           "Buttons":{
@@ -4420,66 +4921,6 @@
                 550
               ],
               "Visible": true
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                30,
-                10
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
-            },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
             }
           },
           "Updatable": {
@@ -4515,6 +4956,88 @@
                 180,
                 480
               ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
             }
           },
           "Buttons":{
@@ -4619,78 +5142,6 @@
                 640
               ],
               "Visible": true
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "ClickBttn": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": false
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
-              ],
-              "Visible": true
-            },
-            "Levelselect": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
             }
           },
           "Updatable": {
@@ -4794,6 +5245,88 @@
               ]
             }
           },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            }
+          },
           "Buttons":{
             "SubmitButtn": {
               "Image": "data1/asset_submit.png",
@@ -4894,54 +5427,6 @@
                 650
               ],
               "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
-              ],
-              "Visible": true
-            },
-            "Levelselect": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
             }
           },
           "Updatable": {
@@ -5045,6 +5530,88 @@
               ]
             }
           },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            }
+          },
           "Buttons":{
             "SubmitButtn": {
               "Image": "data1/asset_submit.png",
@@ -5145,66 +5712,6 @@
                 650
               ],
               "Visible": true
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
-              ],
-              "Visible": true
-            },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
             }
           },
           "Updatable": {
@@ -5284,6 +5791,88 @@
                 190,
                 570
               ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
             }
           },
           "Buttons":{
@@ -5386,66 +5975,6 @@
                 640
               ],
               "Visible": true
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
-              ],
-              "Visible": true
-            },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
             }
           },
           "Updatable": {
@@ -5593,6 +6122,88 @@
               ]
             }
           },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            }
+          },
           "Buttons":{
             "SubmitButtn": {
               "Image": "data1/asset_submit.png",
@@ -5679,66 +6290,6 @@
                 550
               ],
               "Visible": true
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                30,
-                10
-              ],
-              "Visible": false
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
             }
           },
           "Updatable": {
@@ -5818,6 +6369,88 @@
                 260,
                 530
               ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
             }
           },
           "Buttons":{
@@ -5908,66 +6541,6 @@
                 550
               ],
               "Visible": true
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                30,
-                10
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
-            },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
             }
           },
           "Updatable": {
@@ -6003,6 +6576,88 @@
                 180,
                 480
               ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
             }
           },
           "Buttons":{
@@ -6107,78 +6762,6 @@
                 640
               ],
               "Visible": true
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "ClickBttn": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": false
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
-              ],
-              "Visible": true
-            },
-            "Levelselect": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
             }
           },
           "Updatable": {
@@ -6281,6 +6864,102 @@
                 600
               ]
             }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
           }
         },
         "Step2": {
@@ -6368,54 +7047,6 @@
                 650
               ],
               "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
-              ],
-              "Visible": true
-            },
-            "Levelselect": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
             }
           },
           "Updatable": {
@@ -6519,6 +7150,88 @@
               ]
             }
           },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            }
+          },
           "Buttons":{
             "SubmitButtn": {
               "Image": "data1/asset_submit.png",
@@ -6619,66 +7332,6 @@
                 650
               ],
               "Visible": true
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
-              ],
-              "Visible": true
-            },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
             }
           },
           "Updatable": {
@@ -6758,6 +7411,88 @@
                 190,
                 570
               ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
             }
           },
           "Buttons":{
@@ -6860,66 +7595,6 @@
                 640
               ],
               "Visible": true
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
-              ],
-              "Visible": true
-            },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
             }
           },
           "Updatable": {
@@ -7067,6 +7742,88 @@
               ]
             }
           },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            }
+          },
           "Buttons":{
             "SubmitButtn": {
               "Image": "data1/asset_submit.png",
@@ -7153,66 +7910,6 @@
                 550
               ],
               "Visible": true
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                30,
-                10
-              ],
-              "Visible": false
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
             }
           },
           "Updatable": {
@@ -7292,6 +7989,88 @@
                 260,
                 530
               ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
             }
           },
           "Buttons":{
@@ -7382,66 +8161,6 @@
                 550
               ],
               "Visible": true
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                30,
-                10
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
-            },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": true
             }
           },
           "Updatable": {
@@ -7477,6 +8196,88 @@
                 180,
                 480
               ]
+            }
+          },
+          "Scrolling":{
+            "number0": {
+              "Image": "Numbers/number0.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number1": {
+              "Image": "Numbers/number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "Numbers/number2.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number3": {
+              "Image": "Numbers/number3.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number4": {
+              "Image": "Numbers/number4.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number5": {
+              "Image": "Numbers/number5.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number6": {
+              "Image": "Numbers/number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "Numbers/number7.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number8": {
+              "Image": "Numbers/number8.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number9": {
+              "Image": "Numbers/number9.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
             }
           },
           "Buttons":{

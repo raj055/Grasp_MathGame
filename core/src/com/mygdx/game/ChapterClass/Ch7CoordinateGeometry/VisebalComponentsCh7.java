@@ -83,16 +83,6 @@ public class VisebalComponentsCh7 implements Subscriber {
     @Override
     public void UpdateAllElements(Events evt) {
 
-        if(GameStates.steps == Steps.STEP_1){
-
-        }
-        else if (GameStates.steps == Steps.STEP_2){
-
-        }
-        else if (GameStates.steps == Steps.STEP_3){
-
-        }
-
         if(evt == Events.DRAG_L1_VALUE){
             Label value1 = getLabel("LabelValue1");
             Label synlabel1 = getLabel("SyntaxLabel1");

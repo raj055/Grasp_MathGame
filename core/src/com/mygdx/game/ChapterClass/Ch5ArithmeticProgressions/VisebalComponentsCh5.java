@@ -56,16 +56,6 @@ public class VisebalComponentsCh5 implements Subscriber {
     @Override
     public void UpdateAllElements(Events evt) {
 
-        if(GameStates.steps == Steps.STEP_1){
-
-        }
-        else if (GameStates.steps == Steps.STEP_2){
-
-        }
-        else if (GameStates.steps == Steps.STEP_3){
-
-        }
-
         if(evt == Events.DOUBLE_CLICK_ADD){
             clickImage();
         }
@@ -87,18 +77,25 @@ public class VisebalComponentsCh5 implements Subscriber {
         else if(evt == DRAG_C5L2_VAL1){
             dragVal1L2();
         }
-        else if(evt == DRAG_C5L3S1_VALUE1){
-            dragVallueL3s1();
+
+        if(GameStates.steps == Steps.STEP_1){
+            if(evt == DRAG_C5L3S1_VALUE1){
+                dragVallueL3s1();
+            }
+            else if(evt == DRAG_C5L3S1_VAL1){
+                dragVal1L3s1();
+            }
         }
-        else if(evt == DRAG_C5L3S1_VAL1){
-            dragVal1L3s1();
+        else if (GameStates.steps == Steps.STEP_2){
+            if(evt == DRAG_C5L3S2_VALUE1){
+                dragVallueL3s2();
+            }
+            else if(evt == DRAG_C5L3S2_VAL1){
+                dragVal1L3s2();
+            }
         }
-        else if(evt == DRAG_C5L3S2_VALUE1){
-            dragVallueL3s2();
-        }
-        else if(evt == DRAG_C5L3S2_VAL1){
-            dragVal1L3s2();
-        }
+        else if (GameStates.steps == Steps.STEP_3){ }
+
     }
 
     private void clickImage() {

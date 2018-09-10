@@ -16,8 +16,6 @@ import java.util.ArrayList;
 import static com.mygdx.game.BuilderBlocks.Events.CLICK_SCROLLCH2_BALLDISPLAY;
 import static com.mygdx.game.BuilderBlocks.Events.CLICK_ScrollingCh1;
 import static com.mygdx.game.BuilderBlocks.Events.CLICK_ScrollingCh2;
-import static com.mygdx.game.BuilderBlocks.Events.STEP1;
-import static com.mygdx.game.BuilderBlocks.Events.STEP2;
 import static com.mygdx.game.Enum.Steps.STEP_1;
 
 public class ScrollingUpdateLabelCh2 implements Subscriber{
@@ -36,9 +34,7 @@ public class ScrollingUpdateLabelCh2 implements Subscriber{
         glv = GlobalsCommonCount.getInstance();
 
         ballDisplay = new BallDisplay(8,8);
-
         textVeriabal = new TextVeriabal();
-
         nagetiv_num = new Nagetiv_Num();
 
         //Get notifier and register the click scrolling events.

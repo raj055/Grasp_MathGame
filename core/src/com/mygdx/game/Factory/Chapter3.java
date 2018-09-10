@@ -1,37 +1,35 @@
 package com.mygdx.game.Factory;
 
+import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
-import com.badlogic.gdx.scenes.scene2d.utils.DragListener;
+import com.mygdx.game.Animation.AnimationClass;
+import com.mygdx.game.Animation.TrainAnimation;
 import com.mygdx.game.BuilderBlocks.DragClickListener;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.ScrollingNumber;
 import com.mygdx.game.BuilderBlocks.DoubleClickListener;
 import com.mygdx.game.ChapterClass.Ch3LinearEquations.ScrollingUpdateCh3;
 import com.mygdx.game.ChapterClass.Ch3LinearEquations.VisebalComponentsCh3;
-import com.mygdx.game.Component.NumberCh3;
-import com.mygdx.game.Component.TextveriabalCh3;
 import com.mygdx.game.Enum.ScreenStates;
 import com.mygdx.game.Enum.Steps;
-import com.mygdx.game.Global.GlobalsCommonCount;
+import com.mygdx.game.Screens.MessageBox;
 import com.mygdx.game.Timer.Timer;
 
 import java.util.ArrayList;
 
 public class Chapter3 extends ChapterScreen implements Screen {
 
-  private Timer time;
+   ArrayList<Image> ClickImage;
+   ArrayList<Image> Changeposition;
+   ArrayList<Image> VisebalComponent;
 
-  ArrayList<Image> ClickImage;
-  ArrayList<Image> Changeposition;
-  ArrayList<Image> VisebalComponent;
+  private ArrayList<Image> scrollingImages = null;
 
-  ArrayList<Image> scrollingImages = null;
-
-  ScrollingNumber numLocal;
+  private ScrollingNumber numLocal;
 
   //Update labels on click scrolling components
   ScrollingUpdateCh3 scrollingUpdateCh3;
@@ -55,56 +53,35 @@ public class Chapter3 extends ChapterScreen implements Screen {
   VisebalComponentsCh3 visebalComponentsCh3;
   VisebalComponentsCh3 visebalComponentsCh3Level11;
 
-  // component of level_1
-  private Label labelP,labelE;
-
-//  Label value1,value3,value11,value13;
-  private Label value1,value3,value11,value13;
-
-  private Label value2,value12;
-
-  private float elapsed;
-
-  // component of level_2
-  private Image imgsqureL,imgsqureL2,imgsquer,imground,imground1,imground2,imgShap1,imgShap2;
-  private Image img_y1,img_y2;
-  private Label y1,y2,label_x,num,eqval,min,label_2y,AnsValue;
-
-  // component of level_3
-  private Image imga1,imga2,imgb1,imgb2,imgc1,imgc2,img1b1,img1b2;
-
-  private Label valueA,valueB,valueC,valueA1,valueB1,valueC1,valueB11,valueB12;
-
-  private Label a,a2,b,b2,c,c2,b11,b12,AnsLabel;
-
-  private GlobalsCommonCount glv;
-
-  TextveriabalCh3 textveriabalch3;
-
-  NumberCh3 numLocalch3;
-
-  //Array List for the drag listeners.
-  ArrayList<DragListener> listeners;
-  boolean moveTheBg = false;
   private Image submitButton = null;
-  private int stageTranslate = 0;
+  private ArrayList<DragClickListener> arrDragListener;
+  private ArrayList<DoubleClickListener> arrClickListener;
+
+  private MessageBox messageBox;
+  //Animation
+  private float elapsed_time;
+  AnimationClass animationClass;
+  TrainAnimation trainAnimation;
+  int posX = 0;
 
   Chapter3(){
     super();
 
-    time = new Timer();
-    glv = GlobalsCommonCount.getInstance();
+    messageBox = new MessageBox();
+    messageBox.AddStage(stage);
 
-    clickListenerY1 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG_Y1);
-    clickListenerY2 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG_Y2);
-    clickListenerSq1 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG_SQ1);
-    clickListenerSq2 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG_SQ2);
-    clickListenerC1 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG_C1);
-    clickListenerC2 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG_C2);
+    animationClass = new AnimationClass();
+    animationClass.BirdAnimation();
+
+    trainAnimation = new TrainAnimation();
+    trainAnimation.TrainAnimation();
 
     getLevelName();
     initialiseLevelComponents(currentLevelNumber);
+  }
 
+  public void setPositionX(int positionX){
+    this.posX = positionX + 10;
   }
 
   @Override
@@ -140,157 +117,118 @@ public class Chapter3 extends ChapterScreen implements Screen {
     @Override
     public  void clicked(InputEvent event, float x, float y){
 
-      if(goToNextStep() != true) {
-        GameStates.screenStates = ScreenStates.LEVELSCREEN;
-        time.dispose();
-      }
-      else{
+      setPositionX(stageTranslate - 400);
 
-        int trnslate = 400;
-        stageTranslate += 400;
+      messageBox.ShowDialog();
+      messageBox.NextStep.addListener(new ClickListener(){
+        @Override
+        public void clicked(InputEvent event, float x, float y) {
+          if(goToNextStep() != true) {
+            GameStates.screenStates = ScreenStates.LEVELSCREEN;
+            time.dispose();
+          }
+          else{
+
+            int trnslate = 400;
+            stageTranslate += 400;
 //        if(stageTranslate >= 1200) {
 //          trnslate = 0;
 //          stageTranslate = 0;
 //        }
 
-        //Get the Level Number and Initialise the Level Components.
-        getLevelName();
-        initialiseLevelComponents(currentLevelNumber);
+            //Get the Level Number and Initialise the Level Components.
+            getLevelName();
+            initialiseLevelComponents(currentLevelNumber);
 
-        stage.getCamera().translate(trnslate,0,0);
-        stage.getCamera().update();
-      }
+            stage.getCamera().translate(trnslate,0,0);
+            stage.getCamera().update();
+          }
+        }
+      });
     }
   };
 
   void defineLevel1To5Components() {
 
-    if(GameStates.steps == Steps.STEP_1){
+    if(GameStates.steps == Steps.STEP_1 || (GameStates.steps == Steps.STEP_2)
+            ||(GameStates.steps == Steps.STEP_3) ||(GameStates.steps == Steps.STEP_4
+            || (GameStates.steps == Steps.STEP_5) || (GameStates.steps == Steps.STEP_6))){
+      if(scrollingPara != null) {
+        numLocal = new ScrollingNumber();
+        numLocal.setPositionX(xPosAdditionFactor - 400);
+        scrollingImages = new ArrayList<Image>();
 
+        //totalObjects
+        scrollingPara.size();
+        for (Image img : scrollingPara) {
+          scrollingImages.add(img);
+          stage.addActor(img);
+        }
+        numLocal.scrolling(scrollingImages, Events.CLICK_ScrollingCh3);
+        //check if the updatables are present
+        if (updatables != null) {
+          //totalObjects
+          updatables.size();
+          for (Label updatable : updatables) {
+            updatable.getName();
+          }
+          scrollingUpdateCh3 = new ScrollingUpdateCh3(updatables);
+        }
+      }
     }
-    else if (GameStates.steps == Steps.STEP_2){
-
-    }
-    else if (GameStates.steps == Steps.STEP_3){
-
-    }
-
-    if(scrollingPara == null)
-      return;
-
-    numLocal = new ScrollingNumber();
-    scrollingImages = new ArrayList<Image>();
-
-    //totalObjects
-    scrollingPara.size();
-
-    for(Image img : scrollingPara)
-    {
-      scrollingImages.add(img);
-      stage.addActor(img);
-    }
-    numLocal.scrolling(scrollingImages, Events.CLICK_ScrollingCh3);
-    //check if the updatables are present
-    if(updatables == null)
-      return;
-
-    //totalObjects
-    updatables.size();
-    for (Label updatable : updatables){
-       updatable.getName();
-    }
-    scrollingUpdateCh3 = new ScrollingUpdateCh3(updatables);
 
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }
   void defineLevel6To10Components() {
 
-    if(GameStates.steps == Steps.STEP_1){
+    clickListenerY1 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG_Y1);
+    clickListenerY2 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG_Y2);
+    clickListenerSq1 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG_SQ1);
+    clickListenerSq2 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG_SQ2);
+    clickListenerC1 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG_C1);
+    clickListenerC2 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG_C2);
 
-    }
-    else if (GameStates.steps == Steps.STEP_2){
+    arrClickListener = new ArrayList<DoubleClickListener>();
+    arrClickListener.add(clickListenerY1);
+    arrClickListener.add(clickListenerY2);
+    arrClickListener.add(clickListenerSq1);
+    arrClickListener.add(clickListenerSq2);
+    arrClickListener.add(clickListenerC1);
+    arrClickListener.add(clickListenerC2);
 
-    }
-    else if (GameStates.steps == Steps.STEP_3){
-
-    }
+    String  updatableNamesLevel2[] = {"y1Image", "y2Image"};
 
     ClickImage = new ArrayList<Image>();
     Changeposition = new ArrayList<Image>();
     VisebalComponent = new ArrayList<Image>();
 
-    if(displayImages == null)
-      return;
-
-    displayImages.size();
-    for (Image updatable : displayImages) {
-      String str = updatable.getName();
-
-      //check if the displayImages are present
-      if (str.contains("y1Image")) {
-        img_y1 = updatable;
-        img_y1.addListener(clickListenerY1);
+    if(displayImages != null) {
+      displayImages.size();
+      for (Image updatable : displayImages) {
+        String str = updatable.getName();
+        for(int count = 0; count < updatableNamesLevel2.length; count++){
+          if(str.equals(updatableNamesLevel2[count]))
+            updatable.addListener(arrClickListener.get(count));
+        }
+        ClickImage.add(updatable);
       }
-      else if (str.contains("y2Image")) {
-        img_y2 = updatable;
-        img_y2.addListener(clickListenerY2);
-      }
-      else if (str.contains("SqurelImage")) {
-        imgsqureL = updatable;
-      }
-      else if (str.contains("SquerImage")) {
-        imgsquer = updatable;
-      }
-      else if (str.contains("Squrel2Image")) {
-        imgsqureL2 = updatable;
-      }
-      else if (str.contains("RoundImage")) {
-        imground = updatable;
-      }
-      else if (str.contains("Round1Image")) {
-        imground1 = updatable;
-      }
-      else if (str.contains("Round2Image")) {
-        imground2 = updatable;
-      }
-      else if (str.contains("Shap1")) {
-        imgShap1 = updatable;
-      }
-      else if (str.contains("Shap2")) {
-        imgShap2 = updatable;
-      }
-
-      ClickImage.add(updatable);
-
-//      clickListener.setClick(ClickImage);
     }
 
     //check if the updatables are present
-    if(updatables == null)
-      return;
-
-    //totalObjects
-    updatables.size();
-    for (Label updatable : updatables) {
-      updatable.getName();
+    if(updatables != null) {
+      //totalObjects
+      updatables.size();
+      for (Label updatable : updatables) {
+        updatable.getName();
+      }
+      visebalComponentsCh3 = new VisebalComponentsCh3(displayImages, updatables);
     }
-    visebalComponentsCh3 = new VisebalComponentsCh3(displayImages, updatables);
 
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }
   void defineLevel11To15Components() {
-
-    if(GameStates.steps == Steps.STEP_1){
-
-    }
-    else if (GameStates.steps == Steps.STEP_2){
-
-    }
-    else if (GameStates.steps == Steps.STEP_3){
-
-    }
 
     dragListenerA1 = new DragClickListener(Events.DRAG_VALUE_A1);
     dragListenerA2 = new DragClickListener(Events.DRAG_VALUE_A2);
@@ -301,112 +239,37 @@ public class Chapter3 extends ChapterScreen implements Screen {
     dragListenerB11 = new DragClickListener(Events.DRAG_VALUE_B11);
     dragListenerB21 = new DragClickListener(Events.DRAG_VALUE_B21);
 
+    arrDragListener = new ArrayList<DragClickListener>();
+    arrDragListener.add(dragListenerA1);
+    arrDragListener.add(dragListenerA2);
+    arrDragListener.add(dragListenerB1);
+    arrDragListener.add(dragListenerB2);
+    arrDragListener.add(dragListenerC1);
+    arrDragListener.add(dragListenerC2);
+    arrDragListener.add(dragListenerB11);
+    arrDragListener.add(dragListenerB21);
 
-    if(displayImages == null)
-      return;
-    displayImages.size();
-    for (Image updatable : displayImages) {
-      String str = updatable.getName();
+    String  updatableNamesLevel3[] = {"ValueA", "ValueB", "ValueB11","ValueC","ValueA1","ValueB1",
+            "ValueB12","ValueC1"};
 
-      //check if the displayImages are present
-      if (str.contains("b1Image")) {
-        imgb1 = updatable;
-      }
-      else if (str.contains("C2Image")) {
-        imgc2 = updatable;
-      }
-      else if (str.contains("b2Image")) {
-        imgb2 = updatable;
-      }
-      else if (str.contains("C1Image")) {
-        imgc1 = updatable;
-      }
-      else if (str.contains("a1Image")) {
-        imga1 = updatable;
-      }
-      else if (str.contains("b2Image1")) {
-        img1b2 = updatable;
-      }
-      else if (str.contains("a2Image")) {
-        imga2 = updatable;
-      }
-      else if (str.contains("b1Image1")) {
-        img1b1 = updatable;
-      }
-
-    }
-
-    //check if the updatables are present
-    if(updatables == null)
-      return;
-
-    //totalObjects
-    updatables.size();
-    for (Label updatable : updatables) {
-      String str = updatable.getName();
-
-      if (str.equals("ValueA")) {
-        valueA = updatable;
-        valueA.addListener(dragListenerA1);
-      }
-      else if (str.equals("ValueB")) {
-        valueB = updatable;
-        valueB.addListener(dragListenerB1);
-      }
-      else if (str.equals("ValueB11")) {
-        valueB11 = updatable;
-        valueB11.addListener(dragListenerB11);
-      }
-      else if (str.equals("ValueC")) {
-        valueC = updatable;
-        valueC.addListener(dragListenerC1);
-      }
-      else if (str.equals("ValueA1")) {
-        valueA1 = updatable;
-        valueA1.addListener(dragListenerA2);
-      }
-      else if (str.equals("ValueB1")) {
-        valueB1 = updatable;
-        valueB1.addListener(dragListenerB2);
-      }
-      else if (str.equals("ValueB12")) {
-        valueB12 = updatable;
-        valueB12.addListener(dragListenerB21);
-      }
-      else if (str.equals("ValueC1")) {
-        valueC1 = updatable;
-        valueC1.addListener(dragListenerC2);
-      }
-      else if (str.equals("Labelb")) {
-        b = updatable;
-      }
-      else if (str.equals("Labelc2")) {
-        c2 = updatable;
-      }
-      else if (str.equals("Labelb2")) {
-        b2 = updatable;
-      }
-      else if (str.equals("Labelc1")) {
-        c = updatable;
-      }
-      else if (str.equals("LabelA1")) {
-        a = updatable;
-      }
-      else if (str.equals("Labelb12")) {
-        b12 = updatable;
-      }
-      else if (str.equals("LabelA2")) {
-        a2 = updatable;
-      }
-      else if (str.contains("Labelb11")) {
-        b11 = updatable;
-      }
-      else if (str.contains("LabelAns")) {
-        AnsLabel = updatable;
+    if(displayImages != null) {
+      displayImages.size();
+      for (Image updatable : displayImages) {
+        updatable.getName();
       }
     }
-    visebalComponentsCh3Level11 = new VisebalComponentsCh3(displayImages, updatables);
-
+    if(updatables != null) {
+      //totalObjects
+      updatables.size();
+      for (Label updatable : updatables) {
+        String str = updatable.getName();
+        for(int count = 0; count < updatableNamesLevel3.length; count++){
+          if(str.equals(updatableNamesLevel3[count]))
+            updatable.addListener(arrDragListener.get(count));
+        }
+      }
+      visebalComponentsCh3Level11 = new VisebalComponentsCh3(displayImages, updatables);
+    }
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }
@@ -477,55 +340,38 @@ public class Chapter3 extends ChapterScreen implements Screen {
   private void renderLevel1(float deltaTime){
     update(deltaTime);
 
-//    textveriabalch3.update(deltaTime);
-//    numLocalch3.update(deltaTime);
-    if(numLocal != null)numLocal.update(deltaTime);
+    if(numLocal != null)
+      numLocal.update(deltaTime);
 
-     /*if (glv.lableWrite) {
-
-      switch (glv.countClick){
-        case 1:
-          labelP.setText(textveriabalch3.string_labal + " ");
-          break;
-
-        case 2:
-          labelE.setText(textveriabalch3.string_labal + " ");
-
-          break;
-
-        default:
-          break;
-      }
-
-    }*/
-
-    if (time.isTimeUp()){
-//      GameStates.screenStates = ScreenStates.DIALOGBOX;
-    }
+    if(moveTheBg) { bg.act(deltaTime);}
 
     stage.draw();
+
+    if (time.isTimeUp()){
+      elapsed_time += Gdx.graphics.getDeltaTime();
+      trainAnimation.update(elapsed_time);
+    }
+
+    if (submitButtonClicked.isPressed()){
+      elapsed_time += Gdx.graphics.getDeltaTime();
+      animationClass.update(elapsed_time);
+    }
 
     time.stage.draw();
   }
   private void renderLevel2(float delta){
     update(delta);
 
-    if (time.isTimeUp()){
-//      GameStates.screenStates = ScreenStates.DIALOGBOX;
-    }
-
+    if (time.isTimeUp()){}
+    if(moveTheBg) { bg.act(delta);}
     stage.draw();
-
     time.stage.draw();
   }
   private void renderLevel3(float deltaTime){
-
     time.update(deltaTime);
 
-    if (time.isTimeUp()){
-//      GameStates.screenStates = ScreenStates.DIALOGBOX;
-    }
-
+    if (time.isTimeUp()){ }
+    if(moveTheBg) { bg.act(deltaTime);}
     stage.draw();
     time.stage.draw();
 

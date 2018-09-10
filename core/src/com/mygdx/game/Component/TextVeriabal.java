@@ -8,6 +8,7 @@ import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Array;
+import com.badlogic.gdx.utils.Disposable;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.ScrollingImageClick;
 import com.mygdx.game.Global.GlobalsCommonCount;
@@ -16,8 +17,7 @@ import com.mygdx.game.Global.GlobalsCommonCount;
  * Created by HP on 09-12-2017.
  */
 
-public class TextVeriabal {
-
+public class TextVeriabal implements Disposable {
 
   public static final int NUMBERCOUNT = 8;
 
@@ -80,5 +80,10 @@ public class TextVeriabal {
     {
       stg.addActor(img);
     }
+  }
+
+  @Override
+  public void dispose() {
+
   }
 }

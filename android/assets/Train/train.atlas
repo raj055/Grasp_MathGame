@@ -1,0 +1,40 @@
+train-0.png
+size: 3010, 327
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+t
+  rotate: false
+  xy: 100, 100
+  size: 402, 127
+  orig: 402, 127
+  offset: 0, 0
+  index: -1
+t
+  rotate: false
+  xy: 702, 100
+  size: 402, 127
+  orig: 402, 127
+  offset: 0, 0
+  index: -1
+t
+  rotate: false
+  xy: 1304, 100
+  size: 402, 127
+  orig: 402, 127
+  offset: 0, 0
+  index: -1
+t
+  rotate: false
+  xy: 2508, 100
+  size: 402, 123
+  orig: 402, 123
+  offset: 0, 0
+  index: -1
+t
+  rotate: false
+  xy: 1906, 100
+  size: 402, 127
+  orig: 402, 127
+  offset: 0, 0
+  index: -1

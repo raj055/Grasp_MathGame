@@ -32,16 +32,6 @@ public class ScrollingUpdateCh5 implements Subscriber {
     @Override
     public void UpdateAllElements(Events evt) {
         if(evt == CLICK_ScrollingCh5){
-            if(GameStates.steps == Steps.STEP_1){
-
-            }
-            else if (GameStates.steps == Steps.STEP_2){
-
-            }
-            else if (GameStates.steps == Steps.STEP_3){
-
-            }
-
             ImageClick1();
         }
         else if (evt == CLICK_ScrollingCh5L3){
@@ -53,7 +43,6 @@ public class ScrollingUpdateCh5 implements Subscriber {
         Label value4 = getLabel("Value4");
         Label valueD = getLabel("ValueD");
 
-
         if (glv.lableWrite) {
             value4.setText("47");
             valueD.setText(glv.lableUpdate + " ");
@@ -64,9 +53,7 @@ public class ScrollingUpdateCh5 implements Subscriber {
         Label val4 = getLabel("Value4");
 
         if (glv.lableWrite){
-
             val4.setText(glv.lableUpdate + " ");
-
         }
     }
 

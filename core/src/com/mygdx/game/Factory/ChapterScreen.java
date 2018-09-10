@@ -18,6 +18,7 @@ import com.mygdx.game.Enum.Steps;
 import com.mygdx.game.Global.GlobalsCommonCount;
 import com.mygdx.game.Levels.ReadConfiguration;
 import com.mygdx.game.MyGame;
+import com.mygdx.game.Timer.Timer;
 import com.mygdx.game.Tools.Assets;
 import com.mygdx.game.Tools.Settings;
 
@@ -67,7 +68,9 @@ public abstract class ChapterScreen {
 
   protected int xPosAdditionFactor = 0;
   static int stepNumber = 0;
-
+  protected boolean moveTheBg = false;
+  protected int stageTranslate = 0;
+  protected Timer time;
 
   ChapterScreen(){
 
@@ -84,7 +87,6 @@ public abstract class ChapterScreen {
     //Assign the map to the related result
     Map classArray = (Map)result.get(0);
     Map screenMap = null;
-
 
     //Initiate stage
     MoveToAction action = new MoveToAction();
@@ -105,6 +107,8 @@ public abstract class ChapterScreen {
     Image bg1 = new Image(new Texture("data/desertBackground.jpg"));
     bg1.setSize(1200, MyGame.HEIGHT);
     bg1.setPosition(1200, 0);
+
+    time = new Timer();
 
     stage.addActor(bg);
     stage.addActor(bg1);

@@ -1,15 +1,13 @@
 package com.mygdx.game.Animation;
 
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.g2d.Animation;
-import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.utils.Array;
 
-public class AnimationClass {
+public class TrainAnimation {
 
     private SpriteBatch batch;
 
@@ -19,34 +17,35 @@ public class AnimationClass {
 
     private Animation runningAnimation;
 
-    private static float FRAME_DURATION = .05f;
+    private static float FRAME_DURATIONTrain = .3f;
+
+    private float stateTime= 0;
+
     private float origin_x, origin_y;
 
     private float width;
     private float height;
 
-    public AnimationClass(){
+    public TrainAnimation(){
 
         batch = new SpriteBatch();
     }
 
     public void show(){}
 
-    public void BirdAnimation(){
-        width = 100;
-        height = 100;
+    public void TrainAnimation(){
+        width = 400;
+        height = 200;
 
-        charset = new TextureAtlas( Gdx.files.internal("birdattacks.atlas") );
+        charset = new TextureAtlas( Gdx.files.internal("Train/train.atlas") );
 
-        Array<TextureAtlas.AtlasRegion> runningFrames = charset.findRegions("frame_black");
+        Array<TextureAtlas.AtlasRegion> runningFrames = charset.findRegions("t");
 
-        runningAnimation = new Animation(FRAME_DURATION, runningFrames, Animation.PlayMode.LOOP);
+        runningAnimation = new Animation(FRAME_DURATIONTrain, runningFrames, Animation.PlayMode.NORMAL);
 
-        origin_x = (50);
-        origin_y = (200);
+        origin_x = (0);
+        origin_y = (90);
     }
-
-
 
     public void update(float delta){
 

@@ -32,14 +32,12 @@ public class ScrollingUpdateCh6 implements Subscriber {
         Notifier notifier = Notifier.getInstance();
 
         notifier.RegisterSubscriber(this, CLICK_ScrollingCh6);
-
     }
 
     @Override
     public void UpdateAllElements(Events evt) {
         if(evt == CLICK_ScrollingCh6){
-            if(GameStates.steps == Steps.STEP_1){
-            }
+            if(GameStates.steps == Steps.STEP_1){ }
             else if (GameStates.steps == Steps.STEP_2){
                 ImageClick();
             }
@@ -68,15 +66,21 @@ public class ScrollingUpdateCh6 implements Subscriber {
 
             switch (glv.countClick){
                 case 1:
-                    value.setText(strvalue);
+                    if(value != null){
+                        value.setText(strvalue);
+                    }
                     break;
 
                 case 2:
-                    value1.setText(strvalue);
+                    if(value1 != null){
+                        value1.setText(strvalue);
+                    }
                     break;
 
                 case 3:
-                    value3.setText(strvalue);
+                    if(value3 != null){
+                        value3.setText(strvalue);
+                    }
                     break;
 
                 default:
@@ -97,7 +101,9 @@ public class ScrollingUpdateCh6 implements Subscriber {
 
             switch (glv.countClick){
                 case 1:
-                    anser.setText(strvalue);
+                    if(anser != null){
+                        anser.setText(strvalue);
+                    }
                     break;
 
                 default:

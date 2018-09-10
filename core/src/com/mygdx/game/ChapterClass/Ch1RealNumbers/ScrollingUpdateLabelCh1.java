@@ -26,7 +26,7 @@ public class ScrollingUpdateLabelCh1 implements Subscriber {
 
         glv = GlobalsCommonCount.getInstance();
 
-        ballDisplay = new BallDisplay(6,6);
+        ballDisplay = new BallDisplay(9,9);
 
         Notifier notifier = Notifier.getInstance();
 

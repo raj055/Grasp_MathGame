@@ -20,15 +20,12 @@ import static com.mygdx.game.BuilderBlocks.Events.DOUBLE_CLICK_BC1;
 
 public class RelocateLabel implements Subscriber {
 
-    ChapterVariables chapterVariables = ChapterVariables.getInstance();
-
     ArrayList<Label> visebleLable;
 
     public RelocateLabel(ArrayList<Label> arrLabel){
 
         //Assign the visible components
         visebleLable = arrLabel;
-
 
         //Get Notifier instance
         Notifier notifier = Notifier.getInstance();
@@ -45,34 +42,27 @@ public class RelocateLabel implements Subscriber {
     @Override
     public void UpdateAllElements(Events evt) {
 
-        if(GameStates.steps == Steps.STEP_1){
-
+        if(GameStates.steps == Steps.STEP_1 || (GameStates.steps == Steps.STEP_2)){
+            if(evt == Events.DOUBLE_CLICK_AC){
+                showAC();
+            }
+            else if(evt == Events.DOUBLE_CLICK_AC1){
+                showAC1();
+            }
+            else if(evt == Events.DOUBLE_CLICK_AB){
+                showAB();
+            }
+            else if(evt == Events.DOUBLE_CLICK_AB1){
+                showAB1();
+            }
+            else if(evt == Events.DOUBLE_CLICK_BC){
+                showBC();
+            }
+            else if(evt == Events.DOUBLE_CLICK_BC1){
+                showBC1();
+            }
         }
-        else if (GameStates.steps == Steps.STEP_2){
-
-        }
-        else if (GameStates.steps == Steps.STEP_3){
-
-        }
-
-        if(evt == Events.DOUBLE_CLICK_AC){
-            showAC();
-        }
-        else if(evt == Events.DOUBLE_CLICK_AC1){
-            showAC1();
-        }
-        else if(evt == Events.DOUBLE_CLICK_AB){
-            showAB();
-        }
-        else if(evt == Events.DOUBLE_CLICK_AB1){
-            showAB1();
-        }
-        else if(evt == Events.DOUBLE_CLICK_BC){
-            showBC();
-        }
-        else if(evt == Events.DOUBLE_CLICK_BC1){
-            showBC1();
-        }
+        else if (GameStates.steps == Steps.STEP_3){ }
     }
 
     private void showAC() {

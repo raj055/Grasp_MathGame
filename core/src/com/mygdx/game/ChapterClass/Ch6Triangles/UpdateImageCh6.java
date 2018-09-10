@@ -52,47 +52,49 @@ public class UpdateImageCh6 implements Subscriber {
     public void UpdateAllElements(Events evt) {
 
         if(GameStates.steps == Steps.STEP_1){
-
+            if(evt == Events.DOUBLE_CLICK_IMG1){
+                changeImg1();
+            }
+            else if(evt == Events.DOUBLE_CLICK_IMG5){
+                changeImg5();
+            }
+            else if(evt == Events.DOUBLE_CLICK_IMG7){
+                changeImg7();
+            }
         }
         else if (GameStates.steps == Steps.STEP_2){
-
+            if(evt == Events.DOUBLE_CLICK_IMG2){
+                changeImg2();
+            }
+            else if(evt == Events.DOUBLE_CLICK_IMG4){
+                changeImg4();
+            }
+            else if(evt == Events.DOUBLE_CLICK_IMG8){
+                changeImg8();
+            }
         }
         else if (GameStates.steps == Steps.STEP_3){
-
-        }
-
-        if(evt == Events.DOUBLE_CLICK_IMG){
-            changeImg();
-        }
-        else if(evt == Events.DOUBLE_CLICK_IMG1){
-            changeImg1();
-        }
-        else if(evt == Events.DOUBLE_CLICK_IMG2){
-            changeImg2();
-        }
-        else if(evt == Events.DOUBLE_CLICK_IMG3){
-            changeImg3();
-        }
-        else if(evt == Events.DOUBLE_CLICK_IMG4){
-            changeImg4();
-        }
-        else if(evt == Events.DOUBLE_CLICK_IMG5){
-            changeImg5();
-        }
-        else if(evt == Events.DOUBLE_CLICK_IMG6){
-            changeImg6();
-        }
-        else if(evt == Events.DOUBLE_CLICK_IMG7){
-            changeImg7();
-        }
-        else if(evt == Events.DOUBLE_CLICK_IMG8){
-            changeImg8();
-        }
-        else if(evt == Events.DOUBLE_CLICK_IMG9){
-            changeImg9();
-        }
-        else if(evt == Events.DOUBLE_CLICK_IMG9_2){
-            changeImg9_2();
+            if(evt == Events.DOUBLE_CLICK_IMG){
+                changeImg();
+            }
+            else if(evt == Events.DOUBLE_CLICK_IMG3){
+                changeImg3();
+            }
+            else if(evt == Events.DOUBLE_CLICK_IMG5){
+                changeImg5();
+            }
+            else if(evt == Events.DOUBLE_CLICK_IMG6){
+                changeImg6();
+            }
+            else if(evt == Events.DOUBLE_CLICK_IMG8){
+                changeImg8();
+            }
+            else if(evt == Events.DOUBLE_CLICK_IMG9){
+                changeImg9();
+            }
+            else if(evt == Events.DOUBLE_CLICK_IMG9_2){
+                changeImg9_2();
+            }
         }
     }
 

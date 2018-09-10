@@ -64,15 +64,6 @@ public class VisebleComponetsCh2 implements Subscriber {
             updateVisibleComponents();
         }
         else if (evt == CLICK_ScrollingCh2){
-            if(GameStates.steps == Steps.STEP_1){
-
-            }
-            else if (GameStates.steps == Steps.STEP_2){
-
-            }
-            else if (GameStates.steps == Steps.STEP_3){
-
-            }
             ImageVisibleLevel3();
         }
     }
@@ -88,34 +79,24 @@ public class VisebleComponetsCh2 implements Subscriber {
         Image imgsyntex2 = getImage("ImageSyntex2");
         Image imgsyntex3 = getImage("ImageSyntex3");
 
+        if(GameStates.steps == Steps.STEP_1){
+            if (glv.lableWrite) {
+                syntex1.setVisible(true);
+                imgsyntex1.setVisible(true);
+            }
+        }
+        else if (GameStates.steps == Steps.STEP_2){
+            if (glv.lableWrite) {
+                syntex1.setVisible(false);
+                imgsyntex1.setVisible(false);
+                imgsyntax.setVisible(false);
 
-        switch (GameStates.steps) {
-            case STEP_1:
-                if (glv.lableWrite) {
-
-                    syntex1.setVisible(true);
-                    imgsyntex1.setVisible(true);
-
-                }
-                break;
-
-            case STEP_2:
-
-                if (glv.lableWrite) {
-
-                    syntex1.setVisible(false);
-                    imgsyntex1.setVisible(false);
-                    imgsyntax.setVisible(false);
-
-                    syntex2.setVisible(true);
-                    imgsyntex2.setVisible(true);
-                    imgsyntex3.setVisible(true);
-
-                }
-                break;
-
-            default:
-                break;
+                syntex2.setVisible(true);
+                imgsyntex2.setVisible(true);
+                imgsyntex3.setVisible(true);
+            }
+        }
+        else if (GameStates.steps == Steps.STEP_3){
         }
     }
 

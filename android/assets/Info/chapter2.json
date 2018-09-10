@@ -111,66 +111,6 @@
                 408
               ],
               "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
-              ],
-              "Visible": false
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "LevelSel": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                660
-              ],
-              "Visible": true
             }
           },
           "Draggable": {
@@ -323,66 +263,6 @@
               "Position": [
                 180,
                 530
-              ],
-              "Visible": false
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                660
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
-              ],
-              "Visible": false
-            },
-            "levelsel": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position" : [
-                50,
-                50
-              ],
-              "Visible" : false
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
               ],
               "Visible": false
             }
@@ -552,66 +432,6 @@
                 408
               ],
               "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
-              ],
-              "Visible": false
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "LevelSel": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                660
-              ],
-              "Visible": true
             }
           },
           "Draggable": {
@@ -667,6 +487,7 @@
               "Visible": true
             }
           }
+
         },
         "Step2": {
           "Displays": {
@@ -740,7 +561,7 @@
                 20,
                 408
               ],
-              "Visible": true
+              "Visible": false
             },
             "line2": {
               "Image": "data_ch2/line2.png",
@@ -764,9 +585,11 @@
                 180,
                 530
               ],
-              "Visible": true
-            },
-            "Circle": {
+              "Visible": false
+            }
+          },
+          "Draggable": {
+            "DragCircle1":{
               "Image": "data_ch2/circle.png",
               "Size": [
                 25,
@@ -776,67 +599,7 @@
                 240,
                 130
               ],
-              "Visible": true
-            },
-            "btnImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
-              ],
-              "Visible": false
-            },
-            "levelsel": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position" : [
-                50,
-                50
-              ],
-              "Visible" : false
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
+              "Touchable": true
             }
           },
           "Updatable": {
@@ -990,66 +753,6 @@
                 408
               ],
               "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
-              ],
-              "Visible": false
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "LevelSel": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                660
-              ],
-              "Visible": true
             }
           },
           "Draggable": {
@@ -1105,6 +808,7 @@
               "Visible": true
             }
           }
+
         },
         "Step2": {
           "Displays": {
@@ -1178,7 +882,7 @@
                 20,
                 408
               ],
-              "Visible": true
+              "Visible": false
             },
             "line2": {
               "Image": "data_ch2/line2.png",
@@ -1202,9 +906,11 @@
                 180,
                 530
               ],
-              "Visible": true
-            },
-            "Circle": {
+              "Visible": false
+            }
+          },
+          "Draggable": {
+            "DragCircle1":{
               "Image": "data_ch2/circle.png",
               "Size": [
                 25,
@@ -1214,67 +920,7 @@
                 240,
                 130
               ],
-              "Visible": true
-            },
-            "btnImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
-              ],
-              "Visible": false
-            },
-            "levelsel": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position" : [
-                50,
-                50
-              ],
-              "Visible" : false
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
+              "Touchable": true
             }
           },
           "Updatable": {
@@ -1428,66 +1074,6 @@
                 408
               ],
               "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
-              ],
-              "Visible": false
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "LevelSel": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                660
-              ],
-              "Visible": true
             }
           },
           "Draggable": {
@@ -1543,6 +1129,7 @@
               "Visible": true
             }
           }
+
         },
         "Step2": {
           "Displays": {
@@ -1616,7 +1203,7 @@
                 20,
                 408
               ],
-              "Visible": true
+              "Visible": false
             },
             "line2": {
               "Image": "data_ch2/line2.png",
@@ -1640,9 +1227,11 @@
                 180,
                 530
               ],
-              "Visible": true
-            },
-            "Circle": {
+              "Visible": false
+            }
+          },
+          "Draggable": {
+            "DragCircle1":{
               "Image": "data_ch2/circle.png",
               "Size": [
                 25,
@@ -1652,67 +1241,7 @@
                 240,
                 130
               ],
-              "Visible": true
-            },
-            "btnImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
-              ],
-              "Visible": false
-            },
-            "levelsel": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position" : [
-                50,
-                50
-              ],
-              "Visible" : false
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
+              "Touchable": true
             }
           },
           "Updatable": {
@@ -1866,66 +1395,6 @@
                 408
               ],
               "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
-              ],
-              "Visible": false
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "LevelSel": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                660
-              ],
-              "Visible": true
             }
           },
           "Draggable": {
@@ -1981,6 +1450,7 @@
               "Visible": true
             }
           }
+
         },
         "Step2": {
           "Displays": {
@@ -2054,7 +1524,7 @@
                 20,
                 408
               ],
-              "Visible": true
+              "Visible": false
             },
             "line2": {
               "Image": "data_ch2/line2.png",
@@ -2078,9 +1548,11 @@
                 180,
                 530
               ],
-              "Visible": true
-            },
-            "Circle": {
+              "Visible": false
+            }
+          },
+          "Draggable": {
+            "DragCircle1":{
               "Image": "data_ch2/circle.png",
               "Size": [
                 25,
@@ -2090,67 +1562,7 @@
                 240,
                 130
               ],
-              "Visible": true
-            },
-            "btnImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                350,
-                50
-              ],
-              "Visible": false
-            },
-            "levelsel": {
-              "Image": "data/levelsel.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position" : [
-                50,
-                50
-              ],
-              "Visible" : false
-            },
-            "PlayImage": {
-              "Image": "data/play.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
-            },
-            "ReplayImage": {
-              "Image": "data/rep.png",
-              "Size": [
-                20,
-                20
-              ],
-              "Position": [
-                50,
-                50
-              ],
-              "Visible": false
+              "Touchable": true
             }
           },
           "Updatable": {

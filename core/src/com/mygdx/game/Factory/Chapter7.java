@@ -8,6 +8,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.scenes.scene2d.utils.DragListener;
+import com.mygdx.game.BuilderBlocks.DoubleClickListener;
 import com.mygdx.game.BuilderBlocks.DragClickListener;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.ChapterClass.Ch7CoordinateGeometry.VisebalComponentsCh7;
@@ -23,8 +24,6 @@ import java.util.ArrayList;
  */
 
 public class Chapter7 extends ChapterScreen implements Screen {
-
-  private Timer time;
 
   ArrayList<Image> DragComponent;
   ArrayList<Image> VisebalComponent;
@@ -58,33 +57,15 @@ public class Chapter7 extends ChapterScreen implements Screen {
 
   VisebalComponentsCh7 visebalComponentsCh7;
 
-  // component of level_1
-  private Label synlabel,synlabel1,synlabel2,synlabel3;
-
-  private Label value1,value3,value12,value14;
-
-  // component of level_2
-  private Label synlabelk1,synlabelk,labelvalue1,labelvalue3,valuek3,valuek4;
-
-  private Label valuek2,valuek1,value1_1,value3_1,value12_1,value14_1,value22,value22_1,value24,value24_1;
-
-  // component of level_3
-  private Label synlabelx1,synlabelx11,synlabelx2,synlabelx22,synlabelx3,synlabelx33;
-  private Label synlabely1,synlabely11,synlabely2,synlabely22,synlabely3,synlabely33;
-
   private GlobalsCommonCount glv;
-  Number numLocal;
 
-  //Array List for the drag listeners.
-  ArrayList<DragListener> listeners;
-  boolean moveTheBg = false;
   private Image submitButton = null;
-  private int stageTranslate = 0;
+
+  private ArrayList<DragClickListener> arrDragListener;
 
   Chapter7(){
     super();
 
-    time = new Timer();
     glv = GlobalsCommonCount.getInstance();
 
     getLevelName();
@@ -151,60 +132,35 @@ public class Chapter7 extends ChapterScreen implements Screen {
 
   void defineLevel1To5Components() {
 
-    if(GameStates.steps == Steps.STEP_1){
-
-    }
-    else if (GameStates.steps == Steps.STEP_2){
-
-    }
-    else if (GameStates.steps == Steps.STEP_3){
-
-    }
     drag_L1_value = new DragClickListener(Events.DRAG_L1_VALUE);
     drag_L1_value3 = new DragClickListener(Events.DRAG_L1_VALUE3);
     drag_L1_value12 = new DragClickListener(Events.DRAG_L1_VALUE12);
     drag_L1_value14 = new DragClickListener(Events.DRAG_L1_VALUE14);
 
-    if (updatables == null)
-        return;
+    arrDragListener = new ArrayList<DragClickListener>();
+    arrDragListener.add(drag_L1_value);
+    arrDragListener.add(drag_L1_value3);
+    arrDragListener.add(drag_L1_value12);
+    arrDragListener.add(drag_L1_value14);
 
-    updatables.size();
-    for (Label updatable : updatables){
-      String str = updatable.getName();
+    String  updatableNamesLevel1[] = {"LabelValue1", "LabelValue3", "LabelValue12","LabelValue14"};
 
-      if (str.equals("LabelValue1")){
-        value1 = updatable;
-        value1.addListener(drag_L1_value);
+    if (updatables != null) {
+
+      updatables.size();
+      for (Label updatable : updatables) {
+        String str = updatable.getName();
+        for(int count = 0; count < updatableNamesLevel1.length; count++){
+          if(str.equals(updatableNamesLevel1[count]))
+            updatable.addListener(arrDragListener.get(count));
+        }
       }
-      else if (str.equals("LabelValue3")){
-        value3 = updatable;
-        value3.addListener(drag_L1_value3);
-      }
-      else if (str.equals("LabelValue12")){
-        value12 = updatable;
-        value12.addListener(drag_L1_value12);
-      }
-      else if (str.equals("LabelValue14")){
-        value14 = updatable;
-        value14.addListener(drag_L1_value14);
-      }
+      visebalComponentsCh7 = new VisebalComponentsCh7(displayImages, updatables);
     }
-    visebalComponentsCh7 = new VisebalComponentsCh7(displayImages, updatables);
-
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }
   void defineLevel6To10Components() {
-
-    if(GameStates.steps == Steps.STEP_1){
-
-    }
-    else if (GameStates.steps == Steps.STEP_2){
-
-    }
-    else if (GameStates.steps == Steps.STEP_3){
-
-    }
 
     drag_L2_value12 = new DragClickListener(Events.DRAG_L2_VALUE12);
     drag_L2_value14 = new DragClickListener(Events.DRAG_L2_VALUE14);
@@ -215,62 +171,51 @@ public class Chapter7 extends ChapterScreen implements Screen {
     drag_L2_valuek3 = new DragClickListener(Events.DRAG_L2_VALUEK3);
     drag_L2_valuek4 = new DragClickListener(Events.DRAG_L2_VALUEK4);
 
-    if (updatables == null)
-      return;
+    arrDragListener = new ArrayList<DragClickListener>();
+    arrDragListener.add(drag_L2_value12);
+    arrDragListener.add(drag_L2_value14);
+    arrDragListener.add(drag_L2_valuek1);
+    arrDragListener.add(drag_L2_valuek2);
+    arrDragListener.add(drag_L2_value1);
+    arrDragListener.add(drag_L2_value3);
+    arrDragListener.add(drag_L2_valuek3);
+    arrDragListener.add(drag_L2_valuek4);
 
-    updatables.size();
-    for (Label updatable : updatables){
-      String str = updatable.getName();
+    String  updatableNamesLevel2Step1[] = {"LabelValue12", "LabelValue14", "LabelValuek1","LabelValuek2"};
+    String  updatableNamesLevel2Step2[] = {"LabelValue1", "LabelValue3", "LabelValuek3","LabelValuek4"};
 
-      if (str.equals("LabelValue12")){
-        value12 = updatable;
-        value12.addListener(drag_L2_value12);
-      }
-      else if (str.equals("LabelValue14")){
-        value14 = updatable;
-        value14.addListener(drag_L2_value14);
-      }
-      else if (str.equals("LabelValuek1")){
-        valuek1 = updatable;
-        valuek1.addListener(drag_L2_valuek1);
-      }
-      else if (str.equals("LabelValuek2")){
-        valuek2 = updatable;
-        valuek2.addListener(drag_L2_valuek2);
-      }
-      else if (str.equals("LabelValue1")){
-        labelvalue1 = updatable;
-        labelvalue1.addListener(drag_L2_value1);
-      }
-      else if (str.equals("LabelValue3")){
-        labelvalue3 = updatable;
-        labelvalue3.addListener(drag_L2_value3);
-      }
-      else if (str.equals("LabelValuek3")){
-        valuek3 = updatable;
-        valuek3.addListener(drag_L2_valuek3);
-      }
-      else if (str.equals("LabelValuek4")){
-        valuek4 = updatable;
-        valuek4.addListener(drag_L2_valuek4);
+    if(GameStates.steps == Steps.STEP_1){
+      if (updatables != null) {
+        updatables.size();
+        for (Label updatable : updatables) {
+          String str = updatable.getName();
+          for (int count = 0; count < updatableNamesLevel2Step1.length; count++) {
+            if (str.equals(updatableNamesLevel2Step1[count]))
+              updatable.addListener(arrDragListener.get(count));
+          }
+        }
+        visebalComponentsCh7 = new VisebalComponentsCh7(displayImages, updatables);
       }
     }
-    visebalComponentsCh7 = new VisebalComponentsCh7(displayImages, updatables);
+    else if (GameStates.steps == Steps.STEP_2){
+      if (updatables != null) {
+        updatables.size();
+        for (Label updatable : updatables) {
+          String str = updatable.getName();
+          for (int count = 0; count < updatableNamesLevel2Step2.length; count++) {
+            if (str.equals(updatableNamesLevel2Step2[count]))
+              updatable.addListener(arrDragListener.get(count));
+          }
+        }
+        visebalComponentsCh7 = new VisebalComponentsCh7(displayImages, updatables);
+      }
+    }
+    else if (GameStates.steps == Steps.STEP_3){}
 
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }
   void defineLevel11To15Components() {
-
-    if(GameStates.steps == Steps.STEP_1){
-
-    }
-    else if (GameStates.steps == Steps.STEP_2){
-
-    }
-    else if (GameStates.steps == Steps.STEP_3){
-
-    }
 
     drag_L3_value1 = new DragClickListener(Events.DRAG_L3_VALUE1);
     drag_L3_value1_1 = new DragClickListener(Events.DRAG_L3_VALUE1_1);
@@ -285,63 +230,35 @@ public class Chapter7 extends ChapterScreen implements Screen {
     drag_L3_value24 = new DragClickListener(Events.DRAG_L3_VALUE24);
     drag_L3_value24_1 = new DragClickListener(Events.DRAG_L3_VALUE24_1);
 
-    if (updatables == null)
-      return;
+    arrDragListener = new ArrayList<DragClickListener>();
+    arrDragListener.add(drag_L3_value1);
+    arrDragListener.add(drag_L3_value1_1);
+    arrDragListener.add(drag_L3_value3);
+    arrDragListener.add(drag_L3_value3_1);
+    arrDragListener.add(drag_L3_value12);
+    arrDragListener.add(drag_L3_value12_1);
+    arrDragListener.add(drag_L3_value14);
+    arrDragListener.add(drag_L3_value14_1);
+    arrDragListener.add(drag_L3_value22);
+    arrDragListener.add(drag_L3_value22_1);
+    arrDragListener.add(drag_L3_value24);
+    arrDragListener.add(drag_L3_value24_1);
 
-    updatables.size();
-    for (Label updatable : updatables){
-      String str = updatable.getName();
+    String  updatableNamesLevel3[] = {"LabelValue1", "LabelValue1_1", "LabelValue3","LabelValue3_1",
+            "LabelValue12","LabelValue12_1","LabelValue14","LabelValue14_1",
+            "LabelValue22","LabelValue22_1", "LabelValue24","LabelValue24_1"};
 
-      if (str.equals("LabelValue1")){
-        value1 = updatable;
-        value1.addListener(drag_L3_value1);
+    if (updatables != null){
+      updatables.size();
+      for (Label updatable : updatables){
+        String str = updatable.getName();
+        for (int count = 0; count < updatableNamesLevel3.length; count++) {
+          if (str.equals(updatableNamesLevel3[count]))
+            updatable.addListener(arrDragListener.get(count));
+        }
       }
-      else if (str.equals("LabelValue1_1")){
-        value1_1 = updatable;
-        value1_1.addListener(drag_L3_value1_1);
-      }
-      else if (str.equals("LabelValue3")){
-        value3 = updatable;
-        value3.addListener(drag_L3_value3);
-      }
-      else if (str.equals("LabelValue3_1")){
-        value3_1 = updatable;
-        value3_1.addListener(drag_L3_value3_1);
-      }
-      else if (str.equals("LabelValue12")){
-        value12 = updatable;
-        value12.addListener(drag_L3_value12);
-      }
-      else if (str.equals("LabelValue12_1")){
-        value12_1 = updatable;
-        value12_1.addListener(drag_L3_value12_1);
-      }
-      else if (str.equals("LabelValue14")){
-        value14 = updatable;
-        value14.addListener(drag_L3_value14);
-      }
-      else if (str.equals("LabelValue14_1")){
-        value14_1 = updatable;
-        value14_1.addListener(drag_L3_value14_1);
-      }
-      else if (str.equals("LabelValue22")){
-        value22 = updatable;
-        value22.addListener(drag_L3_value22);
-      }
-      else if (str.equals("LabelValue22_1")){
-        value22_1 = updatable;
-        value22_1.addListener(drag_L3_value22_1);
-      }
-      else if (str.equals("LabelValue24")){
-        value24 = updatable;
-        value24.addListener(drag_L3_value24);
-      }
-      else if (str.equals("LabelValue24_1")){
-        value24_1 = updatable;
-        value24_1.addListener(drag_L3_value24_1);
-      }
+      visebalComponentsCh7 = new VisebalComponentsCh7(displayImages, updatables);
     }
-    visebalComponentsCh7 = new VisebalComponentsCh7(displayImages, updatables);
 
     //Add Submit Button Listener.
     addSubmitButtonListner();
@@ -411,18 +328,15 @@ public class Chapter7 extends ChapterScreen implements Screen {
           new RenderLevel() { public void renderL(float delta) { renderLevel3(delta); } }
   };
 
-  public void renderLevels(int index) {
-//    renderLists[index].renderL( );
-  }
   private void renderLevel1(float delta){
     update(delta);
 
-    if (time.isTimeUp()){
-//      GameStates.screenStates = ScreenStates.DIALOGBOX;
-    }
+    if (time.isTimeUp()){}
+
+    //Move Screen to next Screen
+    if(moveTheBg) { bg.act(delta);}
 
     stage.draw();
-
     time.stage.draw();
   }
   private void renderLevel2(float delta){
@@ -430,23 +344,20 @@ public class Chapter7 extends ChapterScreen implements Screen {
 
     if (time.isTimeUp()){}
 
+    //Move Screen to next Screen
+    if(moveTheBg) { bg.act(delta);}
+
     stage.draw();
-
-    if(moveTheBg) {
-      bg.act(delta);
-//      moveTheBg = false;
-    }
-
     time.stage.draw();
   }
   private void renderLevel3(float deltaTime){
-    //Sets the color to be applied after clearing the screen (R,G,B,A)
-    Gdx.gl.glClearColor(0,0,255,1);
-    //Clears the screen
-    Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
+
     time.update(deltaTime);
 
     if (time.isTimeUp()){}
+
+    //Move Screen to next Screen
+    if(moveTheBg) { bg.act(deltaTime);}
 
     stage.draw();
     time.stage.draw();

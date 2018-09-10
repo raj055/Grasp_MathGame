@@ -24,8 +24,6 @@ import java.util.ArrayList;
 
 public class Chapter6 extends ChapterScreen implements Screen {
 
-  private Timer time;
-
   ArrayList<Image> DragComponent;
   ArrayList<Image> VisebalComponent;
   ArrayList<Label> LableChange;
@@ -51,16 +49,9 @@ public class Chapter6 extends ChapterScreen implements Screen {
   Image sercal1;
   Image triangle_p;
 
-  // component of level_2
-  private Label value,value1,value2,value3,value4,value5;
-
-  private Label anser;
-
   private GlobalsCommonCount glv;
 
   private Numberch6 numberch6;
-
-  private Image imgVlu1,imgVlu5,imgVlu7,imgVlu4,imgVlu8,imgVlu2,imgVlu,imgVlu6,imgVlu9_2,imgVlu9,imgVlu3;
 
   DoubleClickListener  Click_imgVlu1, Click_imgVlu5, Click_imgVlu7, Click_imgVlu4, Click_imgVlu8,
           Click_imgVlu2, Click_imgVlu, Click_imgVlu6, Click_imgVlu9_2, Click_imgVlu9, Click_imgVlu3;
@@ -74,14 +65,11 @@ public class Chapter6 extends ChapterScreen implements Screen {
   ArrayList<DoubleClickListener> arrDoubleListener;
 
   private Image submitButton = null;
-  private int stageTranslate = 0;
 
   ScrollingUpdateCh6 scrollingUpdateCh6 = null;
 
   Chapter6(){
     super();
-
-    time = new Timer();
 
     glv = GlobalsCommonCount.getInstance();
 
@@ -257,7 +245,6 @@ public class Chapter6 extends ChapterScreen implements Screen {
         numberch6.addToStage(stage);
       }
     }
-
   }
 
   void defineLevel11To15Components() {
@@ -442,29 +429,33 @@ public class Chapter6 extends ChapterScreen implements Screen {
 
     if (time.isTimeUp()){}
 
-    stage.draw();
+    //Move Screen to next Screen
+    if(moveTheBg) { bg.act(delta);}
 
+    stage.draw();
     time.stage.draw();
   }
   private void renderLevel2(float delta){
     update(delta);
+
    if(numberch6 != null)
     numberch6.update(delta);
 
-    if (time.isTimeUp()){
-    }
+    if (time.isTimeUp()){ }
+
+    //Move Screen to next Screen
+    if(moveTheBg) { bg.act(delta);}
 
     stage.draw();
     time.stage.draw();
   }
   private void renderLevel3(float deltaTime){
-    //Sets the color to be applied after clearing the screen (R,G,B,A)
-    Gdx.gl.glClearColor(0,0,255,1);
-    //Clears the screen
-    Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
     time.update(deltaTime);
 
     if (time.isTimeUp()){ }
+
+    //Move Screen to next Screen
+    if(moveTheBg) { bg.act(deltaTime);}
 
     stage.draw();
     time.stage.draw();
