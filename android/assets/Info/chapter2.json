@@ -2282,14 +2282,14 @@
               "Visible" : true
             },
             "Equation": {
-              "Image": "data_ch2/eq1.png",
+              "Image": "data_ch2/ch2L6.png",
               "Size": [
                 260,
-                60
+                40
               ],
               "Position": [
                 30,
-                160
+                145
               ],
               "Visible" : true
             },
@@ -2629,14 +2629,14 @@
               "Visible" : true
             },
             "Equation1": {
-              "Image": "data_ch2/eq1.png",
+              "Image": "data_ch2/ch2L6.png",
               "Size": [
                 260,
-                60
+                40
               ],
               "Position": [
                 30,
-                150
+                145
               ],
               "Visible" : true
             },
@@ -2952,14 +2952,14 @@
               "Visible": true
             },
             "Equation1": {
-              "Image": "data_ch2/eq1.png",
+              "Image": "data_ch2/ch2L6.png",
               "Size": [
                 260,
-                60
+                40
               ],
               "Position": [
                 30,
-                150
+                145
               ],
               "Visible": true
             },
@@ -3325,14 +3325,14 @@
               "Visible" : true
             },
             "Equation": {
-              "Image": "data_ch2/eq1.png",
+              "Image": "data_ch2/ch2L7.png",
               "Size": [
                 260,
-                60
+                40
               ],
               "Position": [
                 30,
-                160
+                145
               ],
               "Visible" : true
             },
@@ -3672,14 +3672,14 @@
               "Visible" : true
             },
             "Equation1": {
-              "Image": "data_ch2/eq1.png",
+              "Image": "data_ch2/ch2L7.png",
               "Size": [
                 260,
-                60
+                40
               ],
               "Position": [
                 30,
-                150
+                145
               ],
               "Visible" : true
             },
@@ -3995,14 +3995,14 @@
               "Visible": true
             },
             "Equation1": {
-              "Image": "data_ch2/eq1.png",
+              "Image": "data_ch2/ch2L7.png",
               "Size": [
                 260,
-                60
+                40
               ],
               "Position": [
                 30,
-                150
+                145
               ],
               "Visible": true
             },
@@ -4368,14 +4368,14 @@
               "Visible" : true
             },
             "Equation": {
-              "Image": "data_ch2/eq1.png",
+              "Image": "data_ch2/ch2L8.png",
               "Size": [
                 260,
-                60
+                40
               ],
               "Position": [
                 30,
-                160
+                145
               ],
               "Visible" : true
             },
@@ -4715,14 +4715,14 @@
               "Visible" : true
             },
             "Equation1": {
-              "Image": "data_ch2/eq1.png",
+              "Image": "data_ch2/ch2L8.png",
               "Size": [
                 260,
-                60
+                40
               ],
               "Position": [
                 30,
-                150
+                145
               ],
               "Visible" : true
             },
@@ -5038,14 +5038,14 @@
               "Visible": true
             },
             "Equation1": {
-              "Image": "data_ch2/eq1.png",
+              "Image": "data_ch2/ch2L8.png",
               "Size": [
                 260,
-                60
+                40
               ],
               "Position": [
                 30,
-                150
+                145
               ],
               "Visible": true
             },
@@ -5411,14 +5411,14 @@
               "Visible" : true
             },
             "Equation": {
-              "Image": "data_ch2/eq1.png",
+              "Image": "data_ch2/ch2L9.png",
               "Size": [
                 260,
-                60
+                40
               ],
               "Position": [
                 30,
-                160
+                145
               ],
               "Visible" : true
             },
@@ -5758,14 +5758,14 @@
               "Visible" : true
             },
             "Equation1": {
-              "Image": "data_ch2/eq1.png",
+              "Image": "data_ch2/ch2L9.png",
               "Size": [
                 260,
-                60
+                40
               ],
               "Position": [
                 30,
-                150
+                145
               ],
               "Visible" : true
             },
@@ -6081,14 +6081,14 @@
               "Visible": true
             },
             "Equation1": {
-              "Image": "data_ch2/eq1.png",
+              "Image": "data_ch2/ch2L9.png",
               "Size": [
                 260,
-                60
+                40
               ],
               "Position": [
                 30,
-                150
+                145
               ],
               "Visible": true
             },
@@ -6454,14 +6454,14 @@
               "Visible" : true
             },
             "Equation": {
-              "Image": "data_ch2/eq1.png",
+              "Image": "data_ch2/ch2L10.png",
               "Size": [
                 260,
-                60
+                40
               ],
               "Position": [
                 30,
-                160
+                145
               ],
               "Visible" : true
             },
@@ -6801,14 +6801,14 @@
               "Visible" : true
             },
             "Equation1": {
-              "Image": "data_ch2/eq1.png",
+              "Image": "data_ch2/ch2L10.png",
               "Size": [
                 260,
-                60
+                40
               ],
               "Position": [
                 30,
-                150
+                145
               ],
               "Visible" : true
             },
@@ -7124,14 +7124,14 @@
               "Visible": true
             },
             "Equation1": {
-              "Image": "data_ch2/eq1.png",
+              "Image": "data_ch2/ch2L10.png",
               "Size": [
                 260,
-                60
+                40
               ],
               "Position": [
                 30,
-                150
+                145
               ],
               "Visible": true
             },
@@ -7569,7 +7569,7 @@
               "Visible": true
             },
             "Syntex": {
-              "Image": "data_ch2/1.png",
+              "Image": "data_ch2/ch2L11_12.png",
               "Size": [
                 100,
                 30
@@ -7593,7 +7593,7 @@
               "Visible": true
             },
             "SyntaxLv13": {
-              "Image": "data_ch2/syntaxLvl3.png",
+              "Image": "data_ch2/ch2L11.png",
               "Size": [
                 200,
                 40
@@ -8879,7 +8879,7 @@
               "Visible": true
             },
             "Syntex": {
-              "Image": "data_ch2/1.png",
+              "Image": "data_ch2/ch2L11_12.png",
               "Size": [
                 100,
                 30
@@ -8903,7 +8903,7 @@
               "Visible": true
             },
             "SyntaxLv13": {
-              "Image": "data_ch2/syntaxLvl3.png",
+              "Image": "data_ch2/ch2L12.png",
               "Size": [
                 200,
                 40
@@ -9797,308 +9797,6 @@
               "Visible": true
             }
           }
-        },
-        "Step4": {
-          "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                250,
-                60
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": false
-            },
-            "Title": {
-              "Image": "data_ch2/title.png",
-              "Size": [
-                250,
-                60
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": false
-            },
-            "Simpletext": {
-              "Image": "data/simpaltext.png",
-              "Size": [
-                250,
-                50
-              ],
-              "Position": [
-                30,
-                150
-              ],
-              "Visible": true
-            },
-            "qImage": {
-              "Image": "data_ch2/q.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                110
-              ],
-              "Visible": true
-            },
-            "Remaindar": {
-              "Image": "data/simpaltext.png",
-              "Size": [
-                250,
-                50
-              ],
-              "Position": [
-                50,
-                600
-              ],
-              "Visible": true
-            },
-            "rImage": {
-              "Image": "data_ch2/r.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                275,
-                570
-              ],
-              "Visible": true
-            },
-            "Simplesyntex": {
-              "Image": "data/simpal1.png",
-              "Size": [
-                140,
-                80
-              ],
-              "Position": [
-                10,
-                300
-              ],
-              "Visible": true
-            },
-            "Formula": {
-              "Image": "data_ch2/formula.png",
-              "Size": [
-                240,
-                300
-              ],
-              "Position": [
-                150,
-                500
-              ],
-              "Visible": true
-            },
-            "PauseBttn":{
-              "Image": "data1/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                120,
-                50
-              ],
-              "Visible": true
-            },
-            "setting":{
-              "Image": "data1/setting.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                20,
-                50
-              ],
-              "Visible": true
-            },
-            "soundoff":{
-              "Image": "data1/sound_off.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "sound":{
-              "Image": "data1/sound_on.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "restart":{
-              "Image": "data1/restart.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                170,
-                50
-              ],
-              "Visible": true
-            }
-          },
-          "Updatable": {
-            "quotient": {
-              "Text": "X - 3",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                150,
-                15
-              ]
-            },
-            "Remaindar": {
-              "Text": "7x + 3",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                270,
-                600
-              ]
-            },
-            "Syntex": {
-              "Text": "X2 + 2",
-              "Size": [
-                140,
-                80
-              ],
-              "Position": [
-                275,
-                40
-              ]
-            },
-            "Value": {
-              "Text": "x3-3x2+5x-3",
-              "Size": [
-                240,
-                300
-              ],
-              "Position": [
-                200,
-                500
-              ]
-            }
-          },
-          "Scrolling":{
-            "number0": {
-              "Image": "Numbers/number0.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number1": {
-              "Image": "Numbers/number1.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number2": {
-              "Image": "Numbers/number2.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number3": {
-              "Image": "Numbers/number3.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number4": {
-              "Image": "Numbers/number4.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number5": {
-              "Image": "Numbers/number5.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number6": {
-              "Image": "Numbers/number6.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number7": {
-              "Image": "Numbers/number7.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number8": {
-              "Image": "Numbers/number8.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number9": {
-              "Image": "Numbers/number9.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            }
-          },
-          "Buttons":{
-            "SubmitButtn": {
-              "Image": "data1/asset_submit.png",
-              "Size": [
-                200,
-                80
-              ],
-              "Position": [
-                0,
-                710
-              ],
-              "Visible": true
-            }
-          }
         }
       },
       "Level13": {
@@ -10189,7 +9887,7 @@
               "Visible": true
             },
             "Syntex": {
-              "Image": "data_ch2/1.png",
+              "Image": "data_ch2/ch2L13_1.png",
               "Size": [
                 100,
                 30
@@ -10213,7 +9911,7 @@
               "Visible": true
             },
             "SyntaxLv13": {
-              "Image": "data_ch2/syntaxLvl3.png",
+              "Image": "data_ch2/ch2L13.png",
               "Size": [
                 200,
                 40
@@ -11499,7 +11197,7 @@
               "Visible": true
             },
             "Syntex": {
-              "Image": "data_ch2/1.png",
+              "Image": "data_ch2/ch2L14_1.png",
               "Size": [
                 100,
                 30
@@ -11523,7 +11221,7 @@
               "Visible": true
             },
             "SyntaxLv13": {
-              "Image": "data_ch2/syntaxLvl3.png",
+              "Image": "data_ch2/ch2L14.png",
               "Size": [
                 200,
                 40
@@ -12417,308 +12115,6 @@
               "Visible": true
             }
           }
-        },
-        "Step4": {
-          "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                250,
-                60
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": false
-            },
-            "Title": {
-              "Image": "data_ch2/title.png",
-              "Size": [
-                250,
-                60
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": false
-            },
-            "Simpletext": {
-              "Image": "data/simpaltext.png",
-              "Size": [
-                250,
-                50
-              ],
-              "Position": [
-                30,
-                150
-              ],
-              "Visible": true
-            },
-            "qImage": {
-              "Image": "data_ch2/q.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                110
-              ],
-              "Visible": true
-            },
-            "Remaindar": {
-              "Image": "data/simpaltext.png",
-              "Size": [
-                250,
-                50
-              ],
-              "Position": [
-                50,
-                600
-              ],
-              "Visible": true
-            },
-            "rImage": {
-              "Image": "data_ch2/r.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                275,
-                570
-              ],
-              "Visible": true
-            },
-            "Simplesyntex": {
-              "Image": "data/simpal1.png",
-              "Size": [
-                140,
-                80
-              ],
-              "Position": [
-                10,
-                300
-              ],
-              "Visible": true
-            },
-            "Formula": {
-              "Image": "data_ch2/formula.png",
-              "Size": [
-                240,
-                300
-              ],
-              "Position": [
-                150,
-                500
-              ],
-              "Visible": true
-            },
-            "PauseBttn":{
-              "Image": "data1/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                120,
-                50
-              ],
-              "Visible": true
-            },
-            "setting":{
-              "Image": "data1/setting.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                20,
-                50
-              ],
-              "Visible": true
-            },
-            "soundoff":{
-              "Image": "data1/sound_off.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "sound":{
-              "Image": "data1/sound_on.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "restart":{
-              "Image": "data1/restart.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                170,
-                50
-              ],
-              "Visible": true
-            }
-          },
-          "Updatable": {
-            "quotient": {
-              "Text": "X - 3",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                150,
-                15
-              ]
-            },
-            "Remaindar": {
-              "Text": "7x + 3",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                270,
-                600
-              ]
-            },
-            "Syntex": {
-              "Text": "X2 + 2",
-              "Size": [
-                140,
-                80
-              ],
-              "Position": [
-                275,
-                40
-              ]
-            },
-            "Value": {
-              "Text": "x3-3x2+5x-3",
-              "Size": [
-                240,
-                300
-              ],
-              "Position": [
-                200,
-                500
-              ]
-            }
-          },
-          "Scrolling":{
-            "number0": {
-              "Image": "Numbers/number0.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number1": {
-              "Image": "Numbers/number1.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number2": {
-              "Image": "Numbers/number2.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number3": {
-              "Image": "Numbers/number3.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number4": {
-              "Image": "Numbers/number4.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number5": {
-              "Image": "Numbers/number5.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number6": {
-              "Image": "Numbers/number6.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number7": {
-              "Image": "Numbers/number7.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number8": {
-              "Image": "Numbers/number8.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number9": {
-              "Image": "Numbers/number9.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            }
-          },
-          "Buttons":{
-            "SubmitButtn": {
-              "Image": "data1/asset_submit.png",
-              "Size": [
-                200,
-                80
-              ],
-              "Position": [
-                0,
-                710
-              ],
-              "Visible": true
-            }
-          }
         }
       },
       "Level15": {
@@ -12809,7 +12205,7 @@
               "Visible": true
             },
             "Syntex": {
-              "Image": "data_ch2/1.png",
+              "Image": "data_ch2/ch2L13_1.png",
               "Size": [
                 100,
                 30
@@ -12833,7 +12229,7 @@
               "Visible": true
             },
             "SyntaxLv13": {
-              "Image": "data_ch2/syntaxLvl3.png",
+              "Image": "data_ch2/ch2L15.png",
               "Size": [
                 200,
                 40

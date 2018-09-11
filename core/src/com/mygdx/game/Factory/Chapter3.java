@@ -117,32 +117,34 @@ public class Chapter3 extends ChapterScreen implements Screen {
 
       setPositionX(stageTranslate - 400);
 
-      messageBox.ShowDialog();
-      messageBox.NextStep.addListener(new ClickListener(){
-        @Override
-        public void clicked(InputEvent event, float x, float y) {
-          if(goToNextStep() != true) {
-            GameStates.screenStates = ScreenStates.LEVELSCREEN;
-            time.dispose();
-          }
-          else{
+      if(goToNextStep() != true) {
+        GameStates.screenStates = ScreenStates.LEVELSCREEN;
+        time.dispose();
+      }
+      else{
 
-            int trnslate = 400;
-            stageTranslate += 400;
+        int trnslate = 400;
+        stageTranslate += 400;
 //        if(stageTranslate >= 1200) {
 //          trnslate = 0;
 //          stageTranslate = 0;
 //        }
 
-            //Get the Level Number and Initialise the Level Components.
-            getLevelName();
-            initialiseLevelComponents(currentLevelNumber);
+        //Get the Level Number and Initialise the Level Components.
+        getLevelName();
+        initialiseLevelComponents(currentLevelNumber);
 
-            stage.getCamera().translate(trnslate,0,0);
-            stage.getCamera().update();
-          }
+        stage.getCamera().translate(trnslate,0,0);
+        stage.getCamera().update();
+      }
+
+//      messageBox.ShowDialog();
+    /*  messageBox.NextStep.addListener(new ClickListener(){
+        @Override
+        public void clicked(InputEvent event, float x, float y) {
+
         }
-      });
+      });*/
     }
   };
 

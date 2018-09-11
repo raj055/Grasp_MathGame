@@ -126,18 +126,6 @@
             }
           },
           "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
             "LabelP": {
               "Text": "",
               "Size": [
@@ -406,18 +394,6 @@
             }
           },
           "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
             "Value1": {
               "Text": "__",
               "Size": [
@@ -752,18 +728,6 @@
             }
           },
           "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
             "Value1": {
               "Text": "3",
               "Size": [
@@ -1098,18 +1062,6 @@
             }
           },
           "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
             "Value1": {
               "Text": "3x +",
               "Size": [
@@ -1422,18 +1374,6 @@
             }
           },
           "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
             "Value1": {
               "Text": "3",
               "Size": [
@@ -1798,18 +1738,6 @@
             }
           },
           "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
             "Value1": {
               "Text": "12x +",
               "Size": [
@@ -2110,18 +2038,6 @@
             }
           },
           "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
             "Anser": {
               "Text": "6x = 18 =>",
               "Size": [
@@ -2368,18 +2284,7 @@
             }
           },
           "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
+            
             "LabelP": {
               "Text": "",
               "Size": [
@@ -2648,18 +2553,6 @@
             }
           },
           "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
             "Value1": {
               "Text": "__",
               "Size": [
@@ -2994,18 +2887,6 @@
             }
           },
           "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
             "Value1": {
               "Text": "3",
               "Size": [
@@ -3340,18 +3221,6 @@
             }
           },
           "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
             "Value1": {
               "Text": "3x +",
               "Size": [
@@ -3664,18 +3533,7 @@
             }
           },
           "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
+            
             "Value1": {
               "Text": "3",
               "Size": [
@@ -4040,18 +3898,7 @@
             }
           },
           "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
+            
             "Value1": {
               "Text": "12x +",
               "Size": [
@@ -4352,18 +4199,7 @@
             }
           },
           "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
+            
             "Anser": {
               "Text": "6x = 18 =>",
               "Size": [
@@ -4610,18 +4446,7 @@
             }
           },
           "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
+            
             "LabelP": {
               "Text": "",
               "Size": [
@@ -4890,18 +4715,7 @@
             }
           },
           "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
+            
             "Value1": {
               "Text": "__",
               "Size": [
@@ -5236,18 +5050,7 @@
             }
           },
           "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
+            
             "Value1": {
               "Text": "3",
               "Size": [
@@ -5582,18 +5385,7 @@
             }
           },
           "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
+            
             "Value1": {
               "Text": "3x +",
               "Size": [
@@ -5906,18 +5698,7 @@
             }
           },
           "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
+            
             "Value1": {
               "Text": "3",
               "Size": [
@@ -6282,18 +6063,7 @@
             }
           },
           "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
+            
             "Value1": {
               "Text": "12x +",
               "Size": [
@@ -6594,18 +6364,7 @@
             }
           },
           "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
+            
             "Anser": {
               "Text": "6x = 18 =>",
               "Size": [
@@ -6728,609 +6487,7 @@
         }
       },
       "Level4": {
-        "Step1": {
-          "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                250,
-                60
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": false
-            },
-            "imgsquare": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                10,
-                260
-              ],
-              "Visible": true
-            },
-            "imgsquare1": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                200,
-                260
-              ],
-              "Visible": true
-            },
-            "pencil": {
-              "Image": "data_ch3/pencil72.png",
-              "Size": [
-                100,
-                200
-              ],
-              "Position": [
-                50,
-                530
-              ],
-              "Visible": true
-            },
-            "eraser": {
-              "Image": "data_ch3/eraser72.png",
-              "Size": [
-                80,
-                150
-              ],
-              "Position": [
-                250,
-                500
-              ],
-              "Visible": true
-            },
-            "PauseBttn":{
-              "Image": "data1/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                120,
-                50
-              ],
-              "Visible": true
-            },
-            "setting":{
-              "Image": "data1/setting.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                20,
-                50
-              ],
-              "Visible": true
-            },
-            "soundoff":{
-              "Image": "data1/sound_off.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "sound":{
-              "Image": "data1/sound_on.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "restart":{
-              "Image": "data1/restart.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                170,
-                50
-              ],
-              "Visible": true
-            }
-          },
-          "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
-            "LabelP": {
-              "Text": "",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                60,
-                430
-              ]
-            },
-            "LabelE": {
-              "Text": "",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                270,
-                395
-              ]
-            }
-          },
-          "Scrolling":{
-            "number0": {
-              "Image": "Numbers/number0.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number1": {
-              "Image": "Numbers/number1.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number2": {
-              "Image": "Numbers/number2.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number3": {
-              "Image": "Numbers/number3.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number4": {
-              "Image": "Numbers/number4.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number5": {
-              "Image": "Numbers/number5.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number6": {
-              "Image": "Numbers/number6.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number7": {
-              "Image": "Numbers/number7.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number8": {
-              "Image": "Numbers/number8.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number9": {
-              "Image": "Numbers/number9.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            }
-          },
-          "Buttons":{
-            "SubmitButtn": {
-              "Image": "data1/asset_submit.png",
-              "Size": [
-                200,
-                80
-              ],
-              "Position": [
-                0,
-                710
-              ],
-              "Visible": true
-            }
-          }
-        },
-        "Step2": {
-          "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                250,
-                60
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": false
-            },
-            "Square": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                10,
-                260
-              ],
-              "Visible": true
-            },
-            "Squarel": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                200,
-                260
-              ],
-              "Visible": true
-            },
-            "Pencil": {
-              "Image": "data_ch3/pencil72.png",
-              "Size": [
-                80,
-                180
-              ],
-              "Position": [
-                50,
-                260
-              ],
-              "Visible": true
-            },
-            "Eraser": {
-              "Image": "data_ch3/eraser72.png",
-              "Size": [
-                80,
-                160
-              ],
-              "Position": [
-                230,
-                250
-              ],
-              "Visible": true
-            },
-            "Rectangle": {
-              "Image": "data_ch3/bgrect.png",
-              "Size": [
-                380,
-                180
-              ],
-              "Position": [
-                10,
-                450
-              ],
-              "Visible": true
-            },
-            "Rectanglel": {
-              "Image": "data_ch3/bgrect.png",
-              "Size": [
-                380,
-                180
-              ],
-              "Position": [
-                10,
-                640
-              ],
-              "Visible": true
-            },
-            "PauseBttn":{
-              "Image": "data1/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                120,
-                50
-              ],
-              "Visible": true
-            },
-            "setting":{
-              "Image": "data1/setting.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                20,
-                50
-              ],
-              "Visible": true
-            },
-            "soundoff":{
-              "Image": "data1/sound_off.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "sound":{
-              "Image": "data1/sound_on.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "restart":{
-              "Image": "data1/restart.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                170,
-                50
-              ],
-              "Visible": true
-            }
-          },
-          "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
-            "Value1": {
-              "Text": "__",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                250,
-                350
-              ]
-            },
-            "Value2": {
-              "Text": "x +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                300,
-                350
-              ]
-            },
-            "Value3": {
-              "Text": "__",
-              "Size": [
-                50,
-                50
-              ],
-              "Position" : [
-                250,
-                420
-              ]
-            },
-            "Value4": {
-              "Text": "y +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                300,
-                420
-              ]
-            },
-            "Value11": {
-              "Text": "__",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                250,
-                530
-              ]
-            },
-            "Value12": {
-              "Text": "x +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                300,
-                530
-              ]
-            },
-            "Value13": {
-              "Text": "__",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                250,
-                600
-              ]
-            },
-            "Value14": {
-              "Text": "y +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                300,
-                600
-              ]
-            }
-          },
-          "Scrolling":{
-            "number0": {
-              "Image": "Numbers/number0.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number1": {
-              "Image": "Numbers/number1.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number2": {
-              "Image": "Numbers/number2.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number3": {
-              "Image": "Numbers/number3.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number4": {
-              "Image": "Numbers/number4.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number5": {
-              "Image": "Numbers/number5.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number6": {
-              "Image": "Numbers/number6.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number7": {
-              "Image": "Numbers/number7.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number8": {
-              "Image": "Numbers/number8.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number9": {
-              "Image": "Numbers/number9.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            }
-          },
-          "Buttons":{
-            "SubmitButtn": {
-              "Image": "data1/asset_submit.png",
-              "Size": [
-                200,
-                80
-              ],
-              "Position": [
-                0,
-                710
-              ],
-              "Visible": true
-            }
-          }
-        },
-        "Step3": {
+        "Step1" : {
           "Displays": {
             "BgImage": {
               "Image": "data/bg_1.png",
@@ -7344,1433 +6501,195 @@
               ],
               "Visible": false
             },
-            "Square": {
-              "Image": "data_ch3/bgsquare.png",
+            "ValueImage": {
+              "Image": "data/syntax.png",
               "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                10,
-                260
-              ],
-              "Visible": true
-            },
-            "Squarel": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
                 200,
-                260
-              ],
-              "Visible": true
-            },
-            "Pencil": {
-              "Image": "data_ch3/pencil72.png",
-              "Size": [
-                80,
-                180
-              ],
-              "Position": [
-                50,
-                260
-              ],
-              "Visible": true
-            },
-            "Eraser": {
-              "Image": "data_ch3/eraser72.png",
-              "Size": [
-                80,
-                160
-              ],
-              "Position": [
-                240,
-                250
-              ],
-              "Visible": true
-            },
-            "Rectangle": {
-              "Image": "data_ch3/bgrect.png",
-              "Size": [
-                380,
-                180
-              ],
-              "Position": [
-                10,
-                450
-              ],
-              "Visible": true
-            },
-            "Rectangle1": {
-              "Image": "data_ch3/bgrect.png",
-              "Size": [
-                380,
-                180
-              ],
-              "Position": [
-                10,
-                650
-              ],
-              "Visible": true
-            },
-            "PauseBttn":{
-              "Image": "data1/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                120,
                 50
-              ],
-              "Visible": true
-            },
-            "setting":{
-              "Image": "data1/setting.png",
-              "Size": [
-                45,
-                45
               ],
               "Position": [
                 20,
-                50
+                100
               ],
               "Visible": true
             },
-            "soundoff":{
-              "Image": "data1/sound_off.png",
+            "FindImage": {
+              "Image": "data_ch3/string1.png",
               "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "sound":{
-              "Image": "data1/sound_on.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "restart":{
-              "Image": "data1/restart.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                170,
-                50
-              ],
-              "Visible": true
-            }
-          },
-          "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
-            "Value1": {
-              "Text": "3",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                250,
-                350
-              ]
-            },
-            "Value2": {
-              "Text": "x +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                300,
-                350
-              ]
-            },
-            "Value3": {
-              "Text": "3",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                250,
-                420
-              ]
-            },
-            "Value4": {
-              "Text": "y +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                300,
-                420
-              ]
-            },
-            "Value11": {
-              "Text": "6",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                250,
-                530
-              ]
-            },
-            "Value12": {
-              "Text": "x +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                300,
-                530
-              ]
-            },
-            "Value13": {
-              "Text": "4",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                250,
-                600
-              ]
-            },
-            "Value14": {
-              "Text": "y +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                300,
-                600
-              ]
-            }
-          },
-          "Scrolling":{
-            "number0": {
-              "Image": "Numbers/number0.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number1": {
-              "Image": "Numbers/number1.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number2": {
-              "Image": "Numbers/number2.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number3": {
-              "Image": "Numbers/number3.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number4": {
-              "Image": "Numbers/number4.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number5": {
-              "Image": "Numbers/number5.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number6": {
-              "Image": "Numbers/number6.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number7": {
-              "Image": "Numbers/number7.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number8": {
-              "Image": "Numbers/number8.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number9": {
-              "Image": "Numbers/number9.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            }
-          },
-          "Buttons":{
-            "SubmitButtn": {
-              "Image": "data1/asset_submit.png",
-              "Size": [
-                200,
-                80
-              ],
-              "Position": [
-                0,
-                710
-              ],
-              "Visible": true
-            }
-          }
-        },
-        "Step4": {
-          "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                250,
-                60
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": false
-            },
-            "Square": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                10,
-                260
-              ],
-              "Visible" : true
-            },
-            "Squarel": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                200,
-                260
-              ],
-              "Visible": true
-            },
-            "Pencil": {
-              "Image": "data_ch3/pencil72.png",
-              "Size": [
-                80,
-                180
-              ],
-              "Position": [
-                50,
-                260
-              ],
-              "Visible": true
-            },
-            "Eraser": {
-              "Image": "data_ch3/eraser72.png",
-              "Size": [
-                80,
-                160
-              ],
-              "Position": [
-                240,
-                250
-              ],
-              "Visible": true
-            },
-            "Rectangle": {
-              "Image": "data_ch3/bgrect.png",
-              "Size": [
-                380,
-                180
-              ],
-              "Position": [
-                10,
-                450
-              ],
-              "Visible": true
-            },
-            "Rectanglel": {
-              "Image": "data_ch3/bgrect.png",
-              "Size": [
-                380,
-                180
-              ],
-              "Position": [
-                10,
-                650
-              ],
-              "Visible": true
-            },
-            "PauseBttn":{
-              "Image": "data1/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                120,
-                50
-              ],
-              "Visible": true
-            },
-            "setting":{
-              "Image": "data1/setting.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                20,
-                50
-              ],
-              "Visible": true
-            },
-            "soundoff":{
-              "Image": "data1/sound_off.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "sound":{
-              "Image": "data1/sound_on.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "restart":{
-              "Image": "data1/restart.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                170,
-                50
-              ],
-              "Visible": true
-            }
-          },
-          "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
-            "Value1": {
-              "Text": "3x +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                110,
-                390
-              ]
-            },
-            "Value2": {
-              "Text": "__",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                160,
-                390
-              ]
-            },
-            "Value3": {
-              "Text": "y = 9",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                190,
-                390
-              ]
-            },
-            "Value11": {
-              "Text": "6x +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                110,
-                570
-              ]
-            },
-            "Value12": {
-              "Text": "__",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                160,
-                570
-              ]
-            },
-            "Value13": {
-              "Text": "y = 18",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                190,
-                570
-              ]
-            }
-          },
-          "Scrolling":{
-            "number0": {
-              "Image": "Numbers/number0.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number1": {
-              "Image": "Numbers/number1.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number2": {
-              "Image": "Numbers/number2.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number3": {
-              "Image": "Numbers/number3.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number4": {
-              "Image": "Numbers/number4.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number5": {
-              "Image": "Numbers/number5.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number6": {
-              "Image": "Numbers/number6.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number7": {
-              "Image": "Numbers/number7.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number8": {
-              "Image": "Numbers/number8.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number9": {
-              "Image": "Numbers/number9.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            }
-          },
-          "Buttons":{
-            "SubmitButtn": {
-              "Image": "data1/asset_submit.png",
-              "Size": [
-                200,
-                80
-              ],
-              "Position": [
-                0,
-                710
-              ],
-              "Visible": true
-            }
-          }
-        },
-        "Step5": {
-          "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                250,
-                60
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": false
-            },
-            "Square": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                10,
-                260
-              ],
-              "Visible": true
-            },
-            "Squarel": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                200,
-                260
-              ],
-              "Visible": true
-            },
-            "Pencil": {
-              "Image": "data_ch3/pencil72.png",
-              "Size": [
-                80,
-                180
-              ],
-              "Position": [
-                50,
-                260
-              ],
-              "Visible": true
-            },
-            "Eraser": {
-              "Image": "data_ch3/eraser72.png",
-              "Size": [
-                80,
-                160
-              ],
-              "Position": [
-                240,
-                250
-              ],
-              "Visible": true
-            },
-            "Rectangle": {
-              "Image": "data_ch3/bgrect.png",
-              "Size": [
-                380,
-                180
-              ],
-              "Position": [
-                10,
-                450
-              ],
-              "Visible": true
-            },
-            "Rectanglel": {
-              "Image": "data_ch3/bgrect.png",
-              "Size": [
-                380,
-                180
-              ],
-              "Position": [
-                10,
-                640
-              ],
-              "Visible": true
-            },
-            "PauseBttn":{
-              "Image": "data1/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                120,
-                50
-              ],
-              "Visible": true
-            },
-            "setting":{
-              "Image": "data1/setting.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                20,
-                50
-              ],
-              "Visible": true
-            },
-            "soundoff":{
-              "Image": "data1/sound_off.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "sound":{
-              "Image": "data1/sound_on.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "restart":{
-              "Image": "data1/restart.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                170,
-                50
-              ],
-              "Visible": true
-            }
-          },
-          "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
-            "Value1": {
-              "Text": "3",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                50,
-                390
-              ]
-            },
-            "Value2": {
-              "Text": "x4",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                65,
-                390
-              ]
-            },
-            "Value3": {
-              "Text": "x +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                90,
-                390
-              ]
-            },
-            "Value4": {
-              "Text": "3x4y",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                170,
-                390
-              ]
-            },
-            "Value5": {
-              "Text": "= 9",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                275,
-                390
-              ]
-            },
-            "Value6": {
-              "Text": "x4",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                320,
-                390
-              ]
-            },
-            "Value11": {
-              "Text": "3x",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                50,
-                570
-              ]
-            },
-            "Value12": {
-              "Text": "6x +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                80,
-                570
-              ]
-            },
-            "Value13": {
-              "Text": "3x4y",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                180,
-                570
-              ]
-            },
-            "Value14": {
-              "Text": "=",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                290,
-                570
-              ]
-            },
-            "Value15": {
-              "Text": "3x",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                315,
-                570
-              ]
-            },
-            "Value16": {
-              "Text": "18",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                340,
-                570
-              ]
-            }
-          },
-          "Scrolling":{
-            "number0": {
-              "Image": "Numbers/number0.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number1": {
-              "Image": "Numbers/number1.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number2": {
-              "Image": "Numbers/number2.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number3": {
-              "Image": "Numbers/number3.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number4": {
-              "Image": "Numbers/number4.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number5": {
-              "Image": "Numbers/number5.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number6": {
-              "Image": "Numbers/number6.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number7": {
-              "Image": "Numbers/number7.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number8": {
-              "Image": "Numbers/number8.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number9": {
-              "Image": "Numbers/number9.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            }
-          },
-          "Buttons":{
-            "SubmitButtn": {
-              "Image": "data1/asset_submit.png",
-              "Size": [
-                200,
-                80
-              ],
-              "Position": [
-                0,
-                710
-              ],
-              "Visible": true
-            }
-          }
-        },
-        "Step6": {
-          "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": true
-            },
-            "Square":  {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                10,
-                260
-              ],
-              "Visible": true
-            },
-            "Squarel": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                190,
-                260
-              ],
-              "Visible": true
-            },
-            "Pencil": {
-              "Image": "data_ch3/pencil72.png",
-              "Size": [
-                80,
-                180
-              ],
-              "Position": [
-                50,
-                260
-              ]
-            },
-            "Eraser": {
-              "Image": "data_ch3/eraser72.png",
-              "Size": [
-                80,
-                160
-              ],
-              "Position": [
                 150,
-                250
-              ]
-            },
-            "Rectangle": {
-              "Image": "data_ch3/bgrect.png",
-              "Size": [
-                380,
-                280
-              ],
-              "Position": [
-                10,
-                550
-              ],
-              "Visible": true
-            },
-            "PauseBttn":{
-              "Image": "data1/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                120,
                 50
               ],
+              "Position": [
+                200,
+                160
+              ],
               "Visible": true
             },
-            "setting":{
-              "Image": "data1/setting.png",
+            "Squrel2Image": {
+              "Image": "data_ch3/squreL2.png",
               "Size": [
-                45,
-                45
+                100,
+                200
               ],
               "Position": [
                 20,
-                50
+                465
               ],
               "Visible": true
             },
-            "soundoff":{
-              "Image": "data1/sound_off.png",
+            "SquerImage": {
+              "Image": "data_ch3/squer.png",
               "Size": [
-                45,
-                45
+                150,
+                150
               ],
               "Position": [
-                70,
-                50
+                75,
+                400
               ],
               "Visible": true
             },
-            "sound":{
-              "Image": "data1/sound_on.png",
+            "SqurelImage": {
+              "Image": "data_ch3/squreL.png",
               "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "restart":{
-              "Image": "data1/restart.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                170,
-                50
-              ],
-              "Visible": true
-            }
-          },
-          "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
-            "Value1": {
-              "Text": "12x +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                50,
-                390
-              ]
-            },
-            "Value2": {
-              "Text": "12y",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                170,
-                390
-              ]
-            },
-            "Value3": {
-              "Text": "= 36",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                250,
-                390
-              ]
-            },
-            "Value11": {
-              "Text": "-18x +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                50,
-                530
-              ]
-            },
-            "Value12": {
-              "Text": "12y",
-              "Size": [
-                50,
-                50
+                100,
+                200
               ],
               "Position": [
                 180,
-                530
-              ]
+                395
+              ],
+              "Visible": true
             },
-            "Value13": {
-              "Text": "= 54",
+            "RoundImage": {
+              "Image": "data_ch3/round.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                325,
+                300
+              ],
+              "Visible": true
+            },
+            "Round1Image": {
+              "Image": "data_ch3/round.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                325,
+                360
+              ],
+              "Visible": true
+            },
+            "Round2Image": {
+              "Image": "data_ch3/round.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                325,
+                420
+              ],
+              "Visible": true
+            },
+            "Shap1": {
+              "Image": "data_ch3/y1.png",
+              "Size": [
+                50,
+                120
+              ],
+              "Position": [
+                50,
+                600
+              ],
+              "Visible": false
+            },
+            "Shap2": {
+              "Image": "data_ch3/y11.png",
+              "Size": [
+                50,
+                120
+              ],
+              "Position": [
+                100,
+                400
+              ],
+              "Visible": false
+            },
+            "y1Image": {
+              "Image": "data_ch3/y1.png",
+              "Size": [
+                40,
+                50
+              ],
+              "Position": [
+                30,
+                675
+              ],
+              "Visible": true
+            },
+            "y2Image": {
+              "Image": "data_ch3/y2.png",
+              "Size": [
+                40,
+                50
+              ],
+              "Position": [
+                80,
+                675
+              ],
+              "Visible": true
+            },
+            "x1Image": {
+              "Image": "data_ch3/x1.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                675
+              ],
+              "Visible": true
+            },
+            "x2Image": {
+              "Image": "data_ch3/x2.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                200,
+                675
+              ],
+              "Visible": true
+            },
+            "c1Image": {
+              "Image": "data_ch3/c1.png",
               "Size": [
                 50,
                 50
               ],
               "Position": [
                 260,
-                530
-              ]
-            }
-          },
-          "Scrolling":{
-            "number0": {
-              "Image": "Numbers/number0.png",
-              "Size": [
-                30,
-                40
+                675
               ],
               "Visible": true
             },
-            "number1": {
-              "Image": "Numbers/number1.png",
+            "c2Image": {
+              "Image": "data_ch3/c2.png",
               "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number2": {
-              "Image": "Numbers/number2.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number3": {
-              "Image": "Numbers/number3.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number4": {
-              "Image": "Numbers/number4.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number5": {
-              "Image": "Numbers/number5.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number6": {
-              "Image": "Numbers/number6.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number7": {
-              "Image": "Numbers/number7.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number8": {
-              "Image": "Numbers/number8.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number9": {
-              "Image": "Numbers/number9.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            }
-          },
-          "Buttons":{
-            "SubmitButtn": {
-              "Image": "data1/asset_submit.png",
-              "Size": [
-                200,
-                80
-              ],
-              "Position": [
-                0,
-                710
-              ],
-              "Visible": true
-            }
-          }
-        },
-        "Step7": {
-          "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                300,
-                700
-              ],
-              "Position": [
-                190,
-                260
-              ],
-              "Visible": true
-            },
-            "Square": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                10,
-                260
-              ],
-              "Visible": true
-            },
-            "Squarel": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                190,
-                260
-              ],
-              "Visible": true
-            },
-            "Pencil": {
-              "Image": "data_ch3/pencil72.png",
-              "Size": [
-                80,
-                180
-              ],
-              "Position": [
                 50,
-                260
-              ],
-              "Visible": true
-            },
-            "Eraser": {
-              "Image": "data_ch3/eraser72.png",
-              "Size": [
-                80,
-                160
+                50
               ],
               "Position": [
-                150,
-                250
-              ],
-              "Visible": true
-            },
-            "Rectangle": {
-              "Image": "data_ch3/bgrect.png",
-              "Size": [
-                380,
-                280
-              ],
-              "Position": [
-                10,
-                550
+                320,
+                675
               ],
               "Visible": true
             },
@@ -8836,121 +6755,115 @@
             }
           },
           "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
+            "Value": {
+              "Text": "x + y = 14",
               "Size": [
                 50,
                 50
               ],
               "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
-            "Anser": {
-              "Text": "6x = 18 =>",
-              "Size": [
                 50,
-                50
-              ],
-              "Position": [
-                100,
-                400
+                100
               ]
             },
-            "Anser1": {
-              "Text": "x = 3",
+            "Find": {
+              "Text": "Find X.....",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                230,
+                160
+              ]
+            },
+            "Valuey1": {
+              "Text": "y",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                410
+              ]
+            },
+            "Valuey2": {
+              "Text": "y",
               "Size": [
                 50,
                 50
               ],
               "Position": [
                 180,
-                480
+                310
               ]
-            }
-          },
-          "Scrolling":{
-            "number0": {
-              "Image": "Numbers/number0.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
             },
-            "number1": {
-              "Image": "Numbers/number1.png",
+            "Label2y": {
+              "Text": "2y",
               "Size": [
-                30,
-                40
+                50,
+                50
               ],
-              "Visible": true
+              "Position": [
+                280,
+                340
+              ]
             },
-            "number2": {
-              "Image": "Numbers/number2.png",
+            "Labelx": {
+              "Text": "x",
               "Size": [
-                30,
-                40
+                50,
+                50
               ],
-              "Visible": true
+              "Position": [
+                140,
+                360
+              ]
             },
-            "number3": {
-              "Image": "Numbers/number3.png",
+            "Number": {
+              "Text": "3",
               "Size": [
-                30,
-                40
+                50,
+                50
               ],
-              "Visible": true
+              "Position": [
+                340,
+                360
+              ]
             },
-            "number4": {
-              "Image": "Numbers/number4.png",
+            "Equal": {
+              "Text": " = ",
               "Size": [
-                30,
-                40
+                50,
+                50
               ],
-              "Visible": true
+              "Position": [
+                300,
+                360
+              ]
             },
-            "number5": {
-              "Image": "Numbers/number5.png",
+            "Minimum": {
+              "Text": "-",
               "Size": [
-                30,
-                40
+                50,
+                50
               ],
-              "Visible": true
+              "Position": [
+                375,
+                360
+              ]
             },
-            "number6": {
-              "Image": "Numbers/number6.png",
+            "Ansvalue": {
+              "Text": "X = 3 - 2y",
               "Size": [
-                30,
-                40
+                50,
+                50
               ],
-              "Visible": true
-            },
-            "number7": {
-              "Image": "Numbers/number7.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number8": {
-              "Image": "Numbers/number8.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number9": {
-              "Image": "Numbers/number9.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
+              "Position": [
+                100,
+                550
+              ]
             }
           },
           "Buttons":{
@@ -8970,609 +6883,7 @@
         }
       },
       "Level5": {
-        "Step1": {
-          "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                250,
-                60
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": false
-            },
-            "imgsquare": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                10,
-                260
-              ],
-              "Visible": true
-            },
-            "imgsquare1": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                200,
-                260
-              ],
-              "Visible": true
-            },
-            "pencil": {
-              "Image": "data_ch3/pencil72.png",
-              "Size": [
-                100,
-                200
-              ],
-              "Position": [
-                50,
-                530
-              ],
-              "Visible": true
-            },
-            "eraser": {
-              "Image": "data_ch3/eraser72.png",
-              "Size": [
-                80,
-                150
-              ],
-              "Position": [
-                250,
-                500
-              ],
-              "Visible": true
-            },
-            "PauseBttn":{
-              "Image": "data1/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                120,
-                50
-              ],
-              "Visible": true
-            },
-            "setting":{
-              "Image": "data1/setting.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                20,
-                50
-              ],
-              "Visible": true
-            },
-            "soundoff":{
-              "Image": "data1/sound_off.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "sound":{
-              "Image": "data1/sound_on.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "restart":{
-              "Image": "data1/restart.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                170,
-                50
-              ],
-              "Visible": true
-            }
-          },
-          "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
-            "LabelP": {
-              "Text": "",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                60,
-                430
-              ]
-            },
-            "LabelE": {
-              "Text": "",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                270,
-                395
-              ]
-            }
-          },
-          "Scrolling":{
-            "number0": {
-              "Image": "Numbers/number0.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number1": {
-              "Image": "Numbers/number1.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number2": {
-              "Image": "Numbers/number2.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number3": {
-              "Image": "Numbers/number3.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number4": {
-              "Image": "Numbers/number4.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number5": {
-              "Image": "Numbers/number5.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number6": {
-              "Image": "Numbers/number6.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number7": {
-              "Image": "Numbers/number7.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number8": {
-              "Image": "Numbers/number8.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number9": {
-              "Image": "Numbers/number9.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            }
-          },
-          "Buttons":{
-            "SubmitButtn": {
-              "Image": "data1/asset_submit.png",
-              "Size": [
-                200,
-                80
-              ],
-              "Position": [
-                0,
-                710
-              ],
-              "Visible": true
-            }
-          }
-        },
-        "Step2": {
-          "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                250,
-                60
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": false
-            },
-            "Square": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                10,
-                260
-              ],
-              "Visible": true
-            },
-            "Squarel": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                200,
-                260
-              ],
-              "Visible": true
-            },
-            "Pencil": {
-              "Image": "data_ch3/pencil72.png",
-              "Size": [
-                80,
-                180
-              ],
-              "Position": [
-                50,
-                260
-              ],
-              "Visible": true
-            },
-            "Eraser": {
-              "Image": "data_ch3/eraser72.png",
-              "Size": [
-                80,
-                160
-              ],
-              "Position": [
-                230,
-                250
-              ],
-              "Visible": true
-            },
-            "Rectangle": {
-              "Image": "data_ch3/bgrect.png",
-              "Size": [
-                380,
-                180
-              ],
-              "Position": [
-                10,
-                450
-              ],
-              "Visible": true
-            },
-            "Rectanglel": {
-              "Image": "data_ch3/bgrect.png",
-              "Size": [
-                380,
-                180
-              ],
-              "Position": [
-                10,
-                640
-              ],
-              "Visible": true
-            },
-            "PauseBttn":{
-              "Image": "data1/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                120,
-                50
-              ],
-              "Visible": true
-            },
-            "setting":{
-              "Image": "data1/setting.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                20,
-                50
-              ],
-              "Visible": true
-            },
-            "soundoff":{
-              "Image": "data1/sound_off.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "sound":{
-              "Image": "data1/sound_on.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "restart":{
-              "Image": "data1/restart.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                170,
-                50
-              ],
-              "Visible": true
-            }
-          },
-          "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
-            "Value1": {
-              "Text": "__",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                250,
-                350
-              ]
-            },
-            "Value2": {
-              "Text": "x +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                300,
-                350
-              ]
-            },
-            "Value3": {
-              "Text": "__",
-              "Size": [
-                50,
-                50
-              ],
-              "Position" : [
-                250,
-                420
-              ]
-            },
-            "Value4": {
-              "Text": "y +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                300,
-                420
-              ]
-            },
-            "Value11": {
-              "Text": "__",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                250,
-                530
-              ]
-            },
-            "Value12": {
-              "Text": "x +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                300,
-                530
-              ]
-            },
-            "Value13": {
-              "Text": "__",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                250,
-                600
-              ]
-            },
-            "Value14": {
-              "Text": "y +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                300,
-                600
-              ]
-            }
-          },
-          "Scrolling":{
-            "number0": {
-              "Image": "Numbers/number0.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number1": {
-              "Image": "Numbers/number1.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number2": {
-              "Image": "Numbers/number2.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number3": {
-              "Image": "Numbers/number3.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number4": {
-              "Image": "Numbers/number4.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number5": {
-              "Image": "Numbers/number5.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number6": {
-              "Image": "Numbers/number6.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number7": {
-              "Image": "Numbers/number7.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number8": {
-              "Image": "Numbers/number8.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number9": {
-              "Image": "Numbers/number9.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            }
-          },
-          "Buttons":{
-            "SubmitButtn": {
-              "Image": "data1/asset_submit.png",
-              "Size": [
-                200,
-                80
-              ],
-              "Position": [
-                0,
-                710
-              ],
-              "Visible": true
-            }
-          }
-        },
-        "Step3": {
+        "Step1" : {
           "Displays": {
             "BgImage": {
               "Image": "data/bg_1.png",
@@ -9586,1433 +6897,195 @@
               ],
               "Visible": false
             },
-            "Square": {
-              "Image": "data_ch3/bgsquare.png",
+            "ValueImage": {
+              "Image": "data/syntax.png",
               "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                10,
-                260
-              ],
-              "Visible": true
-            },
-            "Squarel": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
                 200,
-                260
-              ],
-              "Visible": true
-            },
-            "Pencil": {
-              "Image": "data_ch3/pencil72.png",
-              "Size": [
-                80,
-                180
-              ],
-              "Position": [
-                50,
-                260
-              ],
-              "Visible": true
-            },
-            "Eraser": {
-              "Image": "data_ch3/eraser72.png",
-              "Size": [
-                80,
-                160
-              ],
-              "Position": [
-                240,
-                250
-              ],
-              "Visible": true
-            },
-            "Rectangle": {
-              "Image": "data_ch3/bgrect.png",
-              "Size": [
-                380,
-                180
-              ],
-              "Position": [
-                10,
-                450
-              ],
-              "Visible": true
-            },
-            "Rectangle1": {
-              "Image": "data_ch3/bgrect.png",
-              "Size": [
-                380,
-                180
-              ],
-              "Position": [
-                10,
-                650
-              ],
-              "Visible": true
-            },
-            "PauseBttn":{
-              "Image": "data1/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                120,
                 50
-              ],
-              "Visible": true
-            },
-            "setting":{
-              "Image": "data1/setting.png",
-              "Size": [
-                45,
-                45
               ],
               "Position": [
                 20,
-                50
+                100
               ],
               "Visible": true
             },
-            "soundoff":{
-              "Image": "data1/sound_off.png",
+            "FindImage": {
+              "Image": "data_ch3/string1.png",
               "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "sound":{
-              "Image": "data1/sound_on.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "restart":{
-              "Image": "data1/restart.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                170,
-                50
-              ],
-              "Visible": true
-            }
-          },
-          "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
-            "Value1": {
-              "Text": "3",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                250,
-                350
-              ]
-            },
-            "Value2": {
-              "Text": "x +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                300,
-                350
-              ]
-            },
-            "Value3": {
-              "Text": "3",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                250,
-                420
-              ]
-            },
-            "Value4": {
-              "Text": "y +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                300,
-                420
-              ]
-            },
-            "Value11": {
-              "Text": "6",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                250,
-                530
-              ]
-            },
-            "Value12": {
-              "Text": "x +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                300,
-                530
-              ]
-            },
-            "Value13": {
-              "Text": "4",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                250,
-                600
-              ]
-            },
-            "Value14": {
-              "Text": "y +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                300,
-                600
-              ]
-            }
-          },
-          "Scrolling":{
-            "number0": {
-              "Image": "Numbers/number0.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number1": {
-              "Image": "Numbers/number1.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number2": {
-              "Image": "Numbers/number2.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number3": {
-              "Image": "Numbers/number3.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number4": {
-              "Image": "Numbers/number4.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number5": {
-              "Image": "Numbers/number5.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number6": {
-              "Image": "Numbers/number6.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number7": {
-              "Image": "Numbers/number7.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number8": {
-              "Image": "Numbers/number8.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number9": {
-              "Image": "Numbers/number9.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            }
-          },
-          "Buttons":{
-            "SubmitButtn": {
-              "Image": "data1/asset_submit.png",
-              "Size": [
-                200,
-                80
-              ],
-              "Position": [
-                0,
-                710
-              ],
-              "Visible": true
-            }
-          }
-        },
-        "Step4": {
-          "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                250,
-                60
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": false
-            },
-            "Square": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                10,
-                260
-              ],
-              "Visible" : true
-            },
-            "Squarel": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                200,
-                260
-              ],
-              "Visible": true
-            },
-            "Pencil": {
-              "Image": "data_ch3/pencil72.png",
-              "Size": [
-                80,
-                180
-              ],
-              "Position": [
-                50,
-                260
-              ],
-              "Visible": true
-            },
-            "Eraser": {
-              "Image": "data_ch3/eraser72.png",
-              "Size": [
-                80,
-                160
-              ],
-              "Position": [
-                240,
-                250
-              ],
-              "Visible": true
-            },
-            "Rectangle": {
-              "Image": "data_ch3/bgrect.png",
-              "Size": [
-                380,
-                180
-              ],
-              "Position": [
-                10,
-                450
-              ],
-              "Visible": true
-            },
-            "Rectanglel": {
-              "Image": "data_ch3/bgrect.png",
-              "Size": [
-                380,
-                180
-              ],
-              "Position": [
-                10,
-                650
-              ],
-              "Visible": true
-            },
-            "PauseBttn":{
-              "Image": "data1/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                120,
-                50
-              ],
-              "Visible": true
-            },
-            "setting":{
-              "Image": "data1/setting.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                20,
-                50
-              ],
-              "Visible": true
-            },
-            "soundoff":{
-              "Image": "data1/sound_off.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "sound":{
-              "Image": "data1/sound_on.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "restart":{
-              "Image": "data1/restart.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                170,
-                50
-              ],
-              "Visible": true
-            }
-          },
-          "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
-            "Value1": {
-              "Text": "3x +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                110,
-                390
-              ]
-            },
-            "Value2": {
-              "Text": "__",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                160,
-                390
-              ]
-            },
-            "Value3": {
-              "Text": "y = 9",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                190,
-                390
-              ]
-            },
-            "Value11": {
-              "Text": "6x +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                110,
-                570
-              ]
-            },
-            "Value12": {
-              "Text": "__",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                160,
-                570
-              ]
-            },
-            "Value13": {
-              "Text": "y = 18",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                190,
-                570
-              ]
-            }
-          },
-          "Scrolling":{
-            "number0": {
-              "Image": "Numbers/number0.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number1": {
-              "Image": "Numbers/number1.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number2": {
-              "Image": "Numbers/number2.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number3": {
-              "Image": "Numbers/number3.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number4": {
-              "Image": "Numbers/number4.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number5": {
-              "Image": "Numbers/number5.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number6": {
-              "Image": "Numbers/number6.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number7": {
-              "Image": "Numbers/number7.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number8": {
-              "Image": "Numbers/number8.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number9": {
-              "Image": "Numbers/number9.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            }
-          },
-          "Buttons":{
-            "SubmitButtn": {
-              "Image": "data1/asset_submit.png",
-              "Size": [
-                200,
-                80
-              ],
-              "Position": [
-                0,
-                710
-              ],
-              "Visible": true
-            }
-          }
-        },
-        "Step5": {
-          "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                250,
-                60
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": false
-            },
-            "Square": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                10,
-                260
-              ],
-              "Visible": true
-            },
-            "Squarel": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                200,
-                260
-              ],
-              "Visible": true
-            },
-            "Pencil": {
-              "Image": "data_ch3/pencil72.png",
-              "Size": [
-                80,
-                180
-              ],
-              "Position": [
-                50,
-                260
-              ],
-              "Visible": true
-            },
-            "Eraser": {
-              "Image": "data_ch3/eraser72.png",
-              "Size": [
-                80,
-                160
-              ],
-              "Position": [
-                240,
-                250
-              ],
-              "Visible": true
-            },
-            "Rectangle": {
-              "Image": "data_ch3/bgrect.png",
-              "Size": [
-                380,
-                180
-              ],
-              "Position": [
-                10,
-                450
-              ],
-              "Visible": true
-            },
-            "Rectanglel": {
-              "Image": "data_ch3/bgrect.png",
-              "Size": [
-                380,
-                180
-              ],
-              "Position": [
-                10,
-                640
-              ],
-              "Visible": true
-            },
-            "PauseBttn":{
-              "Image": "data1/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                120,
-                50
-              ],
-              "Visible": true
-            },
-            "setting":{
-              "Image": "data1/setting.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                20,
-                50
-              ],
-              "Visible": true
-            },
-            "soundoff":{
-              "Image": "data1/sound_off.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "sound":{
-              "Image": "data1/sound_on.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "restart":{
-              "Image": "data1/restart.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                170,
-                50
-              ],
-              "Visible": true
-            }
-          },
-          "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
-            "Value1": {
-              "Text": "3",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                50,
-                390
-              ]
-            },
-            "Value2": {
-              "Text": "x4",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                65,
-                390
-              ]
-            },
-            "Value3": {
-              "Text": "x +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                90,
-                390
-              ]
-            },
-            "Value4": {
-              "Text": "3x4y",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                170,
-                390
-              ]
-            },
-            "Value5": {
-              "Text": "= 9",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                275,
-                390
-              ]
-            },
-            "Value6": {
-              "Text": "x4",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                320,
-                390
-              ]
-            },
-            "Value11": {
-              "Text": "3x",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                50,
-                570
-              ]
-            },
-            "Value12": {
-              "Text": "6x +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                80,
-                570
-              ]
-            },
-            "Value13": {
-              "Text": "3x4y",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                180,
-                570
-              ]
-            },
-            "Value14": {
-              "Text": "=",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                290,
-                570
-              ]
-            },
-            "Value15": {
-              "Text": "3x",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                315,
-                570
-              ]
-            },
-            "Value16": {
-              "Text": "18",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                340,
-                570
-              ]
-            }
-          },
-          "Scrolling":{
-            "number0": {
-              "Image": "Numbers/number0.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number1": {
-              "Image": "Numbers/number1.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number2": {
-              "Image": "Numbers/number2.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number3": {
-              "Image": "Numbers/number3.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number4": {
-              "Image": "Numbers/number4.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number5": {
-              "Image": "Numbers/number5.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number6": {
-              "Image": "Numbers/number6.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number7": {
-              "Image": "Numbers/number7.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number8": {
-              "Image": "Numbers/number8.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number9": {
-              "Image": "Numbers/number9.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            }
-          },
-          "Buttons":{
-            "SubmitButtn": {
-              "Image": "data1/asset_submit.png",
-              "Size": [
-                200,
-                80
-              ],
-              "Position": [
-                0,
-                710
-              ],
-              "Visible": true
-            }
-          }
-        },
-        "Step6": {
-          "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": true
-            },
-            "Square":  {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                10,
-                260
-              ],
-              "Visible": true
-            },
-            "Squarel": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                190,
-                260
-              ],
-              "Visible": true
-            },
-            "Pencil": {
-              "Image": "data_ch3/pencil72.png",
-              "Size": [
-                80,
-                180
-              ],
-              "Position": [
-                50,
-                260
-              ]
-            },
-            "Eraser": {
-              "Image": "data_ch3/eraser72.png",
-              "Size": [
-                80,
-                160
-              ],
-              "Position": [
                 150,
-                250
-              ]
-            },
-            "Rectangle": {
-              "Image": "data_ch3/bgrect.png",
-              "Size": [
-                380,
-                280
-              ],
-              "Position": [
-                10,
-                550
-              ],
-              "Visible": true
-            },
-            "PauseBttn":{
-              "Image": "data1/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                120,
                 50
               ],
+              "Position": [
+                200,
+                160
+              ],
               "Visible": true
             },
-            "setting":{
-              "Image": "data1/setting.png",
+            "Squrel2Image": {
+              "Image": "data_ch3/squreL2.png",
               "Size": [
-                45,
-                45
+                100,
+                200
               ],
               "Position": [
                 20,
-                50
+                465
               ],
               "Visible": true
             },
-            "soundoff":{
-              "Image": "data1/sound_off.png",
+            "SquerImage": {
+              "Image": "data_ch3/squer.png",
               "Size": [
-                45,
-                45
+                150,
+                150
               ],
               "Position": [
-                70,
-                50
+                75,
+                400
               ],
               "Visible": true
             },
-            "sound":{
-              "Image": "data1/sound_on.png",
+            "SqurelImage": {
+              "Image": "data_ch3/squreL.png",
               "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "restart":{
-              "Image": "data1/restart.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                170,
-                50
-              ],
-              "Visible": true
-            }
-          },
-          "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
-            "Value1": {
-              "Text": "12x +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                50,
-                390
-              ]
-            },
-            "Value2": {
-              "Text": "12y",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                170,
-                390
-              ]
-            },
-            "Value3": {
-              "Text": "= 36",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                250,
-                390
-              ]
-            },
-            "Value11": {
-              "Text": "-18x +",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                50,
-                530
-              ]
-            },
-            "Value12": {
-              "Text": "12y",
-              "Size": [
-                50,
-                50
+                100,
+                200
               ],
               "Position": [
                 180,
-                530
-              ]
+                395
+              ],
+              "Visible": true
             },
-            "Value13": {
-              "Text": "= 54",
+            "RoundImage": {
+              "Image": "data_ch3/round.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                325,
+                300
+              ],
+              "Visible": true
+            },
+            "Round1Image": {
+              "Image": "data_ch3/round.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                325,
+                360
+              ],
+              "Visible": true
+            },
+            "Round2Image": {
+              "Image": "data_ch3/round.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                325,
+                420
+              ],
+              "Visible": true
+            },
+            "Shap1": {
+              "Image": "data_ch3/y1.png",
+              "Size": [
+                50,
+                120
+              ],
+              "Position": [
+                50,
+                600
+              ],
+              "Visible": false
+            },
+            "Shap2": {
+              "Image": "data_ch3/y11.png",
+              "Size": [
+                50,
+                120
+              ],
+              "Position": [
+                100,
+                400
+              ],
+              "Visible": false
+            },
+            "y1Image": {
+              "Image": "data_ch3/y1.png",
+              "Size": [
+                40,
+                50
+              ],
+              "Position": [
+                30,
+                675
+              ],
+              "Visible": true
+            },
+            "y2Image": {
+              "Image": "data_ch3/y2.png",
+              "Size": [
+                40,
+                50
+              ],
+              "Position": [
+                80,
+                675
+              ],
+              "Visible": true
+            },
+            "x1Image": {
+              "Image": "data_ch3/x1.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                140,
+                675
+              ],
+              "Visible": true
+            },
+            "x2Image": {
+              "Image": "data_ch3/x2.png",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                200,
+                675
+              ],
+              "Visible": true
+            },
+            "c1Image": {
+              "Image": "data_ch3/c1.png",
               "Size": [
                 50,
                 50
               ],
               "Position": [
                 260,
-                530
-              ]
-            }
-          },
-          "Scrolling":{
-            "number0": {
-              "Image": "Numbers/number0.png",
-              "Size": [
-                30,
-                40
+                675
               ],
               "Visible": true
             },
-            "number1": {
-              "Image": "Numbers/number1.png",
+            "c2Image": {
+              "Image": "data_ch3/c2.png",
               "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number2": {
-              "Image": "Numbers/number2.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number3": {
-              "Image": "Numbers/number3.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number4": {
-              "Image": "Numbers/number4.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number5": {
-              "Image": "Numbers/number5.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number6": {
-              "Image": "Numbers/number6.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number7": {
-              "Image": "Numbers/number7.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number8": {
-              "Image": "Numbers/number8.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number9": {
-              "Image": "Numbers/number9.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            }
-          },
-          "Buttons":{
-            "SubmitButtn": {
-              "Image": "data1/asset_submit.png",
-              "Size": [
-                200,
-                80
-              ],
-              "Position": [
-                0,
-                710
-              ],
-              "Visible": true
-            }
-          }
-        },
-        "Step7": {
-          "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                300,
-                700
-              ],
-              "Position": [
-                190,
-                260
-              ],
-              "Visible": true
-            },
-            "Square": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                10,
-                260
-              ],
-              "Visible": true
-            },
-            "Squarel": {
-              "Image": "data_ch3/bgsquare.png",
-              "Size": [
-                180,
-                180
-              ],
-              "Position": [
-                190,
-                260
-              ],
-              "Visible": true
-            },
-            "Pencil": {
-              "Image": "data_ch3/pencil72.png",
-              "Size": [
-                80,
-                180
-              ],
-              "Position": [
                 50,
-                260
-              ],
-              "Visible": true
-            },
-            "Eraser": {
-              "Image": "data_ch3/eraser72.png",
-              "Size": [
-                80,
-                160
+                50
               ],
               "Position": [
-                150,
-                250
-              ],
-              "Visible": true
-            },
-            "Rectangle": {
-              "Image": "data_ch3/bgrect.png",
-              "Size": [
-                380,
-                280
-              ],
-              "Position": [
-                10,
-                550
+                320,
+                675
               ],
               "Visible": true
             },
@@ -11078,121 +7151,115 @@
             }
           },
           "Updatable": {
-            "Title": {
-              "Text": "Elimination method",
+            "Value": {
+              "Text": "7x - 15y = 2",
               "Size": [
                 50,
                 50
               ],
               "Position": [
-                10,
-                50
-              ],
-              "Visible": false
-            },
-            "Anser": {
-              "Text": "6x = 18 =>",
-              "Size": [
                 50,
-                50
-              ],
-              "Position": [
-                100,
-                400
+                100
               ]
             },
-            "Anser1": {
-              "Text": "x = 3",
+            "Find": {
+              "Text": "Find X.....",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                230,
+                160
+              ]
+            },
+            "Valuey1": {
+              "Text": "y",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                410
+              ]
+            },
+            "Valuey2": {
+              "Text": "y",
               "Size": [
                 50,
                 50
               ],
               "Position": [
                 180,
-                480
+                310
               ]
-            }
-          },
-          "Scrolling":{
-            "number0": {
-              "Image": "Numbers/number0.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
             },
-            "number1": {
-              "Image": "Numbers/number1.png",
+            "Label2y": {
+              "Text": "2y",
               "Size": [
-                30,
-                40
+                50,
+                50
               ],
-              "Visible": true
+              "Position": [
+                280,
+                340
+              ]
             },
-            "number2": {
-              "Image": "Numbers/number2.png",
+            "Labelx": {
+              "Text": "x",
               "Size": [
-                30,
-                40
+                50,
+                50
               ],
-              "Visible": true
+              "Position": [
+                140,
+                360
+              ]
             },
-            "number3": {
-              "Image": "Numbers/number3.png",
+            "Number": {
+              "Text": "3",
               "Size": [
-                30,
-                40
+                50,
+                50
               ],
-              "Visible": true
+              "Position": [
+                340,
+                360
+              ]
             },
-            "number4": {
-              "Image": "Numbers/number4.png",
+            "Equal": {
+              "Text": " = ",
               "Size": [
-                30,
-                40
+                50,
+                50
               ],
-              "Visible": true
+              "Position": [
+                300,
+                360
+              ]
             },
-            "number5": {
-              "Image": "Numbers/number5.png",
+            "Minimum": {
+              "Text": "-",
               "Size": [
-                30,
-                40
+                50,
+                50
               ],
-              "Visible": true
+              "Position": [
+                375,
+                360
+              ]
             },
-            "number6": {
-              "Image": "Numbers/number6.png",
+            "Ansvalue": {
+              "Text": "X = 3 - 2y",
               "Size": [
-                30,
-                40
+                50,
+                50
               ],
-              "Visible": true
-            },
-            "number7": {
-              "Image": "Numbers/number7.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number8": {
-              "Image": "Numbers/number8.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number9": {
-              "Image": "Numbers/number9.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
+              "Position": [
+                100,
+                550
+              ]
             }
           },
           "Buttons":{
@@ -11480,19 +7547,8 @@
             }
           },
           "Updatable": {
-            "Title": {
-              "Text": "Substitution method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ]
-            },
             "Value": {
-              "Text": "x + 2y = 3",
+              "Text": "s + t = 3",
               "Size": [
                 50,
                 50
@@ -11887,19 +7943,8 @@
             }
           },
           "Updatable": {
-            "Title": {
-              "Text": "Substitution method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ]
-            },
             "Value": {
-              "Text": "x + 2y = 3",
+              "Text": "0.2x + 0.3y = 1.3",
               "Size": [
                 50,
                 50
@@ -12006,1730 +8051,6 @@
               "Position": [
                 100,
                 550
-              ]
-            }
-          },
-          "Buttons":{
-            "SubmitButtn": {
-              "Image": "data1/asset_submit.png",
-              "Size": [
-                200,
-                80
-              ],
-              "Position": [
-                0,
-                710
-              ],
-              "Visible": true
-            }
-          }
-        }
-      },
-      "Level8": {
-        "Step1" : {
-          "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                300,
-                700
-              ],
-              "Position": [
-                190,
-                260
-              ],
-              "Visible": false
-            },
-            "ValueImage": {
-              "Image": "data/syntax.png",
-              "Size": [
-                200,
-                50
-              ],
-              "Position": [
-                20,
-                100
-              ],
-              "Visible": true
-            },
-            "FindImage": {
-              "Image": "data_ch3/string1.png",
-              "Size": [
-                150,
-                50
-              ],
-              "Position": [
-                200,
-                160
-              ],
-              "Visible": true
-            },
-            "Squrel2Image": {
-              "Image": "data_ch3/squreL2.png",
-              "Size": [
-                100,
-                200
-              ],
-              "Position": [
-                20,
-                465
-              ],
-              "Visible": true
-            },
-            "SquerImage": {
-              "Image": "data_ch3/squer.png",
-              "Size": [
-                150,
-                150
-              ],
-              "Position": [
-                75,
-                400
-              ],
-              "Visible": true
-            },
-            "SqurelImage": {
-              "Image": "data_ch3/squreL.png",
-              "Size": [
-                100,
-                200
-              ],
-              "Position": [
-                180,
-                395
-              ],
-              "Visible": true
-            },
-            "RoundImage": {
-              "Image": "data_ch3/round.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                325,
-                300
-              ],
-              "Visible": true
-            },
-            "Round1Image": {
-              "Image": "data_ch3/round.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                325,
-                360
-              ],
-              "Visible": true
-            },
-            "Round2Image": {
-              "Image": "data_ch3/round.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                325,
-                420
-              ],
-              "Visible": true
-            },
-            "Shap1": {
-              "Image": "data_ch3/y1.png",
-              "Size": [
-                50,
-                120
-              ],
-              "Position": [
-                50,
-                600
-              ],
-              "Visible": false
-            },
-            "Shap2": {
-              "Image": "data_ch3/y11.png",
-              "Size": [
-                50,
-                120
-              ],
-              "Position": [
-                100,
-                400
-              ],
-              "Visible": false
-            },
-            "y1Image": {
-              "Image": "data_ch3/y1.png",
-              "Size": [
-                40,
-                50
-              ],
-              "Position": [
-                30,
-                675
-              ],
-              "Visible": true
-            },
-            "y2Image": {
-              "Image": "data_ch3/y2.png",
-              "Size": [
-                40,
-                50
-              ],
-              "Position": [
-                80,
-                675
-              ],
-              "Visible": true
-            },
-            "x1Image": {
-              "Image": "data_ch3/x1.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                140,
-                675
-              ],
-              "Visible": true
-            },
-            "x2Image": {
-              "Image": "data_ch3/x2.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                200,
-                675
-              ],
-              "Visible": true
-            },
-            "c1Image": {
-              "Image": "data_ch3/c1.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                260,
-                675
-              ],
-              "Visible": true
-            },
-            "c2Image": {
-              "Image": "data_ch3/c2.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                320,
-                675
-              ],
-              "Visible": true
-            },
-            "PauseBttn":{
-              "Image": "data1/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                120,
-                50
-              ],
-              "Visible": true
-            },
-            "setting":{
-              "Image": "data1/setting.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                20,
-                50
-              ],
-              "Visible": true
-            },
-            "soundoff":{
-              "Image": "data1/sound_off.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "sound":{
-              "Image": "data1/sound_on.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "restart":{
-              "Image": "data1/restart.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                170,
-                50
-              ],
-              "Visible": true
-            }
-          },
-          "Updatable": {
-            "Title": {
-              "Text": "Substitution method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ]
-            },
-            "Value": {
-              "Text": "x + 2y = 3",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                50,
-                100
-              ]
-            },
-            "Find": {
-              "Text": "Find X.....",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                230,
-                160
-              ]
-            },
-            "Valuey1": {
-              "Text": "y",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                30,
-                410
-              ]
-            },
-            "Valuey2": {
-              "Text": "y",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                180,
-                310
-              ]
-            },
-            "Label2y": {
-              "Text": "2y",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                280,
-                340
-              ]
-            },
-            "Labelx": {
-              "Text": "x",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                140,
-                360
-              ]
-            },
-            "Number": {
-              "Text": "3",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                340,
-                360
-              ]
-            },
-            "Equal": {
-              "Text": " = ",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                300,
-                360
-              ]
-            },
-            "Minimum": {
-              "Text": "-",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                375,
-                360
-              ]
-            },
-            "Ansvalue": {
-              "Text": "X = 3 - 2y",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                100,
-                550
-              ]
-            }
-          },
-          "Buttons":{
-            "SubmitButtn": {
-              "Image": "data1/asset_submit.png",
-              "Size": [
-                200,
-                80
-              ],
-              "Position": [
-                0,
-                710
-              ],
-              "Visible": true
-            }
-          }
-        }
-      },
-      "Level9": {
-        "Step1" : {
-          "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                300,
-                700
-              ],
-              "Position": [
-                190,
-                260
-              ],
-              "Visible": false
-            },
-            "ValueImage": {
-              "Image": "data/syntax.png",
-              "Size": [
-                200,
-                50
-              ],
-              "Position": [
-                20,
-                100
-              ],
-              "Visible": true
-            },
-            "FindImage": {
-              "Image": "data_ch3/string1.png",
-              "Size": [
-                150,
-                50
-              ],
-              "Position": [
-                200,
-                160
-              ],
-              "Visible": true
-            },
-            "Squrel2Image": {
-              "Image": "data_ch3/squreL2.png",
-              "Size": [
-                100,
-                200
-              ],
-              "Position": [
-                20,
-                465
-              ],
-              "Visible": true
-            },
-            "SquerImage": {
-              "Image": "data_ch3/squer.png",
-              "Size": [
-                150,
-                150
-              ],
-              "Position": [
-                75,
-                400
-              ],
-              "Visible": true
-            },
-            "SqurelImage": {
-              "Image": "data_ch3/squreL.png",
-              "Size": [
-                100,
-                200
-              ],
-              "Position": [
-                180,
-                395
-              ],
-              "Visible": true
-            },
-            "RoundImage": {
-              "Image": "data_ch3/round.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                325,
-                300
-              ],
-              "Visible": true
-            },
-            "Round1Image": {
-              "Image": "data_ch3/round.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                325,
-                360
-              ],
-              "Visible": true
-            },
-            "Round2Image": {
-              "Image": "data_ch3/round.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                325,
-                420
-              ],
-              "Visible": true
-            },
-            "Shap1": {
-              "Image": "data_ch3/y1.png",
-              "Size": [
-                50,
-                120
-              ],
-              "Position": [
-                50,
-                600
-              ],
-              "Visible": false
-            },
-            "Shap2": {
-              "Image": "data_ch3/y11.png",
-              "Size": [
-                50,
-                120
-              ],
-              "Position": [
-                100,
-                400
-              ],
-              "Visible": false
-            },
-            "y1Image": {
-              "Image": "data_ch3/y1.png",
-              "Size": [
-                40,
-                50
-              ],
-              "Position": [
-                30,
-                675
-              ],
-              "Visible": true
-            },
-            "y2Image": {
-              "Image": "data_ch3/y2.png",
-              "Size": [
-                40,
-                50
-              ],
-              "Position": [
-                80,
-                675
-              ],
-              "Visible": true
-            },
-            "x1Image": {
-              "Image": "data_ch3/x1.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                140,
-                675
-              ],
-              "Visible": true
-            },
-            "x2Image": {
-              "Image": "data_ch3/x2.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                200,
-                675
-              ],
-              "Visible": true
-            },
-            "c1Image": {
-              "Image": "data_ch3/c1.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                260,
-                675
-              ],
-              "Visible": true
-            },
-            "c2Image": {
-              "Image": "data_ch3/c2.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                320,
-                675
-              ],
-              "Visible": true
-            },
-            "PauseBttn":{
-              "Image": "data1/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                120,
-                50
-              ],
-              "Visible": true
-            },
-            "setting":{
-              "Image": "data1/setting.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                20,
-                50
-              ],
-              "Visible": true
-            },
-            "soundoff":{
-              "Image": "data1/sound_off.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "sound":{
-              "Image": "data1/sound_on.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "restart":{
-              "Image": "data1/restart.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                170,
-                50
-              ],
-              "Visible": true
-            }
-          },
-          "Updatable": {
-            "Title": {
-              "Text": "Substitution method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ]
-            },
-            "Value": {
-              "Text": "x + 2y = 3",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                50,
-                100
-              ]
-            },
-            "Find": {
-              "Text": "Find X.....",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                230,
-                160
-              ]
-            },
-            "Valuey1": {
-              "Text": "y",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                30,
-                410
-              ]
-            },
-            "Valuey2": {
-              "Text": "y",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                180,
-                310
-              ]
-            },
-            "Label2y": {
-              "Text": "2y",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                280,
-                340
-              ]
-            },
-            "Labelx": {
-              "Text": "x",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                140,
-                360
-              ]
-            },
-            "Number": {
-              "Text": "3",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                340,
-                360
-              ]
-            },
-            "Equal": {
-              "Text": " = ",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                300,
-                360
-              ]
-            },
-            "Minimum": {
-              "Text": "-",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                375,
-                360
-              ]
-            },
-            "Ansvalue": {
-              "Text": "X = 3 - 2y",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                100,
-                550
-              ]
-            }
-          },
-          "Buttons":{
-            "SubmitButtn": {
-              "Image": "data1/asset_submit.png",
-              "Size": [
-                200,
-                80
-              ],
-              "Position": [
-                0,
-                710
-              ],
-              "Visible": true
-            }
-          }
-        }
-      },
-      "Level10": {
-        "Step1" : {
-          "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                300,
-                700
-              ],
-              "Position": [
-                190,
-                260
-              ],
-              "Visible": false
-            },
-            "ValueImage": {
-              "Image": "data/syntax.png",
-              "Size": [
-                200,
-                50
-              ],
-              "Position": [
-                20,
-                100
-              ],
-              "Visible": true
-            },
-            "FindImage": {
-              "Image": "data_ch3/string1.png",
-              "Size": [
-                150,
-                50
-              ],
-              "Position": [
-                200,
-                160
-              ],
-              "Visible": true
-            },
-            "Squrel2Image": {
-              "Image": "data_ch3/squreL2.png",
-              "Size": [
-                100,
-                200
-              ],
-              "Position": [
-                20,
-                465
-              ],
-              "Visible": true
-            },
-            "SquerImage": {
-              "Image": "data_ch3/squer.png",
-              "Size": [
-                150,
-                150
-              ],
-              "Position": [
-                75,
-                400
-              ],
-              "Visible": true
-            },
-            "SqurelImage": {
-              "Image": "data_ch3/squreL.png",
-              "Size": [
-                100,
-                200
-              ],
-              "Position": [
-                180,
-                395
-              ],
-              "Visible": true
-            },
-            "RoundImage": {
-              "Image": "data_ch3/round.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                325,
-                300
-              ],
-              "Visible": true
-            },
-            "Round1Image": {
-              "Image": "data_ch3/round.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                325,
-                360
-              ],
-              "Visible": true
-            },
-            "Round2Image": {
-              "Image": "data_ch3/round.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                325,
-                420
-              ],
-              "Visible": true
-            },
-            "Shap1": {
-              "Image": "data_ch3/y1.png",
-              "Size": [
-                50,
-                120
-              ],
-              "Position": [
-                50,
-                600
-              ],
-              "Visible": false
-            },
-            "Shap2": {
-              "Image": "data_ch3/y11.png",
-              "Size": [
-                50,
-                120
-              ],
-              "Position": [
-                100,
-                400
-              ],
-              "Visible": false
-            },
-            "y1Image": {
-              "Image": "data_ch3/y1.png",
-              "Size": [
-                40,
-                50
-              ],
-              "Position": [
-                30,
-                675
-              ],
-              "Visible": true
-            },
-            "y2Image": {
-              "Image": "data_ch3/y2.png",
-              "Size": [
-                40,
-                50
-              ],
-              "Position": [
-                80,
-                675
-              ],
-              "Visible": true
-            },
-            "x1Image": {
-              "Image": "data_ch3/x1.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                140,
-                675
-              ],
-              "Visible": true
-            },
-            "x2Image": {
-              "Image": "data_ch3/x2.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                200,
-                675
-              ],
-              "Visible": true
-            },
-            "c1Image": {
-              "Image": "data_ch3/c1.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                260,
-                675
-              ],
-              "Visible": true
-            },
-            "c2Image": {
-              "Image": "data_ch3/c2.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                320,
-                675
-              ],
-              "Visible": true
-            },
-            "PauseBttn":{
-              "Image": "data1/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                120,
-                50
-              ],
-              "Visible": true
-            },
-            "setting":{
-              "Image": "data1/setting.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                20,
-                50
-              ],
-              "Visible": true
-            },
-            "soundoff":{
-              "Image": "data1/sound_off.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "sound":{
-              "Image": "data1/sound_on.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "restart":{
-              "Image": "data1/restart.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                170,
-                50
-              ],
-              "Visible": true
-            }
-          },
-          "Updatable": {
-            "Title": {
-              "Text": "Substitution method",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                50
-              ]
-            },
-            "Value": {
-              "Text": "x + 2y = 3",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                50,
-                100
-              ]
-            },
-            "Find": {
-              "Text": "Find X.....",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                230,
-                160
-              ]
-            },
-            "Valuey1": {
-              "Text": "y",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                30,
-                410
-              ]
-            },
-            "Valuey2": {
-              "Text": "y",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                180,
-                310
-              ]
-            },
-            "Label2y": {
-              "Text": "2y",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                280,
-                340
-              ]
-            },
-            "Labelx": {
-              "Text": "x",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                140,
-                360
-              ]
-            },
-            "Number": {
-              "Text": "3",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                340,
-                360
-              ]
-            },
-            "Equal": {
-              "Text": " = ",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                300,
-                360
-              ]
-            },
-            "Minimum": {
-              "Text": "-",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                375,
-                360
-              ]
-            },
-            "Ansvalue": {
-              "Text": "X = 3 - 2y",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                100,
-                550
-              ]
-            }
-          },
-          "Buttons":{
-            "SubmitButtn": {
-              "Image": "data1/asset_submit.png",
-              "Size": [
-                200,
-                80
-              ],
-              "Position": [
-                0,
-                710
-              ],
-              "Visible": true
-            }
-          }
-        }
-      },
-      "Level11": {
-        "Step1" : {
-          "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                300,
-                700
-              ],
-              "Position": [
-                190,
-                260
-              ],
-              "Visible": false
-            },
-            "Titlevalue": {
-              "Image": "data_ch3/title.png",
-              "Size": [
-                220,
-                40
-              ],
-              "Position": [
-                10,
-                100
-              ],
-              "Visible": false
-            },
-            "Titlevalue1": {
-              "Image": "data_ch3/title.png",
-              "Size": [
-                220,
-                40
-              ],
-              "Position": [
-                10,
-                170
-              ],
-              "Visible": false
-            },
-            "BoxImage": {
-              "Image": "data/box.png",
-              "Size": [
-                100,
-                100
-              ],
-              "Position": [
-                0,
-                380
-              ],
-              "Visible": true
-            },
-            "b1Image": {
-              "Image": "data_ch3/b.png",
-              "Size": [
-                60,
-                60
-              ],
-              "Position": [
-                110,
-                300
-              ],
-              "Visible": true
-            },
-            "C2Image": {
-              "Image": "data_ch3/c.png",
-              "Size": [
-                60,
-                60
-              ],
-              "Position": [
-                180,
-                300
-              ],
-              "Visible": true
-            },
-            "b2Image": {
-              "Image": "data_ch3/b.png",
-              "Size": [
-                60,
-                60
-              ],
-              "Position": [
-                270,
-                300
-              ],
-              "Visible": true
-            },
-            "C1Image": {
-              "Image": "data_ch3/c.png",
-              "Size": [
-                60,
-                60
-              ],
-              "Position": [
-                335,
-                300
-              ],
-              "Visible": true
-            },
-            "LineImage": {
-              "Image": "data/line.png",
-              "Size": [
-                270,
-                5
-              ],
-              "Position": [
-                120,
-                340
-              ],
-              "Visible": true
-            },
-            "a1Image": {
-              "Image": "data_ch3/a.png",
-              "Size": [
-                60,
-                60
-              ],
-              "Position": [
-                110,
-                430
-              ],
-              "Visible": true
-            },
-            "b2Image1": {
-              "Image": "data_ch3/b.png",
-              "Size": [
-                60,
-                60
-              ],
-              "Position": [
-                180,
-                430
-              ],
-              "Visible": true
-            },
-            "a2Image": {
-              "Image": "data_ch3/a.png",
-              "Size": [
-                60,
-                60
-              ],
-              "Position": [
-                270,
-                430
-              ],
-              "Visible": true
-            },
-            "b1Image1": {
-              "Image" : "data_ch3/b.png",
-              "Size": [
-                60,
-                60
-              ],
-              "Position": [
-                335,
-                430
-              ],
-              "Visible": true
-            },
-            "PauseBttn":{
-              "Image": "data1/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                120,
-                50
-              ],
-              "Visible": true
-            },
-            "setting":{
-              "Image": "data1/setting.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                20,
-                50
-              ],
-              "Visible": true
-            },
-            "soundoff":{
-              "Image": "data1/sound_off.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "sound":{
-              "Image": "data1/sound_on.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "restart":{
-              "Image": "data1/restart.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                170,
-                50
-              ],
-              "Visible": true
-            }
-          },
-          "Updatable" : {
-            "Title" : {
-              "Text" : "Cross Multiplication",
-              "Size" : [
-                50,
-                50
-              ],
-              "Position" : [
-                10,
-                50
-              ]
-            },
-            "Value" : {
-              "Text" : "5x + 3y = 35",
-              "Size" : [
-                50,
-                50
-              ],
-              "Position" : [
-                30,
-                110
-              ]
-
-            },
-            "ValueA" : {
-              "Text" : "5",
-              "Size" : [
-                50,
-                50
-              ],
-              "Position" : [
-                30,
-                110
-              ]
-            },
-            "ValueB" : {
-              "Text" : "3",
-              "Size" : [
-                50,
-                50
-              ],
-              "Position" : [
-                80,
-                110
-              ]
-            },
-            "ValueB11" : {
-              "Text" : "3",
-              "Size" : [
-                50,
-                50
-              ],
-              "Position" : [
-                80,
-                110
-              ]
-            },
-            "ValueC" : {
-              "Text": "35",
-              "Size" : [
-                50,
-                50
-              ],
-              "Position" : [
-                135,
-                110
-              ]
-            },
-            "Value1" : {
-              "Text" : "2x + 4y = 28",
-              "Size" : [
-                50,
-                50
-              ],
-              "Position" : [
-                30,
-                180
-              ]
-            },
-            "ValueA1" : {
-              "Text" : "2",
-              "Size" : [
-                50,
-                50
-              ],
-              "Position" : [
-                30,
-                180
-              ]
-            },
-            "ValueB1" : {
-              "Text" : "4",
-              "Size" : [
-                50,
-                50
-              ],
-              "Position" : [
-                85,
-                180
-              ]
-            },
-            "ValueB12" : {
-              "Text" : "4",
-              "Size" : [
-                50,
-                50
-              ],
-              "Position" : [
-                85,
-                180
-              ]
-            },
-            "ValueC1" : {
-              "Text" : "28",
-              "Size" : [
-                50,
-                50
-              ],
-              "Position" : [
-                137,
-                180
-              ]
-            },
-            "Labelx" : {
-              "Text" : "x",
-              "Size" : [
-                50,
-                50
-              ],
-              "Position" : [
-                40,
-                350
-              ]
-            },
-            "Equal" : {
-              "Text" : " = ",
-              "Size" : [
-                50,
-                50
-              ],
-              "Position" : [
-                75,
-                365
-              ]
-            },
-            "Labelb" : {
-              "Text" : "b1",
-              "Size" : [
-                50,
-                50
-              ],
-              "Position" : [
-                120,
-                305
-              ]
-            },
-            "Labelc2" : {
-              "Text" : "c2",
-              "Size" : [
-                50,
-                50
-              ],
-              "Position" : [
-                190,
-                305
-              ]
-            },
-            "Labelmin" : {
-              "Text" : " - ",
-              "Size" : [
-                50,
-                50
-              ],
-              "Position" : [
-                235,
-                305
-              ]
-            },
-            "Labelb2" : {
-              "Text" : "b2",
-              "Size" : [
-                50,
-                50
-              ],
-              "Position" : [
-                275,
-                305
-              ]
-            },
-            "Labelc1" : {
-              "Text" : "c1",
-              "Size" : [
-                50,
-                50
-              ],
-              "Position" : [
-                355,
-                300
-              ]
-            },
-            "LabelA1" : {
-              "Text" : "a1",
-              "Size" : [
-                50,
-                50
-              ],
-              "Position" : [
-                115,
-                430
-              ]
-            },
-            "Labelb12" : {
-              "Text" : "b2",
-              "Size" : [
-                50,
-                50
-              ],
-              "Position" : [
-                185,
-                430
-              ]
-            },
-            "Labelmin1" : {
-              "Text" : " - ",
-              "Size" : [
-                50,
-                50
-              ],
-              "Position" : [
-                235,
-                430
-              ]
-            },
-            "LabelA2" : {
-              "Text" : "a2",
-              "Size" : [
-                50,
-                50
-              ],
-              "Position" : [
-                275,
-                430
-              ]
-            },
-            "Labelb11" : {
-              "Text" : "b1",
-              "Size" : [
-                50,
-                50
-              ],
-              "Position" : [
-                345,
-                430
-              ]
-            },
-            "LabelAns" : {
-              "Text" : "X = -4",
-              "Size" : [
-                70,
-                70
-              ],
-              "Position" : [
-                100,
-                585
               ]
             }
           },
@@ -13970,19 +8291,8 @@
             }
           },
           "Updatable" : {
-            "Title" : {
-              "Text" : "Cross Multiplication",
-              "Size" : [
-                50,
-                50
-              ],
-              "Position" : [
-                10,
-                50
-              ]
-            },
             "Value" : {
-              "Text" : "5x + 3y = 35",
+              "Text" : "5x + 3y - 35 = 0",
               "Size" : [
                 50,
                 50
@@ -14011,7 +8321,7 @@
                 50
               ],
               "Position" : [
-                80,
+                105,
                 110
               ]
             },
@@ -14022,7 +8332,7 @@
                 50
               ],
               "Position" : [
-                80,
+                105,
                 110
               ]
             },
@@ -14033,12 +8343,12 @@
                 50
               ],
               "Position" : [
-                135,
+                170,
                 110
               ]
             },
             "Value1" : {
-              "Text" : "2x + 4y = 28",
+              "Text" : "2x + 4y - 28 = 0",
               "Size" : [
                 50,
                 50
@@ -14066,7 +8376,7 @@
                 50
               ],
               "Position" : [
-                85,
+                105,
                 180
               ]
             },
@@ -14077,7 +8387,7 @@
                 50
               ],
               "Position" : [
-                85,
+                105,
                 180
               ]
             },
@@ -14088,7 +8398,7 @@
                 50
               ],
               "Position" : [
-                137,
+                175,
                 180
               ]
             },
@@ -14473,19 +8783,8 @@
             }
           },
           "Updatable" : {
-            "Title" : {
-              "Text" : "Cross Multiplication",
-              "Size" : [
-                50,
-                50
-              ],
-              "Position" : [
-                10,
-                50
-              ]
-            },
             "Value" : {
-              "Text" : "5x + 3y = 35",
+              "Text" : "2x +   y - 5 = 0",
               "Size" : [
                 50,
                 50
@@ -14497,7 +8796,7 @@
 
             },
             "ValueA" : {
-              "Text" : "5",
+              "Text" : "2",
               "Size" : [
                 50,
                 50
@@ -14508,40 +8807,40 @@
               ]
             },
             "ValueB" : {
-              "Text" : "3",
+              "Text" : "1",
               "Size" : [
                 50,
                 50
               ],
               "Position" : [
-                80,
+                100,
                 110
               ]
             },
             "ValueB11" : {
-              "Text" : "3",
+              "Text" : "1",
               "Size" : [
                 50,
                 50
               ],
               "Position" : [
-                80,
+                100,
                 110
               ]
             },
             "ValueC" : {
-              "Text": "35",
+              "Text": "5",
               "Size" : [
                 50,
                 50
               ],
               "Position" : [
-                135,
+                165,
                 110
               ]
             },
             "Value1" : {
-              "Text" : "2x + 4y = 28",
+              "Text" : "3x + 2y - 8 = 0",
               "Size" : [
                 50,
                 50
@@ -14552,7 +8851,7 @@
               ]
             },
             "ValueA1" : {
-              "Text" : "2",
+              "Text" : "3",
               "Size" : [
                 50,
                 50
@@ -14563,35 +8862,35 @@
               ]
             },
             "ValueB1" : {
-              "Text" : "4",
+              "Text" : "2",
               "Size" : [
                 50,
                 50
               ],
               "Position" : [
-                85,
+                104,
                 180
               ]
             },
             "ValueB12" : {
-              "Text" : "4",
+              "Text" : "2",
               "Size" : [
                 50,
                 50
               ],
               "Position" : [
-                85,
+                104,
                 180
               ]
             },
             "ValueC1" : {
-              "Text" : "28",
+              "Text" : "8",
               "Size" : [
                 50,
                 50
               ],
               "Position" : [
-                137,
+                172,
                 180
               ]
             },
@@ -14976,19 +9275,8 @@
             }
           },
           "Updatable" : {
-            "Title" : {
-              "Text" : "Cross Multiplication",
-              "Size" : [
-                50,
-                50
-              ],
-              "Position" : [
-                10,
-                50
-              ]
-            },
             "Value" : {
-              "Text" : "5x + 3y = 35",
+              "Text" : "   x - 3y - 7 = 0",
               "Size" : [
                 50,
                 50
@@ -15000,7 +9288,7 @@
 
             },
             "ValueA" : {
-              "Text" : "5",
+              "Text" : "1",
               "Size" : [
                 50,
                 50
@@ -15017,7 +9305,7 @@
                 50
               ],
               "Position" : [
-                80,
+                100,
                 110
               ]
             },
@@ -15028,23 +9316,23 @@
                 50
               ],
               "Position" : [
-                80,
+                100,
                 110
               ]
             },
             "ValueC" : {
-              "Text": "35",
+              "Text": "7",
               "Size" : [
                 50,
                 50
               ],
               "Position" : [
-                135,
+                168,
                 110
               ]
             },
             "Value1" : {
-              "Text" : "2x + 4y = 28",
+              "Text" : "3x - 3y - 15 = 0",
               "Size" : [
                 50,
                 50
@@ -15055,7 +9343,7 @@
               ]
             },
             "ValueA1" : {
-              "Text" : "2",
+              "Text" : "3",
               "Size" : [
                 50,
                 50
@@ -15066,35 +9354,35 @@
               ]
             },
             "ValueB1" : {
-              "Text" : "4",
+              "Text" : "3",
               "Size" : [
                 50,
                 50
               ],
               "Position" : [
-                85,
+                100,
                 180
               ]
             },
             "ValueB12" : {
-              "Text" : "4",
+              "Text" : "3",
               "Size" : [
                 50,
                 50
               ],
               "Position" : [
-                85,
+                100,
                 180
               ]
             },
             "ValueC1" : {
-              "Text" : "28",
+              "Text" : "15",
               "Size" : [
                 50,
                 50
               ],
               "Position" : [
-                137,
+                168,
                 180
               ]
             },
@@ -15479,19 +9767,8 @@
             }
           },
           "Updatable" : {
-            "Title" : {
-              "Text" : "Cross Multiplication",
-              "Size" : [
-                50,
-                50
-              ],
-              "Position" : [
-                10,
-                50
-              ]
-            },
             "Value" : {
-              "Text" : "5x + 3y = 35",
+              "Text" : "8x + 5y - 9 = 0",
               "Size" : [
                 50,
                 50
@@ -15503,7 +9780,7 @@
 
             },
             "ValueA" : {
-              "Text" : "5",
+              "Text" : "8",
               "Size" : [
                 50,
                 50
@@ -15514,40 +9791,40 @@
               ]
             },
             "ValueB" : {
-              "Text" : "3",
+              "Text" : "5",
               "Size" : [
                 50,
                 50
               ],
               "Position" : [
-                80,
+                105,
                 110
               ]
             },
             "ValueB11" : {
-              "Text" : "3",
+              "Text" : "5",
               "Size" : [
                 50,
                 50
               ],
               "Position" : [
-                80,
+                105,
                 110
               ]
             },
             "ValueC" : {
-              "Text": "35",
+              "Text": "9",
               "Size" : [
                 50,
                 50
               ],
               "Position" : [
-                135,
+                170,
                 110
               ]
             },
             "Value1" : {
-              "Text" : "2x + 4y = 28",
+              "Text" : "3x + 2y - 4 = 0",
               "Size" : [
                 50,
                 50
@@ -15558,7 +9835,7 @@
               ]
             },
             "ValueA1" : {
-              "Text" : "2",
+              "Text" : "3",
               "Size" : [
                 50,
                 50
@@ -15569,35 +9846,35 @@
               ]
             },
             "ValueB1" : {
-              "Text" : "4",
+              "Text" : "2",
               "Size" : [
                 50,
                 50
               ],
               "Position" : [
-                85,
+                103,
                 180
               ]
             },
             "ValueB12" : {
+              "Text" : "2",
+              "Size" : [
+                50,
+                50
+              ],
+              "Position" : [
+                103,
+                180
+              ]
+            },
+            "ValueC1" : {
               "Text" : "4",
               "Size" : [
                 50,
                 50
               ],
               "Position" : [
-                85,
-                180
-              ]
-            },
-            "ValueC1" : {
-              "Text" : "28",
-              "Size" : [
-                50,
-                50
-              ],
-              "Position" : [
-                137,
+                171,
                 180
               ]
             },
