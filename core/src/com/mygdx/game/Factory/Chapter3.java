@@ -53,11 +53,9 @@ public class Chapter3 extends ChapterScreen implements Screen {
   VisebalComponentsCh3 visebalComponentsCh3;
   VisebalComponentsCh3 visebalComponentsCh3Level11;
 
-  private Image submitButton = null;
   private ArrayList<DragClickListener> arrDragListener;
   private ArrayList<DoubleClickListener> arrClickListener;
 
-  private MessageBox messageBox;
   //Animation
   private float elapsed_time;
   AnimationClass animationClass;

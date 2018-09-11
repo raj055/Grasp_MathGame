@@ -22,6 +22,7 @@ import com.mygdx.game.ChapterClass.Ch1RealNumbers.BallDragListener;
 import com.mygdx.game.ChapterClass.Ch1RealNumbers.DragBallIndicators;
 import com.mygdx.game.ChapterClass.Ch1RealNumbers.RemainderDragListener;
 import com.mygdx.game.ChapterClass.Ch1RealNumbers.VisibleComponents;
+import com.mygdx.game.Screens.MessageBox;
 import com.mygdx.game.Timer.Timer;
 
 
@@ -63,15 +64,15 @@ public class Chapter1 extends ChapterScreen implements Screen {
 
   private ScrollingImageClick scrollingImageClick;
 
-  //submit button
-  private Image submitButton = null;
-
   //Animation
   AnimationClass animationClass;
   private float elapsed_time;
 
   Chapter1(){
     super();
+
+    messageBox = new MessageBox();
+    messageBox.AddStage(stage);
 
     animationClass = new AnimationClass();
     animationClass.BirdAnimation();
@@ -136,11 +137,11 @@ public class Chapter1 extends ChapterScreen implements Screen {
     public  void clicked(InputEvent event, float x, float y){
 
       if(goToNextStep() != true) {
-        GameStates.screenStates = ScreenStates.LEVELSCREEN;
+        messageBox.ShowDialog();
+//        GameStates.screenStates = ScreenStates.LEVELSCREEN;
         time.dispose();
       }
       else{
-
         int trnslate = 400;
         stageTranslate += 400;
         //Get the Level Number and Initialise the Level Components.
@@ -350,6 +351,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
 
   }
   private void renderLevel3(float deltaTime){
+    update(deltaTime);
     numLocal.update(deltaTime);
     if (time.isTimeUp()){}
     if(moveTheBg) { bg.act(deltaTime); }

@@ -18,6 +18,7 @@ import com.mygdx.game.Enum.Steps;
 import com.mygdx.game.Global.GlobalsCommonCount;
 import com.mygdx.game.Levels.ReadConfiguration;
 import com.mygdx.game.MyGame;
+import com.mygdx.game.Screens.MessageBox;
 import com.mygdx.game.Timer.Timer;
 import com.mygdx.game.Tools.Assets;
 import com.mygdx.game.Tools.Settings;
@@ -70,7 +71,10 @@ public abstract class ChapterScreen {
   static int stepNumber = 0;
   protected boolean moveTheBg = false;
   protected int stageTranslate = 0;
+  //submit button
+  protected Image submitButton = null;
   protected Timer time;
+  protected MessageBox messageBox;
 
   ChapterScreen(){
 

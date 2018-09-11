@@ -17,6 +17,7 @@ import com.mygdx.game.Enum.Steps;
 import com.mygdx.game.Global.GlobalsCommonCount;
 import com.mygdx.game.ChapterClass.Ch1RealNumbers.BallDisplay;
 import com.mygdx.game.BuilderBlocks.ScrollingNumber;
+import com.mygdx.game.Screens.MessageBox;
 import com.mygdx.game.Timer.Timer;
 
 import java.util.ArrayList;
@@ -53,19 +54,20 @@ public class Chapter4 extends ChapterScreen implements Screen {
   BallDisplay ballDisplay;
 
   DoubleClickListener doubleclicklistener;
-  private Image submitButton = null;
 
   private ArrayList<DragClickListener> arrDragListener;
 
   Chapter4(){
     super();
 
+    messageBox = new MessageBox();
+    messageBox.AddStage(stage);
+
     visebleComponentsCh4 = new VisebleComponentsCh4(VisebalComponent);
 
     glv = GlobalsCommonCount.getInstance();
 
     getLevelName();
-
     initialiseLevelComponents(currentLevelNumber);
   }
 

@@ -12,9 +12,9 @@
               ],
               "Position": [
                 5,
-                50
+                100
               ],
-              "Visible": true
+              "Visible": false
             },
             "BgImage": {
               "Image": "data/bg_1.png",
@@ -111,6 +111,66 @@
                 408
               ],
               "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data1/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                120,
+                50
+              ],
+              "Visible": true
+            },
+            "setting":{
+              "Image": "data1/setting.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                20,
+                50
+              ],
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Draggable": {
@@ -131,12 +191,12 @@
             "labeltitle": {
               "Text": "Number of zeroes",
               "Size": [
-                50,
+                20,
                 40
               ],
               "Position": [
-                50,
-                50
+                10,
+                100
               ]
             },
             "Score": {
@@ -170,41 +230,41 @@
         },
         "Step2": {
           "Displays": {
-            "bgImage": {
+            "back1Image": {
+              "Image": "data/back1.png",
+              "Size": [
+                280,
+                40
+              ],
+              "Position": [
+                5,
+                100
+              ],
+              "Visible": false
+            },
+            "BgImage": {
               "Image": "data/bg_1.png",
               "Size": [
-                290,
+                280,
                 40
               ],
               "Position": [
                 10,
                 400
               ],
-              "Visible": true
+              "Visible": false
             },
-            "Step2Image": {
-              "Image": "data/step2.png",
+            "Step1Image": {
+              "Image": "data/step1.png",
               "Size": [
-                250,
+                280,
                 40
               ],
               "Position": [
                 5,
                 50
               ],
-              "Visible" : true
-            },
-            "back1Image": {
-              "Image": "data/back1.png",
-              "Size": [
-                290,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible": true
+              "Visible": false
             },
             "Graph": {
               "Image": "data_ch2/graph.png",
@@ -213,7 +273,7 @@
                 400
               ],
               "Position": [
-                10,
+                20,
                 600
               ],
               "Visible": true
@@ -222,7 +282,7 @@
               "Image": "data_ch2/score.png",
               "Size": [
                 80,
-                40
+                50
               ],
               "Position": [
                 300,
@@ -230,7 +290,43 @@
               ],
               "Visible": true
             },
-            "horizontal ": {
+            "line1": {
+              "Image": "data_ch2/line1.png",
+              "Size": [
+                200,
+                3
+              ],
+              "Position": [
+                100,
+                300
+              ],
+              "Visible": true
+            },
+            "line2": {
+              "Image": "data_ch2/line2.png",
+              "Size": [
+                80,
+                160
+              ],
+              "Position": [
+                160,
+                415
+              ],
+              "Visible": false
+            },
+            "line3": {
+              "Image": "data_ch2/line3.png",
+              "Size": [
+                80,
+                160
+              ],
+              "Position": [
+                180,
+                530
+              ],
+              "Visible": false
+            },
+            "horizantal": {
               "Image": "data/horizontal_line.png",
               "Size": [
                 360,
@@ -240,31 +336,67 @@
                 20,
                 408
               ],
-              "Visible": false
+              "Visible": true
             },
-            "line2": {
-              "Image": "data_ch2/line2.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
-                80,
-                160
+                45,
+                45
               ],
               "Position": [
-                150,
-                415
+                120,
+                50
               ],
               "Visible": true
             },
-            "line3": {
-              "Image": "data_ch2/line3.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                80,
-                210
+                45,
+                45
               ],
               "Position": [
-                180,
-                530
+                20,
+                50
               ],
-              "Visible": false
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Draggable": {
@@ -289,8 +421,8 @@
                 40
               ],
               "Position": [
-                50,
-                50
+                10,
+                100
               ]
             },
             "Score": {
@@ -333,9 +465,9 @@
               ],
               "Position": [
                 5,
-                50
+                100
               ],
-              "Visible": true
+              "Visible": false
             },
             "BgImage": {
               "Image": "data/bg_1.png",
@@ -432,6 +564,66 @@
                 408
               ],
               "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data1/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                120,
+                50
+              ],
+              "Visible": true
+            },
+            "setting":{
+              "Image": "data1/setting.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                20,
+                50
+              ],
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Draggable": {
@@ -456,8 +648,8 @@
                 40
               ],
               "Position": [
-                50,
-                50
+                10,
+                100
               ]
             },
             "Score": {
@@ -491,41 +683,41 @@
         },
         "Step2": {
           "Displays": {
-            "bgImage": {
+            "back1Image": {
+              "Image": "data/back1.png",
+              "Size": [
+                280,
+                40
+              ],
+              "Position": [
+                5,
+                100
+              ],
+              "Visible": false
+            },
+            "BgImage": {
               "Image": "data/bg_1.png",
               "Size": [
-                290,
+                280,
                 40
               ],
               "Position": [
                 10,
                 400
               ],
-              "Visible": true
+              "Visible": false
             },
-            "Step2Image": {
-              "Image": "data/step2.png",
+            "Step1Image": {
+              "Image": "data/step1.png",
               "Size": [
-                250,
+                280,
                 40
               ],
               "Position": [
                 5,
                 50
               ],
-              "Visible" : true
-            },
-            "back1Image": {
-              "Image": "data/back1.png",
-              "Size": [
-                290,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible": true
+              "Visible": false
             },
             "Graph": {
               "Image": "data_ch2/graph.png",
@@ -534,7 +726,7 @@
                 400
               ],
               "Position": [
-                10,
+                20,
                 600
               ],
               "Visible": true
@@ -543,7 +735,7 @@
               "Image": "data_ch2/score.png",
               "Size": [
                 80,
-                40
+                50
               ],
               "Position": [
                 300,
@@ -551,7 +743,43 @@
               ],
               "Visible": true
             },
-            "horizontal ": {
+            "line1": {
+              "Image": "data_ch2/line1.png",
+              "Size": [
+                200,
+                3
+              ],
+              "Position": [
+                100,
+                300
+              ],
+              "Visible": true
+            },
+            "line2": {
+              "Image": "data_ch2/line2.png",
+              "Size": [
+                80,
+                160
+              ],
+              "Position": [
+                160,
+                415
+              ],
+              "Visible": false
+            },
+            "line3": {
+              "Image": "data_ch2/line3.png",
+              "Size": [
+                80,
+                160
+              ],
+              "Position": [
+                180,
+                530
+              ],
+              "Visible": false
+            },
+            "horizantal": {
               "Image": "data/horizontal_line.png",
               "Size": [
                 360,
@@ -561,31 +789,67 @@
                 20,
                 408
               ],
-              "Visible": false
+              "Visible": true
             },
-            "line2": {
-              "Image": "data_ch2/line2.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
-                80,
-                160
+                45,
+                45
               ],
               "Position": [
-                150,
-                415
+                120,
+                50
               ],
               "Visible": true
             },
-            "line3": {
-              "Image": "data_ch2/line3.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                80,
-                210
+                45,
+                45
               ],
               "Position": [
-                180,
-                530
+                20,
+                50
               ],
-              "Visible": false
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Draggable": {
@@ -610,8 +874,8 @@
                 40
               ],
               "Position": [
-                50,
-                50
+                10,
+                100
               ]
             },
             "Score": {
@@ -654,9 +918,9 @@
               ],
               "Position": [
                 5,
-                50
+                100
               ],
-              "Visible": true
+              "Visible": false
             },
             "BgImage": {
               "Image": "data/bg_1.png",
@@ -753,6 +1017,66 @@
                 408
               ],
               "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data1/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                120,
+                50
+              ],
+              "Visible": true
+            },
+            "setting":{
+              "Image": "data1/setting.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                20,
+                50
+              ],
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Draggable": {
@@ -777,8 +1101,8 @@
                 40
               ],
               "Position": [
-                50,
-                50
+                10,
+                100
               ]
             },
             "Score": {
@@ -812,41 +1136,41 @@
         },
         "Step2": {
           "Displays": {
-            "bgImage": {
+            "back1Image": {
+              "Image": "data/back1.png",
+              "Size": [
+                280,
+                40
+              ],
+              "Position": [
+                5,
+                100
+              ],
+              "Visible": false
+            },
+            "BgImage": {
               "Image": "data/bg_1.png",
               "Size": [
-                290,
+                280,
                 40
               ],
               "Position": [
                 10,
                 400
               ],
-              "Visible": true
+              "Visible": false
             },
-            "Step2Image": {
-              "Image": "data/step2.png",
+            "Step1Image": {
+              "Image": "data/step1.png",
               "Size": [
-                250,
+                280,
                 40
               ],
               "Position": [
                 5,
                 50
               ],
-              "Visible" : true
-            },
-            "back1Image": {
-              "Image": "data/back1.png",
-              "Size": [
-                290,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible": true
+              "Visible": false
             },
             "Graph": {
               "Image": "data_ch2/graph.png",
@@ -855,7 +1179,7 @@
                 400
               ],
               "Position": [
-                10,
+                20,
                 600
               ],
               "Visible": true
@@ -864,7 +1188,7 @@
               "Image": "data_ch2/score.png",
               "Size": [
                 80,
-                40
+                50
               ],
               "Position": [
                 300,
@@ -872,7 +1196,43 @@
               ],
               "Visible": true
             },
-            "horizontal ": {
+            "line1": {
+              "Image": "data_ch2/line1.png",
+              "Size": [
+                200,
+                3
+              ],
+              "Position": [
+                100,
+                300
+              ],
+              "Visible": true
+            },
+            "line2": {
+              "Image": "data_ch2/line2.png",
+              "Size": [
+                80,
+                160
+              ],
+              "Position": [
+                160,
+                415
+              ],
+              "Visible": false
+            },
+            "line3": {
+              "Image": "data_ch2/line3.png",
+              "Size": [
+                80,
+                160
+              ],
+              "Position": [
+                180,
+                530
+              ],
+              "Visible": false
+            },
+            "horizantal": {
               "Image": "data/horizontal_line.png",
               "Size": [
                 360,
@@ -882,31 +1242,67 @@
                 20,
                 408
               ],
-              "Visible": false
+              "Visible": true
             },
-            "line2": {
-              "Image": "data_ch2/line2.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
-                80,
-                160
+                45,
+                45
               ],
               "Position": [
-                150,
-                415
+                120,
+                50
               ],
               "Visible": true
             },
-            "line3": {
-              "Image": "data_ch2/line3.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                80,
-                210
+                45,
+                45
               ],
               "Position": [
-                180,
-                530
+                20,
+                50
               ],
-              "Visible": false
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Draggable": {
@@ -931,8 +1327,8 @@
                 40
               ],
               "Position": [
-                50,
-                50
+                10,
+                100
               ]
             },
             "Score": {
@@ -975,9 +1371,9 @@
               ],
               "Position": [
                 5,
-                50
+                100
               ],
-              "Visible": true
+              "Visible": false
             },
             "BgImage": {
               "Image": "data/bg_1.png",
@@ -1074,6 +1470,66 @@
                 408
               ],
               "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data1/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                120,
+                50
+              ],
+              "Visible": true
+            },
+            "setting":{
+              "Image": "data1/setting.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                20,
+                50
+              ],
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Draggable": {
@@ -1098,8 +1554,8 @@
                 40
               ],
               "Position": [
-                50,
-                50
+                10,
+                100
               ]
             },
             "Score": {
@@ -1133,41 +1589,41 @@
         },
         "Step2": {
           "Displays": {
-            "bgImage": {
+            "back1Image": {
+              "Image": "data/back1.png",
+              "Size": [
+                280,
+                40
+              ],
+              "Position": [
+                5,
+                100
+              ],
+              "Visible": false
+            },
+            "BgImage": {
               "Image": "data/bg_1.png",
               "Size": [
-                290,
+                280,
                 40
               ],
               "Position": [
                 10,
                 400
               ],
-              "Visible": true
+              "Visible": false
             },
-            "Step2Image": {
-              "Image": "data/step2.png",
+            "Step1Image": {
+              "Image": "data/step1.png",
               "Size": [
-                250,
+                280,
                 40
               ],
               "Position": [
                 5,
                 50
               ],
-              "Visible" : true
-            },
-            "back1Image": {
-              "Image": "data/back1.png",
-              "Size": [
-                290,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible": true
+              "Visible": false
             },
             "Graph": {
               "Image": "data_ch2/graph.png",
@@ -1176,7 +1632,7 @@
                 400
               ],
               "Position": [
-                10,
+                20,
                 600
               ],
               "Visible": true
@@ -1185,7 +1641,7 @@
               "Image": "data_ch2/score.png",
               "Size": [
                 80,
-                40
+                50
               ],
               "Position": [
                 300,
@@ -1193,7 +1649,43 @@
               ],
               "Visible": true
             },
-            "horizontal ": {
+            "line1": {
+              "Image": "data_ch2/line1.png",
+              "Size": [
+                200,
+                3
+              ],
+              "Position": [
+                100,
+                300
+              ],
+              "Visible": true
+            },
+            "line2": {
+              "Image": "data_ch2/line2.png",
+              "Size": [
+                80,
+                160
+              ],
+              "Position": [
+                160,
+                415
+              ],
+              "Visible": false
+            },
+            "line3": {
+              "Image": "data_ch2/line3.png",
+              "Size": [
+                80,
+                160
+              ],
+              "Position": [
+                180,
+                530
+              ],
+              "Visible": false
+            },
+            "horizantal": {
               "Image": "data/horizontal_line.png",
               "Size": [
                 360,
@@ -1203,31 +1695,67 @@
                 20,
                 408
               ],
-              "Visible": false
+              "Visible": true
             },
-            "line2": {
-              "Image": "data_ch2/line2.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
-                80,
-                160
+                45,
+                45
               ],
               "Position": [
-                150,
-                415
+                120,
+                50
               ],
               "Visible": true
             },
-            "line3": {
-              "Image": "data_ch2/line3.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                80,
-                210
+                45,
+                45
               ],
               "Position": [
-                180,
-                530
+                20,
+                50
               ],
-              "Visible": false
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Draggable": {
@@ -1252,8 +1780,8 @@
                 40
               ],
               "Position": [
-                50,
-                50
+                10,
+                100
               ]
             },
             "Score": {
@@ -1296,9 +1824,9 @@
               ],
               "Position": [
                 5,
-                50
+                100
               ],
-              "Visible": true
+              "Visible": false
             },
             "BgImage": {
               "Image": "data/bg_1.png",
@@ -1395,6 +1923,66 @@
                 408
               ],
               "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data1/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                120,
+                50
+              ],
+              "Visible": true
+            },
+            "setting":{
+              "Image": "data1/setting.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                20,
+                50
+              ],
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Draggable": {
@@ -1419,8 +2007,8 @@
                 40
               ],
               "Position": [
-                50,
-                50
+                10,
+                100
               ]
             },
             "Score": {
@@ -1454,41 +2042,41 @@
         },
         "Step2": {
           "Displays": {
-            "bgImage": {
+            "back1Image": {
+              "Image": "data/back1.png",
+              "Size": [
+                280,
+                40
+              ],
+              "Position": [
+                5,
+                100
+              ],
+              "Visible": false
+            },
+            "BgImage": {
               "Image": "data/bg_1.png",
               "Size": [
-                290,
+                280,
                 40
               ],
               "Position": [
                 10,
                 400
               ],
-              "Visible": true
+              "Visible": false
             },
-            "Step2Image": {
-              "Image": "data/step2.png",
+            "Step1Image": {
+              "Image": "data/step1.png",
               "Size": [
-                250,
+                280,
                 40
               ],
               "Position": [
                 5,
                 50
               ],
-              "Visible" : true
-            },
-            "back1Image": {
-              "Image": "data/back1.png",
-              "Size": [
-                290,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible": true
+              "Visible": false
             },
             "Graph": {
               "Image": "data_ch2/graph.png",
@@ -1497,7 +2085,7 @@
                 400
               ],
               "Position": [
-                10,
+                20,
                 600
               ],
               "Visible": true
@@ -1506,7 +2094,7 @@
               "Image": "data_ch2/score.png",
               "Size": [
                 80,
-                40
+                50
               ],
               "Position": [
                 300,
@@ -1514,7 +2102,43 @@
               ],
               "Visible": true
             },
-            "horizontal ": {
+            "line1": {
+              "Image": "data_ch2/line1.png",
+              "Size": [
+                200,
+                3
+              ],
+              "Position": [
+                100,
+                300
+              ],
+              "Visible": true
+            },
+            "line2": {
+              "Image": "data_ch2/line2.png",
+              "Size": [
+                80,
+                160
+              ],
+              "Position": [
+                160,
+                415
+              ],
+              "Visible": false
+            },
+            "line3": {
+              "Image": "data_ch2/line3.png",
+              "Size": [
+                80,
+                160
+              ],
+              "Position": [
+                180,
+                530
+              ],
+              "Visible": false
+            },
+            "horizantal": {
               "Image": "data/horizontal_line.png",
               "Size": [
                 360,
@@ -1524,31 +2148,67 @@
                 20,
                 408
               ],
-              "Visible": false
+              "Visible": true
             },
-            "line2": {
-              "Image": "data_ch2/line2.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
-                80,
-                160
+                45,
+                45
               ],
               "Position": [
-                150,
-                415
+                120,
+                50
               ],
               "Visible": true
             },
-            "line3": {
-              "Image": "data_ch2/line3.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                80,
-                210
+                45,
+                45
               ],
               "Position": [
-                180,
-                530
+                20,
+                50
               ],
-              "Visible": false
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Draggable": {
@@ -1573,8 +2233,8 @@
                 40
               ],
               "Position": [
-                50,
-                50
+                10,
+                100
               ]
             },
             "Score": {
@@ -1609,23 +2269,11 @@
       "Level6": {
         "Step1": {
           "Displays": {
-            "Step1Image": {
-              "Image": "data/step1.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible": true
-            },
             "SyntaxImage": {
               "Image": "data/syntax.png",
               "Size": [
                 280,
-                60
+                50
               ],
               "Position": [
                 20,
@@ -1641,7 +2289,7 @@
               ],
               "Position": [
                 30,
-                150
+                160
               ],
               "Visible" : true
             },
@@ -1729,65 +2377,65 @@
               ],
               "Visible": true
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "Levelselect": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                20,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable": {
@@ -1968,18 +2616,6 @@
               ],
               "Visible" : false
             },
-            "Step2Image": {
-              "Image": "data/step2.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible" : true
-            },
             "SyntaxImage": {
               "Image": "data/syntax.png",
               "Size": [
@@ -2064,65 +2700,65 @@
               ],
               "Visible" : true
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible" : true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
-              "Visible" : true
+              "Visible": true
             },
-            "Levelselect": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
-              "Position" : [
-                50,
+              "Position": [
+                20,
                 50
               ],
-              "Visible" : false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
-              "Position" : [
-                50,
+              "Position": [
+                70,
                 50
               ],
-              "Visible" : false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
-              "Position" : [
-                50,
+              "Position": [
+                70,
                 50
               ],
-              "Visible" : false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable": {
@@ -2303,18 +2939,6 @@
         },
         "Step3": {
           "Displays": {
-            "Step3Image": {
-              "Image": "data/step3.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible": true
-            },
             "SyntaxImage": {
               "Image": "data/syntax.png",
               "Size": [
@@ -2375,65 +2999,65 @@
               ],
               "Visible": true
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                660
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
               "Visible": true
             },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                20,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable": {
@@ -2667,98 +3291,6 @@
                 300,
                 540
               ]
-            }
-          },
-          "Scrolling":{
-            "number0": {
-              "Image": "Numbers/number0.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 0,
-              "Visible": true
-            },
-            "number1": {
-              "Image": "Numbers/number1.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 1,
-              "Visible": true
-            },
-            "number2": {
-              "Image": "Numbers/number2.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 2,
-              "Visible": true
-            },
-            "number3": {
-              "Image": "Numbers/number3.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 3,
-              "Visible": true
-            },
-            "number4": {
-              "Image": "Numbers/number4.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 4,
-              "Visible": true
-            },
-            "number5": {
-              "Image": "Numbers/number5.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 5,
-              "Visible": true
-            },
-            "number6": {
-              "Image": "Numbers/number6.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 6,
-              "Visible": true
-            },
-            "number7": {
-              "Image": "Numbers/number7.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 7,
-              "Visible": true
-            },
-            "number8": {
-              "Image": "Numbers/number8.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 8,
-              "Visible": true
-            },
-            "number9": {
-              "Image": "Numbers/number9.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 9,
-              "Visible": true
             }
           },
           "Buttons":{
@@ -2780,23 +3312,11 @@
       "Level7": {
         "Step1": {
           "Displays": {
-            "Step1Image": {
-              "Image": "data/step1.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible": true
-            },
             "SyntaxImage": {
               "Image": "data/syntax.png",
               "Size": [
                 280,
-                60
+                50
               ],
               "Position": [
                 20,
@@ -2812,7 +3332,7 @@
               ],
               "Position": [
                 30,
-                150
+                160
               ],
               "Visible" : true
             },
@@ -2900,65 +3420,65 @@
               ],
               "Visible": true
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
               "Visible": true
             },
-            "Levelselect": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                20,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable": {
@@ -3139,18 +3659,6 @@
               ],
               "Visible" : false
             },
-            "Step2Image": {
-              "Image": "data/step2.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible" : true
-            },
             "SyntaxImage": {
               "Image": "data/syntax.png",
               "Size": [
@@ -3235,65 +3743,65 @@
               ],
               "Visible" : true
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible" : true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
-              "Visible" : true
+              "Visible": true
             },
-            "Levelselect": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
-              "Position" : [
-                50,
+              "Position": [
+                20,
                 50
               ],
-              "Visible" : false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
-              "Position" : [
-                50,
+              "Position": [
+                70,
                 50
               ],
-              "Visible" : false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
-              "Position" : [
-                50,
+              "Position": [
+                70,
                 50
               ],
-              "Visible" : false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable": {
@@ -3474,30 +3982,6 @@
         },
         "Step3": {
           "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible": true
-            },
-            "Step3Image": {
-              "Image": "data/step3.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible": true
-            },
             "SyntaxImage": {
               "Image": "data/syntax.png",
               "Size": [
@@ -3558,65 +4042,65 @@
               ],
               "Visible": true
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                660
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
               "Visible": true
             },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                20,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable": {
@@ -3850,98 +4334,6 @@
                 300,
                 540
               ]
-            }
-          },
-          "Scrolling":{
-            "number0": {
-              "Image": "Numbers/number0.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 0,
-              "Visible": true
-            },
-            "number1": {
-              "Image": "Numbers/number1.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 1,
-              "Visible": true
-            },
-            "number2": {
-              "Image": "Numbers/number2.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 2,
-              "Visible": true
-            },
-            "number3": {
-              "Image": "Numbers/number3.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 3,
-              "Visible": true
-            },
-            "number4": {
-              "Image": "Numbers/number4.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 4,
-              "Visible": true
-            },
-            "number5": {
-              "Image": "Numbers/number5.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 5,
-              "Visible": true
-            },
-            "number6": {
-              "Image": "Numbers/number6.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 6,
-              "Visible": true
-            },
-            "number7": {
-              "Image": "Numbers/number7.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 7,
-              "Visible": true
-            },
-            "number8": {
-              "Image": "Numbers/number8.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 8,
-              "Visible": true
-            },
-            "number9": {
-              "Image": "Numbers/number9.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 9,
-              "Visible": true
             }
           },
           "Buttons":{
@@ -3963,23 +4355,11 @@
       "Level8": {
         "Step1": {
           "Displays": {
-            "Step1Image": {
-              "Image": "data/step1.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible": true
-            },
             "SyntaxImage": {
               "Image": "data/syntax.png",
               "Size": [
                 280,
-                60
+                50
               ],
               "Position": [
                 20,
@@ -3995,7 +4375,7 @@
               ],
               "Position": [
                 30,
-                150
+                160
               ],
               "Visible" : true
             },
@@ -4083,65 +4463,65 @@
               ],
               "Visible": true
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
               "Visible": true
             },
-            "Levelselect": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                20,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable": {
@@ -4322,18 +4702,6 @@
               ],
               "Visible" : false
             },
-            "Step2Image": {
-              "Image": "data/step2.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible" : true
-            },
             "SyntaxImage": {
               "Image": "data/syntax.png",
               "Size": [
@@ -4418,65 +4786,65 @@
               ],
               "Visible" : true
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible" : true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
-              "Visible" : true
+              "Visible": true
             },
-            "Levelselect": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
-              "Position" : [
-                50,
+              "Position": [
+                20,
                 50
               ],
-              "Visible" : false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
-              "Position" : [
-                50,
+              "Position": [
+                70,
                 50
               ],
-              "Visible" : false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
-              "Position" : [
-                50,
+              "Position": [
+                70,
                 50
               ],
-              "Visible" : false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable": {
@@ -4657,30 +5025,6 @@
         },
         "Step3": {
           "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible": true
-            },
-            "Step3Image": {
-              "Image": "data/step3.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible": true
-            },
             "SyntaxImage": {
               "Image": "data/syntax.png",
               "Size": [
@@ -4741,65 +5085,65 @@
               ],
               "Visible": true
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                660
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
               "Visible": true
             },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                20,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable": {
@@ -5033,98 +5377,6 @@
                 300,
                 540
               ]
-            }
-          },
-          "Scrolling":{
-            "number0": {
-              "Image": "Numbers/number0.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 0,
-              "Visible": true
-            },
-            "number1": {
-              "Image": "Numbers/number1.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 1,
-              "Visible": true
-            },
-            "number2": {
-              "Image": "Numbers/number2.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 2,
-              "Visible": true
-            },
-            "number3": {
-              "Image": "Numbers/number3.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 3,
-              "Visible": true
-            },
-            "number4": {
-              "Image": "Numbers/number4.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 4,
-              "Visible": true
-            },
-            "number5": {
-              "Image": "Numbers/number5.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 5,
-              "Visible": true
-            },
-            "number6": {
-              "Image": "Numbers/number6.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 6,
-              "Visible": true
-            },
-            "number7": {
-              "Image": "Numbers/number7.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 7,
-              "Visible": true
-            },
-            "number8": {
-              "Image": "Numbers/number8.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 8,
-              "Visible": true
-            },
-            "number9": {
-              "Image": "Numbers/number9.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 9,
-              "Visible": true
             }
           },
           "Buttons":{
@@ -5146,23 +5398,11 @@
       "Level9": {
         "Step1": {
           "Displays": {
-            "Step1Image": {
-              "Image": "data/step1.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible": true
-            },
             "SyntaxImage": {
               "Image": "data/syntax.png",
               "Size": [
                 280,
-                60
+                50
               ],
               "Position": [
                 20,
@@ -5178,7 +5418,7 @@
               ],
               "Position": [
                 30,
-                150
+                160
               ],
               "Visible" : true
             },
@@ -5266,65 +5506,65 @@
               ],
               "Visible": true
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
               "Visible": true
             },
-            "Levelselect": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                20,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable": {
@@ -5505,18 +5745,6 @@
               ],
               "Visible" : false
             },
-            "Step2Image": {
-              "Image": "data/step2.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible" : true
-            },
             "SyntaxImage": {
               "Image": "data/syntax.png",
               "Size": [
@@ -5601,65 +5829,65 @@
               ],
               "Visible" : true
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible" : true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
-              "Visible" : true
+              "Visible": true
             },
-            "Levelselect": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
-              "Position" : [
-                50,
+              "Position": [
+                20,
                 50
               ],
-              "Visible" : false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
-              "Position" : [
-                50,
+              "Position": [
+                70,
                 50
               ],
-              "Visible" : false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
-              "Position" : [
-                50,
+              "Position": [
+                70,
                 50
               ],
-              "Visible" : false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable": {
@@ -5840,30 +6068,6 @@
         },
         "Step3": {
           "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible": true
-            },
-            "Step3Image": {
-              "Image": "data/step3.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible": true
-            },
             "SyntaxImage": {
               "Image": "data/syntax.png",
               "Size": [
@@ -5924,65 +6128,65 @@
               ],
               "Visible": true
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                660
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
               "Visible": true
             },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                20,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable": {
@@ -6216,98 +6420,6 @@
                 300,
                 540
               ]
-            }
-          },
-          "Scrolling":{
-            "number0": {
-              "Image": "Numbers/number0.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 0,
-              "Visible": true
-            },
-            "number1": {
-              "Image": "Numbers/number1.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 1,
-              "Visible": true
-            },
-            "number2": {
-              "Image": "Numbers/number2.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 2,
-              "Visible": true
-            },
-            "number3": {
-              "Image": "Numbers/number3.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 3,
-              "Visible": true
-            },
-            "number4": {
-              "Image": "Numbers/number4.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 4,
-              "Visible": true
-            },
-            "number5": {
-              "Image": "Numbers/number5.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 5,
-              "Visible": true
-            },
-            "number6": {
-              "Image": "Numbers/number6.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 6,
-              "Visible": true
-            },
-            "number7": {
-              "Image": "Numbers/number7.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 7,
-              "Visible": true
-            },
-            "number8": {
-              "Image": "Numbers/number8.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 8,
-              "Visible": true
-            },
-            "number9": {
-              "Image": "Numbers/number9.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 9,
-              "Visible": true
             }
           },
           "Buttons":{
@@ -6329,23 +6441,11 @@
       "Level10": {
         "Step1": {
           "Displays": {
-            "Step1Image": {
-              "Image": "data/step1.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible": true
-            },
             "SyntaxImage": {
               "Image": "data/syntax.png",
               "Size": [
                 280,
-                60
+                50
               ],
               "Position": [
                 20,
@@ -6361,7 +6461,7 @@
               ],
               "Position": [
                 30,
-                150
+                160
               ],
               "Visible" : true
             },
@@ -6449,65 +6549,65 @@
               ],
               "Visible": true
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
               "Visible": true
             },
-            "Levelselect": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                20,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable": {
@@ -6688,18 +6788,6 @@
               ],
               "Visible" : false
             },
-            "Step2Image": {
-              "Image": "data/step2.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible" : true
-            },
             "SyntaxImage": {
               "Image": "data/syntax.png",
               "Size": [
@@ -6784,65 +6872,65 @@
               ],
               "Visible" : true
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible" : true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
-              "Visible" : true
+              "Visible": true
             },
-            "Levelselect": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
-              "Position" : [
-                50,
+              "Position": [
+                20,
                 50
               ],
-              "Visible" : false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
-              "Position" : [
-                50,
+              "Position": [
+                70,
                 50
               ],
-              "Visible" : false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
-              "Position" : [
-                50,
+              "Position": [
+                70,
                 50
               ],
-              "Visible" : false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable": {
@@ -7005,34 +7093,24 @@
               "Value" : 9,
               "Visible": true
             }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
           }
         },
         "Step3": {
           "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible": true
-            },
-            "Step3Image": {
-              "Image": "data/step3.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible": true
-            },
             "SyntaxImage": {
               "Image": "data/syntax.png",
               "Size": [
@@ -7093,65 +7171,65 @@
               ],
               "Visible": true
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                660
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
               "Visible": true
             },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                20,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable": {
@@ -7387,95 +7465,17 @@
               ]
             }
           },
-          "Scrolling":{
-            "number0": {
-              "Image": "Numbers/number0.png",
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
               "Size": [
-                30,
-                40
+                200,
+                80
               ],
-              "Value" : 0,
-              "Visible": true
-            },
-            "number1": {
-              "Image": "Numbers/number1.png",
-              "Size": [
-                30,
-                40
+              "Position": [
+                0,
+                710
               ],
-              "Value" : 1,
-              "Visible": true
-            },
-            "number2": {
-              "Image": "Numbers/number2.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 2,
-              "Visible": true
-            },
-            "number3": {
-              "Image": "Numbers/number3.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 3,
-              "Visible": true
-            },
-            "number4": {
-              "Image": "Numbers/number4.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 4,
-              "Visible": true
-            },
-            "number5": {
-              "Image": "Numbers/number5.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 5,
-              "Visible": true
-            },
-            "number6": {
-              "Image": "Numbers/number6.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 6,
-              "Visible": true
-            },
-            "number7": {
-              "Image": "Numbers/number7.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 7,
-              "Visible": true
-            },
-            "number8": {
-              "Image": "Numbers/number8.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 8,
-              "Visible": true
-            },
-            "number9": {
-              "Image": "Numbers/number9.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : 9,
               "Visible": true
             }
           }
@@ -7506,7 +7506,7 @@
                 10,
                 60
               ],
-              "Visible": true
+              "Visible": false
             },
             "Syntax": {
               "Image": "data/syntax.png",
@@ -7640,65 +7640,65 @@
               ],
               "Visible": false
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
               "Visible": true
             },
-            "Levelselect": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                20,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
-              "Position" : [
-                50,
+              "Position": [
+                70,
                 50
               ],
-              "Visible" : false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable":  {
@@ -7827,7 +7827,7 @@
                 10,
                 60
               ],
-              "Visible": true
+              "Visible": false
             },
             "Syntax": {
               "Image": "data/syntax.png",
@@ -7997,65 +7997,65 @@
               ],
               "Visible": true
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
               "Visible": true
             },
-            "Levelselect": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                20,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable": {
@@ -8195,7 +8195,7 @@
                 10,
                 60
               ],
-              "Visible": true
+              "Visible": false
             },
             "quotient": {
               "Image": "data/syntax.png",
@@ -8317,65 +8317,65 @@
               ],
               "Visible": true
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
               "Visible": true
             },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                20,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable": {
@@ -8512,7 +8512,7 @@
                 10,
                 60
               ],
-              "Visible": true
+              "Visible": false
             },
             "Simpletext": {
               "Image": "data/simpaltext.png",
@@ -8586,65 +8586,65 @@
               ],
               "Visible": true
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
               "Visible": true
             },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                20,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable": {
@@ -8816,7 +8816,7 @@
                 10,
                 60
               ],
-              "Visible": true
+              "Visible": false
             },
             "Syntax": {
               "Image": "data/syntax.png",
@@ -8950,65 +8950,65 @@
               ],
               "Visible": false
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
               "Visible": true
             },
-            "Levelselect": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                20,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
-              "Position" : [
-                50,
+              "Position": [
+                70,
                 50
               ],
-              "Visible" : false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable":  {
@@ -9137,7 +9137,7 @@
                 10,
                 60
               ],
-              "Visible": true
+              "Visible": false
             },
             "Syntax": {
               "Image": "data/syntax.png",
@@ -9307,65 +9307,65 @@
               ],
               "Visible": true
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
               "Visible": true
             },
-            "Levelselect": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                20,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable": {
@@ -9505,7 +9505,7 @@
                 10,
                 60
               ],
-              "Visible": true
+              "Visible": false
             },
             "quotient": {
               "Image": "data/syntax.png",
@@ -9627,65 +9627,65 @@
               ],
               "Visible": true
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
               "Visible": true
             },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                20,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable": {
@@ -9822,7 +9822,7 @@
                 10,
                 60
               ],
-              "Visible": true
+              "Visible": false
             },
             "Simpletext": {
               "Image": "data/simpaltext.png",
@@ -9896,65 +9896,65 @@
               ],
               "Visible": true
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
               "Visible": true
             },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                20,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable": {
@@ -10126,7 +10126,7 @@
                 10,
                 60
               ],
-              "Visible": true
+              "Visible": false
             },
             "Syntax": {
               "Image": "data/syntax.png",
@@ -10260,65 +10260,65 @@
               ],
               "Visible": false
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
               "Visible": true
             },
-            "Levelselect": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                20,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
-              "Position" : [
-                50,
+              "Position": [
+                70,
                 50
               ],
-              "Visible" : false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable":  {
@@ -10447,7 +10447,7 @@
                 10,
                 60
               ],
-              "Visible": true
+              "Visible": false
             },
             "Syntax": {
               "Image": "data/syntax.png",
@@ -10617,65 +10617,65 @@
               ],
               "Visible": true
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
               "Visible": true
             },
-            "Levelselect": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                20,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable": {
@@ -10775,6 +10775,20 @@
               "Value" : -7,
               "Visible": true
             }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
           }
         },
         "Step3": {
@@ -10801,7 +10815,7 @@
                 10,
                 60
               ],
-              "Visible": true
+              "Visible": false
             },
             "quotient": {
               "Image": "data/syntax.png",
@@ -10923,65 +10937,65 @@
               ],
               "Visible": true
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
               "Visible": true
             },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                20,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable": {
@@ -11078,6 +11092,20 @@
               ],
               "Visible": true
             }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
           }
         },
         "Step4": {
@@ -11104,7 +11132,7 @@
                 10,
                 60
               ],
-              "Visible": true
+              "Visible": false
             },
             "Simpletext": {
               "Image": "data/simpaltext.png",
@@ -11178,65 +11206,65 @@
               ],
               "Visible": true
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
               "Visible": true
             },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                20,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable": {
@@ -11366,6 +11394,20 @@
               ],
               "Visible": true
             }
+          },
+          "Buttons":{
+            "SubmitButtn": {
+              "Image": "data1/asset_submit.png",
+              "Size": [
+                200,
+                80
+              ],
+              "Position": [
+                0,
+                710
+              ],
+              "Visible": true
+            }
           }
         }
       },
@@ -11394,7 +11436,7 @@
                 10,
                 60
               ],
-              "Visible": true
+              "Visible": false
             },
             "Syntax": {
               "Image": "data/syntax.png",
@@ -11528,65 +11570,65 @@
               ],
               "Visible": false
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
               "Visible": true
             },
-            "Levelselect": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                20,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
-              "Position" : [
-                50,
+              "Position": [
+                70,
                 50
               ],
-              "Visible" : false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable":  {
@@ -11715,7 +11757,7 @@
                 10,
                 60
               ],
-              "Visible": true
+              "Visible": false
             },
             "Syntax": {
               "Image": "data/syntax.png",
@@ -11885,65 +11927,65 @@
               ],
               "Visible": true
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
               "Visible": true
             },
-            "Levelselect": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                20,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable": {
@@ -12083,7 +12125,7 @@
                 10,
                 60
               ],
-              "Visible": true
+              "Visible": false
             },
             "quotient": {
               "Image": "data/syntax.png",
@@ -12205,65 +12247,65 @@
               ],
               "Visible": true
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
               "Visible": true
             },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                20,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable": {
@@ -12400,7 +12442,7 @@
                 10,
                 60
               ],
-              "Visible": true
+              "Visible": false
             },
             "Simpletext": {
               "Image": "data/simpaltext.png",
@@ -12474,65 +12516,65 @@
               ],
               "Visible": true
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
               "Visible": true
             },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                20,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable": {
@@ -12704,7 +12746,7 @@
                 10,
                 60
               ],
-              "Visible": true
+              "Visible": false
             },
             "Syntax": {
               "Image": "data/syntax.png",
@@ -12838,65 +12880,65 @@
               ],
               "Visible": false
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
               "Visible": true
             },
-            "Levelselect": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                20,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
-              "Position" : [
-                50,
+              "Position": [
+                70,
                 50
               ],
-              "Visible" : false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable":  {
@@ -13025,7 +13067,7 @@
                 10,
                 60
               ],
-              "Visible": true
+              "Visible": false
             },
             "Syntax": {
               "Image": "data/syntax.png",
@@ -13195,65 +13237,65 @@
               ],
               "Visible": true
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
               "Visible": true
             },
-            "Levelselect": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                20,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable": {
@@ -13393,7 +13435,7 @@
                 10,
                 60
               ],
-              "Visible": true
+              "Visible": false
             },
             "quotient": {
               "Image": "data/syntax.png",
@@ -13515,65 +13557,65 @@
               ],
               "Visible": true
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
               "Visible": true
             },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                20,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable": {
@@ -13710,7 +13752,7 @@
                 10,
                 60
               ],
-              "Visible": true
+              "Visible": false
             },
             "Simpletext": {
               "Image": "data/simpaltext.png",
@@ -13784,65 +13826,65 @@
               ],
               "Visible": true
             },
-            "ClickImage": {
-              "Image": "data/btn.png",
-              "Size": [
-                40,
-                40
-              ],
-              "Position": [
-                20,
-                690
-              ],
-              "Visible": true
-            },
-            "PauseBttn": {
-              "Image": "data/pause.png",
+            "PauseBttn":{
+              "Image": "data1/pause.png",
               "Size": [
                 45,
                 45
               ],
               "Position": [
-                350,
+                120,
                 50
               ],
               "Visible": true
             },
-            "Levelsel": {
-              "Image": "data/levelsel.png",
+            "setting":{
+              "Image": "data1/setting.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                20,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "PlayImage": {
-              "Image": "data/play.png",
+            "soundoff":{
+              "Image": "data1/sound_off.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
             },
-            "ReplayImage": {
-              "Image": "data/rep.png",
+            "sound":{
+              "Image": "data1/sound_on.png",
               "Size": [
-                20,
-                20
+                45,
+                45
               ],
               "Position": [
-                50,
+                70,
                 50
               ],
-              "Visible": false
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
+              ],
+              "Visible": true
             }
           },
           "Updatable": {

@@ -21,6 +21,7 @@ import com.mygdx.game.Enum.Steps;
 import com.mygdx.game.Global.GlobalsCommonCount;
 import com.mygdx.game.Global.Objects;
 import com.mygdx.game.ChapterClass.Ch1RealNumbers.BallDisplay;
+import com.mygdx.game.Screens.MessageBox;
 import com.mygdx.game.Timer.Timer;
 
 import java.awt.Event;
@@ -36,9 +37,6 @@ public class Chapter2 extends ChapterScreen implements Screen {
 
   //Update visible components on scrolling clicked
   private ScrollingUpdateLabelCh1 scrollingUpdateLableCh1;
-
-  //submit button
-  private Image submitButton = null;
 
   TextVeriabal textVeriabal;
 
@@ -58,6 +56,9 @@ public class Chapter2 extends ChapterScreen implements Screen {
 
   Chapter2(){
     super();
+
+    messageBox = new MessageBox();
+    messageBox.AddStage(stage);
 
     dragPoint = new DragPoint(Events.DRAG_CIRCLE);
 
@@ -100,6 +101,7 @@ public class Chapter2 extends ChapterScreen implements Screen {
     public  void clicked(InputEvent event, float x, float y){
 
       if(goToNextStep() != true) {
+        messageBox.ShowDialog();
         GameStates.screenStates = ScreenStates.LEVELSCREEN;
         time.dispose();
       }
@@ -140,10 +142,9 @@ public class Chapter2 extends ChapterScreen implements Screen {
             }
         }
         visebleComponetsCh2 = new VisebleComponetsCh2(imagesLines);
+    }
 
-        if (draggable == null) {
-            return;
-        }
+    if (draggable != null) {
         try {
             for (Image draggables : draggable) {
                 if (draggables.getName().contains("DragCircle")) {
@@ -155,6 +156,7 @@ public class Chapter2 extends ChapterScreen implements Screen {
         } catch (Exception e) {
         }
     }
+
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }
@@ -199,8 +201,7 @@ public class Chapter2 extends ChapterScreen implements Screen {
             }
         }
     }
-    else if (GameStates.steps == Steps.STEP_3){
-    }
+    else if (GameStates.steps == Steps.STEP_3){ }
 
     //Add Submit Button Listener.
     addSubmitButtonListner();
@@ -224,31 +225,27 @@ public class Chapter2 extends ChapterScreen implements Screen {
                 stage.addActor(img);
             }
             numLocal.scrolling(scrollingImages, Events.CLICK_ScrollingCh2);
+        }
 
-            if (updatables != null) {
-                updatables.size();
-                for (Label updatable : updatables) {
-                    updatable.getName();
-                    updateScrollLable.add(updatable);
-                }
-                scrollingUpdateLabelCh2 = new ScrollingUpdateLabelCh2(updateScrollLable);
+        if (updatables != null) {
+            updatables.size();
+            for (Label updatable : updatables) {
+                updatable.getName();
+                updateScrollLable.add(updatable);
             }
+            scrollingUpdateLabelCh2 = new ScrollingUpdateLabelCh2(updateScrollLable);
+        }
 
-            if (displayImages != null) {
-                displayImages.size();
-                for (Image updatable : displayImages) {
-                    updatable.getName();
-                    imageViseble.add(updatable);
-                }
-                visebleComponetsCh2 = new VisebleComponetsCh2(imageViseble);
+        if (displayImages != null) {
+            displayImages.size();
+            for (Image updatable : displayImages) {
+                updatable.getName();
+                imageViseble.add(updatable);
             }
+            visebleComponetsCh2 = new VisebleComponetsCh2(imageViseble);
         }
     }
-    else if (GameStates.steps == Steps.STEP_3){
-
-    }
-
-
+    else if (GameStates.steps == Steps.STEP_3){}
 
     //Add Submit Button Listener.
     addSubmitButtonListner();
@@ -329,9 +326,7 @@ public class Chapter2 extends ChapterScreen implements Screen {
   private void renderLevel2(float deltaTime){
     time.update(deltaTime);
     numLocal.update(deltaTime);
-    if (time.isTimeUp()){
-      GameStates.screenStates = ScreenStates.DIALOGBOX;
-    }
+    if (time.isTimeUp()){}
     if(moveTheBg) { bg.act(deltaTime);}
     stage.draw();
     time.stage.draw();
@@ -339,9 +334,7 @@ public class Chapter2 extends ChapterScreen implements Screen {
   private void renderLevel3(float deltaTime){
     time.update(deltaTime);
     numLocal.update(deltaTime);
-    if (time.isTimeUp()){
-      GameStates.screenStates = ScreenStates.DIALOGBOX;
-    }
+    if (time.isTimeUp()){}
     if(moveTheBg) { bg.act(deltaTime);}
     stage.draw();
     time.stage.draw();

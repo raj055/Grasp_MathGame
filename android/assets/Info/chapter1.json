@@ -10268,11 +10268,11 @@
               "Image": "data_ch1/yellowbox.png",
               "Size": [
                 150,
-                60
+                50
               ],
               "Position": [
                 20,
-                80
+                120
               ],
               "Visible": true
             },
@@ -10284,7 +10284,7 @@
               ],
               "Position": [
                 20,
-                180
+                210
               ],
               "Visible": true
             },
@@ -10296,7 +10296,67 @@
               ],
               "Position": [
                 25,
-                550
+                580
+              ],
+              "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data1/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                120,
+                50
+              ],
+              "Visible": true
+            },
+            "setting":{
+              "Image": "data1/setting.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                20,
+                50
+              ],
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
               ],
               "Visible": true
             }
@@ -10310,7 +10370,7 @@
               ],
               "Position": [
                 70,
-                60
+                110
               ]
             },
             "LabelB": {
@@ -10321,7 +10381,7 @@
               ],
               "Position": [
                 100,
-                160
+                200
               ]
             },
             "Score1": {
@@ -10463,11 +10523,11 @@
               "Image": "data_ch1/yellowbox.png",
               "Size": [
                 150,
-                60
+                50
               ],
               "Position": [
                 20,
-                80
+                120
               ],
               "Visible": true
             },
@@ -10479,7 +10539,7 @@
               ],
               "Position": [
                 20,
-                180
+                210
               ],
               "Visible": true
             },
@@ -10491,7 +10551,67 @@
               ],
               "Position": [
                 25,
-                550
+                580
+              ],
+              "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data1/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                120,
+                50
+              ],
+              "Visible": true
+            },
+            "setting":{
+              "Image": "data1/setting.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                20,
+                50
+              ],
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
               ],
               "Visible": true
             }
@@ -10505,7 +10625,7 @@
               ],
               "Position": [
                 70,
-                60
+                110
               ]
             },
             "LabelB": {
@@ -10516,7 +10636,7 @@
               ],
               "Position": [
                 100,
-                160
+                200
               ]
             },
             "Score1": {
@@ -10658,11 +10778,11 @@
               "Image": "data_ch1/yellowbox.png",
               "Size": [
                 150,
-                60
+                50
               ],
               "Position": [
                 20,
-                80
+                120
               ],
               "Visible": true
             },
@@ -10674,7 +10794,7 @@
               ],
               "Position": [
                 20,
-                180
+                210
               ],
               "Visible": true
             },
@@ -10686,7 +10806,67 @@
               ],
               "Position": [
                 25,
-                550
+                580
+              ],
+              "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data1/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                120,
+                50
+              ],
+              "Visible": true
+            },
+            "setting":{
+              "Image": "data1/setting.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                20,
+                50
+              ],
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
               ],
               "Visible": true
             }
@@ -10700,7 +10880,7 @@
               ],
               "Position": [
                 70,
-                60
+                110
               ]
             },
             "LabelB": {
@@ -10711,7 +10891,7 @@
               ],
               "Position": [
                 100,
-                160
+                200
               ]
             },
             "Score1": {
@@ -10855,11 +11035,11 @@
               "Image": "data_ch1/yellowbox.png",
               "Size": [
                 150,
-                60
+                50
               ],
               "Position": [
                 20,
-                80
+                120
               ],
               "Visible": true
             },
@@ -10871,7 +11051,7 @@
               ],
               "Position": [
                 20,
-                180
+                210
               ],
               "Visible": true
             },
@@ -10883,7 +11063,67 @@
               ],
               "Position": [
                 25,
-                550
+                580
+              ],
+              "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data1/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                120,
+                50
+              ],
+              "Visible": true
+            },
+            "setting":{
+              "Image": "data1/setting.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                20,
+                50
+              ],
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
               ],
               "Visible": true
             }
@@ -10897,7 +11137,7 @@
               ],
               "Position": [
                 70,
-                60
+                110
               ]
             },
             "LabelB": {
@@ -10908,7 +11148,7 @@
               ],
               "Position": [
                 100,
-                160
+                200
               ]
             },
             "Score1": {
@@ -11050,11 +11290,11 @@
               "Image": "data_ch1/yellowbox.png",
               "Size": [
                 150,
-                60
+                50
               ],
               "Position": [
                 20,
-                80
+                120
               ],
               "Visible": true
             },
@@ -11066,7 +11306,7 @@
               ],
               "Position": [
                 20,
-                180
+                210
               ],
               "Visible": true
             },
@@ -11078,7 +11318,67 @@
               ],
               "Position": [
                 25,
-                550
+                580
+              ],
+              "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data1/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                120,
+                50
+              ],
+              "Visible": true
+            },
+            "setting":{
+              "Image": "data1/setting.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                20,
+                50
+              ],
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
               ],
               "Visible": true
             }
@@ -11092,7 +11392,7 @@
               ],
               "Position": [
                 70,
-                60
+                110
               ]
             },
             "LabelB": {
@@ -11103,7 +11403,7 @@
               ],
               "Position": [
                 100,
-                160
+                200
               ]
             },
             "Score1": {
@@ -11245,11 +11545,11 @@
               "Image": "data_ch1/yellowbox.png",
               "Size": [
                 150,
-                60
+                50
               ],
               "Position": [
                 20,
-                80
+                120
               ],
               "Visible": true
             },
@@ -11261,7 +11561,7 @@
               ],
               "Position": [
                 20,
-                180
+                210
               ],
               "Visible": true
             },
@@ -11273,7 +11573,67 @@
               ],
               "Position": [
                 25,
-                550
+                580
+              ],
+              "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data1/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                120,
+                50
+              ],
+              "Visible": true
+            },
+            "setting":{
+              "Image": "data1/setting.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                20,
+                50
+              ],
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
               ],
               "Visible": true
             }
@@ -11287,7 +11647,7 @@
               ],
               "Position": [
                 70,
-                60
+                110
               ]
             },
             "LabelB": {
@@ -11298,7 +11658,7 @@
               ],
               "Position": [
                 100,
-                160
+                200
               ]
             },
             "Score1": {
@@ -11442,11 +11802,11 @@
               "Image": "data_ch1/yellowbox.png",
               "Size": [
                 150,
-                60
+                50
               ],
               "Position": [
                 20,
-                80
+                120
               ],
               "Visible": true
             },
@@ -11458,7 +11818,7 @@
               ],
               "Position": [
                 20,
-                180
+                210
               ],
               "Visible": true
             },
@@ -11470,7 +11830,67 @@
               ],
               "Position": [
                 25,
-                550
+                580
+              ],
+              "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data1/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                120,
+                50
+              ],
+              "Visible": true
+            },
+            "setting":{
+              "Image": "data1/setting.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                20,
+                50
+              ],
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
               ],
               "Visible": true
             }
@@ -11484,7 +11904,7 @@
               ],
               "Position": [
                 70,
-                60
+                110
               ]
             },
             "LabelB": {
@@ -11495,7 +11915,7 @@
               ],
               "Position": [
                 100,
-                160
+                200
               ]
             },
             "Score1": {
@@ -11637,11 +12057,11 @@
               "Image": "data_ch1/yellowbox.png",
               "Size": [
                 150,
-                60
+                50
               ],
               "Position": [
                 20,
-                80
+                120
               ],
               "Visible": true
             },
@@ -11653,7 +12073,7 @@
               ],
               "Position": [
                 20,
-                180
+                210
               ],
               "Visible": true
             },
@@ -11665,7 +12085,67 @@
               ],
               "Position": [
                 25,
-                550
+                580
+              ],
+              "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data1/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                120,
+                50
+              ],
+              "Visible": true
+            },
+            "setting":{
+              "Image": "data1/setting.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                20,
+                50
+              ],
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
               ],
               "Visible": true
             }
@@ -11679,7 +12159,7 @@
               ],
               "Position": [
                 70,
-                60
+                110
               ]
             },
             "LabelB": {
@@ -11690,7 +12170,7 @@
               ],
               "Position": [
                 100,
-                160
+                200
               ]
             },
             "Score1": {
@@ -11832,11 +12312,11 @@
               "Image": "data_ch1/yellowbox.png",
               "Size": [
                 150,
-                60
+                50
               ],
               "Position": [
                 20,
-                80
+                120
               ],
               "Visible": true
             },
@@ -11848,7 +12328,7 @@
               ],
               "Position": [
                 20,
-                180
+                210
               ],
               "Visible": true
             },
@@ -11860,7 +12340,67 @@
               ],
               "Position": [
                 25,
-                550
+                580
+              ],
+              "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data1/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                120,
+                50
+              ],
+              "Visible": true
+            },
+            "setting":{
+              "Image": "data1/setting.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                20,
+                50
+              ],
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
               ],
               "Visible": true
             }
@@ -11874,7 +12414,7 @@
               ],
               "Position": [
                 70,
-                60
+                110
               ]
             },
             "LabelB": {
@@ -11885,7 +12425,7 @@
               ],
               "Position": [
                 100,
-                160
+                200
               ]
             },
             "Score1": {
@@ -12027,11 +12567,11 @@
               "Image": "data_ch1/yellowbox.png",
               "Size": [
                 150,
-                60
+                50
               ],
               "Position": [
                 20,
-                80
+                120
               ],
               "Visible": true
             },
@@ -12043,7 +12583,7 @@
               ],
               "Position": [
                 20,
-                180
+                210
               ],
               "Visible": true
             },
@@ -12055,7 +12595,67 @@
               ],
               "Position": [
                 25,
-                550
+                580
+              ],
+              "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data1/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                120,
+                50
+              ],
+              "Visible": true
+            },
+            "setting":{
+              "Image": "data1/setting.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                20,
+                50
+              ],
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
               ],
               "Visible": true
             }
@@ -12069,7 +12669,7 @@
               ],
               "Position": [
                 70,
-                60
+                110
               ]
             },
             "LabelB": {
@@ -12080,7 +12680,7 @@
               ],
               "Position": [
                 100,
-                160
+                200
               ]
             },
             "Score1": {
@@ -12222,11 +12822,11 @@
               "Image": "data_ch1/yellowbox.png",
               "Size": [
                 150,
-                60
+                50
               ],
               "Position": [
                 20,
-                80
+                120
               ],
               "Visible": true
             },
@@ -12238,7 +12838,7 @@
               ],
               "Position": [
                 20,
-                180
+                210
               ],
               "Visible": true
             },
@@ -12250,7 +12850,67 @@
               ],
               "Position": [
                 25,
-                550
+                580
+              ],
+              "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data1/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                120,
+                50
+              ],
+              "Visible": true
+            },
+            "setting":{
+              "Image": "data1/setting.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                20,
+                50
+              ],
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
               ],
               "Visible": true
             }
@@ -12264,7 +12924,7 @@
               ],
               "Position": [
                 70,
-                60
+                110
               ]
             },
             "LabelB": {
@@ -12275,7 +12935,7 @@
               ],
               "Position": [
                 100,
-                160
+                200
               ]
             },
             "Score1": {
@@ -12419,11 +13079,11 @@
               "Image": "data_ch1/yellowbox.png",
               "Size": [
                 150,
-                60
+                50
               ],
               "Position": [
                 20,
-                80
+                120
               ],
               "Visible": true
             },
@@ -12435,7 +13095,7 @@
               ],
               "Position": [
                 20,
-                180
+                210
               ],
               "Visible": true
             },
@@ -12447,7 +13107,67 @@
               ],
               "Position": [
                 25,
-                550
+                580
+              ],
+              "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data1/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                120,
+                50
+              ],
+              "Visible": true
+            },
+            "setting":{
+              "Image": "data1/setting.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                20,
+                50
+              ],
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
               ],
               "Visible": true
             }
@@ -12461,7 +13181,7 @@
               ],
               "Position": [
                 70,
-                60
+                110
               ]
             },
             "LabelB": {
@@ -12472,7 +13192,7 @@
               ],
               "Position": [
                 100,
-                160
+                200
               ]
             },
             "Score1": {
@@ -12614,11 +13334,11 @@
               "Image": "data_ch1/yellowbox.png",
               "Size": [
                 150,
-                60
+                50
               ],
               "Position": [
                 20,
-                80
+                120
               ],
               "Visible": true
             },
@@ -12630,7 +13350,7 @@
               ],
               "Position": [
                 20,
-                180
+                210
               ],
               "Visible": true
             },
@@ -12642,7 +13362,67 @@
               ],
               "Position": [
                 25,
-                550
+                580
+              ],
+              "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data1/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                120,
+                50
+              ],
+              "Visible": true
+            },
+            "setting":{
+              "Image": "data1/setting.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                20,
+                50
+              ],
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
               ],
               "Visible": true
             }
@@ -12656,7 +13436,7 @@
               ],
               "Position": [
                 70,
-                60
+                110
               ]
             },
             "LabelB": {
@@ -12667,7 +13447,7 @@
               ],
               "Position": [
                 100,
-                160
+                200
               ]
             },
             "Score1": {
@@ -12809,11 +13589,11 @@
               "Image": "data_ch1/yellowbox.png",
               "Size": [
                 150,
-                60
+                50
               ],
               "Position": [
                 20,
-                80
+                120
               ],
               "Visible": true
             },
@@ -12825,7 +13605,7 @@
               ],
               "Position": [
                 20,
-                180
+                210
               ],
               "Visible": true
             },
@@ -12837,7 +13617,67 @@
               ],
               "Position": [
                 25,
-                550
+                580
+              ],
+              "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data1/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                120,
+                50
+              ],
+              "Visible": true
+            },
+            "setting":{
+              "Image": "data1/setting.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                20,
+                50
+              ],
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
               ],
               "Visible": true
             }
@@ -12851,7 +13691,7 @@
               ],
               "Position": [
                 70,
-                60
+                110
               ]
             },
             "LabelB": {
@@ -12862,7 +13702,7 @@
               ],
               "Position": [
                 100,
-                160
+                200
               ]
             },
             "Score1": {
@@ -13004,11 +13844,11 @@
               "Image": "data_ch1/yellowbox.png",
               "Size": [
                 150,
-                60
+                50
               ],
               "Position": [
                 20,
-                80
+                120
               ],
               "Visible": true
             },
@@ -13020,7 +13860,7 @@
               ],
               "Position": [
                 20,
-                180
+                210
               ],
               "Visible": true
             },
@@ -13032,7 +13872,67 @@
               ],
               "Position": [
                 25,
-                550
+                580
+              ],
+              "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data1/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                120,
+                50
+              ],
+              "Visible": true
+            },
+            "setting":{
+              "Image": "data1/setting.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                20,
+                50
+              ],
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
               ],
               "Visible": true
             }
@@ -13046,7 +13946,7 @@
               ],
               "Position": [
                 70,
-                60
+                110
               ]
             },
             "LabelB": {
@@ -13057,7 +13957,7 @@
               ],
               "Position": [
                 100,
-                160
+                200
               ]
             },
             "Score1": {
@@ -13199,11 +14099,11 @@
               "Image": "data_ch1/yellowbox.png",
               "Size": [
                 150,
-                60
+                50
               ],
               "Position": [
                 20,
-                80
+                120
               ],
               "Visible": true
             },
@@ -13215,7 +14115,7 @@
               ],
               "Position": [
                 20,
-                180
+                210
               ],
               "Visible": true
             },
@@ -13227,7 +14127,67 @@
               ],
               "Position": [
                 25,
-                550
+                580
+              ],
+              "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data1/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                120,
+                50
+              ],
+              "Visible": true
+            },
+            "setting":{
+              "Image": "data1/setting.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                20,
+                50
+              ],
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
               ],
               "Visible": true
             }
@@ -13241,7 +14201,7 @@
               ],
               "Position": [
                 70,
-                60
+                110
               ]
             },
             "LabelB": {
@@ -13252,7 +14212,7 @@
               ],
               "Position": [
                 100,
-                160
+                200
               ]
             },
             "Score1": {
@@ -13394,11 +14354,11 @@
               "Image": "data_ch1/yellowbox.png",
               "Size": [
                 150,
-                60
+                50
               ],
               "Position": [
                 20,
-                80
+                120
               ],
               "Visible": true
             },
@@ -13410,7 +14370,7 @@
               ],
               "Position": [
                 20,
-                180
+                210
               ],
               "Visible": true
             },
@@ -13422,7 +14382,67 @@
               ],
               "Position": [
                 25,
-                550
+                580
+              ],
+              "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data1/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                120,
+                50
+              ],
+              "Visible": true
+            },
+            "setting":{
+              "Image": "data1/setting.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                20,
+                50
+              ],
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
               ],
               "Visible": true
             }
@@ -13436,7 +14456,7 @@
               ],
               "Position": [
                 70,
-                60
+                100
               ]
             },
             "LabelB": {
@@ -13447,7 +14467,7 @@
               ],
               "Position": [
                 100,
-                160
+                200
               ]
             },
             "Score1": {
@@ -13591,11 +14611,11 @@
               "Image": "data_ch1/yellowbox.png",
               "Size": [
                 150,
-                60
+                50
               ],
               "Position": [
                 20,
-                80
+                120
               ],
               "Visible": true
             },
@@ -13607,7 +14627,7 @@
               ],
               "Position": [
                 20,
-                180
+                210
               ],
               "Visible": true
             },
@@ -13619,7 +14639,67 @@
               ],
               "Position": [
                 25,
-                550
+                580
+              ],
+              "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data1/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                120,
+                50
+              ],
+              "Visible": true
+            },
+            "setting":{
+              "Image": "data1/setting.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                20,
+                50
+              ],
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
               ],
               "Visible": true
             }
@@ -13633,7 +14713,7 @@
               ],
               "Position": [
                 70,
-                60
+                110
               ]
             },
             "LabelB": {
@@ -13644,7 +14724,7 @@
               ],
               "Position": [
                 100,
-                160
+                200
               ]
             },
             "Score1": {
@@ -13786,11 +14866,11 @@
               "Image": "data_ch1/yellowbox.png",
               "Size": [
                 150,
-                60
+                50
               ],
               "Position": [
                 20,
-                80
+                120
               ],
               "Visible": true
             },
@@ -13802,7 +14882,7 @@
               ],
               "Position": [
                 20,
-                180
+                210
               ],
               "Visible": true
             },
@@ -13814,7 +14894,67 @@
               ],
               "Position": [
                 25,
-                550
+                580
+              ],
+              "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data1/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                120,
+                50
+              ],
+              "Visible": true
+            },
+            "setting":{
+              "Image": "data1/setting.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                20,
+                50
+              ],
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
               ],
               "Visible": true
             }
@@ -13828,7 +14968,7 @@
               ],
               "Position": [
                 70,
-                60
+                110
               ]
             },
             "LabelB": {
@@ -13839,7 +14979,7 @@
               ],
               "Position": [
                 100,
-                160
+                200
               ]
             },
             "Score1": {
@@ -13981,11 +15121,11 @@
               "Image": "data_ch1/yellowbox.png",
               "Size": [
                 150,
-                60
+                50
               ],
               "Position": [
                 20,
-                80
+                120
               ],
               "Visible": true
             },
@@ -13997,7 +15137,7 @@
               ],
               "Position": [
                 20,
-                180
+                210
               ],
               "Visible": true
             },
@@ -14009,7 +15149,67 @@
               ],
               "Position": [
                 25,
-                550
+                580
+              ],
+              "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data1/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                120,
+                50
+              ],
+              "Visible": true
+            },
+            "setting":{
+              "Image": "data1/setting.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                20,
+                50
+              ],
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
               ],
               "Visible": true
             }
@@ -14023,7 +15223,7 @@
               ],
               "Position": [
                 70,
-                60
+                110
               ]
             },
             "LabelB": {
@@ -14034,7 +15234,7 @@
               ],
               "Position": [
                 100,
-                160
+                200
               ]
             },
             "Score1": {
@@ -14176,11 +15376,11 @@
               "Image": "data_ch1/yellowbox.png",
               "Size": [
                 150,
-                60
+                50
               ],
               "Position": [
                 20,
-                80
+                120
               ],
               "Visible": true
             },
@@ -14192,7 +15392,7 @@
               ],
               "Position": [
                 20,
-                180
+                210
               ],
               "Visible": true
             },
@@ -14204,7 +15404,67 @@
               ],
               "Position": [
                 25,
-                550
+                580
+              ],
+              "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data1/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                120,
+                50
+              ],
+              "Visible": true
+            },
+            "setting":{
+              "Image": "data1/setting.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                20,
+                50
+              ],
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
               ],
               "Visible": true
             }
@@ -14218,7 +15478,7 @@
               ],
               "Position": [
                 70,
-                60
+                110
               ]
             },
             "LabelB": {
@@ -14229,7 +15489,7 @@
               ],
               "Position": [
                 100,
-                160
+                200
               ]
             },
             "Score1": {
@@ -14371,11 +15631,11 @@
               "Image": "data_ch1/yellowbox.png",
               "Size": [
                 150,
-                60
+                50
               ],
               "Position": [
                 20,
-                80
+                120
               ],
               "Visible": true
             },
@@ -14387,7 +15647,7 @@
               ],
               "Position": [
                 20,
-                180
+                210
               ],
               "Visible": true
             },
@@ -14399,7 +15659,67 @@
               ],
               "Position": [
                 25,
-                550
+                580
+              ],
+              "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data1/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                120,
+                50
+              ],
+              "Visible": true
+            },
+            "setting":{
+              "Image": "data1/setting.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                20,
+                50
+              ],
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
               ],
               "Visible": true
             }
@@ -14413,7 +15733,7 @@
               ],
               "Position": [
                 70,
-                60
+                110
               ]
             },
             "LabelB": {
@@ -14424,7 +15744,7 @@
               ],
               "Position": [
                 100,
-                160
+                200
               ]
             },
             "Score1": {
@@ -14566,11 +15886,11 @@
               "Image": "data_ch1/yellowbox.png",
               "Size": [
                 150,
-                60
+                50
               ],
               "Position": [
                 20,
-                80
+                120
               ],
               "Visible": true
             },
@@ -14582,7 +15902,7 @@
               ],
               "Position": [
                 20,
-                180
+                210
               ],
               "Visible": true
             },
@@ -14594,7 +15914,67 @@
               ],
               "Position": [
                 25,
-                550
+                580
+              ],
+              "Visible": true
+            },
+            "PauseBttn":{
+              "Image": "data1/pause.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                120,
+                50
+              ],
+              "Visible": true
+            },
+            "setting":{
+              "Image": "data1/setting.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                20,
+                50
+              ],
+              "Visible": true
+            },
+            "soundoff":{
+              "Image": "data1/sound_off.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "sound":{
+              "Image": "data1/sound_on.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                70,
+                50
+              ],
+              "Visible": true
+            },
+            "restart":{
+              "Image": "data1/restart.png",
+              "Size": [
+                45,
+                45
+              ],
+              "Position": [
+                170,
+                50
               ],
               "Visible": true
             }
@@ -14608,7 +15988,7 @@
               ],
               "Position": [
                 70,
-                60
+                110
               ]
             },
             "LabelB": {
@@ -14619,7 +15999,7 @@
               ],
               "Position": [
                 100,
-                160
+                200
               ]
             },
             "Score1": {

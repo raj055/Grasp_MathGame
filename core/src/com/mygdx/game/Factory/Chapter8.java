@@ -12,6 +12,7 @@ import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.ChapterClass.Ch8Trigonometry.RelocateLabel;
 import com.mygdx.game.Enum.ScreenStates;
 import com.mygdx.game.Enum.Steps;
+import com.mygdx.game.Screens.MessageBox;
 import com.mygdx.game.Timer.Timer;
 
 import java.util.ArrayList;
@@ -22,11 +23,14 @@ public class Chapter8 extends ChapterScreen implements Screen {
 
   DoubleClickListener clickLabelAC,clickLabelAC1,clickLabelAB,clickLabelAB1,clickLabelBC,clickLabelBC1;
   RelocateLabel relocateLabel;
-  private Image submitButton = null;
+
   private ArrayList<DoubleClickListener> arrDoubleListener;
 
   Chapter8(){
     super();
+
+    messageBox = new MessageBox();
+    messageBox.AddStage(stage);
 
     getLevelName();
     initialiseLevelComponents(currentLevelNumber);

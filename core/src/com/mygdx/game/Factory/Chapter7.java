@@ -15,6 +15,7 @@ import com.mygdx.game.ChapterClass.Ch7CoordinateGeometry.VisebalComponentsCh7;
 import com.mygdx.game.Enum.ScreenStates;
 import com.mygdx.game.Enum.Steps;
 import com.mygdx.game.Global.GlobalsCommonCount;
+import com.mygdx.game.Screens.MessageBox;
 import com.mygdx.game.Timer.Timer;
 
 import java.util.ArrayList;
@@ -59,12 +60,13 @@ public class Chapter7 extends ChapterScreen implements Screen {
 
   private GlobalsCommonCount glv;
 
-  private Image submitButton = null;
-
   private ArrayList<DragClickListener> arrDragListener;
 
   Chapter7(){
     super();
+
+    messageBox = new MessageBox();
+    messageBox.AddStage(stage);
 
     glv = GlobalsCommonCount.getInstance();
 

@@ -18,6 +18,7 @@ import com.mygdx.game.Enum.ScreenStates;
 import com.mygdx.game.Enum.Steps;
 import com.mygdx.game.Global.GlobalsCommonCount;
 import com.mygdx.game.BuilderBlocks.ScrollingNumber;
+import com.mygdx.game.Screens.MessageBox;
 import com.mygdx.game.Timer.Timer;
 
 import java.util.ArrayList;
@@ -40,18 +41,8 @@ public class Chapter5 extends ChapterScreen implements Screen {
 
   ArrayList<Image> scrollingImages = null;
 
-  // component of level_1
-  private Label pluse,pluse1,pluse2,pluse3;
-
-  private Image imgadd;
-
-  private ClickPluse clickPluse;
-
   private GlobalsCommonCount glv;
-
   ScrollingNumber numLocal;
-
-  private Image submitButton = null;
 
   private ArrayList<DragClickListener> arrDragListener;
   private ArrayList<DoubleClickListener> arrClickListener;
@@ -59,10 +50,12 @@ public class Chapter5 extends ChapterScreen implements Screen {
   Chapter5(){
     super();
 
+    messageBox = new MessageBox();
+    messageBox.AddStage(stage);
+
     glv = GlobalsCommonCount.getInstance();
 
     getLevelName();
-
     initialiseLevelComponents(currentLevelNumber);
   }
 
