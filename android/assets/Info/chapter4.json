@@ -4,18 +4,6 @@
       "Level1": {
         "Step1": {
           "Displays": {
-            "Step1Image": {
-              "Image": "data/step1.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible": true
-            },
             "SyntaxImage": {
               "Image": "data/syntax.png",
               "Size": [
@@ -29,7 +17,7 @@
               "Visible" : true
             },
             "Equation": {
-              "Image": "data_ch2/eq1.png",
+              "Image": "data_ch4/ch4L1.png",
               "Size": [
                 260,
                 60
@@ -363,18 +351,6 @@
               ],
               "Visible" : false
             },
-            "Step2Image": {
-              "Image": "data/step2.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible" : true
-            },
             "SyntaxImage": {
               "Image": "data/syntax.png",
               "Size": [
@@ -388,7 +364,7 @@
               "Visible" : true
             },
             "Equation1": {
-              "Image": "data_ch2/eq1.png",
+              "Image": "data_ch4/ch4L1.png",
               "Size": [
                 260,
                 60
@@ -710,18 +686,6 @@
               ],
               "Visible": true
             },
-            "Step3Image": {
-              "Image": "data/step3.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible": true
-            },
             "SyntaxImage": {
               "Image": "data/syntax.png",
               "Size": [
@@ -735,7 +699,7 @@
               "Visible": true
             },
             "Equation1": {
-              "Image": "data_ch2/eq1.png",
+              "Image": "data_ch4/ch4L1.png",
               "Size": [
                 260,
                 60
@@ -1095,18 +1059,6 @@
       "Level2": {
         "Step1": {
           "Displays": {
-            "Step1Image": {
-              "Image": "data/step1.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible": true
-            },
             "SyntaxImage": {
               "Image": "data/syntax.png",
               "Size": [
@@ -1120,7 +1072,7 @@
               "Visible" : true
             },
             "Equation": {
-              "Image": "data_ch2/eq1.png",
+              "Image": "data_ch4/ch4L2.png",
               "Size": [
                 260,
                 60
@@ -1454,18 +1406,6 @@
               ],
               "Visible" : false
             },
-            "Step2Image": {
-              "Image": "data/step2.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible" : true
-            },
             "SyntaxImage": {
               "Image": "data/syntax.png",
               "Size": [
@@ -1479,7 +1419,7 @@
               "Visible" : true
             },
             "Equation1": {
-              "Image": "data_ch2/eq1.png",
+              "Image": "data_ch4/ch4L2.png",
               "Size": [
                 260,
                 60
@@ -1801,18 +1741,6 @@
               ],
               "Visible": true
             },
-            "Step3Image": {
-              "Image": "data/step3.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible": true
-            },
             "SyntaxImage": {
               "Image": "data/syntax.png",
               "Size": [
@@ -1826,7 +1754,7 @@
               "Visible": true
             },
             "Equation1": {
-              "Image": "data_ch2/eq1.png",
+              "Image": "data_ch4/ch4L2.png",
               "Size": [
                 260,
                 60
@@ -2186,18 +2114,6 @@
       "Level3": {
         "Step1": {
           "Displays": {
-            "Step1Image": {
-              "Image": "data/step1.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible": true
-            },
             "SyntaxImage": {
               "Image": "data/syntax.png",
               "Size": [
@@ -2211,7 +2127,7 @@
               "Visible" : true
             },
             "Equation": {
-              "Image": "data_ch2/eq1.png",
+              "Image": "data_ch4/ch4L3.png",
               "Size": [
                 260,
                 60
@@ -2545,18 +2461,6 @@
               ],
               "Visible" : false
             },
-            "Step2Image": {
-              "Image": "data/step2.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible" : true
-            },
             "SyntaxImage": {
               "Image": "data/syntax.png",
               "Size": [
@@ -2570,7 +2474,7 @@
               "Visible" : true
             },
             "Equation1": {
-              "Image": "data_ch2/eq1.png",
+              "Image": "data_ch4/ch4L3.png",
               "Size": [
                 260,
                 60
@@ -2892,18 +2796,6 @@
               ],
               "Visible": true
             },
-            "Step3Image": {
-              "Image": "data/step3.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible": true
-            },
             "SyntaxImage": {
               "Image": "data/syntax.png",
               "Size": [
@@ -2917,7 +2809,7 @@
               "Visible": true
             },
             "Equation1": {
-              "Image": "data_ch2/eq1.png",
+              "Image": "data_ch4/ch4L3.png",
               "Size": [
                 260,
                 60
@@ -3277,18 +3169,6 @@
       "Level4": {
         "Step1": {
           "Displays": {
-            "Step1Image": {
-              "Image": "data/step1.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible": true
-            },
             "SyntaxImage": {
               "Image": "data/syntax.png",
               "Size": [
@@ -3302,7 +3182,7 @@
               "Visible" : true
             },
             "Equation": {
-              "Image": "data_ch2/eq1.png",
+              "Image": "data_ch4/ch4L4.png",
               "Size": [
                 260,
                 60
@@ -3636,18 +3516,6 @@
               ],
               "Visible" : false
             },
-            "Step2Image": {
-              "Image": "data/step2.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible" : true
-            },
             "SyntaxImage": {
               "Image": "data/syntax.png",
               "Size": [
@@ -3661,7 +3529,7 @@
               "Visible" : true
             },
             "Equation1": {
-              "Image": "data_ch2/eq1.png",
+              "Image": "data_ch4/ch4L4.png",
               "Size": [
                 260,
                 60
@@ -3983,18 +3851,6 @@
               ],
               "Visible": true
             },
-            "Step3Image": {
-              "Image": "data/step3.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible": true
-            },
             "SyntaxImage": {
               "Image": "data/syntax.png",
               "Size": [
@@ -4008,7 +3864,7 @@
               "Visible": true
             },
             "Equation1": {
-              "Image": "data_ch2/eq1.png",
+              "Image": "data_ch4/ch4L4.png",
               "Size": [
                 260,
                 60
@@ -4368,18 +4224,6 @@
       "Level5": {
         "Step1": {
           "Displays": {
-            "Step1Image": {
-              "Image": "data/step1.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible": true
-            },
             "SyntaxImage": {
               "Image": "data/syntax.png",
               "Size": [
@@ -4393,7 +4237,7 @@
               "Visible" : true
             },
             "Equation": {
-              "Image": "data_ch2/eq1.png",
+              "Image": "data_ch4/ch4L5.png",
               "Size": [
                 260,
                 60
@@ -4727,18 +4571,6 @@
               ],
               "Visible" : false
             },
-            "Step2Image": {
-              "Image": "data/step2.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible" : true
-            },
             "SyntaxImage": {
               "Image": "data/syntax.png",
               "Size": [
@@ -4752,7 +4584,7 @@
               "Visible" : true
             },
             "Equation1": {
-              "Image": "data_ch2/eq1.png",
+              "Image": "data_ch4/ch4L5.png",
               "Size": [
                 260,
                 60
@@ -5074,18 +4906,6 @@
               ],
               "Visible": true
             },
-            "Step3Image": {
-              "Image": "data/step3.png",
-              "Size": [
-                250,
-                40
-              ],
-              "Position": [
-                5,
-                50
-              ],
-              "Visible": true
-            },
             "SyntaxImage": {
               "Image": "data/syntax.png",
               "Size": [
@@ -5099,7 +4919,7 @@
               "Visible": true
             },
             "Equation1": {
-              "Image": "data_ch2/eq1.png",
+              "Image": "data_ch4/ch4L5.png",
               "Size": [
                 260,
                 60
@@ -5471,18 +5291,6 @@
               ],
               "Visible": false
             },
-            "step1": {
-              "Image": "data/step1.png",
-              "Size": [
-                280,
-                50
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible" : true
-            },
             "syntex": {
               "Image": "data/syntax.png",
               "Size": [
@@ -5494,6 +5302,18 @@
                 130
               ],
               "Visible": true
+            },
+            "Equation": {
+              "Image": "data_ch4/ch4L6.png",
+              "Size": [
+                260,
+                60
+              ],
+              "Position": [
+                30,
+                150
+              ],
+              "Visible" : true
             },
             "imgDesplay": {
               "Image": "data_ch4/60.png",
@@ -5735,18 +5555,6 @@
               ],
               "Visible": false
             },
-            "Step2Image": {
-              "Image": "data/step2.png",
-              "Size": [
-                280,
-                50
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": true
-            },
             "SyntexImage": {
               "Image": "data/syntax.png",
               "Size": [
@@ -5758,6 +5566,18 @@
                 130
               ],
               "Visible": true
+            },
+            "Equation": {
+              "Image": "data_ch4/ch4L6.png",
+              "Size": [
+                260,
+                60
+              ],
+              "Position": [
+                30,
+                150
+              ],
+              "Visible" : true
             },
             "SquareRounded": {
               "Image": "data_ch4/Square_rounded.png",
@@ -5991,18 +5811,6 @@
               ],
               "Visible": false
             },
-            "Step3Image": {
-              "Image": "data/step3.png",
-              "Size": [
-                280,
-                50
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": true
-            },
             "Syntex": {
               "Image": "data/syntax.png",
               "Size": [
@@ -6014,6 +5822,18 @@
                 130
               ],
               "Visible": true
+            },
+            "Equation": {
+              "Image": "data_ch4/ch4L6.png",
+              "Size": [
+                260,
+                60
+              ],
+              "Position": [
+                30,
+                150
+              ],
+              "Visible" : true
             },
             "SquareRounded": {
               "Image": "data_ch4/Square_rounded.png",
@@ -6283,18 +6103,6 @@
               ],
               "Visible": false
             },
-            "step1": {
-              "Image": "data/step1.png",
-              "Size": [
-                280,
-                50
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible" : true
-            },
             "syntex": {
               "Image": "data/syntax.png",
               "Size": [
@@ -6306,6 +6114,18 @@
                 130
               ],
               "Visible": true
+            },
+            "Equation": {
+              "Image": "data_ch4/ch4L7.png",
+              "Size": [
+                260,
+                60
+              ],
+              "Position": [
+                30,
+                150
+              ],
+              "Visible" : true
             },
             "imgDesplay": {
               "Image": "data_ch4/60.png",
@@ -6547,18 +6367,6 @@
               ],
               "Visible": false
             },
-            "Step2Image": {
-              "Image": "data/step2.png",
-              "Size": [
-                280,
-                50
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": true
-            },
             "SyntexImage": {
               "Image": "data/syntax.png",
               "Size": [
@@ -6570,6 +6378,18 @@
                 130
               ],
               "Visible": true
+            },
+            "Equation": {
+              "Image": "data_ch4/ch4L7.png",
+              "Size": [
+                260,
+                60
+              ],
+              "Position": [
+                30,
+                150
+              ],
+              "Visible" : true
             },
             "SquareRounded": {
               "Image": "data_ch4/Square_rounded.png",
@@ -6803,18 +6623,6 @@
               ],
               "Visible": false
             },
-            "Step3Image": {
-              "Image": "data/step3.png",
-              "Size": [
-                280,
-                50
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": true
-            },
             "Syntex": {
               "Image": "data/syntax.png",
               "Size": [
@@ -6826,6 +6634,18 @@
                 130
               ],
               "Visible": true
+            },
+            "Equation": {
+              "Image": "data_ch4/ch4L7.png",
+              "Size": [
+                260,
+                60
+              ],
+              "Position": [
+                30,
+                150
+              ],
+              "Visible" : true
             },
             "SquareRounded": {
               "Image": "data_ch4/Square_rounded.png",
@@ -7095,18 +6915,6 @@
               ],
               "Visible": false
             },
-            "step1": {
-              "Image": "data/step1.png",
-              "Size": [
-                280,
-                50
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible" : true
-            },
             "syntex": {
               "Image": "data/syntax.png",
               "Size": [
@@ -7118,6 +6926,18 @@
                 130
               ],
               "Visible": true
+            },
+            "Equation": {
+              "Image": "data_ch4/ch4L8.png",
+              "Size": [
+                260,
+                60
+              ],
+              "Position": [
+                30,
+                150
+              ],
+              "Visible" : true
             },
             "imgDesplay": {
               "Image": "data_ch4/60.png",
@@ -7359,18 +7179,6 @@
               ],
               "Visible": false
             },
-            "Step2Image": {
-              "Image": "data/step2.png",
-              "Size": [
-                280,
-                50
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": true
-            },
             "SyntexImage": {
               "Image": "data/syntax.png",
               "Size": [
@@ -7382,6 +7190,18 @@
                 130
               ],
               "Visible": true
+            },
+            "Equation": {
+              "Image": "data_ch4/ch4L8.png",
+              "Size": [
+                260,
+                60
+              ],
+              "Position": [
+                30,
+                150
+              ],
+              "Visible" : true
             },
             "SquareRounded": {
               "Image": "data_ch4/Square_rounded.png",
@@ -7615,18 +7435,6 @@
               ],
               "Visible": false
             },
-            "Step3Image": {
-              "Image": "data/step3.png",
-              "Size": [
-                280,
-                50
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": true
-            },
             "Syntex": {
               "Image": "data/syntax.png",
               "Size": [
@@ -7638,6 +7446,18 @@
                 130
               ],
               "Visible": true
+            },
+            "Equation": {
+              "Image": "data_ch4/ch4L8.png",
+              "Size": [
+                260,
+                60
+              ],
+              "Position": [
+                30,
+                150
+              ],
+              "Visible" : true
             },
             "SquareRounded": {
               "Image": "data_ch4/Square_rounded.png",
@@ -7907,18 +7727,6 @@
               ],
               "Visible": false
             },
-            "step1": {
-              "Image": "data/step1.png",
-              "Size": [
-                280,
-                50
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible" : true
-            },
             "syntex": {
               "Image": "data/syntax.png",
               "Size": [
@@ -7930,6 +7738,18 @@
                 130
               ],
               "Visible": true
+            },
+            "Equation": {
+              "Image": "data_ch4/ch4L9.png",
+              "Size": [
+                260,
+                60
+              ],
+              "Position": [
+                30,
+                150
+              ],
+              "Visible" : true
             },
             "imgDesplay": {
               "Image": "data_ch4/60.png",
@@ -8171,18 +7991,6 @@
               ],
               "Visible": false
             },
-            "Step2Image": {
-              "Image": "data/step2.png",
-              "Size": [
-                280,
-                50
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": true
-            },
             "SyntexImage": {
               "Image": "data/syntax.png",
               "Size": [
@@ -8194,6 +8002,18 @@
                 130
               ],
               "Visible": true
+            },
+            "Equation": {
+              "Image": "data_ch4/ch4L9.png",
+              "Size": [
+                260,
+                60
+              ],
+              "Position": [
+                30,
+                150
+              ],
+              "Visible" : true
             },
             "SquareRounded": {
               "Image": "data_ch4/Square_rounded.png",
@@ -8427,18 +8247,6 @@
               ],
               "Visible": false
             },
-            "Step3Image": {
-              "Image": "data/step3.png",
-              "Size": [
-                280,
-                50
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": true
-            },
             "Syntex": {
               "Image": "data/syntax.png",
               "Size": [
@@ -8450,6 +8258,18 @@
                 130
               ],
               "Visible": true
+            },
+            "Equation": {
+              "Image": "data_ch4/ch4L9.png",
+              "Size": [
+                260,
+                60
+              ],
+              "Position": [
+                30,
+                150
+              ],
+              "Visible" : true
             },
             "SquareRounded": {
               "Image": "data_ch4/Square_rounded.png",
@@ -8719,18 +8539,6 @@
               ],
               "Visible": false
             },
-            "step1": {
-              "Image": "data/step1.png",
-              "Size": [
-                280,
-                50
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible" : true
-            },
             "syntex": {
               "Image": "data/syntax.png",
               "Size": [
@@ -8742,6 +8550,18 @@
                 130
               ],
               "Visible": true
+            },
+            "Equation": {
+              "Image": "data_ch4/ch4L10.png",
+              "Size": [
+                260,
+                60
+              ],
+              "Position": [
+                30,
+                150
+              ],
+              "Visible" : true
             },
             "imgDesplay": {
               "Image": "data_ch4/60.png",
@@ -8983,18 +8803,6 @@
               ],
               "Visible": false
             },
-            "Step2Image": {
-              "Image": "data/step2.png",
-              "Size": [
-                280,
-                50
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": true
-            },
             "SyntexImage": {
               "Image": "data/syntax.png",
               "Size": [
@@ -9006,6 +8814,18 @@
                 130
               ],
               "Visible": true
+            },
+            "Equation": {
+              "Image": "data_ch4/ch4L10.png",
+              "Size": [
+                260,
+                60
+              ],
+              "Position": [
+                30,
+                150
+              ],
+              "Visible" : true
             },
             "SquareRounded": {
               "Image": "data_ch4/Square_rounded.png",
@@ -9239,18 +9059,6 @@
               ],
               "Visible": false
             },
-            "Step3Image": {
-              "Image": "data/step3.png",
-              "Size": [
-                280,
-                50
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": true
-            },
             "Syntex": {
               "Image": "data/syntax.png",
               "Size": [
@@ -9262,6 +9070,18 @@
                 130
               ],
               "Visible": true
+            },
+            "Equation": {
+              "Image": "data_ch4/ch4L10.png",
+              "Size": [
+                260,
+                60
+              ],
+              "Position": [
+                30,
+                150
+              ],
+              "Visible" : true
             },
             "SquareRounded": {
               "Image": "data_ch4/Square_rounded.png",
@@ -9544,7 +9364,7 @@
               "Visible": true
             },
             "syntex": {
-              "Image": "data_ch4/syntaxl3.png",
+              "Image": "data_ch4/ch4L11.png",
               "Size": [
                 250,
                 40
@@ -9992,7 +9812,7 @@
               "Visible": true
             },
             "syntex": {
-              "Image": "data_ch4/syntaxl3.png",
+              "Image": "data_ch4/ch4L12.png",
               "Size": [
                 250,
                 40
@@ -10440,7 +10260,7 @@
               "Visible": true
             },
             "syntex": {
-              "Image": "data_ch4/syntaxl3.png",
+              "Image": "data_ch4/ch4L13.png",
               "Size": [
                 250,
                 40
@@ -10888,7 +10708,7 @@
               "Visible": true
             },
             "syntex": {
-              "Image": "data_ch4/syntaxl3.png",
+              "Image": "data_ch4/ch4L14.png",
               "Size": [
                 250,
                 40
@@ -11336,7 +11156,7 @@
               "Visible": true
             },
             "syntex": {
-              "Image": "data_ch4/syntaxl3.png",
+              "Image": "data_ch4/ch4L15.png",
               "Size": [
                 250,
                 40

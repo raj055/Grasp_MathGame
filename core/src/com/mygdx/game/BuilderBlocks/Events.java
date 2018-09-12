@@ -58,7 +58,9 @@ public enum Events {
   DRAGA2,
   DRAGB1,
   DRAGB2,
+  DRAGB3,
   DRAGC1,
+  DRAGC2,
 
   // Chapter 5 : level (1-5)
   DOUBLE_CLICK_ADD,

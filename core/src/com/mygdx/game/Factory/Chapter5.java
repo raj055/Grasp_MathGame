@@ -25,24 +25,21 @@ import java.util.ArrayList;
 
 public class Chapter5 extends ChapterScreen implements Screen {
 
-  ArrayList<Image> DragComponent;
-  ArrayList<Image> VisebalComponent;
-
-  VisebalComponentsCh5 visebalComponentsCh5;
+  //Visible components on Drag values
+  private VisebalComponentsCh5 visebalComponentsCh5;
 
   //Update components on clicking scrolling values
-  ScrollingUpdateCh5 scrollingUpdateCh5;
+  private ScrollingUpdateCh5 scrollingUpdateCh5;
 
   //Double click listeners for plus
-  DoubleClickListener dblClickListenerPlus;
+  private DoubleClickListener dblClickListenerPlus;
 
   //Drag click listeners
-  DragClickListener drag_l1_value1,drag_l1_value2,drag_l1_value12,drag_l1_value13;
+  private DragClickListener drag_l1_value1,drag_l1_value2,drag_l1_value12,drag_l1_value13;
 
-  ArrayList<Image> scrollingImages = null;
+  private ArrayList<Image> scrollingImages = null;
 
-  private GlobalsCommonCount glv;
-  ScrollingNumber numLocal;
+  private ScrollingNumber numLocal;
 
   private ArrayList<DragClickListener> arrDragListener;
   private ArrayList<DoubleClickListener> arrClickListener;
@@ -52,8 +49,6 @@ public class Chapter5 extends ChapterScreen implements Screen {
 
     messageBox = new MessageBox();
     messageBox.AddStage(stage);
-
-    glv = GlobalsCommonCount.getInstance();
 
     getLevelName();
     initialiseLevelComponents(currentLevelNumber);
@@ -127,15 +122,17 @@ public class Chapter5 extends ChapterScreen implements Screen {
 
     arrDragListener = new ArrayList<DragClickListener>();
     arrDragListener.add(drag_l1_value1);
+    arrDragListener.add(drag_l1_value2);
+    arrDragListener.add(drag_l1_value12);
+    arrDragListener.add(drag_l1_value13);
 
     arrClickListener = new ArrayList<DoubleClickListener>();
     arrClickListener.add(dblClickListenerPlus);
 
     String  updatableNamesLevel1Drag[] = {"Value1", "Value2", "Value12","Value13"};
-    String  updatableNamesLevel1Click[] = {"Pluse", "Pluse1", "Pluse2","Pluse3"};
+    String  updatableNamesLevel1Click[] = {"PluseBttn"};
 
     if(updatables != null) {
-
       updatables.size();
       for (Label updatable : updatables) {
         String str = updatable.getName();
@@ -143,13 +140,18 @@ public class Chapter5 extends ChapterScreen implements Screen {
           if(str.equals(updatableNamesLevel1Drag[count]))
             updatable.addListener(arrDragListener.get(count));
         }
+      }
+    }
+    if(displayImages != null) {
+      displayImages.size();
+      for (Image updatable : displayImages) {
+        String str = updatable.getName();
         for(int count = 0; count < updatableNamesLevel1Click.length; count++){
           if(str.equals(updatableNamesLevel1Click[count]))
             updatable.addListener(arrClickListener.get(count));
         }
       }
     }
-
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }
@@ -177,7 +179,6 @@ public class Chapter5 extends ChapterScreen implements Screen {
         }
         scrollingUpdateCh5 = new ScrollingUpdateCh5(updatables);
       }
-
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }
@@ -212,7 +213,6 @@ public class Chapter5 extends ChapterScreen implements Screen {
         scrollingUpdateCh5 = new ScrollingUpdateCh5(updatables);
       }
     }
-
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }

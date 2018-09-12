@@ -22,39 +22,32 @@ import com.mygdx.game.Timer.Timer;
 
 import java.util.ArrayList;
 
-/**
- * Created by HP on 22-01-2018.
- */
-
 public class Chapter4 extends ChapterScreen implements Screen {
 
-  ArrayList<Image> DragComponent;
-  ArrayList<Image> VisebalComponent;
+  private ArrayList<Image> DragComponent;
+  private ArrayList<Image> VisebalComponent;
 
-  DragClickListener draglight;
-  DragClickListener dragsquare;
-  DragClickListener dragsquare1;
-  DragClickListener dragsquare2;
-  DragClickListener dragbox1;
+  private DragClickListener draglight;
+  private DragClickListener dragsquare;
+  private DragClickListener dragsquare1;
+  private DragClickListener dragsquare2;
+  private DragClickListener dragbox1;
 
-  VisebleComponentsCh4 visebleComponentsCh4;
+  private DragClickListener dragA1;
+  private DragClickListener dragA2;
+  private DragClickListener dragB1;
+  private DragClickListener dragB2;
+  private DragClickListener dragB3;
+  private DragClickListener dragC1;
+  private DragClickListener dragC2;
 
-  ArrayList<Image> scrollingImages = null;
-
+  private VisebleComponentsCh4 visebleComponentsCh4;
+  private ArrayList<Image> scrollingImages = null;
   //Update on click scrolling components
-  ScrollingUpdateCh4 scrollingUpdateCh4;
-
-  // component of level_3
-  private Label rLabelB,rLabelA,rLabelC,valueb,valuea,DragA1,DragA2,DragB1,DragB2,DragC1,Anser;
-
-  private GlobalsCommonCount glv;
-
-  ScrollingNumber numLocal;
-
-  BallDisplay ballDisplay;
-
-  DoubleClickListener doubleclicklistener;
-
+  private ScrollingUpdateCh4 scrollingUpdateCh4;
+  private ScrollingNumber numLocal;
+  private BallDisplay ballDisplay;
+  private DoubleClickListener doubleclicklistener;
   private ArrayList<DragClickListener> arrDragListener;
 
   Chapter4(){
@@ -64,8 +57,6 @@ public class Chapter4 extends ChapterScreen implements Screen {
     messageBox.AddStage(stage);
 
     visebleComponentsCh4 = new VisebleComponentsCh4(VisebalComponent);
-
-    glv = GlobalsCommonCount.getInstance();
 
     getLevelName();
     initialiseLevelComponents(currentLevelNumber);
@@ -232,47 +223,37 @@ public class Chapter4 extends ChapterScreen implements Screen {
   }
   void defineLevel11To15Components() {
 
-    if(GameStates.steps == Steps.STEP_1){
+    dragA1 = new DragClickListener(Events.DRAGA1);
+    dragA2 = new DragClickListener(Events.DRAGA2);
+    dragB1 = new DragClickListener(Events.DRAGB1);
+    dragB2 = new DragClickListener(Events.DRAGB2);
+    dragB3 = new DragClickListener(Events.DRAGB3);
+    dragC1 = new DragClickListener(Events.DRAGC1);
+    dragC2 = new DragClickListener(Events.DRAGC2);
 
-    }
-    else if (GameStates.steps == Steps.STEP_2){
+    arrDragListener = new ArrayList<DragClickListener>();
+    arrDragListener.add(dragA1);
+    arrDragListener.add(dragA2);
+    arrDragListener.add(dragB1);
+    arrDragListener.add(dragB2);
+    arrDragListener.add(dragB3);
+    arrDragListener.add(dragC1);
+    arrDragListener.add(dragC2);
 
-    }
-    else if (GameStates.steps == Steps.STEP_3){
+    String  updatableNamesLevel3[] = {"DragLabelA", "DragLabelA2", "DragLabelB","DragLabelB1",
+            "DragLabelB2","DragLabelC","DragLabelC1"};
 
-    }
-
-    //check if the updatables are present
-    if(updatables != null) {
-
-      //totalObjects
-      updatables.size();
-      for (Label updatable : updatables) {
-        String str = updatable.getName();
-
-        if (str.contains("Valueb")) {
-          valueb = updatable;
-        } else if (str.contains("rLabelB")) {
-          rLabelB = updatable;
-        } else if (str.contains("rLabelA")) {
-          rLabelA = updatable;
-        } else if (str.contains("rLabelC")) {
-          rLabelC = updatable;
-        } else if (str.contains("Valuea")) {
-          valuea = updatable;
-        } else if (str.contains("DragLabelA")) {
-          DragA1 = updatable;
-        } else if (str.contains("DragLabelA2")) {
-          DragA2 = updatable;
-        } else if (str.contains("DragLabelB1")) {
-          DragB1 = updatable;
-        } else if (str.contains("DragLabelB2")) {
-          DragB2 = updatable;
-        } else if (str.contains("DragLabelC1")) {
-          DragC1 = updatable;
+      //check if the updatable are present
+      if(updatables != null) {
+        updatables.size();
+        for (Label updatable : updatables) {
+          String str = updatable.getName();
+          for(int count = 0; count < updatableNamesLevel3.length; count++){
+            if(str.equals(updatableNamesLevel3[count]))
+              updatable.addListener(arrDragListener.get(count));
+          }
         }
       }
-    }
 
     //Add Submit Button Listener.
     addSubmitButtonListner();

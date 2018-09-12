@@ -16,18 +16,6 @@
               ],
               "Visible": false
             },
-            "Step1Image": {
-              "Image": "data/step1.png",
-              "Size": [
-                250,
-                50
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": true
-            },
             "FirstRectangle": {
               "Image": "data/syntax.png",
               "Size": [
@@ -124,6 +112,18 @@
               ],
               "Visible": true
             },
+            "PluseBttn": {
+              "Image": "data/pluse.png",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                50,
+                620
+              ],
+              "Visible": true
+            },
             "PauseBttn":{
               "Image": "data1/pause.png",
               "Size": [
@@ -195,7 +195,8 @@
               "Position": [
                 100,
                 330
-              ]
+              ],
+              "Visible" : false
             },
             "Secondterm": {
               "Text": "Second Term",
@@ -206,7 +207,8 @@
               "Position": [
                 100,
                 390
-              ]
+              ],
+              "Visible" : false
             },
             "Thirdterm": {
               "Text": "Third Term",
@@ -217,7 +219,8 @@
               "Position": [
                 100,
                 450
-              ]
+              ],
+              "Visible" : false
             },
             "Fourthterm": {
               "Text": "Fourth Term",
@@ -228,7 +231,8 @@
               "Position": [
                 100,
                 510
-              ]
+              ],
+              "Visible" : false
             },
             "Valuea": {
               "Text": "a",
@@ -435,18 +439,6 @@
               ],
               "Visible": false
             },
-            "Step1Image": {
-              "Image": "data/step1.png",
-              "Size": [
-                250,
-                50
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": true
-            },
             "FirstRectangle": {
               "Image": "data/syntax.png",
               "Size": [
@@ -540,6 +532,18 @@
               "Position": [
                 260,
                 210
+              ],
+              "Visible": true
+            },
+            "PluseBttn": {
+              "Image": "data/pluse.png",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                50,
+                620
               ],
               "Visible": true
             },
@@ -672,7 +676,7 @@
               ]
             },
             "Value1": {
-              "Text": "10",
+              "Text": "2",
               "Size": [
                 50,
                 50
@@ -684,7 +688,7 @@
               "Visible" : false
             },
             "Value2": {
-              "Text": "10",
+              "Text": "0",
               "Size": [
                 50,
                 50
@@ -696,7 +700,7 @@
               "Visible" : false
             },
             "Value11": {
-              "Text": "10",
+              "Text": "2",
               "Size": [
                 50,
                 50
@@ -754,7 +758,7 @@
               "Visible" : false
             },
             "Value12": {
-              "Text": "10",
+              "Text": "0",
               "Size": [
                 50,
                 50
@@ -765,7 +769,7 @@
               ]
             },
             "Value13": {
-              "Text": "10",
+              "Text": "0",
               "Size": [
                 50,
                 50
@@ -776,7 +780,7 @@
               ]
             },
             "Value14": {
-              "Text": "10",
+              "Text": "0",
               "Size": [
                 50,
                 50
@@ -787,7 +791,7 @@
               ]
             },
             "ValueS2": {
-              "Text": "20",
+              "Text": "-2",
               "Size": [
                 50,
                 50
@@ -799,7 +803,7 @@
               "Visible" : false
             },
             "ValueT2": {
-              "Text": "30",
+              "Text": "-2",
               "Size": [
                 50,
                 50
@@ -811,7 +815,7 @@
               "Visible" : false
             },
             "ValueF12": {
-              "Text": "40",
+              "Text": "-2",
               "Size": [
                 50,
                 50
@@ -854,18 +858,6 @@
               ],
               "Visible": false
             },
-            "Step1Image": {
-              "Image": "data/step1.png",
-              "Size": [
-                250,
-                50
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": true
-            },
             "FirstRectangle": {
               "Image": "data/syntax.png",
               "Size": [
@@ -959,6 +951,18 @@
               "Position": [
                 260,
                 210
+              ],
+              "Visible": true
+            },
+            "PluseBttn": {
+              "Image": "data/pluse.png",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                50,
+                620
               ],
               "Visible": true
             },
@@ -1091,7 +1095,7 @@
               ]
             },
             "Value1": {
-              "Text": "10",
+              "Text": "4",
               "Size": [
                 50,
                 50
@@ -1103,7 +1107,7 @@
               "Visible" : false
             },
             "Value2": {
-              "Text": "10",
+              "Text": "3",
               "Size": [
                 50,
                 50
@@ -1115,7 +1119,7 @@
               "Visible" : false
             },
             "Value11": {
-              "Text": "10",
+              "Text": "4",
               "Size": [
                 50,
                 50
@@ -1173,7 +1177,7 @@
               "Visible" : false
             },
             "Value12": {
-              "Text": "10",
+              "Text": "3",
               "Size": [
                 50,
                 50
@@ -1184,7 +1188,7 @@
               ]
             },
             "Value13": {
-              "Text": "10",
+              "Text": "3",
               "Size": [
                 50,
                 50
@@ -1195,7 +1199,7 @@
               ]
             },
             "Value14": {
-              "Text": "10",
+              "Text": "3",
               "Size": [
                 50,
                 50
@@ -1206,7 +1210,7 @@
               ]
             },
             "ValueS2": {
-              "Text": "20",
+              "Text": "1",
               "Size": [
                 50,
                 50
@@ -1218,7 +1222,7 @@
               "Visible" : false
             },
             "ValueT2": {
-              "Text": "30",
+              "Text": "-2",
               "Size": [
                 50,
                 50
@@ -1230,7 +1234,7 @@
               "Visible" : false
             },
             "ValueF12": {
-              "Text": "40",
+              "Text": "-5",
               "Size": [
                 50,
                 50
@@ -1273,18 +1277,6 @@
               ],
               "Visible": false
             },
-            "Step1Image": {
-              "Image": "data/step1.png",
-              "Size": [
-                250,
-                50
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": true
-            },
             "FirstRectangle": {
               "Image": "data/syntax.png",
               "Size": [
@@ -1378,6 +1370,18 @@
               "Position": [
                 260,
                 210
+              ],
+              "Visible": true
+            },
+            "PluseBttn": {
+              "Image": "data/pluse.png",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                50,
+                620
               ],
               "Visible": true
             },
@@ -1510,7 +1514,7 @@
               ]
             },
             "Value1": {
-              "Text": "10",
+              "Text": "7",
               "Size": [
                 50,
                 50
@@ -1522,7 +1526,7 @@
               "Visible" : false
             },
             "Value2": {
-              "Text": "10",
+              "Text": "2",
               "Size": [
                 50,
                 50
@@ -1534,7 +1538,7 @@
               "Visible" : false
             },
             "Value11": {
-              "Text": "10",
+              "Text": "7",
               "Size": [
                 50,
                 50
@@ -1592,7 +1596,7 @@
               "Visible" : false
             },
             "Value12": {
-              "Text": "10",
+              "Text": "2",
               "Size": [
                 50,
                 50
@@ -1603,7 +1607,7 @@
               ]
             },
             "Value13": {
-              "Text": "10",
+              "Text": "2",
               "Size": [
                 50,
                 50
@@ -1614,7 +1618,7 @@
               ]
             },
             "Value14": {
-              "Text": "10",
+              "Text": "2",
               "Size": [
                 50,
                 50
@@ -1625,7 +1629,7 @@
               ]
             },
             "ValueS2": {
-              "Text": "20",
+              "Text": "-9",
               "Size": [
                 50,
                 50
@@ -1637,7 +1641,7 @@
               "Visible" : false
             },
             "ValueT2": {
-              "Text": "30",
+              "Text": "-11",
               "Size": [
                 50,
                 50
@@ -1649,7 +1653,7 @@
               "Visible" : false
             },
             "ValueF12": {
-              "Text": "40",
+              "Text": "-13",
               "Size": [
                 50,
                 50
@@ -1692,18 +1696,6 @@
               ],
               "Visible": false
             },
-            "Step1Image": {
-              "Image": "data/step1.png",
-              "Size": [
-                250,
-                50
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": true
-            },
             "FirstRectangle": {
               "Image": "data/syntax.png",
               "Size": [
@@ -1797,6 +1789,18 @@
               "Position": [
                 260,
                 210
+              ],
+              "Visible": true
+            },
+            "PluseBttn": {
+              "Image": "data/pluse.png",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                50,
+                620
               ],
               "Visible": true
             },
@@ -1929,7 +1933,7 @@
               ]
             },
             "Value1": {
-              "Text": "10",
+              "Text": "1",
               "Size": [
                 50,
                 50
@@ -1941,7 +1945,7 @@
               "Visible" : false
             },
             "Value2": {
-              "Text": "10",
+              "Text": "1/2",
               "Size": [
                 50,
                 50
@@ -1953,7 +1957,7 @@
               "Visible" : false
             },
             "Value11": {
-              "Text": "10",
+              "Text": "1",
               "Size": [
                 50,
                 50
@@ -2011,7 +2015,7 @@
               "Visible" : false
             },
             "Value12": {
-              "Text": "10",
+              "Text": "1/2",
               "Size": [
                 50,
                 50
@@ -2022,7 +2026,7 @@
               ]
             },
             "Value13": {
-              "Text": "10",
+              "Text": "1/2",
               "Size": [
                 50,
                 50
@@ -2033,7 +2037,7 @@
               ]
             },
             "Value14": {
-              "Text": "10",
+              "Text": "1/2",
               "Size": [
                 50,
                 50
@@ -2044,7 +2048,7 @@
               ]
             },
             "ValueS2": {
-              "Text": "20",
+              "Text": "1/2",
               "Size": [
                 50,
                 50
@@ -2056,7 +2060,7 @@
               "Visible" : false
             },
             "ValueT2": {
-              "Text": "30",
+              "Text": "1",
               "Size": [
                 50,
                 50
@@ -2068,7 +2072,7 @@
               "Visible" : false
             },
             "ValueF12": {
-              "Text": "40",
+              "Text": "1.5",
               "Size": [
                 50,
                 50
@@ -2879,7 +2883,7 @@
               ]
             },
             "Value2": {
-              "Text": "7",
+              "Text": "21",
               "Size": [
                 50,
                 50
@@ -2901,7 +2905,7 @@
               ]
             },
             "Value3": {
-              "Text": "12",
+              "Text": "19",
               "Size": [
                 50,
                 50
@@ -3011,7 +3015,7 @@
               ]
             },
             "Labelval12": {
-              "Text": "2",
+              "Text": "23",
               "Size": [
                 50,
                 50
@@ -3022,7 +3026,7 @@
               ]
             },
             "Value12": {
-              "Text": "10",
+              "Text": "5",
               "Size": [
                 50,
                 50
@@ -3033,7 +3037,7 @@
               ]
             },
             "Value1": {
-              "Text": "10",
+              "Text": "5",
               "Size": [
                 50,
                 50
@@ -3044,7 +3048,7 @@
               ]
             },
             "Labelval1": {
-              "Text": "2",
+              "Text": "23",
               "Size": [
                 50,
                 50
@@ -3418,7 +3422,7 @@
               ]
             },
             "Value2": {
-              "Text": "7",
+              "Text": "18",
               "Size": [
                 50,
                 50
@@ -3440,7 +3444,7 @@
               ]
             },
             "Value3": {
-              "Text": "12",
+              "Text": "15",
               "Size": [
                 50,
                 50
@@ -3550,7 +3554,7 @@
               ]
             },
             "Labelval12": {
-              "Text": "2",
+              "Text": "21",
               "Size": [
                 50,
                 50
@@ -3561,7 +3565,7 @@
               ]
             },
             "Value12": {
-              "Text": "10",
+              "Text": "-81",
               "Size": [
                 50,
                 50
@@ -3572,7 +3576,7 @@
               ]
             },
             "Value1": {
-              "Text": "10",
+              "Text": "-81",
               "Size": [
                 50,
                 50
@@ -3583,7 +3587,7 @@
               ]
             },
             "Labelval1": {
-              "Text": "2",
+              "Text": "21",
               "Size": [
                 50,
                 50
@@ -3979,7 +3983,7 @@
               ]
             },
             "Value3": {
-              "Text": "12",
+              "Text": "4",
               "Size": [
                 50,
                 50
@@ -4089,7 +4093,7 @@
               ]
             },
             "Labelval12": {
-              "Text": "2",
+              "Text": "10",
               "Size": [
                 50,
                 50
@@ -4100,7 +4104,7 @@
               ]
             },
             "Value12": {
-              "Text": "10",
+              "Text": "0",
               "Size": [
                 50,
                 50
@@ -4111,7 +4115,7 @@
               ]
             },
             "Value1": {
-              "Text": "10",
+              "Text": "0",
               "Size": [
                 50,
                 50
@@ -4122,7 +4126,7 @@
               ]
             },
             "Labelval1": {
-              "Text": "2",
+              "Text": "10",
               "Size": [
                 50,
                 50
@@ -4496,7 +4500,7 @@
               ]
             },
             "Value2": {
-              "Text": "7",
+              "Text": "-1/2",
               "Size": [
                 50,
                 50
@@ -4518,7 +4522,7 @@
               ]
             },
             "Value3": {
-              "Text": "12",
+              "Text": "2",
               "Size": [
                 50,
                 50
@@ -4628,7 +4632,7 @@
               ]
             },
             "Labelval12": {
-              "Text": "2",
+              "Text": "-3",
               "Size": [
                 50,
                 50
@@ -4639,7 +4643,7 @@
               ]
             },
             "Value12": {
-              "Text": "10",
+              "Text": "11",
               "Size": [
                 50,
                 50
@@ -4650,7 +4654,7 @@
               ]
             },
             "Value1": {
-              "Text": "10",
+              "Text": "11",
               "Size": [
                 50,
                 50
@@ -4661,7 +4665,7 @@
               ]
             },
             "Labelval1": {
-              "Text": "2",
+              "Text": "-3",
               "Size": [
                 50,
                 50
@@ -9433,7 +9437,7 @@
               ]
             },
             "LabelVal2": {
-              "Text" :"7",
+              "Text" :"2",
               "Size": [
                 50,
                 50
@@ -9455,7 +9459,7 @@
               ]
             },
             "LabelVal3": {
-              "Text" :"12",
+              "Text" :"3",
               "Size": [
                 50,
                 50
@@ -9510,7 +9514,7 @@
               ]
             },
             "LabelVal12": {
-              "Text" :"2",
+              "Text" :"1",
               "Size": [
                 50,
                 50
@@ -9521,7 +9525,7 @@
               ]
             },
             "LabelVal1": {
-              "Text" :"2",
+              "Text" :"1",
               "Size": [
                 50,
                 50
@@ -9543,7 +9547,7 @@
               ]
             },
             "LabelValueL1": {
-              "Text" :"47",
+              "Text" :"1000",
               "Size": [
                 50,
                 50
@@ -9554,7 +9558,7 @@
               ]
             },
             "LabelValL": {
-              "Text" :"47",
+              "Text" :"1000",
               "Size": [
                 50,
                 50

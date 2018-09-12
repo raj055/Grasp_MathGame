@@ -10,6 +10,13 @@ import com.mygdx.game.Factory.GameStates;
 
 import java.util.ArrayList;
 
+import static com.mygdx.game.BuilderBlocks.Events.DRAGA1;
+import static com.mygdx.game.BuilderBlocks.Events.DRAGA2;
+import static com.mygdx.game.BuilderBlocks.Events.DRAGB1;
+import static com.mygdx.game.BuilderBlocks.Events.DRAGB2;
+import static com.mygdx.game.BuilderBlocks.Events.DRAGB3;
+import static com.mygdx.game.BuilderBlocks.Events.DRAGC1;
+import static com.mygdx.game.BuilderBlocks.Events.DRAGC2;
 import static com.mygdx.game.BuilderBlocks.Events.DRAG_IMGBOX1;
 import static com.mygdx.game.BuilderBlocks.Events.DRAG_IMGLIGHT;
 import static com.mygdx.game.BuilderBlocks.Events.DRAG_IMGSQUARE;
@@ -33,6 +40,14 @@ public class VisebleComponentsCh4 implements Subscriber {
         notifier.RegisterSubscriber(this,DRAG_IMGSQUARE1);
         notifier.RegisterSubscriber(this,DRAG_IMGSQUARE2);
         notifier.RegisterSubscriber(this,DRAG_IMGBOX1);
+
+        notifier.RegisterSubscriber(this,DRAGA1);
+        notifier.RegisterSubscriber(this,DRAGA2);
+        notifier.RegisterSubscriber(this,DRAGB1);
+        notifier.RegisterSubscriber(this,DRAGB2);
+        notifier.RegisterSubscriber(this,DRAGB3);
+        notifier.RegisterSubscriber(this,DRAGC1);
+        notifier.RegisterSubscriber(this,DRAGC2);
     }
 
     @Override
