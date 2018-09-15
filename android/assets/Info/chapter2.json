@@ -148,7 +148,7 @@
               ],
               "Visible": true
             },
-            "sound":{
+            "soundon":{
               "Image": "data1/sound_on.png",
               "Size": [
                 45,
@@ -2366,7 +2366,7 @@
               "Visible": true
             },
             "Contener": {
-              "Image": "data_ch2/contener.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 380,
                 300
@@ -2497,93 +2497,83 @@
           },
           "Scrolling":{
             "number0": {
-              "Image": "Numbers/number0.png",
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 0,
               "Visible": true
             },
             "number1": {
-              "Image": "Numbers/number1.png",
+              "Image": "New_Number/asset_number1.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 1,
               "Visible": true
             },
             "number2": {
-              "Image": "Numbers/number2.png",
+              "Image": "New_Number/asset_number2.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 2,
               "Visible": true
             },
             "number3": {
-              "Image": "Numbers/number3.png",
+              "Image": "New_Number/asset_number3.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 3,
               "Visible": true
             },
             "number4": {
-              "Image": "Numbers/number4.png",
+              "Image": "New_Number/asset_number4.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 4,
               "Visible": true
             },
             "number5": {
-              "Image": "Numbers/number5.png",
+              "Image": "New_Number/asset_number5.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 5,
               "Visible": true
             },
             "number6": {
-              "Image": "Numbers/number6.png",
+              "Image": "New_Number/asset_number6.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 6,
               "Visible": true
             },
             "number7": {
-              "Image": "Numbers/number7.png",
+              "Image": "New_Number/asset_number7.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 7,
               "Visible": true
             },
             "number8": {
-              "Image": "Numbers/number8.png",
+              "Image": "New_Number/asset_number8.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 8,
               "Visible": true
             },
             "number9": {
-              "Image": "Numbers/number9.png",
+              "Image": "New_Number/asset_number9.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 9,
               "Visible": true
             }
           },
@@ -2832,93 +2822,83 @@
           },
           "Scrolling":{
             "number0": {
-              "Image": "Numbers/number0.png",
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 0,
               "Visible": true
             },
             "number1": {
-              "Image": "Numbers/number1.png",
+              "Image": "New_Number/asset_number1.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 1,
               "Visible": true
             },
             "number2": {
-              "Image": "Numbers/number2.png",
+              "Image": "New_Number/asset_number2.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 2,
               "Visible": true
             },
             "number3": {
-              "Image": "Numbers/number3.png",
+              "Image": "New_Number/asset_number3.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 3,
               "Visible": true
             },
             "number4": {
-              "Image": "Numbers/number4.png",
+              "Image": "New_Number/asset_number4.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 4,
               "Visible": true
             },
             "number5": {
-              "Image": "Numbers/number5.png",
+              "Image": "New_Number/asset_number5.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 5,
               "Visible": true
             },
             "number6": {
-              "Image": "Numbers/number6.png",
+              "Image": "New_Number/asset_number6.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 6,
               "Visible": true
             },
             "number7": {
-              "Image": "Numbers/number7.png",
+              "Image": "New_Number/asset_number7.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 7,
               "Visible": true
             },
             "number8": {
-              "Image": "Numbers/number8.png",
+              "Image": "New_Number/asset_number8.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 8,
               "Visible": true
             },
             "number9": {
-              "Image": "Numbers/number9.png",
+              "Image": "New_Number/asset_number9.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 9,
               "Visible": true
             }
           },
@@ -3409,7 +3389,7 @@
               "Visible": true
             },
             "Contener": {
-              "Image": "data_ch2/contener.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 380,
                 300
@@ -3540,93 +3520,83 @@
           },
           "Scrolling":{
             "number0": {
-              "Image": "Numbers/number0.png",
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 0,
               "Visible": true
             },
             "number1": {
-              "Image": "Numbers/number1.png",
+              "Image": "New_Number/asset_number1.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 1,
               "Visible": true
             },
             "number2": {
-              "Image": "Numbers/number2.png",
+              "Image": "New_Number/asset_number2.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 2,
               "Visible": true
             },
             "number3": {
-              "Image": "Numbers/number3.png",
+              "Image": "New_Number/asset_number3.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 3,
               "Visible": true
             },
             "number4": {
-              "Image": "Numbers/number4.png",
+              "Image": "New_Number/asset_number4.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 4,
               "Visible": true
             },
             "number5": {
-              "Image": "Numbers/number5.png",
+              "Image": "New_Number/asset_number5.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 5,
               "Visible": true
             },
             "number6": {
-              "Image": "Numbers/number6.png",
+              "Image": "New_Number/asset_number6.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 6,
               "Visible": true
             },
             "number7": {
-              "Image": "Numbers/number7.png",
+              "Image": "New_Number/asset_number7.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 7,
               "Visible": true
             },
             "number8": {
-              "Image": "Numbers/number8.png",
+              "Image": "New_Number/asset_number8.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 8,
               "Visible": true
             },
             "number9": {
-              "Image": "Numbers/number9.png",
+              "Image": "New_Number/asset_number9.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 9,
               "Visible": true
             }
           },
@@ -3875,93 +3845,83 @@
           },
           "Scrolling":{
             "number0": {
-              "Image": "Numbers/number0.png",
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 0,
               "Visible": true
             },
             "number1": {
-              "Image": "Numbers/number1.png",
+              "Image": "New_Number/asset_number1.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 1,
               "Visible": true
             },
             "number2": {
-              "Image": "Numbers/number2.png",
+              "Image": "New_Number/asset_number2.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 2,
               "Visible": true
             },
             "number3": {
-              "Image": "Numbers/number3.png",
+              "Image": "New_Number/asset_number3.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 3,
               "Visible": true
             },
             "number4": {
-              "Image": "Numbers/number4.png",
+              "Image": "New_Number/asset_number4.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 4,
               "Visible": true
             },
             "number5": {
-              "Image": "Numbers/number5.png",
+              "Image": "New_Number/asset_number5.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 5,
               "Visible": true
             },
             "number6": {
-              "Image": "Numbers/number6.png",
+              "Image": "New_Number/asset_number6.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 6,
               "Visible": true
             },
             "number7": {
-              "Image": "Numbers/number7.png",
+              "Image": "New_Number/asset_number7.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 7,
               "Visible": true
             },
             "number8": {
-              "Image": "Numbers/number8.png",
+              "Image": "New_Number/asset_number8.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 8,
               "Visible": true
             },
             "number9": {
-              "Image": "Numbers/number9.png",
+              "Image": "New_Number/asset_number9.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 9,
               "Visible": true
             }
           },
@@ -4452,7 +4412,7 @@
               "Visible": true
             },
             "Contener": {
-              "Image": "data_ch2/contener.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 380,
                 300
@@ -4583,93 +4543,83 @@
           },
           "Scrolling":{
             "number0": {
-              "Image": "Numbers/number0.png",
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 0,
               "Visible": true
             },
             "number1": {
-              "Image": "Numbers/number1.png",
+              "Image": "New_Number/asset_number1.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 1,
               "Visible": true
             },
             "number2": {
-              "Image": "Numbers/number2.png",
+              "Image": "New_Number/asset_number2.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 2,
               "Visible": true
             },
             "number3": {
-              "Image": "Numbers/number3.png",
+              "Image": "New_Number/asset_number3.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 3,
               "Visible": true
             },
             "number4": {
-              "Image": "Numbers/number4.png",
+              "Image": "New_Number/asset_number4.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 4,
               "Visible": true
             },
             "number5": {
-              "Image": "Numbers/number5.png",
+              "Image": "New_Number/asset_number5.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 5,
               "Visible": true
             },
             "number6": {
-              "Image": "Numbers/number6.png",
+              "Image": "New_Number/asset_number6.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 6,
               "Visible": true
             },
             "number7": {
-              "Image": "Numbers/number7.png",
+              "Image": "New_Number/asset_number7.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 7,
               "Visible": true
             },
             "number8": {
-              "Image": "Numbers/number8.png",
+              "Image": "New_Number/asset_number8.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 8,
               "Visible": true
             },
             "number9": {
-              "Image": "Numbers/number9.png",
+              "Image": "New_Number/asset_number9.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 9,
               "Visible": true
             }
           },
@@ -4918,93 +4868,83 @@
           },
           "Scrolling":{
             "number0": {
-              "Image": "Numbers/number0.png",
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 0,
               "Visible": true
             },
             "number1": {
-              "Image": "Numbers/number1.png",
+              "Image": "New_Number/asset_number1.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 1,
               "Visible": true
             },
             "number2": {
-              "Image": "Numbers/number2.png",
+              "Image": "New_Number/asset_number2.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 2,
               "Visible": true
             },
             "number3": {
-              "Image": "Numbers/number3.png",
+              "Image": "New_Number/asset_number3.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 3,
               "Visible": true
             },
             "number4": {
-              "Image": "Numbers/number4.png",
+              "Image": "New_Number/asset_number4.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 4,
               "Visible": true
             },
             "number5": {
-              "Image": "Numbers/number5.png",
+              "Image": "New_Number/asset_number5.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 5,
               "Visible": true
             },
             "number6": {
-              "Image": "Numbers/number6.png",
+              "Image": "New_Number/asset_number6.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 6,
               "Visible": true
             },
             "number7": {
-              "Image": "Numbers/number7.png",
+              "Image": "New_Number/asset_number7.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 7,
               "Visible": true
             },
             "number8": {
-              "Image": "Numbers/number8.png",
+              "Image": "New_Number/asset_number8.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 8,
               "Visible": true
             },
             "number9": {
-              "Image": "Numbers/number9.png",
+              "Image": "New_Number/asset_number9.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 9,
               "Visible": true
             }
           },
@@ -5495,7 +5435,7 @@
               "Visible": true
             },
             "Contener": {
-              "Image": "data_ch2/contener.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 380,
                 300
@@ -5626,93 +5566,83 @@
           },
           "Scrolling":{
             "number0": {
-              "Image": "Numbers/number0.png",
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 0,
               "Visible": true
             },
             "number1": {
-              "Image": "Numbers/number1.png",
+              "Image": "New_Number/asset_number1.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 1,
               "Visible": true
             },
             "number2": {
-              "Image": "Numbers/number2.png",
+              "Image": "New_Number/asset_number2.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 2,
               "Visible": true
             },
             "number3": {
-              "Image": "Numbers/number3.png",
+              "Image": "New_Number/asset_number3.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 3,
               "Visible": true
             },
             "number4": {
-              "Image": "Numbers/number4.png",
+              "Image": "New_Number/asset_number4.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 4,
               "Visible": true
             },
             "number5": {
-              "Image": "Numbers/number5.png",
+              "Image": "New_Number/asset_number5.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 5,
               "Visible": true
             },
             "number6": {
-              "Image": "Numbers/number6.png",
+              "Image": "New_Number/asset_number6.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 6,
               "Visible": true
             },
             "number7": {
-              "Image": "Numbers/number7.png",
+              "Image": "New_Number/asset_number7.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 7,
               "Visible": true
             },
             "number8": {
-              "Image": "Numbers/number8.png",
+              "Image": "New_Number/asset_number8.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 8,
               "Visible": true
             },
             "number9": {
-              "Image": "Numbers/number9.png",
+              "Image": "New_Number/asset_number9.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 9,
               "Visible": true
             }
           },
@@ -5961,93 +5891,83 @@
           },
           "Scrolling":{
             "number0": {
-              "Image": "Numbers/number0.png",
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 0,
               "Visible": true
             },
             "number1": {
-              "Image": "Numbers/number1.png",
+              "Image": "New_Number/asset_number1.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 1,
               "Visible": true
             },
             "number2": {
-              "Image": "Numbers/number2.png",
+              "Image": "New_Number/asset_number2.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 2,
               "Visible": true
             },
             "number3": {
-              "Image": "Numbers/number3.png",
+              "Image": "New_Number/asset_number3.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 3,
               "Visible": true
             },
             "number4": {
-              "Image": "Numbers/number4.png",
+              "Image": "New_Number/asset_number4.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 4,
               "Visible": true
             },
             "number5": {
-              "Image": "Numbers/number5.png",
+              "Image": "New_Number/asset_number5.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 5,
               "Visible": true
             },
             "number6": {
-              "Image": "Numbers/number6.png",
+              "Image": "New_Number/asset_number6.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 6,
               "Visible": true
             },
             "number7": {
-              "Image": "Numbers/number7.png",
+              "Image": "New_Number/asset_number7.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 7,
               "Visible": true
             },
             "number8": {
-              "Image": "Numbers/number8.png",
+              "Image": "New_Number/asset_number8.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 8,
               "Visible": true
             },
             "number9": {
-              "Image": "Numbers/number9.png",
+              "Image": "New_Number/asset_number9.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 9,
               "Visible": true
             }
           },
@@ -6538,7 +6458,7 @@
               "Visible": true
             },
             "Contener": {
-              "Image": "data_ch2/contener.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 380,
                 300
@@ -6669,93 +6589,83 @@
           },
           "Scrolling":{
             "number0": {
-              "Image": "Numbers/number0.png",
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 0,
               "Visible": true
             },
             "number1": {
-              "Image": "Numbers/number1.png",
+              "Image": "New_Number/asset_number1.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 1,
               "Visible": true
             },
             "number2": {
-              "Image": "Numbers/number2.png",
+              "Image": "New_Number/asset_number2.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 2,
               "Visible": true
             },
             "number3": {
-              "Image": "Numbers/number3.png",
+              "Image": "New_Number/asset_number3.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 3,
               "Visible": true
             },
             "number4": {
-              "Image": "Numbers/number4.png",
+              "Image": "New_Number/asset_number4.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 4,
               "Visible": true
             },
             "number5": {
-              "Image": "Numbers/number5.png",
+              "Image": "New_Number/asset_number5.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 5,
               "Visible": true
             },
             "number6": {
-              "Image": "Numbers/number6.png",
+              "Image": "New_Number/asset_number6.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 6,
               "Visible": true
             },
             "number7": {
-              "Image": "Numbers/number7.png",
+              "Image": "New_Number/asset_number7.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 7,
               "Visible": true
             },
             "number8": {
-              "Image": "Numbers/number8.png",
+              "Image": "New_Number/asset_number8.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 8,
               "Visible": true
             },
             "number9": {
-              "Image": "Numbers/number9.png",
+              "Image": "New_Number/asset_number9.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 9,
               "Visible": true
             }
           },
@@ -7004,93 +6914,83 @@
           },
           "Scrolling":{
             "number0": {
-              "Image": "Numbers/number0.png",
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 0,
               "Visible": true
             },
             "number1": {
-              "Image": "Numbers/number1.png",
+              "Image": "New_Number/asset_number1.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 1,
               "Visible": true
             },
             "number2": {
-              "Image": "Numbers/number2.png",
+              "Image": "New_Number/asset_number2.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 2,
               "Visible": true
             },
             "number3": {
-              "Image": "Numbers/number3.png",
+              "Image": "New_Number/asset_number3.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 3,
               "Visible": true
             },
             "number4": {
-              "Image": "Numbers/number4.png",
+              "Image": "New_Number/asset_number4.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 4,
               "Visible": true
             },
             "number5": {
-              "Image": "Numbers/number5.png",
+              "Image": "New_Number/asset_number5.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 5,
               "Visible": true
             },
             "number6": {
-              "Image": "Numbers/number6.png",
+              "Image": "New_Number/asset_number6.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 6,
               "Visible": true
             },
             "number7": {
-              "Image": "Numbers/number7.png",
+              "Image": "New_Number/asset_number7.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 7,
               "Visible": true
             },
             "number8": {
-              "Image": "Numbers/number8.png",
+              "Image": "New_Number/asset_number8.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 8,
               "Visible": true
             },
             "number9": {
-              "Image": "Numbers/number9.png",
+              "Image": "New_Number/asset_number9.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 9,
               "Visible": true
             }
           },
@@ -7581,7 +7481,7 @@
               "Visible": true
             },
             "FormulaImage": {
-              "Image": "data_ch2/formula.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 240,
                 300
@@ -7715,76 +7615,84 @@
             }
           },
           "Scrolling":{
-            "number1": {
-              "Image": "Values/1.png",
+            "number0": {
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 1,
+              "Visible": true
+            },
+            "number1": {
+              "Image": "New_Number/asset_number1.png",
+              "Size": [
+                30,
+                40
+              ],
               "Visible": true
             },
             "number2": {
-              "Image": "Values/2.png",
+              "Image": "New_Number/asset_number2.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 2,
               "Visible": true
             },
             "number3": {
-              "Image": "Values/3.png",
+              "Image": "New_Number/asset_number3.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 3,
               "Visible": true
             },
             "number4": {
-              "Image": "Values/4.png",
+              "Image": "New_Number/asset_number4.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 4,
               "Visible": true
             },
             "number5": {
-              "Image": "Values/5.png",
+              "Image": "New_Number/asset_number5.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 5,
               "Visible": true
             },
-            "numberX2": {
-              "Image": "Values/x2.png",
+            "number6": {
+              "Image": "New_Number/asset_number6.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : "x2",
               "Visible": true
             },
-            "numberX3": {
-              "Image": "Values/x3.png",
+            "number7": {
+              "Image": "New_Number/asset_number7.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : "x3",
               "Visible": true
             },
-            "numberXX": {
-              "Image": "Values/xx.png",
+            "number8": {
+              "Image": "New_Number/asset_number8.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : "xx",
+              "Visible": true
+            },
+            "number9": {
+              "Image": "New_Number/asset_number9.png",
+              "Size": [
+                30,
+                40
+              ],
               "Visible": true
             }
           },
@@ -7902,7 +7810,7 @@
               "Visible": true
             },
             "Formula": {
-              "Image": "data_ch2/formula.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 240,
                 300
@@ -8083,76 +7991,84 @@
             }
           },
           "Scrolling":{
-            "number1": {
-              "Image": "Numbers/number1.png",
+            "number0": {
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 1,
+              "Visible": true
+            },
+            "number1": {
+              "Image": "New_Number/asset_number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "New_Number/asset_number2.png",
+              "Size": [
+                30,
+                40
+              ],
               "Visible": true
             },
             "number3": {
-              "Image": "Numbers/number3.png",
+              "Image": "New_Number/asset_number3.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 3,
+              "Visible": true
+            },
+            "number4": {
+              "Image": "New_Number/asset_number4.png",
+              "Size": [
+                30,
+                40
+              ],
               "Visible": true
             },
             "number5": {
-              "Image": "Numbers/number5.png",
+              "Image": "New_Number/asset_number5.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 5,
+              "Visible": true
+            },
+            "number6": {
+              "Image": "New_Number/asset_number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "New_Number/asset_number7.png",
+              "Size": [
+                30,
+                40
+              ],
               "Visible": true
             },
             "number8": {
-              "Image": "Numbers/number8.png",
+              "Image": "New_Number/asset_number8.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 8,
               "Visible": true
             },
-            "number-2": {
-              "Image": "Numb/-2.png",
+            "number9": {
+              "Image": "New_Number/asset_number9.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : -2,
-              "Visible": true
-            },
-            "number-3": {
-              "Image": "Numb/-3.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : -3,
-              "Visible": true
-            },
-            "number-6": {
-              "Image": "Numb/-6.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : -6,
-              "Visible": true
-            },
-            "number-7": {
-              "Image": "Numb/-7.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : -7,
               "Visible": true
             }
           },
@@ -8270,7 +8186,7 @@
               "Visible" : true
             },
             "Formula": {
-              "Image": "data_ch2/formula.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 240,
                 300
@@ -8393,7 +8309,7 @@
           },
           "Scrolling":{
             "number0": {
-              "Image": "Numbers/number0.png",
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
@@ -8401,7 +8317,7 @@
               "Visible": true
             },
             "number1": {
-              "Image": "Numbers/number1.png",
+              "Image": "New_Number/asset_number1.png",
               "Size": [
                 30,
                 40
@@ -8409,7 +8325,7 @@
               "Visible": true
             },
             "number2": {
-              "Image": "Numbers/number2.png",
+              "Image": "New_Number/asset_number2.png",
               "Size": [
                 30,
                 40
@@ -8417,7 +8333,7 @@
               "Visible": true
             },
             "number3": {
-              "Image": "Numbers/number3.png",
+              "Image": "New_Number/asset_number3.png",
               "Size": [
                 30,
                 40
@@ -8425,7 +8341,7 @@
               "Visible": true
             },
             "number4": {
-              "Image": "Numbers/number4.png",
+              "Image": "New_Number/asset_number4.png",
               "Size": [
                 30,
                 40
@@ -8433,7 +8349,7 @@
               "Visible": true
             },
             "number5": {
-              "Image": "Numbers/number5.png",
+              "Image": "New_Number/asset_number5.png",
               "Size": [
                 30,
                 40
@@ -8441,7 +8357,7 @@
               "Visible": true
             },
             "number6": {
-              "Image": "Numbers/number6.png",
+              "Image": "New_Number/asset_number6.png",
               "Size": [
                 30,
                 40
@@ -8449,7 +8365,7 @@
               "Visible": true
             },
             "number7": {
-              "Image": "Numbers/number7.png",
+              "Image": "New_Number/asset_number7.png",
               "Size": [
                 30,
                 40
@@ -8457,7 +8373,7 @@
               "Visible": true
             },
             "number8": {
-              "Image": "Numbers/number8.png",
+              "Image": "New_Number/asset_number8.png",
               "Size": [
                 30,
                 40
@@ -8465,7 +8381,7 @@
               "Visible": true
             },
             "number9": {
-              "Image": "Numbers/number9.png",
+              "Image": "New_Number/asset_number9.png",
               "Size": [
                 30,
                 40
@@ -8575,7 +8491,7 @@
               "Visible": true
             },
             "Formula": {
-              "Image": "data_ch2/formula.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 240,
                 300
@@ -8695,7 +8611,7 @@
           },
           "Scrolling":{
             "number0": {
-              "Image": "Numbers/number0.png",
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
@@ -8703,7 +8619,7 @@
               "Visible": true
             },
             "number1": {
-              "Image": "Numbers/number1.png",
+              "Image": "New_Number/asset_number1.png",
               "Size": [
                 30,
                 40
@@ -8711,7 +8627,7 @@
               "Visible": true
             },
             "number2": {
-              "Image": "Numbers/number2.png",
+              "Image": "New_Number/asset_number2.png",
               "Size": [
                 30,
                 40
@@ -8719,7 +8635,7 @@
               "Visible": true
             },
             "number3": {
-              "Image": "Numbers/number3.png",
+              "Image": "New_Number/asset_number3.png",
               "Size": [
                 30,
                 40
@@ -8727,7 +8643,7 @@
               "Visible": true
             },
             "number4": {
-              "Image": "Numbers/number4.png",
+              "Image": "New_Number/asset_number4.png",
               "Size": [
                 30,
                 40
@@ -8735,7 +8651,7 @@
               "Visible": true
             },
             "number5": {
-              "Image": "Numbers/number5.png",
+              "Image": "New_Number/asset_number5.png",
               "Size": [
                 30,
                 40
@@ -8743,7 +8659,7 @@
               "Visible": true
             },
             "number6": {
-              "Image": "Numbers/number6.png",
+              "Image": "New_Number/asset_number6.png",
               "Size": [
                 30,
                 40
@@ -8751,7 +8667,7 @@
               "Visible": true
             },
             "number7": {
-              "Image": "Numbers/number7.png",
+              "Image": "New_Number/asset_number7.png",
               "Size": [
                 30,
                 40
@@ -8759,7 +8675,7 @@
               "Visible": true
             },
             "number8": {
-              "Image": "Numbers/number8.png",
+              "Image": "New_Number/asset_number8.png",
               "Size": [
                 30,
                 40
@@ -8767,7 +8683,7 @@
               "Visible": true
             },
             "number9": {
-              "Image": "Numbers/number9.png",
+              "Image": "New_Number/asset_number9.png",
               "Size": [
                 30,
                 40
@@ -8891,7 +8807,7 @@
               "Visible": true
             },
             "FormulaImage": {
-              "Image": "data_ch2/formula.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 240,
                 300
@@ -9025,76 +8941,84 @@
             }
           },
           "Scrolling":{
-            "number1": {
-              "Image": "Values/1.png",
+            "number0": {
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 1,
+              "Visible": true
+            },
+            "number1": {
+              "Image": "New_Number/asset_number1.png",
+              "Size": [
+                30,
+                40
+              ],
               "Visible": true
             },
             "number2": {
-              "Image": "Values/2.png",
+              "Image": "New_Number/asset_number2.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 2,
               "Visible": true
             },
             "number3": {
-              "Image": "Values/3.png",
+              "Image": "New_Number/asset_number3.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 3,
               "Visible": true
             },
             "number4": {
-              "Image": "Values/4.png",
+              "Image": "New_Number/asset_number4.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 4,
               "Visible": true
             },
             "number5": {
-              "Image": "Values/5.png",
+              "Image": "New_Number/asset_number5.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 5,
               "Visible": true
             },
-            "numberX2": {
-              "Image": "Values/x2.png",
+            "number6": {
+              "Image": "New_Number/asset_number6.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : "x2",
               "Visible": true
             },
-            "numberX3": {
-              "Image": "Values/x3.png",
+            "number7": {
+              "Image": "New_Number/asset_number7.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : "x3",
               "Visible": true
             },
-            "numberXX": {
-              "Image": "Values/xx.png",
+            "number8": {
+              "Image": "New_Number/asset_number8.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : "xx",
+              "Visible": true
+            },
+            "number9": {
+              "Image": "New_Number/asset_number9.png",
+              "Size": [
+                30,
+                40
+              ],
               "Visible": true
             }
           },
@@ -9212,7 +9136,7 @@
               "Visible": true
             },
             "Formula": {
-              "Image": "data_ch2/formula.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 240,
                 300
@@ -9393,76 +9317,84 @@
             }
           },
           "Scrolling":{
-            "number1": {
-              "Image": "Numbers/number1.png",
+            "number0": {
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 1,
+              "Visible": true
+            },
+            "number1": {
+              "Image": "New_Number/asset_number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "New_Number/asset_number2.png",
+              "Size": [
+                30,
+                40
+              ],
               "Visible": true
             },
             "number3": {
-              "Image": "Numbers/number3.png",
+              "Image": "New_Number/asset_number3.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 3,
+              "Visible": true
+            },
+            "number4": {
+              "Image": "New_Number/asset_number4.png",
+              "Size": [
+                30,
+                40
+              ],
               "Visible": true
             },
             "number5": {
-              "Image": "Numbers/number5.png",
+              "Image": "New_Number/asset_number5.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 5,
+              "Visible": true
+            },
+            "number6": {
+              "Image": "New_Number/asset_number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "New_Number/asset_number7.png",
+              "Size": [
+                30,
+                40
+              ],
               "Visible": true
             },
             "number8": {
-              "Image": "Numbers/number8.png",
+              "Image": "New_Number/asset_number8.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 8,
               "Visible": true
             },
-            "number-2": {
-              "Image": "Numb/-2.png",
+            "number9": {
+              "Image": "New_Number/asset_number9.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : -2,
-              "Visible": true
-            },
-            "number-3": {
-              "Image": "Numb/-3.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : -3,
-              "Visible": true
-            },
-            "number-6": {
-              "Image": "Numb/-6.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : -6,
-              "Visible": true
-            },
-            "number-7": {
-              "Image": "Numb/-7.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : -7,
               "Visible": true
             }
           },
@@ -9580,7 +9512,7 @@
               "Visible" : true
             },
             "Formula": {
-              "Image": "data_ch2/formula.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 240,
                 300
@@ -9703,7 +9635,7 @@
           },
           "Scrolling":{
             "number0": {
-              "Image": "Numbers/number0.png",
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
@@ -9711,7 +9643,7 @@
               "Visible": true
             },
             "number1": {
-              "Image": "Numbers/number1.png",
+              "Image": "New_Number/asset_number1.png",
               "Size": [
                 30,
                 40
@@ -9719,7 +9651,7 @@
               "Visible": true
             },
             "number2": {
-              "Image": "Numbers/number2.png",
+              "Image": "New_Number/asset_number2.png",
               "Size": [
                 30,
                 40
@@ -9727,7 +9659,7 @@
               "Visible": true
             },
             "number3": {
-              "Image": "Numbers/number3.png",
+              "Image": "New_Number/asset_number3.png",
               "Size": [
                 30,
                 40
@@ -9735,7 +9667,7 @@
               "Visible": true
             },
             "number4": {
-              "Image": "Numbers/number4.png",
+              "Image": "New_Number/asset_number4.png",
               "Size": [
                 30,
                 40
@@ -9743,7 +9675,7 @@
               "Visible": true
             },
             "number5": {
-              "Image": "Numbers/number5.png",
+              "Image": "New_Number/asset_number5.png",
               "Size": [
                 30,
                 40
@@ -9751,7 +9683,7 @@
               "Visible": true
             },
             "number6": {
-              "Image": "Numbers/number6.png",
+              "Image": "New_Number/asset_number6.png",
               "Size": [
                 30,
                 40
@@ -9759,7 +9691,7 @@
               "Visible": true
             },
             "number7": {
-              "Image": "Numbers/number7.png",
+              "Image": "New_Number/asset_number7.png",
               "Size": [
                 30,
                 40
@@ -9767,7 +9699,7 @@
               "Visible": true
             },
             "number8": {
-              "Image": "Numbers/number8.png",
+              "Image": "New_Number/asset_number8.png",
               "Size": [
                 30,
                 40
@@ -9775,7 +9707,7 @@
               "Visible": true
             },
             "number9": {
-              "Image": "Numbers/number9.png",
+              "Image": "New_Number/asset_number9.png",
               "Size": [
                 30,
                 40
@@ -9899,7 +9831,7 @@
               "Visible": true
             },
             "FormulaImage": {
-              "Image": "data_ch2/formula.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 240,
                 300
@@ -10033,76 +9965,84 @@
             }
           },
           "Scrolling":{
-            "number1": {
-              "Image": "Values/1.png",
+            "number0": {
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 1,
+              "Visible": true
+            },
+            "number1": {
+              "Image": "New_Number/asset_number1.png",
+              "Size": [
+                30,
+                40
+              ],
               "Visible": true
             },
             "number2": {
-              "Image": "Values/2.png",
+              "Image": "New_Number/asset_number2.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 2,
               "Visible": true
             },
             "number3": {
-              "Image": "Values/3.png",
+              "Image": "New_Number/asset_number3.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 3,
               "Visible": true
             },
             "number4": {
-              "Image": "Values/4.png",
+              "Image": "New_Number/asset_number4.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 4,
               "Visible": true
             },
             "number5": {
-              "Image": "Values/5.png",
+              "Image": "New_Number/asset_number5.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 5,
               "Visible": true
             },
-            "numberX2": {
-              "Image": "Values/x2.png",
+            "number6": {
+              "Image": "New_Number/asset_number6.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : "x2",
               "Visible": true
             },
-            "numberX3": {
-              "Image": "Values/x3.png",
+            "number7": {
+              "Image": "New_Number/asset_number7.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : "x3",
               "Visible": true
             },
-            "numberXX": {
-              "Image": "Values/xx.png",
+            "number8": {
+              "Image": "New_Number/asset_number8.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : "xx",
+              "Visible": true
+            },
+            "number9": {
+              "Image": "New_Number/asset_number9.png",
+              "Size": [
+                30,
+                40
+              ],
               "Visible": true
             }
           },
@@ -10220,7 +10160,7 @@
               "Visible": true
             },
             "Formula": {
-              "Image": "data_ch2/formula.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 240,
                 300
@@ -10401,76 +10341,84 @@
             }
           },
           "Scrolling":{
-            "number1": {
-              "Image": "Numbers/number1.png",
+            "number0": {
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 1,
+              "Visible": true
+            },
+            "number1": {
+              "Image": "New_Number/asset_number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "New_Number/asset_number2.png",
+              "Size": [
+                30,
+                40
+              ],
               "Visible": true
             },
             "number3": {
-              "Image": "Numbers/number3.png",
+              "Image": "New_Number/asset_number3.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 3,
+              "Visible": true
+            },
+            "number4": {
+              "Image": "New_Number/asset_number4.png",
+              "Size": [
+                30,
+                40
+              ],
               "Visible": true
             },
             "number5": {
-              "Image": "Numbers/number5.png",
+              "Image": "New_Number/asset_number5.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 5,
+              "Visible": true
+            },
+            "number6": {
+              "Image": "New_Number/asset_number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "New_Number/asset_number7.png",
+              "Size": [
+                30,
+                40
+              ],
               "Visible": true
             },
             "number8": {
-              "Image": "Numbers/number8.png",
+              "Image": "New_Number/asset_number8.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 8,
               "Visible": true
             },
-            "number-2": {
-              "Image": "Numb/-2.png",
+            "number9": {
+              "Image": "New_Number/asset_number9.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : -2,
-              "Visible": true
-            },
-            "number-3": {
-              "Image": "Numb/-3.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : -3,
-              "Visible": true
-            },
-            "number-6": {
-              "Image": "Numb/-6.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : -6,
-              "Visible": true
-            },
-            "number-7": {
-              "Image": "Numb/-7.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : -7,
               "Visible": true
             }
           },
@@ -10588,7 +10536,7 @@
               "Visible" : true
             },
             "Formula": {
-              "Image": "data_ch2/formula.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 240,
                 300
@@ -10711,7 +10659,7 @@
           },
           "Scrolling":{
             "number0": {
-              "Image": "Numbers/number0.png",
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
@@ -10719,7 +10667,7 @@
               "Visible": true
             },
             "number1": {
-              "Image": "Numbers/number1.png",
+              "Image": "New_Number/asset_number1.png",
               "Size": [
                 30,
                 40
@@ -10727,7 +10675,7 @@
               "Visible": true
             },
             "number2": {
-              "Image": "Numbers/number2.png",
+              "Image": "New_Number/asset_number2.png",
               "Size": [
                 30,
                 40
@@ -10735,7 +10683,7 @@
               "Visible": true
             },
             "number3": {
-              "Image": "Numbers/number3.png",
+              "Image": "New_Number/asset_number3.png",
               "Size": [
                 30,
                 40
@@ -10743,7 +10691,7 @@
               "Visible": true
             },
             "number4": {
-              "Image": "Numbers/number4.png",
+              "Image": "New_Number/asset_number4.png",
               "Size": [
                 30,
                 40
@@ -10751,7 +10699,7 @@
               "Visible": true
             },
             "number5": {
-              "Image": "Numbers/number5.png",
+              "Image": "New_Number/asset_number5.png",
               "Size": [
                 30,
                 40
@@ -10759,7 +10707,7 @@
               "Visible": true
             },
             "number6": {
-              "Image": "Numbers/number6.png",
+              "Image": "New_Number/asset_number6.png",
               "Size": [
                 30,
                 40
@@ -10767,7 +10715,7 @@
               "Visible": true
             },
             "number7": {
-              "Image": "Numbers/number7.png",
+              "Image": "New_Number/asset_number7.png",
               "Size": [
                 30,
                 40
@@ -10775,7 +10723,7 @@
               "Visible": true
             },
             "number8": {
-              "Image": "Numbers/number8.png",
+              "Image": "New_Number/asset_number8.png",
               "Size": [
                 30,
                 40
@@ -10783,7 +10731,7 @@
               "Visible": true
             },
             "number9": {
-              "Image": "Numbers/number9.png",
+              "Image": "New_Number/asset_number9.png",
               "Size": [
                 30,
                 40
@@ -10893,7 +10841,7 @@
               "Visible": true
             },
             "Formula": {
-              "Image": "data_ch2/formula.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 240,
                 300
@@ -11013,7 +10961,7 @@
           },
           "Scrolling":{
             "number0": {
-              "Image": "Numbers/number0.png",
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
@@ -11021,7 +10969,7 @@
               "Visible": true
             },
             "number1": {
-              "Image": "Numbers/number1.png",
+              "Image": "New_Number/asset_number1.png",
               "Size": [
                 30,
                 40
@@ -11029,7 +10977,7 @@
               "Visible": true
             },
             "number2": {
-              "Image": "Numbers/number2.png",
+              "Image": "New_Number/asset_number2.png",
               "Size": [
                 30,
                 40
@@ -11037,7 +10985,7 @@
               "Visible": true
             },
             "number3": {
-              "Image": "Numbers/number3.png",
+              "Image": "New_Number/asset_number3.png",
               "Size": [
                 30,
                 40
@@ -11045,7 +10993,7 @@
               "Visible": true
             },
             "number4": {
-              "Image": "Numbers/number4.png",
+              "Image": "New_Number/asset_number4.png",
               "Size": [
                 30,
                 40
@@ -11053,7 +11001,7 @@
               "Visible": true
             },
             "number5": {
-              "Image": "Numbers/number5.png",
+              "Image": "New_Number/asset_number5.png",
               "Size": [
                 30,
                 40
@@ -11061,7 +11009,7 @@
               "Visible": true
             },
             "number6": {
-              "Image": "Numbers/number6.png",
+              "Image": "New_Number/asset_number6.png",
               "Size": [
                 30,
                 40
@@ -11069,7 +11017,7 @@
               "Visible": true
             },
             "number7": {
-              "Image": "Numbers/number7.png",
+              "Image": "New_Number/asset_number7.png",
               "Size": [
                 30,
                 40
@@ -11077,7 +11025,7 @@
               "Visible": true
             },
             "number8": {
-              "Image": "Numbers/number8.png",
+              "Image": "New_Number/asset_number8.png",
               "Size": [
                 30,
                 40
@@ -11085,7 +11033,7 @@
               "Visible": true
             },
             "number9": {
-              "Image": "Numbers/number9.png",
+              "Image": "New_Number/asset_number9.png",
               "Size": [
                 30,
                 40
@@ -11209,7 +11157,7 @@
               "Visible": true
             },
             "FormulaImage": {
-              "Image": "data_ch2/formula.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 240,
                 300
@@ -11343,76 +11291,84 @@
             }
           },
           "Scrolling":{
-            "number1": {
-              "Image": "Values/1.png",
+            "number0": {
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 1,
+              "Visible": true
+            },
+            "number1": {
+              "Image": "New_Number/asset_number1.png",
+              "Size": [
+                30,
+                40
+              ],
               "Visible": true
             },
             "number2": {
-              "Image": "Values/2.png",
+              "Image": "New_Number/asset_number2.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 2,
               "Visible": true
             },
             "number3": {
-              "Image": "Values/3.png",
+              "Image": "New_Number/asset_number3.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 3,
               "Visible": true
             },
             "number4": {
-              "Image": "Values/4.png",
+              "Image": "New_Number/asset_number4.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 4,
               "Visible": true
             },
             "number5": {
-              "Image": "Values/5.png",
+              "Image": "New_Number/asset_number5.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 5,
               "Visible": true
             },
-            "numberX2": {
-              "Image": "Values/x2.png",
+            "number6": {
+              "Image": "New_Number/asset_number6.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : "x2",
               "Visible": true
             },
-            "numberX3": {
-              "Image": "Values/x3.png",
+            "number7": {
+              "Image": "New_Number/asset_number7.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : "x3",
               "Visible": true
             },
-            "numberXX": {
-              "Image": "Values/xx.png",
+            "number8": {
+              "Image": "New_Number/asset_number8.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : "xx",
+              "Visible": true
+            },
+            "number9": {
+              "Image": "New_Number/asset_number9.png",
+              "Size": [
+                30,
+                40
+              ],
               "Visible": true
             }
           },
@@ -11530,7 +11486,7 @@
               "Visible": true
             },
             "Formula": {
-              "Image": "data_ch2/formula.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 240,
                 300
@@ -11711,76 +11667,84 @@
             }
           },
           "Scrolling":{
-            "number1": {
-              "Image": "Numbers/number1.png",
+            "number0": {
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 1,
+              "Visible": true
+            },
+            "number1": {
+              "Image": "New_Number/asset_number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "New_Number/asset_number2.png",
+              "Size": [
+                30,
+                40
+              ],
               "Visible": true
             },
             "number3": {
-              "Image": "Numbers/number3.png",
+              "Image": "New_Number/asset_number3.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 3,
+              "Visible": true
+            },
+            "number4": {
+              "Image": "New_Number/asset_number4.png",
+              "Size": [
+                30,
+                40
+              ],
               "Visible": true
             },
             "number5": {
-              "Image": "Numbers/number5.png",
+              "Image": "New_Number/asset_number5.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 5,
+              "Visible": true
+            },
+            "number6": {
+              "Image": "New_Number/asset_number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "New_Number/asset_number7.png",
+              "Size": [
+                30,
+                40
+              ],
               "Visible": true
             },
             "number8": {
-              "Image": "Numbers/number8.png",
+              "Image": "New_Number/asset_number8.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 8,
               "Visible": true
             },
-            "number-2": {
-              "Image": "Numb/-2.png",
+            "number9": {
+              "Image": "New_Number/asset_number9.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : -2,
-              "Visible": true
-            },
-            "number-3": {
-              "Image": "Numb/-3.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : -3,
-              "Visible": true
-            },
-            "number-6": {
-              "Image": "Numb/-6.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : -6,
-              "Visible": true
-            },
-            "number-7": {
-              "Image": "Numb/-7.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : -7,
               "Visible": true
             }
           },
@@ -11898,7 +11862,7 @@
               "Visible" : true
             },
             "Formula": {
-              "Image": "data_ch2/formula.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 240,
                 300
@@ -12021,7 +11985,7 @@
           },
           "Scrolling":{
             "number0": {
-              "Image": "Numbers/number0.png",
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
@@ -12029,7 +11993,7 @@
               "Visible": true
             },
             "number1": {
-              "Image": "Numbers/number1.png",
+              "Image": "New_Number/asset_number1.png",
               "Size": [
                 30,
                 40
@@ -12037,7 +12001,7 @@
               "Visible": true
             },
             "number2": {
-              "Image": "Numbers/number2.png",
+              "Image": "New_Number/asset_number2.png",
               "Size": [
                 30,
                 40
@@ -12045,7 +12009,7 @@
               "Visible": true
             },
             "number3": {
-              "Image": "Numbers/number3.png",
+              "Image": "New_Number/asset_number3.png",
               "Size": [
                 30,
                 40
@@ -12053,7 +12017,7 @@
               "Visible": true
             },
             "number4": {
-              "Image": "Numbers/number4.png",
+              "Image": "New_Number/asset_number4.png",
               "Size": [
                 30,
                 40
@@ -12061,7 +12025,7 @@
               "Visible": true
             },
             "number5": {
-              "Image": "Numbers/number5.png",
+              "Image": "New_Number/asset_number5.png",
               "Size": [
                 30,
                 40
@@ -12069,7 +12033,7 @@
               "Visible": true
             },
             "number6": {
-              "Image": "Numbers/number6.png",
+              "Image": "New_Number/asset_number6.png",
               "Size": [
                 30,
                 40
@@ -12077,7 +12041,7 @@
               "Visible": true
             },
             "number7": {
-              "Image": "Numbers/number7.png",
+              "Image": "New_Number/asset_number7.png",
               "Size": [
                 30,
                 40
@@ -12085,7 +12049,7 @@
               "Visible": true
             },
             "number8": {
-              "Image": "Numbers/number8.png",
+              "Image": "New_Number/asset_number8.png",
               "Size": [
                 30,
                 40
@@ -12093,7 +12057,7 @@
               "Visible": true
             },
             "number9": {
-              "Image": "Numbers/number9.png",
+              "Image": "New_Number/asset_number9.png",
               "Size": [
                 30,
                 40
@@ -12217,7 +12181,7 @@
               "Visible": true
             },
             "FormulaImage": {
-              "Image": "data_ch2/formula.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 240,
                 300
@@ -12351,76 +12315,84 @@
             }
           },
           "Scrolling":{
-            "number1": {
-              "Image": "Values/1.png",
+            "number0": {
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 1,
+              "Visible": true
+            },
+            "number1": {
+              "Image": "New_Number/asset_number1.png",
+              "Size": [
+                30,
+                40
+              ],
               "Visible": true
             },
             "number2": {
-              "Image": "Values/2.png",
+              "Image": "New_Number/asset_number2.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 2,
               "Visible": true
             },
             "number3": {
-              "Image": "Values/3.png",
+              "Image": "New_Number/asset_number3.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 3,
               "Visible": true
             },
             "number4": {
-              "Image": "Values/4.png",
+              "Image": "New_Number/asset_number4.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 4,
               "Visible": true
             },
             "number5": {
-              "Image": "Values/5.png",
+              "Image": "New_Number/asset_number5.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 5,
               "Visible": true
             },
-            "numberX2": {
-              "Image": "Values/x2.png",
+            "number6": {
+              "Image": "New_Number/asset_number6.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : "x2",
               "Visible": true
             },
-            "numberX3": {
-              "Image": "Values/x3.png",
+            "number7": {
+              "Image": "New_Number/asset_number7.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : "x3",
               "Visible": true
             },
-            "numberXX": {
-              "Image": "Values/xx.png",
+            "number8": {
+              "Image": "New_Number/asset_number8.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : "xx",
+              "Visible": true
+            },
+            "number9": {
+              "Image": "New_Number/asset_number9.png",
+              "Size": [
+                30,
+                40
+              ],
               "Visible": true
             }
           },
@@ -12538,7 +12510,7 @@
               "Visible": true
             },
             "Formula": {
-              "Image": "data_ch2/formula.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 240,
                 300
@@ -12719,76 +12691,84 @@
             }
           },
           "Scrolling":{
-            "number1": {
-              "Image": "Numbers/number1.png",
+            "number0": {
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 1,
+              "Visible": true
+            },
+            "number1": {
+              "Image": "New_Number/asset_number1.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number2": {
+              "Image": "New_Number/asset_number2.png",
+              "Size": [
+                30,
+                40
+              ],
               "Visible": true
             },
             "number3": {
-              "Image": "Numbers/number3.png",
+              "Image": "New_Number/asset_number3.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 3,
+              "Visible": true
+            },
+            "number4": {
+              "Image": "New_Number/asset_number4.png",
+              "Size": [
+                30,
+                40
+              ],
               "Visible": true
             },
             "number5": {
-              "Image": "Numbers/number5.png",
+              "Image": "New_Number/asset_number5.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 5,
+              "Visible": true
+            },
+            "number6": {
+              "Image": "New_Number/asset_number6.png",
+              "Size": [
+                30,
+                40
+              ],
+              "Visible": true
+            },
+            "number7": {
+              "Image": "New_Number/asset_number7.png",
+              "Size": [
+                30,
+                40
+              ],
               "Visible": true
             },
             "number8": {
-              "Image": "Numbers/number8.png",
+              "Image": "New_Number/asset_number8.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 8,
               "Visible": true
             },
-            "number-2": {
-              "Image": "Numb/-2.png",
+            "number9": {
+              "Image": "New_Number/asset_number9.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : -2,
-              "Visible": true
-            },
-            "number-3": {
-              "Image": "Numb/-3.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : -3,
-              "Visible": true
-            },
-            "number-6": {
-              "Image": "Numb/-6.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : -6,
-              "Visible": true
-            },
-            "number-7": {
-              "Image": "Numb/-7.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Value" : -7,
               "Visible": true
             }
           },
@@ -12906,7 +12886,7 @@
               "Visible" : true
             },
             "Formula": {
-              "Image": "data_ch2/formula.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 240,
                 300
@@ -13029,7 +13009,7 @@
           },
           "Scrolling":{
             "number0": {
-              "Image": "Numbers/number0.png",
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
@@ -13037,7 +13017,7 @@
               "Visible": true
             },
             "number1": {
-              "Image": "Numbers/number1.png",
+              "Image": "New_Number/asset_number1.png",
               "Size": [
                 30,
                 40
@@ -13045,7 +13025,7 @@
               "Visible": true
             },
             "number2": {
-              "Image": "Numbers/number2.png",
+              "Image": "New_Number/asset_number2.png",
               "Size": [
                 30,
                 40
@@ -13053,7 +13033,7 @@
               "Visible": true
             },
             "number3": {
-              "Image": "Numbers/number3.png",
+              "Image": "New_Number/asset_number3.png",
               "Size": [
                 30,
                 40
@@ -13061,7 +13041,7 @@
               "Visible": true
             },
             "number4": {
-              "Image": "Numbers/number4.png",
+              "Image": "New_Number/asset_number4.png",
               "Size": [
                 30,
                 40
@@ -13069,7 +13049,7 @@
               "Visible": true
             },
             "number5": {
-              "Image": "Numbers/number5.png",
+              "Image": "New_Number/asset_number5.png",
               "Size": [
                 30,
                 40
@@ -13077,7 +13057,7 @@
               "Visible": true
             },
             "number6": {
-              "Image": "Numbers/number6.png",
+              "Image": "New_Number/asset_number6.png",
               "Size": [
                 30,
                 40
@@ -13085,7 +13065,7 @@
               "Visible": true
             },
             "number7": {
-              "Image": "Numbers/number7.png",
+              "Image": "New_Number/asset_number7.png",
               "Size": [
                 30,
                 40
@@ -13093,7 +13073,7 @@
               "Visible": true
             },
             "number8": {
-              "Image": "Numbers/number8.png",
+              "Image": "New_Number/asset_number8.png",
               "Size": [
                 30,
                 40
@@ -13101,7 +13081,7 @@
               "Visible": true
             },
             "number9": {
-              "Image": "Numbers/number9.png",
+              "Image": "New_Number/asset_number9.png",
               "Size": [
                 30,
                 40
@@ -13211,7 +13191,7 @@
               "Visible": true
             },
             "Formula": {
-              "Image": "data_ch2/formula.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 240,
                 300
@@ -13331,7 +13311,7 @@
           },
           "Scrolling":{
             "number0": {
-              "Image": "Numbers/number0.png",
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
@@ -13339,7 +13319,7 @@
               "Visible": true
             },
             "number1": {
-              "Image": "Numbers/number1.png",
+              "Image": "New_Number/asset_number1.png",
               "Size": [
                 30,
                 40
@@ -13347,7 +13327,7 @@
               "Visible": true
             },
             "number2": {
-              "Image": "Numbers/number2.png",
+              "Image": "New_Number/asset_number2.png",
               "Size": [
                 30,
                 40
@@ -13355,7 +13335,7 @@
               "Visible": true
             },
             "number3": {
-              "Image": "Numbers/number3.png",
+              "Image": "New_Number/asset_number3.png",
               "Size": [
                 30,
                 40
@@ -13363,7 +13343,7 @@
               "Visible": true
             },
             "number4": {
-              "Image": "Numbers/number4.png",
+              "Image": "New_Number/asset_number4.png",
               "Size": [
                 30,
                 40
@@ -13371,7 +13351,7 @@
               "Visible": true
             },
             "number5": {
-              "Image": "Numbers/number5.png",
+              "Image": "New_Number/asset_number5.png",
               "Size": [
                 30,
                 40
@@ -13379,7 +13359,7 @@
               "Visible": true
             },
             "number6": {
-              "Image": "Numbers/number6.png",
+              "Image": "New_Number/asset_number6.png",
               "Size": [
                 30,
                 40
@@ -13387,7 +13367,7 @@
               "Visible": true
             },
             "number7": {
-              "Image": "Numbers/number7.png",
+              "Image": "New_Number/asset_number7.png",
               "Size": [
                 30,
                 40
@@ -13395,7 +13375,7 @@
               "Visible": true
             },
             "number8": {
-              "Image": "Numbers/number8.png",
+              "Image": "New_Number/asset_number8.png",
               "Size": [
                 30,
                 40
@@ -13403,7 +13383,7 @@
               "Visible": true
             },
             "number9": {
-              "Image": "Numbers/number9.png",
+              "Image": "New_Number/asset_number9.png",
               "Size": [
                 30,
                 40

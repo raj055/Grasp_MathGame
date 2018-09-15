@@ -67,6 +67,8 @@ public abstract class ChapterScreen {
   GlobalsCommonCount gblVar;
   Image bg;
 
+  Image pause,setting,restart,soundOn,soundOff;
+
   protected int xPosAdditionFactor = 0;
   static int stepNumber = 0;
   protected boolean moveTheBg = false;
@@ -563,8 +565,29 @@ public abstract class ChapterScreen {
       displayObjects.add(img);
       stage.addActor(img);
     }
-    for(Image pbar : displayObjects) {
-//        pbar.addListener(clkPause);
+
+    for(Image update : displayObjects) {
+        String str = update.getName();
+        if (str.equals("PauseBttn")) {
+            pause = update;
+            pause.addListener(clkPause);
+        }
+        else if (str.equals("setting")) {
+            setting = update;
+            setting.addListener(clkSetting);
+        }
+        else if (str.equals("restart")) {
+            restart = update;
+            restart.addListener(clkRestart);
+        }
+        else if (str.equals("soundoff")) {
+          soundOff = update;
+          soundOff.addListener(clkSoundOff);
+        }
+        else if (str.equals("soundon")) {
+          soundOn = update;
+          soundOn.addListener(clkSoundOn);
+        }
     }
   }
 
@@ -757,13 +780,42 @@ public abstract class ChapterScreen {
     }
   }
 
-  ClickListener clkPause =  new ClickListener() {
-    @Override
-    public void clicked(InputEvent event, float x, float y) {
-      Assets.playSound(Assets.clickSound);
-      if (Settings.musicEnabled) Assets.music.stop();
-      GameStates.screenStates = ScreenStates.DIALOGBOX;
-      gblVar.clear();
-    }
-  };
+    ClickListener clkPause =  new ClickListener() {
+      @Override
+      public void clicked(InputEvent event, float x, float y) {
+        Assets.playSound(Assets.clickSound);
+        if (Settings.musicEnabled) Assets.music.stop();
+        GameStates.screenStates = ScreenStates.DIALOGBOX;
+        gblVar.clear();
+      }
+    };
+
+    ClickListener clkSetting =  new ClickListener() {
+        @Override
+        public void clicked(InputEvent event, float x, float y) {
+            Assets.playSound(Assets.clickSound);
+        }
+    };
+
+    ClickListener clkRestart =  new ClickListener() {
+        @Override
+        public void clicked(InputEvent event, float x, float y) {
+            Assets.playSound(Assets.clickSound);
+            messageBox.ShowDialog();
+        }
+    };
+
+    ClickListener clkSoundOff =  new ClickListener() {
+      @Override
+      public void clicked(InputEvent event, float x, float y) {
+        Assets.playSound(Assets.clickSound);
+      }
+    };
+
+    ClickListener clkSoundOn =  new ClickListener() {
+      @Override
+      public void clicked(InputEvent event, float x, float y) {
+        Assets.playSound(Assets.clickSound);
+      }
+    };
 }

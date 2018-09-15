@@ -72,6 +72,32 @@ public class VisebleComponentsCh4 implements Subscriber {
             }
         }
         else if (GameStates.steps == Steps.STEP_3){ }
+
+        // Level 11 - 15 Drag Value
+        if (evt == Events.DRAGA1){
+            dragsquare();
+        }
+        else if (evt == Events.DRAGA2){
+            dragsquare1();
+        }
+        else if (evt == Events.DRAGA2){
+            dragsquare1();
+        }
+        else if (evt == Events.DRAGB1){
+            dragsquare1();
+        }
+        else if (evt == Events.DRAGB2){
+            dragsquare1();
+        }
+        else if (evt == Events.DRAGB3){
+            dragsquare1();
+        }
+        else if (evt == Events.DRAGC1){
+            dragsquare1();
+        }
+        else if (evt == Events.DRAGC2){
+            dragsquare1();
+        }
     }
 
     private void draglight() {

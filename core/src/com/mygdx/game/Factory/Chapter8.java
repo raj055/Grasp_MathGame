@@ -19,10 +19,10 @@ import java.util.ArrayList;
 
 public class Chapter8 extends ChapterScreen implements Screen {
 
-  ArrayList<Label> LabelPosition;
+  private ArrayList<Label> LabelPosition;
 
-  DoubleClickListener clickLabelAC,clickLabelAC1,clickLabelAB,clickLabelAB1,clickLabelBC,clickLabelBC1;
-  RelocateLabel relocateLabel;
+  private DoubleClickListener clickLabelAC,clickLabelAC1,clickLabelAB,clickLabelAB1,clickLabelBC,clickLabelBC1;
+  private RelocateLabel relocateLabel;
 
   private ArrayList<DoubleClickListener> arrDoubleListener;
 

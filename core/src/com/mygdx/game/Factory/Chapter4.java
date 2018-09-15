@@ -217,7 +217,6 @@ public class Chapter4 extends ChapterScreen implements Screen {
         updatable.getName();
       }
     }
-
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }
@@ -254,7 +253,6 @@ public class Chapter4 extends ChapterScreen implements Screen {
           }
         }
       }
-
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }

@@ -26,40 +26,33 @@ import java.util.ArrayList;
 
 public class Chapter7 extends ChapterScreen implements Screen {
 
-  ArrayList<Image> DragComponent;
-  ArrayList<Image> VisebalComponent;
+  private DragClickListener drag_L1_value3;
+  private DragClickListener drag_L1_value12;
+  private DragClickListener drag_L1_value14;
 
-  DragClickListener drag_L1_value;
-  DragClickListener drag_L1_value3;
-  DragClickListener drag_L1_value12;
-  DragClickListener drag_L1_value14;
+  private DragClickListener drag_L2_value12;
+  private DragClickListener drag_L2_value14;
+  private DragClickListener drag_L2_valuek1;
+  private DragClickListener drag_L2_valuek2;
+  private DragClickListener drag_L2_value1;
+  private DragClickListener drag_L2_value3;
+  private DragClickListener drag_L2_valuek3;
+  private DragClickListener drag_L2_valuek4;
 
-  DragClickListener drag_L2_value12;
-  DragClickListener drag_L2_value14;
-  DragClickListener drag_L2_valuek1;
-  DragClickListener drag_L2_valuek2;
-  DragClickListener drag_L2_value1;
-  DragClickListener drag_L2_value3;
-  DragClickListener drag_L2_valuek3;
-  DragClickListener drag_L2_valuek4;
+  private DragClickListener drag_L3_value1;
+  private DragClickListener drag_L3_value1_1;
+  private DragClickListener drag_L3_value3;
+  private DragClickListener drag_L3_value3_1;
+  private DragClickListener drag_L3_value12;
+  private DragClickListener drag_L3_value12_1;
+  private DragClickListener drag_L3_value14;
+  private DragClickListener drag_L3_value14_1;
+  private DragClickListener drag_L3_value22;
+  private DragClickListener drag_L3_value22_1;
+  private DragClickListener drag_L3_value24;
+  private DragClickListener drag_L3_value24_1;
 
-  DragClickListener drag_L3_value1;
-  DragClickListener drag_L3_value1_1;
-  DragClickListener drag_L3_value3;
-  DragClickListener drag_L3_value3_1;
-  DragClickListener drag_L3_value12;
-  DragClickListener drag_L3_value12_1;
-  DragClickListener drag_L3_value14;
-  DragClickListener drag_L3_value14_1;
-  DragClickListener drag_L3_value22;
-  DragClickListener drag_L3_value22_1;
-  DragClickListener drag_L3_value24;
-  DragClickListener drag_L3_value24_1;
-
-  VisebalComponentsCh7 visebalComponentsCh7;
-
-  private GlobalsCommonCount glv;
-
+  private VisebalComponentsCh7 visebalComponentsCh7;
   private ArrayList<DragClickListener> arrDragListener;
 
   Chapter7(){
@@ -68,13 +61,11 @@ public class Chapter7 extends ChapterScreen implements Screen {
     messageBox = new MessageBox();
     messageBox.AddStage(stage);
 
-    glv = GlobalsCommonCount.getInstance();
-
     getLevelName();
 
     initialiseLevelComponents(currentLevelNumber);
-
   }
+
   @Override
   public void show() {}
 
@@ -134,7 +125,7 @@ public class Chapter7 extends ChapterScreen implements Screen {
 
   void defineLevel1To5Components() {
 
-    drag_L1_value = new DragClickListener(Events.DRAG_L1_VALUE);
+    DragClickListener drag_L1_value = new DragClickListener(Events.DRAG_L1_VALUE);
     drag_L1_value3 = new DragClickListener(Events.DRAG_L1_VALUE3);
     drag_L1_value12 = new DragClickListener(Events.DRAG_L1_VALUE12);
     drag_L1_value14 = new DragClickListener(Events.DRAG_L1_VALUE14);
@@ -261,7 +252,6 @@ public class Chapter7 extends ChapterScreen implements Screen {
       }
       visebalComponentsCh7 = new VisebalComponentsCh7(displayImages, updatables);
     }
-
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }

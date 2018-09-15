@@ -29,30 +29,22 @@ import java.util.ArrayList;
 
 public class Chapter2 extends ChapterScreen implements Screen {
 
-  ArrayList<Image> imagesLines;
-  ArrayList<Image> dragCircle;
-  ArrayList<Image> scrollingImages = null;
-  ArrayList<Label> updateScrollLable = null;
-  ArrayList<Image> imageViseble = null;
+    private ArrayList<Image> imagesLines;
+    private ArrayList<Image> dragCircle;
+    private ArrayList<Image> scrollingImages = null;
+    private ArrayList<Label> updateScrollLable = null;
+    private ArrayList<Image> imageViseble = null;
 
-  //Update visible components on scrolling clicked
-  private ScrollingUpdateLabelCh1 scrollingUpdateLableCh1;
-
-  TextVeriabal textVeriabal;
-
-  ScrollingNumber numLocal;
-
-  BallDisplay ballDisplay;
-
-  Nagetiv_Num nagetivNum;
-
-  private DragPoint dragPoint;
-
-  private VisebleComponetsCh2 visebleComponetsCh2;
-
-  private ScrollingImageClick scrollingImageClick;
-
-  private ScrollingUpdateLabelCh2 scrollingUpdateLabelCh2;
+    //Update visible components on scrolling clicked
+    private ScrollingUpdateLabelCh1 scrollingUpdateLableCh1;
+    private TextVeriabal textVeriabal;
+    private ScrollingNumber numLocal;
+    private BallDisplay ballDisplay;
+    private Nagetiv_Num nagetivNum;
+    private DragPoint dragPoint;
+    private VisebleComponetsCh2 visebleComponetsCh2;
+    private ScrollingImageClick scrollingImageClick;
+    private ScrollingUpdateLabelCh2 scrollingUpdateLabelCh2;
 
   Chapter2(){
     super();

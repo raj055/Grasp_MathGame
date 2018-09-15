@@ -39,33 +39,31 @@ public class Chapter1 extends ChapterScreen implements Screen {
 
   //Get the components of level 1
   private Image progbar1;
-  ArrayList<Image> displayBalls = null;
-  ArrayList<Image> remainderBall = null;
-  ArrayList<Image> scrollingImages = null;
-  ArrayList<Label> updateScrollLable = null;
+  private ArrayList<Image> displayBalls = null;
+  private ArrayList<Image> remainderBall = null;
+  private ArrayList<Image> scrollingImages = null;
+  private ArrayList<Label> updateScrollLable = null;
 
   //Number of display balls for the LCM
-  BallDisplay ballDisplay;
+  private BallDisplay ballDisplay;
 
   //Ball Drag Listener
-  BallDragListener ballDragListener;
-  RemainderDragListener remBallDragListener;
+  private BallDragListener ballDragListener;
+  private RemainderDragListener remBallDragListener;
 
   //Scrolling Number
-  ScrollingNumber numLocal;
+  private ScrollingNumber numLocal;
 
   //Indicators
-  DragBallIndicators dragBallIndicators;
+  private DragBallIndicators dragBallIndicators;
 
   //Dependant Components
-  VisibleComponents visibleComponents;
-
-  ScrollingUpdateLabelCh1 scrollingUpdateLableCh1;
-
+  private VisibleComponents visibleComponents;
+  private ScrollingUpdateLabelCh1 scrollingUpdateLableCh1;
   private ScrollingImageClick scrollingImageClick;
 
   //Animation
-  AnimationClass animationClass;
+  private AnimationClass animationClass;
   private float elapsed_time;
 
   Chapter1(){

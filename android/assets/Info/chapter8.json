@@ -16,18 +16,6 @@
               ],
               "Visible": false
             },
-            "Step1Image": {
-              "Image": "data/Step1.png",
-              "Size": [
-                200,
-                50
-              ],
-              "Position": [
-                10,
-                70
-              ],
-              "Visible": true
-            },
             "SineAImage": {
               "Image": "data_ch8/sineA.png",
               "Size": [
@@ -65,7 +53,7 @@
               "Visible": true
             },
             "Title2Image": {
-              "Image": "data_ch8/title2.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 350,
                 220
@@ -420,18 +408,6 @@
               ],
               "Visible": false
             },
-            "Step2Image": {
-              "Image": "data/Step2.png",
-              "Size": [
-                200,
-                50
-              ],
-              "Position": [
-                10,
-                70
-              ],
-              "Visible": true
-            },
             "SineImage": {
               "Image": "data_ch8/cosecant.png",
               "Size": [
@@ -469,7 +445,7 @@
               "Visible": true
             },
             "Title2Image": {
-              "Image": "data_ch8/title2.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 350,
                 220
@@ -826,18 +802,6 @@
               ],
               "Visible": false
             },
-            "Step1Image": {
-              "Image": "data/Step1.png",
-              "Size": [
-                200,
-                50
-              ],
-              "Position": [
-                10,
-                70
-              ],
-              "Visible": true
-            },
             "SineAImage": {
               "Image": "data_ch8/sineA.png",
               "Size": [
@@ -875,7 +839,7 @@
               "Visible": true
             },
             "Title2Image": {
-              "Image": "data_ch8/title2.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 350,
                 220
@@ -1230,18 +1194,6 @@
               ],
               "Visible": false
             },
-            "Step2Image": {
-              "Image": "data/Step2.png",
-              "Size": [
-                200,
-                50
-              ],
-              "Position": [
-                10,
-                70
-              ],
-              "Visible": true
-            },
             "SineImage": {
               "Image": "data_ch8/cosecant.png",
               "Size": [
@@ -1279,7 +1231,7 @@
               "Visible": true
             },
             "Title2Image": {
-              "Image": "data_ch8/title2.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 350,
                 220
@@ -1636,18 +1588,6 @@
               ],
               "Visible": false
             },
-            "Step1Image": {
-              "Image": "data/Step1.png",
-              "Size": [
-                200,
-                50
-              ],
-              "Position": [
-                10,
-                70
-              ],
-              "Visible": true
-            },
             "SineAImage": {
               "Image": "data_ch8/sineA.png",
               "Size": [
@@ -1685,7 +1625,7 @@
               "Visible": true
             },
             "Title2Image": {
-              "Image": "data_ch8/title2.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 350,
                 220
@@ -2040,18 +1980,6 @@
               ],
               "Visible": false
             },
-            "Step2Image": {
-              "Image": "data/Step2.png",
-              "Size": [
-                200,
-                50
-              ],
-              "Position": [
-                10,
-                70
-              ],
-              "Visible": true
-            },
             "SineImage": {
               "Image": "data_ch8/cosecant.png",
               "Size": [
@@ -2089,7 +2017,7 @@
               "Visible": true
             },
             "Title2Image": {
-              "Image": "data_ch8/title2.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 350,
                 220
@@ -2446,18 +2374,6 @@
               ],
               "Visible": false
             },
-            "Step1Image": {
-              "Image": "data/Step1.png",
-              "Size": [
-                200,
-                50
-              ],
-              "Position": [
-                10,
-                70
-              ],
-              "Visible": true
-            },
             "SineAImage": {
               "Image": "data_ch8/sineA.png",
               "Size": [
@@ -2495,7 +2411,7 @@
               "Visible": true
             },
             "Title2Image": {
-              "Image": "data_ch8/title2.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 350,
                 220
@@ -2850,18 +2766,6 @@
               ],
               "Visible": false
             },
-            "Step2Image": {
-              "Image": "data/Step2.png",
-              "Size": [
-                200,
-                50
-              ],
-              "Position": [
-                10,
-                70
-              ],
-              "Visible": true
-            },
             "SineImage": {
               "Image": "data_ch8/cosecant.png",
               "Size": [
@@ -2899,7 +2803,7 @@
               "Visible": true
             },
             "Title2Image": {
-              "Image": "data_ch8/title2.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 350,
                 220
@@ -3256,18 +3160,6 @@
               ],
               "Visible": false
             },
-            "Step1Image": {
-              "Image": "data/Step1.png",
-              "Size": [
-                200,
-                50
-              ],
-              "Position": [
-                10,
-                70
-              ],
-              "Visible": true
-            },
             "SineAImage": {
               "Image": "data_ch8/sineA.png",
               "Size": [
@@ -3305,7 +3197,7 @@
               "Visible": true
             },
             "Title2Image": {
-              "Image": "data_ch8/title2.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 350,
                 220
@@ -3660,18 +3552,6 @@
               ],
               "Visible": false
             },
-            "Step2Image": {
-              "Image": "data/Step2.png",
-              "Size": [
-                200,
-                50
-              ],
-              "Position": [
-                10,
-                70
-              ],
-              "Visible": true
-            },
             "SineImage": {
               "Image": "data_ch8/cosecant.png",
               "Size": [
@@ -3709,7 +3589,7 @@
               "Visible": true
             },
             "Title2Image": {
-              "Image": "data_ch8/title2.png",
+              "Image": "data1/asset26.png",
               "Size": [
                 350,
                 220

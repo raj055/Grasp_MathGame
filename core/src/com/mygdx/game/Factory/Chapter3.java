@@ -23,43 +23,41 @@ import java.util.ArrayList;
 
 public class Chapter3 extends ChapterScreen implements Screen {
 
-   ArrayList<Image> ClickImage;
-   ArrayList<Image> Changeposition;
-   ArrayList<Image> VisebalComponent;
-
+  private ArrayList<Image> ClickImage;
+  private ArrayList<Image> Changeposition;
+  private ArrayList<Image> VisebalComponent;
   private ArrayList<Image> scrollingImages = null;
-
   private ScrollingNumber numLocal;
 
   //Update labels on click scrolling components
-  ScrollingUpdateCh3 scrollingUpdateCh3;
+  private ScrollingUpdateCh3 scrollingUpdateCh3;
 
-  DoubleClickListener clickListenerY1;
-  DoubleClickListener clickListenerY2;
-  DoubleClickListener clickListenerSq1;
-  DoubleClickListener clickListenerSq2;
-  DoubleClickListener clickListenerC1;
-  DoubleClickListener clickListenerC2;
+  private DoubleClickListener clickListenerY1;
+  private DoubleClickListener clickListenerY2;
+  private DoubleClickListener clickListenerSq1;
+  private DoubleClickListener clickListenerSq2;
+  private DoubleClickListener clickListenerC1;
+  private DoubleClickListener clickListenerC2;
 
-  DragClickListener dragListenerA1;
-  DragClickListener dragListenerB1;
-  DragClickListener dragListenerC1;
-  DragClickListener dragListenerA2;
-  DragClickListener dragListenerB2;
-  DragClickListener dragListenerC2;
-  DragClickListener dragListenerB11;
-  DragClickListener dragListenerB21;
+  private DragClickListener dragListenerA1;
+  private DragClickListener dragListenerB1;
+  private DragClickListener dragListenerC1;
+  private DragClickListener dragListenerA2;
+  private DragClickListener dragListenerB2;
+  private DragClickListener dragListenerC2;
+  private DragClickListener dragListenerB11;
+  private DragClickListener dragListenerB21;
 
-  VisebalComponentsCh3 visebalComponentsCh3;
-  VisebalComponentsCh3 visebalComponentsCh3Level11;
+  private VisebalComponentsCh3 visebalComponentsCh3;
+  private VisebalComponentsCh3 visebalComponentsCh3Level11;
 
   private ArrayList<DragClickListener> arrDragListener;
   private ArrayList<DoubleClickListener> arrClickListener;
 
   //Animation
   private float elapsed_time;
-  AnimationClass animationClass;
-  TrainAnimation trainAnimation;
+  private AnimationClass animationClass;
+  private TrainAnimation trainAnimation;
   int posX = 0;
 
   Chapter3(){
@@ -224,7 +222,6 @@ public class Chapter3 extends ChapterScreen implements Screen {
       }
       visebalComponentsCh3 = new VisebalComponentsCh3(displayImages, updatables);
     }
-
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }
