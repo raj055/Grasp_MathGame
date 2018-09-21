@@ -136,10 +136,19 @@ public class Chapter1 extends ChapterScreen implements Screen {
 
       if(goToNextStep() != true) {
         messageBox.ShowDialog();
-//        GameStates.screenStates = ScreenStates.LEVELSCREEN;
-        time.dispose();
+
+        if (messageBox.NextStep.isTouchable()){
+          messageBox.NextStep.addListener(new ClickListener(){
+            @Override
+            public void clicked(InputEvent event, float x, float y) {
+              GameStates.screenStates = ScreenStates.LEVELSCREEN;
+            }
+          });
+        }
+//        time.dispose();
       }
       else{
+
         int trnslate = 400;
         stageTranslate += 400;
         //Get the Level Number and Initialise the Level Components.
@@ -151,6 +160,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
       }
     }
   };
+
 
   private void defineLevel1To10Components() {
     ChapterVariables chapterVariables = ChapterVariables.getInstance();

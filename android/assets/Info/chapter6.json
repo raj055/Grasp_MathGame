@@ -1565,12 +1565,11 @@
           },
           "Scrolling":{
             "number0": {
-              "Image": "Numbers/number0.png",
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 0,
               "Visible": true
             },
             "number1": {
@@ -1946,12 +1945,11 @@
           },
           "Scrolling":{
             "number0": {
-              "Image": "Numbers/number0.png",
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 0,
               "Visible": true
             },
             "number1": {
@@ -2671,12 +2669,11 @@
           },
           "Scrolling":{
             "number0": {
-              "Image": "Numbers/number0.png",
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 0,
               "Visible": true
             },
             "number1": {
@@ -3052,12 +3049,11 @@
           },
           "Scrolling":{
             "number0": {
-              "Image": "Numbers/number0.png",
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 0,
               "Visible": true
             },
             "number1": {
@@ -3777,12 +3773,11 @@
           },
           "Scrolling":{
             "number0": {
-              "Image": "Numbers/number0.png",
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 0,
               "Visible": true
             },
             "number1": {
@@ -4158,12 +4153,11 @@
           },
           "Scrolling":{
             "number0": {
-              "Image": "Numbers/number0.png",
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 0,
               "Visible": true
             },
             "number1": {
@@ -4883,12 +4877,11 @@
           },
           "Scrolling":{
             "number0": {
-              "Image": "Numbers/number0.png",
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 0,
               "Visible": true
             },
             "number1": {
@@ -5264,12 +5257,11 @@
           },
           "Scrolling":{
             "number0": {
-              "Image": "Numbers/number0.png",
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 0,
               "Visible": true
             },
             "number1": {
@@ -5989,12 +5981,11 @@
           },
           "Scrolling":{
             "number0": {
-              "Image": "Numbers/number0.png",
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 0,
               "Visible": true
             },
             "number1": {
@@ -6370,12 +6361,11 @@
           },
           "Scrolling":{
             "number0": {
-              "Image": "Numbers/number0.png",
+              "Image": "New_Number/asset_number0.png",
               "Size": [
                 30,
                 40
               ],
-              "Value" : 0,
               "Visible": true
             },
             "number1": {

@@ -88,56 +88,49 @@ public class VisebalComponentsCh7 implements Subscriber {
             Label synlabel1 = getLabel("SyntaxLabel1");
 
             value1.setPosition(140, MyGame.HEIGHT - 130);
-            synlabel1.setPosition(175,185);
-            synlabel1.setText("2");
+            synlabel1.setText(value1.getText());
         }
         else if (evt == Events.DRAG_L1_VALUE3){
             Label value3 = getLabel("LabelValue3");
             Label synlabel = getLabel("SyntaxLabel");
 
             value3.setPosition(170,MyGame.HEIGHT - 130);
-            synlabel.setPosition(130,185);
-            synlabel.setText("8");
+            synlabel.setText("3");
         }
         else if (evt == Events.DRAG_L1_VALUE12){
             Label value12 = getLabel("LabelValue12");
             Label synlabel2 = getLabel("SyntaxLabel2");
 
             value12.setPosition(240,MyGame.HEIGHT - 250);
-            synlabel2.setPosition(MyGame.WIDTH - 75,185);
-            synlabel2.setText("7");
+            synlabel2.setText(value12.getText());
         }
         else if (evt == Events.DRAG_L1_VALUE14){
             Label value14 = getLabel("LabelValue14");
             Label synlabel3 = getLabel("SyntaxLabel3");
 
             value14.setPosition(270,MyGame.HEIGHT - 250);
-            synlabel3.setPosition(MyGame.WIDTH - 120,185);
-            synlabel3.setText("5");
+            synlabel3.setText("1");
         }
         else if (evt == Events.DRAG_L2_VALUE12){
             Label value12 = getLabel("LabelValue12");
             Label synlabelx1 = getLabel("SyntaxLabelx1");
 
             value12.setPosition(260,MyGame.HEIGHT - 130);
-            synlabelx1.setPosition(MyGame.WIDTH - 150,235);
-            synlabelx1.setText("8");
+            synlabelx1.setText(value12.getText());
         }
         else if (evt == Events.DRAG_L2_VALUE14){
             Label value14 = getLabel("LabelValue1");
             Label synlabelx2 = getLabel("SyntaxLabelx2");
 
             value14.setPosition(290,MyGame.HEIGHT - 130);
-            synlabelx2.setPosition(160,235);
-            synlabelx2.setText("5");
+            synlabelx2.setText(value14.getText());
         }
         else if (evt == Events.DRAG_L2_VALUEK1){
             Label valuek1 = getLabel("LabelValuek1");
             Label synlabelk1 = getLabel("SyntaxLabelk1");
 
             valuek1.setPosition(110,MyGame.HEIGHT - 150);
-            synlabelk1.setPosition(150,150);
-            synlabelk1.setText("3");
+            synlabelk1.setText(valuek1.getText());
         }
         else if (evt == Events.DRAG_L2_VALUEK2){
             Label valuek2 = getLabel("LabelValuek2");
@@ -151,15 +144,13 @@ public class VisebalComponentsCh7 implements Subscriber {
             Label synlabely1 = getLabel("SyntaxLabely1");
 
             value1.setPosition(120,MyGame.HEIGHT - 300);
-            synlabely1.setPosition(MyGame.WIDTH - 150,235);
-            synlabely1.setText("4");
+            synlabely1.setText(value1.getText());
         }
         else if (evt == Events.DRAG_L2_VALUE3){
             Label value3 = getLabel("LabelValue3");
             Label synlabely2 = getLabel("SyntaxLabely2");
 
             value3.setPosition(1140,MyGame.HEIGHT - 300);
-            synlabely2.setPosition(160,235);
             synlabely2.setText("-3");
         }
         else if (evt == Events.DRAG_L2_VALUEK3){
@@ -167,8 +158,7 @@ public class VisebalComponentsCh7 implements Subscriber {
             Label synlabelk1 = getLabel("SyntaxLabelk1");
 
             valuek3.setPosition(MyGame.WIDTH - 100,MyGame.HEIGHT - 270);
-            synlabelk1.setPosition(150,150);
-            synlabelk1.setText("1");
+            synlabelk1.setText(valuek3.getText());
         }
         else if (evt == Events.DRAG_L2_VALUEK4){
             Label valuek4 = getLabel("LabelValuek4");
@@ -182,8 +172,7 @@ public class VisebalComponentsCh7 implements Subscriber {
             Label synlabelx33 = getLabel("SyntaxLabelx33");
 
             value1.setPosition(260,MyGame.HEIGHT - 130);
-            synlabelx33.setPosition(MyGame.WIDTH - 140,105);
-            synlabelx33.setText("8");
+            synlabelx33.setText(value1.getText());
         }
         else if (evt == Events.DRAG_L3_VALUE1_1){
             Label value1_1 = getLabel("LabelValue1_1");
@@ -197,8 +186,7 @@ public class VisebalComponentsCh7 implements Subscriber {
             Label synlabely33 = getLabel("SyntaxLabely33");
 
             value3.setPosition(290,MyGame.HEIGHT - 130);
-            synlabely33.setPosition(170,110);
-            synlabely33.setText("12");
+            synlabely33.setText(value3.getText());
         }
         else if (evt == Events.DRAG_L3_VALUE3_1){
             Label value3_1 = getLabel("LabelValue3_1");
@@ -212,8 +200,7 @@ public class VisebalComponentsCh7 implements Subscriber {
             Label synlabelx11 = getLabel("SyntaxLabelx11");
 
             value12.setPosition(120,MyGame.HEIGHT - 220);
-            synlabelx11.setPosition(MyGame.WIDTH - 80,185);
-            synlabelx11.setText("2");
+            synlabelx11.setText(value12.getText());
         }
         else if (evt == Events.DRAG_L3_VALUE12_1){
             Label value12_1 = getLabel("LabelValue12_1");
@@ -227,8 +214,7 @@ public class VisebalComponentsCh7 implements Subscriber {
             Label synlabelx22 = getLabel("SyntaxLabelx22");
 
             value14.setPosition(150,MyGame.HEIGHT - 220);
-            synlabelx22.setPosition(MyGame.WIDTH - 80,105);
-            synlabelx22.setText("8");
+            synlabelx22.setText(value14.getText());
         }
         else if (evt == Events.DRAG_L3_VALUE14_1){
             Label value14_1 = getLabel("LabelValue14_1");
@@ -242,8 +228,7 @@ public class VisebalComponentsCh7 implements Subscriber {
             Label synlabely11 = getLabel("SyntaxLabely11");
 
             value22.setPosition(240,MyGame.HEIGHT - 300);
-            synlabely11.setPosition(170,190);
-            synlabely11.setText("4");
+            synlabely11.setText(value22.getText());
         }
         else if (evt == Events.DRAG_L3_VALUE22_1){
             Label value22_1 = getLabel("LabelValue22_1");
@@ -257,8 +242,7 @@ public class VisebalComponentsCh7 implements Subscriber {
             Label synlabely22 = getLabel("SyntaxLabely22");
 
             value24.setPosition(270,MyGame.HEIGHT - 300);
-            synlabely22.setPosition(100,110);
-            synlabely22.setText("2");
+            synlabely22.setText(value24.getText());
         }
         else if (evt == Events.DRAG_L3_VALUE24_1){
             Label value24_1 = getLabel("LabelValue24_1");

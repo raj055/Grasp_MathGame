@@ -132,7 +132,7 @@
                 300
               ],
               "Position": [
-                340,
+                333,
                 600
               ],
               "Visible": false
@@ -621,7 +621,7 @@
                 300
               ],
               "Position": [
-                340,
+                333,
                 600
               ],
               "Visible": false
@@ -1110,7 +1110,7 @@
                 300
               ],
               "Position": [
-                340,
+                333,
                 600
               ],
               "Visible": false
@@ -1599,7 +1599,7 @@
                 300
               ],
               "Position": [
-                340,
+                333,
                 600
               ],
               "Visible": false
@@ -2088,7 +2088,7 @@
                 300
               ],
               "Position": [
-                340,
+                333,
                 600
               ],
               "Visible": false
@@ -2577,7 +2577,7 @@
                 300
               ],
               "Position": [
-                340,
+                333,
                 600
               ],
               "Visible": false
@@ -3064,7 +3064,7 @@
                 300
               ],
               "Position": [
-                340,
+                333,
                 600
               ],
               "Visible": false
@@ -3551,7 +3551,7 @@
                 300
               ],
               "Position": [
-                340,
+                333,
                 600
               ],
               "Visible": false
@@ -4038,7 +4038,7 @@
                 300
               ],
               "Position": [
-                340,
+                333,
                 600
               ],
               "Visible": false
@@ -4525,7 +4525,7 @@
                 300
               ],
               "Position": [
-                340,
+                333,
                 600
               ],
               "Visible": false
@@ -5012,7 +5012,7 @@
                 300
               ],
               "Position": [
-                340,
+                333,
                 600
               ],
               "Visible": false
@@ -5499,7 +5499,7 @@
                 300
               ],
               "Position": [
-                340,
+                333,
                 600
               ],
               "Visible": false
@@ -5988,7 +5988,7 @@
                 300
               ],
               "Position": [
-                340,
+                333,
                 600
               ],
               "Visible": false
@@ -6475,7 +6475,7 @@
                 300
               ],
               "Position": [
-                340,
+                333,
                 600
               ],
               "Visible": false
@@ -6962,7 +6962,7 @@
                 300
               ],
               "Position": [
-                340,
+                333,
                 600
               ],
               "Visible": false
@@ -7451,7 +7451,7 @@
                 300
               ],
               "Position": [
-                340,
+                333,
                 600
               ],
               "Visible": false
@@ -7940,7 +7940,7 @@
                 300
               ],
               "Position": [
-                340,
+                333,
                 600
               ],
               "Visible": false
@@ -8427,7 +8427,7 @@
                 300
               ],
               "Position": [
-                340,
+                333,
                 600
               ],
               "Visible": false
@@ -8914,7 +8914,7 @@
                 300
               ],
               "Position": [
-                340,
+                333,
                 600
               ],
               "Visible": false
@@ -9403,7 +9403,7 @@
                 300
               ],
               "Position": [
-                340,
+                333,
                 600
               ],
               "Visible": false
@@ -9890,7 +9890,7 @@
                 300
               ],
               "Position": [
-                340,
+                333,
                 600
               ],
               "Visible": false
@@ -10254,12 +10254,12 @@
             "ball1": {
               "Image": "data/ball_1.png",
               "Size": [
-                40,
-                40
+                30,
+                30
               ],
               "Position": [
-                50,
-                260
+                10,
+                290
               ],
               "Visible": false,
               "Total": 36
@@ -10291,12 +10291,12 @@
             "GreyPanel": {
               "Image": "data1/asset26.png",
               "Size": [
-                340,
-                360
+                360,
+                400
               ],
               "Position": [
-                25,
-                580
+                20,
+                630
               ],
               "Visible": true
             },

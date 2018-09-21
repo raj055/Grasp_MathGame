@@ -167,6 +167,9 @@ public abstract class ChapterScreen {
 //        xPosAdditionFactor = 0;
       return true;
     }
+    /*else {
+      messageBox.ShowDialog();
+    }*/
     return false;
   }
 

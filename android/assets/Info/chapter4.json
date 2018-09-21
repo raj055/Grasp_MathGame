@@ -4371,14 +4371,7 @@
             }
           },
           "Scrolling":{
-            "number0": {
-              "Image": "New_Number/asset_number0.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
+            
             "number1": {
               "Image": "New_Number/asset_number1.png",
               "Size": [

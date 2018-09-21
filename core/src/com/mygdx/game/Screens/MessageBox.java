@@ -9,6 +9,7 @@ import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.mygdx.game.Animation.AnimationClass;
 import com.mygdx.game.Enum.ScreenStates;
 import com.mygdx.game.Factory.GameStates;
+import com.mygdx.game.Tools.Assets;
 
 public class MessageBox {
 

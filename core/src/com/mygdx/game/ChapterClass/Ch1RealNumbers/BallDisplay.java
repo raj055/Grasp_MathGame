@@ -47,8 +47,8 @@ public class BallDisplay {
     for (int i = 0; i < columns; i++){
       for (int j = 0; j < rows; j++) {
 
-        posX = 50 + global.posXBall[i];
-        posY = 440 - global.posYBall[j];
+        posX = 20 + global.posXBall[i];
+        posY = 445 - global.posYBall[j];
 
         balls[i][j].setSize(40, 40);
         balls[i][j].setPosition(posX,posY);

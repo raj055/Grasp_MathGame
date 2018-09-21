@@ -84,7 +84,7 @@
               ],
               "Position": [
                 10,
-                595
+                580
               ],
               "Visible": true
             },
@@ -96,7 +96,7 @@
               ],
               "Position": [
                 120,
-                595
+                580
               ],
               "Visible": true
             },
@@ -108,7 +108,7 @@
               ],
               "Position": [
                 220,
-                595
+                580
               ],
               "Visible": true
             },
@@ -120,7 +120,7 @@
               ],
               "Position": [
                 10,
-                660
+                640
               ],
               "Visible": true
             },
@@ -132,7 +132,7 @@
               ],
               "Position": [
                 120,
-                660
+                640
               ],
               "Visible": true
             },
@@ -144,7 +144,7 @@
               ],
               "Position": [
                 220,
-                660
+                640
               ],
               "Visible": true
             },
@@ -254,7 +254,7 @@
               ],
               "Position": [
                 30,
-                585
+                575
               ]
             },
             "LabelValue1_0": {
@@ -265,7 +265,7 @@
               ],
               "Position": [
                 140,
-                585
+                575
               ]
             },
             "LabelValue1": {
@@ -276,7 +276,7 @@
               ],
               "Position": [
                 140,
-                585
+                575
               ]
             },
             "LabelValue1_1": {
@@ -287,7 +287,7 @@
               ],
               "Position": [
                 140,
-                585
+                575
               ]
             },
             "LabelValue2": {
@@ -298,7 +298,7 @@
               ],
               "Position": [
                 240,
-                585
+                575
               ]
             },
             "LabelValue3_0": {
@@ -309,7 +309,7 @@
               ],
               "Position": [
                 30,
-                650
+                635
               ]
             },
             "LabelValue3": {
@@ -320,7 +320,7 @@
               ],
               "Position": [
                 30,
-                650
+                635
               ]
             },
             "LabelValue3_1": {
@@ -331,7 +331,7 @@
               ],
               "Position": [
                 30,
-                650
+                635
               ]
             },
             "LabelValue4": {
@@ -342,7 +342,7 @@
               ],
               "Position": [
                 140,
-                650
+                635
               ]
             },
             "LabelValue5_0": {
@@ -353,7 +353,7 @@
               ],
               "Position": [
                 240,
-                650
+                635
               ]
             },
             "LabelValue5": {
@@ -364,7 +364,7 @@
               ],
               "Position": [
                 240,
-                650
+                635
               ]
             },
             "LabelValue5_1": {
@@ -375,7 +375,7 @@
               ],
               "Position": [
                 240,
-                650
+                635
               ]
             }
           },
@@ -408,8 +408,8 @@
               ],
               "Visible": false
             },
-            "SineImage": {
-              "Image": "data_ch8/cosecant.png",
+            "SineAImage": {
+              "Image": "data_ch8/sineA.png",
               "Size": [
                 180,
                 100
@@ -420,8 +420,8 @@
               ],
               "Visible": true
             },
-            "CosImage": {
-              "Image": "data_ch8/secant.png",
+            "CosAImage": {
+              "Image": "data_ch8/cosA.png",
               "Size": [
                 180,
                 100
@@ -433,7 +433,7 @@
               "Visible": true
             },
             "TanImage": {
-              "Image": "data_ch8/cotenge.png",
+              "Image": "data_ch8/tan.png",
               "Size": [
                 180,
                 100
@@ -476,7 +476,7 @@
               ],
               "Position": [
                 10,
-                595
+                580
               ],
               "Visible": true
             },
@@ -488,7 +488,7 @@
               ],
               "Position": [
                 120,
-                595
+                580
               ],
               "Visible": true
             },
@@ -500,7 +500,7 @@
               ],
               "Position": [
                 220,
-                595
+                580
               ],
               "Visible": true
             },
@@ -512,7 +512,7 @@
               ],
               "Position": [
                 10,
-                660
+                640
               ],
               "Visible": true
             },
@@ -524,7 +524,7 @@
               ],
               "Position": [
                 120,
-                660
+                640
               ],
               "Visible": true
             },
@@ -536,21 +536,21 @@
               ],
               "Position": [
                 220,
-                660
+                640
               ],
               "Visible": true
             },
-            "Line1Image": {
+            "LineImage": {
               "Image": "data_ch8/line.png",
               "Size": [
-                40,
+                60,
                 5
               ],
               "Position": [
-                150,
-                132
+                120,
+                135
               ],
-              "Visible": false
+              "Visible": true
             },
             "Line2Image": {
               "Image": "data_ch8/line.png",
@@ -559,22 +559,22 @@
                 5
               ],
               "Position": [
-                80,
-                133
+                320,
+                135
               ],
-              "Visible": false
+              "Visible": true
             },
             "Line3Image": {
               "Image": "data_ch8/line.png",
               "Size": [
-                40,
+                50,
                 5
               ],
               "Position": [
-                240,
-                243
+                230,
+                240
               ],
-              "Visible": false
+              "Visible": true
             },
             "PauseBttn":{
               "Image": "data1/pause.png",
@@ -646,7 +646,7 @@
               ],
               "Position": [
                 30,
-                585
+                575
               ]
             },
             "LabelValue1_0": {
@@ -657,7 +657,7 @@
               ],
               "Position": [
                 140,
-                585
+                575
               ]
             },
             "LabelValue1": {
@@ -668,7 +668,7 @@
               ],
               "Position": [
                 140,
-                585
+                575
               ]
             },
             "LabelValue1_1": {
@@ -679,7 +679,7 @@
               ],
               "Position": [
                 140,
-                585
+                575
               ]
             },
             "LabelValue2": {
@@ -690,7 +690,7 @@
               ],
               "Position": [
                 240,
-                585
+                575
               ]
             },
             "LabelValue3_0": {
@@ -701,7 +701,7 @@
               ],
               "Position": [
                 30,
-                650
+                635
               ]
             },
             "LabelValue3": {
@@ -712,7 +712,18 @@
               ],
               "Position": [
                 30,
-                650
+                635
+              ]
+            },
+            "LabelValue3_1": {
+              "Text" :"AB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                635
               ]
             },
             "LabelValue4": {
@@ -723,7 +734,7 @@
               ],
               "Position": [
                 140,
-                650
+                635
               ]
             },
             "LabelValue5_0": {
@@ -734,7 +745,7 @@
               ],
               "Position": [
                 240,
-                650
+                635
               ]
             },
             "LabelValue5": {
@@ -745,7 +756,7 @@
               ],
               "Position": [
                 240,
-                650
+                635
               ]
             },
             "LabelValue5_1": {
@@ -756,18 +767,7 @@
               ],
               "Position": [
                 240,
-                650
-              ]
-            },
-            "LabelValue5_2": {
-              "Text" :"BC",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                240,
-                650
+                635
               ]
             }
           },
@@ -870,7 +870,7 @@
               ],
               "Position": [
                 10,
-                595
+                580
               ],
               "Visible": true
             },
@@ -882,7 +882,7 @@
               ],
               "Position": [
                 120,
-                595
+                580
               ],
               "Visible": true
             },
@@ -894,7 +894,7 @@
               ],
               "Position": [
                 220,
-                595
+                580
               ],
               "Visible": true
             },
@@ -906,7 +906,7 @@
               ],
               "Position": [
                 10,
-                660
+                640
               ],
               "Visible": true
             },
@@ -918,7 +918,7 @@
               ],
               "Position": [
                 120,
-                660
+                640
               ],
               "Visible": true
             },
@@ -930,7 +930,7 @@
               ],
               "Position": [
                 220,
-                660
+                640
               ],
               "Visible": true
             },
@@ -1040,7 +1040,7 @@
               ],
               "Position": [
                 30,
-                585
+                575
               ]
             },
             "LabelValue1_0": {
@@ -1051,7 +1051,7 @@
               ],
               "Position": [
                 140,
-                585
+                575
               ]
             },
             "LabelValue1": {
@@ -1062,7 +1062,7 @@
               ],
               "Position": [
                 140,
-                585
+                575
               ]
             },
             "LabelValue1_1": {
@@ -1073,7 +1073,7 @@
               ],
               "Position": [
                 140,
-                585
+                575
               ]
             },
             "LabelValue2": {
@@ -1084,7 +1084,7 @@
               ],
               "Position": [
                 240,
-                585
+                575
               ]
             },
             "LabelValue3_0": {
@@ -1095,7 +1095,7 @@
               ],
               "Position": [
                 30,
-                650
+                635
               ]
             },
             "LabelValue3": {
@@ -1106,7 +1106,7 @@
               ],
               "Position": [
                 30,
-                650
+                635
               ]
             },
             "LabelValue3_1": {
@@ -1117,7 +1117,7 @@
               ],
               "Position": [
                 30,
-                650
+                635
               ]
             },
             "LabelValue4": {
@@ -1128,7 +1128,7 @@
               ],
               "Position": [
                 140,
-                650
+                635
               ]
             },
             "LabelValue5_0": {
@@ -1139,7 +1139,7 @@
               ],
               "Position": [
                 240,
-                650
+                635
               ]
             },
             "LabelValue5": {
@@ -1150,7 +1150,7 @@
               ],
               "Position": [
                 240,
-                650
+                635
               ]
             },
             "LabelValue5_1": {
@@ -1161,7 +1161,7 @@
               ],
               "Position": [
                 240,
-                650
+                635
               ]
             }
           },
@@ -1194,8 +1194,8 @@
               ],
               "Visible": false
             },
-            "SineImage": {
-              "Image": "data_ch8/cosecant.png",
+            "SineAImage": {
+              "Image": "data_ch8/sineA.png",
               "Size": [
                 180,
                 100
@@ -1206,8 +1206,8 @@
               ],
               "Visible": true
             },
-            "CosImage": {
-              "Image": "data_ch8/secant.png",
+            "CosAImage": {
+              "Image": "data_ch8/cosA.png",
               "Size": [
                 180,
                 100
@@ -1219,7 +1219,7 @@
               "Visible": true
             },
             "TanImage": {
-              "Image": "data_ch8/cotenge.png",
+              "Image": "data_ch8/tan.png",
               "Size": [
                 180,
                 100
@@ -1262,7 +1262,7 @@
               ],
               "Position": [
                 10,
-                595
+                580
               ],
               "Visible": true
             },
@@ -1274,7 +1274,7 @@
               ],
               "Position": [
                 120,
-                595
+                580
               ],
               "Visible": true
             },
@@ -1286,7 +1286,7 @@
               ],
               "Position": [
                 220,
-                595
+                580
               ],
               "Visible": true
             },
@@ -1298,7 +1298,7 @@
               ],
               "Position": [
                 10,
-                660
+                640
               ],
               "Visible": true
             },
@@ -1310,7 +1310,7 @@
               ],
               "Position": [
                 120,
-                660
+                640
               ],
               "Visible": true
             },
@@ -1322,21 +1322,21 @@
               ],
               "Position": [
                 220,
-                660
+                640
               ],
               "Visible": true
             },
-            "Line1Image": {
+            "LineImage": {
               "Image": "data_ch8/line.png",
               "Size": [
-                40,
+                60,
                 5
               ],
               "Position": [
-                150,
-                132
+                120,
+                135
               ],
-              "Visible": false
+              "Visible": true
             },
             "Line2Image": {
               "Image": "data_ch8/line.png",
@@ -1345,22 +1345,22 @@
                 5
               ],
               "Position": [
-                80,
-                133
+                320,
+                135
               ],
-              "Visible": false
+              "Visible": true
             },
             "Line3Image": {
               "Image": "data_ch8/line.png",
               "Size": [
-                40,
+                50,
                 5
               ],
               "Position": [
-                240,
-                243
+                230,
+                240
               ],
-              "Visible": false
+              "Visible": true
             },
             "PauseBttn":{
               "Image": "data1/pause.png",
@@ -1432,7 +1432,7 @@
               ],
               "Position": [
                 30,
-                585
+                575
               ]
             },
             "LabelValue1_0": {
@@ -1443,7 +1443,7 @@
               ],
               "Position": [
                 140,
-                585
+                575
               ]
             },
             "LabelValue1": {
@@ -1454,7 +1454,7 @@
               ],
               "Position": [
                 140,
-                585
+                575
               ]
             },
             "LabelValue1_1": {
@@ -1465,7 +1465,7 @@
               ],
               "Position": [
                 140,
-                585
+                575
               ]
             },
             "LabelValue2": {
@@ -1476,7 +1476,7 @@
               ],
               "Position": [
                 240,
-                585
+                575
               ]
             },
             "LabelValue3_0": {
@@ -1487,7 +1487,7 @@
               ],
               "Position": [
                 30,
-                650
+                635
               ]
             },
             "LabelValue3": {
@@ -1498,7 +1498,18 @@
               ],
               "Position": [
                 30,
-                650
+                635
+              ]
+            },
+            "LabelValue3_1": {
+              "Text" :"AB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                635
               ]
             },
             "LabelValue4": {
@@ -1509,7 +1520,7 @@
               ],
               "Position": [
                 140,
-                650
+                635
               ]
             },
             "LabelValue5_0": {
@@ -1520,7 +1531,7 @@
               ],
               "Position": [
                 240,
-                650
+                635
               ]
             },
             "LabelValue5": {
@@ -1531,7 +1542,7 @@
               ],
               "Position": [
                 240,
-                650
+                635
               ]
             },
             "LabelValue5_1": {
@@ -1542,18 +1553,7 @@
               ],
               "Position": [
                 240,
-                650
-              ]
-            },
-            "LabelValue5_2": {
-              "Text" :"BC",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                240,
-                650
+                635
               ]
             }
           },
@@ -1656,7 +1656,7 @@
               ],
               "Position": [
                 10,
-                595
+                580
               ],
               "Visible": true
             },
@@ -1668,7 +1668,7 @@
               ],
               "Position": [
                 120,
-                595
+                580
               ],
               "Visible": true
             },
@@ -1680,7 +1680,7 @@
               ],
               "Position": [
                 220,
-                595
+                580
               ],
               "Visible": true
             },
@@ -1692,7 +1692,7 @@
               ],
               "Position": [
                 10,
-                660
+                640
               ],
               "Visible": true
             },
@@ -1704,7 +1704,7 @@
               ],
               "Position": [
                 120,
-                660
+                640
               ],
               "Visible": true
             },
@@ -1716,7 +1716,7 @@
               ],
               "Position": [
                 220,
-                660
+                640
               ],
               "Visible": true
             },
@@ -1826,7 +1826,7 @@
               ],
               "Position": [
                 30,
-                585
+                575
               ]
             },
             "LabelValue1_0": {
@@ -1837,7 +1837,7 @@
               ],
               "Position": [
                 140,
-                585
+                575
               ]
             },
             "LabelValue1": {
@@ -1848,7 +1848,7 @@
               ],
               "Position": [
                 140,
-                585
+                575
               ]
             },
             "LabelValue1_1": {
@@ -1859,7 +1859,7 @@
               ],
               "Position": [
                 140,
-                585
+                575
               ]
             },
             "LabelValue2": {
@@ -1870,7 +1870,7 @@
               ],
               "Position": [
                 240,
-                585
+                575
               ]
             },
             "LabelValue3_0": {
@@ -1881,7 +1881,7 @@
               ],
               "Position": [
                 30,
-                650
+                635
               ]
             },
             "LabelValue3": {
@@ -1892,7 +1892,7 @@
               ],
               "Position": [
                 30,
-                650
+                635
               ]
             },
             "LabelValue3_1": {
@@ -1903,7 +1903,7 @@
               ],
               "Position": [
                 30,
-                650
+                635
               ]
             },
             "LabelValue4": {
@@ -1914,7 +1914,7 @@
               ],
               "Position": [
                 140,
-                650
+                635
               ]
             },
             "LabelValue5_0": {
@@ -1925,7 +1925,7 @@
               ],
               "Position": [
                 240,
-                650
+                635
               ]
             },
             "LabelValue5": {
@@ -1936,7 +1936,7 @@
               ],
               "Position": [
                 240,
-                650
+                635
               ]
             },
             "LabelValue5_1": {
@@ -1947,7 +1947,7 @@
               ],
               "Position": [
                 240,
-                650
+                635
               ]
             }
           },
@@ -1980,8 +1980,8 @@
               ],
               "Visible": false
             },
-            "SineImage": {
-              "Image": "data_ch8/cosecant.png",
+            "SineAImage": {
+              "Image": "data_ch8/sineA.png",
               "Size": [
                 180,
                 100
@@ -1992,8 +1992,8 @@
               ],
               "Visible": true
             },
-            "CosImage": {
-              "Image": "data_ch8/secant.png",
+            "CosAImage": {
+              "Image": "data_ch8/cosA.png",
               "Size": [
                 180,
                 100
@@ -2005,7 +2005,7 @@
               "Visible": true
             },
             "TanImage": {
-              "Image": "data_ch8/cotenge.png",
+              "Image": "data_ch8/tan.png",
               "Size": [
                 180,
                 100
@@ -2048,7 +2048,7 @@
               ],
               "Position": [
                 10,
-                595
+                580
               ],
               "Visible": true
             },
@@ -2060,7 +2060,7 @@
               ],
               "Position": [
                 120,
-                595
+                580
               ],
               "Visible": true
             },
@@ -2072,7 +2072,7 @@
               ],
               "Position": [
                 220,
-                595
+                580
               ],
               "Visible": true
             },
@@ -2084,7 +2084,7 @@
               ],
               "Position": [
                 10,
-                660
+                640
               ],
               "Visible": true
             },
@@ -2096,7 +2096,7 @@
               ],
               "Position": [
                 120,
-                660
+                640
               ],
               "Visible": true
             },
@@ -2108,21 +2108,21 @@
               ],
               "Position": [
                 220,
-                660
+                640
               ],
               "Visible": true
             },
-            "Line1Image": {
+            "LineImage": {
               "Image": "data_ch8/line.png",
               "Size": [
-                40,
+                60,
                 5
               ],
               "Position": [
-                150,
-                132
+                120,
+                135
               ],
-              "Visible": false
+              "Visible": true
             },
             "Line2Image": {
               "Image": "data_ch8/line.png",
@@ -2131,22 +2131,22 @@
                 5
               ],
               "Position": [
-                80,
-                133
+                320,
+                135
               ],
-              "Visible": false
+              "Visible": true
             },
             "Line3Image": {
               "Image": "data_ch8/line.png",
               "Size": [
-                40,
+                50,
                 5
               ],
               "Position": [
-                240,
-                243
+                230,
+                240
               ],
-              "Visible": false
+              "Visible": true
             },
             "PauseBttn":{
               "Image": "data1/pause.png",
@@ -2218,7 +2218,7 @@
               ],
               "Position": [
                 30,
-                585
+                575
               ]
             },
             "LabelValue1_0": {
@@ -2229,7 +2229,7 @@
               ],
               "Position": [
                 140,
-                585
+                575
               ]
             },
             "LabelValue1": {
@@ -2240,7 +2240,7 @@
               ],
               "Position": [
                 140,
-                585
+                575
               ]
             },
             "LabelValue1_1": {
@@ -2251,7 +2251,7 @@
               ],
               "Position": [
                 140,
-                585
+                575
               ]
             },
             "LabelValue2": {
@@ -2262,7 +2262,7 @@
               ],
               "Position": [
                 240,
-                585
+                575
               ]
             },
             "LabelValue3_0": {
@@ -2273,7 +2273,7 @@
               ],
               "Position": [
                 30,
-                650
+                635
               ]
             },
             "LabelValue3": {
@@ -2284,7 +2284,18 @@
               ],
               "Position": [
                 30,
-                650
+                635
+              ]
+            },
+            "LabelValue3_1": {
+              "Text" :"AB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                635
               ]
             },
             "LabelValue4": {
@@ -2295,7 +2306,7 @@
               ],
               "Position": [
                 140,
-                650
+                635
               ]
             },
             "LabelValue5_0": {
@@ -2306,7 +2317,7 @@
               ],
               "Position": [
                 240,
-                650
+                635
               ]
             },
             "LabelValue5": {
@@ -2317,7 +2328,7 @@
               ],
               "Position": [
                 240,
-                650
+                635
               ]
             },
             "LabelValue5_1": {
@@ -2328,18 +2339,7 @@
               ],
               "Position": [
                 240,
-                650
-              ]
-            },
-            "LabelValue5_2": {
-              "Text" :"BC",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                240,
-                650
+                635
               ]
             }
           },
@@ -2442,7 +2442,7 @@
               ],
               "Position": [
                 10,
-                595
+                580
               ],
               "Visible": true
             },
@@ -2454,7 +2454,7 @@
               ],
               "Position": [
                 120,
-                595
+                580
               ],
               "Visible": true
             },
@@ -2466,7 +2466,7 @@
               ],
               "Position": [
                 220,
-                595
+                580
               ],
               "Visible": true
             },
@@ -2478,7 +2478,7 @@
               ],
               "Position": [
                 10,
-                660
+                640
               ],
               "Visible": true
             },
@@ -2490,7 +2490,7 @@
               ],
               "Position": [
                 120,
-                660
+                640
               ],
               "Visible": true
             },
@@ -2502,7 +2502,7 @@
               ],
               "Position": [
                 220,
-                660
+                640
               ],
               "Visible": true
             },
@@ -2612,7 +2612,7 @@
               ],
               "Position": [
                 30,
-                585
+                575
               ]
             },
             "LabelValue1_0": {
@@ -2623,7 +2623,7 @@
               ],
               "Position": [
                 140,
-                585
+                575
               ]
             },
             "LabelValue1": {
@@ -2634,7 +2634,7 @@
               ],
               "Position": [
                 140,
-                585
+                575
               ]
             },
             "LabelValue1_1": {
@@ -2645,7 +2645,7 @@
               ],
               "Position": [
                 140,
-                585
+                575
               ]
             },
             "LabelValue2": {
@@ -2656,7 +2656,7 @@
               ],
               "Position": [
                 240,
-                585
+                575
               ]
             },
             "LabelValue3_0": {
@@ -2667,7 +2667,7 @@
               ],
               "Position": [
                 30,
-                650
+                635
               ]
             },
             "LabelValue3": {
@@ -2678,7 +2678,7 @@
               ],
               "Position": [
                 30,
-                650
+                635
               ]
             },
             "LabelValue3_1": {
@@ -2689,7 +2689,7 @@
               ],
               "Position": [
                 30,
-                650
+                635
               ]
             },
             "LabelValue4": {
@@ -2700,7 +2700,7 @@
               ],
               "Position": [
                 140,
-                650
+                635
               ]
             },
             "LabelValue5_0": {
@@ -2711,7 +2711,7 @@
               ],
               "Position": [
                 240,
-                650
+                635
               ]
             },
             "LabelValue5": {
@@ -2722,7 +2722,7 @@
               ],
               "Position": [
                 240,
-                650
+                635
               ]
             },
             "LabelValue5_1": {
@@ -2733,7 +2733,7 @@
               ],
               "Position": [
                 240,
-                650
+                635
               ]
             }
           },
@@ -2766,8 +2766,8 @@
               ],
               "Visible": false
             },
-            "SineImage": {
-              "Image": "data_ch8/cosecant.png",
+            "SineAImage": {
+              "Image": "data_ch8/sineA.png",
               "Size": [
                 180,
                 100
@@ -2778,8 +2778,8 @@
               ],
               "Visible": true
             },
-            "CosImage": {
-              "Image": "data_ch8/secant.png",
+            "CosAImage": {
+              "Image": "data_ch8/cosA.png",
               "Size": [
                 180,
                 100
@@ -2791,7 +2791,7 @@
               "Visible": true
             },
             "TanImage": {
-              "Image": "data_ch8/cotenge.png",
+              "Image": "data_ch8/tan.png",
               "Size": [
                 180,
                 100
@@ -2834,7 +2834,7 @@
               ],
               "Position": [
                 10,
-                595
+                580
               ],
               "Visible": true
             },
@@ -2846,7 +2846,7 @@
               ],
               "Position": [
                 120,
-                595
+                580
               ],
               "Visible": true
             },
@@ -2858,7 +2858,7 @@
               ],
               "Position": [
                 220,
-                595
+                580
               ],
               "Visible": true
             },
@@ -2870,7 +2870,7 @@
               ],
               "Position": [
                 10,
-                660
+                640
               ],
               "Visible": true
             },
@@ -2882,7 +2882,7 @@
               ],
               "Position": [
                 120,
-                660
+                640
               ],
               "Visible": true
             },
@@ -2894,21 +2894,21 @@
               ],
               "Position": [
                 220,
-                660
+                640
               ],
               "Visible": true
             },
-            "Line1Image": {
+            "LineImage": {
               "Image": "data_ch8/line.png",
               "Size": [
-                40,
+                60,
                 5
               ],
               "Position": [
-                150,
-                132
+                120,
+                135
               ],
-              "Visible": false
+              "Visible": true
             },
             "Line2Image": {
               "Image": "data_ch8/line.png",
@@ -2917,22 +2917,22 @@
                 5
               ],
               "Position": [
-                80,
-                133
+                320,
+                135
               ],
-              "Visible": false
+              "Visible": true
             },
             "Line3Image": {
               "Image": "data_ch8/line.png",
               "Size": [
-                40,
+                50,
                 5
               ],
               "Position": [
-                240,
-                243
+                230,
+                240
               ],
-              "Visible": false
+              "Visible": true
             },
             "PauseBttn":{
               "Image": "data1/pause.png",
@@ -3004,7 +3004,7 @@
               ],
               "Position": [
                 30,
-                585
+                575
               ]
             },
             "LabelValue1_0": {
@@ -3015,7 +3015,7 @@
               ],
               "Position": [
                 140,
-                585
+                575
               ]
             },
             "LabelValue1": {
@@ -3026,7 +3026,7 @@
               ],
               "Position": [
                 140,
-                585
+                575
               ]
             },
             "LabelValue1_1": {
@@ -3037,7 +3037,7 @@
               ],
               "Position": [
                 140,
-                585
+                575
               ]
             },
             "LabelValue2": {
@@ -3048,7 +3048,7 @@
               ],
               "Position": [
                 240,
-                585
+                575
               ]
             },
             "LabelValue3_0": {
@@ -3059,7 +3059,7 @@
               ],
               "Position": [
                 30,
-                650
+                635
               ]
             },
             "LabelValue3": {
@@ -3070,7 +3070,18 @@
               ],
               "Position": [
                 30,
-                650
+                635
+              ]
+            },
+            "LabelValue3_1": {
+              "Text" :"AB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                635
               ]
             },
             "LabelValue4": {
@@ -3081,7 +3092,7 @@
               ],
               "Position": [
                 140,
-                650
+                635
               ]
             },
             "LabelValue5_0": {
@@ -3092,7 +3103,7 @@
               ],
               "Position": [
                 240,
-                650
+                635
               ]
             },
             "LabelValue5": {
@@ -3103,7 +3114,7 @@
               ],
               "Position": [
                 240,
-                650
+                635
               ]
             },
             "LabelValue5_1": {
@@ -3114,18 +3125,7 @@
               ],
               "Position": [
                 240,
-                650
-              ]
-            },
-            "LabelValue5_2": {
-              "Text" :"BC",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                240,
-                650
+                635
               ]
             }
           },
@@ -3228,7 +3228,7 @@
               ],
               "Position": [
                 10,
-                595
+                580
               ],
               "Visible": true
             },
@@ -3240,7 +3240,7 @@
               ],
               "Position": [
                 120,
-                595
+                580
               ],
               "Visible": true
             },
@@ -3252,7 +3252,7 @@
               ],
               "Position": [
                 220,
-                595
+                580
               ],
               "Visible": true
             },
@@ -3264,7 +3264,7 @@
               ],
               "Position": [
                 10,
-                660
+                640
               ],
               "Visible": true
             },
@@ -3276,7 +3276,7 @@
               ],
               "Position": [
                 120,
-                660
+                640
               ],
               "Visible": true
             },
@@ -3288,7 +3288,7 @@
               ],
               "Position": [
                 220,
-                660
+                640
               ],
               "Visible": true
             },
@@ -3398,7 +3398,7 @@
               ],
               "Position": [
                 30,
-                585
+                575
               ]
             },
             "LabelValue1_0": {
@@ -3409,7 +3409,7 @@
               ],
               "Position": [
                 140,
-                585
+                575
               ]
             },
             "LabelValue1": {
@@ -3420,7 +3420,7 @@
               ],
               "Position": [
                 140,
-                585
+                575
               ]
             },
             "LabelValue1_1": {
@@ -3431,7 +3431,7 @@
               ],
               "Position": [
                 140,
-                585
+                575
               ]
             },
             "LabelValue2": {
@@ -3442,7 +3442,7 @@
               ],
               "Position": [
                 240,
-                585
+                575
               ]
             },
             "LabelValue3_0": {
@@ -3453,7 +3453,7 @@
               ],
               "Position": [
                 30,
-                650
+                635
               ]
             },
             "LabelValue3": {
@@ -3464,7 +3464,7 @@
               ],
               "Position": [
                 30,
-                650
+                635
               ]
             },
             "LabelValue3_1": {
@@ -3475,7 +3475,7 @@
               ],
               "Position": [
                 30,
-                650
+                635
               ]
             },
             "LabelValue4": {
@@ -3486,7 +3486,7 @@
               ],
               "Position": [
                 140,
-                650
+                635
               ]
             },
             "LabelValue5_0": {
@@ -3497,7 +3497,7 @@
               ],
               "Position": [
                 240,
-                650
+                635
               ]
             },
             "LabelValue5": {
@@ -3508,7 +3508,7 @@
               ],
               "Position": [
                 240,
-                650
+                635
               ]
             },
             "LabelValue5_1": {
@@ -3519,7 +3519,7 @@
               ],
               "Position": [
                 240,
-                650
+                635
               ]
             }
           },
@@ -3552,8 +3552,8 @@
               ],
               "Visible": false
             },
-            "SineImage": {
-              "Image": "data_ch8/cosecant.png",
+            "SineAImage": {
+              "Image": "data_ch8/sineA.png",
               "Size": [
                 180,
                 100
@@ -3564,8 +3564,8 @@
               ],
               "Visible": true
             },
-            "CosImage": {
-              "Image": "data_ch8/secant.png",
+            "CosAImage": {
+              "Image": "data_ch8/cosA.png",
               "Size": [
                 180,
                 100
@@ -3577,7 +3577,7 @@
               "Visible": true
             },
             "TanImage": {
-              "Image": "data_ch8/cotenge.png",
+              "Image": "data_ch8/tan.png",
               "Size": [
                 180,
                 100
@@ -3620,7 +3620,7 @@
               ],
               "Position": [
                 10,
-                595
+                580
               ],
               "Visible": true
             },
@@ -3632,7 +3632,7 @@
               ],
               "Position": [
                 120,
-                595
+                580
               ],
               "Visible": true
             },
@@ -3644,7 +3644,7 @@
               ],
               "Position": [
                 220,
-                595
+                580
               ],
               "Visible": true
             },
@@ -3656,7 +3656,7 @@
               ],
               "Position": [
                 10,
-                660
+                640
               ],
               "Visible": true
             },
@@ -3668,7 +3668,7 @@
               ],
               "Position": [
                 120,
-                660
+                640
               ],
               "Visible": true
             },
@@ -3680,21 +3680,21 @@
               ],
               "Position": [
                 220,
-                660
+                640
               ],
               "Visible": true
             },
-            "Line1Image": {
+            "LineImage": {
               "Image": "data_ch8/line.png",
               "Size": [
-                40,
+                60,
                 5
               ],
               "Position": [
-                150,
-                132
+                120,
+                135
               ],
-              "Visible": false
+              "Visible": true
             },
             "Line2Image": {
               "Image": "data_ch8/line.png",
@@ -3703,22 +3703,22 @@
                 5
               ],
               "Position": [
-                80,
-                133
+                320,
+                135
               ],
-              "Visible": false
+              "Visible": true
             },
             "Line3Image": {
               "Image": "data_ch8/line.png",
               "Size": [
-                40,
+                50,
                 5
               ],
               "Position": [
-                240,
-                243
+                230,
+                240
               ],
-              "Visible": false
+              "Visible": true
             },
             "PauseBttn":{
               "Image": "data1/pause.png",
@@ -3790,7 +3790,7 @@
               ],
               "Position": [
                 30,
-                585
+                575
               ]
             },
             "LabelValue1_0": {
@@ -3801,7 +3801,7 @@
               ],
               "Position": [
                 140,
-                585
+                575
               ]
             },
             "LabelValue1": {
@@ -3812,7 +3812,7 @@
               ],
               "Position": [
                 140,
-                585
+                575
               ]
             },
             "LabelValue1_1": {
@@ -3823,7 +3823,7 @@
               ],
               "Position": [
                 140,
-                585
+                575
               ]
             },
             "LabelValue2": {
@@ -3834,7 +3834,7 @@
               ],
               "Position": [
                 240,
-                585
+                575
               ]
             },
             "LabelValue3_0": {
@@ -3845,7 +3845,7 @@
               ],
               "Position": [
                 30,
-                650
+                635
               ]
             },
             "LabelValue3": {
@@ -3856,7 +3856,18 @@
               ],
               "Position": [
                 30,
-                650
+                635
+              ]
+            },
+            "LabelValue3_1": {
+              "Text" :"AB",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                30,
+                635
               ]
             },
             "LabelValue4": {
@@ -3867,7 +3878,7 @@
               ],
               "Position": [
                 140,
-                650
+                635
               ]
             },
             "LabelValue5_0": {
@@ -3878,7 +3889,7 @@
               ],
               "Position": [
                 240,
-                650
+                635
               ]
             },
             "LabelValue5": {
@@ -3889,7 +3900,7 @@
               ],
               "Position": [
                 240,
-                650
+                635
               ]
             },
             "LabelValue5_1": {
@@ -3900,18 +3911,7 @@
               ],
               "Position": [
                 240,
-                650
-              ]
-            },
-            "LabelValue5_2": {
-              "Text" :"BC",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                240,
-                650
+                635
               ]
             }
           },

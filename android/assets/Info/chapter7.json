@@ -20,35 +20,35 @@
               "Image": "data_ch7/box.png",
               "Size": [
                 300,
-                250
+                200
               ],
               "Position": [
                 50,
-                310
+                270
               ],
               "Visible": true
             },
             "MainboxImage": {
               "Image": "data1/asset26.png",
               "Size": [
-                350,
-                350
+                380,
+                200
               ],
               "Position": [
-                25,
-                665
+                10,
+                500
               ],
               "Visible": true
             },
             "Syntax1Image": {
               "Image": "data_ch7/syntax1.png",
               "Size": [
-                340,
+                365,
                 40
               ],
               "Position": [
-                30,
-                495
+                15,
+                410
               ],
               "Visible": true
             },
@@ -231,8 +231,8 @@
                 50
               ],
               "Position": [
-                125,
-                495
+                115,
+                410
               ]
             },
             "SyntaxLabel1": {
@@ -242,8 +242,8 @@
                 50
               ],
               "Position": [
-                170,
-                495
+                165,
+                410
               ]
             },
             "SyntaxLabel2": {
@@ -253,8 +253,8 @@
                 50
               ],
               "Position": [
-                315,
-                495
+                318,
+                410
               ]
             },
             "SyntaxLabel3": {
@@ -264,8 +264,8 @@
                 50
               ],
               "Position": [
-                278,
-                495
+                277,
+                410
               ]
             }
           },
