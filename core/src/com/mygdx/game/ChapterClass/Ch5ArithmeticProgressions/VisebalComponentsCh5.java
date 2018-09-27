@@ -1,13 +1,16 @@
 package com.mygdx.game.ChapterClass.Ch5ArithmeticProgressions;
 
+import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.mygdx.game.BuilderBlocks.ChapterVariables;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.Notifier;
 import com.mygdx.game.BuilderBlocks.Subscriber;
+import com.mygdx.game.Enum.ClickPluse;
 import com.mygdx.game.Enum.Steps;
 import com.mygdx.game.Factory.GameStates;
+import com.mygdx.game.MyGame;
 
 import java.util.ArrayList;
 
@@ -27,6 +30,8 @@ public class VisebalComponentsCh5 implements Subscriber {
 
     ArrayList<Image> visibleImage;
     ArrayList<Label> visibleLabel;
+
+    ClickPluse clickPluse;
 
     public VisebalComponentsCh5(ArrayList<Image> arrImages, ArrayList<Label> arrLabel) {
 
@@ -100,46 +105,139 @@ public class VisebalComponentsCh5 implements Subscriber {
 
     private void clickImage() {
 
+        Image imgadd = getImage("PluseBttn");
+
+        Label valueS = getLabel("Secondterm");
+        Label valueS2 = getLabel("ValueS2");
+        Label valueT = getLabel("Thirdterm");
+        Label valueT2 = getLabel("ValueT2");
+        Label valueF1 = getLabel("Firstterm");
+        Label valueF12 = getLabel("ValueF12");
+
+        switch (clickPluse){
+            case CLICK_Add_1:
+                valueS.setVisible(false);
+                valueS2.setVisible(true);
+                imgadd.setTouchable(Touchable.disabled);
+                break;
+
+            case CLICK_Add_2:
+                valueT.setVisible(false);
+                valueT2.setVisible(true);
+                imgadd.setTouchable(Touchable.disabled);
+                break;
+
+            case CLICK_Add_3:
+                valueF1.setVisible(false);
+                valueF12.setVisible(true);
+                imgadd.setTouchable(Touchable.disabled);
+                break;
+
+            default:
+                break;
+        }
     }
 
     private void dragVallue1L1() {
+        Label valueF = getLabel("Firstterm");
+        Label value11 = getLabel("Value11");
+        Label value1 = getLabel("Value1");
 
+        valueF.setVisible(false);
+        value11.setVisible(true);
+        value1.setPosition(130, MyGame.HEIGHT - 330);
     }
 
     private void dragVallue2L1() {
+        Label value2 = getLabel("Value2");
+        Label value12 = getLabel("Value12");
+        Label pluse = getLabel("Pluse");
 
+        Image imgadd = getImage("PluseBttn");
+
+        value2.setPosition(250, MyGame.HEIGHT - 330);
+        value12.setVisible(true);
+        pluse.setVisible(true);
+        imgadd.setTouchable(Touchable.enabled);
+        clickPluse = ClickPluse.CLICK_Add_1;
     }
 
     private void dragVallue12L1() {
+        Label value12 = getLabel("Value12");
+        Label value13 = getLabel("Value13");
+        Label pluse1 = getLabel("Pluse1");
 
+        Image imgadd = getImage("PluseBttn");
+
+        value12.setPosition(250, MyGame.HEIGHT - 390);
+        value13.setVisible(true);
+        pluse1.setVisible(true);
+        imgadd.setTouchable(Touchable.enabled);
+        clickPluse = ClickPluse.CLICK_Add_2;
     }
 
     private void dragVallue13L1() {
+        Label value13 = getLabel("Value13");
+        Label value14 = getLabel("Value14");
+        Label pluse2 = getLabel("Pluse2");
 
+        Image imgadd = getImage("PluseBttn");
+
+        value13.setPosition(250, MyGame.HEIGHT - 450);
+        value14.setVisible(true);
+        pluse2.setVisible(true);
+        imgadd.setTouchable(Touchable.enabled);
+        clickPluse = ClickPluse.CLICK_Add_3;
     }
 
     private void dragVallue1L2() {
+        Label valueN = getLabel("ValueN");
+        Label value1 = getLabel("Value1");
 
+        valueN.setVisible(false);
+        value1.setPosition(190,MyGame.HEIGHT - 190);
     }
 
     private void dragVal1L2() {
+        Label valueA = getLabel("ValueA");
+        Label val1 = getLabel("Labelval1");
 
+        valueA.setVisible(false);
+        val1.setPosition(130,MyGame.HEIGHT - 190);
     }
 
     private void dragVallueL3s1() {
+        Label valueN = getLabel("ValueN");
+        Label value1 = getLabel("Value1");
 
+        valueN.setVisible(false);
+        value1.setPosition(190, MyGame.HEIGHT - 190);
     }
 
     private void dragVal1L3s1() {
+        Label valueA = getLabel("ValueA");
+        Label val1 = getLabel("Labelval1");
 
+        valueA.setVisible(false);
+        val1.setPosition(130, MyGame.HEIGHT - 190);
     }
 
     private void dragVallueL3s2() {
+        Label valueA = getLabel("ValueA");
+        Label val1 = getLabel("LabelVal1");
 
+        valueA.setVisible(false);
+        val1.setPosition(180,130);
     }
 
     private void dragVal1L3s2() {
+        Label valueL1 = getLabel("LabelValueL1");
+        Label valL = getLabel("LabelValL");
+        Label val4 = getLabel("LabelVal4");
 
+        valueL1.setVisible(false);
+        valL.setPosition(235,130);
+        val4.setText("245");
     }
 
     private Label getLabel(String LabelShow) {

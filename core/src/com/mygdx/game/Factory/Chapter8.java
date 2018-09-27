@@ -71,24 +71,29 @@ public class Chapter8 extends ChapterScreen implements Screen {
     public  void clicked(InputEvent event, float x, float y){
 
       if(goToNextStep() != true) {
-        GameStates.screenStates = ScreenStates.LEVELSCREEN;
-        time.dispose();
+        messageBox.setPositionX(xPosAdditionFactor - 400);
+        messageBox.ShowDialog();
+
+        if (messageBox.NextStep.isTouchable()){
+          messageBox.NextStep.addListener(new ClickListener(){
+            @Override
+            public void clicked(InputEvent event, float x, float y) {
+              GameStates.screenStates = ScreenStates.LEVELSCREEN;
+            }
+          });
+        }
       }
       else{
 
         int trnslate = 400;
         stageTranslate += 400;
-//        if(stageTranslate >= 1200) {
-//          trnslate = 0;
-//          stageTranslate = 0;
-//        }
-
         //Get the Level Number and Initialise the Level Components.
         getLevelName();
         initialiseLevelComponents(currentLevelNumber);
 
         stage.getCamera().translate(trnslate,0,0);
         stage.getCamera().update();
+
       }
     }
   };
@@ -205,33 +210,29 @@ public class Chapter8 extends ChapterScreen implements Screen {
           new RenderLevel() { public void renderL(float delta) { renderLevel3(delta); } }
   };
 
-  private void renderLevel1(float delta){
-    update(delta);
-
+  private void renderLevel1(float deltaTime){
+    update(deltaTime);
+    messageBox.update(deltaTime);
     if (time.isTimeUp()){ }
-
     //Move Screen to next Screen
-    if(moveTheBg) { bg.act(delta);}
-
+    if(moveTheBg) { bg.act(deltaTime);}
     stage.draw();
     time.stage.draw();
   }
-  private void renderLevel2(float delta){
-    update(delta);
-
+  private void renderLevel2(float deltaTime){
+    update(deltaTime);
+    messageBox.update(deltaTime);
     if (time.isTimeUp()){ }
-
     //Move Screen to next Screen
-    if(moveTheBg) { bg.act(delta);}
+    if(moveTheBg) { bg.act(deltaTime);}
 
     stage.draw();
     time.stage.draw();
   }
   private void renderLevel3(float deltaTime){
     time.update(deltaTime);
-
+    messageBox.update(deltaTime);
     if (time.isTimeUp()){}
-
     //Move Screen to next Screen
     if(moveTheBg) { bg.act(deltaTime);}
 

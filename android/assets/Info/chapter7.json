@@ -1440,23 +1440,23 @@
               "Image": "data_ch7/box.png",
               "Size": [
                 300,
-                250
+                200
               ],
               "Position": [
                 50,
-                310
+                280
               ],
               "Visible": true
             },
             "MainboxImage": {
               "Image": "data1/asset26.png",
               "Size": [
-                350,
-                350
+                380,
+                300
               ],
               "Position": [
-                25,
-                660
+                15,
+                630
               ],
               "Visible": true
             },
@@ -1969,23 +1969,23 @@
               "Image": "data_ch7/box.png",
               "Size": [
                 300,
-                250
+                200
               ],
               "Position": [
                 50,
-                310
+                280
               ],
               "Visible": true
             },
             "MainboxImage": {
               "Image": "data1/asset26.png",
               "Size": [
-                350,
-                350
+                380,
+                300
               ],
               "Position": [
-                25,
-                660
+                15,
+                630
               ],
               "Visible": true
             },
@@ -2498,23 +2498,23 @@
               "Image": "data_ch7/box.png",
               "Size": [
                 300,
-                250
+                200
               ],
               "Position": [
                 50,
-                310
+                280
               ],
               "Visible": true
             },
             "MainboxImage": {
               "Image": "data1/asset26.png",
               "Size": [
-                350,
-                350
+                380,
+                300
               ],
               "Position": [
-                25,
-                660
+                15,
+                630
               ],
               "Visible": true
             },
@@ -3027,23 +3027,23 @@
               "Image": "data_ch7/box.png",
               "Size": [
                 300,
-                250
+                200
               ],
               "Position": [
                 50,
-                310
+                280
               ],
               "Visible": true
             },
             "MainboxImage": {
               "Image": "data1/asset26.png",
               "Size": [
-                350,
-                350
+                380,
+                300
               ],
               "Position": [
-                25,
-                660
+                15,
+                630
               ],
               "Visible": true
             },
@@ -3556,23 +3556,23 @@
               "Image": "data_ch7/box.png",
               "Size": [
                 300,
-                250
+                200
               ],
               "Position": [
                 50,
-                310
+                280
               ],
               "Visible": true
             },
             "MainboxImage": {
               "Image": "data1/asset26.png",
               "Size": [
-                350,
-                350
+                380,
+                300
               ],
               "Position": [
-                25,
-                660
+                15,
+                630
               ],
               "Visible": true
             },
@@ -4085,7 +4085,7 @@
               "Image": "data_ch7/box.png",
               "Size": [
                 300,
-                250
+                240
               ],
               "Position": [
                 50,
@@ -4097,11 +4097,11 @@
               "Image": "data1/asset26.png",
               "Size": [
                 350,
-                350
+                250
               ],
               "Position": [
                 25,
-                660
+                580
               ],
               "Visible": true
             },
@@ -4230,7 +4230,7 @@
                 50
               ],
               "Position": [
-                180,
+                190,
                 300
               ]
             },
@@ -4318,7 +4318,7 @@
                 50
               ],
               "Position": [
-                220,
+                230,
                 220
               ]
             },
@@ -4329,7 +4329,7 @@
                 50
               ],
               "Position": [
-                230,
+                245,
                 220
               ]
             },
@@ -4340,7 +4340,7 @@
                 50
               ],
               "Position": [
-                260,
+                285,
                 220
               ]
             },
@@ -4389,7 +4389,7 @@
               ]
             },
             "SyntaxLabelk": {
-              "Text" :"k",
+              "Text" :"K",
               "Size": [
                 70,
                 70
@@ -4422,7 +4422,7 @@
               ]
             },
             "SyntaxLabelk1": {
-              "Text" :"k",
+              "Text" :"K",
               "Size": [
                 70,
                 70
@@ -4477,7 +4477,7 @@
               "Image": "data_ch7/box.png",
               "Size": [
                 300,
-                250
+                240
               ],
               "Position": [
                 50,
@@ -4489,11 +4489,11 @@
               "Image": "data1/asset26.png",
               "Size": [
                 350,
-                350
+                250
               ],
               "Position": [
                 25,
-                655
+                580
               ],
               "Visible": true
             },
@@ -4622,7 +4622,7 @@
                 50
               ],
               "Position": [
-                180,
+                190,
                 300
               ]
             },
@@ -4633,7 +4633,7 @@
                 50
               ],
               "Position": [
-                230,
+                220,
                 130
               ]
             },
@@ -4710,7 +4710,7 @@
                 50
               ],
               "Position": [
-                220,
+                230,
                 220
               ]
             },
@@ -4721,22 +4721,33 @@
                 50
               ],
               "Position": [
-                230,
+                245,
                 220
               ]
             },
-            "LabelValue25": {
+            "LabelValue125": {
               "Text" :")",
               "Size": [
                 50,
                 50
               ],
               "Position": [
-                260,
+                285,
                 220
               ]
             },
             "LabelValuek1": {
+              "Text" :"3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                110,
+                150
+              ]
+            },
+            "LabelValuek2": {
               "Text" :"3",
               "Size": [
                 50,
@@ -4754,7 +4765,7 @@
                 50
               ],
               "Position": [
-                100,
+                300,
                 270
               ]
             },
@@ -4770,7 +4781,7 @@
               ]
             },
             "SyntaxLabelk": {
-              "Text" :"k",
+              "Text" :"K",
               "Size": [
                 70,
                 70
@@ -4780,8 +4791,8 @@
                 450
               ]
             },
-            "SyntaxLabely2": {
-              "Text" :"y2",
+            "SyntaxLabelx2": {
+              "Text" :"x2",
               "Size": [
                 70,
                 70
@@ -4791,19 +4802,19 @@
                 450
               ]
             },
-            "SyntaxLabely1": {
-              "Text" :"y1",
+            "SyntaxLabelx1": {
+              "Text" :"x1",
               "Size": [
                 70,
                 70
               ],
               "Position": [
-                270,
+                260,
                 450
               ]
             },
             "SyntaxLabelk1": {
-              "Text" :"k",
+              "Text" :"K",
               "Size": [
                 70,
                 70
@@ -4820,11 +4831,10 @@
                 70
               ],
               "Position": [
-                270,
+                250,
                 540
               ]
             }
-
           },
           "Buttons":{
             "SubmitButtn": {
@@ -4861,7 +4871,7 @@
               "Image": "data_ch7/box.png",
               "Size": [
                 300,
-                250
+                240
               ],
               "Position": [
                 50,
@@ -4873,11 +4883,11 @@
               "Image": "data1/asset26.png",
               "Size": [
                 350,
-                350
+                250
               ],
               "Position": [
                 25,
-                660
+                580
               ],
               "Visible": true
             },
@@ -5006,7 +5016,7 @@
                 50
               ],
               "Position": [
-                180,
+                190,
                 300
               ]
             },
@@ -5094,7 +5104,7 @@
                 50
               ],
               "Position": [
-                220,
+                230,
                 220
               ]
             },
@@ -5105,7 +5115,7 @@
                 50
               ],
               "Position": [
-                230,
+                245,
                 220
               ]
             },
@@ -5116,7 +5126,7 @@
                 50
               ],
               "Position": [
-                260,
+                285,
                 220
               ]
             },
@@ -5165,7 +5175,7 @@
               ]
             },
             "SyntaxLabelk": {
-              "Text" :"k",
+              "Text" :"K",
               "Size": [
                 70,
                 70
@@ -5198,7 +5208,7 @@
               ]
             },
             "SyntaxLabelk1": {
-              "Text" :"k",
+              "Text" :"K",
               "Size": [
                 70,
                 70
@@ -5253,7 +5263,7 @@
               "Image": "data_ch7/box.png",
               "Size": [
                 300,
-                250
+                240
               ],
               "Position": [
                 50,
@@ -5265,11 +5275,11 @@
               "Image": "data1/asset26.png",
               "Size": [
                 350,
-                350
+                250
               ],
               "Position": [
                 25,
-                655
+                580
               ],
               "Visible": true
             },
@@ -5398,7 +5408,7 @@
                 50
               ],
               "Position": [
-                180,
+                190,
                 300
               ]
             },
@@ -5409,7 +5419,7 @@
                 50
               ],
               "Position": [
-                230,
+                220,
                 130
               ]
             },
@@ -5486,7 +5496,7 @@
                 50
               ],
               "Position": [
-                220,
+                230,
                 220
               ]
             },
@@ -5497,22 +5507,33 @@
                 50
               ],
               "Position": [
-                230,
+                245,
                 220
               ]
             },
-            "LabelValue25": {
+            "LabelValue125": {
               "Text" :")",
               "Size": [
                 50,
                 50
               ],
               "Position": [
-                260,
+                285,
                 220
               ]
             },
             "LabelValuek1": {
+              "Text" :"3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                110,
+                150
+              ]
+            },
+            "LabelValuek2": {
               "Text" :"3",
               "Size": [
                 50,
@@ -5530,7 +5551,7 @@
                 50
               ],
               "Position": [
-                100,
+                300,
                 270
               ]
             },
@@ -5546,7 +5567,7 @@
               ]
             },
             "SyntaxLabelk": {
-              "Text" :"k",
+              "Text" :"K",
               "Size": [
                 70,
                 70
@@ -5556,8 +5577,8 @@
                 450
               ]
             },
-            "SyntaxLabely2": {
-              "Text" :"y2",
+            "SyntaxLabelx2": {
+              "Text" :"x2",
               "Size": [
                 70,
                 70
@@ -5567,19 +5588,19 @@
                 450
               ]
             },
-            "SyntaxLabely1": {
-              "Text" :"y1",
+            "SyntaxLabelx1": {
+              "Text" :"x1",
               "Size": [
                 70,
                 70
               ],
               "Position": [
-                270,
+                260,
                 450
               ]
             },
             "SyntaxLabelk1": {
-              "Text" :"k",
+              "Text" :"K",
               "Size": [
                 70,
                 70
@@ -5596,11 +5617,10 @@
                 70
               ],
               "Position": [
-                270,
+                250,
                 540
               ]
             }
-
           },
           "Buttons":{
             "SubmitButtn": {
@@ -5637,7 +5657,7 @@
               "Image": "data_ch7/box.png",
               "Size": [
                 300,
-                250
+                240
               ],
               "Position": [
                 50,
@@ -5649,11 +5669,11 @@
               "Image": "data1/asset26.png",
               "Size": [
                 350,
-                350
+                250
               ],
               "Position": [
                 25,
-                660
+                580
               ],
               "Visible": true
             },
@@ -5782,7 +5802,7 @@
                 50
               ],
               "Position": [
-                180,
+                190,
                 300
               ]
             },
@@ -5870,7 +5890,7 @@
                 50
               ],
               "Position": [
-                220,
+                230,
                 220
               ]
             },
@@ -5881,7 +5901,7 @@
                 50
               ],
               "Position": [
-                230,
+                245,
                 220
               ]
             },
@@ -5892,7 +5912,7 @@
                 50
               ],
               "Position": [
-                260,
+                285,
                 220
               ]
             },
@@ -5941,7 +5961,7 @@
               ]
             },
             "SyntaxLabelk": {
-              "Text" :"k",
+              "Text" :"K",
               "Size": [
                 70,
                 70
@@ -5974,7 +5994,7 @@
               ]
             },
             "SyntaxLabelk1": {
-              "Text" :"k",
+              "Text" :"K",
               "Size": [
                 70,
                 70
@@ -6029,7 +6049,7 @@
               "Image": "data_ch7/box.png",
               "Size": [
                 300,
-                250
+                240
               ],
               "Position": [
                 50,
@@ -6041,11 +6061,11 @@
               "Image": "data1/asset26.png",
               "Size": [
                 350,
-                350
+                250
               ],
               "Position": [
                 25,
-                655
+                580
               ],
               "Visible": true
             },
@@ -6174,7 +6194,7 @@
                 50
               ],
               "Position": [
-                180,
+                190,
                 300
               ]
             },
@@ -6185,7 +6205,7 @@
                 50
               ],
               "Position": [
-                230,
+                220,
                 130
               ]
             },
@@ -6262,7 +6282,7 @@
                 50
               ],
               "Position": [
-                220,
+                230,
                 220
               ]
             },
@@ -6273,22 +6293,33 @@
                 50
               ],
               "Position": [
-                230,
+                245,
                 220
               ]
             },
-            "LabelValue25": {
+            "LabelValue125": {
               "Text" :")",
               "Size": [
                 50,
                 50
               ],
               "Position": [
-                260,
+                285,
                 220
               ]
             },
             "LabelValuek1": {
+              "Text" :"3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                110,
+                150
+              ]
+            },
+            "LabelValuek2": {
               "Text" :"3",
               "Size": [
                 50,
@@ -6306,7 +6337,7 @@
                 50
               ],
               "Position": [
-                100,
+                300,
                 270
               ]
             },
@@ -6322,7 +6353,7 @@
               ]
             },
             "SyntaxLabelk": {
-              "Text" :"k",
+              "Text" :"K",
               "Size": [
                 70,
                 70
@@ -6332,8 +6363,8 @@
                 450
               ]
             },
-            "SyntaxLabely2": {
-              "Text" :"y2",
+            "SyntaxLabelx2": {
+              "Text" :"x2",
               "Size": [
                 70,
                 70
@@ -6343,19 +6374,19 @@
                 450
               ]
             },
-            "SyntaxLabely1": {
-              "Text" :"y1",
+            "SyntaxLabelx1": {
+              "Text" :"x1",
               "Size": [
                 70,
                 70
               ],
               "Position": [
-                270,
+                260,
                 450
               ]
             },
             "SyntaxLabelk1": {
-              "Text" :"k",
+              "Text" :"K",
               "Size": [
                 70,
                 70
@@ -6372,11 +6403,10 @@
                 70
               ],
               "Position": [
-                270,
+                250,
                 540
               ]
             }
-
           },
           "Buttons":{
             "SubmitButtn": {
@@ -6413,7 +6443,7 @@
               "Image": "data_ch7/box.png",
               "Size": [
                 300,
-                250
+                240
               ],
               "Position": [
                 50,
@@ -6425,11 +6455,11 @@
               "Image": "data1/asset26.png",
               "Size": [
                 350,
-                350
+                250
               ],
               "Position": [
                 25,
-                660
+                580
               ],
               "Visible": true
             },
@@ -6558,7 +6588,7 @@
                 50
               ],
               "Position": [
-                180,
+                190,
                 300
               ]
             },
@@ -6646,7 +6676,7 @@
                 50
               ],
               "Position": [
-                220,
+                230,
                 220
               ]
             },
@@ -6657,7 +6687,7 @@
                 50
               ],
               "Position": [
-                230,
+                245,
                 220
               ]
             },
@@ -6668,7 +6698,7 @@
                 50
               ],
               "Position": [
-                260,
+                285,
                 220
               ]
             },
@@ -6717,7 +6747,7 @@
               ]
             },
             "SyntaxLabelk": {
-              "Text" :"k",
+              "Text" :"K",
               "Size": [
                 70,
                 70
@@ -6750,7 +6780,7 @@
               ]
             },
             "SyntaxLabelk1": {
-              "Text" :"k",
+              "Text" :"K",
               "Size": [
                 70,
                 70
@@ -6805,7 +6835,7 @@
               "Image": "data_ch7/box.png",
               "Size": [
                 300,
-                250
+                240
               ],
               "Position": [
                 50,
@@ -6817,11 +6847,11 @@
               "Image": "data1/asset26.png",
               "Size": [
                 350,
-                350
+                250
               ],
               "Position": [
                 25,
-                655
+                580
               ],
               "Visible": true
             },
@@ -6950,7 +6980,7 @@
                 50
               ],
               "Position": [
-                180,
+                190,
                 300
               ]
             },
@@ -6961,7 +6991,7 @@
                 50
               ],
               "Position": [
-                230,
+                220,
                 130
               ]
             },
@@ -7038,7 +7068,7 @@
                 50
               ],
               "Position": [
-                220,
+                230,
                 220
               ]
             },
@@ -7049,22 +7079,33 @@
                 50
               ],
               "Position": [
-                230,
+                245,
                 220
               ]
             },
-            "LabelValue25": {
+            "LabelValue125": {
               "Text" :")",
               "Size": [
                 50,
                 50
               ],
               "Position": [
-                260,
+                285,
                 220
               ]
             },
             "LabelValuek1": {
+              "Text" :"3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                110,
+                150
+              ]
+            },
+            "LabelValuek2": {
               "Text" :"3",
               "Size": [
                 50,
@@ -7082,7 +7123,7 @@
                 50
               ],
               "Position": [
-                100,
+                300,
                 270
               ]
             },
@@ -7098,7 +7139,7 @@
               ]
             },
             "SyntaxLabelk": {
-              "Text" :"k",
+              "Text" :"K",
               "Size": [
                 70,
                 70
@@ -7108,8 +7149,8 @@
                 450
               ]
             },
-            "SyntaxLabely2": {
-              "Text" :"y2",
+            "SyntaxLabelx2": {
+              "Text" :"x2",
               "Size": [
                 70,
                 70
@@ -7119,19 +7160,19 @@
                 450
               ]
             },
-            "SyntaxLabely1": {
-              "Text" :"y1",
+            "SyntaxLabelx1": {
+              "Text" :"x1",
               "Size": [
                 70,
                 70
               ],
               "Position": [
-                270,
+                260,
                 450
               ]
             },
             "SyntaxLabelk1": {
-              "Text" :"k",
+              "Text" :"K",
               "Size": [
                 70,
                 70
@@ -7148,11 +7189,10 @@
                 70
               ],
               "Position": [
-                270,
+                250,
                 540
               ]
             }
-
           },
           "Buttons":{
             "SubmitButtn": {
@@ -7189,7 +7229,7 @@
               "Image": "data_ch7/box.png",
               "Size": [
                 300,
-                250
+                240
               ],
               "Position": [
                 50,
@@ -7201,11 +7241,11 @@
               "Image": "data1/asset26.png",
               "Size": [
                 350,
-                350
+                250
               ],
               "Position": [
                 25,
-                660
+                580
               ],
               "Visible": true
             },
@@ -7334,7 +7374,7 @@
                 50
               ],
               "Position": [
-                180,
+                190,
                 300
               ]
             },
@@ -7422,7 +7462,7 @@
                 50
               ],
               "Position": [
-                220,
+                230,
                 220
               ]
             },
@@ -7433,7 +7473,7 @@
                 50
               ],
               "Position": [
-                230,
+                245,
                 220
               ]
             },
@@ -7444,7 +7484,7 @@
                 50
               ],
               "Position": [
-                260,
+                285,
                 220
               ]
             },
@@ -7493,7 +7533,7 @@
               ]
             },
             "SyntaxLabelk": {
-              "Text" :"k",
+              "Text" :"K",
               "Size": [
                 70,
                 70
@@ -7526,7 +7566,7 @@
               ]
             },
             "SyntaxLabelk1": {
-              "Text" :"k",
+              "Text" :"K",
               "Size": [
                 70,
                 70
@@ -7581,7 +7621,7 @@
               "Image": "data_ch7/box.png",
               "Size": [
                 300,
-                250
+                240
               ],
               "Position": [
                 50,
@@ -7593,11 +7633,11 @@
               "Image": "data1/asset26.png",
               "Size": [
                 350,
-                350
+                250
               ],
               "Position": [
                 25,
-                655
+                580
               ],
               "Visible": true
             },
@@ -7726,7 +7766,7 @@
                 50
               ],
               "Position": [
-                180,
+                190,
                 300
               ]
             },
@@ -7737,7 +7777,7 @@
                 50
               ],
               "Position": [
-                230,
+                220,
                 130
               ]
             },
@@ -7814,7 +7854,7 @@
                 50
               ],
               "Position": [
-                220,
+                230,
                 220
               ]
             },
@@ -7825,22 +7865,33 @@
                 50
               ],
               "Position": [
-                230,
+                245,
                 220
               ]
             },
-            "LabelValue25": {
+            "LabelValue125": {
               "Text" :")",
               "Size": [
                 50,
                 50
               ],
               "Position": [
-                260,
+                285,
                 220
               ]
             },
             "LabelValuek1": {
+              "Text" :"3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                110,
+                150
+              ]
+            },
+            "LabelValuek2": {
               "Text" :"3",
               "Size": [
                 50,
@@ -7858,7 +7909,7 @@
                 50
               ],
               "Position": [
-                100,
+                300,
                 270
               ]
             },
@@ -7874,7 +7925,7 @@
               ]
             },
             "SyntaxLabelk": {
-              "Text" :"k",
+              "Text" :"K",
               "Size": [
                 70,
                 70
@@ -7884,8 +7935,8 @@
                 450
               ]
             },
-            "SyntaxLabely2": {
-              "Text" :"y2",
+            "SyntaxLabelx2": {
+              "Text" :"x2",
               "Size": [
                 70,
                 70
@@ -7895,19 +7946,19 @@
                 450
               ]
             },
-            "SyntaxLabely1": {
-              "Text" :"y1",
+            "SyntaxLabelx1": {
+              "Text" :"x1",
               "Size": [
                 70,
                 70
               ],
               "Position": [
-                270,
+                260,
                 450
               ]
             },
             "SyntaxLabelk1": {
-              "Text" :"k",
+              "Text" :"K",
               "Size": [
                 70,
                 70
@@ -7924,11 +7975,10 @@
                 70
               ],
               "Position": [
-                270,
+                250,
                 540
               ]
             }
-
           },
           "Buttons":{
             "SubmitButtn": {

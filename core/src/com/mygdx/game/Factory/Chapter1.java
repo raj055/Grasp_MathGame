@@ -71,7 +71,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
 
     messageBox = new MessageBox();
     messageBox.AddStage(stage);
-
+    numLocal = new ScrollingNumber();
     animationClass = new AnimationClass();
     animationClass.BirdAnimation();
 
@@ -134,7 +134,16 @@ public class Chapter1 extends ChapterScreen implements Screen {
     @Override
     public  void clicked(InputEvent event, float x, float y){
 
+      if (scrollingPara != null) {
+        for (Image img : scrollingPara) {
+          img.remove();
+        }
+        scrollingPara.clear();
+        scrollingImages.clear();
+      }
+
       if(goToNextStep() != true) {
+        messageBox.setPositionX(xPosAdditionFactor - 400);
         messageBox.ShowDialog();
 
         if (messageBox.NextStep.isTouchable()){
@@ -145,7 +154,6 @@ public class Chapter1 extends ChapterScreen implements Screen {
             }
           });
         }
-//        time.dispose();
       }
       else{
 
@@ -157,6 +165,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
 
         stage.getCamera().translate(trnslate,0,0);
         stage.getCamera().update();
+
       }
     }
   };
@@ -239,10 +248,10 @@ public class Chapter1 extends ChapterScreen implements Screen {
             || (GameStates.steps == Steps.STEP_5) || (GameStates.steps == Steps.STEP_6)){
 
       if(scrollingPara != null){
-        numLocal = new ScrollingNumber();
+
         numLocal.setPositionX(xPosAdditionFactor - 400);
         scrollingImages = new ArrayList<Image>();
-        scrollingPara.size();
+//        scrollingPara.size();
         for(Image img : scrollingPara)
         {
           scrollingImages.add(img);
@@ -340,27 +349,29 @@ public class Chapter1 extends ChapterScreen implements Screen {
           new RenderLevel() { public void renderL(float delta) { renderLevel3(delta); } }
   };
 
-  private void renderLevel1(float delta){
-    update(delta);
+  private void renderLevel1(float deltaTime){
+    update(deltaTime);
     stage.draw();
     if (time.isTimeUp()){
       elapsed_time += Gdx.graphics.getDeltaTime();
       animationClass.update(elapsed_time);
     }
-    if(moveTheBg) { bg.act(delta); }
+    if(moveTheBg) { bg.act(deltaTime); }
     time.stage.draw();
   }
-  private void renderLevel2(float delta){
-    update(delta);
+  private void renderLevel2(float deltaTime){
+    update(deltaTime);
+    messageBox.update(deltaTime);
     if (time.isTimeUp()){}
     stage.draw();
-    if(moveTheBg) { bg.act(delta); }
+    if(moveTheBg) { bg.act(deltaTime); }
     time.stage.draw();
 
   }
   private void renderLevel3(float deltaTime){
     update(deltaTime);
     numLocal.update(deltaTime);
+    messageBox.update(deltaTime);
     if (time.isTimeUp()){}
     if(moveTheBg) { bg.act(deltaTime); }
     stage.draw();

@@ -66,12 +66,12 @@ public class ScrollingUpdateLabelCh2 implements Subscriber{
     }
 
     private void ImageClick1() {
-        ballDisplay.update();
+        ballDisplay.updateCh2();
 
         Label Labal_f1 = getLabel("labelF1");
         Label Labal_f2 = getLabel("labelF2");
-        Label Labal_f3 = getLabel("labelF2");
-        Label Labal_f4 = getLabel("labelF3");
+        Label Labal_f3 = getLabel("labelF3");
+        Label Labal_f4 = getLabel("labelF4");
 
         if (glv.lableWrite) {
             switch (glv.countClick) {

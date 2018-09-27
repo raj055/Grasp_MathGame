@@ -266,7 +266,7 @@
                 70,
                 210
               ],
-              "Visible" : false
+              "Visible" : true
             },
             "Value2": {
               "Text": "10",
@@ -278,7 +278,7 @@
                 270,
                 210
               ],
-              "Visible" : false
+              "Visible" : true
             },
             "Value11": {
               "Text": "10",

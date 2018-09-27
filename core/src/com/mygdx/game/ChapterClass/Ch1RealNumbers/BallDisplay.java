@@ -55,4 +55,18 @@ public class BallDisplay {
       }
     }
   }
+
+  public void updateCh2(){
+
+    for (int i = 0; i < columns; i++){
+      for (int j = 0; j < rows; j++) {
+
+        posX = 20 + global.posXBall[i];
+        posY = 380 - global.posYBall[j];
+
+        balls[i][j].setSize(40, 40);
+        balls[i][j].setPosition(posX,posY);
+      }
+    }
+  }
 }

@@ -70,7 +70,7 @@ public class ScrollingNumber implements Disposable {
             if (y <= 0) {
                 y = 700;
                 float x;
-                x = MathUtils.random(50 + posX, 360 + posY);
+                x = MathUtils.random(50 + posX, 360 + posX);
                 img.setPosition(x, y);
             }
 
@@ -80,6 +80,6 @@ public class ScrollingNumber implements Disposable {
 
     @Override
     public void dispose() {
-        gblVar.clear();
+
     }
 }

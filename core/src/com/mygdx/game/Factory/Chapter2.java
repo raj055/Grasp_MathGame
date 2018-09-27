@@ -87,29 +87,47 @@ public class Chapter2 extends ChapterScreen implements Screen {
     stage.dispose();
   }
 
-  // Submit Button ClickListener
-  ClickListener submitButtonClicked = new ClickListener(){
-    @Override
-    public  void clicked(InputEvent event, float x, float y){
+    // Submit Button ClickListener
+    ClickListener submitButtonClicked = new ClickListener(){
+        @Override
+        public  void clicked(InputEvent event, float x, float y){
 
-      if(goToNextStep() != true) {
-        messageBox.ShowDialog();
-        GameStates.screenStates = ScreenStates.LEVELSCREEN;
-        time.dispose();
-      }
-      else{
+            if (scrollingPara != null) {
+                for (Image img : scrollingPara) {
+                    img.remove();
+                }
+                scrollingPara.clear();
+                scrollingImages.clear();
+            }
 
-        int trnslate = 400;
-        stageTranslate += 400;
-        //Get the Level Number and Initialise the Level Components.
-        getLevelName();
-        initialiseLevelComponents(currentLevelNumber);
+            if(goToNextStep() != true) {
+                messageBox.setPositionX(xPosAdditionFactor - 400);
+                messageBox.ShowDialog();
 
-        stage.getCamera().translate(trnslate,0,0);
-        stage.getCamera().update();
-      }
-    }
-  };
+                if (messageBox.NextStep.isTouchable()){
+                    messageBox.NextStep.addListener(new ClickListener(){
+                        @Override
+                        public void clicked(InputEvent event, float x, float y) {
+                            GameStates.screenStates = ScreenStates.LEVELSCREEN;
+                        }
+                    });
+                }
+            }
+            else{
+
+                int trnslate = 400;
+                stageTranslate += 400;
+                //Get the Level Number and Initialise the Level Components.
+                getLevelName();
+                initialiseLevelComponents(currentLevelNumber);
+
+                stage.getCamera().translate(trnslate,0,0);
+                stage.getCamera().update();
+
+            }
+        }
+    };
+
   // Level's Component
   void defineLevel1to5Components() {
 
@@ -193,7 +211,10 @@ public class Chapter2 extends ChapterScreen implements Screen {
             }
         }
     }
-    else if (GameStates.steps == Steps.STEP_3){ }
+    else if (GameStates.steps == Steps.STEP_3){
+        numLocal = new ScrollingNumber();
+        numLocal.dispose();
+    }
 
     //Add Submit Button Listener.
     addSubmitButtonListner();
@@ -237,7 +258,10 @@ public class Chapter2 extends ChapterScreen implements Screen {
             visebleComponetsCh2 = new VisebleComponetsCh2(imageViseble);
         }
     }
-    else if (GameStates.steps == Steps.STEP_3){}
+    else if (GameStates.steps == Steps.STEP_3){
+        numLocal = new ScrollingNumber();
+        numLocal.dispose();
+    }
 
     //Add Submit Button Listener.
     addSubmitButtonListner();
@@ -308,16 +332,18 @@ public class Chapter2 extends ChapterScreen implements Screen {
   };
 
 
-  private void renderLevel1(float delta){
-    update(delta);
+  private void renderLevel1(float deltaTime){
+    update(deltaTime);
+    messageBox.update(deltaTime);
     if (time.isTimeUp()){}
-    if(moveTheBg) { bg.act(delta);}
+    if(moveTheBg) { bg.act(deltaTime);}
     stage.draw();
     time.stage.draw();
   }
   private void renderLevel2(float deltaTime){
     time.update(deltaTime);
     numLocal.update(deltaTime);
+    messageBox.update(deltaTime);
     if (time.isTimeUp()){}
     if(moveTheBg) { bg.act(deltaTime);}
     stage.draw();
@@ -326,6 +352,7 @@ public class Chapter2 extends ChapterScreen implements Screen {
   private void renderLevel3(float deltaTime){
     time.update(deltaTime);
     numLocal.update(deltaTime);
+    messageBox.update(deltaTime);
     if (time.isTimeUp()){}
     if(moveTheBg) { bg.act(deltaTime);}
     stage.draw();
