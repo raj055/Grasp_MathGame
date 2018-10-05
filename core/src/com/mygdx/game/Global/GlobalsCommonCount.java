@@ -174,8 +174,8 @@ public class GlobalsCommonCount {
   };
 
   public static final int[] ValueA = {
-          12,  17,   20,
-          10,  19,   12576, 422,
+          17,  12,   20,
+          10,  4,   12576, 422,
           225, 38220,  867
   };
 

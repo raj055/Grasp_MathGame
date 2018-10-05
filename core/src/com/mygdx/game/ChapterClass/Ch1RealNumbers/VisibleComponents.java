@@ -38,7 +38,7 @@ public class VisibleComponents extends ShowEntity implements Subscriber {
 
     //Update the value of Progress Bar length variable.
     Gdx.app.debug("Value of A", String.valueOf(chapterVariables.chapter1Variables.ValueOfA));
-    float progBarSize = score * (800/chapterVariables.chapter1Variables.ValueOfA);
+    float progBarSize = score * (320/chapterVariables.chapter1Variables.ValueOfA);
 
     //Set Progress Bar size.
     this.progressBar.setSize(40, progBarSize);

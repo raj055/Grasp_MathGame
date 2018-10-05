@@ -1,10 +1,13 @@
 package com.mygdx.game.ChapterClass.Ch1RealNumbers;
 
+import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
+import com.badlogic.gdx.scenes.scene2d.utils.DragAndDrop;
 import com.mygdx.game.BuilderBlocks.ChapterVariables;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.OnDragCallBack;
+import com.mygdx.game.Factory.ChapterScreen;
 import com.mygdx.game.MyGame;
 
 import java.util.ArrayList;
@@ -16,14 +19,45 @@ public class BallDragListener extends OnDragCallBack {
   //Get the Chapter1 Variables.
   ChapterVariables chapterVariables = ChapterVariables.getInstance();
 
-  public BallDragListener(Events triggerEvent) {
+  Image targetImage;
+
+  public BallDragListener(Events triggerEvent, Image target) {
     super(triggerEvent);
+    targetImage = target;
+
   }
+
+  public void setTarget(Image dragarea){
+    targetImage = dragarea;
+  }
+
+  /*DragAndDrop.Target target = new DragAndDrop.Target(targetImage) {
+    @Override
+    public boolean drag(DragAndDrop.Source source, DragAndDrop.Payload payload, float x, float y, int pointer) {
+
+      //Drag12 all the balls
+      if(!(displayBalls.isEmpty())) {
+        for (Image disBall : displayBalls) {
+          disBall.moveBy(x, y);
+        }
+      }
+      return true;
+    }
+
+    @Override
+    public void drop(DragAndDrop.Source source, DragAndDrop.Payload payload, float x, float y, int pointer) {
+
+      //Update the relevant variables
+      updateGlobalVariables();
+
+      //Update the relevant labels
+      postEvent();
+    }
+  };*/
 
   @Override
   public void drag(InputEvent event, float x, float y, int pointer) {
-
-    //Drag all the balls
+    //Drag12 all the balls
     if(!(displayBalls.isEmpty())) {
       for (Image disBall : displayBalls) {
         disBall.moveBy(x, y);
@@ -39,8 +73,9 @@ public class BallDragListener extends OnDragCallBack {
 
     //Update the relevant labels
     postEvent();
-
   }
+
+
 
   public void setDisplayBalls(ArrayList<Image> dispBalls){
     if(dispBalls != null) {
@@ -50,13 +85,14 @@ public class BallDragListener extends OnDragCallBack {
 
   void updateGlobalVariables(){
 
-    int xPos = 220;
+    int xPos = 155;
 
     for(Image disBall : displayBalls) {
       chapterVariables.chapter1Variables.ValueOfScore++;
-      disBall.setPosition(xPos, MyGame.HEIGHT - 150);
-      xPos += 50;
+      disBall.setPosition(xPos, MyGame.HEIGHT - 140);
+      xPos += 40;
     }
     chapterVariables.chapter1Variables.ValueOfQ++;
+    chapterVariables.chapter1Variables.ValueOfB++;
   }
 }

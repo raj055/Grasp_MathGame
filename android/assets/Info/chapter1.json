@@ -102,14 +102,14 @@
               "Visible": false
             },
             "dragbg": {
-              "Image": "data1/asset23.png",
+              "Image": "data1/asset12.png",
               "Size": [
-                57,
-                57
+                245,
+                40
               ],
               "Position": [
-                225,
-                145
+                153,
+                140
               ],
               "Visible": true
             },
@@ -342,15 +342,15 @@
             "DragBall":{
               "Image": "data1/ball.png",
               "Size": [
-                70,
-                70
+                40,
+                40
               ],
               "Position": [
-                220,
-                150
+                155,
+                140
               ],
               "Touchable": true,
-              "Total":1,
+              "Total":6,
               "DragListener": "dragBallListener"
             },
             "RemBall":{
@@ -402,6 +402,17 @@
                 295
               ]
             },
+            "ValueB": {
+              "Text" :"6",
+              "Size": [
+                15,
+                15
+              ],
+              "Position": [
+                188,
+                80
+              ]
+            },
             "ScoreValue": {
               "Text" :"0",
               "Size": [
@@ -409,7 +420,7 @@
                 60
               ],
               "Position": [
-                345,
+                340,
                 700
               ]
             }
@@ -591,14 +602,14 @@
               "Visible": false
             },
             "dragbg": {
-              "Image": "data1/asset23.png",
+              "Image": "data1/asset12.png",
               "Size": [
-                57,
-                57
+                210,
+                40
               ],
               "Position": [
-                225,
-                145
+                154,
+                140
               ],
               "Visible": true
             },
@@ -831,15 +842,15 @@
             "DragBall":{
               "Image": "data1/ball.png",
               "Size": [
-                70,
-                70
+                40,
+                40
               ],
               "Position": [
-                220,
-                150
+                155,
+                140
               ],
               "Touchable": true,
-              "Total":1,
+              "Total":5,
               "DragListener": "dragBallListener"
             },
             "RemBall":{
@@ -891,6 +902,17 @@
                 295
               ]
             },
+            "ValueB": {
+              "Text" :"5",
+              "Size": [
+                15,
+                15
+              ],
+              "Position": [
+                188,
+                80
+              ]
+            },
             "ScoreValue": {
               "Text" :"0",
               "Size": [
@@ -898,7 +920,7 @@
                 60
               ],
               "Position": [
-                345,
+                340,
                 700
               ]
             }
@@ -1080,14 +1102,14 @@
               "Visible": false
             },
             "dragbg": {
-              "Image": "data1/asset23.png",
+              "Image": "data1/asset12.png",
               "Size": [
-                57,
-                57
+                170,
+                40
               ],
               "Position": [
-                225,
-                145
+                153,
+                140
               ],
               "Visible": true
             },
@@ -1320,15 +1342,15 @@
             "DragBall":{
               "Image": "data1/ball.png",
               "Size": [
-                70,
-                70
+                40,
+                40
               ],
               "Position": [
-                220,
-                150
+                155,
+                140
               ],
               "Touchable": true,
-              "Total":1,
+              "Total":4,
               "DragListener": "dragBallListener"
             },
             "RemBall":{
@@ -1380,6 +1402,17 @@
                 295
               ]
             },
+            "ValueB": {
+              "Text" :"4",
+              "Size": [
+                15,
+                15
+              ],
+              "Position": [
+                188,
+                80
+              ]
+            },
             "ScoreValue": {
               "Text" :"0",
               "Size": [
@@ -1387,7 +1420,7 @@
                 60
               ],
               "Position": [
-                345,
+                340,
                 700
               ]
             }
@@ -1569,14 +1602,14 @@
               "Visible": false
             },
             "dragbg": {
-              "Image": "data1/asset23.png",
+              "Image": "data1/asset12.png",
               "Size": [
-                57,
-                57
+                130,
+                40
               ],
               "Position": [
-                225,
-                145
+                153,
+                140
               ],
               "Visible": true
             },
@@ -1809,15 +1842,15 @@
             "DragBall":{
               "Image": "data1/ball.png",
               "Size": [
-                70,
-                70
+                40,
+                40
               ],
               "Position": [
-                220,
-                150
+                155,
+                140
               ],
               "Touchable": true,
-              "Total":1,
+              "Total":3,
               "DragListener": "dragBallListener"
             },
             "RemBall":{
@@ -1869,6 +1902,17 @@
                 295
               ]
             },
+            "ValueB":{
+              "Text" :"3",
+              "Size": [
+                15,
+                15
+              ],
+              "Position": [
+                188,
+                80
+              ]
+            },
             "ScoreValue": {
               "Text" :"0",
               "Size": [
@@ -1876,7 +1920,7 @@
                 60
               ],
               "Position": [
-                345,
+                340,
                 700
               ]
             }
@@ -2365,7 +2409,7 @@
                 60
               ],
               "Position": [
-                345,
+                340,
                 700
               ]
             }

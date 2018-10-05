@@ -38,6 +38,7 @@ public class ChapterVariables {
 
     //Chapter 1 Variables
     public int ValueOfB = 0;
+    public int ValueB = 0;
     public int ValueOfScore = 0;
     public int ValueOfA = 0;
     public int ValueOfR = 0;

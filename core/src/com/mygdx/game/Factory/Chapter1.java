@@ -4,9 +4,11 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
+import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
+import com.badlogic.gdx.scenes.scene2d.utils.DragAndDrop;
 import com.mygdx.game.Animation.AnimationClass;
 import com.mygdx.game.BuilderBlocks.ChapterVariables;
 import com.mygdx.game.BuilderBlocks.Events;
@@ -30,11 +32,6 @@ import java.util.ArrayList;
 
 import static com.mygdx.game.Global.GlobalsCommonCount.ValueA;
 
-
-/**
- * Created by HP on 12-01-2018.
- */
-
 public class Chapter1 extends ChapterScreen implements Screen {
 
   //Get the components of level 1
@@ -47,7 +44,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
   //Number of display balls for the LCM
   private BallDisplay ballDisplay;
 
-  //Ball Drag Listener
+  //Ball Drag12 Listener
   private BallDragListener ballDragListener;
   private RemainderDragListener remBallDragListener;
 
@@ -76,7 +73,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
     animationClass.BirdAnimation();
 
     //Define all Listeners and Updation Objects
-    ballDragListener = new BallDragListener(Events.BALL_DRAG_EVENT);
+
     remBallDragListener = new RemainderDragListener(Events.REMAINDER_BALL_DRAG);
 
     getLevelName();
@@ -112,12 +109,14 @@ public class Chapter1 extends ChapterScreen implements Screen {
     stage.dispose();
   }
 
-  // Drag Remainder Ball
+  // Drag12 Remainder Ball
   private void attachDraggables(){
+
     if(draggable == null) {
       return;
     }
     try {
+
       for (Image draggables : draggable) {
         if (draggables.getName().contains("RemBall")) {
           draggables.addListener(remBallDragListener);
@@ -128,6 +127,51 @@ public class Chapter1 extends ChapterScreen implements Screen {
     }
     catch (Exception e){ }
   }
+
+ /* private void Initdrgndrop() {
+
+    final DragAndDrop dragAndDrop = new DragAndDrop();
+    dragAndDrop.addSource(new DragAndDrop.Source(point) {
+      @Override
+      public DragAndDrop.Payload dragStart(InputEvent event, float x, float y, int pointer) {
+
+        DragAndDrop.Payload payload = new DragAndDrop.Payload();
+//				payload.setObject(ball);
+        payload.setDragActor(point);
+        dragAndDrop.setDragActorPosition(-x, -y);
+        return payload;
+      }
+
+      public void dragStop (InputEvent event, float x, float y, int pointer, DragAndDrop.Target target) {
+        point.setBounds(50, 125, point.getWidth(), point.getHeight());
+        if(target != null) {
+//          point.setPosition(target.getActor().getX(), target.getActor().getY());
+          point.setPosition(240, MyGame.HEIGHT - 130);
+        }
+      }
+
+    });
+
+    dragAndDrop.addTarget(new DragAndDrop.Target(line_x) {
+      @Override
+      public boolean drag(DragAndDrop.Source source, DragAndDrop.Payload payload, float x, float y, int pointer) {
+
+        return true;
+      }
+
+      @Override
+      public void drop(DragAndDrop.Source source, DragAndDrop.Payload payload, float x, float y, int pointer) {
+
+        line2.setVisible(true);
+
+        if (line2.isVisible()) {
+          line1.setVisible(false);
+          score.setText("500");
+          click.setTouchable(Touchable.enabled);
+        }
+      }
+    });
+  }*/
 
   // Submit Button ClickListener
   ClickListener submitButtonClicked = new ClickListener(){
@@ -169,7 +213,6 @@ public class Chapter1 extends ChapterScreen implements Screen {
       }
     }
   };
-
 
   private void defineLevel1To10Components() {
     ChapterVariables chapterVariables = ChapterVariables.getInstance();
@@ -228,11 +271,21 @@ public class Chapter1 extends ChapterScreen implements Screen {
         for (Image updatable : draggable) {
           String str = updatable.getName();
           if (str.contains("DragBall")) {
-            chapterVariables.chapter1Variables.ValueOfB++;
             displayBalls.add(updatable);
           } else if (str.contains("RemBall"))
             remainderBall.add(updatable);
         }
+
+        Image targetArea = null;
+
+        for (Image displayImage : displayImages) {
+          if (displayImage.getName().contains("bgSquare")) {
+            targetArea = displayImage;
+//          ballDragListener.setTarget(targetArea);
+          }
+        }
+        ballDragListener = new BallDragListener(Events.BALL_DRAG_EVENT,targetArea);
+
         ballDragListener.setDisplayBalls(displayBalls);
 
         attachDraggables();
@@ -241,6 +294,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }
+
   private void defineLevel11to15Components() {
 
     if((GameStates.steps == Steps.STEP_1) || (GameStates.steps == Steps.STEP_2)
@@ -272,6 +326,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
       scrollingUpdateLableCh1 = new ScrollingUpdateLabelCh1(updateScrollLable);
       ballDisplay = new BallDisplay(9,9);
 
+      ballDisplay.setPositionX(xPosAdditionFactor - 400);
       for (int i = 0; i < ballDisplay.columns; i++){
 
         for (int j = 0; j < ballDisplay.rows; j++) {

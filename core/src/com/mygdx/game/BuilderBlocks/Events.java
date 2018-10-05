@@ -36,7 +36,7 @@ public enum Events {
   DOUBLE_CLICK_IMG_C2,
   CLICK_SCROLLCH2_BALLDISPLAY,
 
-  //Chapter3 - Drag : Level (11-15)
+  //Chapter3 - Drag12 : Level (11-15)
   DRAG_VALUE_A1,
   DRAG_VALUE_B1,
   DRAG_VALUE_B11,

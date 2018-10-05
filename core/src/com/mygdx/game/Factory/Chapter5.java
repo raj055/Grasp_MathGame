@@ -19,7 +19,7 @@ import java.util.ArrayList;
 
 public class Chapter5 extends ChapterScreen implements Screen {
 
-  //Visible components on Drag values
+  //Visible components on Drag12 values
   private VisebalComponentsCh5 visebalComponentsCh5;
 
   //Update components on clicking scrolling values
@@ -28,7 +28,7 @@ public class Chapter5 extends ChapterScreen implements Screen {
   //Double click listeners for plus
   private DoubleClickListener dblClickListenerPlus;
 
-  //Drag click listeners
+  //Drag12 click listeners
    DragClickListener drag_l1_value1,drag_l1_value2,drag_l1_value12,drag_l1_value13;
 
   private ArrayList<Image> scrollingImages = null;

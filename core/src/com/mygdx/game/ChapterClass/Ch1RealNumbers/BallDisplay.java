@@ -42,16 +42,21 @@ public class BallDisplay {
     }
   }
 
+  public void setPositionX(int positionX){
+    this.posX = positionX + 10;
+  }
+
   public void update(){
 
     for (int i = 0; i < columns; i++){
       for (int j = 0; j < rows; j++) {
 
-        posX = 20 + global.posXBall[i];
-        posY = 445 - global.posYBall[j];
+        posX = 25 + global.posXBall[i];
+        posY = 420 - global.posYBall[j];
 
         balls[i][j].setSize(40, 40);
         balls[i][j].setPosition(posX,posY);
+
       }
     }
   }
@@ -64,7 +69,7 @@ public class BallDisplay {
         posX = 20 + global.posXBall[i];
         posY = 380 - global.posYBall[j];
 
-        balls[i][j].setSize(40, 40);
+        balls[i][j].setSize(20, 20);
         balls[i][j].setPosition(posX,posY);
       }
     }

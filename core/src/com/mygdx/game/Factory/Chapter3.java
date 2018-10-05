@@ -149,7 +149,7 @@ public class Chapter3 extends ChapterScreen implements Screen {
     }
   };
 
-  void defineLevel1To5Components() {
+  void defineLevel1To3Components() {
 
     if(GameStates.steps == Steps.STEP_1 || (GameStates.steps == Steps.STEP_2)
             ||(GameStates.steps == Steps.STEP_3) ||(GameStates.steps == Steps.STEP_4
@@ -181,7 +181,7 @@ public class Chapter3 extends ChapterScreen implements Screen {
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }
-  void defineLevel6To10Components() {
+  void defineLevel4To7Components() {
 
     clickListenerY1 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG_Y1);
     clickListenerY2 = new DoubleClickListener(Events.DOUBLE_CLICK_IMG_Y2);
@@ -228,7 +228,8 @@ public class Chapter3 extends ChapterScreen implements Screen {
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }
-  void defineLevel11To15Components() {
+  void defineLevel8To11Components(){}
+  void defineLevel12To15Components() {
 
     dragListenerA1 = new DragClickListener(Events.DRAG_VALUE_A1);
     dragListenerA2 = new DragClickListener(Events.DRAG_VALUE_A2);
@@ -293,21 +294,21 @@ public class Chapter3 extends ChapterScreen implements Screen {
 
   private LevelDefinition[] levelInitialisations = (LevelDefinition[]) new LevelDefinition[] {
           new LevelDefinition() {
-            public void initialise() { defineLevel1To5Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel1To5Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel1To5Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel1To5Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel1To5Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel6To10Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel6To10Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel6To10Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel6To10Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel6To10Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel11To15Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel11To15Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel11To15Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel11To15Components(); } },
-          new LevelDefinition() { public void initialise() { defineLevel11To15Components(); } },
+            public void initialise() { defineLevel1To3Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel1To3Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel1To3Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel4To7Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel4To7Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel4To7Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel4To7Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel8To11Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel8To11Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel8To11Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel8To11Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel12To15Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel12To15Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel12To15Components(); } },
+          new LevelDefinition() { public void initialise() { defineLevel12To15Components(); } },
   };
 
   public void initialiseLevelComponents(int index) {
@@ -323,18 +324,18 @@ public class Chapter3 extends ChapterScreen implements Screen {
             public void renderL(float delta) { renderLevel1(delta); } },
           new RenderLevel() { public void renderL(float delta) { renderLevel1(delta); } },
           new RenderLevel() { public void renderL(float delta) { renderLevel1(delta); } },
-          new RenderLevel() { public void renderL(float delta) { renderLevel1(delta); } },
-          new RenderLevel() { public void renderL(float delta) { renderLevel1(delta); } },
+          new RenderLevel() { public void renderL(float delta) { renderLevel2(delta); } },
+          new RenderLevel() { public void renderL(float delta) { renderLevel2(delta); } },
           new RenderLevel() { public void renderL(float delta) { renderLevel2(delta); } },
           new RenderLevel() { public void renderL(float delta) { renderLevel2(delta); } },
           new RenderLevel() { public void renderL(float delta) { renderLevel2(delta); } },
           new RenderLevel() { public void renderL(float delta) { renderLevel2(delta); } },
           new RenderLevel() { public void renderL(float delta) { renderLevel2(delta); } },
           new RenderLevel() { public void renderL(float delta) { renderLevel3(delta); } },
-          new RenderLevel() { public void renderL(float delta) { renderLevel3(delta); } },
-          new RenderLevel() { public void renderL(float delta) { renderLevel3(delta); } },
-          new RenderLevel() { public void renderL(float delta) { renderLevel3(delta); } },
-          new RenderLevel() { public void renderL(float delta) { renderLevel3(delta); } }
+          new RenderLevel() { public void renderL(float delta) { renderLevel4(delta); } },
+          new RenderLevel() { public void renderL(float delta) { renderLevel4(delta); } },
+          new RenderLevel() { public void renderL(float delta) { renderLevel4(delta); } },
+          new RenderLevel() { public void renderL(float delta) { renderLevel4(delta); } }
   };
 
   private void renderLevel1(float deltaTime){
@@ -368,6 +369,15 @@ public class Chapter3 extends ChapterScreen implements Screen {
     time.stage.draw();
   }
   private void renderLevel3(float deltaTime){
+    time.update(deltaTime);
+    messageBox.update(deltaTime);
+    if (time.isTimeUp()){ }
+    if(moveTheBg) { bg.act(deltaTime);}
+    stage.draw();
+    time.stage.draw();
+
+  }
+  private void renderLevel4(float deltaTime){
     time.update(deltaTime);
     messageBox.update(deltaTime);
     if (time.isTimeUp()){ }
