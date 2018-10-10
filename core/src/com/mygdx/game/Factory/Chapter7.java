@@ -1,22 +1,16 @@
 package com.mygdx.game.Factory;
 
-import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
-import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
-import com.badlogic.gdx.scenes.scene2d.utils.DragListener;
-import com.mygdx.game.BuilderBlocks.DoubleClickListener;
 import com.mygdx.game.BuilderBlocks.DragClickListener;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.ChapterClass.Ch7CoordinateGeometry.VisebalComponentsCh7;
 import com.mygdx.game.Enum.ScreenStates;
 import com.mygdx.game.Enum.Steps;
-import com.mygdx.game.Global.GlobalsCommonCount;
 import com.mygdx.game.Screens.MessageBox;
-import com.mygdx.game.Timer.Timer;
 
 import java.util.ArrayList;
 
@@ -328,7 +322,7 @@ public class Chapter7 extends ChapterScreen implements Screen {
   private void renderLevel1(float deltaTime){
     update(deltaTime);
     messageBox.update(deltaTime);
-    if (time.isTimeUp()){}
+    if (time.isTimeUp()){messageBox.TimeUpMessage();}
 
     //Move Screen to next Screen
     if(moveTheBg) { bg.act(deltaTime);}
@@ -339,7 +333,7 @@ public class Chapter7 extends ChapterScreen implements Screen {
   private void renderLevel2(float deltaTime){
     update(deltaTime);
     messageBox.update(deltaTime);
-    if (time.isTimeUp()){}
+    if (time.isTimeUp()){messageBox.TimeUpMessage();}
 
     //Move Screen to next Screen
     if(moveTheBg) { bg.act(deltaTime);}
@@ -351,7 +345,7 @@ public class Chapter7 extends ChapterScreen implements Screen {
     time.update(deltaTime);
     messageBox.update(deltaTime);
 
-    if (time.isTimeUp()){}
+    if (time.isTimeUp()){messageBox.TimeUpMessage();}
 
     //Move Screen to next Screen
     if(moveTheBg) { bg.act(deltaTime);}

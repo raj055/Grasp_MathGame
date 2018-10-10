@@ -1,6 +1,5 @@
 package com.mygdx.game.Factory;
 
-import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 import com.mygdx.game.Enum.Chapters;
 import com.mygdx.game.Enum.Levels;

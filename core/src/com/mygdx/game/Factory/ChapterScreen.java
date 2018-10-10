@@ -13,7 +13,6 @@ import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.viewport.FitViewport;
-import com.mygdx.game.Enum.ScreenStates;
 import com.mygdx.game.Enum.Steps;
 import com.mygdx.game.Global.GlobalsCommonCount;
 import com.mygdx.game.Levels.ReadConfiguration;
@@ -788,8 +787,7 @@ public abstract class ChapterScreen {
       public void clicked(InputEvent event, float x, float y) {
         Assets.playSound(Assets.clickSound);
         if (Settings.musicEnabled) Assets.music.stop();
-        GameStates.screenStates = ScreenStates.DIALOGBOX;
-        gblVar.clear();
+        messageBox.PauseMessage();
       }
     };
 
@@ -804,7 +802,6 @@ public abstract class ChapterScreen {
         @Override
         public void clicked(InputEvent event, float x, float y) {
             Assets.playSound(Assets.clickSound);
-            messageBox.ShowDialog();
         }
     };
 

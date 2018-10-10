@@ -8,11 +8,11 @@ import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.mygdx.game.BuilderBlocks.DoubleClickListener;
 import com.mygdx.game.BuilderBlocks.DragClickListener;
 import com.mygdx.game.BuilderBlocks.Events;
+import com.mygdx.game.BuilderBlocks.ScrollingNumber;
 import com.mygdx.game.ChapterClass.Ch5ArithmeticProgressions.ScrollingUpdateCh5;
 import com.mygdx.game.ChapterClass.Ch5ArithmeticProgressions.VisebalComponentsCh5;
 import com.mygdx.game.Enum.ScreenStates;
 import com.mygdx.game.Enum.Steps;
-import com.mygdx.game.BuilderBlocks.ScrollingNumber;
 import com.mygdx.game.Screens.MessageBox;
 
 import java.util.ArrayList;
@@ -291,7 +291,7 @@ public class Chapter5 extends ChapterScreen implements Screen {
   private void renderLevel1(float deltaTime){
     update(deltaTime);
     messageBox.update(deltaTime);
-    if (time.isTimeUp()){ }
+    if (time.isTimeUp()){messageBox.TimeUpMessage(); }
 
     //Move Screen to next Screen
     if(moveTheBg) { bg.act(deltaTime);}
@@ -306,7 +306,7 @@ public class Chapter5 extends ChapterScreen implements Screen {
     if(numLocal != null)
       numLocal.update(deltaTime);
 
-    if (time.isTimeUp()){}
+    if (time.isTimeUp()){messageBox.TimeUpMessage();}
 
     //Move Screen to next Screen
     if(moveTheBg) { bg.act(deltaTime);}
@@ -321,7 +321,7 @@ public class Chapter5 extends ChapterScreen implements Screen {
     if(numLocal != null)
     numLocal.update(deltaTime);
 
-    if (time.isTimeUp()){}
+    if (time.isTimeUp()){messageBox.TimeUpMessage();}
 
     //Move Screen to next Screen
     if(moveTheBg) { bg.act(deltaTime);}

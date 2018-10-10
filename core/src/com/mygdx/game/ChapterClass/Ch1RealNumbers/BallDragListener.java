@@ -31,30 +31,6 @@ public class BallDragListener extends OnDragCallBack {
     targetImage = dragarea;
   }
 
-  /*DragAndDrop.Target target = new DragAndDrop.Target(targetImage) {
-    @Override
-    public boolean drag(DragAndDrop.Source source, DragAndDrop.Payload payload, float x, float y, int pointer) {
-
-      //Drag12 all the balls
-      if(!(displayBalls.isEmpty())) {
-        for (Image disBall : displayBalls) {
-          disBall.moveBy(x, y);
-        }
-      }
-      return true;
-    }
-
-    @Override
-    public void drop(DragAndDrop.Source source, DragAndDrop.Payload payload, float x, float y, int pointer) {
-
-      //Update the relevant variables
-      updateGlobalVariables();
-
-      //Update the relevant labels
-      postEvent();
-    }
-  };*/
-
   @Override
   public void drag(InputEvent event, float x, float y, int pointer) {
     //Drag12 all the balls

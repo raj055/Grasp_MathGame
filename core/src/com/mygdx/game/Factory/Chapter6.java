@@ -36,7 +36,7 @@ public class Chapter6 extends ChapterScreen implements Screen {
 
   private Numberch6 numberch6;
 
-  private DoubleClickListener  Click_imgVlu1, Click_imgVlu5, Click_imgVlu7, Click_imgVlu4, Click_imgVlu8,
+  private DoubleClickListener Click_imgVlu1, Click_imgVlu5, Click_imgVlu7, Click_imgVlu4, Click_imgVlu8,
           Click_imgVlu2, Click_imgVlu, Click_imgVlu6, Click_imgVlu9_2, Click_imgVlu9, Click_imgVlu3;
 
   private UpdateImageCh6 updateImageCh6;
@@ -358,7 +358,7 @@ public class Chapter6 extends ChapterScreen implements Screen {
   private void renderLevel1(float deltaTime){
     update(deltaTime);
     messageBox.update(deltaTime);
-    if (time.isTimeUp()){}
+    if (time.isTimeUp()){messageBox.TimeUpMessage();}
 
     //Move Screen to next Screen
     if(moveTheBg) { bg.act(deltaTime);}
@@ -372,7 +372,7 @@ public class Chapter6 extends ChapterScreen implements Screen {
    if(numberch6 != null)
     numberch6.update(deltaTime);
 
-    if (time.isTimeUp()){ }
+    if (time.isTimeUp()){messageBox.TimeUpMessage(); }
 
     //Move Screen to next Screen
     if(moveTheBg) { bg.act(deltaTime);}
@@ -383,7 +383,7 @@ public class Chapter6 extends ChapterScreen implements Screen {
   private void renderLevel3(float deltaTime){
     time.update(deltaTime);
     messageBox.update(deltaTime);
-    if (time.isTimeUp()){ }
+    if (time.isTimeUp()){messageBox.TimeUpMessage(); }
 
     //Move Screen to next Screen
     if(moveTheBg) { bg.act(deltaTime);}

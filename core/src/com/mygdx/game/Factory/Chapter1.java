@@ -2,9 +2,7 @@ package com.mygdx.game.Factory;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
-import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
-import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
@@ -16,17 +14,15 @@ import com.mygdx.game.BuilderBlocks.ProgressData;
 import com.mygdx.game.BuilderBlocks.ScrollingImageClick;
 import com.mygdx.game.BuilderBlocks.ScrollingNumber;
 import com.mygdx.game.ChapterClass.Ch1RealNumbers.BallDisplay;
-import com.mygdx.game.ChapterClass.Ch1RealNumbers.ScrollingUpdateLabelCh1;
-import com.mygdx.game.Enum.ScreenStates;
-import com.mygdx.game.Enum.Steps;
-import com.mygdx.game.Global.GlobalsCommonCount;
 import com.mygdx.game.ChapterClass.Ch1RealNumbers.BallDragListener;
 import com.mygdx.game.ChapterClass.Ch1RealNumbers.DragBallIndicators;
 import com.mygdx.game.ChapterClass.Ch1RealNumbers.RemainderDragListener;
+import com.mygdx.game.ChapterClass.Ch1RealNumbers.ScrollingUpdateLabelCh1;
 import com.mygdx.game.ChapterClass.Ch1RealNumbers.VisibleComponents;
+import com.mygdx.game.Enum.ScreenStates;
+import com.mygdx.game.Enum.Steps;
+import com.mygdx.game.MyGame;
 import com.mygdx.game.Screens.MessageBox;
-import com.mygdx.game.Timer.Timer;
-
 
 import java.util.ArrayList;
 
@@ -35,7 +31,7 @@ import static com.mygdx.game.Global.GlobalsCommonCount.ValueA;
 public class Chapter1 extends ChapterScreen implements Screen {
 
   //Get the components of level 1
-  private Image progbar1;
+  private Image progbar1,targetArea;
   private ArrayList<Image> displayBalls = null;
   private ArrayList<Image> remainderBall = null;
   private ArrayList<Image> scrollingImages = null;
@@ -58,6 +54,9 @@ public class Chapter1 extends ChapterScreen implements Screen {
   private VisibleComponents visibleComponents;
   private ScrollingUpdateLabelCh1 scrollingUpdateLableCh1;
   private ScrollingImageClick scrollingImageClick;
+
+  //Get the Chapter1 Variables.
+  ChapterVariables chapterVariables = ChapterVariables.getInstance();
 
   //Animation
   private AnimationClass animationClass;
@@ -128,31 +127,29 @@ public class Chapter1 extends ChapterScreen implements Screen {
     catch (Exception e){ }
   }
 
- /* private void Initdrgndrop() {
+  private void Initdrgndrop() {
 
     final DragAndDrop dragAndDrop = new DragAndDrop();
-    dragAndDrop.addSource(new DragAndDrop.Source(point) {
+    dragAndDrop.addSource(new DragAndDrop.Source(displayBalls.get(0)) {
       @Override
       public DragAndDrop.Payload dragStart(InputEvent event, float x, float y, int pointer) {
 
         DragAndDrop.Payload payload = new DragAndDrop.Payload();
-//				payload.setObject(ball);
-        payload.setDragActor(point);
+//				payload.setObject(draggable);
+        payload.setDragActor(displayBalls.get(0));
         dragAndDrop.setDragActorPosition(-x, -y);
         return payload;
       }
 
       public void dragStop (InputEvent event, float x, float y, int pointer, DragAndDrop.Target target) {
-        point.setBounds(50, 125, point.getWidth(), point.getHeight());
+
         if(target != null) {
-//          point.setPosition(target.getActor().getX(), target.getActor().getY());
-          point.setPosition(240, MyGame.HEIGHT - 130);
+
         }
       }
-
     });
 
-    dragAndDrop.addTarget(new DragAndDrop.Target(line_x) {
+    dragAndDrop.addTarget(new DragAndDrop.Target(targetArea) {
       @Override
       public boolean drag(DragAndDrop.Source source, DragAndDrop.Payload payload, float x, float y, int pointer) {
 
@@ -161,17 +158,18 @@ public class Chapter1 extends ChapterScreen implements Screen {
 
       @Override
       public void drop(DragAndDrop.Source source, DragAndDrop.Payload payload, float x, float y, int pointer) {
+        int xPos = 155;
 
-        line2.setVisible(true);
-
-        if (line2.isVisible()) {
-          line1.setVisible(false);
-          score.setText("500");
-          click.setTouchable(Touchable.enabled);
+        for(Image disBall : displayBalls) {
+          chapterVariables.chapter1Variables.ValueOfScore++;
+          disBall.setPosition(xPos, MyGame.HEIGHT - 140);
+          xPos += 40;
         }
+        chapterVariables.chapter1Variables.ValueOfQ++;
+        chapterVariables.chapter1Variables.ValueOfB++;
       }
     });
-  }*/
+  }
 
   // Submit Button ClickListener
   ClickListener submitButtonClicked = new ClickListener(){
@@ -262,6 +260,9 @@ public class Chapter1 extends ChapterScreen implements Screen {
           else if (str.contains("displayBall")) {
             displayBallList.add(updatable);
           }
+          else if(str.contains("bgSquare")){
+            targetArea = updatable;
+          }
         }
         //Components to be updated on receiving an event
         visibleComponents = new VisibleComponents(progbar1, displayBallList);
@@ -284,9 +285,11 @@ public class Chapter1 extends ChapterScreen implements Screen {
 //          ballDragListener.setTarget(targetArea);
           }
         }
-        ballDragListener = new BallDragListener(Events.BALL_DRAG_EVENT,targetArea);
+//        ballDragListener = new BallDragListener(Events.BALL_DRAG_EVENT,targetArea);
+//
+//        ballDragListener.setDisplayBalls(displayBalls);
 
-        ballDragListener.setDisplayBalls(displayBalls);
+        Initdrgndrop();
 
         attachDraggables();
       }
@@ -408,8 +411,9 @@ public class Chapter1 extends ChapterScreen implements Screen {
     update(deltaTime);
     stage.draw();
     if (time.isTimeUp()){
-      elapsed_time += Gdx.graphics.getDeltaTime();
-      animationClass.update(elapsed_time);
+//      elapsed_time += Gdx.graphics.getDeltaTime();
+//      animationClass.update(elapsed_time);
+      messageBox.TimeUpMessage();
     }
     if(moveTheBg) { bg.act(deltaTime); }
     time.stage.draw();
@@ -417,7 +421,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
   private void renderLevel2(float deltaTime){
     update(deltaTime);
     messageBox.update(deltaTime);
-    if (time.isTimeUp()){}
+    if (time.isTimeUp()){messageBox.TimeUpMessage();}
     stage.draw();
     if(moveTheBg) { bg.act(deltaTime); }
     time.stage.draw();
@@ -427,7 +431,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
     update(deltaTime);
     numLocal.update(deltaTime);
     messageBox.update(deltaTime);
-    if (time.isTimeUp()){}
+    if (time.isTimeUp()){messageBox.TimeUpMessage();}
     if(moveTheBg) { bg.act(deltaTime); }
     stage.draw();
     time.stage.draw();

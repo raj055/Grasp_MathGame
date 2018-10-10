@@ -8,16 +8,15 @@ import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.mygdx.game.Animation.AnimationClass;
 import com.mygdx.game.Animation.TrainAnimation;
+import com.mygdx.game.BuilderBlocks.DoubleClickListener;
 import com.mygdx.game.BuilderBlocks.DragClickListener;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.ScrollingNumber;
-import com.mygdx.game.BuilderBlocks.DoubleClickListener;
 import com.mygdx.game.ChapterClass.Ch3LinearEquations.ScrollingUpdateCh3;
 import com.mygdx.game.ChapterClass.Ch3LinearEquations.VisebalComponentsCh3;
 import com.mygdx.game.Enum.ScreenStates;
 import com.mygdx.game.Enum.Steps;
 import com.mygdx.game.Screens.MessageBox;
-import com.mygdx.game.Timer.Timer;
 
 import java.util.ArrayList;
 
@@ -363,7 +362,7 @@ public class Chapter3 extends ChapterScreen implements Screen {
   private void renderLevel2(float deltaTime){
     update(deltaTime);
     messageBox.update(deltaTime);
-    if (time.isTimeUp()){}
+    if (time.isTimeUp()){messageBox.TimeUpMessage();}
     if(moveTheBg) { bg.act(deltaTime);}
     stage.draw();
     time.stage.draw();
@@ -371,7 +370,7 @@ public class Chapter3 extends ChapterScreen implements Screen {
   private void renderLevel3(float deltaTime){
     time.update(deltaTime);
     messageBox.update(deltaTime);
-    if (time.isTimeUp()){ }
+    if (time.isTimeUp()){messageBox.TimeUpMessage(); }
     if(moveTheBg) { bg.act(deltaTime);}
     stage.draw();
     time.stage.draw();
@@ -380,7 +379,7 @@ public class Chapter3 extends ChapterScreen implements Screen {
   private void renderLevel4(float deltaTime){
     time.update(deltaTime);
     messageBox.update(deltaTime);
-    if (time.isTimeUp()){ }
+    if (time.isTimeUp()){messageBox.TimeUpMessage(); }
     if(moveTheBg) { bg.act(deltaTime);}
     stage.draw();
     time.stage.draw();

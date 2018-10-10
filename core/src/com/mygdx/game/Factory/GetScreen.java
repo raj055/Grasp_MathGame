@@ -2,8 +2,6 @@ package com.mygdx.game.Factory;
 
 import com.badlogic.gdx.Screen;
 import com.mygdx.game.Enum.Chapters;
-import com.mygdx.game.Tools.Assets;
-import com.mygdx.game.Tools.Settings;
 
 /**
  * Created by HP on 12-01-2018.

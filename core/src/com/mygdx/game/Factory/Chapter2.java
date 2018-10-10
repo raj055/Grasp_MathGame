@@ -1,8 +1,6 @@
 package com.mygdx.game.Factory;
 
-import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
-import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
@@ -10,6 +8,7 @@ import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.ScrollingImageClick;
 import com.mygdx.game.BuilderBlocks.ScrollingNumber;
+import com.mygdx.game.ChapterClass.Ch1RealNumbers.BallDisplay;
 import com.mygdx.game.ChapterClass.Ch1RealNumbers.ScrollingUpdateLabelCh1;
 import com.mygdx.game.ChapterClass.Ch2Polynomials.DragPoint;
 import com.mygdx.game.ChapterClass.Ch2Polynomials.ScrollingUpdateLabelCh2;
@@ -18,13 +17,8 @@ import com.mygdx.game.Component.Nagetiv_Num;
 import com.mygdx.game.Component.TextVeriabal;
 import com.mygdx.game.Enum.ScreenStates;
 import com.mygdx.game.Enum.Steps;
-import com.mygdx.game.Global.GlobalsCommonCount;
-import com.mygdx.game.Global.Objects;
-import com.mygdx.game.ChapterClass.Ch1RealNumbers.BallDisplay;
 import com.mygdx.game.Screens.MessageBox;
-import com.mygdx.game.Timer.Timer;
 
-import java.awt.Event;
 import java.util.ArrayList;
 
 public class Chapter2 extends ChapterScreen implements Screen {
@@ -335,7 +329,7 @@ public class Chapter2 extends ChapterScreen implements Screen {
   private void renderLevel1(float deltaTime){
     update(deltaTime);
     messageBox.update(deltaTime);
-    if (time.isTimeUp()){}
+    if (time.isTimeUp()){messageBox.TimeUpMessage();}
     if(moveTheBg) { bg.act(deltaTime);}
     stage.draw();
     time.stage.draw();
@@ -344,7 +338,7 @@ public class Chapter2 extends ChapterScreen implements Screen {
     time.update(deltaTime);
     numLocal.update(deltaTime);
     messageBox.update(deltaTime);
-    if (time.isTimeUp()){}
+    if (time.isTimeUp()){messageBox.TimeUpMessage();}
     if(moveTheBg) { bg.act(deltaTime);}
     stage.draw();
     time.stage.draw();
@@ -353,7 +347,7 @@ public class Chapter2 extends ChapterScreen implements Screen {
     time.update(deltaTime);
     numLocal.update(deltaTime);
     messageBox.update(deltaTime);
-    if (time.isTimeUp()){}
+    if (time.isTimeUp()){messageBox.TimeUpMessage();}
     if(moveTheBg) { bg.act(deltaTime);}
     stage.draw();
     time.stage.draw();
