@@ -11,7 +11,8 @@ public enum Steps {
   STEP_4 (3),
   STEP_5 (4),
   STEP_6 (5),
-  STEP_7 (6);
+  STEP_7 (6),
+  STEP_8 (7);
 
   public int currentVal = 0;
 

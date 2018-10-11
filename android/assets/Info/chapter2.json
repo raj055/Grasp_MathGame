@@ -2377,6 +2377,43 @@
               ],
               "Visible": true
             },
+            "progBar": {
+              "Image": "data1/asset_progressbar.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": true
+            },
+            "progBar1": {
+              "Image": "data1/asset_progressbarup.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                333,
+                600
+              ],
+              "Visible": false
+            },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
+            },
             "PauseBttn":{
               "Image": "data1/pause.png",
               "Size": [
@@ -2492,6 +2529,17 @@
               "Position": [
                 355,
                 250
+              ]
+            },
+            "Score1": {
+              "Text": "0",
+              "Size": [
+                50,
+                35
+              ],
+              "Position": [
+                320,
+                680
               ]
             }
           },
@@ -2690,6 +2738,43 @@
               ],
               "Visible" : true
             },
+            "progBar": {
+              "Image": "data1/asset_progressbar.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": true
+            },
+            "progBar1": {
+              "Image": "data1/asset_progressbarup.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                333,
+                600
+              ],
+              "Visible": false
+            },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
+            },
             "PauseBttn":{
               "Image": "data1/pause.png",
               "Size": [
@@ -2817,6 +2902,17 @@
               "Position": [
                 290,
                 360
+              ]
+            },
+            "Score1": {
+              "Text": "0",
+              "Size": [
+                50,
+                35
+              ],
+              "Position": [
+                320,
+                680
               ]
             }
           },
@@ -2978,6 +3074,43 @@
                 580
               ],
               "Visible": true
+            },
+            "progBar": {
+              "Image": "data1/asset_progressbar.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": true
+            },
+            "progBar1": {
+              "Image": "data1/asset_progressbarup.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                333,
+                600
+              ],
+              "Visible": false
+            },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
             },
             "PauseBttn":{
               "Image": "data1/pause.png",
@@ -3270,6 +3403,17 @@
               "Position": [
                 300,
                 540
+              ]
+            },
+            "Score1": {
+              "Text": "0",
+              "Size": [
+                50,
+                35
+              ],
+              "Position": [
+                320,
+                680
               ]
             }
           },
@@ -3400,6 +3544,43 @@
               ],
               "Visible": true
             },
+            "progBar": {
+              "Image": "data1/asset_progressbar.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": true
+            },
+            "progBar1": {
+              "Image": "data1/asset_progressbarup.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                333,
+                600
+              ],
+              "Visible": false
+            },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
+            },
             "PauseBttn":{
               "Image": "data1/pause.png",
               "Size": [
@@ -3481,7 +3662,7 @@
               ],
               "Position": [
                 175,
-                220
+                250
               ]
             },
             "labelF2": {
@@ -3491,8 +3672,8 @@
                 90
               ],
               "Position": [
-                220,
-                235
+                235,
+                250
               ]
             },
             "labelF3": {
@@ -3502,8 +3683,8 @@
                 90
               ],
               "Position": [
-                220,
-                295
+                295,
+                250
               ]
             },
             "labelF4": {
@@ -3513,8 +3694,19 @@
                 90
               ],
               "Position": [
-                220,
-                355
+                355,
+                250
+              ]
+            },
+            "Score1": {
+              "Text": "0",
+              "Size": [
+                50,
+                35
+              ],
+              "Position": [
+                320,
+                680
               ]
             }
           },
@@ -3713,6 +3905,43 @@
               ],
               "Visible" : true
             },
+            "progBar": {
+              "Image": "data1/asset_progressbar.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": true
+            },
+            "progBar1": {
+              "Image": "data1/asset_progressbarup.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                333,
+                600
+              ],
+              "Visible": false
+            },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
+            },
             "PauseBttn":{
               "Image": "data1/pause.png",
               "Size": [
@@ -3840,6 +4069,17 @@
               "Position": [
                 290,
                 360
+              ]
+            },
+            "Score1": {
+              "Text": "0",
+              "Size": [
+                50,
+                35
+              ],
+              "Position": [
+                320,
+                680
               ]
             }
           },
@@ -4001,6 +4241,43 @@
                 580
               ],
               "Visible": true
+            },
+            "progBar": {
+              "Image": "data1/asset_progressbar.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": true
+            },
+            "progBar1": {
+              "Image": "data1/asset_progressbarup.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                333,
+                600
+              ],
+              "Visible": false
+            },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
             },
             "PauseBttn":{
               "Image": "data1/pause.png",
@@ -4293,6 +4570,17 @@
               "Position": [
                 300,
                 540
+              ]
+            },
+            "Score1": {
+              "Text": "0",
+              "Size": [
+                50,
+                35
+              ],
+              "Position": [
+                320,
+                680
               ]
             }
           },
@@ -4423,6 +4711,43 @@
               ],
               "Visible": true
             },
+            "progBar": {
+              "Image": "data1/asset_progressbar.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": true
+            },
+            "progBar1": {
+              "Image": "data1/asset_progressbarup.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                333,
+                600
+              ],
+              "Visible": false
+            },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
+            },
             "PauseBttn":{
               "Image": "data1/pause.png",
               "Size": [
@@ -4504,7 +4829,7 @@
               ],
               "Position": [
                 175,
-                220
+                250
               ]
             },
             "labelF2": {
@@ -4514,8 +4839,8 @@
                 90
               ],
               "Position": [
-                220,
-                235
+                235,
+                250
               ]
             },
             "labelF3": {
@@ -4525,8 +4850,8 @@
                 90
               ],
               "Position": [
-                220,
-                295
+                295,
+                250
               ]
             },
             "labelF4": {
@@ -4536,8 +4861,19 @@
                 90
               ],
               "Position": [
-                220,
-                355
+                355,
+                250
+              ]
+            },
+            "Score1": {
+              "Text": "0",
+              "Size": [
+                50,
+                35
+              ],
+              "Position": [
+                320,
+                680
               ]
             }
           },
@@ -4736,6 +5072,43 @@
               ],
               "Visible" : true
             },
+            "progBar": {
+              "Image": "data1/asset_progressbar.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": true
+            },
+            "progBar1": {
+              "Image": "data1/asset_progressbarup.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                333,
+                600
+              ],
+              "Visible": false
+            },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
+            },
             "PauseBttn":{
               "Image": "data1/pause.png",
               "Size": [
@@ -4863,6 +5236,17 @@
               "Position": [
                 290,
                 360
+              ]
+            },
+            "Score1": {
+              "Text": "0",
+              "Size": [
+                50,
+                35
+              ],
+              "Position": [
+                320,
+                680
               ]
             }
           },
@@ -5024,6 +5408,43 @@
                 580
               ],
               "Visible": true
+            },
+            "progBar": {
+              "Image": "data1/asset_progressbar.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": true
+            },
+            "progBar1": {
+              "Image": "data1/asset_progressbarup.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                333,
+                600
+              ],
+              "Visible": false
+            },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
             },
             "PauseBttn":{
               "Image": "data1/pause.png",
@@ -5316,6 +5737,17 @@
               "Position": [
                 300,
                 540
+              ]
+            },
+            "Score1": {
+              "Text": "0",
+              "Size": [
+                50,
+                35
+              ],
+              "Position": [
+                320,
+                680
               ]
             }
           },
@@ -5446,6 +5878,43 @@
               ],
               "Visible": true
             },
+            "progBar": {
+              "Image": "data1/asset_progressbar.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": true
+            },
+            "progBar1": {
+              "Image": "data1/asset_progressbarup.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                333,
+                600
+              ],
+              "Visible": false
+            },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
+            },
             "PauseBttn":{
               "Image": "data1/pause.png",
               "Size": [
@@ -5527,7 +5996,7 @@
               ],
               "Position": [
                 175,
-                220
+                250
               ]
             },
             "labelF2": {
@@ -5537,8 +6006,8 @@
                 90
               ],
               "Position": [
-                220,
-                235
+                235,
+                250
               ]
             },
             "labelF3": {
@@ -5548,8 +6017,8 @@
                 90
               ],
               "Position": [
-                220,
-                295
+                295,
+                250
               ]
             },
             "labelF4": {
@@ -5559,8 +6028,19 @@
                 90
               ],
               "Position": [
-                220,
-                355
+                355,
+                250
+              ]
+            },
+            "Score1": {
+              "Text": "0",
+              "Size": [
+                50,
+                35
+              ],
+              "Position": [
+                320,
+                680
               ]
             }
           },
@@ -5759,6 +6239,43 @@
               ],
               "Visible" : true
             },
+            "progBar": {
+              "Image": "data1/asset_progressbar.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": true
+            },
+            "progBar1": {
+              "Image": "data1/asset_progressbarup.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                333,
+                600
+              ],
+              "Visible": false
+            },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
+            },
             "PauseBttn":{
               "Image": "data1/pause.png",
               "Size": [
@@ -5886,6 +6403,17 @@
               "Position": [
                 290,
                 360
+              ]
+            },
+            "Score1": {
+              "Text": "0",
+              "Size": [
+                50,
+                35
+              ],
+              "Position": [
+                320,
+                680
               ]
             }
           },
@@ -6047,6 +6575,43 @@
                 580
               ],
               "Visible": true
+            },
+            "progBar": {
+              "Image": "data1/asset_progressbar.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": true
+            },
+            "progBar1": {
+              "Image": "data1/asset_progressbarup.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                333,
+                600
+              ],
+              "Visible": false
+            },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
             },
             "PauseBttn":{
               "Image": "data1/pause.png",
@@ -6339,6 +6904,17 @@
               "Position": [
                 300,
                 540
+              ]
+            },
+            "Score1": {
+              "Text": "0",
+              "Size": [
+                50,
+                35
+              ],
+              "Position": [
+                320,
+                680
               ]
             }
           },
@@ -6469,6 +7045,43 @@
               ],
               "Visible": true
             },
+            "progBar": {
+              "Image": "data1/asset_progressbar.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": true
+            },
+            "progBar1": {
+              "Image": "data1/asset_progressbarup.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                333,
+                600
+              ],
+              "Visible": false
+            },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
+            },
             "PauseBttn":{
               "Image": "data1/pause.png",
               "Size": [
@@ -6550,7 +7163,7 @@
               ],
               "Position": [
                 175,
-                220
+                250
               ]
             },
             "labelF2": {
@@ -6560,8 +7173,8 @@
                 90
               ],
               "Position": [
-                220,
-                235
+                235,
+                250
               ]
             },
             "labelF3": {
@@ -6571,8 +7184,8 @@
                 90
               ],
               "Position": [
-                220,
-                295
+                295,
+                250
               ]
             },
             "labelF4": {
@@ -6582,8 +7195,19 @@
                 90
               ],
               "Position": [
-                220,
-                355
+                355,
+                250
+              ]
+            },
+            "Score1": {
+              "Text": "0",
+              "Size": [
+                50,
+                35
+              ],
+              "Position": [
+                320,
+                680
               ]
             }
           },
@@ -6782,6 +7406,43 @@
               ],
               "Visible" : true
             },
+            "progBar": {
+              "Image": "data1/asset_progressbar.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": true
+            },
+            "progBar1": {
+              "Image": "data1/asset_progressbarup.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                333,
+                600
+              ],
+              "Visible": false
+            },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
+            },
             "PauseBttn":{
               "Image": "data1/pause.png",
               "Size": [
@@ -6909,6 +7570,17 @@
               "Position": [
                 290,
                 360
+              ]
+            },
+            "Score1": {
+              "Text": "0",
+              "Size": [
+                50,
+                35
+              ],
+              "Position": [
+                320,
+                680
               ]
             }
           },
@@ -7070,6 +7742,43 @@
                 580
               ],
               "Visible": true
+            },
+            "progBar": {
+              "Image": "data1/asset_progressbar.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                340,
+                600
+              ],
+              "Visible": true
+            },
+            "progBar1": {
+              "Image": "data1/asset_progressbarup.png",
+              "Size": [
+                30,
+                300
+              ],
+              "Position": [
+                333,
+                600
+              ],
+              "Visible": false
+            },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
             },
             "PauseBttn":{
               "Image": "data1/pause.png",
@@ -7362,6 +8071,17 @@
               "Position": [
                 300,
                 540
+              ]
+            },
+            "Score1": {
+              "Text": "0",
+              "Size": [
+                50,
+                35
+              ],
+              "Position": [
+                320,
+                680
               ]
             }
           },

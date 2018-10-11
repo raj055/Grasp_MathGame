@@ -2,11 +2,15 @@ package com.mygdx.game.Factory;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
+import com.badlogic.gdx.scenes.scene2d.Actor;
+import com.badlogic.gdx.scenes.scene2d.Event;
+import com.badlogic.gdx.scenes.scene2d.EventListener;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.scenes.scene2d.utils.DragAndDrop;
+import com.badlogic.gdx.scenes.scene2d.utils.DragListener;
 import com.mygdx.game.Animation.AnimationClass;
 import com.mygdx.game.BuilderBlocks.ChapterVariables;
 import com.mygdx.game.BuilderBlocks.Events;
@@ -27,6 +31,7 @@ import com.mygdx.game.Screens.MessageBox;
 import java.util.ArrayList;
 
 import static com.mygdx.game.Global.GlobalsCommonCount.ValueA;
+import static javax.print.attribute.standard.MediaSizeName.D;
 
 public class Chapter1 extends ChapterScreen implements Screen {
 
@@ -137,9 +142,21 @@ public class Chapter1 extends ChapterScreen implements Screen {
         DragAndDrop.Payload payload = new DragAndDrop.Payload();
 //				payload.setObject(draggable);
         payload.setDragActor(displayBalls.get(0));
+        payload.setDragActor(displayBalls.get(1));
+        payload.setDragActor(displayBalls.get(2));
+        payload.setDragActor(displayBalls.get(3));
+        payload.setDragActor(displayBalls.get(4));
+        payload.setDragActor(displayBalls.get(5));
         dragAndDrop.setDragActorPosition(-x, -y);
+
+        for (Image disBall : displayBalls) {
+          disBall.moveBy(-x, -y);
+        }
+
         return payload;
       }
+
+      public void drag (InputEvent event, float x, float y, int pointer) {}
 
       public void dragStop (InputEvent event, float x, float y, int pointer, DragAndDrop.Target target) {
 
@@ -152,7 +169,9 @@ public class Chapter1 extends ChapterScreen implements Screen {
     dragAndDrop.addTarget(new DragAndDrop.Target(targetArea) {
       @Override
       public boolean drag(DragAndDrop.Source source, DragAndDrop.Payload payload, float x, float y, int pointer) {
-
+        for (Image disBall : displayBalls) {
+          disBall.moveBy(x, y);
+        }
         return true;
       }
 
@@ -175,6 +194,8 @@ public class Chapter1 extends ChapterScreen implements Screen {
   ClickListener submitButtonClicked = new ClickListener(){
     @Override
     public  void clicked(InputEvent event, float x, float y){
+
+      ResultCheck();
 
       if (scrollingPara != null) {
         for (Image img : scrollingPara) {
@@ -211,6 +232,10 @@ public class Chapter1 extends ChapterScreen implements Screen {
       }
     }
   };
+
+  private void ResultCheck() {
+
+  }
 
   private void defineLevel1To10Components() {
     ChapterVariables chapterVariables = ChapterVariables.getInstance();

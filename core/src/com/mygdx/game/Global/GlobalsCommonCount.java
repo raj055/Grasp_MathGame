@@ -151,7 +151,8 @@ public class GlobalsCommonCount {
           "Step4",
           "Step5",
           "Step6",
-          "Step7"
+          "Step7",
+          "Step8"
   };
 
   public static final String[] LevelsName = {
