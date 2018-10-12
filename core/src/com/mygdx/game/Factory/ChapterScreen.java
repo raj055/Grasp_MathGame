@@ -65,7 +65,6 @@ public abstract class ChapterScreen {
   protected OrthographicCamera cam;
   GlobalsCommonCount gblVar;
   Image bg;
-
   Image pause,setting,restart,soundOn,soundOff;
 
   protected int xPosAdditionFactor = 0;
@@ -172,6 +171,7 @@ public abstract class ChapterScreen {
     return false;
   }
 
+  //Populate the screen by extracting the data.
   public void populateNextScreen(Map displaysTotal, int stepNumber){
 
     //Get the display objects.
@@ -217,121 +217,6 @@ public abstract class ChapterScreen {
     }
   }
 
-  //Populate the screen by extracting the data.
-  public void populateScreen(Map displaysTotal, int stepNumber){
-    if (displaysTotal.containsKey("Displays")) {
-      Map labelInfo = (Map) displaysTotal.get("Displays");
-      //initialise the array list for the labels.
-      ArrayList<Image> displayObjects;
-      switch (stepNumber)
-      {
-        case 0:
-          displayImages = new ArrayList<Image>(displaysTotal.size());
-          displayObjects = this.displayImages;
-          break;
-        case 1:
-          displayImagesNext = new ArrayList<Image>(displaysTotal.size());
-          displayObjects = displayImagesNext;
-          break;
-        case 2:
-          displayImagesLast = new ArrayList<Image>(displaysTotal.size());
-          displayObjects = displayImagesLast;
-          break;
-
-        default:
-          displayImages = new ArrayList<Image>(displaysTotal.size());
-          displayObjects = this.displayImages;
-          break;
-      }
-
-      updateLabels(labelInfo, displayObjects);
-    }
-    if (displaysTotal.containsKey("Draggable")) {
-      Map dragInfo = (Map) displaysTotal.get("Draggable");
-      //initialise the array list for the labels.
-      ArrayList<Image> draggableObjects;
-      switch (stepNumber)
-      {
-        case 0:
-          draggable = new ArrayList<Image>(dragInfo.size());
-          draggableObjects = draggable;
-          break;
-        case 1:
-          draggableNext = new ArrayList<Image>(dragInfo.size());
-          draggableObjects = draggableNext;
-          break;
-        case 2:
-          draggableLast = new ArrayList<Image>(dragInfo.size());
-          draggableObjects = draggableLast;
-          break;
-
-        default:
-          draggable = new ArrayList<Image>(dragInfo.size());
-          draggableObjects = draggable;
-          break;
-
-      }
-      updateDraggableArea(dragInfo, draggableObjects);
-    }
-    if (displaysTotal.containsKey("Updatable")) {
-      Map updatableInfo = (Map) displaysTotal.get("Updatable");
-      //initialise the array list for the labels.
-      ArrayList<Label> updatableObjects;
-      switch (stepNumber)
-      {
-        case 0:
-          updatables = new ArrayList<Label>(updatableInfo.size());
-          updatableObjects = updatables;
-          break;
-        case 1:
-          updatablesNext = new ArrayList<Label>(updatableInfo.size());
-          updatableObjects = updatablesNext;
-          break;
-        case 2:
-          updatablesLast = new ArrayList<Label>(updatableInfo.size());
-          updatableObjects = updatablesLast;
-          break;
-        default:
-          updatables = new ArrayList<Label>(updatableInfo.size());
-          updatableObjects = updatables;
-          break;
-      }
-      getUpdatable(updatableInfo, updatableObjects);
-    }
-
-    if (displaysTotal.containsKey("Scrolling")) {
-      Map labelInfo = (Map) displaysTotal.get("Scrolling");
-      ArrayList<Image> scrollableObject;
-      switch (stepNumber)
-      {
-        case 0:
-          scrollingPara = new ArrayList<Image>(labelInfo.size());
-          scrollableObject = scrollingPara;
-          break;
-        case 1:
-          scrollingParaNext = new ArrayList<Image>(labelInfo.size());
-          scrollableObject = scrollingParaNext;
-          break;
-        case 2:
-          scrollingParaLast = new ArrayList<Image>(labelInfo.size());
-          scrollableObject = scrollingParaLast;
-          break;
-        default:
-          scrollingPara = new ArrayList<Image>(labelInfo.size());
-          scrollableObject = scrollingPara;
-          break;
-      }
-      updateScrolling(labelInfo, scrollableObject);
-    }
-    if(displaysTotal.containsKey("Buttons")){
-      Map buttons = (Map) displaysTotal.get("Buttons");
-      updateButtons(stepNumber, buttons);
-    }
-    if(displaysTotal.containsKey("TextLabel")){
-      Map textLabels = (Map) displaysTotal.get("TextLabel");
-      updateTextuals(stepNumber, textLabels);
-    }
-  }
   public void updateButtons(int stepNumber, Map buttons){
     //initialise the array list for the labels.
     buttonsList = new ArrayList<Image>();

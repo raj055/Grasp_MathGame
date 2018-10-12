@@ -88,6 +88,7 @@ public class Chapter5 extends ChapterScreen implements Screen {
         }
         scrollingPara.clear();
         scrollingImages.clear();
+        time.RestartTime();
       }
 
       if(goToNextStep() != true) {

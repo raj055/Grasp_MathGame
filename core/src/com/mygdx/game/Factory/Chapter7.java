@@ -94,6 +94,8 @@ public class Chapter7 extends ChapterScreen implements Screen {
     @Override
     public  void clicked(InputEvent event, float x, float y){
 
+      time.RestartTime();
+
       if(goToNextStep() != true) {
         messageBox.setPositionX(xPosAdditionFactor - 400);
         messageBox.ShowDialog();

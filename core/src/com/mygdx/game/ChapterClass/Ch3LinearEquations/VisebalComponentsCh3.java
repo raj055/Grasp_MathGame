@@ -190,8 +190,10 @@ public class VisebalComponentsCh3 implements Subscriber {
         Label a = getLabel("LabelA1");
         Label valueA = getLabel("ValueA");
 
-        a.setVisible(false);
-        valueA.setPosition(115,MyGame.HEIGHT - 430);
+        if ((a != null) || (valueA != null)) {
+            a.setVisible(false);
+            valueA.setPosition(115, MyGame.HEIGHT - 430);
+        }
     }
     private void updateA2() {
         Label a2 = getLabel("LabelA2");

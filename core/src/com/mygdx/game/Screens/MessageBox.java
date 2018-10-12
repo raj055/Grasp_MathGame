@@ -16,7 +16,7 @@ public class MessageBox {
     public Image Dialogbox;
     public Image NextStep;
 
-    public Label timeUp, pause;
+    public Label timeUp, pause, cong, wrongAnswer;
 
     public ArrayList<Image> numbers = new ArrayList<Image>();
 
@@ -57,6 +57,16 @@ public class MessageBox {
         pause.setPosition(170,430);
         pause.setVisible(false);
 
+        cong = new Label("Congratulations", labelStyle);
+        cong.setFontScale(0.6f);
+        cong.setPosition(140,430);
+        cong.setVisible(false);
+
+        wrongAnswer = new Label("Wrong Answer", labelStyle);
+        wrongAnswer.setFontScale(0.6f);
+        wrongAnswer.setPosition(140,430);
+        wrongAnswer.setVisible(false);
+
         numbers.add(Dialogbox);
         numbers.add(NextStep);
     }
@@ -66,6 +76,8 @@ public class MessageBox {
         stage.addActor(NextStep);
         stage.addActor(timeUp);
         stage.addActor(pause);
+        stage.addActor(cong);
+        stage.addActor(wrongAnswer);
     }
 
     public void ShowDialog(){
@@ -101,6 +113,12 @@ public class MessageBox {
         }
     }
     public void Congratulations() {
+        Dialogbox.setVisible(true);
+        cong.setVisible(true);
+    }
 
+    public void WrongAnswer() {
+        Dialogbox.setVisible(true);
+        wrongAnswer.setVisible(true);
     }
 }

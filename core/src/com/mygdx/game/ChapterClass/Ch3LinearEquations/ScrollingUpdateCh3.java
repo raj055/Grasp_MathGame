@@ -93,15 +93,19 @@ public class ScrollingUpdateCh3 implements Subscriber {
 
             switch (glv.countClick) {
                 case 1:
+                    if (value1 != null)
                     value1.setText(glv.lableUpdate + " ");
                     break;
                 case 2:
+                    if (value3 != null)
                     value3.setText(glv.lableUpdate + " ");
                     break;
                 case 3:
+                    if (value11 != null)
                     value11.setText(glv.lableUpdate + " ");
                     break;
                 case 4:
+                    if (value13 != null)
                     value13.setText(glv.lableUpdate + " ");
                     break;
 
@@ -122,10 +126,12 @@ public class ScrollingUpdateCh3 implements Subscriber {
 
             switch (glv.countClick) {
                 case 1:
+                    if (value2 != null)
                     value2.setText(glv.lableUpdate + " ");
                     break;
 
                 case 2:
+                    if (value12 != null)
                     value12.setText(glv.lableUpdate + " ");
                     break;
 

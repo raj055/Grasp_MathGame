@@ -233,7 +233,7 @@ public class GlobalsCommonCount {
           0, 50, 100, 150, 200, 250, 300, 350, 400, 450
   };
 
-  public int lableUpdate;
+  public int lableUpdate=0;
   public boolean lableWrite = false;
 
   public int countClick;

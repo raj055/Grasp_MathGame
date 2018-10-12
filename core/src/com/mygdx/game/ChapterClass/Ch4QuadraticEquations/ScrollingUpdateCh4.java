@@ -106,9 +106,11 @@ public class ScrollingUpdateCh4 implements Subscriber {
 
             switch (glv.countClick) {
                 case 1:
+                    if (num_1 != null)
                     num_1.setText(glv.lableUpdate + " ");
                     break;
                 case 2:
+                    if (num_2 != null)
                     num_2.setText(glv.lableUpdate + " ");
                     break;
 

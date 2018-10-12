@@ -92,6 +92,7 @@ public class Chapter2 extends ChapterScreen implements Screen {
                 }
                 scrollingPara.clear();
                 scrollingImages.clear();
+                time.RestartTime();
             }
 
             if(goToNextStep() != true) {

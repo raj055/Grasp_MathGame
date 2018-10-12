@@ -95,6 +95,10 @@ public class Timer implements Disposable {
     }
   }
 
+  public void RestartTime(){
+    countdownLabel.clear();
+    worldTimer = 31;
+  }
 
   @Override
   public void dispose() { stage.dispose(); }

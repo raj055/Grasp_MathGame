@@ -29,6 +29,8 @@ public class DragBallIndicators extends SumIndicator implements Subscriber {
   //Get the Chapter1 Variables.
   ChapterVariables chapterVariables = ChapterVariables.getInstance();
 
+  public int SCOREVAL;
+
   public DragBallIndicators(ArrayList<ProgressData> members){
     super(members);
 
@@ -49,7 +51,7 @@ public class DragBallIndicators extends SumIndicator implements Subscriber {
       int VALUE_B = chapterVariables.chapter1Variables.ValueB;
       int valueA = chapterVariables.chapter1Variables.ValueOfA;
       int QValue = chapterVariables.chapter1Variables.ValueOfQ;
-      int SCOREVAL = getValue(DragBallLabels.Score2) * VALUE_B + getValue(DragBallLabels.Score4);
+      SCOREVAL = getValue(DragBallLabels.Score2) * VALUE_B + getValue(DragBallLabels.Score4);
 
       chapterVariables.chapter1Variables.ValueOfScore = SCOREVAL;
       updateElement(DragBallLabels.ScoreValue, SCOREVAL);

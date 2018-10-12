@@ -19,16 +19,8 @@ public class BallDragListener extends OnDragCallBack {
   //Get the Chapter1 Variables.
   ChapterVariables chapterVariables = ChapterVariables.getInstance();
 
-  Image targetImage;
-
   public BallDragListener(Events triggerEvent, Image target) {
     super(triggerEvent);
-    targetImage = target;
-
-  }
-
-  public void setTarget(Image dragarea){
-    targetImage = dragarea;
   }
 
   @Override
@@ -44,14 +36,12 @@ public class BallDragListener extends OnDragCallBack {
   @Override
   public void dragStop(InputEvent event, float x, float y, int pointer) {
 
-    //Update the relevant variables
-    updateGlobalVariables();
+      //Update the relevant variables
+      updateGlobalVariables();
 
-    //Update the relevant labels
-    postEvent();
+      //Update the relevant labels
+      postEvent();
   }
-
-
 
   public void setDisplayBalls(ArrayList<Image> dispBalls){
     if(dispBalls != null) {

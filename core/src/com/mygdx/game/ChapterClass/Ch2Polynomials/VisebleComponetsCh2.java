@@ -81,19 +81,26 @@ public class VisebleComponetsCh2 implements Subscriber {
 
         if(GameStates.steps == Steps.STEP_1){
             if (glv.lableWrite) {
-                syntex1.setVisible(true);
-                imgsyntex1.setVisible(true);
+                if ((syntex1 != null) || (imgsyntex1 != null)) {
+                    syntex1.setVisible(true);
+                    imgsyntex1.setVisible(true);
+                }
             }
         }
         else if (GameStates.steps == Steps.STEP_2){
             if (glv.lableWrite) {
-                syntex1.setVisible(false);
-                imgsyntex1.setVisible(false);
-                imgsyntax.setVisible(false);
 
-                syntex2.setVisible(true);
-                imgsyntex2.setVisible(true);
-                imgsyntex3.setVisible(true);
+                if ((syntex1 != null) && (imgsyntex1 != null) && (imgsyntax != null)
+                        && (syntex2 != null) && (imgsyntex2 != null) && (imgsyntex3 != null)) {
+
+                    syntex1.setVisible(false);
+                    imgsyntex1.setVisible(false);
+                    imgsyntax.setVisible(false);
+
+                    syntex2.setVisible(true);
+                    imgsyntex2.setVisible(true);
+                    imgsyntex3.setVisible(true);
+                }
             }
         }
         else if (GameStates.steps == Steps.STEP_3){

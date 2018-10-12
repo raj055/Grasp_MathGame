@@ -143,9 +143,11 @@ public class VisebalComponentsCh5 implements Subscriber {
         Label value11 = getLabel("Value11");
         Label value1 = getLabel("Value1");
 
-        valueF.setVisible(false);
-        value11.setVisible(true);
-        value1.setPosition(130, MyGame.HEIGHT - 330);
+        if ((value1 != null) || (valueF != null) || (value11 != null)) {
+            valueF.setVisible(false);
+            value11.setVisible(true);
+            value1.setPosition(130, MyGame.HEIGHT - 330);
+        }
     }
 
     private void dragVallue2L1() {
@@ -155,11 +157,13 @@ public class VisebalComponentsCh5 implements Subscriber {
 
         Image imgadd = getImage("PluseBttn");
 
-        value2.setPosition(250, MyGame.HEIGHT - 330);
-        value12.setVisible(true);
-        pluse.setVisible(true);
-        imgadd.setTouchable(Touchable.enabled);
-        clickPluse = ClickPluse.CLICK_Add_1;
+        if ((value2 != null) || (value12 != null) || (pluse != null) || (imgadd != null)) {
+            value2.setPosition(250, MyGame.HEIGHT - 330);
+            value12.setVisible(true);
+            pluse.setVisible(true);
+            imgadd.setTouchable(Touchable.enabled);
+            clickPluse = ClickPluse.CLICK_Add_1;
+        }
     }
 
     private void dragVallue12L1() {
@@ -169,11 +173,13 @@ public class VisebalComponentsCh5 implements Subscriber {
 
         Image imgadd = getImage("PluseBttn");
 
-        value12.setPosition(250, MyGame.HEIGHT - 390);
-        value13.setVisible(true);
-        pluse1.setVisible(true);
-        imgadd.setTouchable(Touchable.enabled);
-        clickPluse = ClickPluse.CLICK_Add_2;
+        if ((value12 != null) || (value13 != null) || (pluse1 != null) || (imgadd != null)) {
+            value12.setPosition(250, MyGame.HEIGHT - 390);
+            value13.setVisible(true);
+            pluse1.setVisible(true);
+            imgadd.setTouchable(Touchable.enabled);
+            clickPluse = ClickPluse.CLICK_Add_2;
+        }
     }
 
     private void dragVallue13L1() {
@@ -183,51 +189,63 @@ public class VisebalComponentsCh5 implements Subscriber {
 
         Image imgadd = getImage("PluseBttn");
 
-        value13.setPosition(250, MyGame.HEIGHT - 450);
-        value14.setVisible(true);
-        pluse2.setVisible(true);
-        imgadd.setTouchable(Touchable.enabled);
-        clickPluse = ClickPluse.CLICK_Add_3;
+        if ((value13 != null) || (value14 != null) || (pluse2 != null) || (imgadd != null)) {
+            value13.setPosition(250, MyGame.HEIGHT - 450);
+            value14.setVisible(true);
+            pluse2.setVisible(true);
+            imgadd.setTouchable(Touchable.enabled);
+            clickPluse = ClickPluse.CLICK_Add_3;
+        }
     }
 
     private void dragVallue1L2() {
         Label valueN = getLabel("ValueN");
         Label value1 = getLabel("Value1");
 
-        valueN.setVisible(false);
-        value1.setPosition(190,MyGame.HEIGHT - 190);
+        if ((valueN != null) || (value1 != null)) {
+            valueN.setVisible(false);
+            value1.setPosition(190, MyGame.HEIGHT - 190);
+        }
     }
 
     private void dragVal1L2() {
         Label valueA = getLabel("ValueA");
         Label val1 = getLabel("Labelval1");
 
-        valueA.setVisible(false);
-        val1.setPosition(130,MyGame.HEIGHT - 190);
+        if ((val1 != null) || (valueA != null)) {
+            valueA.setVisible(false);
+            val1.setPosition(130, MyGame.HEIGHT - 190);
+        }
     }
 
     private void dragVallueL3s1() {
         Label valueN = getLabel("ValueN");
         Label value1 = getLabel("Value1");
 
-        valueN.setVisible(false);
-        value1.setPosition(190, MyGame.HEIGHT - 190);
+        if ((valueN != null) || (value1 != null)) {
+            valueN.setVisible(false);
+            value1.setPosition(190, MyGame.HEIGHT - 190);
+        }
     }
 
     private void dragVal1L3s1() {
         Label valueA = getLabel("ValueA");
         Label val1 = getLabel("Labelval1");
 
-        valueA.setVisible(false);
-        val1.setPosition(130, MyGame.HEIGHT - 190);
+        if ((val1 != null) || (valueA != null)) {
+            valueA.setVisible(false);
+            val1.setPosition(130, MyGame.HEIGHT - 190);
+        }
     }
 
     private void dragVallueL3s2() {
         Label valueA = getLabel("ValueA");
         Label val1 = getLabel("LabelVal1");
 
-        valueA.setVisible(false);
-        val1.setPosition(180,130);
+        if ((val1 != null) || (valueA != null)) {
+            valueA.setVisible(false);
+            val1.setPosition(180, 130);
+        }
     }
 
     private void dragVal1L3s2() {
@@ -235,9 +253,11 @@ public class VisebalComponentsCh5 implements Subscriber {
         Label valL = getLabel("LabelValL");
         Label val4 = getLabel("LabelVal4");
 
-        valueL1.setVisible(false);
-        valL.setPosition(235,130);
-        val4.setText("245");
+        if ((valueL1 != null) || (valL != null) || (val4 != null)) {
+            valueL1.setVisible(false);
+            valL.setPosition(235, 130);
+            val4.setText("245");
+        }
     }
 
     private Label getLabel(String LabelShow) {

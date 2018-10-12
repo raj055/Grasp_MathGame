@@ -47,11 +47,11 @@ public class DragPoint extends OnDragCallBack {
 
     void updateGlobalVariables(){
 
-        int xPos = 240;
+            int xPos = 240;
 
-        for(Image disBall : DragLine) {
-            disBall.setPosition(xPos, MyGame.HEIGHT - 130);
-            xPos += 50;
-        }
+            for (Image disBall : DragLine) {
+                disBall.setPosition(xPos, MyGame.HEIGHT - 130);
+                xPos += 50;
+            }
     }
 }

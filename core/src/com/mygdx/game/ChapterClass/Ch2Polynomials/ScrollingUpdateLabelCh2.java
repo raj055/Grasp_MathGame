@@ -137,6 +137,7 @@ public class ScrollingUpdateLabelCh2 implements Subscriber{
         Label quotient = getLabel("quotient");
 
         if (glv.lableWrite) {
+            if (quotient != null)
             quotient.setText(textVeriabal.string_labal + " ");
         }
     }
@@ -144,6 +145,7 @@ public class ScrollingUpdateLabelCh2 implements Subscriber{
         Label quotient1 = getLabel("quotient1");
 
         if (glv.lableWrite) {
+            if (quotient1 != null)
             quotient1.setText(nagetiv_num.string_labal + " ");
         }
     }

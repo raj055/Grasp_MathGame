@@ -44,8 +44,10 @@ public class ScrollingUpdateCh5 implements Subscriber {
         Label valueD = getLabel("ValueD");
 
         if (glv.lableWrite) {
-            value4.setText("47");
-            valueD.setText(glv.lableUpdate + " ");
+            if ((value4 != null) ||(valueD != null)) {
+                value4.setText("47");
+                valueD.setText(glv.lableUpdate + " ");
+            }
         }
     }
 
@@ -53,6 +55,7 @@ public class ScrollingUpdateCh5 implements Subscriber {
         Label val4 = getLabel("Value4");
 
         if (glv.lableWrite){
+            if (val4 != null)
             val4.setText(glv.lableUpdate + " ");
         }
     }

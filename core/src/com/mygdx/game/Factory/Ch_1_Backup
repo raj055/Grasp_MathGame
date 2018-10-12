@@ -68,8 +68,6 @@ public class Chapter1 extends ChapterScreen implements Screen {
 
   int xPos = 155;
 
-  int ValueS = 0;
-
   Chapter1(){
     super();
 
@@ -135,17 +133,17 @@ public class Chapter1 extends ChapterScreen implements Screen {
     catch (Exception e){ }
   }
 
- /* private void Initdrgndrop() {
+  private void Initdrgndrop() {
 
     final Table table = new Table();
 
 //    for (displayBalls)
     table.add(displayBalls.get(1));
-    *//*table.add(displayBalls.get(1));
+    /*table.add(displayBalls.get(1));
     table.add(displayBalls.get(2));
     table.add(displayBalls.get(3));
     table.add(displayBalls.get(4));
-    table.add(displayBalls.get(5));*//*
+    table.add(displayBalls.get(5));*/
 
     stage.addActor(table);
 
@@ -157,11 +155,11 @@ public class Chapter1 extends ChapterScreen implements Screen {
         DragAndDrop.Payload payload = new DragAndDrop.Payload();
 
         payload.setDragActor(table);
-       *//* payload.setDragActor(displayBalls.get(1));
+       /* payload.setDragActor(displayBalls.get(1));
         payload.setDragActor(displayBalls.get(2));
         payload.setDragActor(displayBalls.get(3));
         payload.setDragActor(displayBalls.get(4));
-        payload.setDragActor(displayBalls.get(5));*//*
+        payload.setDragActor(displayBalls.get(5));*/
 
         payload.setObject(displayBalls);
 
@@ -176,10 +174,10 @@ public class Chapter1 extends ChapterScreen implements Screen {
 
       @Override
       public void dragStop(InputEvent event, float x, float y, int pointer, DragAndDrop.Payload payload, DragAndDrop.Target target) {
-       *//* for (Image disBall : displayBalls) {
+       /* for (Image disBall : displayBalls) {
           disBall.setPosition(xPos, MyGame.HEIGHT - 140);
           xPos += 40;
-        }*//*
+        }*/
 
       }
     });
@@ -215,7 +213,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
 
     });
   }
-*/
+
   // Submit Button ClickListener
   ClickListener submitButtonClicked = new ClickListener(){
     @Override
@@ -261,16 +259,11 @@ public class Chapter1 extends ChapterScreen implements Screen {
   };
 
   private void ResultCheck() {
-
-    ValueS = chapterVariables.chapter1Variables.ValueOfScore;
-
-    if (ValueS == chapterVariables.chapter1Variables.ValueOfA){
+    if (chapterVariables.chapter1Variables.TargetScore == chapterVariables.chapter1Variables.ValueOfA){
       messageBox.Congratulations();
-//      time.dispose();
     }
     else {
       messageBox.WrongAnswer();
-//      time.dispose();
     }
   }
 
@@ -339,11 +332,20 @@ public class Chapter1 extends ChapterScreen implements Screen {
             remainderBall.add(updatable);
         }
 
-        ballDragListener = new BallDragListener(Events.BALL_DRAG_EVENT,targetArea);
+//        ballDragListener = new BallDragListener(Events.BALL_DRAG_EVENT,targetArea);
+//
+//        ballDragListener.setDisplayBalls(displayBalls);
 
-        ballDragListener.setDisplayBalls(displayBalls);
+        Image targetArea = null;
 
-//        Initdrgndrop();
+        for (Image displayImage : displayImages) {
+          if (displayImage.getName().contains("targetBall")) {
+            targetArea = displayImage;
+//            ballDragListener.setTarget(targetArea);
+          }
+        }
+
+        Initdrgndrop();
 
         attachDraggables();
       }

@@ -78,30 +78,35 @@ public class VisebalComponentsCh6 implements Subscriber {
     private void imageCircle1() {
         Image sercal1 = getImage("sercal1Image");
 
+        if (sercal1 != null)
         sercal1.setPosition(30,MyGame.HEIGHT - 510);
     }
 
     private void imageCircle() {
         Image sercal = getImage("sercalImage");
 
+        if (sercal != null)
         sercal.setPosition(MyGame.WIDTH - 120,MyGame.HEIGHT - 230);
     }
 
     private void imageSquare1() {
         Image square1 = getImage("square1Image");
 
+        if (square1 != null)
         square1.setPosition(MyGame.WIDTH - 100,MyGame.HEIGHT - 450);
     }
 
     private void imageSquare() {
         Image square = getImage("squareImage");
 
+        if (square != null)
         square.setPosition(20,MyGame.HEIGHT - 220);
     }
 
     private void imageTriangle() {
         Image triangle_p = getImage("triangle_p");
 
+        if (triangle_p != null)
         triangle_p.setPosition(170, MyGame.HEIGHT - 390);
     }
 
