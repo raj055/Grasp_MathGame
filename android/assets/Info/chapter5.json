@@ -112,6 +112,19 @@
               ],
               "Visible": true
             },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
+            },
             "PluseBttn": {
               "Image": "data/pluse.png",
               "Size": [
@@ -535,6 +548,19 @@
               ],
               "Visible": true
             },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
+            },
             "PluseBttn": {
               "Image": "data/pluse.png",
               "Size": [
@@ -953,6 +979,19 @@
                 210
               ],
               "Visible": true
+            },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
             },
             "PluseBttn": {
               "Image": "data/pluse.png",
@@ -1373,6 +1412,19 @@
               ],
               "Visible": true
             },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
+            },
             "PluseBttn": {
               "Image": "data/pluse.png",
               "Size": [
@@ -1791,6 +1843,19 @@
                 210
               ],
               "Visible": true
+            },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
             },
             "PluseBttn": {
               "Image": "data/pluse.png",
@@ -2258,6 +2323,19 @@
                 400
               ],
               "Visible": true
+            },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
             },
             "PauseBttn":{
               "Image": "data1/pause.png",
@@ -2788,6 +2866,19 @@
               ],
               "Visible": true
             },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
+            },
             "PauseBttn":{
               "Image": "data1/pause.png",
               "Size": [
@@ -3316,6 +3407,19 @@
                 400
               ],
               "Visible": true
+            },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
             },
             "PauseBttn":{
               "Image": "data1/pause.png",
@@ -3846,6 +3950,19 @@
               ],
               "Visible": true
             },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
+            },
             "PauseBttn":{
               "Image": "data1/pause.png",
               "Size": [
@@ -4375,6 +4492,19 @@
               ],
               "Visible": true
             },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
+            },
             "PauseBttn":{
               "Image": "data1/pause.png",
               "Size": [
@@ -4892,6 +5022,19 @@
               ],
               "Visible": true
             },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
+            },
             "PauseBttn":{
               "Image": "data1/pause.png",
               "Size": [
@@ -5325,6 +5468,19 @@
                 400
               ],
               "Visible": true
+            },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
             },
             "PauseBttn":{
               "Image": "data1/pause.png",
@@ -5876,6 +6032,19 @@
               ],
               "Visible": true
             },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
+            },
             "PauseBttn":{
               "Image": "data1/pause.png",
               "Size": [
@@ -6309,6 +6478,19 @@
                 400
               ],
               "Visible": true
+            },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
             },
             "PauseBttn":{
               "Image": "data1/pause.png",
@@ -6860,6 +7042,19 @@
               ],
               "Visible": true
             },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
+            },
             "PauseBttn":{
               "Image": "data1/pause.png",
               "Size": [
@@ -7293,6 +7488,19 @@
                 400
               ],
               "Visible": true
+            },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
             },
             "PauseBttn":{
               "Image": "data1/pause.png",
@@ -7844,6 +8052,19 @@
               ],
               "Visible": true
             },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
+            },
             "PauseBttn":{
               "Image": "data1/pause.png",
               "Size": [
@@ -8277,6 +8498,19 @@
                 400
               ],
               "Visible": true
+            },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
             },
             "PauseBttn":{
               "Image": "data1/pause.png",
@@ -8828,6 +9062,19 @@
               ],
               "Visible": true
             },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
+            },
             "PauseBttn":{
               "Image": "data1/pause.png",
               "Size": [
@@ -9261,6 +9508,19 @@
                 400
               ],
               "Visible": true
+            },
+            "score":{
+              "Image": "data1/asset1.png",
+              "Size": [
+                150,
+                70
+              ],
+              "Position": [
+                250,
+                705
+              ],
+              "Visible": true
+
             },
             "PauseBttn":{
               "Image": "data1/pause.png",

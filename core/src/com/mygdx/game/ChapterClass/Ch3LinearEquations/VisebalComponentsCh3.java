@@ -88,7 +88,7 @@ public class VisebalComponentsCh3 implements Subscriber {
         num.setPosition(MyGame.WIDTH - 115,MyGame.HEIGHT - 370);
         eqval.setPosition(MyGame.WIDTH - 185, MyGame.HEIGHT - 360);
 
-        min.setVisible(true);
+//        min.setVisible(true);
         imgShap1.setVisible(true);
 
         img_y2.setTouchable(Touchable.enabled);

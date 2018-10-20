@@ -5,7 +5,9 @@ import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
+import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
+import com.badlogic.gdx.scenes.scene2d.utils.DragAndDrop;
 import com.mygdx.game.Animation.AnimationClass;
 import com.mygdx.game.Animation.TrainAnimation;
 import com.mygdx.game.BuilderBlocks.DoubleClickListener;
@@ -14,6 +16,9 @@ import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.ScrollingNumber;
 import com.mygdx.game.ChapterClass.Ch3LinearEquations.ScrollingUpdateCh3;
 import com.mygdx.game.ChapterClass.Ch3LinearEquations.VisebalComponentsCh3;
+import com.mygdx.game.ChapterClass.Ch6Triangles.VisebalComponentsCh6;
+import com.mygdx.game.Component.NumberCh3;
+import com.mygdx.game.Component.Numberch6;
 import com.mygdx.game.Enum.ScreenStates;
 import com.mygdx.game.Enum.Steps;
 import com.mygdx.game.Screens.MessageBox;
@@ -27,7 +32,8 @@ public class Chapter3 extends ChapterScreen implements Screen {
   private ArrayList<Image> VisebalComponent;
   private ArrayList<Image> scrollingImages = null;
   private ScrollingNumber numLocal;
-
+  private NumberCh3 numberCh3;
+  private ArrayList<Label> LableChange;
   //Update labels on click scrolling components
   private ScrollingUpdateCh3 scrollingUpdateCh3;
 
@@ -117,7 +123,7 @@ public class Chapter3 extends ChapterScreen implements Screen {
           img.remove();
         }
         scrollingPara.clear();
-        scrollingImages.clear();
+//        scrollingImages.clear();
         gblVar.clear();
         time.RestartTime();
       }
@@ -150,9 +156,74 @@ public class Chapter3 extends ChapterScreen implements Screen {
     }
   };
 
+ /* private void Initdrgndrop() {
+
+    final Table table = new Table();
+    int tableWidth = 0;
+    for (int i = 0; i < displayBalls.size(); i++) {
+      final Image img = new Image(displayBalls.get(0).getDrawable());
+      table.add(img);
+      tableWidth += displayBalls.get(0).getWidth();
+      table.setWidth(tableWidth);
+    }
+    table.setHeight(displayBalls.get(0).getHeight());
+    stage.addActor(table);
+    final DragAndDrop drgAndDrop = new DragAndDrop();
+
+    drgAndDrop.addSource(new DragAndDrop.Source() {
+      @Override
+      public DragAndDrop.Payload dragStart(InputEvent event, float x, float y, int pointer) {
+
+        DragAndDrop.Payload payload = new DragAndDrop.Payload();
+
+//        payload.setDragActor(table);
+
+        return payload;
+      }
+
+      @Override
+      public void dragStop(InputEvent event, float x, float y, int pointer, DragAndDrop.Payload payload, DragAndDrop.Target target) {
+
+      }
+
+    });
+
+    drgAndDrop.addTarget(new DragAndDrop.Target() {
+      @Override
+      public boolean drag(DragAndDrop.Source source, DragAndDrop.Payload payload, float x, float y, int pointer) {
+
+        return true;
+      }
+
+      @Override
+      public void drop(DragAndDrop.Source source, DragAndDrop.Payload payload, float x, float y, int pointer) {
+
+
+      }
+    });
+  }*/
+
   void defineLevel1To3Components() {
 
-    if(GameStates.steps == Steps.STEP_1 || (GameStates.steps == Steps.STEP_2)
+    if (GameStates.steps == Steps.STEP_1){
+      if(scrollingPara != null) {
+        numberCh3 = new NumberCh3();
+        numberCh3.setPositionX(xPosAdditionFactor - 400);
+        scrollingPara.size();
+        numberCh3.addToStage(stage);
+      }
+
+      if (updatables != null) {
+        //totalObjects
+        updatables.size();
+        for (Label updatable : updatables) {
+          updatable.getName();
+        }
+        scrollingUpdateCh3 = new ScrollingUpdateCh3(updatables);
+      }
+
+    }
+    else if((GameStates.steps == Steps.STEP_2)
             ||(GameStates.steps == Steps.STEP_3) ||(GameStates.steps == Steps.STEP_4
             || (GameStates.steps == Steps.STEP_5) || (GameStates.steps == Steps.STEP_6))){
       if(scrollingPara != null) {
@@ -342,6 +413,10 @@ public class Chapter3 extends ChapterScreen implements Screen {
   private void renderLevel1(float deltaTime){
     update(deltaTime);
     messageBox.update(deltaTime);
+
+    if(numberCh3 != null)
+      numberCh3.update(deltaTime);
+
     if(numLocal != null)
       numLocal.update(deltaTime);
 

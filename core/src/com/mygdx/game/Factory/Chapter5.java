@@ -4,7 +4,9 @@ import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
+import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
+import com.badlogic.gdx.scenes.scene2d.utils.DragAndDrop;
 import com.mygdx.game.BuilderBlocks.DoubleClickListener;
 import com.mygdx.game.BuilderBlocks.DragClickListener;
 import com.mygdx.game.BuilderBlocks.Events;
@@ -118,6 +120,53 @@ public class Chapter5 extends ChapterScreen implements Screen {
       }
     }
   };
+
+  /*private void Initdrgndrop() {
+
+    final Table table = new Table();
+    int tableWidth = 0;
+    for (int i = 0; i < displayBalls.size(); i++) {
+      final Image img = new Image(displayBalls.get(0).getDrawable());
+      table.add(img);
+      tableWidth += displayBalls.get(0).getWidth();
+      table.setWidth(tableWidth);
+    }
+    table.setHeight(displayBalls.get(0).getHeight());
+    stage.addActor(table);
+    final DragAndDrop drgAndDrop = new DragAndDrop();
+
+    drgAndDrop.addSource(new DragAndDrop.Source(displayBalls.get(0)) {
+      @Override
+      public DragAndDrop.Payload dragStart(InputEvent event, float x, float y, int pointer) {
+
+        DragAndDrop.Payload payload = new DragAndDrop.Payload();
+
+        payload.setDragActor(table);
+
+        return payload;
+      }
+
+      @Override
+      public void dragStop(InputEvent event, float x, float y, int pointer, DragAndDrop.Payload payload, DragAndDrop.Target target) {
+
+      }
+
+    });
+
+    drgAndDrop.addTarget(new DragAndDrop.Target() {
+      @Override
+      public boolean drag(DragAndDrop.Source source, DragAndDrop.Payload payload, float x, float y, int pointer) {
+
+        return true;
+      }
+
+      @Override
+      public void drop(DragAndDrop.Source source, DragAndDrop.Payload payload, float x, float y, int pointer) {
+
+
+      }
+    });
+  }*/
 
   void defineLevel1To5Components() {
 

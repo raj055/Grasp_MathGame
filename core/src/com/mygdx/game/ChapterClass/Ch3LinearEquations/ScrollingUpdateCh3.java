@@ -67,8 +67,8 @@ public class ScrollingUpdateCh3 implements Subscriber {
 
         String strvalue = "";
         if (glv.lableWrite) {
-            if(glv.lableUpdate <= glv.VariabalLevel3.length){
-                strvalue = glv.VariabalLevel3[glv.lableUpdate];
+            if(glv.lableUpdate <= glv.TextLevel3.length){
+                strvalue = glv.TextLevel3[glv.lableUpdate];
             }
             switch (glv.countClick){
                 case 1:

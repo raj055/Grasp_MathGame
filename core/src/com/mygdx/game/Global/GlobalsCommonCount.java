@@ -122,7 +122,6 @@ public class GlobalsCommonCount {
     "Number/5.png",
     "Numbers/6.5.png",
     "Numbers/6.png",
-
 //          "Number/25.png",
     "Numbers/3.png",
 //          "Number/35.png",
@@ -132,14 +131,14 @@ public class GlobalsCommonCount {
     "Numbers/8.png"
   };
   public static final String[] NumberLevel12 ={
-//          "1.5",
+          "1.5",
           "1",
+          "2.5",
           "2",
-//          "2.5",
+          "3.5",
           "3",
-//          "3.5",
+          "4.5",
           "4",
-//          "4.5",
           "6",
           "8"
   };

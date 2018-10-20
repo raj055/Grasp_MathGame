@@ -20,7 +20,7 @@ import com.mygdx.game.Global.GlobalsCommonCount;
 
 public class NumberCh3 implements Disposable {
 
-  public static final int NUMBERCOUNT = 10;
+  public static final int NUMBERCOUNT = 6;
 
   public Array<Image> numbers;
 
@@ -37,7 +37,7 @@ public class NumberCh3 implements Disposable {
 
     for(int numCount = 0; numCount < NUMBERCOUNT; numCount++)
     {
-      final Image img = new Image(new Texture(gblVar.NumberLevel1[numCount]));
+      final Image img = new Image(new Texture(gblVar.TextLevel1[numCount]));
 
       ScrollingImageClick scrollingImageClick = new ScrollingImageClick(Events.CLICK_ScrollingCh3);
 
