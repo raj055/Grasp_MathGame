@@ -11,6 +11,7 @@ import com.badlogic.gdx.scenes.scene2d.utils.DragAndDrop;
 import com.mygdx.game.Animation.AnimationClass;
 import com.mygdx.game.Animation.TrainAnimation;
 import com.mygdx.game.BuilderBlocks.DoubleClickListener;
+import com.mygdx.game.BuilderBlocks.DragAndDropElements;
 import com.mygdx.game.BuilderBlocks.DragClickListener;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.ScrollingNumber;
@@ -44,14 +45,14 @@ public class Chapter3 extends ChapterScreen implements Screen {
   private DoubleClickListener clickListenerC1;
   private DoubleClickListener clickListenerC2;
 
-  private DragClickListener dragListenerA1;
-  private DragClickListener dragListenerB1;
-  private DragClickListener dragListenerC1;
-  private DragClickListener dragListenerA2;
-  private DragClickListener dragListenerB2;
-  private DragClickListener dragListenerC2;
-  private DragClickListener dragListenerB11;
-  private DragClickListener dragListenerB21;
+  private DragAndDropElements dragListenerA1;
+  private DragAndDropElements dragListenerB1;
+  private DragAndDropElements dragListenerC1;
+  private DragAndDropElements dragListenerA2;
+  private DragAndDropElements dragListenerB2;
+  private DragAndDropElements dragListenerC2;
+  private DragAndDropElements dragListenerB11;
+  private DragAndDropElements dragListenerB21;
 
   private VisebalComponentsCh3 visebalComponentsCh3;
   private VisebalComponentsCh3 visebalComponentsCh3Level11;
@@ -156,52 +157,18 @@ public class Chapter3 extends ChapterScreen implements Screen {
     }
   };
 
- /* private void Initdrgndrop() {
+  private void Initdrgndrop() {
 
-    final Table table = new Table();
-    int tableWidth = 0;
-    for (int i = 0; i < displayBalls.size(); i++) {
-      final Image img = new Image(displayBalls.get(0).getDrawable());
-      table.add(img);
-      tableWidth += displayBalls.get(0).getWidth();
-      table.setWidth(tableWidth);
-    }
-    table.setHeight(displayBalls.get(0).getHeight());
-    stage.addActor(table);
-    final DragAndDrop drgAndDrop = new DragAndDrop();
+    dragListenerA1 = new DragAndDropElements(Events.DRAG_VALUE_A1);
+    dragListenerA2 = new DragAndDropElements(Events.DRAG_VALUE_A2);
+    dragListenerB1 = new DragAndDropElements(Events.DRAG_VALUE_B1);
+    dragListenerB2 = new DragAndDropElements(Events.DRAG_VALUE_B2);
+    dragListenerC1 = new DragAndDropElements(Events.DRAG_VALUE_C1);
+    dragListenerC2 = new DragAndDropElements(Events.DRAG_VALUE_C2);
+    dragListenerB11 = new DragAndDropElements(Events.DRAG_VALUE_B11);
+    dragListenerB21 = new DragAndDropElements(Events.DRAG_VALUE_B21);
 
-    drgAndDrop.addSource(new DragAndDrop.Source() {
-      @Override
-      public DragAndDrop.Payload dragStart(InputEvent event, float x, float y, int pointer) {
-
-        DragAndDrop.Payload payload = new DragAndDrop.Payload();
-
-//        payload.setDragActor(table);
-
-        return payload;
-      }
-
-      @Override
-      public void dragStop(InputEvent event, float x, float y, int pointer, DragAndDrop.Payload payload, DragAndDrop.Target target) {
-
-      }
-
-    });
-
-    drgAndDrop.addTarget(new DragAndDrop.Target() {
-      @Override
-      public boolean drag(DragAndDrop.Source source, DragAndDrop.Payload payload, float x, float y, int pointer) {
-
-        return true;
-      }
-
-      @Override
-      public void drop(DragAndDrop.Source source, DragAndDrop.Payload payload, float x, float y, int pointer) {
-
-
-      }
-    });
-  }*/
+  }
 
   void defineLevel1To3Components() {
 
@@ -303,6 +270,7 @@ public class Chapter3 extends ChapterScreen implements Screen {
   void defineLevel8To11Components(){}
   void defineLevel12To15Components() {
 
+/*
     dragListenerA1 = new DragClickListener(Events.DRAG_VALUE_A1);
     dragListenerA2 = new DragClickListener(Events.DRAG_VALUE_A2);
     dragListenerB1 = new DragClickListener(Events.DRAG_VALUE_B1);
@@ -321,6 +289,7 @@ public class Chapter3 extends ChapterScreen implements Screen {
     arrDragListener.add(dragListenerC2);
     arrDragListener.add(dragListenerB11);
     arrDragListener.add(dragListenerB21);
+*/
 
     String  updatableNamesLevel3[] = {"ValueA", "ValueB", "ValueB11","ValueC","ValueA1","ValueB1",
             "ValueB12","ValueC1"};

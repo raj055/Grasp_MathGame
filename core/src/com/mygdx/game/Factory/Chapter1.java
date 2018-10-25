@@ -333,7 +333,6 @@ public class Chapter1 extends ChapterScreen implements Screen {
 
           Image dispBallImg = displayBallList.get(chapterVariables.chapter1Variables.ValueOfQ - 1);
           dispBallImg.setVisible(true);
-
       }
       });
   }

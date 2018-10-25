@@ -16,18 +16,6 @@
               ],
               "Visible": false
             },
-            "syntex": {
-              "Image": "data/syntax.png",
-              "Size": [
-                320,
-                50
-              ],
-              "Position": [
-                20,
-                100
-              ],
-              "Visible": true
-            },
             "triangleb_Image": {
               "Image": "data_ch6/triangle_b.png",
               "Size": [
@@ -95,7 +83,7 @@
                 170
               ],
               "Position": [
-                100,
+                200,
                 680
               ],
               "Visible": true
@@ -205,18 +193,6 @@
               ],
               "Visible": false
             },
-            "syntex": {
-              "Image": "data/syntax.png",
-              "Size": [
-                320,
-                50
-              ],
-              "Position": [
-                20,
-                100
-              ],
-              "Visible": true
-            },
             "triangleb_Image": {
               "Image": "data_ch6/triangle_b.png",
               "Size": [
@@ -284,7 +260,7 @@
                 170
               ],
               "Position": [
-                100,
+                200,
                 680
               ],
               "Visible": true
@@ -394,18 +370,6 @@
               ],
               "Visible": false
             },
-            "syntex": {
-              "Image": "data/syntax.png",
-              "Size": [
-                320,
-                50
-              ],
-              "Position": [
-                20,
-                100
-              ],
-              "Visible": true
-            },
             "triangleb_Image": {
               "Image": "data_ch6/triangle_b.png",
               "Size": [
@@ -473,7 +437,7 @@
                 170
               ],
               "Position": [
-                100,
+                200,
                 680
               ],
               "Visible": true
@@ -583,18 +547,6 @@
               ],
               "Visible": false
             },
-            "syntex": {
-              "Image": "data/syntax.png",
-              "Size": [
-                320,
-                50
-              ],
-              "Position": [
-                20,
-                100
-              ],
-              "Visible": true
-            },
             "triangleb_Image": {
               "Image": "data_ch6/triangle_b.png",
               "Size": [
@@ -662,7 +614,7 @@
                 170
               ],
               "Position": [
-                100,
+                200,
                 680
               ],
               "Visible": true
@@ -772,18 +724,6 @@
               ],
               "Visible": false
             },
-            "syntex": {
-              "Image": "data/syntax.png",
-              "Size": [
-                320,
-                50
-              ],
-              "Position": [
-                20,
-                100
-              ],
-              "Visible": true
-            },
             "triangleb_Image": {
               "Image": "data_ch6/triangle_b.png",
               "Size": [
@@ -851,7 +791,7 @@
                 170
               ],
               "Position": [
-                100,
+                200,
                 680
               ],
               "Visible": true

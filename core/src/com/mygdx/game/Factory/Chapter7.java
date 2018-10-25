@@ -7,6 +7,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.scenes.scene2d.utils.DragAndDrop;
+import com.mygdx.game.BuilderBlocks.DragAndDropElements;
 import com.mygdx.game.BuilderBlocks.DragClickListener;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.ChapterClass.Ch7CoordinateGeometry.VisebalComponentsCh7;
@@ -21,6 +22,8 @@ import java.util.ArrayList;
  */
 
 public class Chapter7 extends ChapterScreen implements Screen {
+
+  private DragAndDropElements drag_L1_value31;
 
   private DragClickListener drag_L1_value3;
   private DragClickListener drag_L1_value12;
@@ -50,6 +53,9 @@ public class Chapter7 extends ChapterScreen implements Screen {
 
   private VisebalComponentsCh7 visebalComponentsCh7;
   private ArrayList<DragClickListener> arrDragListener;
+
+  private Label L1_value1;
+  private Label synlabel1;
 
   Chapter7(){
     super();
@@ -126,27 +132,22 @@ public class Chapter7 extends ChapterScreen implements Screen {
     }
   };
 
- /* private void Initdrgndrop() {
+  private void DropLabel(){
+    drag_L1_value31 = new DragAndDropElements(Events.DRAG_L1_VALUE);
+    drag_L1_value31.defineComponentLabels(L1_value1,synlabel1);
+  }
 
-    final Table table = new Table();
-    int tableWidth = 0;
-    for (int i = 0; i < displayBalls.size(); i++) {
-      final Image img = new Image(displayBalls.get(0).getDrawable());
-      table.add(img);
-      tableWidth += displayBalls.get(0).getWidth();
-      table.setWidth(tableWidth);
-    }
-    table.setHeight(displayBalls.get(0).getHeight());
-    stage.addActor(table);
+  private void Initdrgndrop() {
+
     final DragAndDrop drgAndDrop = new DragAndDrop();
 
-    drgAndDrop.addSource(new DragAndDrop.Source(drag_L1_value3) {
+    drgAndDrop.addSource(new DragAndDrop.Source(L1_value1) {
       @Override
       public DragAndDrop.Payload dragStart(InputEvent event, float x, float y, int pointer) {
 
         DragAndDrop.Payload payload = new DragAndDrop.Payload();
 
-        payload.setDragActor(table);
+        payload.setDragActor(L1_value1);
 
         return payload;
       }
@@ -158,7 +159,7 @@ public class Chapter7 extends ChapterScreen implements Screen {
 
     });
 
-    drgAndDrop.addTarget(new DragAndDrop.Target() {
+    drgAndDrop.addTarget(new DragAndDrop.Target(synlabel1) {
       @Override
       public boolean drag(DragAndDrop.Source source, DragAndDrop.Payload payload, float x, float y, int pointer) {
 
@@ -167,10 +168,9 @@ public class Chapter7 extends ChapterScreen implements Screen {
 
       @Override
       public void drop(DragAndDrop.Source source, DragAndDrop.Payload payload, float x, float y, int pointer) {
-
       }
     });
-  }*/
+  }
 
   void defineLevel1To5Components() {
 
@@ -189,16 +189,32 @@ public class Chapter7 extends ChapterScreen implements Screen {
 
     if (updatables != null) {
 
-      updatables.size();
-      for (Label updatable : updatables) {
+
+      /*for (Label updatable : updatables) {
         String str = updatable.getName();
         for(int count = 0; count < updatableNamesLevel1.length; count++){
           if(str.equals(updatableNamesLevel1[count]))
             updatable.addListener(arrDragListener.get(count));
         }
+      }*/
+
+      updatables.size();
+      for (Label updatable : updatables) {
+        String str = updatable.getName();
+        if (str.contains("LabelValue1")) {
+          L1_value1 = updatable;
+        }
+        else if (str.contains("SyntaxLabel1")) {
+          synlabel1 = updatable;
+        }
       }
       visebalComponentsCh7 = new VisebalComponentsCh7(displayImages, updatables);
     }
+
+    DropLabel();
+
+//    Initdrgndrop();
+
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }

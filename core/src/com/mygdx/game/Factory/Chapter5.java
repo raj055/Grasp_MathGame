@@ -8,6 +8,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.scenes.scene2d.utils.DragAndDrop;
 import com.mygdx.game.BuilderBlocks.DoubleClickListener;
+import com.mygdx.game.BuilderBlocks.DragAndDropElements;
 import com.mygdx.game.BuilderBlocks.DragClickListener;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.ScrollingNumber;
@@ -31,7 +32,7 @@ public class Chapter5 extends ChapterScreen implements Screen {
   private DoubleClickListener dblClickListenerPlus;
 
   //Drag12 click listeners
-   DragClickListener drag_l1_value1,drag_l1_value2,drag_l1_value12,drag_l1_value13;
+  private DragAndDropElements drag_l1_value1,drag_l1_value2,drag_l1_value12,drag_l1_value13;
 
   private ArrayList<Image> scrollingImages = null;
 
@@ -121,58 +122,19 @@ public class Chapter5 extends ChapterScreen implements Screen {
     }
   };
 
-  /*private void Initdrgndrop() {
+  private void Initdrgndrop() {
 
-    final Table table = new Table();
-    int tableWidth = 0;
-    for (int i = 0; i < displayBalls.size(); i++) {
-      final Image img = new Image(displayBalls.get(0).getDrawable());
-      table.add(img);
-      tableWidth += displayBalls.get(0).getWidth();
-      table.setWidth(tableWidth);
-    }
-    table.setHeight(displayBalls.get(0).getHeight());
-    stage.addActor(table);
-    final DragAndDrop drgAndDrop = new DragAndDrop();
-
-    drgAndDrop.addSource(new DragAndDrop.Source(displayBalls.get(0)) {
-      @Override
-      public DragAndDrop.Payload dragStart(InputEvent event, float x, float y, int pointer) {
-
-        DragAndDrop.Payload payload = new DragAndDrop.Payload();
-
-        payload.setDragActor(table);
-
-        return payload;
-      }
-
-      @Override
-      public void dragStop(InputEvent event, float x, float y, int pointer, DragAndDrop.Payload payload, DragAndDrop.Target target) {
-
-      }
-
-    });
-
-    drgAndDrop.addTarget(new DragAndDrop.Target() {
-      @Override
-      public boolean drag(DragAndDrop.Source source, DragAndDrop.Payload payload, float x, float y, int pointer) {
-
-        return true;
-      }
-
-      @Override
-      public void drop(DragAndDrop.Source source, DragAndDrop.Payload payload, float x, float y, int pointer) {
-
-
-      }
-    });
-  }*/
+    drag_l1_value1 = new DragAndDropElements(Events.DRAG_C5L1_VALUE1);
+    drag_l1_value2 = new DragAndDropElements(Events.DRAG_C5L1_VALUE2);
+    drag_l1_value12 = new DragAndDropElements(Events.DRAG_C5L1_VALUE12);
+    drag_l1_value13 = new DragAndDropElements(Events.DRAG_C5L1_VALUE13);
+  }
 
   void defineLevel1To5Components() {
 
     dblClickListenerPlus = new DoubleClickListener(Events.DOUBLE_CLICK_ADD);
 
-    drag_l1_value1 = new DragClickListener(Events.DRAG_C5L1_VALUE1);
+   /* drag_l1_value1 = new DragClickListener(Events.DRAG_C5L1_VALUE1);
     drag_l1_value2 = new DragClickListener(Events.DRAG_C5L1_VALUE2);
     drag_l1_value12 = new DragClickListener(Events.DRAG_C5L1_VALUE12);
     drag_l1_value13 = new DragClickListener(Events.DRAG_C5L1_VALUE13);
@@ -181,7 +143,7 @@ public class Chapter5 extends ChapterScreen implements Screen {
     arrDragListener.add(drag_l1_value1);
     arrDragListener.add(drag_l1_value2);
     arrDragListener.add(drag_l1_value12);
-    arrDragListener.add(drag_l1_value13);
+    arrDragListener.add(drag_l1_value13);*/
 
     arrClickListener = new ArrayList<DoubleClickListener>();
     arrClickListener.add(dblClickListenerPlus);

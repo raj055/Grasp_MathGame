@@ -8,6 +8,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.scenes.scene2d.utils.DragAndDrop;
 import com.mygdx.game.BuilderBlocks.DoubleClickListener;
+import com.mygdx.game.BuilderBlocks.DragAndDropElements;
 import com.mygdx.game.BuilderBlocks.DragClickListener;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.ScrollingNumber;
@@ -25,19 +26,19 @@ public class Chapter4 extends ChapterScreen implements Screen {
   private ArrayList<Image> DragComponent;
   private ArrayList<Image> VisebalComponent;
 
-  private DragClickListener draglight;
-  private DragClickListener dragsquare;
-  private DragClickListener dragsquare1;
-  private DragClickListener dragsquare2;
-  private DragClickListener dragbox1;
+  private DragAndDropElements draglight;
+  private DragAndDropElements dragsquare;
+  private DragAndDropElements dragsquare1;
+  private DragAndDropElements dragsquare2;
+  private DragAndDropElements dragbox1;
 
-  private DragClickListener dragA1;
-  private DragClickListener dragA2;
-  private DragClickListener dragB1;
-  private DragClickListener dragB2;
-  private DragClickListener dragB3;
-  private DragClickListener dragC1;
-  private DragClickListener dragC2;
+  private DragAndDropElements dragA1;
+  private DragAndDropElements dragA2;
+  private DragAndDropElements dragB1;
+  private DragAndDropElements dragB2;
+  private DragAndDropElements dragB3;
+  private DragAndDropElements dragC1;
+  private DragAndDropElements dragC2;
 
   private VisebleComponentsCh4 visebleComponentsCh4;
   private ArrayList<Image> scrollingImages = null;
@@ -128,52 +129,22 @@ public class Chapter4 extends ChapterScreen implements Screen {
     }
   };
 
-  /*private void Initdrgndrop() {
+  private void Initdrgndrop() {
+    draglight = new DragAndDropElements(Events.DRAG_IMGLIGHT);
+    dragsquare = new DragAndDropElements(Events.DRAG_IMGSQUARE);
+    dragsquare1 = new DragAndDropElements(Events.DRAG_IMGSQUARE1);
+    dragsquare2 = new DragAndDropElements(Events.DRAG_IMGSQUARE2);
+    dragbox1 = new DragAndDropElements(Events.DRAG_IMGBOX1);
 
-    final Table table = new Table();
-    int tableWidth = 0;
-    for (int i = 0; i < displayBalls.size(); i++) {
-      final Image img = new Image(displayBalls.get(0).getDrawable());
-      table.add(img);
-      tableWidth += displayBalls.get(0).getWidth();
-      table.setWidth(tableWidth);
-    }
-    table.setHeight(displayBalls.get(0).getHeight());
-    stage.addActor(table);
-    final DragAndDrop drgAndDrop = new DragAndDrop();
+    dragA1 = new DragAndDropElements(Events.DRAGA1);
+    dragA2 = new DragAndDropElements(Events.DRAGA2);
+    dragB1 = new DragAndDropElements(Events.DRAGB1);
+    dragB2 = new DragAndDropElements(Events.DRAGB2);
+    dragB3 = new DragAndDropElements(Events.DRAGB3);
+    dragC1 = new DragAndDropElements(Events.DRAGC1);
+    dragC2 = new DragAndDropElements(Events.DRAGC2);
 
-    drgAndDrop.addSource(new DragAndDrop.Source(displayBalls.get(0)) {
-      @Override
-      public DragAndDrop.Payload dragStart(InputEvent event, float x, float y, int pointer) {
-
-        DragAndDrop.Payload payload = new DragAndDrop.Payload();
-
-        payload.setDragActor(table);
-
-        return payload;
-      }
-
-      @Override
-      public void dragStop(InputEvent event, float x, float y, int pointer, DragAndDrop.Payload payload, DragAndDrop.Target target) {
-
-      }
-
-    });
-
-    drgAndDrop.addTarget(new DragAndDrop.Target() {
-      @Override
-      public boolean drag(DragAndDrop.Source source, DragAndDrop.Payload payload, float x, float y, int pointer) {
-
-        return true;
-      }
-
-      @Override
-      public void drop(DragAndDrop.Source source, DragAndDrop.Payload payload, float x, float y, int pointer) {
-
-
-      }
-    });
-  }*/
+  }
 
   void defineLevel1To5Components() {
 
@@ -222,7 +193,7 @@ public class Chapter4 extends ChapterScreen implements Screen {
   }
   void defineLevel6To10Components() {
 
-    draglight = new DragClickListener(Events.DRAG_IMGLIGHT);
+   /* draglight = new DragClickListener(Events.DRAG_IMGLIGHT);
     dragsquare = new DragClickListener(Events.DRAG_IMGSQUARE);
     dragsquare1 = new DragClickListener(Events.DRAG_IMGSQUARE1);
     dragsquare2 = new DragClickListener(Events.DRAG_IMGSQUARE2);
@@ -233,7 +204,7 @@ public class Chapter4 extends ChapterScreen implements Screen {
     arrDragListener.add(dragsquare);
     arrDragListener.add(dragsquare1);
     arrDragListener.add(dragsquare2);
-    arrDragListener.add(dragbox1);
+    arrDragListener.add(dragbox1);*/
 
     String  updatableNamesLevel2Step1[] = {"light"};
     String  updatableNamesLevel2Step2[] = {"Square", "Square1", "Square2","box1"};
@@ -281,7 +252,7 @@ public class Chapter4 extends ChapterScreen implements Screen {
   }
   void defineLevel11To15Components() {
 
-    dragA1 = new DragClickListener(Events.DRAGA1);
+/*    dragA1 = new DragClickListener(Events.DRAGA1);
     dragA2 = new DragClickListener(Events.DRAGA2);
     dragB1 = new DragClickListener(Events.DRAGB1);
     dragB2 = new DragClickListener(Events.DRAGB2);
@@ -296,7 +267,7 @@ public class Chapter4 extends ChapterScreen implements Screen {
     arrDragListener.add(dragB2);
     arrDragListener.add(dragB3);
     arrDragListener.add(dragC1);
-    arrDragListener.add(dragC2);
+    arrDragListener.add(dragC2);*/
 
     String  updatableNamesLevel3[] = {"DragLabelA", "DragLabelA2", "DragLabelB","DragLabelB1",
             "DragLabelB2","DragLabelC","DragLabelC1"};

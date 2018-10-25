@@ -1,8 +1,108 @@
 package com.mygdx.game.BuilderBlocks;
 
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.scenes.scene2d.Actor;
+import com.badlogic.gdx.scenes.scene2d.InputEvent;
+import com.badlogic.gdx.scenes.scene2d.Stage;
+import com.badlogic.gdx.scenes.scene2d.ui.Image;
+import com.badlogic.gdx.scenes.scene2d.ui.Label;
+import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.DragAndDrop;
+import com.badlogic.gdx.scenes.scene2d.utils.DragListener;
 
 public class DragAndDropElements extends DragAndDrop {
 
+    Events notifyEvent;
+    Notifier notifier;
+
+    public DragAndDropElements(Events triggerEvent) {
+
+        //Execute the super class's constructor
+        super();
+
+        //Get the single instance of Notifier.
+        notifier = Notifier.getInstance();
+
+        //Assign the notifier event.
+        notifyEvent = triggerEvent;
+    }
+
+    protected void postEvent() {
+
+        //Notify the post events.
+        notifier.PostEvents(notifyEvent);
+
+        //Log the event
+        Gdx.app.log("POST EVETN",notifyEvent.toString());
+    }
+
+    public void defineComponentImages(final Image dragActor,Image TargetActor){
+
+        Source source = new Source(dragActor) {
+            @Override
+            public Payload dragStart(InputEvent event, float x, float y, int pointer) {
+                DragAndDrop.Payload payload = new DragAndDrop.Payload();
+
+                payload.setDragActor(dragActor);
+
+                return payload;
+            }
+
+            @Override
+            public void dragStop(InputEvent event, float x, float y, int pointer, Payload payload, Target target) {
+
+            }
+        };
+
+        Target target = new Target(TargetActor) {
+            @Override
+            public boolean drag(Source source, Payload payload, float x, float y, int pointer) {
+                return false;
+            }
+
+            @Override
+            public void drop(Source source, Payload payload, float x, float y, int pointer) {
+
+                postEvent();
+            }
+        };
+
+        this.addSource(source);
+        this.addTarget(target);
+    }
+
+    public void defineComponentLabels(final Label dragActor,Label TargetActor){
+
+        Source source = new Source(dragActor) {
+            @Override
+            public Payload dragStart(InputEvent event, float x, float y, int pointer) {
+                DragAndDrop.Payload payload = new DragAndDrop.Payload();
+
+                payload.setDragActor(dragActor);
+
+                return payload;
+            }
+
+            @Override
+            public void dragStop(InputEvent event, float x, float y, int pointer, Payload payload, Target target) {
+                postEvent();
+            }
+
+        };
+
+        Target target = new Target(TargetActor) {
+            @Override
+            public boolean drag(Source source, Payload payload, float x, float y, int pointer) {
+                return false;
+            }
+
+            @Override
+            public void drop(Source source, Payload payload, float x, float y, int pointer) {
+            }
+        };
+
+        this.addSource(source);
+        this.addTarget(target);
+    }
 
 }

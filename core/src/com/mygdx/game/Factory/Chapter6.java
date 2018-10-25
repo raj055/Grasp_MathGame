@@ -4,10 +4,10 @@ import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
-import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.scenes.scene2d.utils.DragAndDrop;
 import com.mygdx.game.BuilderBlocks.DoubleClickListener;
+import com.mygdx.game.BuilderBlocks.DragAndDropElements;
 import com.mygdx.game.BuilderBlocks.DragClickListener;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.ChapterClass.Ch6Triangles.ScrollingUpdateCh6;
@@ -28,11 +28,11 @@ public class Chapter6 extends ChapterScreen implements Screen {
   private ArrayList<Image> ImagePosition;
   private ArrayList<Image> scrollingImages = null;
 
-  private DragClickListener dragShapeSquare;
-  private DragClickListener dragShapeSquare1;
-  private DragClickListener dragShapeCircle;
-  private DragClickListener dragShapeCircle1;
-  private DragClickListener dragShapeTriangle;
+  private DragAndDropElements dragShapeSquare;
+  private DragAndDropElements dragShapeSquare1;
+  private DragAndDropElements dragShapeCircle;
+  private DragAndDropElements dragShapeCircle1;
+  private DragAndDropElements dragShapeTriangle;
 
   private VisebalComponentsCh6 visebalComponentsCh6;
 
@@ -51,6 +51,8 @@ public class Chapter6 extends ChapterScreen implements Screen {
   private ArrayList<DoubleClickListener> arrDoubleListener;
 
   private ScrollingUpdateCh6 scrollingUpdateCh6 = null;
+
+  private Image DragShape,squareShape,squareShape1,circleShape,circleShape1,targetTriangle;
 
   Chapter6(){
     super();
@@ -134,27 +136,36 @@ public class Chapter6 extends ChapterScreen implements Screen {
     }
   };
 
- /* private void Initdrgndrop() {
+  private void Drop(){
 
-    final Table table = new Table();
-    int tableWidth = 0;
-    for (int i = 0; i < displayBalls.size(); i++) {
-      final Image img = new Image(displayBalls.get(0).getDrawable());
-      table.add(img);
-      tableWidth += displayBalls.get(0).getWidth();
-      table.setWidth(tableWidth);
-    }
-    table.setHeight(displayBalls.get(0).getHeight());
-    stage.addActor(table);
+    dragShapeTriangle = new DragAndDropElements(Events.DRAG_TRIANGLE_P);
+    dragShapeTriangle.defineComponentImages(DragShape,targetTriangle);
+
+    dragShapeSquare = new DragAndDropElements(Events.DRAG_SQUARE);
+    dragShapeSquare.defineComponentImages(squareShape,targetTriangle);
+
+    dragShapeSquare1 = new DragAndDropElements(Events.DRAG_SQUARE1);
+    dragShapeSquare1.defineComponentImages(squareShape1,targetTriangle);
+
+    dragShapeCircle = new DragAndDropElements(Events.DRAG_CIRCLE);
+    dragShapeCircle.defineComponentImages(circleShape,targetTriangle);
+
+    dragShapeCircle1 = new DragAndDropElements(Events.DRAG_CIRCLE_1);
+    dragShapeCircle1.defineComponentImages(circleShape1,targetTriangle);
+
+  }
+
+  private void Initdrgndrop() {
+
     final DragAndDrop drgAndDrop = new DragAndDrop();
 
-    drgAndDrop.addSource(new DragAndDrop.Source(displayBalls.get(0)) {
+    drgAndDrop.addSource(new DragAndDrop.Source(DragShape) {
       @Override
       public DragAndDrop.Payload dragStart(InputEvent event, float x, float y, int pointer) {
 
         DragAndDrop.Payload payload = new DragAndDrop.Payload();
 
-        payload.setDragActor(table);
+        payload.setDragActor(DragShape);
 
         return payload;
       }
@@ -166,7 +177,79 @@ public class Chapter6 extends ChapterScreen implements Screen {
 
     });
 
-    drgAndDrop.addTarget(new DragAndDrop.Target() {
+    drgAndDrop.addSource(new DragAndDrop.Source(squareShape) {
+      @Override
+      public DragAndDrop.Payload dragStart(InputEvent event, float x, float y, int pointer) {
+
+        DragAndDrop.Payload payload = new DragAndDrop.Payload();
+
+        payload.setDragActor(DragShape);
+
+        return payload;
+      }
+
+      @Override
+      public void dragStop(InputEvent event, float x, float y, int pointer, DragAndDrop.Payload payload, DragAndDrop.Target target) {
+
+      }
+
+    });
+
+    drgAndDrop.addSource(new DragAndDrop.Source(squareShape1) {
+      @Override
+      public DragAndDrop.Payload dragStart(InputEvent event, float x, float y, int pointer) {
+
+        DragAndDrop.Payload payload = new DragAndDrop.Payload();
+
+        payload.setDragActor(DragShape);
+
+        return payload;
+      }
+
+      @Override
+      public void dragStop(InputEvent event, float x, float y, int pointer, DragAndDrop.Payload payload, DragAndDrop.Target target) {
+
+      }
+
+    });
+
+    drgAndDrop.addSource(new DragAndDrop.Source(circleShape) {
+      @Override
+      public DragAndDrop.Payload dragStart(InputEvent event, float x, float y, int pointer) {
+
+        DragAndDrop.Payload payload = new DragAndDrop.Payload();
+
+        payload.setDragActor(DragShape);
+
+        return payload;
+      }
+
+      @Override
+      public void dragStop(InputEvent event, float x, float y, int pointer, DragAndDrop.Payload payload, DragAndDrop.Target target) {
+
+      }
+
+    });
+
+    drgAndDrop.addSource(new DragAndDrop.Source(circleShape1) {
+      @Override
+      public DragAndDrop.Payload dragStart(InputEvent event, float x, float y, int pointer) {
+
+        DragAndDrop.Payload payload = new DragAndDrop.Payload();
+
+        payload.setDragActor(DragShape);
+
+        return payload;
+      }
+
+      @Override
+      public void dragStop(InputEvent event, float x, float y, int pointer, DragAndDrop.Payload payload, DragAndDrop.Target target) {
+
+      }
+
+    });
+
+    drgAndDrop.addTarget(new DragAndDrop.Target(targetTriangle) {
       @Override
       public boolean drag(DragAndDrop.Source source, DragAndDrop.Payload payload, float x, float y, int pointer) {
 
@@ -176,14 +259,13 @@ public class Chapter6 extends ChapterScreen implements Screen {
       @Override
       public void drop(DragAndDrop.Source source, DragAndDrop.Payload payload, float x, float y, int pointer) {
 
-
       }
     });
-  }*/
+  }
 
   void defineLevel1To5Components() {
 
-    dragShapeSquare = new DragClickListener(Events.DRAG_SQUARE);
+    /*dragShapeSquare = new DragClickListener(Events.DRAG_SQUARE);
     dragShapeSquare1 = new DragClickListener(Events.DRAG_SQUARE1);
     dragShapeCircle = new DragClickListener(Events.DRAG_CIRCLE);
     dragShapeCircle1 = new DragClickListener(Events.DRAG_CIRCLE_1);
@@ -208,7 +290,32 @@ public class Chapter6 extends ChapterScreen implements Screen {
         }
       }
       visebalComponentsCh6 = new VisebalComponentsCh6(displayImages, updatables);
+    }*/
+
+    if(displayImages != null) {
+      displayImages.size();
+      for (Image updatable : displayImages) {
+        String str = updatable.getName();
+        if (str.contains("triangle_p")) {
+          DragShape = updatable;
+        }else if (str.contains("squareImage")) {
+          squareShape = updatable;
+        }else if (str.contains("square1Image")) {
+          squareShape1 = updatable;
+        }else if (str.contains("sercalImage")) {
+          circleShape = updatable;
+        }else if (str.contains("sercal1Image")) {
+          circleShape1 = updatable;
+        }else if (str.contains("triangleb_Image")) {
+          targetTriangle = updatable;
+        }
+      }
     }
+
+//    Initdrgndrop();
+
+    Drop();
+
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }
@@ -246,7 +353,6 @@ public class Chapter6 extends ChapterScreen implements Screen {
 
         for (Label updatable : updatables) {
           String str = updatable.getName();
-
           for(int count = 0; count < updatableNamesStep1.length; count++){
             if(str.equals(updatableNamesStep1[count]))
             updatable.addListener(arrDoubleListener.get(count));
