@@ -41,6 +41,10 @@ public class Chapter5 extends ChapterScreen implements Screen {
   private ArrayList<DragClickListener> arrDragListener;
   private ArrayList<DoubleClickListener> arrClickListener;
 
+  private Label Value1,Value2,Value12,Value13;
+
+  private Image PluseBttn ;
+
   Chapter5(){
     super();
 
@@ -155,20 +159,36 @@ public class Chapter5 extends ChapterScreen implements Screen {
       updatables.size();
       for (Label updatable : updatables) {
         String str = updatable.getName();
-        for(int count = 0; count < updatableNamesLevel1Drag.length; count++){
+        /*for(int count = 0; count < updatableNamesLevel1Drag.length; count++){
           if(str.equals(updatableNamesLevel1Drag[count]))
             updatable.addListener(arrDragListener.get(count));
+        }*/
+
+        if (str.contains("Value1")) {
+          Value1 = updatable;
+        }else if (str.contains("Value2")) {
+          Value2 = updatable;
+        }else if (str.contains("Value12")) {
+          Value12 = updatable;
+        }else if (str.contains("Value13")) {
+          Value13 = updatable;
         }
+
       }
     }
     if(displayImages != null) {
       displayImages.size();
       for (Image updatable : displayImages) {
         String str = updatable.getName();
-        for(int count = 0; count < updatableNamesLevel1Click.length; count++){
+       /* for(int count = 0; count < updatableNamesLevel1Click.length; count++){
           if(str.equals(updatableNamesLevel1Click[count]))
             updatable.addListener(arrClickListener.get(count));
+        }*/
+
+        if (str.contains("PluseBttn")) {
+          PluseBttn = updatable;
         }
+
       }
     }
     //Add Submit Button Listener.

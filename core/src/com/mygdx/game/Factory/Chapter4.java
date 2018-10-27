@@ -49,6 +49,10 @@ public class Chapter4 extends ChapterScreen implements Screen {
   private DoubleClickListener doubleclicklistener;
   private ArrayList<DragClickListener> arrDragListener;
 
+  private Label DragLabelA,DragLabelA2,DragLabelB,DragLabelB1,DragLabelB2,DragLabelC,DragLabelC1;
+
+  private Image light,ImgDragLabelA,ImgDragLabelA2;
+
   Chapter4(){
     super();
 
@@ -216,10 +220,14 @@ public class Chapter4 extends ChapterScreen implements Screen {
         displayImages.size();
         for (Image updatable : displayImages) {
           String str = updatable.getName();
-          for(int count = 0; count < updatableNamesLevel2Step1.length; count++){
+          /*for(int count = 0; count < updatableNamesLevel2Step1.length; count++){
             if(str.equals(updatableNamesLevel2Step1[count]))
               updatable.addListener(arrDragListener.get(count));
-          }
+          }*/
+
+            if (str.contains("light")) {
+                light = updatable;
+            }
         }
       }
     }
@@ -230,10 +238,17 @@ public class Chapter4 extends ChapterScreen implements Screen {
         displayImages.size();
         for (Image updatable : displayImages) {
           String str = updatable.getName();
-          for(int count = 0; count < updatableNamesLevel2Step2.length; count++){
+          /*for(int count = 0; count < updatableNamesLevel2Step2.length; count++){
             if(str.equals(updatableNamesLevel2Step2[count]))
               updatable.addListener(arrDragListener.get(count));
-          }
+          }*/
+
+            if (str.contains("DragLabelA")) {
+                ImgDragLabelA = updatable;
+            }else if (str.contains("DragLabelA2")) {
+                ImgDragLabelA2 = updatable;
+            }
+
         }
       }
     }
@@ -247,6 +262,9 @@ public class Chapter4 extends ChapterScreen implements Screen {
         updatable.getName();
       }
     }
+
+      Initdrgndrop();
+
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }
@@ -269,20 +287,39 @@ public class Chapter4 extends ChapterScreen implements Screen {
     arrDragListener.add(dragC1);
     arrDragListener.add(dragC2);*/
 
-    String  updatableNamesLevel3[] = {"DragLabelA", "DragLabelA2", "DragLabelB","DragLabelB1",
-            "DragLabelB2","DragLabelC","DragLabelC1"};
+//    String  updatableNamesLevel3[] = {"DragLabelA", "DragLabelA2", "DragLabelB","DragLabelB1",
+//            "DragLabelB2","DragLabelC","DragLabelC1"};
 
       //check if the updatable are present
       if(updatables != null) {
         updatables.size();
         for (Label updatable : updatables) {
           String str = updatable.getName();
-          for(int count = 0; count < updatableNamesLevel3.length; count++){
+          /*for(int count = 0; count < updatableNamesLevel3.length; count++){
             if(str.equals(updatableNamesLevel3[count]))
               updatable.addListener(arrDragListener.get(count));
+          }*/
+
+          if (str.contains("DragLabelA")) {
+            DragLabelA = updatable;
+          }else if (str.contains("DragLabelA2")) {
+            DragLabelA2 = updatable;
+          }else if (str.contains("DragLabelB")) {
+            DragLabelB = updatable;
+          }else if (str.contains("DragLabelB1")) {
+            DragLabelB1 = updatable;
+          }else if (str.contains("DragLabelB2")) {
+            DragLabelB2 = updatable;
+          }else if (str.contains("DragLabelC")) {
+            DragLabelC = updatable;
+          }else if (str.contains("DragLabelC1")) {
+            DragLabelC1 = updatable;
           }
         }
       }
+
+      Initdrgndrop();
+
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }

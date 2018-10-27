@@ -27,8 +27,6 @@ import static com.mygdx.game.BuilderBlocks.Events.DRAG_VALUE_C2;
 
 public class VisebalComponentsCh3 implements Subscriber {
 
-    ChapterVariables chapterVariables = ChapterVariables.getInstance();
-
     ArrayList<Image> visibleComponents;
     ArrayList<Label> labelsList;
 

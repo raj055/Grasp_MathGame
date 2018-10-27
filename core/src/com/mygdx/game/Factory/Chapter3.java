@@ -54,6 +54,8 @@ public class Chapter3 extends ChapterScreen implements Screen {
   private DragAndDropElements dragListenerB11;
   private DragAndDropElements dragListenerB21;
 
+  private Label ValueA,ValueB,ValueB11,ValueC,ValueA1,ValueB1,ValueB12,ValueC1;
+
   private VisebalComponentsCh3 visebalComponentsCh3;
   private VisebalComponentsCh3 visebalComponentsCh3Level11;
 
@@ -264,6 +266,7 @@ public class Chapter3 extends ChapterScreen implements Screen {
       }
       visebalComponentsCh3 = new VisebalComponentsCh3(displayImages, updatables);
     }
+
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }
@@ -305,13 +308,29 @@ public class Chapter3 extends ChapterScreen implements Screen {
       updatables.size();
       for (Label updatable : updatables) {
         String str = updatable.getName();
-        for(int count = 0; count < updatableNamesLevel3.length; count++){
-          if(str.equals(updatableNamesLevel3[count]))
-            updatable.addListener(arrDragListener.get(count));
+        if (str.contains("ValueA")) {
+          ValueA = updatable;
+        }else if (str.contains("ValueB")) {
+          ValueB = updatable;
+        }else if (str.contains("ValueB11")) {
+          ValueB11 = updatable;
+        }else if (str.contains("ValueC")) {
+          ValueC = updatable;
+        }else if (str.contains("ValueA1")) {
+          ValueA1 = updatable;
+        }else if (str.contains("ValueB1")) {
+          ValueB1 = updatable;
+        }else if (str.contains("ValueB12")) {
+          ValueB12 = updatable;
+        }else if (str.contains("ValueC1")) {
+          ValueC1 = updatable;
         }
       }
       visebalComponentsCh3Level11 = new VisebalComponentsCh3(displayImages, updatables);
     }
+
+    Initdrgndrop();
+
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }

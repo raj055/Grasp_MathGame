@@ -38,11 +38,13 @@ public class Chapter2 extends ChapterScreen implements Screen {
     private ScrollingNumber numLocal;
     private BallDisplay ballDisplay;
     private Nagetiv_Num nagetivNum;
-    private DragPoint dragPoint;
-//    private DragAndDropElements dragPoint;
+//    private DragPoint dragPoint;
+    private DragAndDropElements dragPoint;
     private VisebleComponetsCh2 visebleComponetsCh2;
     private ScrollingImageClick scrollingImageClick;
     private ScrollingUpdateLabelCh2 scrollingUpdateLabelCh2;
+
+    private Image DragCircle,LineTarget;
 
   Chapter2(){
     super();
@@ -50,7 +52,7 @@ public class Chapter2 extends ChapterScreen implements Screen {
     messageBox = new MessageBox();
     messageBox.AddStage(stage);
 
-    dragPoint = new DragPoint(Events.DRAG_CIRCLE);
+//    dragPoint = new DragPoint(Events.DRAG_CIRCLE);
 
     getLevelName();
     initialiseLevelComponents(currentLevelNumber);
@@ -129,7 +131,8 @@ public class Chapter2 extends ChapterScreen implements Screen {
 
     private void Initdrgndrop() {
 
-//        dragPoint = new DragAndDropElements(Events.DRAG_CIRCLE);
+        dragPoint = new DragAndDropElements(Events.DRAG_CIRCLE);
+        dragPoint.defineComponentImages(DragCircle,LineTarget);
     }
 
   // Level's Component
@@ -153,6 +156,7 @@ public class Chapter2 extends ChapterScreen implements Screen {
 
             if (str.contains("line")) {
                 imagesLines.add(updatable);
+                LineTarget = updatable;
             }
         }
         visebleComponetsCh2 = new VisebleComponetsCh2(imagesLines);
@@ -160,16 +164,25 @@ public class Chapter2 extends ChapterScreen implements Screen {
 
     if (draggable != null) {
         try {
+//            for (Image draggables : draggable) {
+//                if (draggables.getName().contains("DragCircle")) {
+//                    draggables.addListener(dragPoint);
+//                    dragCircle.add(draggables);
+//
+//                }
+//                dragPoint.setDisplayBalls(dragCircle);
+//            }
             for (Image draggables : draggable) {
-                if (draggables.getName().contains("DragCircle")) {
-                    draggables.addListener(dragPoint);
-                    dragCircle.add(draggables);
+                String str = draggables.getName();
+                if (str.contains("DragCircle")) {
+                    DragCircle = draggables;
                 }
-                dragPoint.setDisplayBalls(dragCircle);
             }
+
         } catch (Exception e) {
         }
     }
+      Initdrgndrop();
 
     //Add Submit Button Listener.
     addSubmitButtonListner();
