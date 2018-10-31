@@ -137,7 +137,7 @@ public class Chapter7 extends ChapterScreen implements Screen {
   private void DropLabel(){
     drag_L1_value = new DragAndDropElements(Events.DRAG_L1_VALUE);
     drag_L1_value3 = new DragAndDropElements(Events.DRAG_L1_VALUE);
-    drag_L1_value3.defineComponentLabels(L1_value1,synlabel1);
+    drag_L1_value3.defineComponentLabels(L1_value1,L1_value1,synlabel1);
     drag_L1_value12 = new DragAndDropElements(Events.DRAG_L1_VALUE12);
     drag_L1_value14 = new DragAndDropElements(Events.DRAG_L1_VALUE14);
 

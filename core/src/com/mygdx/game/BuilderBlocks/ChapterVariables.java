@@ -51,6 +51,7 @@ public class ChapterVariables {
     public int RBallHeight;
     public int RBallPosX;
     public int RBallPosY;
+    public int Score;
   }
   public static class Chapter2Variables {
 
@@ -64,6 +65,7 @@ public class ChapterVariables {
   public class Chapter3Variables{
     //Chapter 3 Variables
     public int LabelAns = 0;
+    public int ValueOfScore = 0;
   }
   public class Chapter4Variables{
     //Chapter 4 Variables

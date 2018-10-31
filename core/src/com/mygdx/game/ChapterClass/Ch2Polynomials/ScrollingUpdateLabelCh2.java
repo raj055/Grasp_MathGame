@@ -26,6 +26,7 @@ public class ScrollingUpdateLabelCh2 implements Subscriber{
     private TextVeriabal textVeriabal;
     private Nagetiv_Num nagetiv_num;
     private int ballclick = 0;
+    private int FinalScore;
 
     public ScrollingUpdateLabelCh2(ArrayList<Label> arrLabel){
 
@@ -73,6 +74,8 @@ public class ScrollingUpdateLabelCh2 implements Subscriber{
         Label Labal_f3 = getLabel("labelF3");
         Label Labal_f4 = getLabel("labelF4");
 
+        Label Score = getLabel("Score1");
+
         if (glv.lableWrite) {
             switch (glv.countClick) {
                 case 1:
@@ -108,6 +111,10 @@ public class ScrollingUpdateLabelCh2 implements Subscriber{
                     ballDisplay.balls[i][j].setVisible(true);
                 }
             }
+
+            FinalScore = glv.click1 * glv.click2 * glv.click3 * glv.click4;
+
+            Score.setText("" + FinalScore);
         }
     }
 

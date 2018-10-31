@@ -312,7 +312,7 @@ public class Chapter6 extends ChapterScreen implements Screen {
       }
     }
 
-    Initdrgndrop();
+//    Initdrgndrop();
 
     Drop();
 

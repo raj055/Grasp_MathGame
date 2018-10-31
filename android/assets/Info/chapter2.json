@@ -53,14 +53,14 @@
               "Visible": true
             },
             "Score": {
-              "Image": "data_ch2/score.png",
+              "Image": "data1/asset1.png",
               "Size": [
-                80,
-                50
+                150,
+                70
               ],
               "Position": [
-                300,
-                680
+                250,
+                705
               ],
               "Visible": true
             },
@@ -202,12 +202,12 @@
             "Score": {
               "Text": "0",
               "Size": [
-                80,
-                50
+                50,
+                35
               ],
               "Position": [
                 320,
-                675
+                680
               ],
               "Visible": true
             }
@@ -279,14 +279,14 @@
               "Visible": true
             },
             "Score": {
-              "Image": "data_ch2/score.png",
+              "Image": "data1/asset1.png",
               "Size": [
-                80,
-                50
+                150,
+                70
               ],
               "Position": [
-                300,
-                680
+                250,
+                705
               ],
               "Visible": true
             },
@@ -426,14 +426,14 @@
               ]
             },
             "Score": {
-              "Text": "500",
+              "Text": "0",
               "Size": [
-                40,
-                40
+                50,
+                35
               ],
               "Position": [
                 320,
-                675
+                680
               ],
               "Visible": true
             }
@@ -506,14 +506,14 @@
               "Visible": true
             },
             "Score": {
-              "Image": "data_ch2/score.png",
+              "Image": "data1/asset1.png",
               "Size": [
-                80,
-                50
+                150,
+                70
               ],
               "Position": [
-                300,
-                680
+                250,
+                705
               ],
               "Visible": true
             },
@@ -655,12 +655,12 @@
             "Score": {
               "Text": "0",
               "Size": [
-                80,
-                50
+                50,
+                35
               ],
               "Position": [
                 320,
-                675
+                680
               ],
               "Visible": true
             }
@@ -732,14 +732,14 @@
               "Visible": true
             },
             "Score": {
-              "Image": "data_ch2/score.png",
+              "Image": "data1/asset1.png",
               "Size": [
-                80,
-                50
+                150,
+                70
               ],
               "Position": [
-                300,
-                680
+                250,
+                705
               ],
               "Visible": true
             },
@@ -879,14 +879,14 @@
               ]
             },
             "Score": {
-              "Text": "500",
+              "Text": "0",
               "Size": [
-                40,
-                40
+                50,
+                35
               ],
               "Position": [
                 320,
-                675
+                680
               ],
               "Visible": true
             }
@@ -959,14 +959,14 @@
               "Visible": true
             },
             "Score": {
-              "Image": "data_ch2/score.png",
+              "Image": "data1/asset1.png",
               "Size": [
-                80,
-                50
+                150,
+                70
               ],
               "Position": [
-                300,
-                680
+                250,
+                705
               ],
               "Visible": true
             },
@@ -1108,12 +1108,12 @@
             "Score": {
               "Text": "0",
               "Size": [
-                80,
-                50
+                50,
+                35
               ],
               "Position": [
                 320,
-                675
+                680
               ],
               "Visible": true
             }
@@ -1185,14 +1185,14 @@
               "Visible": true
             },
             "Score": {
-              "Image": "data_ch2/score.png",
+              "Image": "data1/asset1.png",
               "Size": [
-                80,
-                50
+                150,
+                70
               ],
               "Position": [
-                300,
-                680
+                250,
+                705
               ],
               "Visible": true
             },
@@ -1332,14 +1332,14 @@
               ]
             },
             "Score": {
-              "Text": "500",
+              "Text": "0",
               "Size": [
-                40,
-                40
+                50,
+                35
               ],
               "Position": [
                 320,
-                675
+                680
               ],
               "Visible": true
             }
@@ -1412,14 +1412,14 @@
               "Visible": true
             },
             "Score": {
-              "Image": "data_ch2/score.png",
+              "Image": "data1/asset1.png",
               "Size": [
-                80,
-                50
+                150,
+                70
               ],
               "Position": [
-                300,
-                680
+                250,
+                705
               ],
               "Visible": true
             },
@@ -1561,12 +1561,12 @@
             "Score": {
               "Text": "0",
               "Size": [
-                80,
-                50
+                50,
+                35
               ],
               "Position": [
                 320,
-                675
+                680
               ],
               "Visible": true
             }
@@ -1638,14 +1638,14 @@
               "Visible": true
             },
             "Score": {
-              "Image": "data_ch2/score.png",
+              "Image": "data1/asset1.png",
               "Size": [
-                80,
-                50
+                150,
+                70
               ],
               "Position": [
-                300,
-                680
+                250,
+                705
               ],
               "Visible": true
             },
@@ -1785,14 +1785,14 @@
               ]
             },
             "Score": {
-              "Text": "500",
+              "Text": "0",
               "Size": [
-                40,
-                40
+                50,
+                35
               ],
               "Position": [
                 320,
-                675
+                680
               ],
               "Visible": true
             }
@@ -1865,14 +1865,14 @@
               "Visible": true
             },
             "Score": {
-              "Image": "data_ch2/score.png",
+              "Image": "data1/asset1.png",
               "Size": [
-                80,
-                50
+                150,
+                70
               ],
               "Position": [
-                300,
-                680
+                250,
+                705
               ],
               "Visible": true
             },
@@ -2014,12 +2014,12 @@
             "Score": {
               "Text": "0",
               "Size": [
-                80,
-                50
+                50,
+                35
               ],
               "Position": [
                 320,
-                675
+                680
               ],
               "Visible": true
             }
@@ -2091,14 +2091,14 @@
               "Visible": true
             },
             "Score": {
-              "Image": "data_ch2/score.png",
+              "Image": "data1/asset1.png",
               "Size": [
-                80,
-                50
+                150,
+                70
               ],
               "Position": [
-                300,
-                680
+                250,
+                705
               ],
               "Visible": true
             },
@@ -2238,14 +2238,14 @@
               ]
             },
             "Score": {
-              "Text": "500",
+              "Text": "0",
               "Size": [
-                40,
-                40
+                50,
+                35
               ],
               "Position": [
                 320,
-                675
+                680
               ],
               "Visible": true
             }
@@ -2368,7 +2368,7 @@
             "Contener": {
               "Image": "data1/asset26.png",
               "Size": [
-                380,
+                300,
                 350
               ],
               "Position": [
@@ -2738,30 +2738,6 @@
               ],
               "Visible" : true
             },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
-            },
             "score":{
               "Image": "data1/asset1.png",
               "Size": [
@@ -3074,30 +3050,6 @@
                 580
               ],
               "Visible": true
-            },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
             },
             "score":{
               "Image": "data1/asset1.png",
@@ -3535,7 +3487,7 @@
             "Contener": {
               "Image": "data1/asset26.png",
               "Size": [
-                380,
+                300,
                 300
               ],
               "Position": [
@@ -3905,30 +3857,6 @@
               ],
               "Visible" : true
             },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
-            },
             "score":{
               "Image": "data1/asset1.png",
               "Size": [
@@ -4241,30 +4169,6 @@
                 580
               ],
               "Visible": true
-            },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
             },
             "score":{
               "Image": "data1/asset1.png",
@@ -4702,7 +4606,7 @@
             "Contener": {
               "Image": "data1/asset26.png",
               "Size": [
-                380,
+                300,
                 300
               ],
               "Position": [
@@ -5072,30 +4976,6 @@
               ],
               "Visible" : true
             },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
-            },
             "score":{
               "Image": "data1/asset1.png",
               "Size": [
@@ -5408,30 +5288,6 @@
                 580
               ],
               "Visible": true
-            },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
             },
             "score":{
               "Image": "data1/asset1.png",
@@ -5869,7 +5725,7 @@
             "Contener": {
               "Image": "data1/asset26.png",
               "Size": [
-                380,
+                300,
                 300
               ],
               "Position": [
@@ -6239,30 +6095,6 @@
               ],
               "Visible" : true
             },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
-            },
             "score":{
               "Image": "data1/asset1.png",
               "Size": [
@@ -6575,30 +6407,6 @@
                 580
               ],
               "Visible": true
-            },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
             },
             "score":{
               "Image": "data1/asset1.png",
@@ -7036,7 +6844,7 @@
             "Contener": {
               "Image": "data1/asset26.png",
               "Size": [
-                380,
+                300,
                 300
               ],
               "Position": [
@@ -7406,30 +7214,6 @@
               ],
               "Visible" : true
             },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
-            },
             "score":{
               "Image": "data1/asset1.png",
               "Size": [
@@ -7742,30 +7526,6 @@
                 580
               ],
               "Visible": true
-            },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
             },
             "score":{
               "Image": "data1/asset1.png",
@@ -9024,308 +8784,6 @@
               "Position": [
                 130,
                 175
-              ]
-            }
-          },
-          "Scrolling":{
-            "number0": {
-              "Image": "New_Number/asset_number0.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number1": {
-              "Image": "New_Number/asset_number1.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number2": {
-              "Image": "New_Number/asset_number2.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number3": {
-              "Image": "New_Number/asset_number3.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number4": {
-              "Image": "New_Number/asset_number4.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number5": {
-              "Image": "New_Number/asset_number5.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number6": {
-              "Image": "New_Number/asset_number6.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number7": {
-              "Image": "New_Number/asset_number7.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number8": {
-              "Image": "New_Number/asset_number8.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number9": {
-              "Image": "New_Number/asset_number9.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            }
-          },
-          "Buttons":{
-            "SubmitButtn": {
-              "Image": "data1/asset_submit.png",
-              "Size": [
-                200,
-                80
-              ],
-              "Position": [
-                0,
-                710
-              ],
-              "Visible": true
-            }
-          }
-        },
-        "Step4": {
-          "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                250,
-                60
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": false
-            },
-            "Title": {
-              "Image": "data_ch2/title.png",
-              "Size": [
-                250,
-                60
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": false
-            },
-            "Simpletext": {
-              "Image": "data/simpaltext.png",
-              "Size": [
-                250,
-                50
-              ],
-              "Position": [
-                30,
-                150
-              ],
-              "Visible": true
-            },
-            "qImage": {
-              "Image": "data_ch2/q.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                110
-              ],
-              "Visible": true
-            },
-            "Remaindar": {
-              "Image": "data/simpaltext.png",
-              "Size": [
-                250,
-                50
-              ],
-              "Position": [
-                50,
-                600
-              ],
-              "Visible": true
-            },
-            "rImage": {
-              "Image": "data_ch2/r.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                275,
-                570
-              ],
-              "Visible": true
-            },
-            "Simplesyntex": {
-              "Image": "data/simpal1.png",
-              "Size": [
-                140,
-                80
-              ],
-              "Position": [
-                10,
-                300
-              ],
-              "Visible": true
-            },
-            "Formula": {
-              "Image": "data1/asset26.png",
-              "Size": [
-                240,
-                300
-              ],
-              "Position": [
-                150,
-                500
-              ],
-              "Visible": true
-            },
-            "PauseBttn":{
-              "Image": "data1/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                120,
-                50
-              ],
-              "Visible": true
-            },
-            "setting":{
-              "Image": "data1/setting.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                20,
-                50
-              ],
-              "Visible": true
-            },
-            "soundoff":{
-              "Image": "data1/sound_off.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "sound":{
-              "Image": "data1/sound_on.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "restart":{
-              "Image": "data1/restart.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                170,
-                50
-              ],
-              "Visible": true
-            }
-          },
-          "Updatable": {
-            "quotient": {
-              "Text": "X - 3",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                150,
-                15
-              ]
-            },
-            "Remaindar": {
-              "Text": "7x + 3",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                270,
-                600
-              ]
-            },
-            "Syntex": {
-              "Text": "X2 + 2",
-              "Size": [
-                140,
-                80
-              ],
-              "Position": [
-                275,
-                40
-              ]
-            },
-            "Value": {
-              "Text": "x3-3x2+5x-3",
-              "Size": [
-                240,
-                300
-              ],
-              "Position": [
-                200,
-                500
               ]
             }
           },
@@ -11473,308 +10931,6 @@
               "Visible": true
             }
           }
-        },
-        "Step4": {
-          "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                250,
-                60
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": false
-            },
-            "Title": {
-              "Image": "data_ch2/title.png",
-              "Size": [
-                250,
-                60
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": false
-            },
-            "Simpletext": {
-              "Image": "data/simpaltext.png",
-              "Size": [
-                250,
-                50
-              ],
-              "Position": [
-                30,
-                150
-              ],
-              "Visible": true
-            },
-            "qImage": {
-              "Image": "data_ch2/q.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                110
-              ],
-              "Visible": true
-            },
-            "Remaindar": {
-              "Image": "data/simpaltext.png",
-              "Size": [
-                250,
-                50
-              ],
-              "Position": [
-                50,
-                600
-              ],
-              "Visible": true
-            },
-            "rImage": {
-              "Image": "data_ch2/r.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                275,
-                570
-              ],
-              "Visible": true
-            },
-            "Simplesyntex": {
-              "Image": "data/simpal1.png",
-              "Size": [
-                140,
-                80
-              ],
-              "Position": [
-                10,
-                300
-              ],
-              "Visible": true
-            },
-            "Formula": {
-              "Image": "data1/asset26.png",
-              "Size": [
-                240,
-                300
-              ],
-              "Position": [
-                150,
-                500
-              ],
-              "Visible": true
-            },
-            "PauseBttn":{
-              "Image": "data1/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                120,
-                50
-              ],
-              "Visible": true
-            },
-            "setting":{
-              "Image": "data1/setting.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                20,
-                50
-              ],
-              "Visible": true
-            },
-            "soundoff":{
-              "Image": "data1/sound_off.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "sound":{
-              "Image": "data1/sound_on.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "restart":{
-              "Image": "data1/restart.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                170,
-                50
-              ],
-              "Visible": true
-            }
-          },
-          "Updatable": {
-            "quotient": {
-              "Text": "X - 3",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                150,
-                15
-              ]
-            },
-            "Remaindar": {
-              "Text": "7x + 3",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                270,
-                600
-              ]
-            },
-            "Syntex": {
-              "Text": "X2 + 2",
-              "Size": [
-                140,
-                80
-              ],
-              "Position": [
-                275,
-                40
-              ]
-            },
-            "Value": {
-              "Text": "x3-3x2+5x-3",
-              "Size": [
-                240,
-                300
-              ],
-              "Position": [
-                200,
-                500
-              ]
-            }
-          },
-          "Scrolling":{
-            "number0": {
-              "Image": "New_Number/asset_number0.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number1": {
-              "Image": "New_Number/asset_number1.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number2": {
-              "Image": "New_Number/asset_number2.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number3": {
-              "Image": "New_Number/asset_number3.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number4": {
-              "Image": "New_Number/asset_number4.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number5": {
-              "Image": "New_Number/asset_number5.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number6": {
-              "Image": "New_Number/asset_number6.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number7": {
-              "Image": "New_Number/asset_number7.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number8": {
-              "Image": "New_Number/asset_number8.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number9": {
-              "Image": "New_Number/asset_number9.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            }
-          },
-          "Buttons":{
-            "SubmitButtn": {
-              "Image": "data1/asset_submit.png",
-              "Size": [
-                200,
-                80
-              ],
-              "Position": [
-                0,
-                710
-              ],
-              "Visible": true
-            }
-          }
         }
       },
       "Level14": {
@@ -13724,308 +12880,6 @@
               "Position": [
                 130,
                 175
-              ]
-            }
-          },
-          "Scrolling":{
-            "number0": {
-              "Image": "New_Number/asset_number0.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number1": {
-              "Image": "New_Number/asset_number1.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number2": {
-              "Image": "New_Number/asset_number2.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number3": {
-              "Image": "New_Number/asset_number3.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number4": {
-              "Image": "New_Number/asset_number4.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number5": {
-              "Image": "New_Number/asset_number5.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number6": {
-              "Image": "New_Number/asset_number6.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number7": {
-              "Image": "New_Number/asset_number7.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number8": {
-              "Image": "New_Number/asset_number8.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            },
-            "number9": {
-              "Image": "New_Number/asset_number9.png",
-              "Size": [
-                30,
-                40
-              ],
-              "Visible": true
-            }
-          },
-          "Buttons":{
-            "SubmitButtn": {
-              "Image": "data1/asset_submit.png",
-              "Size": [
-                200,
-                80
-              ],
-              "Position": [
-                0,
-                710
-              ],
-              "Visible": true
-            }
-          }
-        },
-        "Step4": {
-          "Displays": {
-            "BgImage": {
-              "Image": "data/bg_1.png",
-              "Size": [
-                250,
-                60
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": false
-            },
-            "Title": {
-              "Image": "data_ch2/title.png",
-              "Size": [
-                250,
-                60
-              ],
-              "Position": [
-                10,
-                60
-              ],
-              "Visible": false
-            },
-            "Simpletext": {
-              "Image": "data/simpaltext.png",
-              "Size": [
-                250,
-                50
-              ],
-              "Position": [
-                30,
-                150
-              ],
-              "Visible": true
-            },
-            "qImage": {
-              "Image": "data_ch2/q.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                10,
-                110
-              ],
-              "Visible": true
-            },
-            "Remaindar": {
-              "Image": "data/simpaltext.png",
-              "Size": [
-                250,
-                50
-              ],
-              "Position": [
-                50,
-                600
-              ],
-              "Visible": true
-            },
-            "rImage": {
-              "Image": "data_ch2/r.png",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                275,
-                570
-              ],
-              "Visible": true
-            },
-            "Simplesyntex": {
-              "Image": "data/simpal1.png",
-              "Size": [
-                140,
-                80
-              ],
-              "Position": [
-                10,
-                300
-              ],
-              "Visible": true
-            },
-            "Formula": {
-              "Image": "data1/asset26.png",
-              "Size": [
-                240,
-                300
-              ],
-              "Position": [
-                150,
-                500
-              ],
-              "Visible": true
-            },
-            "PauseBttn":{
-              "Image": "data1/pause.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                120,
-                50
-              ],
-              "Visible": true
-            },
-            "setting":{
-              "Image": "data1/setting.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                20,
-                50
-              ],
-              "Visible": true
-            },
-            "soundoff":{
-              "Image": "data1/sound_off.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "sound":{
-              "Image": "data1/sound_on.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                70,
-                50
-              ],
-              "Visible": true
-            },
-            "restart":{
-              "Image": "data1/restart.png",
-              "Size": [
-                45,
-                45
-              ],
-              "Position": [
-                170,
-                50
-              ],
-              "Visible": true
-            }
-          },
-          "Updatable": {
-            "quotient": {
-              "Text": "X - 3",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                150,
-                15
-              ]
-            },
-            "Remaindar": {
-              "Text": "7x + 3",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                270,
-                600
-              ]
-            },
-            "Syntex": {
-              "Text": "X2 + 2",
-              "Size": [
-                140,
-                80
-              ],
-              "Position": [
-                275,
-                40
-              ]
-            },
-            "Value": {
-              "Text": "x3-3x2+5x-3",
-              "Size": [
-                240,
-                300
-              ],
-              "Position": [
-                200,
-                500
               ]
             }
           },

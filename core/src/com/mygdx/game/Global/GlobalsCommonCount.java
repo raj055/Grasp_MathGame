@@ -237,10 +237,10 @@ public class GlobalsCommonCount {
 
   public int countClick;
 
-  public int click1;
-  public int click2;
-  public int click3;
-  public int click4;
+  public int click1 = 1;
+  public int click2 = 1;
+  public int click3 = 1;
+  public int click4 = 1;
 
   public void clear(){
     lableUpdate = 0;

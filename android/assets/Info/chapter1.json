@@ -10152,30 +10152,6 @@
               ],
               "Visible": true
             },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
-            },
             "score":{
               "Image": "data1/asset1.png",
               "Size": [
@@ -10282,17 +10258,6 @@
               "Position": [
                 320,
                 680
-              ]
-            },
-            "Score2": {
-              "Text": " ",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                130,
-                160
               ]
             }
           },
@@ -10443,30 +10408,6 @@
                 630
               ],
               "Visible": true
-            },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
             },
             "score":{
               "Image": "data1/asset1.png",
@@ -10735,30 +10676,6 @@
                 630
               ],
               "Visible": true
-            },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
             },
             "score":{
               "Image": "data1/asset1.png",
@@ -11030,30 +10947,6 @@
               ],
               "Visible": true
             },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
-            },
             "score":{
               "Image": "data1/asset1.png",
               "Size": [
@@ -11322,30 +11215,6 @@
               ],
               "Visible": true
             },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
-            },
             "score":{
               "Image": "data1/asset1.png",
               "Size": [
@@ -11613,30 +11482,6 @@
                 630
               ],
               "Visible": true
-            },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
             },
             "score":{
               "Image": "data1/asset1.png",
@@ -11908,30 +11753,6 @@
               ],
               "Visible": true
             },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
-            },
             "score":{
               "Image": "data1/asset1.png",
               "Size": [
@@ -12199,30 +12020,6 @@
                 630
               ],
               "Visible": true
-            },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
             },
             "score":{
               "Image": "data1/asset1.png",
@@ -12492,30 +12289,6 @@
               ],
               "Visible": true
             },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
-            },
             "score":{
               "Image": "data1/asset1.png",
               "Size": [
@@ -12784,30 +12557,6 @@
               ],
               "Visible": true
             },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
-            },
             "score":{
               "Image": "data1/asset1.png",
               "Size": [
@@ -13075,30 +12824,6 @@
                 630
               ],
               "Visible": true
-            },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
             },
             "score":{
               "Image": "data1/asset1.png",
@@ -13370,30 +13095,6 @@
               ],
               "Visible": true
             },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
-            },
             "score":{
               "Image": "data1/asset1.png",
               "Size": [
@@ -13661,30 +13362,6 @@
                 630
               ],
               "Visible": true
-            },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
             },
             "score":{
               "Image": "data1/asset1.png",
@@ -13954,30 +13631,6 @@
               ],
               "Visible": true
             },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
-            },
             "score":{
               "Image": "data1/asset1.png",
               "Size": [
@@ -14245,30 +13898,6 @@
                 630
               ],
               "Visible": true
-            },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
             },
             "score":{
               "Image": "data1/asset1.png",
@@ -14538,30 +14167,6 @@
               ],
               "Visible": true
             },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
-            },
             "score":{
               "Image": "data1/asset1.png",
               "Size": [
@@ -14829,30 +14434,6 @@
                 630
               ],
               "Visible": true
-            },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
             },
             "score":{
               "Image": "data1/asset1.png",
@@ -15124,30 +14705,6 @@
               ],
               "Visible": true
             },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
-            },
             "score":{
               "Image": "data1/asset1.png",
               "Size": [
@@ -15415,30 +14972,6 @@
                 630
               ],
               "Visible": true
-            },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
             },
             "score":{
               "Image": "data1/asset1.png",
@@ -15708,30 +15241,6 @@
               ],
               "Visible": true
             },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
-            },
             "score":{
               "Image": "data1/asset1.png",
               "Size": [
@@ -15999,30 +15508,6 @@
                 630
               ],
               "Visible": true
-            },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
             },
             "score":{
               "Image": "data1/asset1.png",
@@ -16292,30 +15777,6 @@
               ],
               "Visible": true
             },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
-            },
             "score":{
               "Image": "data1/asset1.png",
               "Size": [
@@ -16583,30 +16044,6 @@
                 630
               ],
               "Visible": true
-            },
-            "progBar": {
-              "Image": "data1/asset_progressbar.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                340,
-                600
-              ],
-              "Visible": true
-            },
-            "progBar1": {
-              "Image": "data1/asset_progressbarup.png",
-              "Size": [
-                30,
-                300
-              ],
-              "Position": [
-                333,
-                600
-              ],
-              "Visible": false
             },
             "score":{
               "Image": "data1/asset1.png",

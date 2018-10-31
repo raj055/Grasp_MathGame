@@ -191,6 +191,9 @@ public class Chapter5 extends ChapterScreen implements Screen {
 
       }
     }
+
+    Initdrgndrop();
+
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }

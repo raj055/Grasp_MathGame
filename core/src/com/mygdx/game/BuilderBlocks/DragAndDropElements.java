@@ -33,10 +33,10 @@ public class DragAndDropElements extends DragAndDrop {
         notifier.PostEvents(notifyEvent);
 
         //Log the event
-        Gdx.app.log("POST EVETN",notifyEvent.toString());
+        Gdx.app.log("POST EVENT",notifyEvent.toString());
     }
 
-    public void defineComponentImages(final Image dragActor,Image TargetActor){
+    public void defineComponentImages(final Image dragActor, final Image TargetActor){
 
         Source source = new Source(dragActor) {
             @Override
@@ -45,24 +45,26 @@ public class DragAndDropElements extends DragAndDrop {
 
                 payload.setDragActor(dragActor);
 
+                dragActor.moveBy(x,y);
+
                 return payload;
             }
 
             @Override
             public void dragStop(InputEvent event, float x, float y, int pointer, Payload payload, Target target) {
-
+                Gdx.app.log("Drag Stop","Level");
             }
         };
 
         Target target = new Target(TargetActor) {
             @Override
             public boolean drag(Source source, Payload payload, float x, float y, int pointer) {
-                return false;
+                return true;
             }
 
             @Override
             public void drop(Source source, Payload payload, float x, float y, int pointer) {
-
+                Gdx.app.log("Drop Target","Level");
                 postEvent();
             }
         };
@@ -71,14 +73,14 @@ public class DragAndDropElements extends DragAndDrop {
         this.addTarget(target);
     }
 
-    public void defineComponentLabels(final Label dragActor,Label TargetActor){
+    public void defineComponentLabels(final Actor payloadActor, final Label dragActor,Label TargetActor){
 
         Source source = new Source(dragActor) {
             @Override
             public Payload dragStart(InputEvent event, float x, float y, int pointer) {
                 DragAndDrop.Payload payload = new DragAndDrop.Payload();
 
-                payload.setDragActor(dragActor);
+                payload.setDragActor(payloadActor);
 
                 return payload;
             }

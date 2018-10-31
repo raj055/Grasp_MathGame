@@ -1,6 +1,7 @@
 package com.mygdx.game.BuilderBlocks;
 
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
+import com.badlogic.gdx.scenes.scene2d.ui.Label;
 
 import java.util.ArrayList;
 

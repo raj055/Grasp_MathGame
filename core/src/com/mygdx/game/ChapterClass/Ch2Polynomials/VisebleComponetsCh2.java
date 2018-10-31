@@ -1,6 +1,7 @@
 package com.mygdx.game.ChapterClass.Ch2Polynomials;
 
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
+import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.mygdx.game.BuilderBlocks.ChapterVariables;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.Notifier;
@@ -19,13 +20,16 @@ public class VisebleComponetsCh2 implements Subscriber {
     ChapterVariables chapterVariables = ChapterVariables.getInstance();
 
     ArrayList<Image> visibleComponents;
+    ArrayList<Label> visebleLable;
+
     private Image image;
 
     private GlobalsCommonCount glv;
 
-    public VisebleComponetsCh2(ArrayList<Image> arrImages) {
+    public VisebleComponetsCh2(ArrayList<Image> arrImages, ArrayList<Label> arrLable) {
 
         visibleComponents = arrImages;
+        visebleLable = arrLable;
 
         glv = GlobalsCommonCount.getInstance();
 
@@ -38,15 +42,15 @@ public class VisebleComponetsCh2 implements Subscriber {
 
     void updateVisibleComponents() {
 
-        Image line = visibleComponents.get(0);
-
-        Image line1 = visibleComponents.get(1);
+        Image line = getImage("line1");
+        Image line1 = getImage("line2");
 
         line.setVisible(false);
         line1.setVisible(true);
 
+        Label Score = getLabel("Score");
+        Score.setText("50");
     }
-
 
     @Override
     public void UpdateAllElements(Events evt) {
@@ -116,8 +120,18 @@ public class VisebleComponetsCh2 implements Subscriber {
                 return updatable;
             }
         }
-
         return null;
     }
 
+    private Label getLabel(String LabelShow) {
+
+        for (Label updatable : visebleLable) {
+            String str = updatable.getName();
+
+            if (str.equals(LabelShow)){
+                return updatable;
+            }
+        }
+        return null;
+    }
 }

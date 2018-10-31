@@ -2,6 +2,7 @@ package com.mygdx.game.Factory;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
+import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
@@ -11,6 +12,7 @@ import com.badlogic.gdx.scenes.scene2d.utils.DragAndDrop;
 import com.badlogic.gdx.scenes.scene2d.utils.Layout;
 import com.mygdx.game.Animation.AnimationClass;
 import com.mygdx.game.BuilderBlocks.ChapterVariables;
+import com.mygdx.game.BuilderBlocks.DragAndDropElements;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.ProgressData;
 import com.mygdx.game.BuilderBlocks.ScrollingImageClick;
@@ -33,7 +35,9 @@ import static com.mygdx.game.Global.GlobalsCommonCount.ValueA;
 public class Chapter1 extends ChapterScreen implements Screen {
 
   //Get the components of level 1
-  private Image progbar1,targetArea;
+  private Image progbar1;
+  private Image targetArea;
+  private Image ballSize;
   private ArrayList<Image> displayBalls = null;
   private ArrayList<Image> remainderBall = null;
   private ArrayList<Image> scrollingImages = null;
@@ -60,11 +64,16 @@ public class Chapter1 extends ChapterScreen implements Screen {
   //Get the Chapter1 Variables.
   ChapterVariables chapterVariables = ChapterVariables.getInstance();
 
+  private DragAndDropElements dragAndDropElements;
+
   //Animation
   private AnimationClass animationClass;
   private float elapsed_time;
 
-  DragAndDrop.Payload payload;
+  private Label Score;
+
+//  DragAndDrop.Payload payload;
+  Actor payload;
 
   int xPos = 155;
 
@@ -193,148 +202,14 @@ public class Chapter1 extends ChapterScreen implements Screen {
     }
   }
 
-  private void Initdrgndrop() {
+  private void drgndrop(){
 
-    final Table table = new Table();
-    int tableWidth = 0;
     for (int i = 0; i < displayBalls.size(); i++) {
-      final Image img = new Image(displayBalls.get(0).getDrawable());
-      table.add(img);
-      tableWidth += displayBalls.get(0).getWidth();
-      table.setWidth(tableWidth);
+      ballSize = displayBalls.get(i);
     }
-    table.setHeight(displayBalls.get(0).getHeight());
-    stage.addActor(table);
-    final DragAndDrop drgAndDrop = new DragAndDrop();
 
-    drgAndDrop.addSource(new DragAndDrop.Source(displayBalls.get(0)) {
-      @Override
-      public DragAndDrop.Payload dragStart(InputEvent event, float x, float y, int pointer) {
-
-        DragAndDrop.Payload payload = new DragAndDrop.Payload();
-
-        payload.setDragActor(table);
-
-        return payload;
-      }
-
-      @Override
-      public void dragStop(InputEvent event, float x, float y, int pointer, DragAndDrop.Payload payload, DragAndDrop.Target target) {
-
-      }
-
-    });
-
-    drgAndDrop.addSource(new DragAndDrop.Source(displayBalls.get(1)) {
-      @Override
-      public DragAndDrop.Payload dragStart(InputEvent event, float x, float y, int pointer) {
-
-        DragAndDrop.Payload payload = new DragAndDrop.Payload();
-
-        payload.setDragActor(table);
-
-        return payload;
-      }
-
-      @Override
-      public void dragStop(InputEvent event, float x, float y, int pointer, DragAndDrop.Payload payload, DragAndDrop.Target target) {
-
-      }
-
-    });
-
-    drgAndDrop.addSource(new DragAndDrop.Source(displayBalls.get(2)) {
-      @Override
-      public DragAndDrop.Payload dragStart(InputEvent event, float x, float y, int pointer) {
-
-        DragAndDrop.Payload payload = new DragAndDrop.Payload();
-
-        payload.setDragActor(table);
-
-        return payload;
-      }
-
-      @Override
-      public void dragStop(InputEvent event, float x, float y, int pointer, DragAndDrop.Payload payload, DragAndDrop.Target target) {
-
-      }
-
-    });
-
-    drgAndDrop.addSource(new DragAndDrop.Source(displayBalls.get(3)) {
-      @Override
-      public DragAndDrop.Payload dragStart(InputEvent event, float x, float y, int pointer) {
-
-        DragAndDrop.Payload payload = new DragAndDrop.Payload();
-
-        payload.setDragActor(table);
-
-        return payload;
-      }
-
-      @Override
-      public void dragStop(InputEvent event, float x, float y, int pointer, DragAndDrop.Payload payload, DragAndDrop.Target target) {
-
-      }
-
-    });
-
-    drgAndDrop.addSource(new DragAndDrop.Source(displayBalls.get(4)) {
-      @Override
-      public DragAndDrop.Payload dragStart(InputEvent event, float x, float y, int pointer) {
-
-        DragAndDrop.Payload payload = new DragAndDrop.Payload();
-
-        payload.setDragActor(table);
-
-        return payload;
-      }
-
-      @Override
-      public void dragStop(InputEvent event, float x, float y, int pointer, DragAndDrop.Payload payload, DragAndDrop.Target target) {
-
-      }
-
-    });
-    drgAndDrop.addSource(new DragAndDrop.Source(displayBalls.get(5)) {
-      @Override
-      public DragAndDrop.Payload dragStart(InputEvent event, float x, float y, int pointer) {
-
-        DragAndDrop.Payload payload = new DragAndDrop.Payload();
-
-        payload.setDragActor(table);
-
-        return payload;
-      }
-
-      @Override
-      public void dragStop(InputEvent event, float x, float y, int pointer, DragAndDrop.Payload payload, DragAndDrop.Target target) {
-
-      }
-
-    });
-
-    drgAndDrop.addTarget(new DragAndDrop.Target(targetArea) {
-      @Override
-      public boolean drag(DragAndDrop.Source source, DragAndDrop.Payload payload, float x, float y, int pointer) {
-
-        return true;
-      }
-
-      @Override
-      public void drop(DragAndDrop.Source source, DragAndDrop.Payload payload, float x, float y, int pointer) {
-
-          for (Image disBall : displayBalls) {
-            chapterVariables.chapter1Variables.ValueOfScore++;
-
-          }
-          chapterVariables.chapter1Variables.ValueOfQ++;
-          chapterVariables.chapter1Variables.ValueOfB++;
-
-          Image dispBallImg = displayBallList.get(chapterVariables.chapter1Variables.ValueOfQ - 1);
-          dispBallImg.setVisible(true);
-      }
-      });
+    dragAndDropElements = new DragAndDropElements(Events.BALL_DRAG_EVENT);
+    dragAndDropElements.defineComponentImages(ballSize,targetArea);
   }
 
   private void defineLevel1To10Components() {
@@ -380,8 +255,9 @@ public class Chapter1 extends ChapterScreen implements Screen {
 
         for (Image updatable : displayImages) {
           String str = updatable.getName();
-          if (str.contains("progBar1"))
+          if (str.contains("progBar1")) {
             progbar1 = updatable;
+          }
           else if (str.contains("displayBall")) {
             displayBallList.add(updatable);
           }
@@ -406,9 +282,10 @@ public class Chapter1 extends ChapterScreen implements Screen {
 
         ballDragListener.setDisplayBalls(displayBalls);
 
-        Initdrgndrop();
+        drgndrop();
 
-//        attachDraggables();
+        attachDraggables();
+
       }
     }
     //Add Submit Button Listener.
@@ -425,7 +302,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
 
         numLocal.setPositionX(xPosAdditionFactor - 400);
         scrollingImages = new ArrayList<Image>();
-//        scrollingPara.size();
+
         for(Image img : scrollingPara)
         {
           scrollingImages.add(img);
@@ -455,6 +332,16 @@ public class Chapter1 extends ChapterScreen implements Screen {
           scrollingUpdateLableCh1.ballDisplay.balls[i][j].setVisible(false);
         }
       }
+
+      /*if(updatables != null) {
+        updatables.size();
+        for (Label updatable : updatables) {
+          String str = updatable.getName();
+          if (str.contains("Score1")) {
+            Score = updatable;
+          }
+        }
+      }*/
     }
     //Add Submit Button Listener.
     addSubmitButtonListner();

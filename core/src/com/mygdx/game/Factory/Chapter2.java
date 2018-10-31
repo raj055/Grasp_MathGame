@@ -13,7 +13,6 @@ import com.mygdx.game.BuilderBlocks.ScrollingImageClick;
 import com.mygdx.game.BuilderBlocks.ScrollingNumber;
 import com.mygdx.game.ChapterClass.Ch1RealNumbers.BallDisplay;
 import com.mygdx.game.ChapterClass.Ch1RealNumbers.ScrollingUpdateLabelCh1;
-import com.mygdx.game.ChapterClass.Ch2Polynomials.DragPoint;
 import com.mygdx.game.ChapterClass.Ch2Polynomials.ScrollingUpdateLabelCh2;
 import com.mygdx.game.ChapterClass.Ch2Polynomials.VisebleComponetsCh2;
 import com.mygdx.game.Component.Nagetiv_Num;
@@ -38,21 +37,19 @@ public class Chapter2 extends ChapterScreen implements Screen {
     private ScrollingNumber numLocal;
     private BallDisplay ballDisplay;
     private Nagetiv_Num nagetivNum;
-//    private DragPoint dragPoint;
     private DragAndDropElements dragPoint;
     private VisebleComponetsCh2 visebleComponetsCh2;
     private ScrollingImageClick scrollingImageClick;
     private ScrollingUpdateLabelCh2 scrollingUpdateLabelCh2;
 
     private Image DragCircle,LineTarget;
+    private Label score;
 
   Chapter2(){
     super();
 
     messageBox = new MessageBox();
     messageBox.AddStage(stage);
-
-//    dragPoint = new DragPoint(Events.DRAG_CIRCLE);
 
     getLevelName();
     initialiseLevelComponents(currentLevelNumber);
@@ -130,7 +127,6 @@ public class Chapter2 extends ChapterScreen implements Screen {
     };
 
     private void Initdrgndrop() {
-
         dragPoint = new DragAndDropElements(Events.DRAG_CIRCLE);
         dragPoint.defineComponentImages(DragCircle,LineTarget);
     }
@@ -154,24 +150,18 @@ public class Chapter2 extends ChapterScreen implements Screen {
         for (Image updatable : displayImages) {
             String str = updatable.getName();
 
-            if (str.contains("line")) {
+            if (str.contains("line")){
                 imagesLines.add(updatable);
+            }
+            else if (str.contains("horizantal")){
                 LineTarget = updatable;
             }
         }
-        visebleComponetsCh2 = new VisebleComponetsCh2(imagesLines);
+        visebleComponetsCh2 = new VisebleComponetsCh2(imagesLines,updatables);
     }
 
     if (draggable != null) {
         try {
-//            for (Image draggables : draggable) {
-//                if (draggables.getName().contains("DragCircle")) {
-//                    draggables.addListener(dragPoint);
-//                    dragCircle.add(draggables);
-//
-//                }
-//                dragPoint.setDisplayBalls(dragCircle);
-//            }
             for (Image draggables : draggable) {
                 String str = draggables.getName();
                 if (str.contains("DragCircle")) {
@@ -179,10 +169,10 @@ public class Chapter2 extends ChapterScreen implements Screen {
                 }
             }
 
-        } catch (Exception e) {
-        }
+        } catch (Exception e) {}
     }
-      Initdrgndrop();
+
+    Initdrgndrop();
 
     //Add Submit Button Listener.
     addSubmitButtonListner();
@@ -272,7 +262,7 @@ public class Chapter2 extends ChapterScreen implements Screen {
                 updatable.getName();
                 imageViseble.add(updatable);
             }
-            visebleComponetsCh2 = new VisebleComponetsCh2(imageViseble);
+            visebleComponetsCh2 = new VisebleComponetsCh2(imageViseble,updatables);
         }
     }
     else if (GameStates.steps == Steps.STEP_3){

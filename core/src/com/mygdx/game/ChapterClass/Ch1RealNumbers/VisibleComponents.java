@@ -2,6 +2,7 @@ package com.mygdx.game.ChapterClass.Ch1RealNumbers;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
+import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.mygdx.game.BuilderBlocks.ChapterVariables;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.Notifier;
@@ -34,6 +35,7 @@ public class VisibleComponents extends ShowEntity implements Subscriber {
     notifier.RegisterSubscriber(this, REMAINDER_BALL_DRAG);
 
   }
+
   void updateProgressBar(int score){
 
     //Update the value of Progress Bar length variable.
@@ -51,7 +53,6 @@ public class VisibleComponents extends ShowEntity implements Subscriber {
   }
 
   void updateVisibleComponents(){
-
     Image dispBallImg = visibleComponents.get(chapterVariables.chapter1Variables.ValueOfQ - 1);
     dispBallImg.setVisible(true);
   }
