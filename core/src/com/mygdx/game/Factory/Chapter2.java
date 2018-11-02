@@ -129,7 +129,7 @@ public class Chapter2 extends ChapterScreen implements Screen {
     private void Initdrgndrop() {
         dragPoint = new DragAndDropElements(Events.DRAG_CIRCLE);
         dragPoint.defineComponentImages(DragCircle,LineTarget);
-    }
+}
 
   // Level's Component
   void defineLevel1to5Components() {
@@ -150,10 +150,10 @@ public class Chapter2 extends ChapterScreen implements Screen {
         for (Image updatable : displayImages) {
             String str = updatable.getName();
 
-            if (str.contains("line")){
+            if (str.equals("line")){
                 imagesLines.add(updatable);
             }
-            else if (str.contains("horizantal")){
+            else if (str.equals("horizantal")){
                 LineTarget = updatable;
             }
         }
@@ -164,7 +164,7 @@ public class Chapter2 extends ChapterScreen implements Screen {
         try {
             for (Image draggables : draggable) {
                 String str = draggables.getName();
-                if (str.contains("DragCircle")) {
+                if (str.equals("DragCircle")) {
                     DragCircle = draggables;
                 }
             }

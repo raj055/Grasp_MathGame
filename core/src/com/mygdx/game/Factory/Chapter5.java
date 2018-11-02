@@ -34,6 +34,10 @@ public class Chapter5 extends ChapterScreen implements Screen {
   //Drag12 click listeners
   private DragAndDropElements drag_l1_value1,drag_l1_value2,drag_l1_value12,drag_l1_value13;
 
+  private DragAndDropElements drag_l2_value1,drag_l2_val1;
+
+  private DragAndDropElements drag_l3_s1_value1,drag_l3_s1_val1,drag_l3_s2_value1,drag_l3_s2_val1;
+
   private ArrayList<Image> scrollingImages = null;
 
   private ScrollingNumber numLocal;
@@ -126,108 +130,130 @@ public class Chapter5 extends ChapterScreen implements Screen {
     }
   };
 
-  private void Initdrgndrop() {
-
-    drag_l1_value1 = new DragAndDropElements(Events.DRAG_C5L1_VALUE1);
-    drag_l1_value2 = new DragAndDropElements(Events.DRAG_C5L1_VALUE2);
-    drag_l1_value12 = new DragAndDropElements(Events.DRAG_C5L1_VALUE12);
-    drag_l1_value13 = new DragAndDropElements(Events.DRAG_C5L1_VALUE13);
-  }
+//  private void Initdrgndrop() {
+//
+//    drag_l1_value1 = new DragAndDropElements(Events.DRAG_C5L1_VALUE1);
+//    drag_l1_value1.defineComponentLabels(Value1,);
+//    drag_l1_value2 = new DragAndDropElements(Events.DRAG_C5L1_VALUE2);
+//    drag_l1_value2.defineComponentLabels();
+//    drag_l1_value12 = new DragAndDropElements(Events.DRAG_C5L1_VALUE12);
+//    drag_l1_value12.defineComponentLabels();
+//    drag_l1_value13 = new DragAndDropElements(Events.DRAG_C5L1_VALUE13);
+//    drag_l1_value13.defineComponentLabels();
+//
+//    drag_l2_value1 = new DragAndDropElements(Events.DRAG_C5L2_VALUE1);
+//    drag_l2_value1.defineComponentLabels();
+//    drag_l2_val1 = new DragAndDropElements(Events.DRAG_C5L2_VAL1);
+//    drag_l2_val1.defineComponentLabels();
+//
+//    drag_l3_s1_value1 = new DragAndDropElements(Events.DRAG_C5L3S1_VALUE1);
+//    drag_l3_s1_value1.defineComponentLabels();
+//    drag_l3_s1_val1 = new DragAndDropElements(Events.DRAG_C5L3S1_VAL1);
+//    drag_l3_s1_val1.defineComponentLabels();
+//
+//    drag_l3_s2_value1 = new DragAndDropElements(Events.DRAG_C5L3S2_VALUE1);
+//    drag_l3_s2_value1.defineComponentLabels();
+//    drag_l3_s2_val1 = new DragAndDropElements(Events.DRAG_C5L3S2_VAL1);
+//    drag_l3_s2_val1.defineComponentLabels();
+//  }
 
   void defineLevel1To5Components() {
 
     dblClickListenerPlus = new DoubleClickListener(Events.DOUBLE_CLICK_ADD);
 
-   /* drag_l1_value1 = new DragClickListener(Events.DRAG_C5L1_VALUE1);
-    drag_l1_value2 = new DragClickListener(Events.DRAG_C5L1_VALUE2);
-    drag_l1_value12 = new DragClickListener(Events.DRAG_C5L1_VALUE12);
-    drag_l1_value13 = new DragClickListener(Events.DRAG_C5L1_VALUE13);
-
-    arrDragListener = new ArrayList<DragClickListener>();
-    arrDragListener.add(drag_l1_value1);
-    arrDragListener.add(drag_l1_value2);
-    arrDragListener.add(drag_l1_value12);
-    arrDragListener.add(drag_l1_value13);*/
-
-    arrClickListener = new ArrayList<DoubleClickListener>();
-    arrClickListener.add(dblClickListenerPlus);
-
-    String  updatableNamesLevel1Drag[] = {"Value1", "Value2", "Value12","Value13"};
-    String  updatableNamesLevel1Click[] = {"PluseBttn"};
-
     if(updatables != null) {
       updatables.size();
       for (Label updatable : updatables) {
         String str = updatable.getName();
-        /*for(int count = 0; count < updatableNamesLevel1Drag.length; count++){
-          if(str.equals(updatableNamesLevel1Drag[count]))
-            updatable.addListener(arrDragListener.get(count));
-        }*/
-
-        if (str.contains("Value1")) {
+        if (str.equals("Value1")) {
           Value1 = updatable;
-        }else if (str.contains("Value2")) {
+        }else if (str.equals("Value2")) {
           Value2 = updatable;
-        }else if (str.contains("Value12")) {
+        }else if (str.equals("Value12")) {
           Value12 = updatable;
-        }else if (str.contains("Value13")) {
+        }else if (str.equals("Value13")) {
           Value13 = updatable;
         }
-
       }
     }
     if(displayImages != null) {
       displayImages.size();
       for (Image updatable : displayImages) {
         String str = updatable.getName();
-       /* for(int count = 0; count < updatableNamesLevel1Click.length; count++){
-          if(str.equals(updatableNamesLevel1Click[count]))
-            updatable.addListener(arrClickListener.get(count));
-        }*/
-
-        if (str.contains("PluseBttn")) {
+       if (str.equals("PluseBttn")) {
           PluseBttn = updatable;
         }
 
       }
     }
-
-    Initdrgndrop();
+//    Initdrgndrop();
 
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }
   void defineLevel6To10Components() {
 
-      if(scrollingPara != null) {
-        numLocal = new ScrollingNumber();
-        scrollingImages = new ArrayList<Image>();
-
-        //totalObjects
-        scrollingPara.size();
-
-        for (Image img : scrollingPara) {
-          scrollingImages.add(img);
-          stage.addActor(img);
+    if(updatables != null) {
+      updatables.size();
+      for (Label updatable : updatables) {
+        String str = updatable.getName();
+        if (str.equals("Value1")) {
+          Value1 = updatable;
+        }else if (str.equals("Value2")) {
+          Value2 = updatable;
+        }else if (str.equals("Value12")) {
+          Value12 = updatable;
+        }else if (str.equals("Value13")) {
+          Value13 = updatable;
         }
-        numLocal.scrolling(scrollingImages, Events.CLICK_ScrollingCh5);
       }
-      //check if the updatable are present
-      if(updatables != null) {
-        //totalObjects
-        updatables.size();
-        for (Label updatable : updatables) {
-          updatable.getName();
-        }
-        scrollingUpdateCh5 = new ScrollingUpdateCh5(updatables);
+    }
+
+    if(scrollingPara != null) {
+      numLocal = new ScrollingNumber();
+      scrollingImages = new ArrayList<Image>();
+
+      //totalObjects
+      scrollingPara.size();
+
+      for (Image img : scrollingPara) {
+        scrollingImages.add(img);
+        stage.addActor(img);
       }
+      numLocal.scrolling(scrollingImages, Events.CLICK_ScrollingCh5);
+    }
+    //check if the updatable are present
+    if(updatables != null) {
+      //totalObjects
+      updatables.size();
+      for (Label updatable : updatables) {
+        updatable.getName();
+      }
+      scrollingUpdateCh5 = new ScrollingUpdateCh5(updatables);
+    }
+//    Initdrgndrop();
+
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }
   void defineLevel11To15Components() {
 
     if(GameStates.steps == Steps.STEP_1){
-
+      if(updatables != null) {
+        updatables.size();
+        for (Label updatable : updatables) {
+          String str = updatable.getName();
+          if (str.equals("Value1")) {
+            Value1 = updatable;
+          }else if (str.equals("Value2")) {
+            Value2 = updatable;
+          }else if (str.equals("Value12")) {
+            Value12 = updatable;
+          }else if (str.equals("Value13")) {
+            Value13 = updatable;
+          }
+        }
+      }
     }
     else if ((GameStates.steps == Steps.STEP_2) || (GameStates.steps == Steps.STEP_3)){
       if(scrollingPara != null) {
@@ -255,6 +281,8 @@ public class Chapter5 extends ChapterScreen implements Screen {
         scrollingUpdateCh5 = new ScrollingUpdateCh5(updatables);
       }
     }
+//    Initdrgndrop();
+
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }

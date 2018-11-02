@@ -43,7 +43,7 @@ public enum Events {
   DRAG_VALUE_C1,
   DRAG_VALUE_A2,
   DRAG_VALUE_B2,
-  DRAG_VALUE_B21,
+  DRAG_VALUE_B22,
   DRAG_VALUE_C2,
 
   // Chapter 4 : level (6-10)

@@ -21,7 +21,7 @@ import static com.mygdx.game.BuilderBlocks.Events.DRAG_VALUE_A2;
 import static com.mygdx.game.BuilderBlocks.Events.DRAG_VALUE_B1;
 import static com.mygdx.game.BuilderBlocks.Events.DRAG_VALUE_B11;
 import static com.mygdx.game.BuilderBlocks.Events.DRAG_VALUE_B2;
-import static com.mygdx.game.BuilderBlocks.Events.DRAG_VALUE_B21;
+import static com.mygdx.game.BuilderBlocks.Events.DRAG_VALUE_B22;
 import static com.mygdx.game.BuilderBlocks.Events.DRAG_VALUE_C1;
 import static com.mygdx.game.BuilderBlocks.Events.DRAG_VALUE_C2;
 
@@ -47,7 +47,7 @@ public class VisebalComponentsCh3 implements Subscriber {
         notifier.RegisterSubscriber(this, DRAG_VALUE_C1);
         notifier.RegisterSubscriber(this, DRAG_VALUE_C2);
         notifier.RegisterSubscriber(this, DRAG_VALUE_B11);
-        notifier.RegisterSubscriber(this, DRAG_VALUE_B21);
+        notifier.RegisterSubscriber(this, DRAG_VALUE_B22);
     }
 
     void updateY1(){
@@ -179,18 +179,18 @@ public class VisebalComponentsCh3 implements Subscriber {
         else if(evt == Events.DRAG_VALUE_B11){
             updateB11();
         }
-        else if(evt == Events.DRAG_VALUE_B21){
-            updateB21();
+        else if(evt == DRAG_VALUE_B22){
+            updateB22();
         }
     }
 
     private void updateA1() {
         Label a = getLabel("LabelA1");
-        Label valueA = getLabel("ValueA");
+        Label valueA = getLabel("ValueA1");
 
         if ((a != null) || (valueA != null)) {
             a.setVisible(false);
-            valueA.setPosition(115, MyGame.HEIGHT - 430);
+            valueA.setPosition(115, MyGame.HEIGHT - 350);
         }
     }
     private void updateA2() {
@@ -247,7 +247,7 @@ public class VisebalComponentsCh3 implements Subscriber {
             valueB11.setPosition(345, MyGame.HEIGHT - 430);
         }
     }
-    private void updateB21() {
+    private void updateB22() {
         Label b12 = getLabel("Labelb12");
         Label valueB12 = getLabel("ValueB12");
 

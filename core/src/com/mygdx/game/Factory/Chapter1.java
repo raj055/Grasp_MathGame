@@ -134,7 +134,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
     try {
 
       for (Image draggables : draggable) {
-        if (draggables.getName().contains("RemBall")) {
+        if (draggables.getName().equals("RemBall")) {
           draggables.addListener(remBallDragListener);
         } else {
             draggables.addListener(ballDragListener);
@@ -255,13 +255,13 @@ public class Chapter1 extends ChapterScreen implements Screen {
 
         for (Image updatable : displayImages) {
           String str = updatable.getName();
-          if (str.contains("progBar1")) {
+          if (str.equals("progBar1")) {
             progbar1 = updatable;
           }
-          else if (str.contains("displayBall")) {
+          else if (str.equals("displayBall")) {
             displayBallList.add(updatable);
           }
-          else if(str.contains("targetBall")){
+          else if(str.equals("targetBall")){
             targetArea = updatable;
           }
         }
@@ -272,9 +272,9 @@ public class Chapter1 extends ChapterScreen implements Screen {
 
         for (Image updatable : draggable) {
           String str = updatable.getName();
-          if (str.contains("DragBall")) {
+          if (str.equals("DragBall")) {
             displayBalls.add(updatable);
-          } else if (str.contains("RemBall"))
+          } else if (str.equals("RemBall"))
             remainderBall.add(updatable);
         }
 
@@ -337,7 +337,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
         updatables.size();
         for (Label updatable : updatables) {
           String str = updatable.getName();
-          if (str.contains("Score1")) {
+          if (str.equals("Score1")) {
             Score = updatable;
           }
         }

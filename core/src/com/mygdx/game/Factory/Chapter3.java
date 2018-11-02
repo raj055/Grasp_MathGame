@@ -52,9 +52,12 @@ public class Chapter3 extends ChapterScreen implements Screen {
   private DragAndDropElements dragListenerB2;
   private DragAndDropElements dragListenerC2;
   private DragAndDropElements dragListenerB11;
-  private DragAndDropElements dragListenerB21;
+  private DragAndDropElements dragListenerB22;
 
-  private Label ValueA,ValueB,ValueB11,ValueC,ValueA1,ValueB1,ValueB12,ValueC1;
+  private Label ValueA1,ValueB1,ValueB11,ValueC1,ValueA2,ValueB2,ValueB22,ValueC2,Value;
+  private Label LabelA1,LabelA2,LabelB1,LabelB11,LabelB2,LabelB22,LabelC1,LabelC2;
+
+  private Image a1Image;
 
   private VisebalComponentsCh3 visebalComponentsCh3;
   private VisebalComponentsCh3 visebalComponentsCh3Level11;
@@ -162,13 +165,21 @@ public class Chapter3 extends ChapterScreen implements Screen {
   private void Initdrgndrop() {
 
     dragListenerA1 = new DragAndDropElements(Events.DRAG_VALUE_A1);
+    dragListenerA1.defineComponentLabelImage(ValueA1,a1Image);
     dragListenerA2 = new DragAndDropElements(Events.DRAG_VALUE_A2);
+    dragListenerA2.defineComponentLabels(ValueA2,LabelA2);
     dragListenerB1 = new DragAndDropElements(Events.DRAG_VALUE_B1);
+    dragListenerB1.defineComponentLabels(ValueB1,LabelB1);
     dragListenerB2 = new DragAndDropElements(Events.DRAG_VALUE_B2);
+    dragListenerB2.defineComponentLabels(ValueB2,LabelB2);
     dragListenerC1 = new DragAndDropElements(Events.DRAG_VALUE_C1);
+    dragListenerC1.defineComponentLabels(ValueC1,LabelC1);
     dragListenerC2 = new DragAndDropElements(Events.DRAG_VALUE_C2);
-    dragListenerB11 = new DragAndDropElements(Events.DRAG_VALUE_B11);
-    dragListenerB21 = new DragAndDropElements(Events.DRAG_VALUE_B21);
+    dragListenerC2.defineComponentLabels(ValueC2,LabelC2);
+//    dragListenerB11 = new DragAndDropElements(Events.DRAG_VALUE_B11);
+//    dragListenerB11.defineComponentLabels(ValueB11,LabelB11);
+//    dragListenerB22 = new DragAndDropElements(Events.DRAG_VALUE_B22);
+//    dragListenerB22.defineComponentLabels(ValueB22,LabelB22);
 
   }
 
@@ -273,34 +284,13 @@ public class Chapter3 extends ChapterScreen implements Screen {
   void defineLevel8To11Components(){}
   void defineLevel12To15Components() {
 
-/*
-    dragListenerA1 = new DragClickListener(Events.DRAG_VALUE_A1);
-    dragListenerA2 = new DragClickListener(Events.DRAG_VALUE_A2);
-    dragListenerB1 = new DragClickListener(Events.DRAG_VALUE_B1);
-    dragListenerB2 = new DragClickListener(Events.DRAG_VALUE_B2);
-    dragListenerC1 = new DragClickListener(Events.DRAG_VALUE_C1);
-    dragListenerC2 = new DragClickListener(Events.DRAG_VALUE_C2);
-    dragListenerB11 = new DragClickListener(Events.DRAG_VALUE_B11);
-    dragListenerB21 = new DragClickListener(Events.DRAG_VALUE_B21);
-
-    arrDragListener = new ArrayList<DragClickListener>();
-    arrDragListener.add(dragListenerA1);
-    arrDragListener.add(dragListenerA2);
-    arrDragListener.add(dragListenerB1);
-    arrDragListener.add(dragListenerB2);
-    arrDragListener.add(dragListenerC1);
-    arrDragListener.add(dragListenerC2);
-    arrDragListener.add(dragListenerB11);
-    arrDragListener.add(dragListenerB21);
-*/
-
-    String  updatableNamesLevel3[] = {"ValueA", "ValueB", "ValueB11","ValueC","ValueA1","ValueB1",
-            "ValueB12","ValueC1"};
-
     if(displayImages != null) {
       displayImages.size();
       for (Image updatable : displayImages) {
-        updatable.getName();
+        String str = updatable.getName();
+        if (str.equals("a1Image")) {
+          a1Image = updatable;
+        }
       }
     }
     if(updatables != null) {
@@ -308,22 +298,47 @@ public class Chapter3 extends ChapterScreen implements Screen {
       updatables.size();
       for (Label updatable : updatables) {
         String str = updatable.getName();
-        if (str.contains("ValueA")) {
-          ValueA = updatable;
-        }else if (str.contains("ValueB")) {
-          ValueB = updatable;
-        }else if (str.contains("ValueB11")) {
-          ValueB11 = updatable;
-        }else if (str.contains("ValueC")) {
-          ValueC = updatable;
-        }else if (str.contains("ValueA1")) {
+        if (str.equals("ValueA1")) {
           ValueA1 = updatable;
-        }else if (str.contains("ValueB1")) {
+        }else if (str.equals("ValueB1")) {
           ValueB1 = updatable;
-        }else if (str.contains("ValueB12")) {
-          ValueB12 = updatable;
-        }else if (str.contains("ValueC1")) {
+        }else if (str.equals("ValueB11")) {
+          ValueB11 = updatable;
+        }else if (str.equals("ValueC1")) {
           ValueC1 = updatable;
+        }else if (str.equals("ValueA2")) {
+          ValueA2 = updatable;
+        }else if (str.equals("ValueB2")) {
+          ValueB2 = updatable;
+        }else if (str.equals("ValueB22")) {
+          ValueB22 = updatable;
+        }else if (str.equals("ValueC2")) {
+          ValueC2 = updatable;
+        }
+
+        else if (str.equals("LabelA1")) {
+          LabelA1 = updatable;
+        }
+        else if (str.equals("LabelA2")) {
+          LabelA2 = updatable;
+        }
+        else if (str.equals("LabelB1")) {
+          LabelB1 = updatable;
+        }
+        else if (str.equals("LabelB11")) {
+          LabelB11 = updatable;
+        }
+        else if (str.equals("LabelB2")) {
+          LabelB2 = updatable;
+        }
+        else if (str.equals("LabelB22")) {
+          LabelB22 = updatable;
+        }
+        else if (str.equals("LabelC1")) {
+          LabelC1 = updatable;
+        }
+        else if (str.equals("LabelC2")) {
+          LabelC2 = updatable;
         }
       }
       visebalComponentsCh3Level11 = new VisebalComponentsCh3(displayImages, updatables);

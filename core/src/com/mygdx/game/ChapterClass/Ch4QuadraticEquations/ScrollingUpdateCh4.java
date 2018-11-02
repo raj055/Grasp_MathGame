@@ -25,6 +25,7 @@ public class ScrollingUpdateCh4 implements Subscriber {
     int ballclick = 0;
     //BallDisplay - two dimensional array of balls
     public BallDisplay ballDisplay;
+    private int FinalScore;
 
     public ScrollingUpdateCh4(ArrayList<Label> arrLabel){
 
@@ -59,6 +60,8 @@ public class ScrollingUpdateCh4 implements Subscriber {
       Label Labal_f2 = getLabel("labelF2");
       Label Labal_f3 = getLabel("labelF2");
       Label Labal_f4 = getLabel("labelF3");
+
+      Label Score = getLabel("Score1");
 
       if (glv.lableWrite) {
           switch (glv.countClick) {
@@ -96,27 +99,42 @@ public class ScrollingUpdateCh4 implements Subscriber {
                   ballDisplay.balls[i][j].setVisible(true);
               }
           }
+
+          FinalScore = glv.click1 * glv.click2 * glv.click3 * glv.click4;
+
+          Score.setText("" + FinalScore);
+
       }
     }
     private void ImageClick2() {
         Label num_1 = getLabel("number1");
         Label num_2 = getLabel("number2");
 
+        Label Score = getLabel("Score1");
+
         if (glv.lableWrite) {
 
             switch (glv.countClick) {
                 case 1:
-                    if (num_1 != null)
-                    num_1.setText(glv.lableUpdate + " ");
+                    if (num_1 != null) {
+                        num_1.setText(glv.lableUpdate + " ");
+                    }
+                    ballclick = glv.click1 = glv.lableUpdate;
                     break;
                 case 2:
-                    if (num_2 != null)
-                    num_2.setText(glv.lableUpdate + " ");
+                    if (num_2 != null) {
+                        num_2.setText(glv.lableUpdate + " ");
+                    }
+                    ballclick = glv.click1 = glv.lableUpdate;
                     break;
 
                 default:
                     break;
             }
+
+//            FinalScore = glv.click1 + glv.click2;
+
+//            Score.setText("" + FinalScore);
         }
     }
 

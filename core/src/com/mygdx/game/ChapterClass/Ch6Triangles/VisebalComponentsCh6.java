@@ -44,15 +44,6 @@ public class VisebalComponentsCh6 implements Subscriber {
 
     @Override
     public void UpdateAllElements(Events evt) {
-        if(GameStates.steps == Steps.STEP_1){
-
-        }
-        else if (GameStates.steps == Steps.STEP_2){
-
-        }
-        else if (GameStates.steps == Steps.STEP_3){
-
-        }
 
         if(evt == Events.DRAG_SQUARE){
             imageSquare();
@@ -69,7 +60,6 @@ public class VisebalComponentsCh6 implements Subscriber {
         else if (evt == Events.DRAG_TRIANGLE_P){
             imageTriangle();
         }
-
         else if(evt == Events.DOUBLE_CLICK_LabelAC){
             changeValue();
         }

@@ -4834,7 +4834,29 @@
                 250,
                 540
               ]
-            }
+            },
+            "SyntaxLabely1": {
+              "Text" :"y1",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                150,
+                235
+              ]
+            },
+            "SyntaxLabely2": {
+              "Text" :"y2",
+              "Size": [
+                70,
+                70
+              ],
+              "Position": [
+                160,
+                235
+              ]
+            },
           },
           "Buttons":{
             "SubmitButtn": {

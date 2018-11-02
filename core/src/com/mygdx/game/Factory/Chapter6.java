@@ -155,164 +155,27 @@ public class Chapter6 extends ChapterScreen implements Screen {
 
   }
 
-  private void Initdrgndrop() {
-
-    final DragAndDrop drgAndDrop = new DragAndDrop();
-
-    drgAndDrop.addSource(new DragAndDrop.Source(DragShape) {
-      @Override
-      public DragAndDrop.Payload dragStart(InputEvent event, float x, float y, int pointer) {
-
-        DragAndDrop.Payload payload = new DragAndDrop.Payload();
-
-        payload.setDragActor(DragShape);
-
-        return payload;
-      }
-
-      @Override
-      public void dragStop(InputEvent event, float x, float y, int pointer, DragAndDrop.Payload payload, DragAndDrop.Target target) {
-
-      }
-
-    });
-
-    drgAndDrop.addSource(new DragAndDrop.Source(squareShape) {
-      @Override
-      public DragAndDrop.Payload dragStart(InputEvent event, float x, float y, int pointer) {
-
-        DragAndDrop.Payload payload = new DragAndDrop.Payload();
-
-        payload.setDragActor(DragShape);
-
-        return payload;
-      }
-
-      @Override
-      public void dragStop(InputEvent event, float x, float y, int pointer, DragAndDrop.Payload payload, DragAndDrop.Target target) {
-
-      }
-
-    });
-
-    drgAndDrop.addSource(new DragAndDrop.Source(squareShape1) {
-      @Override
-      public DragAndDrop.Payload dragStart(InputEvent event, float x, float y, int pointer) {
-
-        DragAndDrop.Payload payload = new DragAndDrop.Payload();
-
-        payload.setDragActor(DragShape);
-
-        return payload;
-      }
-
-      @Override
-      public void dragStop(InputEvent event, float x, float y, int pointer, DragAndDrop.Payload payload, DragAndDrop.Target target) {
-
-      }
-
-    });
-
-    drgAndDrop.addSource(new DragAndDrop.Source(circleShape) {
-      @Override
-      public DragAndDrop.Payload dragStart(InputEvent event, float x, float y, int pointer) {
-
-        DragAndDrop.Payload payload = new DragAndDrop.Payload();
-
-        payload.setDragActor(DragShape);
-
-        return payload;
-      }
-
-      @Override
-      public void dragStop(InputEvent event, float x, float y, int pointer, DragAndDrop.Payload payload, DragAndDrop.Target target) {
-
-      }
-
-    });
-
-    drgAndDrop.addSource(new DragAndDrop.Source(circleShape1) {
-      @Override
-      public DragAndDrop.Payload dragStart(InputEvent event, float x, float y, int pointer) {
-
-        DragAndDrop.Payload payload = new DragAndDrop.Payload();
-
-        payload.setDragActor(DragShape);
-
-        return payload;
-      }
-
-      @Override
-      public void dragStop(InputEvent event, float x, float y, int pointer, DragAndDrop.Payload payload, DragAndDrop.Target target) {
-
-      }
-
-    });
-
-    drgAndDrop.addTarget(new DragAndDrop.Target(targetTriangle) {
-      @Override
-      public boolean drag(DragAndDrop.Source source, DragAndDrop.Payload payload, float x, float y, int pointer) {
-
-        return true;
-      }
-
-      @Override
-      public void drop(DragAndDrop.Source source, DragAndDrop.Payload payload, float x, float y, int pointer) {
-
-      }
-    });
-  }
-
   void defineLevel1To5Components() {
 
-    /*dragShapeSquare = new DragClickListener(Events.DRAG_SQUARE);
-    dragShapeSquare1 = new DragClickListener(Events.DRAG_SQUARE1);
-    dragShapeCircle = new DragClickListener(Events.DRAG_CIRCLE);
-    dragShapeCircle1 = new DragClickListener(Events.DRAG_CIRCLE_1);
-    dragShapeTriangle = new DragClickListener(Events.DRAG_TRIANGLE_P);
-
-    arrDragListener = new ArrayList<DragClickListener>();
-    arrDragListener.add(dragShapeSquare);
-    arrDragListener.add(dragShapeSquare1);
-    arrDragListener.add(dragShapeCircle);
-    arrDragListener.add(dragShapeCircle1);
-    arrDragListener.add(dragShapeTriangle);
-
-    String  updatableNamesLevel1Drag[] = {"squareImage", "square1Image", "sercalImage","sercal1Image","triangle_p"};
-
     if(displayImages != null) {
       displayImages.size();
       for (Image updatable : displayImages) {
         String str = updatable.getName();
-        for (int count = 0; count < updatableNamesLevel1Drag.length; count++) {
-          if (str.equals(updatableNamesLevel1Drag[count]))
-            updatable.addListener(arrDragListener.get(count));
-        }
-      }
-      visebalComponentsCh6 = new VisebalComponentsCh6(displayImages, updatables);
-    }*/
-
-    if(displayImages != null) {
-      displayImages.size();
-      for (Image updatable : displayImages) {
-        String str = updatable.getName();
-        if (str.contains("triangle_p")) {
+        if (str.equals("triangle_p")) {
           DragShape = updatable;
-        }else if (str.contains("squareImage")) {
+        }else if (str.equals("squareImage")) {
           squareShape = updatable;
-        }else if (str.contains("square1Image")) {
+        }else if (str.equals("square1Image")) {
           squareShape1 = updatable;
-        }else if (str.contains("sercalImage")) {
+        }else if (str.equals("sercalImage")) {
           circleShape = updatable;
-        }else if (str.contains("sercal1Image")) {
+        }else if (str.equals("sercal1Image")) {
           circleShape1 = updatable;
-        }else if (str.contains("triangleb_Image")) {
+        }else if (str.equals("triangleb_Image")) {
           targetTriangle = updatable;
         }
       }
     }
-
-//    Initdrgndrop();
 
     Drop();
 

@@ -122,21 +122,29 @@ public class ScrollingUpdateLabelCh2 implements Subscriber{
         Label num_1 = getLabel("number1");
         Label num_2 = getLabel("number2");
 
+        Label Score = getLabel("Score1");
+
         if (glv.lableWrite) {
             switch (glv.countClick) {
                 case 1:
                     if (num_1 != null) {
                         num_1.setText(glv.lableUpdate + " ");
                     }
+                    ballclick = glv.click1 = glv.lableUpdate;
                     break;
                 case 2:
                     if (num_2 != null) {
                         num_2.setText(glv.lableUpdate + " ");
                     }
+                    ballclick = glv.click2 = glv.lableUpdate;
                     break;
                 default:
                     break;
             }
+
+//            FinalScore = glv.click1 + glv.click2;
+
+//            Score.setText("" + FinalScore);
         }
     }
 
