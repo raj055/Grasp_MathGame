@@ -4,7 +4,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 
 /**
- * Use the following classes as structure.
+ * Use the following classes as data for the particular chapters.
  *
  */
 

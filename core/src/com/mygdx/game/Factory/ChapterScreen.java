@@ -71,6 +71,7 @@ public abstract class ChapterScreen {
   static int stepNumber = 0;
   protected boolean moveTheBg = false;
   protected int stageTranslate = 0;
+
   //submit button
   protected Image submitButton = null;
   protected Timer time;
@@ -137,13 +138,13 @@ public abstract class ChapterScreen {
 
       if(screenMap.containsKey(levelName)) {
         displaysTotal = (Map) screenMap.get(levelName);
-          if (displaysTotal.containsKey(gblVar.StepName[stepNumber])){
-            Map currentStepTotal = (Map) displaysTotal.get(gblVar.StepName[stepNumber]);
-            populateNextScreen(currentStepTotal, stepNumber++);
-            xPosAdditionFactor += 400;
+        if (displaysTotal.containsKey(gblVar.StepName[stepNumber])){
+          Map currentStepTotal = (Map) displaysTotal.get(gblVar.StepName[stepNumber]);
+          populateNextScreen(currentStepTotal, stepNumber++);
+          xPosAdditionFactor += 400;
 //            if(xPosAdditionFactor > 800)
 //              xPosAdditionFactor = 0;
-          }
+        }
       }
     }
   }
@@ -613,7 +614,7 @@ public abstract class ChapterScreen {
 
     //initialise the array list for the labels.
 //    updatables = new ArrayList<Label>(totalDisplays);
-
+    updatables.clear();
     while (iterator.hasNext()) {
       //Get the current entry.
       Map.Entry mentry = (Map.Entry) iterator.next();

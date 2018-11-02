@@ -84,7 +84,6 @@ public class GameStates {
       case DIALOGBOX:
 
         currentScreen = new DialogScreen();
-
         currentScreen.show();
 
         break;

@@ -97,7 +97,7 @@ public class DragAndDropElements extends DragAndDrop {
         Target target = new Target(TargetActor) {
             @Override
             public boolean drag(Source source, Payload payload, float x, float y, int pointer) {
-                return false;
+                return true;
             }
 
             @Override

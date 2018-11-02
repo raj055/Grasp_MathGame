@@ -35,7 +35,6 @@ public class ScrollingNumber implements Disposable {
 
     public void scrolling(ArrayList<Image> imagescrolling, Events evt){
 
-
         int totalNumbers = imagescrolling.size();
 
         for(int numCount = 0; numCount < totalNumbers; numCount++)
