@@ -47,7 +47,12 @@ public class Chapter5 extends ChapterScreen implements Screen {
 
   private Label Value1,Value2,Value12,Value13;
 
-  private Image PluseBttn ;
+  private Image PluseBttn,FirstImage,SecondImage,ThirdImage,FourImage;
+
+  private Label L2_Value1,L2_ValueN,L2_Vall1,L2_ValueA;
+
+  private Label L3_s1_Value1,L3_s1_ValueN,L3_s1_Vall1,L3_s1_ValueA,
+          L3_s2_Value1,L3_s2_ValueN,L3_s2_Vall2,L3_s2_ValueA;
 
   Chapter5(){
     super();
@@ -130,33 +135,6 @@ public class Chapter5 extends ChapterScreen implements Screen {
     }
   };
 
-//  private void Initdrgndrop() {
-//
-//    drag_l1_value1 = new DragAndDropElements(Events.DRAG_C5L1_VALUE1);
-//    drag_l1_value1.defineComponentLabels(Value1,);
-//    drag_l1_value2 = new DragAndDropElements(Events.DRAG_C5L1_VALUE2);
-//    drag_l1_value2.defineComponentLabels();
-//    drag_l1_value12 = new DragAndDropElements(Events.DRAG_C5L1_VALUE12);
-//    drag_l1_value12.defineComponentLabels();
-//    drag_l1_value13 = new DragAndDropElements(Events.DRAG_C5L1_VALUE13);
-//    drag_l1_value13.defineComponentLabels();
-//
-//    drag_l2_value1 = new DragAndDropElements(Events.DRAG_C5L2_VALUE1);
-//    drag_l2_value1.defineComponentLabels();
-//    drag_l2_val1 = new DragAndDropElements(Events.DRAG_C5L2_VAL1);
-//    drag_l2_val1.defineComponentLabels();
-//
-//    drag_l3_s1_value1 = new DragAndDropElements(Events.DRAG_C5L3S1_VALUE1);
-//    drag_l3_s1_value1.defineComponentLabels();
-//    drag_l3_s1_val1 = new DragAndDropElements(Events.DRAG_C5L3S1_VAL1);
-//    drag_l3_s1_val1.defineComponentLabels();
-//
-//    drag_l3_s2_value1 = new DragAndDropElements(Events.DRAG_C5L3S2_VALUE1);
-//    drag_l3_s2_value1.defineComponentLabels();
-//    drag_l3_s2_val1 = new DragAndDropElements(Events.DRAG_C5L3S2_VAL1);
-//    drag_l3_s2_val1.defineComponentLabels();
-//  }
-
   void defineLevel1To5Components() {
 
     dblClickListenerPlus = new DoubleClickListener(Events.DOUBLE_CLICK_ADD);
@@ -180,13 +158,32 @@ public class Chapter5 extends ChapterScreen implements Screen {
       displayImages.size();
       for (Image updatable : displayImages) {
         String str = updatable.getName();
-       if (str.equals("PluseBttn")) {
-          PluseBttn = updatable;
-        }
-
+         if (str.equals("PluseBttn")) {
+            PluseBttn = updatable;
+         }
+         else if (str.equals("FirstRectangle")) {
+           FirstImage = updatable;
+         }
+         else if (str.equals("SecondRectangle")) {
+           SecondImage = updatable;
+         }
+         else if (str.equals("ThirdRectangle")) {
+           ThirdImage = updatable;
+         }
+         else if (str.equals("FourRectangle")) {
+           FourImage = updatable;
+         }
       }
     }
-//    Initdrgndrop();
+
+    drag_l1_value1 = new DragAndDropElements(Events.DRAG_C5L1_VALUE1);
+    drag_l1_value1.defineComponentLabelImage(Value1,FirstImage);
+    drag_l1_value2 = new DragAndDropElements(Events.DRAG_C5L1_VALUE2);
+    drag_l1_value2.defineComponentLabelImage(Value2,SecondImage);
+    drag_l1_value12 = new DragAndDropElements(Events.DRAG_C5L1_VALUE12);
+    drag_l1_value12.defineComponentLabelImage(Value12,ThirdImage);
+    drag_l1_value13 = new DragAndDropElements(Events.DRAG_C5L1_VALUE13);
+    drag_l1_value13.defineComponentLabelImage(Value13,FourImage);
 
     //Add Submit Button Listener.
     addSubmitButtonListner();
@@ -198,16 +195,22 @@ public class Chapter5 extends ChapterScreen implements Screen {
       for (Label updatable : updatables) {
         String str = updatable.getName();
         if (str.equals("Value1")) {
-          Value1 = updatable;
-        }else if (str.equals("Value2")) {
-          Value2 = updatable;
-        }else if (str.equals("Value12")) {
-          Value12 = updatable;
-        }else if (str.equals("Value13")) {
-          Value13 = updatable;
+          L2_Value1 = updatable;
+        }else if (str.equals("Labelval1")) {
+          L2_Vall1 = updatable;
+        }
+        else if (str.equals("ValueN")) {
+          L2_ValueN = updatable;
+        }else if (str.equals("ValueA")) {
+          L2_ValueA = updatable;
         }
       }
     }
+
+    drag_l2_value1 = new DragAndDropElements(Events.DRAG_C5L2_VALUE1);
+    drag_l2_value1.defineComponentLabelImage(L2_Value1,L2_ValueN);
+    drag_l2_val1 = new DragAndDropElements(Events.DRAG_C5L2_VAL1);
+    drag_l2_val1.defineComponentLabelImage(L2_Vall1,L2_ValueA);
 
     if(scrollingPara != null) {
       numLocal = new ScrollingNumber();
@@ -231,7 +234,6 @@ public class Chapter5 extends ChapterScreen implements Screen {
       }
       scrollingUpdateCh5 = new ScrollingUpdateCh5(updatables);
     }
-//    Initdrgndrop();
 
     //Add Submit Button Listener.
     addSubmitButtonListner();
@@ -244,18 +246,50 @@ public class Chapter5 extends ChapterScreen implements Screen {
         for (Label updatable : updatables) {
           String str = updatable.getName();
           if (str.equals("Value1")) {
-            Value1 = updatable;
-          }else if (str.equals("Value2")) {
-            Value2 = updatable;
-          }else if (str.equals("Value12")) {
-            Value12 = updatable;
-          }else if (str.equals("Value13")) {
-            Value13 = updatable;
+            L3_s1_Value1 = updatable;
+          }else if (str.equals("Labelval1")) {
+            L3_s1_Vall1 = updatable;
+          }
+          else if (str.equals("ValueN")) {
+            L3_s1_ValueN = updatable;
+          }
+          else if (str.equals("ValueA")) {
+            L3_s1_ValueA = updatable;
           }
         }
       }
+
+      drag_l3_s1_value1 = new DragAndDropElements(Events.DRAG_C5L3S1_VALUE1);
+      drag_l3_s1_value1.defineComponentLabelImage(L3_s1_Value1,L3_s1_ValueN);
+      drag_l3_s1_val1 = new DragAndDropElements(Events.DRAG_C5L3S1_VAL1);
+      drag_l3_s1_val1.defineComponentLabelImage(L3_s1_Vall1,L3_s1_ValueA);
+
     }
     else if ((GameStates.steps == Steps.STEP_2) || (GameStates.steps == Steps.STEP_3)){
+
+      if(updatables != null) {
+        updatables.size();
+        for (Label updatable : updatables) {
+          String str = updatable.getName();
+          if (str.equals("LabelValue1")) {
+            L3_s2_Value1 = updatable;
+          }else if (str.equals("LabelVal12")) {
+            L3_s2_Vall2 = updatable;
+          }
+          else if (str.equals("ValueN")) {
+            L3_s2_ValueN = updatable;
+          }
+          else if (str.equals("ValueA")) {
+            L3_s2_ValueA = updatable;
+          }
+        }
+      }
+
+      drag_l3_s2_value1 = new DragAndDropElements(Events.DRAG_C5L3S2_VALUE1);
+      drag_l3_s2_value1.defineComponentLabelImage(L3_s2_Value1,L3_s2_ValueN);
+      drag_l3_s2_val1 = new DragAndDropElements(Events.DRAG_C5L3S2_VAL1);
+      drag_l3_s2_val1.defineComponentLabelImage(L3_s2_Vall2,L3_s2_ValueA);
+
       if(scrollingPara != null) {
 
         numLocal = new ScrollingNumber();
@@ -281,7 +315,6 @@ public class Chapter5 extends ChapterScreen implements Screen {
         scrollingUpdateCh5 = new ScrollingUpdateCh5(updatables);
       }
     }
-//    Initdrgndrop();
 
     //Add Submit Button Listener.
     addSubmitButtonListner();

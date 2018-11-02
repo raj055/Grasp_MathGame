@@ -209,7 +209,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
     }
 
     dragAndDropElements = new DragAndDropElements(Events.BALL_DRAG_EVENT);
-    dragAndDropElements.defineComponentImages(ballSize,targetArea);
+    dragAndDropElements.defineComponentLabelImage(ballSize,targetArea);
   }
 
   private void defineLevel1To10Components() {

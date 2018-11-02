@@ -128,8 +128,8 @@ public class Chapter2 extends ChapterScreen implements Screen {
 
     private void Initdrgndrop() {
         dragPoint = new DragAndDropElements(Events.DRAG_CIRCLE);
-        dragPoint.defineComponentImages(DragCircle,LineTarget);
-}
+        dragPoint.defineComponentLabelImage(DragCircle,LineTarget);
+    }
 
   // Level's Component
   void defineLevel1to5Components() {

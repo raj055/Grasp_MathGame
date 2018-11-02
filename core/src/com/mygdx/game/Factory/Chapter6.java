@@ -139,19 +139,19 @@ public class Chapter6 extends ChapterScreen implements Screen {
   private void Drop(){
 
     dragShapeTriangle = new DragAndDropElements(Events.DRAG_TRIANGLE_P);
-    dragShapeTriangle.defineComponentImages(DragShape,targetTriangle);
+    dragShapeTriangle.defineComponentLabelImage(DragShape,targetTriangle);
 
     dragShapeSquare = new DragAndDropElements(Events.DRAG_SQUARE);
-    dragShapeSquare.defineComponentImages(squareShape,targetTriangle);
+    dragShapeSquare.defineComponentLabelImage(squareShape,targetTriangle);
 
     dragShapeSquare1 = new DragAndDropElements(Events.DRAG_SQUARE1);
-    dragShapeSquare1.defineComponentImages(squareShape1,targetTriangle);
+    dragShapeSquare1.defineComponentLabelImage(squareShape1,targetTriangle);
 
     dragShapeCircle = new DragAndDropElements(Events.DRAG_CIRCLE);
-    dragShapeCircle.defineComponentImages(circleShape,targetTriangle);
+    dragShapeCircle.defineComponentLabelImage(circleShape,targetTriangle);
 
     dragShapeCircle1 = new DragAndDropElements(Events.DRAG_CIRCLE_1);
-    dragShapeCircle1.defineComponentImages(circleShape1,targetTriangle);
+    dragShapeCircle1.defineComponentLabelImage(circleShape1,targetTriangle);
 
   }
 

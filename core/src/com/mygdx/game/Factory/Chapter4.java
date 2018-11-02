@@ -134,31 +134,6 @@ public class Chapter4 extends ChapterScreen implements Screen {
     }
   };
 
-  private void Initdrgndrop() {
-    draglight = new DragAndDropElements(Events.DRAG_IMGLIGHT);
-    draglight.defineComponentImages(light,square1);
-    dragsquare = new DragAndDropElements(Events.DRAG_IMGSQUARE);
-    dragsquare.defineComponentImages(ImgSquare,ImgDrop);
-    dragsquare1 = new DragAndDropElements(Events.DRAG_IMGSQUARE1);
-    dragsquare1.defineComponentImages(ImgSquare1,ImgDrop);
-    dragsquare2 = new DragAndDropElements(Events.DRAG_IMGSQUARE2);
-    dragsquare2.defineComponentImages(ImgSquare2,ImgDrop);
-    dragbox1 = new DragAndDropElements(Events.DRAG_IMGBOX1);
-    dragbox1.defineComponentImages(ImgBox1,ImgDrop);
-
-    dragA1 = new DragAndDropElements(Events.DRAGA1);
-    dragA1.defineComponentLabels(DragLabelA,DropValueA);
-    dragA2 = new DragAndDropElements(Events.DRAGA2);
-    dragA2.defineComponentLabels(DragLabelA2,DropRlabelA);
-    dragB1 = new DragAndDropElements(Events.DRAGB1);
-    dragB1.defineComponentLabels(DragLabelB1,DropValueB);
-    dragB2 = new DragAndDropElements(Events.DRAGB2);
-    dragB2.defineComponentLabels(DragLabelB2,DropRlabelB);
-    dragC1 = new DragAndDropElements(Events.DRAGC1);
-    dragC1.defineComponentLabels(DragLabelC1,DropRlabelC);
-
-  }
-
   void defineLevel1To5Components() {
 
     if((GameStates.steps == Steps.STEP_1) || (GameStates.steps == Steps.STEP_2)){
@@ -220,6 +195,10 @@ public class Chapter4 extends ChapterScreen implements Screen {
           }
         }
       }
+
+      draglight = new DragAndDropElements(Events.DRAG_IMGLIGHT);
+      draglight.defineComponentLabelImage(light,square1);
+
     }
     else if (GameStates.steps == Steps.STEP_2){
       //check if the displayImages are present
@@ -242,6 +221,16 @@ public class Chapter4 extends ChapterScreen implements Screen {
           }
         }
       }
+
+      dragsquare = new DragAndDropElements(Events.DRAG_IMGSQUARE);
+      dragsquare.defineComponentLabelImage(ImgSquare,ImgDrop);
+      dragsquare1 = new DragAndDropElements(Events.DRAG_IMGSQUARE1);
+      dragsquare1.defineComponentLabelImage(ImgSquare1,ImgDrop);
+      dragsquare2 = new DragAndDropElements(Events.DRAG_IMGSQUARE2);
+      dragsquare2.defineComponentLabelImage(ImgSquare2,ImgDrop);
+      dragbox1 = new DragAndDropElements(Events.DRAG_IMGBOX1);
+      dragbox1.defineComponentLabelImage(ImgBox1,ImgDrop);
+
     }
     else if (GameStates.steps == Steps.STEP_3){}
 
@@ -253,9 +242,6 @@ public class Chapter4 extends ChapterScreen implements Screen {
         updatable.getName();
       }
     }
-
-    Initdrgndrop();
-
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }
@@ -295,7 +281,16 @@ public class Chapter4 extends ChapterScreen implements Screen {
         }
       }
 
-      Initdrgndrop();
+    dragA1 = new DragAndDropElements(Events.DRAGA1);
+    dragA1.defineComponentLabelImage(DragLabelA,DropValueA);
+    dragA2 = new DragAndDropElements(Events.DRAGA2);
+    dragA2.defineComponentLabelImage(DragLabelA2,DropRlabelA);
+    dragB1 = new DragAndDropElements(Events.DRAGB1);
+    dragB1.defineComponentLabelImage(DragLabelB1,DropValueB);
+    dragB2 = new DragAndDropElements(Events.DRAGB2);
+    dragB2.defineComponentLabelImage(DragLabelB2,DropRlabelB);
+    dragC1 = new DragAndDropElements(Events.DRAGC1);
+    dragC1.defineComponentLabelImage(DragLabelC1,DropRlabelC);
 
     //Add Submit Button Listener.
     addSubmitButtonListner();

@@ -165,21 +165,21 @@ public class Chapter3 extends ChapterScreen implements Screen {
   private void Initdrgndrop() {
 
     dragListenerA1 = new DragAndDropElements(Events.DRAG_VALUE_A1);
-    dragListenerA1.defineComponentLabels(ValueA1,LabelA1);
+    dragListenerA1.defineComponentLabelImage(ValueA1,LabelA1);
     dragListenerA2 = new DragAndDropElements(Events.DRAG_VALUE_A2);
-    dragListenerA2.defineComponentLabels(ValueA2,LabelA2);
+    dragListenerA2.defineComponentLabelImage(ValueA2,LabelA2);
     dragListenerB1 = new DragAndDropElements(Events.DRAG_VALUE_B1);
-    dragListenerB1.defineComponentLabels(ValueB1,LabelB1);
+    dragListenerB1.defineComponentLabelImage(ValueB1,LabelB1);
     dragListenerB2 = new DragAndDropElements(Events.DRAG_VALUE_B2);
-    dragListenerB2.defineComponentLabels(ValueB2,LabelB2);
+    dragListenerB2.defineComponentLabelImage(ValueB2,LabelB2);
     dragListenerC1 = new DragAndDropElements(Events.DRAG_VALUE_C1);
-    dragListenerC1.defineComponentLabels(ValueC1,LabelC1);
+    dragListenerC1.defineComponentLabelImage(ValueC1,LabelC1);
     dragListenerC2 = new DragAndDropElements(Events.DRAG_VALUE_C2);
-    dragListenerC2.defineComponentLabels(ValueC2,LabelC2);
-//    dragListenerB11 = new DragAndDropElements(Events.DRAG_VALUE_B11);
-//    dragListenerB11.defineComponentLabels(ValueB11,LabelB11);
-//    dragListenerB22 = new DragAndDropElements(Events.DRAG_VALUE_B22);
-//    dragListenerB22.defineComponentLabels(ValueB22,LabelB22);
+    dragListenerC2.defineComponentLabelImage(ValueC2,LabelC2);
+    dragListenerB11 = new DragAndDropElements(Events.DRAG_VALUE_B11);
+    dragListenerB11.defineComponentLabelImage(ValueB11,LabelB11);
+    dragListenerB22 = new DragAndDropElements(Events.DRAG_VALUE_B22);
+    dragListenerB22.defineComponentLabelImage(ValueB22,LabelB22);
 
   }
 

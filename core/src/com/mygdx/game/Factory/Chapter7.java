@@ -141,61 +141,6 @@ public class Chapter7 extends ChapterScreen implements Screen {
     }
   };
 
-  private void DropLabel(){
-    drag_L1_value = new DragAndDropElements(Events.DRAG_L1_VALUE);
-    drag_L1_value.defineComponentLabels(L1_value1,synlabel1);
-    drag_L1_value3 = new DragAndDropElements(Events.DRAG_L1_VALUE);
-    drag_L1_value3.defineComponentLabels(L1_value3,synlabel);
-    drag_L1_value12 = new DragAndDropElements(Events.DRAG_L1_VALUE12);
-    drag_L1_value12.defineComponentLabels(L1_value12,synlabel2);
-    drag_L1_value14 = new DragAndDropElements(Events.DRAG_L1_VALUE14);
-    drag_L1_value14.defineComponentLabels(L1_value14,synlabel3);
-
-    drag_L2_value12 = new DragAndDropElements(Events.DRAG_L2_VALUE12);
-    drag_L2_value12.defineComponentLabels(L1_value12,L2_Syntaxlabelx1);
-    drag_L2_value14 = new DragAndDropElements(Events.DRAG_L2_VALUE14);
-    drag_L2_value14.defineComponentLabels(L1_value14,L2_Syntaxlabelx2);
-    drag_L2_valuek1 = new DragAndDropElements(Events.DRAG_L2_VALUEK1);
-    drag_L2_valuek1.defineComponentLabels(L2_valuek1,L2_Syntaxlabelk1);
-    drag_L2_valuek2 = new DragAndDropElements(Events.DRAG_L2_VALUEK2);
-    drag_L2_valuek2.defineComponentLabels(L2_valuek2,L2_Syntaxlabelk);
-
-    drag_L2_value1 = new DragAndDropElements(Events.DRAG_L2_VALUE1);
-    drag_L2_value1.defineComponentLabels(L2_value1,L2_Syntaxlabely1);
-    drag_L2_value3 = new DragAndDropElements(Events.DRAG_L2_VALUE3);
-    drag_L2_value3.defineComponentLabels(L2_value3,L2_Syntaxlabely2);
-    drag_L2_valuek3 = new DragAndDropElements(Events.DRAG_L2_VALUEK3);
-    drag_L2_valuek3.defineComponentLabels(L2_valuek3,L2_s2_Syntaxlabelk1);
-    drag_L2_valuek4 = new DragAndDropElements(Events.DRAG_L2_VALUEK4);
-    drag_L2_valuek4.defineComponentLabels(L2_valuek4,L2_s2_Syntaxlabelk);
-
-    drag_L3_value1 = new DragAndDropElements(Events.DRAG_L3_VALUE1);
-    drag_L3_value1.defineComponentLabels(L3_value1,L3_sytaxlablex33);
-    drag_L3_value1_1 = new DragAndDropElements(Events.DRAG_L3_VALUE1_1);
-    drag_L3_value1_1.defineComponentLabels(L3_value1_1,L3_sytaxlablex3);
-    drag_L3_value3 = new DragAndDropElements(Events.DRAG_L3_VALUE3);
-    drag_L3_value3.defineComponentLabels(L2_value3,L3_sytaxlabley33);
-    drag_L3_value3_1 = new DragAndDropElements(Events.DRAG_L3_VALUE3_1);
-    drag_L3_value3_1.defineComponentLabels(L3_value3_1,L3_sytaxlabley3);
-    drag_L3_value12 = new DragAndDropElements(Events.DRAG_L3_VALUE12);
-    drag_L3_value12.defineComponentLabels(L3_value12,L3_sytaxlablex11);
-    drag_L3_value12_1 = new DragAndDropElements(Events.DRAG_L3_VALUE12_1);
-    drag_L3_value12_1.defineComponentLabels(L3_value12_1,L3_sytaxlablex1);
-    drag_L3_value14 = new DragAndDropElements(Events.DRAG_L3_VALUE14);
-    drag_L3_value14.defineComponentLabels(L3_value14,L3_sytaxlablex22);
-    drag_L3_value14_1 = new DragAndDropElements(Events.DRAG_L3_VALUE14_1);
-    drag_L3_value14_1.defineComponentLabels(L3_value14_1,L3_sytaxlablex2);
-    drag_L3_value22 = new DragAndDropElements(Events.DRAG_L3_VALUE22);
-    drag_L3_value22.defineComponentLabels(L3_value22,L3_sytaxlabley11);
-    drag_L3_value22_1 = new DragAndDropElements(Events.DRAG_L3_VALUE22_1);
-    drag_L3_value22_1.defineComponentLabels(L3_value22_1,L3_sytaxlabley1);
-    drag_L3_value24 = new DragAndDropElements(Events.DRAG_L3_VALUE24);
-    drag_L3_value24.defineComponentLabels(L3_value24,L3_sytaxlabley22);
-    drag_L3_value24_1 = new DragAndDropElements(Events.DRAG_L3_VALUE24_1);
-    drag_L3_value24_1.defineComponentLabels(L3_value24_1,L3_sytaxlabley2);
-
-  }
-
   void defineLevel1To5Components() {
 
     if (updatables != null) {
@@ -211,7 +156,7 @@ public class Chapter7 extends ChapterScreen implements Screen {
         }else if (str.equals("LabelValue14")) {
           L1_value14 = updatable;
         }
-        else if (str.equals("SyntaxLabel1")) {
+        else if (str.contains("SyntaxLabel1")) {
           synlabel1 = updatable;
         }else if (str.equals("SyntaxLabel")) {
           synlabel = updatable;
@@ -224,90 +169,19 @@ public class Chapter7 extends ChapterScreen implements Screen {
       visebalComponentsCh7 = new VisebalComponentsCh7(displayImages, updatables);
     }
 
-    DropLabel();
+    drag_L1_value = new DragAndDropElements(Events.DRAG_L1_VALUE);
+    drag_L1_value.defineComponentLabelImage(L1_value1,synlabel1);
+    drag_L1_value3 = new DragAndDropElements(Events.DRAG_L1_VALUE);
+    drag_L1_value3.defineComponentLabelImage(L1_value3,synlabel);
+    drag_L1_value12 = new DragAndDropElements(Events.DRAG_L1_VALUE12);
+    drag_L1_value12.defineComponentLabelImage(L1_value12,synlabel2);
+    drag_L1_value14 = new DragAndDropElements(Events.DRAG_L1_VALUE14);
+    drag_L1_value14.defineComponentLabelImage(L1_value14,synlabel3);
 
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }
   void defineLevel6To10Components() {
-
-    if(GameStates.steps == Steps.STEP_1){
-      if (updatables != null) {
-        updatables.size();
-        for (Label updatable : updatables) {
-          String str = updatable.getName();
-          if (str.equals("LabelValue12")) {
-            L2_value12 = updatable;
-          }else if (str.equals("LabelValue14")) {
-            L2_value14 = updatable;
-          }else if (str.equals("LabelValuek1")) {
-            L2_valuek1 = updatable;
-          }else if (str.equals("LabelValuek2")) {
-            L2_valuek2 = updatable;
-          }else if (str.equals("LabelValue1")) {
-              L2_value1 = updatable;
-          }else if (str.equals("LabelValue3")) {
-              L2_value3 = updatable;
-          }else if (str.equals("LabelValuek3")) {
-              L2_valuek3 = updatable;
-          }else if (str.equals("LabelValuek4")) {
-              L2_valuek4 = updatable;
-          }
-          else if (str.equals("SyntaxLabelx1")) {
-              L2_Syntaxlabelx1 = updatable;
-          }
-          else if (str.equals("SyntaxLabelx2")) {
-              L2_Syntaxlabelx2 = updatable;
-          }
-          else if (str.equals("SyntaxLabelk1")) {
-              L2_Syntaxlabelk1 = updatable;
-          }
-          else if (str.equals("SyntaxLabelk")) {
-              L2_Syntaxlabelk = updatable;
-          }
-          else if (str.equals("SyntaxLabely1")) {
-              L2_Syntaxlabely1 = updatable;
-          }
-          else if (str.equals("SyntaxLabely2")) {
-              L2_Syntaxlabely2 = updatable;
-          }
-          else if (str.equals("SyntaxLabelk1")) {
-              L2_s2_Syntaxlabelk1 = updatable;
-          }
-          else if (str.equals("SyntaxLabelk")) {
-              L2_s2_Syntaxlabelk = updatable;
-          }
-        }
-        visebalComponentsCh7 = new VisebalComponentsCh7(displayImages, updatables);
-      }
-    }
-    else if (GameStates.steps == Steps.STEP_2){
-      if (updatables != null) {
-        updatables.size();
-        for (Label updatable : updatables) {
-          String str = updatable.getName();
-          if (str.equals("LabelValue1")) {
-            L2_value1 = updatable;
-          }else if (str.equals("LabelValue3")) {
-            L2_value3 = updatable;
-          }else if (str.equals("LabelValuek3")) {
-            L2_valuek3 = updatable;
-          }else if (str.equals("LabelValuek4")) {
-            L2_valuek4 = updatable;
-          }
-
-        }
-        visebalComponentsCh7 = new VisebalComponentsCh7(displayImages, updatables);
-      }
-    }
-    else if (GameStates.steps == Steps.STEP_3){}
-
-    DropLabel();
-
-    //Add Submit Button Listener.
-    addSubmitButtonListner();
-  }
-  void defineLevel11To15Components() {
 
     if (updatables != null){
       updatables.size();
@@ -332,54 +206,164 @@ public class Chapter7 extends ChapterScreen implements Screen {
         }else if (str.equals("LabelValue22")) {
           L3_value22 = updatable;
         }else if (str.equals("LabelValue22_1")) {
-            L3_value22_1 = updatable;
+          L3_value22_1 = updatable;
         }else if (str.equals("LabelValue24")) {
           L3_value24 = updatable;
         }else if (str.equals("LabelValue24_1")) {
           L3_value24_1 = updatable;
         }
         else if (str.equals("SyntaxLabelx33")) {
-            L3_sytaxlablex33 = updatable;
+          L3_sytaxlablex33 = updatable;
         }
         else if (str.equals("SyntaxLabelx3")) {
-            L3_sytaxlablex3 = updatable;
+          L3_sytaxlablex3 = updatable;
         }
         else if (str.equals("SyntaxLabely33")) {
-            L3_sytaxlabley33 = updatable;
+          L3_sytaxlabley33 = updatable;
         }
         else if (str.equals("SyntaxLabely3")) {
-            L3_sytaxlabley3 = updatable;
+          L3_sytaxlabley3 = updatable;
         }
         else if (str.equals("SyntaxLabelx11")) {
-            L3_sytaxlablex11 = updatable;
+          L3_sytaxlablex11 = updatable;
         }
         else if (str.equals("SyntaxLabelx1")) {
-            L3_sytaxlablex1 = updatable;
+          L3_sytaxlablex1 = updatable;
         }
         else if (str.equals("SyntaxLabelx22")) {
-            L3_sytaxlablex22 = updatable;
+          L3_sytaxlablex22 = updatable;
         }
         else if (str.equals("SyntaxLabelx2")) {
-            L3_sytaxlablex2 = updatable;
+          L3_sytaxlablex2 = updatable;
         }
         else if (str.equals("SyntaxLabely11")) {
-            L3_sytaxlabley11 = updatable;
+          L3_sytaxlabley11 = updatable;
         }
         else if (str.equals("SyntaxLabely1")) {
-            L3_sytaxlabley1 = updatable;
+          L3_sytaxlabley1 = updatable;
         }
         else if (str.equals("SyntaxLabely22")) {
-            L3_sytaxlabley22 = updatable;
+          L3_sytaxlabley22 = updatable;
         }
         else if (str.equals("SyntaxLabely2")) {
-            L3_sytaxlabley2 = updatable;
+          L3_sytaxlabley2 = updatable;
         }
 
       }
       visebalComponentsCh7 = new VisebalComponentsCh7(displayImages, updatables);
     }
 
-    DropLabel();
+    drag_L3_value1 = new DragAndDropElements(Events.DRAG_L3_VALUE1);
+    drag_L3_value1.defineComponentLabelImage(L3_value1,L3_sytaxlablex33);
+    drag_L3_value1_1 = new DragAndDropElements(Events.DRAG_L3_VALUE1_1);
+    drag_L3_value1_1.defineComponentLabelImage(L3_value1_1,L3_sytaxlablex3);
+    drag_L3_value3 = new DragAndDropElements(Events.DRAG_L3_VALUE3);
+    drag_L3_value3.defineComponentLabelImage(L3_value3,L3_sytaxlabley33);
+    drag_L3_value3_1 = new DragAndDropElements(Events.DRAG_L3_VALUE3_1);
+    drag_L3_value3_1.defineComponentLabelImage(L3_value3_1,L3_sytaxlabley3);
+    drag_L3_value12 = new DragAndDropElements(Events.DRAG_L3_VALUE12);
+    drag_L3_value12.defineComponentLabelImage(L3_value12,L3_sytaxlablex11);
+    drag_L3_value12_1 = new DragAndDropElements(Events.DRAG_L3_VALUE12_1);
+    drag_L3_value12_1.defineComponentLabelImage(L3_value12_1,L3_sytaxlablex1);
+    drag_L3_value14 = new DragAndDropElements(Events.DRAG_L3_VALUE14);
+    drag_L3_value14.defineComponentLabelImage(L3_value14,L3_sytaxlablex22);
+    drag_L3_value14_1 = new DragAndDropElements(Events.DRAG_L3_VALUE14_1);
+    drag_L3_value14_1.defineComponentLabelImage(L3_value14_1,L3_sytaxlablex2);
+    drag_L3_value22 = new DragAndDropElements(Events.DRAG_L3_VALUE22);
+    drag_L3_value22.defineComponentLabelImage(L3_value22,L3_sytaxlabley11);
+    drag_L3_value22_1 = new DragAndDropElements(Events.DRAG_L3_VALUE22_1);
+    drag_L3_value22_1.defineComponentLabelImage(L3_value22_1,L3_sytaxlabley1);
+    drag_L3_value24 = new DragAndDropElements(Events.DRAG_L3_VALUE24);
+    drag_L3_value24.defineComponentLabelImage(L3_value24,L3_sytaxlabley22);
+    drag_L3_value24_1 = new DragAndDropElements(Events.DRAG_L3_VALUE24_1);
+    drag_L3_value24_1.defineComponentLabelImage(L3_value24_1,L3_sytaxlabley2);
+
+    //Add Submit Button Listener.
+    addSubmitButtonListner();
+  }
+  void defineLevel11To15Components() {
+
+    if(GameStates.steps == Steps.STEP_1){
+      if (updatables != null) {
+        updatables.size();
+        for (Label updatable : updatables) {
+          String str = updatable.getName();
+          if (str.equals("LabelValue12")) {
+            L2_value12 = updatable;
+          }else if (str.equals("LabelValue14")) {
+            L2_value14 = updatable;
+          }else if (str.equals("LabelValuek1")) {
+            L2_valuek1 = updatable;
+          }else if (str.equals("LabelValuek2")) {
+            L2_valuek2 = updatable;
+          }
+          else if (str.equals("SyntaxLabelx1")) {
+              L2_Syntaxlabelx1 = updatable;
+          }
+          else if (str.equals("SyntaxLabelx2")) {
+              L2_Syntaxlabelx2 = updatable;
+          }
+          else if (str.equals("SyntaxLabelk1")) {
+              L2_Syntaxlabelk1 = updatable;
+          }
+          else if (str.equals("SyntaxLabelk")) {
+              L2_Syntaxlabelk = updatable;
+          }
+        }
+
+        visebalComponentsCh7 = new VisebalComponentsCh7(displayImages, updatables);
+
+        drag_L2_value12 = new DragAndDropElements(Events.DRAG_L2_VALUE12);
+        drag_L2_value12.defineComponentLabelImage(L2_value12,L2_Syntaxlabelx1);
+        drag_L2_value14 = new DragAndDropElements(Events.DRAG_L2_VALUE14);
+        drag_L2_value14.defineComponentLabelImage(L2_value14,L2_Syntaxlabelx2);
+        drag_L2_valuek1 = new DragAndDropElements(Events.DRAG_L2_VALUEK1);
+        drag_L2_valuek1.defineComponentLabelImage(L2_valuek1,L2_Syntaxlabelk1);
+        drag_L2_valuek2 = new DragAndDropElements(Events.DRAG_L2_VALUEK2);
+        drag_L2_valuek2.defineComponentLabelImage(L2_valuek2,L2_Syntaxlabelk);
+      }
+    }
+    else if (GameStates.steps == Steps.STEP_2){
+      if (updatables != null) {
+        updatables.size();
+        for (Label updatable : updatables) {
+          String str = updatable.getName();
+          if (str.equals("LabelValue1")) {
+            L2_value1 = updatable;
+          }else if (str.equals("LabelValue3")) {
+            L2_value3 = updatable;
+          }else if (str.equals("LabelValuek3")) {
+            L2_valuek3 = updatable;
+          }else if (str.equals("LabelValuek4")) {
+            L2_valuek4 = updatable;
+          }
+          else if (str.equals("SyntaxLabely1")) {
+            L2_Syntaxlabely1 = updatable;
+          }
+          else if (str.equals("SyntaxLabely2")) {
+            L2_Syntaxlabely2 = updatable;
+          }
+          else if (str.equals("SyntaxLabelk1")) {
+            L2_s2_Syntaxlabelk1 = updatable;
+          }
+          else if (str.equals("SyntaxLabelk")) {
+            L2_s2_Syntaxlabelk = updatable;
+          }
+        }
+
+        drag_L2_value1 = new DragAndDropElements(Events.DRAG_L2_VALUE1);
+        drag_L2_value1.defineComponentLabelImage(L2_value1,L2_Syntaxlabely1);
+        drag_L2_value3 = new DragAndDropElements(Events.DRAG_L2_VALUE3);
+        drag_L2_value3.defineComponentLabelImage(L2_value3,L2_Syntaxlabely2);
+        drag_L2_valuek3 = new DragAndDropElements(Events.DRAG_L2_VALUEK3);
+        drag_L2_valuek3.defineComponentLabelImage(L2_valuek3,L2_s2_Syntaxlabelk1);
+        drag_L2_valuek4 = new DragAndDropElements(Events.DRAG_L2_VALUEK4);
+        drag_L2_valuek4.defineComponentLabelImage(L2_valuek4,L2_s2_Syntaxlabelk);
+
+        visebalComponentsCh7 = new VisebalComponentsCh7(displayImages, updatables);
+      }
+    }
+    else if (GameStates.steps == Steps.STEP_3){}
 
     //Add Submit Button Listener.
     addSubmitButtonListner();
