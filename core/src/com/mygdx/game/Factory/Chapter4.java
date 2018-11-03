@@ -190,7 +190,7 @@ public class Chapter4 extends ChapterScreen implements Screen {
           String str = updatable.getName();
           if (str.equals("light")) {
             light = updatable;
-          }else if (str.equals("square1")) {
+          }else if (str.equals("square")) {
             square1 = updatable;
           }
         }
@@ -207,11 +207,11 @@ public class Chapter4 extends ChapterScreen implements Screen {
         displayImages.size();
         for (Image updatable : displayImages) {
           String str = updatable.getName();
-          if (str.equals("square")) {
+          if (str.equals("Square")) {
             ImgSquare = updatable;
-          }else if (str.equals("square1")) {
+          }else if (str.equals("Square1")) {
             ImgSquare1 = updatable;
-          }else if (str.equals("square2")) {
+          }else if (str.equals("Square2")) {
             ImgSquare2 = updatable;
           }else if (str.equals("box1")) {
             ImgBox1 = updatable;

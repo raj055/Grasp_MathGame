@@ -190,7 +190,7 @@ public class VisebalComponentsCh3 implements Subscriber {
 
         if ((a != null) || (valueA != null)) {
             a.setVisible(false);
-            valueA.setPosition(115, MyGame.HEIGHT - 350);
+            valueA.setPosition(130, MyGame.HEIGHT - 430);
         }
     }
     private void updateA2() {

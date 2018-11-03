@@ -104,7 +104,7 @@ public class Chapter6 extends ChapterScreen implements Screen {
           img.remove();
         }
         scrollingPara.clear();
-        scrollingImages.clear();
+//        scrollingImages.clear();
         time.RestartTime();
       }
 

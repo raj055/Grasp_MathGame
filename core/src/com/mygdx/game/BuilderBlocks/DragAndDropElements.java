@@ -73,4 +73,41 @@ public class DragAndDropElements extends DragAndDrop {
         this.addTarget(target);
     }
 
+    public void defineComponentLabelImage1(final Actor PayloadCloan, final Actor dragActor, final Actor TargetActor){
+
+        Source source = new Source(dragActor) {
+            @Override
+            public Payload dragStart(InputEvent event, float x, float y, int pointer) {
+                DragAndDrop.Payload payload = new DragAndDrop.Payload();
+
+                payload.setDragActor(PayloadCloan);
+
+                dragActor.moveBy(x,y);
+
+                return payload;
+            }
+
+            @Override
+            public void dragStop(InputEvent event, float x, float y, int pointer, Payload payload, Target target) {
+                Gdx.app.log("Drag Stop","Level");
+            }
+        };
+
+        Target target = new Target(TargetActor) {
+            @Override
+            public boolean drag(Source source, Payload payload, float x, float y, int pointer) {
+                return true;
+            }
+
+            @Override
+            public void drop(Source source, Payload payload, float x, float y, int pointer) {
+                Gdx.app.log("Drop Target","Level");
+                postEvent();
+            }
+        };
+
+        this.addSource(source);
+        this.addTarget(target);
+    }
+
 }

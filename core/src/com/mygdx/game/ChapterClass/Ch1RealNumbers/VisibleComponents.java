@@ -53,7 +53,14 @@ public class VisibleComponents extends ShowEntity implements Subscriber {
   }
 
   void updateVisibleComponents(){
-    Image dispBallImg = visibleComponents.get(chapterVariables.chapter1Variables.ValueOfQ - 1);
+
+    int valueQ = chapterVariables.chapter1Variables.ValueOfQ;
+
+    if (valueQ > 0) {
+      valueQ -= 1;
+    }
+
+    Image dispBallImg = visibleComponents.get(valueQ);
     dispBallImg.setVisible(true);
   }
 

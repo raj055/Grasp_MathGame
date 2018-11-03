@@ -165,7 +165,10 @@ public class Chapter3 extends ChapterScreen implements Screen {
   private void Initdrgndrop() {
 
     dragListenerA1 = new DragAndDropElements(Events.DRAG_VALUE_A1);
-    dragListenerA1.defineComponentLabelImage(ValueA1,LabelA1);
+    Label ValuePayload = new Label(ValueA1.getText(), ValueA1.getStyle());
+    dragListenerA1.defineComponentLabelImage1(ValuePayload, ValueA1, LabelA1);
+
+
     dragListenerA2 = new DragAndDropElements(Events.DRAG_VALUE_A2);
     dragListenerA2.defineComponentLabelImage(ValueA2,LabelA2);
     dragListenerB1 = new DragAndDropElements(Events.DRAG_VALUE_B1);

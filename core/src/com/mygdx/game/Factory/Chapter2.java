@@ -157,7 +157,7 @@ public class Chapter2 extends ChapterScreen implements Screen {
                 LineTarget = updatable;
             }
         }
-        visebleComponetsCh2 = new VisebleComponetsCh2(imagesLines,updatables);
+        visebleComponetsCh2 = new VisebleComponetsCh2(displayImages,updatables);
     }
 
     if (draggable != null) {

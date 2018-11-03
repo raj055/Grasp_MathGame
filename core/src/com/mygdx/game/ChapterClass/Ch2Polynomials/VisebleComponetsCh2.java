@@ -45,8 +45,8 @@ public class VisebleComponetsCh2 implements Subscriber {
         Image line = getImage("line1");
         Image line1 = getImage("line2");
 
-//        line.setVisible(false);
-//        line1.setVisible(true);
+        line.setVisible(false);
+        line1.setVisible(true);
 
         Label Score = getLabel("Score");
         Score.setText("50");

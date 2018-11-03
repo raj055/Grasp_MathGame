@@ -1651,7 +1651,8 @@
               "Position": [
                 50,
                 260
-              ]
+              ],
+              "Visible": true
             },
             "Eraser": {
               "Image": "data_ch3/eraser72.png",
@@ -1662,7 +1663,8 @@
               "Position": [
                 150,
                 250
-              ]
+              ],
+              "Visible": true
             },
             "Rectangle": {
               "Image": "data_ch3/bgrect.png",
@@ -3810,7 +3812,8 @@
               "Position": [
                 50,
                 260
-              ]
+              ],
+              "Visible": true
             },
             "Eraser": {
               "Image": "data_ch3/eraser72.png",
@@ -3821,7 +3824,8 @@
               "Position": [
                 150,
                 250
-              ]
+              ],
+              "Visible": true
             },
             "Rectangle": {
               "Image": "data_ch3/bgrect.png",
@@ -5972,7 +5976,8 @@
               "Position": [
                 50,
                 260
-              ]
+              ],
+              "Visible": true
             },
             "Eraser": {
               "Image": "data_ch3/eraser72.png",
@@ -5983,7 +5988,8 @@
               "Position": [
                 150,
                 250
-              ]
+              ],
+              "Visible": true
             },
             "Rectangle": {
               "Image": "data_ch3/bgrect.png",
@@ -9716,7 +9722,8 @@
               "Position": [
                 50,
                 260
-              ]
+              ],
+              "Visible": true
             },
             "Eraser": {
               "Image": "data_ch3/eraser72.png",
@@ -9727,7 +9734,8 @@
               "Position": [
                 150,
                 250
-              ]
+              ],
+              "Visible": true
             },
             "Rectangle": {
               "Image": "data_ch3/bgrect.png",
@@ -11874,7 +11882,8 @@
               "Position": [
                 50,
                 260
-              ]
+              ],
+              "Visible": true
             },
             "Eraser": {
               "Image": "data_ch3/eraser72.png",
@@ -11885,7 +11894,8 @@
               "Position": [
                 150,
                 250
-              ]
+              ],
+              "Visible": true
             },
             "Rectangle": {
               "Image": "data_ch3/bgrect.png",
@@ -14032,7 +14042,8 @@
               "Position": [
                 50,
                 260
-              ]
+              ],
+              "Visible": true
             },
             "Eraser": {
               "Image": "data_ch3/eraser72.png",
@@ -14043,7 +14054,8 @@
               "Position": [
                 150,
                 250
-              ]
+              ],
+              "Visible": true
             },
             "Rectangle": {
               "Image": "data_ch3/bgrect.png",
@@ -16190,7 +16202,8 @@
               "Position": [
                 50,
                 260
-              ]
+              ],
+              "Visible": true
             },
             "Eraser": {
               "Image": "data_ch3/eraser72.png",
@@ -16201,7 +16214,8 @@
               "Position": [
                 150,
                 250
-              ]
+              ],
+              "Visible": true
             },
             "Rectangle": {
               "Image": "data_ch3/bgrect.png",

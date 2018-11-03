@@ -269,6 +269,17 @@
                 125
               ]
             },
+            "Value11": {
+              "Text": "10",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                70,
+                210
+              ]
+            },
             "Value1": {
               "Text": "10",
               "Size": [
@@ -292,17 +303,6 @@
                 210
               ],
               "Visible" : true
-            },
-            "Value11": {
-              "Text": "10",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                70,
-                210
-              ]
             },
             "Pluse": {
               "Text": "+",
@@ -351,6 +351,17 @@
               ],
               "Visible" : false
             },
+            "Value14": {
+              "Text": "10",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                270,
+                210
+              ]
+            },
             "Value12": {
               "Text": "10",
               "Size": [
@@ -363,17 +374,6 @@
               ]
             },
             "Value13": {
-              "Text": "10",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                270,
-                210
-              ]
-            },
-            "Value14": {
               "Text": "10",
               "Size": [
                 50,
@@ -701,6 +701,17 @@
                 125
               ]
             },
+            "Value11": {
+              "Text": "2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                70,
+                210
+              ]
+            },
             "Value1": {
               "Text": "2",
               "Size": [
@@ -714,7 +725,7 @@
               "Visible" : false
             },
             "Value2": {
-              "Text": "0",
+              "Text": "2",
               "Size": [
                 50,
                 50
@@ -724,17 +735,6 @@
                 210
               ],
               "Visible" : false
-            },
-            "Value11": {
-              "Text": "2",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                70,
-                210
-              ]
             },
             "Pluse": {
               "Text": "+",
@@ -783,6 +783,17 @@
               ],
               "Visible" : false
             },
+            "Value14": {
+              "Text": "0",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                270,
+                210
+              ]
+            },
             "Value12": {
               "Text": "0",
               "Size": [
@@ -795,17 +806,6 @@
               ]
             },
             "Value13": {
-              "Text": "0",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                270,
-                210
-              ]
-            },
-            "Value14": {
               "Text": "0",
               "Size": [
                 50,
@@ -1133,6 +1133,17 @@
                 125
               ]
             },
+            "Value11": {
+              "Text": "4",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                70,
+                210
+              ]
+            },
             "Value1": {
               "Text": "4",
               "Size": [
@@ -1146,7 +1157,7 @@
               "Visible" : false
             },
             "Value2": {
-              "Text": "3",
+              "Text": "4",
               "Size": [
                 50,
                 50
@@ -1156,17 +1167,6 @@
                 210
               ],
               "Visible" : false
-            },
-            "Value11": {
-              "Text": "4",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                70,
-                210
-              ]
             },
             "Pluse": {
               "Text": "+",
@@ -1215,6 +1215,17 @@
               ],
               "Visible" : false
             },
+            "Value14": {
+              "Text": "3",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                270,
+                210
+              ]
+            },
             "Value12": {
               "Text": "3",
               "Size": [
@@ -1227,17 +1238,6 @@
               ]
             },
             "Value13": {
-              "Text": "3",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                270,
-                210
-              ]
-            },
-            "Value14": {
               "Text": "3",
               "Size": [
                 50,
@@ -1565,6 +1565,17 @@
                 125
               ]
             },
+            "Value11": {
+              "Text": "7",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                70,
+                210
+              ]
+            },
             "Value1": {
               "Text": "7",
               "Size": [
@@ -1578,7 +1589,7 @@
               "Visible" : false
             },
             "Value2": {
-              "Text": "2",
+              "Text": "7",
               "Size": [
                 50,
                 50
@@ -1588,17 +1599,6 @@
                 210
               ],
               "Visible" : false
-            },
-            "Value11": {
-              "Text": "7",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                70,
-                210
-              ]
             },
             "Pluse": {
               "Text": "+",
@@ -1647,6 +1647,17 @@
               ],
               "Visible" : false
             },
+            "Value14": {
+              "Text": "2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                270,
+                210
+              ]
+            },
             "Value12": {
               "Text": "2",
               "Size": [
@@ -1659,17 +1670,6 @@
               ]
             },
             "Value13": {
-              "Text": "2",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                270,
-                210
-              ]
-            },
-            "Value14": {
               "Text": "2",
               "Size": [
                 50,
@@ -1997,6 +1997,17 @@
                 125
               ]
             },
+            "Value11": {
+              "Text": "1",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                70,
+                210
+              ]
+            },
             "Value1": {
               "Text": "1",
               "Size": [
@@ -2010,7 +2021,7 @@
               "Visible" : false
             },
             "Value2": {
-              "Text": "1/2",
+              "Text": "1",
               "Size": [
                 50,
                 50
@@ -2020,17 +2031,6 @@
                 210
               ],
               "Visible" : false
-            },
-            "Value11": {
-              "Text": "1",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                70,
-                210
-              ]
             },
             "Pluse": {
               "Text": "+",
@@ -2079,6 +2079,17 @@
               ],
               "Visible" : false
             },
+            "Value14": {
+              "Text": "1/2",
+              "Size": [
+                50,
+                50
+              ],
+              "Position": [
+                270,
+                210
+              ]
+            },
             "Value12": {
               "Text": "1/2",
               "Size": [
@@ -2091,17 +2102,6 @@
               ]
             },
             "Value13": {
-              "Text": "1/2",
-              "Size": [
-                50,
-                50
-              ],
-              "Position": [
-                270,
-                210
-              ]
-            },
-            "Value14": {
               "Text": "1/2",
               "Size": [
                 50,
