@@ -164,7 +164,7 @@ public class Chapter2 extends ChapterScreen implements Screen {
         try {
             for (Image draggables : draggable) {
                 String str = draggables.getName();
-                if (str.equals("DragCircle")) {
+                if (str.contains("DragCircle")) {
                     DragCircle = draggables;
                 }
             }

@@ -70,11 +70,6 @@ public class Chapter1 extends ChapterScreen implements Screen {
   private AnimationClass animationClass;
   private float elapsed_time;
 
-  private Label Score;
-
-//  DragAndDrop.Payload payload;
-  Actor payload;
-
   int xPos = 155;
 
   int ValueS = 0;
@@ -134,7 +129,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
     try {
 
       for (Image draggables : draggable) {
-        if (draggables.getName().equals("RemBall")) {
+        if (draggables.getName().contains("RemBall")) {
           draggables.addListener(remBallDragListener);
         } else {
             draggables.addListener(ballDragListener);
@@ -218,10 +213,10 @@ public class Chapter1 extends ChapterScreen implements Screen {
     if((GameStates.steps == Steps.STEP_1) || (GameStates.steps == Steps.STEP_2)
             || (GameStates.steps == Steps.STEP_3) || (GameStates.steps == Steps.STEP_4)
             || (GameStates.steps == Steps.STEP_5) || (GameStates.steps == Steps.STEP_6)
-            || (GameStates.steps == Steps.STEP_7)){
+            || (GameStates.steps == Steps.STEP_7)) {
 
       //check if the updatable are present
-      if(updatables != null) {
+      if (updatables != null) {
         updatables.size();
 
         ArrayList<ProgressData> updateLabelsList = new ArrayList<ProgressData>();
@@ -245,7 +240,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
         dragBallIndicators = new DragBallIndicators(updateLabelsList);
       }
 
-      if(displayImages != null) {
+      if (displayImages != null) {
 
         displayBalls = new ArrayList<Image>();
         displayBallList = new ArrayList<Image>();
@@ -255,13 +250,11 @@ public class Chapter1 extends ChapterScreen implements Screen {
 
         for (Image updatable : displayImages) {
           String str = updatable.getName();
-          if (str.equals("progBar1")) {
+          if (str.contains("progBar1")) {
             progbar1 = updatable;
-          }
-          else if (str.equals("displayBall")) {
+          } else if (str.contains("displayBall")) {
             displayBallList.add(updatable);
-          }
-          else if(str.equals("targetBall")){
+          } else if (str.contains("targetBall")) {
             targetArea = updatable;
           }
         }
@@ -272,22 +265,22 @@ public class Chapter1 extends ChapterScreen implements Screen {
 
         for (Image updatable : draggable) {
           String str = updatable.getName();
-          if (str.equals("DragBall")) {
+          if (str.contains("DragBall")) {
             displayBalls.add(updatable);
-          } else if (str.equals("RemBall"))
+          } else if (str.contains("RemBall"))
             remainderBall.add(updatable);
         }
 
-        ballDragListener = new BallDragListener(Events.BALL_DRAG_EVENT,targetArea);
+        ballDragListener = new BallDragListener(Events.BALL_DRAG_EVENT);
 
         ballDragListener.setDisplayBalls(displayBalls);
 
-        drgndrop();
-
-        attachDraggables();
-
       }
+      drgndrop();
+
+      attachDraggables();
     }
+
     //Add Submit Button Listener.
     addSubmitButtonListner();
   }
@@ -332,16 +325,6 @@ public class Chapter1 extends ChapterScreen implements Screen {
           scrollingUpdateLableCh1.ballDisplay.balls[i][j].setVisible(false);
         }
       }
-
-      /*if(updatables != null) {
-        updatables.size();
-        for (Label updatable : updatables) {
-          String str = updatable.getName();
-          if (str.equals("Score1")) {
-            Score = updatable;
-          }
-        }
-      }*/
     }
     //Add Submit Button Listener.
     addSubmitButtonListner();

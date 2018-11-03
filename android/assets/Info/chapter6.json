@@ -901,18 +901,6 @@
               ],
               "Visible": false
             },
-            "Step1Image": {
-              "Image": "data/step1.png",
-              "Size": [
-                200,
-                40
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": true
-            },
             "triangle": {
               "Image": "data_ch6/triangle.png",
               "Size": [
@@ -1266,18 +1254,6 @@
               ],
               "Visible": false
             },
-            "step2Image": {
-              "Image": "data/step2.png",
-              "Size": [
-                200,
-                40
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": true
-            },
             "triangle": {
               "Image": "data_ch6/triangle.png",
               "Size": [
@@ -1622,18 +1598,6 @@
                 260
               ],
               "Visible": false
-            },
-            "Step3Image": {
-              "Image": "data/step3.png",
-              "Size": [
-                200,
-                40
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": true
             },
             "triangle": {
               "Image": "data_ch6/triangle.png",
@@ -2005,18 +1969,6 @@
               ],
               "Visible": false
             },
-            "Step1Image": {
-              "Image": "data/step1.png",
-              "Size": [
-                200,
-                40
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": true
-            },
             "triangle": {
               "Image": "data_ch6/triangle.png",
               "Size": [
@@ -2370,18 +2322,6 @@
               ],
               "Visible": false
             },
-            "step2Image": {
-              "Image": "data/step2.png",
-              "Size": [
-                200,
-                40
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": true
-            },
             "triangle": {
               "Image": "data_ch6/triangle.png",
               "Size": [
@@ -2726,18 +2666,6 @@
                 260
               ],
               "Visible": false
-            },
-            "Step3Image": {
-              "Image": "data/step3.png",
-              "Size": [
-                200,
-                40
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": true
             },
             "triangle": {
               "Image": "data_ch6/triangle.png",
@@ -3109,18 +3037,6 @@
               ],
               "Visible": false
             },
-            "Step1Image": {
-              "Image": "data/step1.png",
-              "Size": [
-                200,
-                40
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": true
-            },
             "triangle": {
               "Image": "data_ch6/triangle.png",
               "Size": [
@@ -3474,18 +3390,6 @@
               ],
               "Visible": false
             },
-            "step2Image": {
-              "Image": "data/step2.png",
-              "Size": [
-                200,
-                40
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": true
-            },
             "triangle": {
               "Image": "data_ch6/triangle.png",
               "Size": [
@@ -3830,18 +3734,6 @@
                 260
               ],
               "Visible": false
-            },
-            "Step3Image": {
-              "Image": "data/step3.png",
-              "Size": [
-                200,
-                40
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": true
             },
             "triangle": {
               "Image": "data_ch6/triangle.png",
@@ -4213,18 +4105,6 @@
               ],
               "Visible": false
             },
-            "Step1Image": {
-              "Image": "data/step1.png",
-              "Size": [
-                200,
-                40
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": true
-            },
             "triangle": {
               "Image": "data_ch6/triangle.png",
               "Size": [
@@ -4578,18 +4458,6 @@
               ],
               "Visible": false
             },
-            "step2Image": {
-              "Image": "data/step2.png",
-              "Size": [
-                200,
-                40
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": true
-            },
             "triangle": {
               "Image": "data_ch6/triangle.png",
               "Size": [
@@ -4934,18 +4802,6 @@
                 260
               ],
               "Visible": false
-            },
-            "Step3Image": {
-              "Image": "data/step3.png",
-              "Size": [
-                200,
-                40
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": true
             },
             "triangle": {
               "Image": "data_ch6/triangle.png",
@@ -5317,18 +5173,6 @@
               ],
               "Visible": false
             },
-            "Step1Image": {
-              "Image": "data/step1.png",
-              "Size": [
-                200,
-                40
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": true
-            },
             "triangle": {
               "Image": "data_ch6/triangle.png",
               "Size": [
@@ -5682,18 +5526,6 @@
               ],
               "Visible": false
             },
-            "step2Image": {
-              "Image": "data/step2.png",
-              "Size": [
-                200,
-                40
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": true
-            },
             "triangle": {
               "Image": "data_ch6/triangle.png",
               "Size": [
@@ -6038,18 +5870,6 @@
                 260
               ],
               "Visible": false
-            },
-            "Step3Image": {
-              "Image": "data/step3.png",
-              "Size": [
-                200,
-                40
-              ],
-              "Position": [
-                10,
-                50
-              ],
-              "Visible": true
             },
             "triangle": {
               "Image": "data_ch6/triangle.png",
@@ -6421,18 +6241,6 @@
               ],
               "Visible": false
             },
-            "Step1Image": {
-              "Image": "data/step1.png",
-              "Size": [
-                250,
-                50
-              ],
-              "Position": [
-                20,
-                60
-              ],
-              "Visible": true
-            },
             "imgsyntax": {
               "Image": "data/syntax.png",
               "Size": [
@@ -6881,18 +6689,6 @@
               ],
               "Visible": false
             },
-            "Step1Image": {
-              "Image": "data/step2.png",
-              "Size": [
-                250,
-                50
-              ],
-              "Position": [
-                20,
-                60
-              ],
-              "Visible": true
-            },
             "imgsyntax": {
               "Image": "data/syntax.png",
               "Size": [
@@ -7340,18 +7136,6 @@
                 60
               ],
               "Visible": false
-            },
-            "Step1Image": {
-              "Image": "data/step3.png",
-              "Size": [
-                250,
-                50
-              ],
-              "Position": [
-                20,
-                60
-              ],
-              "Visible": true
             },
             "imgsyntax": {
               "Image": "data/syntax.png",
@@ -7827,18 +7611,6 @@
               ],
               "Visible": false
             },
-            "Step1Image": {
-              "Image": "data/step1.png",
-              "Size": [
-                250,
-                50
-              ],
-              "Position": [
-                20,
-                60
-              ],
-              "Visible": true
-            },
             "imgsyntax": {
               "Image": "data/syntax.png",
               "Size": [
@@ -8287,18 +8059,6 @@
               ],
               "Visible": false
             },
-            "Step1Image": {
-              "Image": "data/step2.png",
-              "Size": [
-                250,
-                50
-              ],
-              "Position": [
-                20,
-                60
-              ],
-              "Visible": true
-            },
             "imgsyntax": {
               "Image": "data/syntax.png",
               "Size": [
@@ -8746,18 +8506,6 @@
                 60
               ],
               "Visible": false
-            },
-            "Step1Image": {
-              "Image": "data/step3.png",
-              "Size": [
-                250,
-                50
-              ],
-              "Position": [
-                20,
-                60
-              ],
-              "Visible": true
             },
             "imgsyntax": {
               "Image": "data/syntax.png",
@@ -9233,18 +8981,6 @@
               ],
               "Visible": false
             },
-            "Step1Image": {
-              "Image": "data/step1.png",
-              "Size": [
-                250,
-                50
-              ],
-              "Position": [
-                20,
-                60
-              ],
-              "Visible": true
-            },
             "imgsyntax": {
               "Image": "data/syntax.png",
               "Size": [
@@ -9693,18 +9429,6 @@
               ],
               "Visible": false
             },
-            "Step1Image": {
-              "Image": "data/step2.png",
-              "Size": [
-                250,
-                50
-              ],
-              "Position": [
-                20,
-                60
-              ],
-              "Visible": true
-            },
             "imgsyntax": {
               "Image": "data/syntax.png",
               "Size": [
@@ -10152,18 +9876,6 @@
                 60
               ],
               "Visible": false
-            },
-            "Step1Image": {
-              "Image": "data/step3.png",
-              "Size": [
-                250,
-                50
-              ],
-              "Position": [
-                20,
-                60
-              ],
-              "Visible": true
             },
             "imgsyntax": {
               "Image": "data/syntax.png",
@@ -10639,18 +10351,6 @@
               ],
               "Visible": false
             },
-            "Step1Image": {
-              "Image": "data/step1.png",
-              "Size": [
-                250,
-                50
-              ],
-              "Position": [
-                20,
-                60
-              ],
-              "Visible": true
-            },
             "imgsyntax": {
               "Image": "data/syntax.png",
               "Size": [
@@ -11099,18 +10799,6 @@
               ],
               "Visible": false
             },
-            "Step1Image": {
-              "Image": "data/step2.png",
-              "Size": [
-                250,
-                50
-              ],
-              "Position": [
-                20,
-                60
-              ],
-              "Visible": true
-            },
             "imgsyntax": {
               "Image": "data/syntax.png",
               "Size": [
@@ -11558,18 +11246,6 @@
                 60
               ],
               "Visible": false
-            },
-            "Step1Image": {
-              "Image": "data/step3.png",
-              "Size": [
-                250,
-                50
-              ],
-              "Position": [
-                20,
-                60
-              ],
-              "Visible": true
             },
             "imgsyntax": {
               "Image": "data/syntax.png",
@@ -12045,18 +11721,6 @@
               ],
               "Visible": false
             },
-            "Step1Image": {
-              "Image": "data/step1.png",
-              "Size": [
-                250,
-                50
-              ],
-              "Position": [
-                20,
-                60
-              ],
-              "Visible": true
-            },
             "imgsyntax": {
               "Image": "data/syntax.png",
               "Size": [
@@ -12505,18 +12169,6 @@
               ],
               "Visible": false
             },
-            "Step1Image": {
-              "Image": "data/step2.png",
-              "Size": [
-                250,
-                50
-              ],
-              "Position": [
-                20,
-                60
-              ],
-              "Visible": true
-            },
             "imgsyntax": {
               "Image": "data/syntax.png",
               "Size": [
@@ -12964,18 +12616,6 @@
                 60
               ],
               "Visible": false
-            },
-            "Step1Image": {
-              "Image": "data/step3.png",
-              "Size": [
-                250,
-                50
-              ],
-              "Position": [
-                20,
-                60
-              ],
-              "Visible": true
             },
             "imgsyntax": {
               "Image": "data/syntax.png",

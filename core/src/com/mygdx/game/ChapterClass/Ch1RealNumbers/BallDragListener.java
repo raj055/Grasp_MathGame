@@ -19,7 +19,7 @@ public class BallDragListener extends OnDragCallBack {
   //Get the Chapter1 Variables.
   ChapterVariables chapterVariables = ChapterVariables.getInstance();
 
-  public BallDragListener(Events triggerEvent, Image target) {
+  public BallDragListener(Events triggerEvent) {
     super(triggerEvent);
   }
 
