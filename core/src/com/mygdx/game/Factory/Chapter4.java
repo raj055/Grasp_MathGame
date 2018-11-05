@@ -282,15 +282,24 @@ public class Chapter4 extends ChapterScreen implements Screen {
       }
 
     dragA1 = new DragAndDropElements(Events.DRAGA1);
-    dragA1.defineComponentLabelImage(DragLabelA,DropValueA);
+    Label ValuePayloadA1 = new Label(DragLabelA.getText(), DragLabelA.getStyle());
+    dragA1.defineComponentLabelImage(ValuePayloadA1,DragLabelA,DropValueA);
+
     dragA2 = new DragAndDropElements(Events.DRAGA2);
-    dragA2.defineComponentLabelImage(DragLabelA2,DropRlabelA);
+    Label ValuePayloadA2 = new Label(DragLabelA2.getText(), DragLabelA2.getStyle());
+    dragA2.defineComponentLabelImage(ValuePayloadA2,DragLabelA2,DropRlabelA);
+
     dragB1 = new DragAndDropElements(Events.DRAGB1);
-    dragB1.defineComponentLabelImage(DragLabelB1,DropValueB);
+    Label ValuePayloadB1 = new Label(DragLabelB1.getText(), DragLabelB1.getStyle());
+    dragB1.defineComponentLabelImage(ValuePayloadB1,DragLabelB1,DropValueB);
+
     dragB2 = new DragAndDropElements(Events.DRAGB2);
-    dragB2.defineComponentLabelImage(DragLabelB2,DropRlabelB);
+    Label ValuePayloadB2 = new Label(DragLabelB2.getText(), DragLabelB2.getStyle());
+    dragB2.defineComponentLabelImage(ValuePayloadB2,DragLabelB2,DropRlabelB);
+
     dragC1 = new DragAndDropElements(Events.DRAGC1);
-    dragC1.defineComponentLabelImage(DragLabelC1,DropRlabelC);
+    Label ValuePayloadC1 = new Label(DragLabelC1.getText(), DragLabelC1.getStyle());
+    dragC1.defineComponentLabelImage(ValuePayloadC1,DragLabelC1,DropRlabelC);
 
     //Add Submit Button Listener.
     addSubmitButtonListner();

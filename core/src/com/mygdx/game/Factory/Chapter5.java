@@ -177,13 +177,20 @@ public class Chapter5 extends ChapterScreen implements Screen {
     }
 
     drag_l1_value1 = new DragAndDropElements(Events.DRAG_C5L1_VALUE1);
-    drag_l1_value1.defineComponentLabelImage(Value1,FirstImage);
+    Label PayloadValue_1 = new Label(Value1.getText(), Value1.getStyle());
+    drag_l1_value1.defineComponentLabelImage(PayloadValue_1,Value1,FirstImage);
+
     drag_l1_value2 = new DragAndDropElements(Events.DRAG_C5L1_VALUE2);
-    drag_l1_value2.defineComponentLabelImage(Value2,SecondImage);
+    Label PayloadValue_2 = new Label(Value2.getText(), Value2.getStyle());
+    drag_l1_value2.defineComponentLabelImage(PayloadValue_2,Value2,SecondImage);
+
     drag_l1_value12 = new DragAndDropElements(Events.DRAG_C5L1_VALUE12);
-    drag_l1_value12.defineComponentLabelImage(Value12,ThirdImage);
+    Label PayloadValue_12 = new Label(Value12.getText(), Value12.getStyle());
+    drag_l1_value12.defineComponentLabelImage(PayloadValue_12,Value12,ThirdImage);
+
     drag_l1_value13 = new DragAndDropElements(Events.DRAG_C5L1_VALUE13);
-    drag_l1_value13.defineComponentLabelImage(Value13,FourImage);
+    Label PayloadValue_13 = new Label(Value13.getText(), Value13.getStyle());
+    drag_l1_value13.defineComponentLabelImage(PayloadValue_13,Value13,FourImage);
 
     //Add Submit Button Listener.
     addSubmitButtonListner();
@@ -208,9 +215,12 @@ public class Chapter5 extends ChapterScreen implements Screen {
     }
 
     drag_l2_value1 = new DragAndDropElements(Events.DRAG_C5L2_VALUE1);
-    drag_l2_value1.defineComponentLabelImage(L2_Value1,L2_ValueN);
+    Label PayloadValue_1 = new Label(L2_Value1.getText(), L2_Value1.getStyle());
+    drag_l2_value1.defineComponentLabelImage(PayloadValue_1,L2_Value1,L2_ValueN);
+
     drag_l2_val1 = new DragAndDropElements(Events.DRAG_C5L2_VAL1);
-    drag_l2_val1.defineComponentLabelImage(L2_Vall1,L2_ValueA);
+    Label PayloadVal_1 = new Label(L2_Vall1.getText(), L2_Vall1.getStyle());
+    drag_l2_val1.defineComponentLabelImage(PayloadVal_1,L2_Vall1,L2_ValueA);
 
     if(scrollingPara != null) {
       numLocal = new ScrollingNumber();
@@ -260,9 +270,12 @@ public class Chapter5 extends ChapterScreen implements Screen {
       }
 
       drag_l3_s1_value1 = new DragAndDropElements(Events.DRAG_C5L3S1_VALUE1);
-      drag_l3_s1_value1.defineComponentLabelImage(L3_s1_Value1,L3_s1_ValueN);
+      Label PayloadValue_s1_1 = new Label(L3_s1_Value1.getText(), L3_s1_Value1.getStyle());
+      drag_l3_s1_value1.defineComponentLabelImage(PayloadValue_s1_1,L3_s1_Value1,L3_s1_ValueN);
+
       drag_l3_s1_val1 = new DragAndDropElements(Events.DRAG_C5L3S1_VAL1);
-      drag_l3_s1_val1.defineComponentLabelImage(L3_s1_Vall1,L3_s1_ValueA);
+      Label PayloadVal_s1_1 = new Label(Value1.getText(), Value1.getStyle());
+      drag_l3_s1_val1.defineComponentLabelImage(PayloadVal_s1_1,L3_s1_Vall1,L3_s1_ValueA);
 
     }
     else if ((GameStates.steps == Steps.STEP_2) || (GameStates.steps == Steps.STEP_3)){
@@ -286,9 +299,12 @@ public class Chapter5 extends ChapterScreen implements Screen {
       }
 
       drag_l3_s2_value1 = new DragAndDropElements(Events.DRAG_C5L3S2_VALUE1);
-      drag_l3_s2_value1.defineComponentLabelImage(L3_s2_Value1,L3_s2_ValueN);
+      Label PayloadValue_s2_1 = new Label(L3_s2_Value1.getText(), L3_s2_Value1.getStyle());
+      drag_l3_s2_value1.defineComponentLabelImage(PayloadValue_s2_1,L3_s2_Value1,L3_s2_ValueN);
+
       drag_l3_s2_val1 = new DragAndDropElements(Events.DRAG_C5L3S2_VAL1);
-      drag_l3_s2_val1.defineComponentLabelImage(L3_s2_Vall2,L3_s2_ValueA);
+      Label PayloadVal_s2_1 = new Label(L3_s2_Vall2.getText(), L3_s2_Vall2.getStyle());
+      drag_l3_s2_val1.defineComponentLabelImage(PayloadVal_s2_1,L3_s2_Vall2,L3_s2_ValueA);
 
       if(scrollingPara != null) {
 

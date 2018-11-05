@@ -165,24 +165,36 @@ public class Chapter3 extends ChapterScreen implements Screen {
   private void Initdrgndrop() {
 
     dragListenerA1 = new DragAndDropElements(Events.DRAG_VALUE_A1);
-    Label ValuePayload = new Label(ValueA1.getText(), ValueA1.getStyle());
-    dragListenerA1.defineComponentLabelImage1(ValuePayload, ValueA1, LabelA1);
-
+    Label ValuePayloadA1 = new Label(ValueA1.getText(), ValueA1.getStyle());
+    dragListenerA1.defineComponentLabelImage(ValuePayloadA1, ValueA1, LabelA1);
 
     dragListenerA2 = new DragAndDropElements(Events.DRAG_VALUE_A2);
-    dragListenerA2.defineComponentLabelImage(ValueA2,LabelA2);
+    Label ValuePayloadA2 = new Label(ValueA1.getText(), ValueA1.getStyle());
+    dragListenerA2.defineComponentLabelImage(ValuePayloadA2,ValueA2,LabelA2);
+
     dragListenerB1 = new DragAndDropElements(Events.DRAG_VALUE_B1);
-    dragListenerB1.defineComponentLabelImage(ValueB1,LabelB1);
+    Label ValuePayloadB1 = new Label(ValueA1.getText(), ValueA1.getStyle());
+    dragListenerB1.defineComponentLabelImage(ValuePayloadB1,ValueB1,LabelB1);
+
     dragListenerB2 = new DragAndDropElements(Events.DRAG_VALUE_B2);
-    dragListenerB2.defineComponentLabelImage(ValueB2,LabelB2);
+    Label ValuePayloadB23 = new Label(ValueA1.getText(), ValueA1.getStyle());
+    dragListenerB2.defineComponentLabelImage(ValuePayloadB23,ValueB2,LabelB2);
+
     dragListenerC1 = new DragAndDropElements(Events.DRAG_VALUE_C1);
-    dragListenerC1.defineComponentLabelImage(ValueC1,LabelC1);
+    Label ValuePayloadC1 = new Label(ValueA1.getText(), ValueA1.getStyle());
+    dragListenerC1.defineComponentLabelImage(ValuePayloadC1,ValueC1,LabelC1);
+
     dragListenerC2 = new DragAndDropElements(Events.DRAG_VALUE_C2);
-    dragListenerC2.defineComponentLabelImage(ValueC2,LabelC2);
+    Label ValuePayloadC2 = new Label(ValueA1.getText(), ValueA1.getStyle());
+    dragListenerC2.defineComponentLabelImage(ValuePayloadC2,ValueC2,LabelC2);
+
     dragListenerB11 = new DragAndDropElements(Events.DRAG_VALUE_B11);
-    dragListenerB11.defineComponentLabelImage(ValueB11,LabelB11);
+    Label ValuePayloadB11 = new Label(ValueA1.getText(), ValueA1.getStyle());
+    dragListenerB11.defineComponentLabelImage(ValuePayloadB11,ValueB11,LabelB11);
+
     dragListenerB22 = new DragAndDropElements(Events.DRAG_VALUE_B22);
-    dragListenerB22.defineComponentLabelImage(ValueB22,LabelB22);
+    Label ValuePayloadB22 = new Label(ValueA1.getText(), ValueA1.getStyle());
+    dragListenerB22.defineComponentLabelImage(ValuePayloadB22,ValueB22,LabelB22);
 
   }
 

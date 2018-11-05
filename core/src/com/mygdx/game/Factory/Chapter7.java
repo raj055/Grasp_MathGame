@@ -170,13 +170,20 @@ public class Chapter7 extends ChapterScreen implements Screen {
     }
 
     drag_L1_value = new DragAndDropElements(Events.DRAG_L1_VALUE);
-    drag_L1_value.defineComponentLabelImage(L1_value1,synlabel1);
+    Label PayloadValueL1_1 = new Label(L1_value1.getText(), L1_value1.getStyle());
+    drag_L1_value.defineComponentLabelImage(PayloadValueL1_1,L1_value1,synlabel1);
+
     drag_L1_value3 = new DragAndDropElements(Events.DRAG_L1_VALUE);
-    drag_L1_value3.defineComponentLabelImage(L1_value3,synlabel);
+    Label PayloadValueL1_3 = new Label(L1_value3.getText(), L1_value3.getStyle());
+    drag_L1_value3.defineComponentLabelImage(PayloadValueL1_3,L1_value3,synlabel);
+
     drag_L1_value12 = new DragAndDropElements(Events.DRAG_L1_VALUE12);
-    drag_L1_value12.defineComponentLabelImage(L1_value12,synlabel2);
+    Label PayloadValueL1_12 = new Label(L1_value12.getText(), L1_value12.getStyle());
+    drag_L1_value12.defineComponentLabelImage(PayloadValueL1_12,L1_value12,synlabel2);
+
     drag_L1_value14 = new DragAndDropElements(Events.DRAG_L1_VALUE14);
-    drag_L1_value14.defineComponentLabelImage(L1_value14,synlabel3);
+    Label PayloadValueL1_14 = new Label(L1_value14.getText(), L1_value14.getStyle());
+    drag_L1_value14.defineComponentLabelImage(PayloadValueL1_14,L1_value14,synlabel3);
 
     //Add Submit Button Listener.
     addSubmitButtonListner();
@@ -254,29 +261,52 @@ public class Chapter7 extends ChapterScreen implements Screen {
     }
 
     drag_L3_value1 = new DragAndDropElements(Events.DRAG_L3_VALUE1);
-    drag_L3_value1.defineComponentLabelImage(L3_value1,L3_sytaxlablex33);
+    Label PayloadValueL3_1 = new Label(L3_value1.getText(), L3_value1.getStyle());
+    drag_L3_value1.defineComponentLabelImage(PayloadValueL3_1,L3_value1,L3_sytaxlablex33);
+
     drag_L3_value1_1 = new DragAndDropElements(Events.DRAG_L3_VALUE1_1);
-    drag_L3_value1_1.defineComponentLabelImage(L3_value1_1,L3_sytaxlablex3);
+    Label PayloadValueL3_1_1 = new Label(L3_value1_1.getText(), L3_value1_1.getStyle());
+    drag_L3_value1_1.defineComponentLabelImage(PayloadValueL3_1_1,L3_value1_1,L3_sytaxlablex3);
+
     drag_L3_value3 = new DragAndDropElements(Events.DRAG_L3_VALUE3);
-    drag_L3_value3.defineComponentLabelImage(L3_value3,L3_sytaxlabley33);
+    Label PayloadValueL3_3 = new Label(L3_value3.getText(), L3_value3.getStyle());
+    drag_L3_value3.defineComponentLabelImage(PayloadValueL3_3,L3_value3,L3_sytaxlabley33);
+
     drag_L3_value3_1 = new DragAndDropElements(Events.DRAG_L3_VALUE3_1);
-    drag_L3_value3_1.defineComponentLabelImage(L3_value3_1,L3_sytaxlabley3);
+    Label PayloadValueL3_3_1 = new Label(L3_value3_1.getText(), L3_value3_1.getStyle());
+    drag_L3_value3_1.defineComponentLabelImage(PayloadValueL3_3_1,L3_value3_1,L3_sytaxlabley3);
+
     drag_L3_value12 = new DragAndDropElements(Events.DRAG_L3_VALUE12);
-    drag_L3_value12.defineComponentLabelImage(L3_value12,L3_sytaxlablex11);
+    Label PayloadValueL3_12 = new Label(L3_value12.getText(), L3_value12.getStyle());
+    drag_L3_value12.defineComponentLabelImage(PayloadValueL3_12,L3_value12,L3_sytaxlablex11);
+
     drag_L3_value12_1 = new DragAndDropElements(Events.DRAG_L3_VALUE12_1);
-    drag_L3_value12_1.defineComponentLabelImage(L3_value12_1,L3_sytaxlablex1);
+    Label PayloadValueL3_12_1 = new Label(L3_value12_1.getText(), L3_value12_1.getStyle());
+    drag_L3_value12_1.defineComponentLabelImage(PayloadValueL3_12_1,L3_value12_1,L3_sytaxlablex1);
+
     drag_L3_value14 = new DragAndDropElements(Events.DRAG_L3_VALUE14);
-    drag_L3_value14.defineComponentLabelImage(L3_value14,L3_sytaxlablex22);
+    Label PayloadValueL3_14 = new Label(L3_value14.getText(), L3_value14.getStyle());
+    drag_L3_value14.defineComponentLabelImage(PayloadValueL3_14,L3_value14,L3_sytaxlablex22);
+
     drag_L3_value14_1 = new DragAndDropElements(Events.DRAG_L3_VALUE14_1);
-    drag_L3_value14_1.defineComponentLabelImage(L3_value14_1,L3_sytaxlablex2);
+    Label PayloadValueL3_14_1 = new Label(L3_value14_1.getText(), L3_value14_1.getStyle());
+    drag_L3_value14_1.defineComponentLabelImage(PayloadValueL3_14_1,L3_value14_1,L3_sytaxlablex2);
+
     drag_L3_value22 = new DragAndDropElements(Events.DRAG_L3_VALUE22);
-    drag_L3_value22.defineComponentLabelImage(L3_value22,L3_sytaxlabley11);
+    Label PayloadValueL3_22 = new Label(L3_value22.getText(), L3_value22.getStyle());
+    drag_L3_value22.defineComponentLabelImage(PayloadValueL3_22,L3_value22,L3_sytaxlabley11);
+
     drag_L3_value22_1 = new DragAndDropElements(Events.DRAG_L3_VALUE22_1);
-    drag_L3_value22_1.defineComponentLabelImage(L3_value22_1,L3_sytaxlabley1);
+    Label PayloadValueL3_22_1 = new Label(L3_value22_1.getText(), L3_value22_1.getStyle());
+    drag_L3_value22_1.defineComponentLabelImage(PayloadValueL3_22_1,L3_value22_1,L3_sytaxlabley1);
+
     drag_L3_value24 = new DragAndDropElements(Events.DRAG_L3_VALUE24);
-    drag_L3_value24.defineComponentLabelImage(L3_value24,L3_sytaxlabley22);
+    Label PayloadValueL3_24 = new Label(L3_value24.getText(), L3_value24.getStyle());
+    drag_L3_value24.defineComponentLabelImage(PayloadValueL3_24,L3_value24,L3_sytaxlabley22);
+
     drag_L3_value24_1 = new DragAndDropElements(Events.DRAG_L3_VALUE24_1);
-    drag_L3_value24_1.defineComponentLabelImage(L3_value24_1,L3_sytaxlabley2);
+    Label PayloadValueL3_24_1 = new Label(L3_value24_1.getText(), L3_value24_1.getStyle());
+    drag_L3_value24_1.defineComponentLabelImage(PayloadValueL3_24_1,L3_value24_1,L3_sytaxlabley2);
 
     //Add Submit Button Listener.
     addSubmitButtonListner();
@@ -314,13 +344,20 @@ public class Chapter7 extends ChapterScreen implements Screen {
         visebalComponentsCh7 = new VisebalComponentsCh7(displayImages, updatables);
 
         drag_L2_value12 = new DragAndDropElements(Events.DRAG_L2_VALUE12);
-        drag_L2_value12.defineComponentLabelImage(L2_value12,L2_Syntaxlabelx1);
+        Label PayloadValueL2_12 = new Label(L2_value12.getText(), L2_value12.getStyle());
+        drag_L2_value12.defineComponentLabelImage(PayloadValueL2_12,L2_value12,L2_Syntaxlabelx1);
+
         drag_L2_value14 = new DragAndDropElements(Events.DRAG_L2_VALUE14);
-        drag_L2_value14.defineComponentLabelImage(L2_value14,L2_Syntaxlabelx2);
+        Label PayloadValueL2_14 = new Label(L2_value14.getText(), L2_value14.getStyle());
+        drag_L2_value14.defineComponentLabelImage(PayloadValueL2_14,L2_value14,L2_Syntaxlabelx2);
+
         drag_L2_valuek1 = new DragAndDropElements(Events.DRAG_L2_VALUEK1);
-        drag_L2_valuek1.defineComponentLabelImage(L2_valuek1,L2_Syntaxlabelk1);
+        Label PayloadValueL2_K1 = new Label(L2_valuek1.getText(), L2_valuek1.getStyle());
+        drag_L2_valuek1.defineComponentLabelImage(PayloadValueL2_K1,L2_valuek1,L2_Syntaxlabelk1);
+
         drag_L2_valuek2 = new DragAndDropElements(Events.DRAG_L2_VALUEK2);
-        drag_L2_valuek2.defineComponentLabelImage(L2_valuek2,L2_Syntaxlabelk);
+        Label PayloadValueL2_K2 = new Label(L2_valuek2.getText(), L2_valuek2.getStyle());
+        drag_L2_valuek2.defineComponentLabelImage(PayloadValueL2_K2,L2_valuek2,L2_Syntaxlabelk);
       }
     }
     else if (GameStates.steps == Steps.STEP_2){
@@ -352,13 +389,20 @@ public class Chapter7 extends ChapterScreen implements Screen {
         }
 
         drag_L2_value1 = new DragAndDropElements(Events.DRAG_L2_VALUE1);
-        drag_L2_value1.defineComponentLabelImage(L2_value1,L2_Syntaxlabely1);
+        Label PayloadValueL2_1 = new Label(L2_value1.getText(), L2_value1.getStyle());
+        drag_L2_value1.defineComponentLabelImage(PayloadValueL2_1,L2_value1,L2_Syntaxlabely1);
+
         drag_L2_value3 = new DragAndDropElements(Events.DRAG_L2_VALUE3);
-        drag_L2_value3.defineComponentLabelImage(L2_value3,L2_Syntaxlabely2);
+        Label PayloadValueL2_3 = new Label(L2_value3.getText(), L2_value3.getStyle());
+        drag_L2_value3.defineComponentLabelImage(PayloadValueL2_3,L2_value3,L2_Syntaxlabely2);
+
         drag_L2_valuek3 = new DragAndDropElements(Events.DRAG_L2_VALUEK3);
-        drag_L2_valuek3.defineComponentLabelImage(L2_valuek3,L2_s2_Syntaxlabelk1);
+        Label PayloadValueL2_k3 = new Label(L2_valuek3.getText(), L2_valuek3.getStyle());
+        drag_L2_valuek3.defineComponentLabelImage(PayloadValueL2_k3,L2_valuek3,L2_s2_Syntaxlabelk1);
+
         drag_L2_valuek4 = new DragAndDropElements(Events.DRAG_L2_VALUEK4);
-        drag_L2_valuek4.defineComponentLabelImage(L2_valuek4,L2_s2_Syntaxlabelk);
+        Label PayloadValueL2_K4 = new Label(L2_valuek4.getText(), L2_valuek4.getStyle());
+        drag_L2_valuek4.defineComponentLabelImage(PayloadValueL2_K4,L2_valuek4,L2_s2_Syntaxlabelk);
 
         visebalComponentsCh7 = new VisebalComponentsCh7(displayImages, updatables);
       }

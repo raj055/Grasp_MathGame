@@ -164,6 +164,7 @@ public class Chapter1 extends ChapterScreen implements Screen {
             @Override
             public void clicked(InputEvent event, float x, float y) {
               GameStates.screenStates = ScreenStates.LEVELSCREEN;
+//              messageBox.Disposable();
             }
           });
         }
@@ -294,15 +295,19 @@ public class Chapter1 extends ChapterScreen implements Screen {
       if(scrollingPara != null){
 
         numLocal.setPositionX(xPosAdditionFactor - 400);
+        numLocal.addToStage(stage);
         scrollingImages = new ArrayList<Image>();
 
         for(Image img : scrollingPara)
         {
+          scrollingPara.size();
           scrollingImages.add(img);
           stage.addActor(img);
         }
         numLocal.scrolling(scrollingImages, Events.CLICK_ScrollingCh1);
+
       }
+
       //check if the updatable are present
       if(updatables != null) {
         updateScrollLable = new ArrayList<Label>();

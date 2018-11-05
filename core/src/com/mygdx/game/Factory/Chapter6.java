@@ -240,6 +240,7 @@ public class Chapter6 extends ChapterScreen implements Screen {
       }
     }
   }
+
   void scrollingParaLevel6To10(){
     if(GameStates.steps == Steps.STEP_1){
     }

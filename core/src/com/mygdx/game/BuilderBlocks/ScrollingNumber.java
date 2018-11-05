@@ -4,6 +4,7 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
+import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Array;
@@ -23,6 +24,7 @@ public class ScrollingNumber implements Disposable {
 
     int posX = 10;
     int posY;
+    int posXFactor = 0;
 
     public ScrollingNumber(){
 
@@ -56,7 +58,11 @@ public class ScrollingNumber implements Disposable {
     }
 
     public void setPositionX(int positionX){
-        this.posX = positionX + 10;
+        this.posXFactor = positionX + 10;
+        for(Image img : numbers) {
+//          img.setPosition(posX + posXFactor, posY);
+            img.setPosition(img.getX() + posXFactor,img.getY());
+        }
     }
 
     public void update(float deltaTime){
@@ -69,16 +75,17 @@ public class ScrollingNumber implements Disposable {
             if (y <= 0) {
                 y = 700;
                 float x;
-                x = MathUtils.random(50 + posX, 360 + posX);
+                x = MathUtils.random(50 + posXFactor, 360 + posXFactor);
                 img.setPosition(x, y);
             }
-
         }
-
     }
-
+    public void addToStage(Stage stg){
+        for(Image img : numbers)
+        {
+            stg.addActor(img);
+        }
+    }
     @Override
-    public void dispose() {
-
-    }
+    public void dispose() {}
 }

@@ -29,6 +29,8 @@ public class MessageBox {
     int posX = Gdx.graphics.getWidth()/2-100;
     int posY = Gdx.graphics.getHeight()/2-100;
 
+    int posXFactor = 0;
+
     public MessageBox(){
 
         gblVar = GlobalsCommonCount.getInstance();
@@ -40,31 +42,37 @@ public class MessageBox {
         Dialogbox = new Image(new Texture("dialogbox.png"));
         Dialogbox.setPosition(posX, posY);
         Dialogbox.setSize(240,300);
+        Dialogbox.toFront();
         Dialogbox.setVisible(false);
 
         NextStep = new Image(new Texture("data/next.png"));
         NextStep.setPosition(200,350);
         NextStep.setSize(50,50);
+        NextStep.toFront();
         NextStep.setVisible(false);
 
         timeUp = new Label("Time UP", labelStyle);
         timeUp.setFontScale(0.9f);
         timeUp.setPosition(160,430);
+        timeUp.toFront();
         timeUp.setVisible(false);
 
         pause = new Label("Pause", labelStyle);
         pause.setFontScale(0.9f);
         pause.setPosition(170,430);
+        pause.toFront();
         pause.setVisible(false);
 
         cong = new Label("Congratulations", labelStyle);
         cong.setFontScale(0.6f);
         cong.setPosition(140,430);
+        cong.toFront();
         cong.setVisible(false);
 
         wrongAnswer = new Label("Wrong Answer", labelStyle);
         wrongAnswer.setFontScale(0.6f);
         wrongAnswer.setPosition(140,430);
+        wrongAnswer.toFront();
         wrongAnswer.setVisible(false);
 
         numbers.add(Dialogbox);
@@ -96,7 +104,7 @@ public class MessageBox {
     }
 
     public void setPositionX(int positionX){
-        this.posX = positionX + 10;
+        this.posXFactor = positionX + 10;
     }
 
     public void update(float deltaTime){
@@ -107,7 +115,7 @@ public class MessageBox {
             img.setPosition(img.getX(),y);
             y = 250;
             float x;
-            x = 100 + posX;
+            x = 100 + posXFactor;
             img.setPosition(x, y);
 
         }

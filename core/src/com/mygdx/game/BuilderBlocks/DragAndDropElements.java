@@ -73,14 +73,14 @@ public class DragAndDropElements extends DragAndDrop {
         this.addTarget(target);
     }
 
-    public void defineComponentLabelImage1(final Actor PayloadCloan, final Actor dragActor, final Actor TargetActor){
+    public void defineComponentLabelImage(final Actor PayloadColan, final Actor dragActor, final Actor TargetActor){
 
         Source source = new Source(dragActor) {
             @Override
             public Payload dragStart(InputEvent event, float x, float y, int pointer) {
                 DragAndDrop.Payload payload = new DragAndDrop.Payload();
 
-                payload.setDragActor(PayloadCloan);
+                payload.setDragActor(PayloadColan);
 
                 dragActor.moveBy(x,y);
 

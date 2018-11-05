@@ -13,10 +13,6 @@ import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.ScrollingImageClick;
 import com.mygdx.game.Global.GlobalsCommonCount;
 
-/**
- * Created by HP on 25-11-2017.
- */
-
 public class Numberch6 implements Disposable {
 
   public static final int NUMBERCOUNT = 6;
