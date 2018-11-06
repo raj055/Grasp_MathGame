@@ -92,7 +92,6 @@ public class Chapter8 extends ChapterScreen implements Screen {
 
         stage.getCamera().translate(trnslate,0,0);
         stage.getCamera().update();
-
       }
     }
   };

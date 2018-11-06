@@ -4,16 +4,13 @@ import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
-import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
-import com.badlogic.gdx.scenes.scene2d.utils.DragAndDrop;
 import com.mygdx.game.BuilderBlocks.DoubleClickListener;
 import com.mygdx.game.BuilderBlocks.DragAndDropElements;
 import com.mygdx.game.BuilderBlocks.DragClickListener;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.ScrollingNumber;
 import com.mygdx.game.ChapterClass.Ch5ArithmeticProgressions.ScrollingUpdateCh5;
-import com.mygdx.game.ChapterClass.Ch5ArithmeticProgressions.VisebalComponentsCh5;
 import com.mygdx.game.Enum.ScreenStates;
 import com.mygdx.game.Enum.Steps;
 import com.mygdx.game.Screens.MessageBox;
@@ -21,9 +18,6 @@ import com.mygdx.game.Screens.MessageBox;
 import java.util.ArrayList;
 
 public class Chapter5 extends ChapterScreen implements Screen {
-
-  //Visible components on Drag12 values
-  private VisebalComponentsCh5 visebalComponentsCh5;
 
   //Update components on clicking scrolling values
   private ScrollingUpdateCh5 scrollingUpdateCh5;
@@ -274,7 +268,7 @@ public class Chapter5 extends ChapterScreen implements Screen {
       drag_l3_s1_value1.defineComponentLabelImage(PayloadValue_s1_1,L3_s1_Value1,L3_s1_ValueN);
 
       drag_l3_s1_val1 = new DragAndDropElements(Events.DRAG_C5L3S1_VAL1);
-      Label PayloadVal_s1_1 = new Label(Value1.getText(), Value1.getStyle());
+      Label PayloadVal_s1_1 = new Label(L3_s1_Vall1.getText(), L3_s1_Vall1.getStyle());
       drag_l3_s1_val1.defineComponentLabelImage(PayloadVal_s1_1,L3_s1_Vall1,L3_s1_ValueA);
 
     }

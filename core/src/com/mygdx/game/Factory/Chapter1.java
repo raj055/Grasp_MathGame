@@ -83,8 +83,6 @@ public class Chapter1 extends ChapterScreen implements Screen {
     animationClass = new AnimationClass();
     animationClass.BirdAnimation();
 
-    //Define all Listeners and Updation Objects
-
     remBallDragListener = new RemainderDragListener(Events.REMAINDER_BALL_DRAG);
 
     getLevelName();
@@ -164,7 +162,6 @@ public class Chapter1 extends ChapterScreen implements Screen {
             @Override
             public void clicked(InputEvent event, float x, float y) {
               GameStates.screenStates = ScreenStates.LEVELSCREEN;
-//              messageBox.Disposable();
             }
           });
         }
@@ -190,11 +187,9 @@ public class Chapter1 extends ChapterScreen implements Screen {
 
     if (ValueS == chapterVariables.chapter1Variables.ValueOfA){
       messageBox.Congratulations();
-//      time.dispose();
     }
     else {
       messageBox.WrongAnswer();
-//      time.dispose();
     }
   }
 

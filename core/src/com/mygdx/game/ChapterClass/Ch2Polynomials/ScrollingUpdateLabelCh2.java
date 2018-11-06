@@ -16,7 +16,6 @@ import java.util.ArrayList;
 import static com.mygdx.game.BuilderBlocks.Events.CLICK_SCROLLCH2_BALLDISPLAY;
 import static com.mygdx.game.BuilderBlocks.Events.CLICK_ScrollingCh1;
 import static com.mygdx.game.BuilderBlocks.Events.CLICK_ScrollingCh2;
-import static com.mygdx.game.Enum.Steps.STEP_1;
 
 public class ScrollingUpdateLabelCh2 implements Subscriber{
 

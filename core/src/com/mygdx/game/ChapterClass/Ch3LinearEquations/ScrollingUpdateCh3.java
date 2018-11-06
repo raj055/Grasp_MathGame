@@ -1,12 +1,9 @@
 package com.mygdx.game.ChapterClass.Ch3LinearEquations;
 
-import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.Notifier;
 import com.mygdx.game.BuilderBlocks.Subscriber;
-import com.mygdx.game.Component.TextVeriabal;
-import com.mygdx.game.Component.TextveriabalCh3;
 import com.mygdx.game.Enum.Steps;
 import com.mygdx.game.Factory.GameStates;
 import com.mygdx.game.Global.GlobalsCommonCount;
@@ -20,7 +17,6 @@ public class ScrollingUpdateCh3 implements Subscriber {
     ArrayList<Label> UpdateLable;
 
     private GlobalsCommonCount glv;
-
 
     public ScrollingUpdateCh3(ArrayList<Label> arrLabel){
 
@@ -143,15 +139,12 @@ public class ScrollingUpdateCh3 implements Subscriber {
     }
 
     private void ImageClick5() {
-
     }
 
     private void ImageClick6() {
-
     }
 
     private void ImageClick7() {
-
     }
 
     private Label getLabel(String LabelShow) {
@@ -165,5 +158,4 @@ public class ScrollingUpdateCh3 implements Subscriber {
         }
         return null;
     }
-
 }

@@ -4,9 +4,7 @@ import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
-import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
-import com.badlogic.gdx.scenes.scene2d.utils.DragAndDrop;
 import com.mygdx.game.BuilderBlocks.DragAndDropElements;
 import com.mygdx.game.BuilderBlocks.DragClickListener;
 import com.mygdx.game.BuilderBlocks.Events;
@@ -16,10 +14,6 @@ import com.mygdx.game.Enum.Steps;
 import com.mygdx.game.Screens.MessageBox;
 
 import java.util.ArrayList;
-
-/**
- * Created by HP on 22-01-2018.
- */
 
 public class Chapter7 extends ChapterScreen implements Screen {
 

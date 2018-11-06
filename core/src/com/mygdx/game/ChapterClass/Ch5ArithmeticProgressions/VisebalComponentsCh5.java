@@ -3,7 +3,6 @@ package com.mygdx.game.ChapterClass.Ch5ArithmeticProgressions;
 import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
-import com.mygdx.game.BuilderBlocks.ChapterVariables;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.Notifier;
 import com.mygdx.game.BuilderBlocks.Subscriber;

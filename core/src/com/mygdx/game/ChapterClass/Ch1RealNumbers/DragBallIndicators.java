@@ -12,11 +12,6 @@ import java.util.ArrayList;
 import static com.mygdx.game.BuilderBlocks.Events.BALL_DRAG_EVENT;
 import static com.mygdx.game.BuilderBlocks.Events.REMAINDER_BALL_DRAG;
 
-/**
- *
- *
- */
-
 public class DragBallIndicators extends SumIndicator implements Subscriber {
 
   enum DragBallLabels {

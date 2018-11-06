@@ -2,12 +2,9 @@ package com.mygdx.game.ChapterClass.Ch6Triangles;
 
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
-import com.mygdx.game.BuilderBlocks.ChapterVariables;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.Notifier;
 import com.mygdx.game.BuilderBlocks.Subscriber;
-import com.mygdx.game.Enum.Steps;
-import com.mygdx.game.Factory.GameStates;
 import com.mygdx.game.MyGame;
 
 import java.util.ArrayList;

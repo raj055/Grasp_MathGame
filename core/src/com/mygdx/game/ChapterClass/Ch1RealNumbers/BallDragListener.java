@@ -1,13 +1,10 @@
 package com.mygdx.game.ChapterClass.Ch1RealNumbers;
 
-import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
-import com.badlogic.gdx.scenes.scene2d.utils.DragAndDrop;
 import com.mygdx.game.BuilderBlocks.ChapterVariables;
 import com.mygdx.game.BuilderBlocks.Events;
 import com.mygdx.game.BuilderBlocks.OnDragCallBack;
-import com.mygdx.game.Factory.ChapterScreen;
 import com.mygdx.game.MyGame;
 
 import java.util.ArrayList;
